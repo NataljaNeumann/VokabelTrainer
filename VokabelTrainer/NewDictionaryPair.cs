@@ -37,7 +37,7 @@ namespace VokabelTrainer
         {
             if (!_bAlreadySaid && textBoxSecondLanguage.Text.Length > 0)
             {
-                Speaker.Say(labelSecondLanguage.Text, textBoxSecondLanguage.Text, true);
+                Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true);
                 _bAlreadySaid = true;
             }
 
@@ -56,8 +56,8 @@ namespace VokabelTrainer
 
         private void NewDictionaryPair_Shown(object sender, EventArgs e)
         {
-            if (textBoxFirstLanguage.Text.Trim().Length == 0)
-                textBoxFirstLanguage.Focus();
+            if (m_tbxFirstLanguage.Text.Trim().Length == 0)
+                m_tbxFirstLanguage.Focus();
             else
                 if (textBoxSecondLanguage.Text.Trim().Length == 0)
                     textBoxSecondLanguage.Focus();
@@ -65,12 +65,12 @@ namespace VokabelTrainer
 
         private void textBoxFirstLanguage_Leave(object sender, EventArgs e)
         {
-            Speaker.Say(labelFirstLanguage.Text, textBoxFirstLanguage.Text, true);
+            Speaker.Say(m_lblFirstLanguage.Text, m_tbxFirstLanguage.Text, true);
         }
 
         private void textBoxSecondLanguage_Leave(object sender, EventArgs e)
         {
-            Speaker.Say(labelSecondLanguage.Text, textBoxSecondLanguage.Text, true);
+            Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true);
             _bAlreadySaid = true;
         }
 

@@ -46,112 +46,112 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelFirstLanguage = new System.Windows.Forms.Label();
-            this.textBoxFirstLanguage = new System.Windows.Forms.TextBox();
-            this.labelSecondLanguage = new System.Windows.Forms.Label();
+            this.m_lblFirstLanguage = new System.Windows.Forms.Label();
+            this.m_tbxFirstLanguage = new System.Windows.Forms.TextBox();
+            this.m_lblSecondLanguage = new System.Windows.Forms.Label();
             this.textBoxSecondLanguage = new System.Windows.Forms.TextBox();
-            this.buttonNext = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.m_btnEnterNext = new System.Windows.Forms.Button();
+            this.m_btnEnteredLast = new System.Windows.Forms.Button();
+            this.m_btnCancelEntering = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelFirstLanguage
+            // m_lblFirstLanguage
             // 
-            this.labelFirstLanguage.AutoSize = true;
-            this.labelFirstLanguage.Location = new System.Drawing.Point(16, 33);
-            this.labelFirstLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelFirstLanguage.Name = "labelFirstLanguage";
-            this.labelFirstLanguage.Size = new System.Drawing.Size(45, 16);
-            this.labelFirstLanguage.TabIndex = 0;
-            this.labelFirstLanguage.Text = "label1";
+            this.m_lblFirstLanguage.AutoSize = true;
+            this.m_lblFirstLanguage.Location = new System.Drawing.Point(16, 33);
+            this.m_lblFirstLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.m_lblFirstLanguage.Name = "m_lblFirstLanguage";
+            this.m_lblFirstLanguage.Size = new System.Drawing.Size(93, 16);
+            this.m_lblFirstLanguage.TabIndex = 0;
+            this.m_lblFirstLanguage.Text = "First language";
             // 
-            // textBoxFirstLanguage
+            // m_tbxFirstLanguage
             // 
-            this.textBoxFirstLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_tbxFirstLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFirstLanguage.Location = new System.Drawing.Point(20, 53);
-            this.textBoxFirstLanguage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBoxFirstLanguage.Name = "textBoxFirstLanguage";
-            this.textBoxFirstLanguage.Size = new System.Drawing.Size(560, 22);
-            this.textBoxFirstLanguage.TabIndex = 1;
-            this.textBoxFirstLanguage.Leave += new System.EventHandler(this.textBoxFirstLanguage_Leave);
+            this.m_tbxFirstLanguage.Location = new System.Drawing.Point(20, 53);
+            this.m_tbxFirstLanguage.Margin = new System.Windows.Forms.Padding(4);
+            this.m_tbxFirstLanguage.Name = "m_tbxFirstLanguage";
+            this.m_tbxFirstLanguage.Size = new System.Drawing.Size(560, 22);
+            this.m_tbxFirstLanguage.TabIndex = 1;
+            this.m_tbxFirstLanguage.Leave += new System.EventHandler(this.textBoxFirstLanguage_Leave);
             // 
-            // labelSecondLanguage
+            // m_lblSecondLanguage
             // 
-            this.labelSecondLanguage.AutoSize = true;
-            this.labelSecondLanguage.Location = new System.Drawing.Point(20, 103);
-            this.labelSecondLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelSecondLanguage.Name = "labelSecondLanguage";
-            this.labelSecondLanguage.Size = new System.Drawing.Size(45, 16);
-            this.labelSecondLanguage.TabIndex = 2;
-            this.labelSecondLanguage.Text = "label2";
+            this.m_lblSecondLanguage.AutoSize = true;
+            this.m_lblSecondLanguage.Location = new System.Drawing.Point(20, 103);
+            this.m_lblSecondLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.m_lblSecondLanguage.Name = "m_lblSecondLanguage";
+            this.m_lblSecondLanguage.Size = new System.Drawing.Size(115, 16);
+            this.m_lblSecondLanguage.TabIndex = 2;
+            this.m_lblSecondLanguage.Text = "Second language";
             // 
             // textBoxSecondLanguage
             // 
             this.textBoxSecondLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSecondLanguage.Location = new System.Drawing.Point(24, 124);
-            this.textBoxSecondLanguage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSecondLanguage.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSecondLanguage.Name = "textBoxSecondLanguage";
             this.textBoxSecondLanguage.Size = new System.Drawing.Size(556, 22);
             this.textBoxSecondLanguage.TabIndex = 3;
             this.textBoxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
             this.textBoxSecondLanguage.Leave += new System.EventHandler(this.textBoxSecondLanguage_Leave);
             // 
-            // buttonNext
+            // m_btnEnterNext
             // 
-            this.buttonNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNext.Location = new System.Drawing.Point(263, 198);
-            this.buttonNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.buttonNext.MaximumSize = new System.Drawing.Size(100, 28);
-            this.buttonNext.MinimumSize = new System.Drawing.Size(100, 28);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(100, 28);
-            this.buttonNext.TabIndex = 4;
-            this.buttonNext.Text = "Nächste";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            this.m_btnEnterNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnEnterNext.Location = new System.Drawing.Point(263, 198);
+            this.m_btnEnterNext.Margin = new System.Windows.Forms.Padding(4);
+            this.m_btnEnterNext.MaximumSize = new System.Drawing.Size(100, 28);
+            this.m_btnEnterNext.MinimumSize = new System.Drawing.Size(100, 28);
+            this.m_btnEnterNext.Name = "m_btnEnterNext";
+            this.m_btnEnterNext.Size = new System.Drawing.Size(100, 28);
+            this.m_btnEnterNext.TabIndex = 4;
+            this.m_btnEnterNext.Text = "Nächste";
+            this.m_btnEnterNext.UseVisualStyleBackColor = true;
+            this.m_btnEnterNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
-            // button1
+            // m_btnEnteredLast
             // 
-            this.button1.Location = new System.Drawing.Point(373, 198);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Letzte";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnEnteredLast.Location = new System.Drawing.Point(373, 198);
+            this.m_btnEnteredLast.Margin = new System.Windows.Forms.Padding(4);
+            this.m_btnEnteredLast.Name = "m_btnEnteredLast";
+            this.m_btnEnteredLast.Size = new System.Drawing.Size(100, 28);
+            this.m_btnEnteredLast.TabIndex = 5;
+            this.m_btnEnteredLast.Text = "Letzte";
+            this.m_btnEnteredLast.UseVisualStyleBackColor = true;
+            this.m_btnEnteredLast.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // m_btnCancelEntering
             // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(481, 198);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Abbrechen";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnCancelEntering.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.m_btnCancelEntering.Location = new System.Drawing.Point(481, 198);
+            this.m_btnCancelEntering.Margin = new System.Windows.Forms.Padding(4);
+            this.m_btnCancelEntering.Name = "m_btnCancelEntering";
+            this.m_btnCancelEntering.Size = new System.Drawing.Size(100, 28);
+            this.m_btnCancelEntering.TabIndex = 6;
+            this.m_btnCancelEntering.Text = "Abbrechen";
+            this.m_btnCancelEntering.UseVisualStyleBackColor = true;
+            this.m_btnCancelEntering.Click += new System.EventHandler(this.button2_Click);
             // 
             // NewDictionaryPair
             // 
-            this.AcceptButton = this.buttonNext;
+            this.AcceptButton = this.m_btnEnterNext;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.button2;
+            this.CancelButton = this.m_btnCancelEntering;
             this.ClientSize = new System.Drawing.Size(597, 241);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.buttonNext);
+            this.Controls.Add(this.m_btnCancelEntering);
+            this.Controls.Add(this.m_btnEnteredLast);
+            this.Controls.Add(this.m_btnEnterNext);
             this.Controls.Add(this.textBoxSecondLanguage);
-            this.Controls.Add(this.labelSecondLanguage);
-            this.Controls.Add(this.textBoxFirstLanguage);
-            this.Controls.Add(this.labelFirstLanguage);
+            this.Controls.Add(this.m_lblSecondLanguage);
+            this.Controls.Add(this.m_tbxFirstLanguage);
+            this.Controls.Add(this.m_lblFirstLanguage);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "NewDictionaryPair";
@@ -166,12 +166,12 @@ namespace VokabelTrainer
 
         #endregion
 
-        public System.Windows.Forms.Label labelFirstLanguage;
-        public System.Windows.Forms.TextBox textBoxFirstLanguage;
-        public System.Windows.Forms.Label labelSecondLanguage;
+        public System.Windows.Forms.Label m_lblFirstLanguage;
+        public System.Windows.Forms.TextBox m_tbxFirstLanguage;
+        public System.Windows.Forms.Label m_lblSecondLanguage;
         public System.Windows.Forms.TextBox textBoxSecondLanguage;
-        private System.Windows.Forms.Button buttonNext;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button m_btnEnterNext;
+        private System.Windows.Forms.Button m_btnEnteredLast;
+        private System.Windows.Forms.Button m_btnCancelEntering;
     }
 }

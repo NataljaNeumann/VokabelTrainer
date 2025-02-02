@@ -408,14 +408,14 @@ namespace VokabelTrainer
                     using (NewDictionaryPair pair = new NewDictionaryPair())
                     {
                         char[] separators = { ',', ';' };
-                        pair.labelFirstLanguage.Text = _firstLanguage + ":";
-                        pair.labelSecondLanguage.Text = _secondLanguage + ":";
-                        pair.textBoxFirstLanguage.Text = firstText;
+                        pair.m_lblFirstLanguage.Text = _firstLanguage + ":";
+                        pair.m_lblSecondLanguage.Text = _secondLanguage + ":";
+                        pair.m_tbxFirstLanguage.Text = firstText;
                         pair.textBoxSecondLanguage.Text = secondText;
                         switch (pair.ShowDialog())
                         {
                             case DialogResult.Retry:
-                                if (string.IsNullOrEmpty(pair.textBoxFirstLanguage.Text.Trim()))
+                                if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
                                     firstText = "";
                                     secondText = pair.textBoxSecondLanguage.Text.Trim();
@@ -425,12 +425,12 @@ namespace VokabelTrainer
                                 if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
                                 {
                                     secondText = "";
-                                    firstText = pair.textBoxFirstLanguage.Text.Trim();
+                                    firstText = pair.m_tbxFirstLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
 
-                                string sss1 = pair.textBoxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                string sss1 = pair.m_tbxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
                                 string sss2 = pair.textBoxSecondLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
@@ -491,7 +491,7 @@ namespace VokabelTrainer
                                 break;
 
                             case DialogResult.OK:
-                                if (string.IsNullOrEmpty(pair.textBoxFirstLanguage.Text.Trim()))
+                                if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
                                     firstText = "";
                                     secondText = pair.textBoxSecondLanguage.Text.Trim();
@@ -501,12 +501,12 @@ namespace VokabelTrainer
                                 if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
                                 {
                                     secondText = "";
-                                    firstText = pair.textBoxFirstLanguage.Text.Trim();
+                                    firstText = pair.m_tbxFirstLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
 
-                                sss1 = pair.textBoxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                sss1 = pair.m_tbxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
                                 sss2 = pair.textBoxSecondLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
