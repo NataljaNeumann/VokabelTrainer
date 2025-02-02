@@ -30,7 +30,7 @@ namespace VokabelTrainer
             System.Speech.Synthesis.SpeechSynthesizer reader = new System.Speech.Synthesis.SpeechSynthesizer();
 
             if ("Ru".Equals(language, StringComparison.InvariantCultureIgnoreCase) ||
-                "Ру".Equals(language, StringComparison.InvariantCultureIgnoreCase))
+                "Ру".Equals(language, StringComparison.CurrentCultureIgnoreCase))
             {
                 text = (text+" ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ").Replace("!", " ").Replace("  ", " ").Replace("  ", " ").
                     Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
@@ -325,26 +325,72 @@ namespace VokabelTrainer
             }
             else
             {
-                if (bAsync)
-                    reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
-                                            "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
-                    "En".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='en-US'" :
-                    "De".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
+                string strCurrentCulture = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
+                // decide, if we support speaking this language
+                string strSSMLLanguageToSpeak =
+                    // english
+                    "En".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("en") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='en-US'") :
+                    "In".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='en-US'" :
+                    "Ан".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='en-US'" :
+                    "De".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                    // german
+                        (strCurrentCulture.StartsWith("de") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='de-DE'") :
+                    "Al".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
+                    "Не".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='de-DE'" :
+                    // spanish
                     "Sp".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='es-ES'" :
-                    "Fr".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='fr-FR'" :
-                    "xml:lang='de-DE'",
-                    text
-                    ));
-                else
-                    reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
-                                            "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
-                    "En".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='en-US'" :
-                    "De".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
-                    "Sp".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='es-ES'" :
-                    "Fr".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='fr-FR'" :
-                    "xml:lang='de-DE'",
-                    text
-                    ));
+                    "Es".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("es") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='es-ES'") :
+                    "Ис".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='es-ES'" :
+                    // french
+                    "Fr".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("fr") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='fr-FR'") :
+                    "Фр".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='fr-FR'" :
+                    // hindi
+                    "Hi".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='hi-IN'" :
+                    "Ин".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
+                    "द्".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
+                    // japanese
+                    "Ja".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ja-JP'" :
+                    "Яп".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ja-JP'" :
+                    "日本".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ja-JP'" :
+                    // portugese
+                    "Po".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("pt") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='pt-PT'") :
+                    "По".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='pt-PT'":
+                    // korean
+                    "Ko".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ko-KR'" :
+                    "Ко".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ko-KR'" :
+                    "한국".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ko-KR'" :
+                    // chinese
+                    "Ch".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='zh-CN'" :
+                    "Ки".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='zh-CN'" :
+                    "中文".Equals(language, StringComparison.CurrentCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("zh") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='zh-CN'") :
+                    // arab
+                    "Ar".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ar-SA'" :
+                    "Ар".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ar-SA'" :
+                    "عر".Equals(language, StringComparison.CurrentCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("ar") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ar-SA'") :
+                    "";
+
+
+                if (!string.IsNullOrEmpty(strSSMLLanguageToSpeak))
+                {
+                    if (bAsync)
+                        reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
+                                                "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>", 
+                                                strSSMLLanguageToSpeak,
+                                                text
+                        ));
+                    else
+                        reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
+                                                "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
+                                                strSSMLLanguageToSpeak,
+                                                text
+                        ));
+                }
             }
         }
     }
