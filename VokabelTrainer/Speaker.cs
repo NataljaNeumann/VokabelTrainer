@@ -359,6 +359,10 @@ namespace VokabelTrainer
                     "Po".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
                         (strCurrentCulture.StartsWith("pt") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='pt-PT'") :
                     "По".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='pt-PT'":
+                    // Italian
+                    "It".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("it") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='it-IT'") :
+                    "Ит".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='it-IT'" :
                     // korean
                     "Ko".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ko-KR'" :
                     "Ко".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ko-KR'" :
