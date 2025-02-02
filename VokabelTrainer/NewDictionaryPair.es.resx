@@ -117,22 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Nuevo vocabulario</value>
-  </data>
-  <data name="m_btnCancelEntering.Text" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="m_btnEnteredLast.Text" xml:space="preserve">
-    <value>Última</value>
-  </data>
-  <data name="m_btnEnterNext.Text" xml:space="preserve">
-    <value>Próxima</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 24</value>
   </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>Primer idioma</value>
   </data>
+  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Segundo idioma</value>
+  </data>
+  <data name="m_btnEnterNext.Text" xml:space="preserve">
+    <value>Próxima</value>
+  </data>
+  <data name="m_btnEnteredLast.Text" xml:space="preserve">
+    <value>Última</value>
+  </data>
+  <data name="m_btnCancelEntering.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nuevo vocabulario</value>
   </data>
 </root>

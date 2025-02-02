@@ -117,34 +117,62 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Entrenador de vocabulario</value>
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
+    <value>Cargar archivo de idioma</value>
   </data>
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Introducir vocabulario</value>
   </data>
-  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
-    <value>Cargar archivo de idioma</value>
-  </data>
   <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>Nuevo archivo de idioma</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>Teclado en pantalla (osk.exe)</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Archivos de vocabulario|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <data name="m_lblReader.Text" xml:space="preserve">
-    <value>Leer en voz alta:</value>
-  </data>
-  <data name="m_lblShowAbout.Text" xml:space="preserve">
-    <value>Información sobre entrenadores de vocabulario</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 16</value>
   </data>
   <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
     <value>Traducción del texto de la licencia.</value>
   </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licencia (GPL v2)</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 16</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
+    <value>Información sobre entrenadores de vocabulario</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Teclado en pantalla (osk.exe)</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="m_lblReader.Text" xml:space="preserve">
+    <value>Leer en voz alta:</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Entrenador de vocabulario</value>
+  </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>Idioma mostrado</value>
+  </data>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>Idioma probado</value>
+  </data>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>Primer idioma</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>Segundo idioma</value>
+  </data>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>En caso de errores </value>
   </data>
 </root>

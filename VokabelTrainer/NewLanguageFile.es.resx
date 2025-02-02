@@ -117,34 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Nuevo archivo de idioma</value>
-  </data>
-  <data name="m_btnCancel.Text" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="m_btnCreateLanguageFile.Text" xml:space="preserve">
-    <value>Crear</value>
-  </data>
-  <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>Dirección de escritura de derecha a izquierda.</value>
-  </data>
-  <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
-    <value>El archivo de idioma es modificable</value>
-  </data>
-  <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
-    <value>El archivo de idioma está diseñado para distribuirse bajo licencia GPL2.</value>
-  </data>
-  <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>Dirección de escritura de derecha a izquierda.</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
   </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>Primer idioma:</value>
   </data>
+  <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
+    <value>Español </value>
+  </data>
+  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Segundo idioma:</value>
   </data>
-  <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>Español </value>
+  <data name="m_btnCreateLanguageFile.Text" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="m_btnCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 20</value>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
+    <value>El archivo de idioma está diseñado para distribuirse bajo licencia GPL2.</value>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
+    <value>El archivo de idioma es modificable</value>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 20</value>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
+    <value>Dirección de escritura de derecha a izquierda.</value>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 20</value>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
+    <value>Dirección de escritura de derecha a izquierda.</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nuevo archivo de idioma</value>
   </data>
 </root>

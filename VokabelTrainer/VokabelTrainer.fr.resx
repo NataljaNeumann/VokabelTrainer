@@ -166,4 +166,19 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Entraîneur de vocabulaire</value>
   </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>Langue affichée</value>
+  </data>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>Langue testée</value>
+  </data>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>Première langue</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>Deuxième langue</value>
+  </data>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>En cas d'erreurs </value>
+  </data>
 </root>
