@@ -234,6 +234,8 @@ namespace VokabelTrainer
             this.m_cbxReader.Items.AddRange(new object[] {
             "Angezeigte Sprache",
             "Geprüfte Sprache",
+            "Erste Sprache",
+            "Zweite Sprache",
             "Nur bei Fehlern"});
             this.m_cbxReader.Location = new System.Drawing.Point(240, 212);
             this.m_cbxReader.Name = "m_cbxReader";
