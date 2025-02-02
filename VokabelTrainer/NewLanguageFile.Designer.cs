@@ -54,6 +54,8 @@ namespace VokabelTrainer
             this.m_btnCancel = new System.Windows.Forms.Button();
             this.m_chkLanguageFileUnderGPL2 = new System.Windows.Forms.CheckBox();
             this.m_chkLanguageFileModifiable = new System.Windows.Forms.CheckBox();
+            this.m_chkFirstLanguageRTL = new System.Windows.Forms.CheckBox();
+            this.m_chkSecondLanguageRTL = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // m_lblFirstLanguage
@@ -151,6 +153,28 @@ namespace VokabelTrainer
             this.m_chkLanguageFileModifiable.Text = "Sprachdatei modifizierbar";
             this.m_chkLanguageFileModifiable.UseVisualStyleBackColor = true;
             // 
+            // m_chkFirstLanguageRTL
+            // 
+            this.m_chkFirstLanguageRTL.AutoSize = true;
+            this.m_chkFirstLanguageRTL.Location = new System.Drawing.Point(193, 10);
+            this.m_chkFirstLanguageRTL.Name = "m_chkFirstLanguageRTL";
+            this.m_chkFirstLanguageRTL.Size = new System.Drawing.Size(209, 20);
+            this.m_chkFirstLanguageRTL.TabIndex = 8;
+            this.m_chkFirstLanguageRTL.Text = "Schreibweise rechts nach links";
+            this.m_chkFirstLanguageRTL.UseVisualStyleBackColor = true;
+            this.m_chkFirstLanguageRTL.Visible = false;
+            // 
+            // m_chkSecondLanguageRTL
+            // 
+            this.m_chkSecondLanguageRTL.AutoSize = true;
+            this.m_chkSecondLanguageRTL.Location = new System.Drawing.Point(193, 71);
+            this.m_chkSecondLanguageRTL.Name = "m_chkSecondLanguageRTL";
+            this.m_chkSecondLanguageRTL.Size = new System.Drawing.Size(209, 20);
+            this.m_chkSecondLanguageRTL.TabIndex = 9;
+            this.m_chkSecondLanguageRTL.Text = "Schreibweise rechts nach links";
+            this.m_chkSecondLanguageRTL.UseVisualStyleBackColor = true;
+            this.m_chkSecondLanguageRTL.Visible = false;
+            // 
             // NewLanguageFile
             // 
             this.AcceptButton = this.m_btnCreateLanguageFile;
@@ -158,6 +182,8 @@ namespace VokabelTrainer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.m_btnCancel;
             this.ClientSize = new System.Drawing.Size(519, 220);
+            this.Controls.Add(this.m_chkSecondLanguageRTL);
+            this.Controls.Add(this.m_chkFirstLanguageRTL);
             this.Controls.Add(this.m_chkLanguageFileModifiable);
             this.Controls.Add(this.m_chkLanguageFileUnderGPL2);
             this.Controls.Add(this.m_btnCancel);
@@ -191,5 +217,7 @@ namespace VokabelTrainer
         public System.Windows.Forms.TextBox m_tbxSecondLanguage;
         public System.Windows.Forms.CheckBox m_chkLanguageFileUnderGPL2;
         public System.Windows.Forms.CheckBox m_chkLanguageFileModifiable;
+        private System.Windows.Forms.CheckBox m_chkFirstLanguageRTL;
+        private System.Windows.Forms.CheckBox m_chkSecondLanguageRTL;
     }
 }
