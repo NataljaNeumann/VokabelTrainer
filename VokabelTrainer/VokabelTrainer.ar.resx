@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 109</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_btnLoadLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 84</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
+    <value>تحميل ملف اللغة</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 202</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 84</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
+    <value>أدخل المفردات</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 17</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 17</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 17</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 84</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
+    <value>ملف اللغة الجديد</value>
+  </data>
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
+    <value>ملفات المفردات|*.Vocabulary.xml;*.Vokabeln.xml</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 109</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 109</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 202</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 202</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 84</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>771, 341</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 25</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
+    <value>ترجمة نص الترخيص</value>
+  </data>
+  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 341</value>
+  </data>
+  <data name="m_lblShowLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 25</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
+    <value>الترخيص (GPL v2)</value>
+  </data>
+  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 299</value>
+  </data>
+  <data name="m_lblShowAbout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 25</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
+    <value>معلومات عن المدربين المفردات</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 295</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 68</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>لوحة المفاتيح التي تظهر على الشاشة (osk.exe)</value>
+  </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 299</value>
+  </data>
+  <data name="m_lblReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
+  </data>
+  <data name="m_lblReader.Text" xml:space="preserve">
+    <value>اقرأ بصوت عالٍ:</value>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>اللغة المعروضة</value>
+  </data>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>لغة مجربة</value>
+  </data>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>اللغة الأولى</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>اللغة الثانية</value>
+  </data>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>فقط في حالة وجود أخطاء</value>
+  </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 296</value>
+  </data>
+  <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 33</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>951, 379</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>مدرب المفردات</value>
+  </data>
+</root>
