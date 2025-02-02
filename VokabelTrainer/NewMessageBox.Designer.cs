@@ -46,45 +46,45 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.m_lblMessageText = new System.Windows.Forms.Label();
+            this.m_btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // m_lblMessageText
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.m_lblMessageText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(16, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(382, 87);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.SizeChanged += new System.EventHandler(this.label1_SizeChanged);
+            this.m_lblMessageText.Location = new System.Drawing.Point(16, 11);
+            this.m_lblMessageText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.m_lblMessageText.Name = "m_lblMessageText";
+            this.m_lblMessageText.Size = new System.Drawing.Size(382, 87);
+            this.m_lblMessageText.TabIndex = 0;
+            this.m_lblMessageText.Text = "label1";
+            this.m_lblMessageText.SizeChanged += new System.EventHandler(this.label1_SizeChanged);
             // 
-            // button1
+            // m_btnOK
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(295, 119);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 26);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnOK.Location = new System.Drawing.Point(295, 119);
+            this.m_btnOK.Name = "m_btnOK";
+            this.m_btnOK.Size = new System.Drawing.Size(103, 26);
+            this.m_btnOK.TabIndex = 1;
+            this.m_btnOK.Text = "OK";
+            this.m_btnOK.UseVisualStyleBackColor = true;
+            this.m_btnOK.Click += new System.EventHandler(this.button1_Click);
             // 
             // NewMessageBox
             // 
-            this.AcceptButton = this.button1;
+            this.AcceptButton = this.m_btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(410, 157);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.m_btnOK);
+            this.Controls.Add(this.m_lblMessageText);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NewMessageBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vokabel-Trainer";
@@ -95,7 +95,7 @@ namespace VokabelTrainer
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label m_lblMessageText;
+        private System.Windows.Forms.Button m_btnOK;
     }
 }

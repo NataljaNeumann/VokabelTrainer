@@ -19,8 +19,8 @@ namespace VokabelTrainer
 
         private void NewMessageBox_Shown(object sender, EventArgs e)
         {
-            _oldSize = label1.Size;
-            label1.AutoSize = true;
+            _oldSize = m_lblMessageText.Size;
+            m_lblMessageText.AutoSize = true;
         }
 
         private void label1_SizeChanged(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace VokabelTrainer
         {
             using (NewMessageBox mb = new NewMessageBox())
             {
-                mb.label1.Text = message;
+                mb.m_lblMessageText.Text = message;
                 mb.Text = header;
 
                 if (!string.IsNullOrEmpty(say))
