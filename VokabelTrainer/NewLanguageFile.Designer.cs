@@ -196,9 +196,7 @@ namespace VokabelTrainer
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(525, 249);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(525, 249);
             this.Name = "NewLanguageFile";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Neue Sprachdatei";
