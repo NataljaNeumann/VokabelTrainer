@@ -130,6 +130,9 @@
     <value>Archivos de vocabulario|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 214</value>
+  </data>
   <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 16</value>
   </data>
@@ -141,6 +144,9 @@
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licencia (GPL v2)</value>
+  </data>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 246</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>291, 16</value>
@@ -157,9 +163,6 @@
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Leer en voz alta:</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Entrenador de vocabulario</value>
-  </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>Idioma mostrado</value>
   </data>
@@ -174,5 +177,14 @@
   </data>
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>En caso de errores </value>
+  </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 212</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 21</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Entrenador de vocabulario</value>
   </data>
 </root>
