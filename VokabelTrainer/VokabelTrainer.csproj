@@ -93,12 +93,24 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewDictionaryPair.de.resx">
+      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewDictionaryPair.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewLanguageFile.de.resx">
+      <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewLanguageFile.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageBox.de.resx">
+      <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="NewMessageBox.resx">
@@ -110,8 +122,16 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="VokabelTrainer.de.resx">
+      <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="VokabelTrainer.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordTest.de.resx">
+      <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WordTest.resx">
