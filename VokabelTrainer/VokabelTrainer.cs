@@ -815,8 +815,8 @@ namespace VokabelTrainer
 
                     using (WordTest test = new WordTest())
                     {
-                        test.label1.Text = _secondLanguage + ": " + pair.Key;
-                        test.label2.Text = _firstLanguage + ":";
+                        test.m_lblShownText.Text = _secondLanguage + ": " + pair.Key;
+                        test.m_lblAskedTranslation.Text = _firstLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0)
@@ -844,7 +844,7 @@ namespace VokabelTrainer
                             char[] separators = { ',' };
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
-                            foreach (string s in test.textBox1.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
+                            foreach (string s in test.m_tbxAskedTranslation.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 typedIn[s.Trim()] = false;
                             }
@@ -950,7 +950,7 @@ namespace VokabelTrainer
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1)
-                                    Speaker.Say(_firstLanguage, test.textBox1.Text.Trim(), true);
+                                    Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultSecondLanguage(pair.Key, true);
                             }
                         }
@@ -1235,8 +1235,8 @@ namespace VokabelTrainer
 
                     using (WordTest test = new WordTest())
                     {
-                        test.label1.Text = _firstLanguage + ": " + pair.Key;
-                        test.label2.Text = _secondLanguage + ":";
+                        test.m_lblShownText.Text = _firstLanguage + ": " + pair.Key;
+                        test.m_lblAskedTranslation.Text = _secondLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex==0)
@@ -1265,7 +1265,7 @@ namespace VokabelTrainer
                             char[] separators = { ',', ';' };
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
-                            foreach (string s in test.textBox1.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
+                            foreach (string s in test.m_tbxAskedTranslation.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 typedIn[s.Trim()] = false;
                             }
@@ -1374,7 +1374,7 @@ namespace VokabelTrainer
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1)
-                                    Speaker.Say(_secondLanguage, test.textBox1.Text.Trim(), true);
+                                    Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
                         }

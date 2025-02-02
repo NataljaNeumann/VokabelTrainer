@@ -46,100 +46,100 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.buttonNext = new System.Windows.Forms.Button();
-            this.buttonLast = new System.Windows.Forms.Button();
-            this.buttonCancel = new System.Windows.Forms.Button();
+            this.m_lblShownText = new System.Windows.Forms.Label();
+            this.m_lblAskedTranslation = new System.Windows.Forms.Label();
+            this.m_tbxAskedTranslation = new System.Windows.Forms.TextBox();
+            this.m_btnNext = new System.Windows.Forms.Button();
+            this.m_btnLast = new System.Windows.Forms.Button();
+            this.m_btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // m_lblShownText
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_lblShownText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(681, 88);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "...";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.m_lblShownText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lblShownText.Location = new System.Drawing.Point(12, 9);
+            this.m_lblShownText.Name = "m_lblShownText";
+            this.m_lblShownText.Size = new System.Drawing.Size(681, 88);
+            this.m_lblShownText.TabIndex = 0;
+            this.m_lblShownText.Text = "...";
+            this.m_lblShownText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // m_lblAskedTranslation
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_lblAskedTranslation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 101);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(681, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "...";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.m_lblAskedTranslation.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lblAskedTranslation.Location = new System.Drawing.Point(12, 101);
+            this.m_lblAskedTranslation.Name = "m_lblAskedTranslation";
+            this.m_lblAskedTranslation.Size = new System.Drawing.Size(681, 23);
+            this.m_lblAskedTranslation.TabIndex = 1;
+            this.m_lblAskedTranslation.Text = "...";
+            this.m_lblAskedTranslation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // m_tbxAskedTranslation
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_tbxAskedTranslation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(18, 128);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(675, 26);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.m_tbxAskedTranslation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_tbxAskedTranslation.Location = new System.Drawing.Point(18, 128);
+            this.m_tbxAskedTranslation.Name = "m_tbxAskedTranslation";
+            this.m_tbxAskedTranslation.Size = new System.Drawing.Size(675, 26);
+            this.m_tbxAskedTranslation.TabIndex = 2;
+            this.m_tbxAskedTranslation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.m_tbxAskedTranslation.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // buttonNext
+            // m_btnNext
             // 
-            this.buttonNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNext.Enabled = false;
-            this.buttonNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNext.Location = new System.Drawing.Point(361, 171);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(97, 29);
-            this.buttonNext.TabIndex = 3;
-            this.buttonNext.Text = "Nächste";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            this.m_btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnNext.Enabled = false;
+            this.m_btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnNext.Location = new System.Drawing.Point(361, 171);
+            this.m_btnNext.Name = "m_btnNext";
+            this.m_btnNext.Size = new System.Drawing.Size(97, 29);
+            this.m_btnNext.TabIndex = 3;
+            this.m_btnNext.Text = "Nächste";
+            this.m_btnNext.UseVisualStyleBackColor = true;
+            this.m_btnNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
-            // buttonLast
+            // m_btnLast
             // 
-            this.buttonLast.Enabled = false;
-            this.buttonLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLast.Location = new System.Drawing.Point(477, 171);
-            this.buttonLast.Name = "buttonLast";
-            this.buttonLast.Size = new System.Drawing.Size(97, 29);
-            this.buttonLast.TabIndex = 4;
-            this.buttonLast.Text = "Letzte";
-            this.buttonLast.UseVisualStyleBackColor = true;
-            this.buttonLast.Click += new System.EventHandler(this.buttonLast_Click);
+            this.m_btnLast.Enabled = false;
+            this.m_btnLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnLast.Location = new System.Drawing.Point(477, 171);
+            this.m_btnLast.Name = "m_btnLast";
+            this.m_btnLast.Size = new System.Drawing.Size(97, 29);
+            this.m_btnLast.TabIndex = 4;
+            this.m_btnLast.Text = "Letzte";
+            this.m_btnLast.UseVisualStyleBackColor = true;
+            this.m_btnLast.Click += new System.EventHandler(this.buttonLast_Click);
             // 
-            // buttonCancel
+            // m_btnCancel
             // 
-            this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCancel.Location = new System.Drawing.Point(595, 171);
-            this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(98, 29);
-            this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "Abbrechen";
-            this.buttonCancel.UseVisualStyleBackColor = true;
-            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.m_btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnCancel.Location = new System.Drawing.Point(595, 171);
+            this.m_btnCancel.Name = "m_btnCancel";
+            this.m_btnCancel.Size = new System.Drawing.Size(98, 29);
+            this.m_btnCancel.TabIndex = 5;
+            this.m_btnCancel.Text = "Abbrechen";
+            this.m_btnCancel.UseVisualStyleBackColor = true;
+            this.m_btnCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // WordTest
             // 
-            this.AcceptButton = this.buttonNext;
+            this.AcceptButton = this.m_btnNext;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.buttonCancel;
+            this.CancelButton = this.m_btnCancel;
             this.ClientSize = new System.Drawing.Size(705, 212);
-            this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.buttonLast);
-            this.Controls.Add(this.buttonNext);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.m_btnCancel);
+            this.Controls.Add(this.m_btnLast);
+            this.Controls.Add(this.m_btnNext);
+            this.Controls.Add(this.m_tbxAskedTranslation);
+            this.Controls.Add(this.m_lblAskedTranslation);
+            this.Controls.Add(this.m_lblShownText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -155,11 +155,11 @@ namespace VokabelTrainer
 
         #endregion
 
-        private System.Windows.Forms.Button buttonNext;
-        private System.Windows.Forms.Button buttonLast;
-        private System.Windows.Forms.Button buttonCancel;
-        public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button m_btnNext;
+        private System.Windows.Forms.Button m_btnLast;
+        private System.Windows.Forms.Button m_btnCancel;
+        public System.Windows.Forms.Label m_lblShownText;
+        public System.Windows.Forms.Label m_lblAskedTranslation;
+        public System.Windows.Forms.TextBox m_tbxAskedTranslation;
     }
 }

@@ -32,7 +32,7 @@ namespace VokabelTrainer
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            buttonNext.Enabled = buttonLast.Enabled = textBox1.Text.Length > 0;
+            m_btnNext.Enabled = m_btnLast.Enabled = m_tbxAskedTranslation.Text.Length > 0;
         }
 
         private void buttonNext_Click(object sender, EventArgs e)
