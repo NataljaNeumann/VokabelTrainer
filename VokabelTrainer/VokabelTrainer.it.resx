@@ -117,53 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
+    <value>Carica il file della lingua</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
+    <value>Inserisci il vocabolario</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
+    <value>Nuovo file di lingua</value>
+  </data>
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
+    <value>File di vocabolario|*.Vocabolario.xml;*.Vocabolario.xml</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 16</value>
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 246</value>
   </data>
-  <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>Primeira língua:</value>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 16</value>
   </data>
-  <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>Português</value>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
+    <value>Traduzione del testo della licenza</value>
   </data>
-  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 16</value>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 214</value>
   </data>
-  <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>Segunda língua:</value>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
   </data>
-  <data name="m_btnCreateLanguageFile.Text" xml:space="preserve">
-    <value>Criar</value>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
+    <value>Licenza (GPL v2)</value>
   </data>
-  <data name="m_btnCancel.Text" xml:space="preserve">
-    <value>Cancelar</value>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 246</value>
   </data>
-  <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 20</value>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
   </data>
-  <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
-    <value>O arquivo de idioma deve ser distribuído sob licença GPL2</value>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
+    <value>Sui trainer di vocabolario</value>
   </data>
-  <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 20</value>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Tastiera su schermo (osk.exe)</value>
   </data>
-  <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
-    <value>O arquivo de idioma é modificável</value>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
   </data>
-  <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 20</value>
+  <data name="m_lblReader.Text" xml:space="preserve">
+    <value>Leggi ad alta voce:</value>
   </data>
-  <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>Direção de escrita da direita para a esquerda</value>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>Lingua visualizzata</value>
   </data>
-  <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 20</value>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>Lingua testata</value>
   </data>
-  <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>Direção de escrita da direita para a esquerda</value>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>Prima lingua</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>Seconda lingua</value>
+  </data>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>Solo in caso di errori</value>
+  </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 213</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 21</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Novo arquivo de idioma</value>
+    <value>Allenatore di vocabolario</value>
   </data>
 </root>

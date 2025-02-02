@@ -149,9 +149,6 @@
   <data name="m_btnOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>295, 119</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_btnOK.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -174,6 +171,9 @@
   <data name="m_lblMessageText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="m_btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
   <data name="&gt;&gt;m_lblMessageText.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
@@ -183,8 +183,8 @@
   <data name="m_lblMessageText.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 11</value>
   </data>
-  <data name="m_btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_lblMessageText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -205,6 +205,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>Portuguese</value>
+    <value>Italian</value>
   </metadata>
 </root>

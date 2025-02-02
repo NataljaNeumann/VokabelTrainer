@@ -117,101 +117,251 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>First language</value>
+  </data>
+  <data name="&gt;&gt;m_cbxReader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 212</value>
   </data>
-  <data name="m_btnLoadLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 79</value>
-  </data>
-  <data name="m_btnLoadLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 61</value>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 214</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_btnLoadLanguageFile.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="m_btnIntensiveFirstToSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
-    <value>Load language file</value>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.Name" xml:space="preserve">
-    <value>m_btnLoadLanguageFile</value>
-  </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_lblShowLicenceLocalised.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
+    <value>m_lblShowAbout</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
+    <value>m_btnShowDesktopKeyboard</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 12</value>
+  </data>
+  <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="m_btnEnterVocabulary.Enabled" type="System.Boolean, mscorlib">
+  <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
+    <value>Vocabulary files|*.Vokabeln.xml;*.Vocabulary.xml</value>
+  </data>
+  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Name" xml:space="preserve">
+    <value>m_btnMostIntensiveFirstToSecond</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_lblReader.Text" xml:space="preserve">
+    <value>Read:</value>
+  </data>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;m_dlgOpenFileDialog.Name" xml:space="preserve">
+    <value>m_dlgOpenFileDialog</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_btnEnterVocabulary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 146</value>
+  <data name="&gt;&gt;m_cbxReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 61</value>
+  <data name="m_btnNewLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="m_btnEnterVocabulary.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;m_btnNewLanguageFile.Name" xml:space="preserve">
+    <value>m_btnNewLanguageFile</value>
   </data>
-  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
-    <value>Enter vocabulary</value>
+  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_btnEnterVocabulary.Name" xml:space="preserve">
-    <value>m_btnEnterVocabulary</value>
+  <data name="m_btnIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 79</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>Second language</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;m_btnEnterVocabulary.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_btnEnterVocabulary.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 146</value>
+  </data>
+  <data name="&gt;&gt;m_lblReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 274</value>
+  </data>
+  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lblShowAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;m_btnExerciseFirstToSecond.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
+    <value>Load language file</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Name" xml:space="preserve">
+    <value>m_lblShowLicense</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 79</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
+  </data>
+  <data name="&gt;&gt;m_btnNewLanguageFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 16</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>Tested language</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 21</value>
+  </data>
+  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Desktop keyboard (osk.exe)</value>
+  </data>
+  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnEnterVocabulary.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="m_btnExerciseSecondToFirst.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_btnExerciseSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 12</value>
+  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Name" xml:space="preserve">
+    <value>m_btnIntensiveFirstToSecond</value>
   </data>
-  <data name="m_btnExerciseSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
+  <data name="m_btnNewLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
   </data>
-  <data name="m_btnExerciseSecondToFirst.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="m_btnEnterVocabulary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 146</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Name" xml:space="preserve">
-    <value>m_btnExerciseSecondToFirst</value>
+  <data name="&gt;&gt;m_lblShowAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.Name" xml:space="preserve">
+    <value>m_btnLoadLanguageFile</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Parent" xml:space="preserve">
+  <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseSecondToFirst.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 213</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_btnExerciseFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vocabulary trainer</value>
   </data>
-  <data name="m_btnExerciseFirstToSecond.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 49</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
     <value>406, 12</value>
@@ -219,385 +369,235 @@
   <data name="m_btnExerciseFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 61</value>
   </data>
-  <data name="m_btnExerciseFirstToSecond.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="&gt;&gt;m_btnExerciseFirstToSecond.Name" xml:space="preserve">
     <value>m_btnExerciseFirstToSecond</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="m_lblShowAbout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnExerciseFirstToSecond.ZOrder" xml:space="preserve">
+  <data name="m_lblShowLicenceLocalised.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;m_dlgOpenFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnNewLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="m_btnNewLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 61</value>
-  </data>
-  <data name="m_btnNewLanguageFile.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
-    <value>New language file </value>
-  </data>
-  <data name="&gt;&gt;m_btnNewLanguageFile.Name" xml:space="preserve">
-    <value>m_btnNewLanguageFile</value>
-  </data>
-  <data name="&gt;&gt;m_btnNewLanguageFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnNewLanguageFile.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnNewLanguageFile.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <metadata name="m_dlgOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>Vocabulary files|*.Vokabeln.xml;*.Vocabulary.xml</value>
-  </data>
-  <data name="m_btnIntensiveSecondToFirst.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 79</value>
-  </data>
-  <data name="m_btnIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
-  </data>
-  <data name="m_btnIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Name" xml:space="preserve">
-    <value>m_btnIntensiveSecondToFirst</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
-    <value>406, 79</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
-  </data>
-  <data name="m_btnIntensiveFirstToSecond.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Name" xml:space="preserve">
-    <value>m_btnIntensiveFirstToSecond</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="m_btnMostIntensiveSecondToFirst.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnMostIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 146</value>
-  </data>
-  <data name="m_btnMostIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
-  </data>
-  <data name="m_btnMostIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Name" xml:space="preserve">
     <value>m_btnMostIntensiveSecondToFirst</value>
   </data>
-  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
-    <value>406, 146</value>
+  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
+  <data name="m_btnExerciseFirstToSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="m_btnMostIntensiveFirstToSecond.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;m_btnIntensiveSecondToFirst.Name" xml:space="preserve">
+    <value>m_btnIntensiveSecondToFirst</value>
   </data>
-  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Name" xml:space="preserve">
-    <value>m_btnMostIntensiveFirstToSecond</value>
-  </data>
-  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="m_cbxReader.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;m_btnEnterVocabulary.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 216</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 246</value>
+  <data name="&gt;&gt;m_lblShowLicenceLocalised.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 16</value>
+  <data name="&gt;&gt;m_lblReader.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>In case of errors</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>Translated licence text</value>
+  <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 246</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
+    <value>Enter vocabulary</value>
+  </data>
+  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VokabelTrainer</value>
+  </data>
+  <data name="&gt;&gt;m_btnNewLanguageFile.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
     <value>m_lblShowLicenceLocalised</value>
   </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_lblShowAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnEnterVocabulary.Name" xml:space="preserve">
+    <value>m_btnEnterVocabulary</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;m_cbxReader.Name" xml:space="preserve">
+    <value>m_cbxReader</value>
+  </data>
+  <data name="m_btnIntensiveSecondToFirst.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>Shown language</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
+    <value>New language file </value>
+  </data>
+  <data name="m_btnNewLanguageFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Name" xml:space="preserve">
+    <value>m_btnExerciseSecondToFirst</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 246</value>
+  </data>
+  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_lblShowLicenceLocalised.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 246</value>
-  </data>
-  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 16</value>
-  </data>
-  <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="m_lblShowLicense.Text" xml:space="preserve">
-    <value>Licence (GPL v2)</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Name" xml:space="preserve">
-    <value>m_lblShowLicense</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="m_lblShowAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="m_lblShowAbout.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 214</value>
-  </data>
-  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 16</value>
-  </data>
-  <data name="m_lblShowAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="m_lblShowAbout.Text" xml:space="preserve">
-    <value>About vocabulary trainer</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
-    <value>m_lblShowAbout</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 213</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 49</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>Desktop keyboard (osk.exe)</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
-    <value>m_btnShowDesktopKeyboard</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.ZOrder" xml:space="preserve">
+  <data name="m_btnEnterVocabulary.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="m_lblReader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 216</value>
-  </data>
-  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 13</value>
-  </data>
-  <data name="m_lblReader.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="m_lblReader.Text" xml:space="preserve">
-    <value>Read:</value>
-  </data>
-  <data name="&gt;&gt;m_lblReader.Name" xml:space="preserve">
-    <value>m_lblReader</value>
-  </data>
-  <data name="&gt;&gt;m_lblReader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblReader.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;m_lblReader.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;m_lblReader.Name" xml:space="preserve">
+    <value>m_lblReader</value>
+  </data>
   <data name="m_cbxReader.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="m_cbxReader.Items" xml:space="preserve">
-    <value>Shown language</value>
+  <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_cbxReader.Items1" xml:space="preserve">
-    <value>Tested language</value>
+  <data name="&gt;&gt;m_btnExerciseSecondToFirst.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="m_cbxReader.Items2" xml:space="preserve">
-    <value>First language</value>
+  <data name="m_lblShowAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="m_cbxReader.Items3" xml:space="preserve">
-    <value>Second language</value>
+  <data name="m_btnMostIntensiveFirstToSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="m_cbxReader.Items4" xml:space="preserve">
-    <value>In case of errors</value>
+  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 212</value>
+  <data name="m_btnMostIntensiveSecondToFirst.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 21</value>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
+    <value>About vocabulary trainer</value>
   </data>
-  <data name="m_cbxReader.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;m_cbxReader.Name" xml:space="preserve">
-    <value>m_cbxReader</value>
-  </data>
-  <data name="&gt;&gt;m_cbxReader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_cbxReader.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
+    <value>Licence (GPL v2)</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;m_btnExerciseSecondToFirst.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
+    <value>Translated licence text</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 79</value>
+  </data>
+  <data name="&gt;&gt;m_btnNewLanguageFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
+  </data>
+  <data name="m_lblReader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 146</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicenceLocalised.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnLoadLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
+  </data>
+  <data name="m_lblReader.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>German</value>
+  <metadata name="m_dlgOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>634, 274</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Vocabulary trainer</value>
-  </data>
-  <data name="&gt;&gt;m_dlgOpenFileDialog.Name" xml:space="preserve">
-    <value>m_dlgOpenFileDialog</value>
-  </data>
-  <data name="&gt;&gt;m_dlgOpenFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>VokabelTrainer</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Italian</value>
+  </metadata>
 </root>

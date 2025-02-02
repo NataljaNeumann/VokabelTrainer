@@ -105,6 +105,10 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewDictionaryPair.it.resx">
+      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewDictionaryPair.pt.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -125,6 +129,10 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewLanguageFile.it.resx">
+      <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewLanguageFile.pt.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -142,6 +150,10 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="NewMessageBox.fr.resx">
+      <DependentUpon>NewMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageBox.it.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -170,6 +182,10 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="VokabelTrainer.it.resx">
+      <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="VokabelTrainer.pt.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -187,6 +203,10 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WordTest.fr.resx">
+      <DependentUpon>WordTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordTest.it.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
