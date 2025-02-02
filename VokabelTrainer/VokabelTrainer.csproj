@@ -109,11 +109,23 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewDictionaryPair.ko.resx">
+      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewDictionaryPair.pt.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="NewDictionaryPair.resx">
+      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDictionaryPair.zh-CHS.resx">
+      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDictionaryPair.zh-CHT.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -133,11 +145,23 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewLanguageFile.ko.resx">
+      <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewLanguageFile.pt.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="NewLanguageFile.resx">
+      <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLanguageFile.zh-CHS.resx">
+      <DependentUpon>NewLanguageFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLanguageFile.zh-CHT.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -157,11 +181,23 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageBox.ko.resx">
+      <DependentUpon>NewMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewMessageBox.pt.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="NewMessageBox.resx">
+      <DependentUpon>NewMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageBox.zh-CHS.resx">
+      <DependentUpon>NewMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageBox.zh-CHT.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -186,11 +222,23 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="VokabelTrainer.ko.resx">
+      <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="VokabelTrainer.pt.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="VokabelTrainer.resx">
+      <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VokabelTrainer.zh-CHS.resx">
+      <DependentUpon>VokabelTrainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VokabelTrainer.zh-CHT.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -210,11 +258,23 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="WordTest.ko.resx">
+      <DependentUpon>WordTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="WordTest.pt.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WordTest.resx">
+      <DependentUpon>WordTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordTest.zh-CHS.resx">
+      <DependentUpon>WordTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordTest.zh-CHT.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
