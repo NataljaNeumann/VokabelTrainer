@@ -180,9 +180,6 @@
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Read:</value>
   </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="m_btnMostIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
@@ -233,6 +230,9 @@
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
     <value>406, 146</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;m_lblReader.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -441,8 +441,8 @@
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Enter vocabulary</value>
   </data>
-  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>VokabelTrainer</value>
@@ -452,6 +452,9 @@
   </data>
   <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
     <value>m_lblShowLicenceLocalised</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -540,11 +543,11 @@
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licence (GPL v2)</value>
   </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
+  <data name="&gt;&gt;m_btnExerciseFirstToSecond.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;m_btnExerciseSecondToFirst.Parent" xml:space="preserve">
     <value>$this</value>
@@ -596,8 +599,5 @@
   </metadata>
   <metadata name="m_dlgOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>Italian</value>
   </metadata>
 </root>

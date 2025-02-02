@@ -301,7 +301,7 @@
     <value>m_btnCancelEntering</value>
   </data>
   <data name="m_btnEnterNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>112, 28</value>
   </data>
   <data name="m_lblSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -325,7 +325,7 @@
     <value>373, 198</value>
   </data>
   <data name="m_btnEnterNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 198</value>
+    <value>253, 198</value>
   </data>
   <data name="m_btnCancelEntering.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 28</value>
@@ -356,8 +356,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>Italian</value>
   </metadata>
 </root>
