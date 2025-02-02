@@ -341,7 +341,7 @@ namespace VokabelTrainer
             {
                 if (form.ShowDialog(this) == DialogResult.OK)
                 {
-                    string newPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), form.textBoxFirstLanguage.Text + "-" + form.textBoxSecondLanguage.Text + ".Vokabeln.xml");
+                    string newPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text + ".Vokabeln.xml");
                     System.IO.FileInfo fi = new System.IO.FileInfo(newPath);
                     if (fi.Exists)
                     {
@@ -351,10 +351,10 @@ namespace VokabelTrainer
                     _currentPath = newPath;
                     _currentDoc = new System.Xml.XmlDocument();
                     _currentDoc.PreserveWhitespace = false;
-                    _saveModifiable = form.checkBox2.Checked;
+                    _saveModifiable = form.m_chkLanguageFileModifiable.Checked;
                     _modifiable = true;
                     _savePossible = true;
-                    if (form.checkBox1.Checked)
+                    if (form.m_chkLanguageFileUnderGPL2.Checked)
                     {
                         _license = "Copyright (C) " + System.DateTime.Now.Year + " " + Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
                                    "This program is free software; you can redistribute it and/or\r\n" +
@@ -374,7 +374,7 @@ namespace VokabelTrainer
                         _license = "Copyright (C) " + System.DateTime.Now.Year + " " + Environment.GetEnvironmentVariable("USERNAME") + ", alle Rechte vorbehalten";
                     }
 
-                    _currentDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.textBoxFirstLanguage.Text + "</erste-sprache-name>\r\n  <zweite-sprache-name>" + form.textBoxSecondLanguage.Text + "</zweite-sprache-name>\r\n<lizenz><modifikationen>" + (_saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + _license + "</text></lizenz></vokabeln>\r\n");
+                    _currentDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n  <zweite-sprache-name>" + form.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n<lizenz><modifikationen>" + (_saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + _license + "</text></lizenz></vokabeln>\r\n");
                     _currentDoc.Save(_currentPath);
 
                     _trainingFirstLanguage = new SortedDictionary<string,string>();
@@ -385,8 +385,8 @@ namespace VokabelTrainer
                     _correctSecondLanguage = new SortedDictionary<string, int>();
                     _totalNumberOfErrorsFirstLanguage = 0;
                     _totalNumberOfErrorsSecondLanguage = 0;
-                    _firstLanguage = form.textBoxFirstLanguage.Text;
-                    _secondLanguage = form.textBoxSecondLanguage.Text;
+                    _firstLanguage = form.m_tbxFirstLanguage.Text;
+                    _secondLanguage = form.m_tbxSecondLanguage.Text;
                 }
             }
             EnableDisableButtons();

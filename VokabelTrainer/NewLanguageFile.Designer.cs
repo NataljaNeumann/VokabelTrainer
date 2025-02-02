@@ -46,126 +46,126 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxFirstLanguage = new System.Windows.Forms.TextBox();
-            this.textBoxSecondLanguage = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.m_lblFirstLanguage = new System.Windows.Forms.Label();
+            this.m_tbxFirstLanguage = new System.Windows.Forms.TextBox();
+            this.m_tbxSecondLanguage = new System.Windows.Forms.TextBox();
+            this.m_lblSecondLanguage = new System.Windows.Forms.Label();
+            this.m_btnCreateLanguageFile = new System.Windows.Forms.Button();
+            this.m_btnCancel = new System.Windows.Forms.Button();
+            this.m_chkLanguageFileUnderGPL2 = new System.Windows.Forms.CheckBox();
+            this.m_chkLanguageFileModifiable = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // label1
+            // m_lblFirstLanguage
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Erste Sprache:";
+            this.m_lblFirstLanguage.AutoSize = true;
+            this.m_lblFirstLanguage.Location = new System.Drawing.Point(16, 11);
+            this.m_lblFirstLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.m_lblFirstLanguage.Name = "m_lblFirstLanguage";
+            this.m_lblFirstLanguage.Size = new System.Drawing.Size(96, 16);
+            this.m_lblFirstLanguage.TabIndex = 0;
+            this.m_lblFirstLanguage.Text = "Erste Sprache:";
             // 
-            // textBoxFirstLanguage
+            // m_tbxFirstLanguage
             // 
-            this.textBoxFirstLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_tbxFirstLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFirstLanguage.Location = new System.Drawing.Point(20, 31);
-            this.textBoxFirstLanguage.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxFirstLanguage.Name = "textBoxFirstLanguage";
-            this.textBoxFirstLanguage.Size = new System.Drawing.Size(481, 22);
-            this.textBoxFirstLanguage.TabIndex = 1;
-            this.textBoxFirstLanguage.TextChanged += new System.EventHandler(this.textBoxFirstLanguage_TextChanged);
+            this.m_tbxFirstLanguage.Location = new System.Drawing.Point(20, 31);
+            this.m_tbxFirstLanguage.Margin = new System.Windows.Forms.Padding(4);
+            this.m_tbxFirstLanguage.Name = "m_tbxFirstLanguage";
+            this.m_tbxFirstLanguage.Size = new System.Drawing.Size(481, 22);
+            this.m_tbxFirstLanguage.TabIndex = 1;
+            this.m_tbxFirstLanguage.TextChanged += new System.EventHandler(this.textBoxFirstLanguage_TextChanged);
             // 
-            // textBoxSecondLanguage
+            // m_tbxSecondLanguage
             // 
-            this.textBoxSecondLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.m_tbxSecondLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxSecondLanguage.Location = new System.Drawing.Point(20, 95);
-            this.textBoxSecondLanguage.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxSecondLanguage.Name = "textBoxSecondLanguage";
-            this.textBoxSecondLanguage.Size = new System.Drawing.Size(481, 22);
-            this.textBoxSecondLanguage.TabIndex = 3;
-            this.textBoxSecondLanguage.Text = "Deutsch";
-            this.textBoxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
+            this.m_tbxSecondLanguage.Location = new System.Drawing.Point(20, 95);
+            this.m_tbxSecondLanguage.Margin = new System.Windows.Forms.Padding(4);
+            this.m_tbxSecondLanguage.Name = "m_tbxSecondLanguage";
+            this.m_tbxSecondLanguage.Size = new System.Drawing.Size(481, 22);
+            this.m_tbxSecondLanguage.TabIndex = 3;
+            this.m_tbxSecondLanguage.Text = "Deutsch";
+            this.m_tbxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
             // 
-            // label2
+            // m_lblSecondLanguage
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 71);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Zweite Sprache:";
+            this.m_lblSecondLanguage.AutoSize = true;
+            this.m_lblSecondLanguage.Location = new System.Drawing.Point(17, 71);
+            this.m_lblSecondLanguage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.m_lblSecondLanguage.Name = "m_lblSecondLanguage";
+            this.m_lblSecondLanguage.Size = new System.Drawing.Size(104, 16);
+            this.m_lblSecondLanguage.TabIndex = 2;
+            this.m_lblSecondLanguage.Text = "Zweite Sprache:";
             // 
-            // button1
+            // m_btnCreateLanguageFile
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(295, 177);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Erstellen";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnCreateLanguageFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnCreateLanguageFile.Enabled = false;
+            this.m_btnCreateLanguageFile.Location = new System.Drawing.Point(295, 177);
+            this.m_btnCreateLanguageFile.Margin = new System.Windows.Forms.Padding(4);
+            this.m_btnCreateLanguageFile.Name = "m_btnCreateLanguageFile";
+            this.m_btnCreateLanguageFile.Size = new System.Drawing.Size(100, 28);
+            this.m_btnCreateLanguageFile.TabIndex = 6;
+            this.m_btnCreateLanguageFile.Text = "Erstellen";
+            this.m_btnCreateLanguageFile.UseVisualStyleBackColor = true;
+            this.m_btnCreateLanguageFile.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // m_btnCancel
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(403, 177);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Abbrechen";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.m_btnCancel.Location = new System.Drawing.Point(403, 177);
+            this.m_btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.m_btnCancel.Name = "m_btnCancel";
+            this.m_btnCancel.Size = new System.Drawing.Size(100, 28);
+            this.m_btnCancel.TabIndex = 7;
+            this.m_btnCancel.Text = "Abbrechen";
+            this.m_btnCancel.UseVisualStyleBackColor = true;
+            this.m_btnCancel.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkBox1
+            // m_chkLanguageFileUnderGPL2
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(19, 136);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(251, 20);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "Sprachdatei unter GPL2-Lizenz stellen";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.m_chkLanguageFileUnderGPL2.AutoSize = true;
+            this.m_chkLanguageFileUnderGPL2.Checked = true;
+            this.m_chkLanguageFileUnderGPL2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.m_chkLanguageFileUnderGPL2.Location = new System.Drawing.Point(19, 136);
+            this.m_chkLanguageFileUnderGPL2.Name = "m_chkLanguageFileUnderGPL2";
+            this.m_chkLanguageFileUnderGPL2.Size = new System.Drawing.Size(251, 20);
+            this.m_chkLanguageFileUnderGPL2.TabIndex = 4;
+            this.m_chkLanguageFileUnderGPL2.Text = "Sprachdatei unter GPL2-Lizenz stellen";
+            this.m_chkLanguageFileUnderGPL2.UseVisualStyleBackColor = true;
+            this.m_chkLanguageFileUnderGPL2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // checkBox2
+            // m_chkLanguageFileModifiable
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(19, 162);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(180, 20);
-            this.checkBox2.TabIndex = 5;
-            this.checkBox2.Text = "Sprachdatei modifizierbar";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.m_chkLanguageFileModifiable.AutoSize = true;
+            this.m_chkLanguageFileModifiable.Checked = true;
+            this.m_chkLanguageFileModifiable.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.m_chkLanguageFileModifiable.Enabled = false;
+            this.m_chkLanguageFileModifiable.Location = new System.Drawing.Point(19, 162);
+            this.m_chkLanguageFileModifiable.Name = "m_chkLanguageFileModifiable";
+            this.m_chkLanguageFileModifiable.Size = new System.Drawing.Size(180, 20);
+            this.m_chkLanguageFileModifiable.TabIndex = 5;
+            this.m_chkLanguageFileModifiable.Text = "Sprachdatei modifizierbar";
+            this.m_chkLanguageFileModifiable.UseVisualStyleBackColor = true;
             // 
             // NewLanguageFile
             // 
-            this.AcceptButton = this.button1;
+            this.AcceptButton = this.m_btnCreateLanguageFile;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.button2;
+            this.CancelButton = this.m_btnCancel;
             this.ClientSize = new System.Drawing.Size(519, 220);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBoxSecondLanguage);
-            this.Controls.Add(this.textBoxFirstLanguage);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.m_chkLanguageFileModifiable);
+            this.Controls.Add(this.m_chkLanguageFileUnderGPL2);
+            this.Controls.Add(this.m_btnCancel);
+            this.Controls.Add(this.m_btnCreateLanguageFile);
+            this.Controls.Add(this.m_lblSecondLanguage);
+            this.Controls.Add(this.m_tbxSecondLanguage);
+            this.Controls.Add(this.m_tbxFirstLanguage);
+            this.Controls.Add(this.m_lblFirstLanguage);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -183,13 +183,13 @@ namespace VokabelTrainer
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        public System.Windows.Forms.TextBox textBoxFirstLanguage;
-        public System.Windows.Forms.TextBox textBoxSecondLanguage;
-        public System.Windows.Forms.CheckBox checkBox1;
-        public System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label m_lblFirstLanguage;
+        private System.Windows.Forms.Label m_lblSecondLanguage;
+        private System.Windows.Forms.Button m_btnCreateLanguageFile;
+        private System.Windows.Forms.Button m_btnCancel;
+        public System.Windows.Forms.TextBox m_tbxFirstLanguage;
+        public System.Windows.Forms.TextBox m_tbxSecondLanguage;
+        public System.Windows.Forms.CheckBox m_chkLanguageFileUnderGPL2;
+        public System.Windows.Forms.CheckBox m_chkLanguageFileModifiable;
     }
 }

@@ -44,24 +44,24 @@ namespace VokabelTrainer
 
         private void textBoxFirstLanguage_TextChanged(object sender, EventArgs e)
         {
-            button1.Enabled = textBoxFirstLanguage.Text.Length > 0 && textBoxSecondLanguage.Text.Length > 0;
+            m_btnCreateLanguageFile.Enabled = m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
         }
 
         private void textBoxSecondLanguage_TextChanged(object sender, EventArgs e)
         {
-            button1.Enabled = textBoxFirstLanguage.Text.Length > 0 && textBoxSecondLanguage.Text.Length > 0;
+            m_btnCreateLanguageFile.Enabled = m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
+            if (m_chkLanguageFileUnderGPL2.Checked)
             {
-                checkBox2.Checked = true;
-                checkBox2.Enabled = false;
+                m_chkLanguageFileModifiable.Checked = true;
+                m_chkLanguageFileModifiable.Enabled = false;
             }
             else
             {
-                checkBox2.Enabled = true;
+                m_chkLanguageFileModifiable.Enabled = true;
             }
         }
     }
