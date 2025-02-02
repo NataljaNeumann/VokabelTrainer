@@ -46,220 +46,220 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.m_btnLoadLanguageFile = new System.Windows.Forms.Button();
+            this.m_btnEnterVocabulary = new System.Windows.Forms.Button();
+            this.m_btnExerciseSecondToFirst = new System.Windows.Forms.Button();
+            this.m_btnExerciseFirstToSecond = new System.Windows.Forms.Button();
+            this.m_btnNewLanguageFile = new System.Windows.Forms.Button();
+            this.m_dlgOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.m_btnIntensiveSecondToFirst = new System.Windows.Forms.Button();
+            this.m_btnIntensiveFirstToSecond = new System.Windows.Forms.Button();
+            this.m_btnMostIntensiveSecondToFirst = new System.Windows.Forms.Button();
+            this.m_btnMostIntensiveFirstToSecond = new System.Windows.Forms.Button();
+            this.m_lblShowLicenceLocalised = new System.Windows.Forms.LinkLabel();
+            this.m_lblShowLicense = new System.Windows.Forms.LinkLabel();
+            this.m_lblShowAbout = new System.Windows.Forms.LinkLabel();
+            this.m_btnShowDesktopKeyboard = new System.Windows.Forms.Button();
+            this.m_lblReader = new System.Windows.Forms.Label();
+            this.m_cbxReader = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // m_btnLoadLanguageFile
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 61);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Sprachdatei laden";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnLoadLanguageFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnLoadLanguageFile.Location = new System.Drawing.Point(12, 79);
+            this.m_btnLoadLanguageFile.Name = "m_btnLoadLanguageFile";
+            this.m_btnLoadLanguageFile.Size = new System.Drawing.Size(148, 61);
+            this.m_btnLoadLanguageFile.TabIndex = 1;
+            this.m_btnLoadLanguageFile.Text = "Sprachdatei laden";
+            this.m_btnLoadLanguageFile.UseVisualStyleBackColor = true;
+            this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // m_btnEnterVocabulary
             // 
-            this.button2.Enabled = false;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 146);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 61);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Vokabeln eingeben";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnEnterVocabulary.Enabled = false;
+            this.m_btnEnterVocabulary.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnEnterVocabulary.Location = new System.Drawing.Point(12, 146);
+            this.m_btnEnterVocabulary.Name = "m_btnEnterVocabulary";
+            this.m_btnEnterVocabulary.Size = new System.Drawing.Size(148, 61);
+            this.m_btnEnterVocabulary.TabIndex = 2;
+            this.m_btnEnterVocabulary.Text = "Vokabeln eingeben";
+            this.m_btnEnterVocabulary.UseVisualStyleBackColor = true;
+            this.m_btnEnterVocabulary.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // m_btnExerciseSecondToFirst
             // 
-            this.button3.Enabled = false;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(186, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(213, 61);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.m_btnExerciseSecondToFirst.Enabled = false;
+            this.m_btnExerciseSecondToFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnExerciseSecondToFirst.Location = new System.Drawing.Point(186, 12);
+            this.m_btnExerciseSecondToFirst.Name = "m_btnExerciseSecondToFirst";
+            this.m_btnExerciseSecondToFirst.Size = new System.Drawing.Size(213, 61);
+            this.m_btnExerciseSecondToFirst.TabIndex = 3;
+            this.m_btnExerciseSecondToFirst.UseVisualStyleBackColor = true;
+            this.m_btnExerciseSecondToFirst.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // m_btnExerciseFirstToSecond
             // 
-            this.button4.Enabled = false;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(406, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(213, 61);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.m_btnExerciseFirstToSecond.Enabled = false;
+            this.m_btnExerciseFirstToSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnExerciseFirstToSecond.Location = new System.Drawing.Point(406, 12);
+            this.m_btnExerciseFirstToSecond.Name = "m_btnExerciseFirstToSecond";
+            this.m_btnExerciseFirstToSecond.Size = new System.Drawing.Size(213, 61);
+            this.m_btnExerciseFirstToSecond.TabIndex = 4;
+            this.m_btnExerciseFirstToSecond.UseVisualStyleBackColor = true;
+            this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // m_btnNewLanguageFile
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(12, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(148, 61);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Neue Sprachdatei";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.m_btnNewLanguageFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnNewLanguageFile.Location = new System.Drawing.Point(12, 12);
+            this.m_btnNewLanguageFile.Name = "m_btnNewLanguageFile";
+            this.m_btnNewLanguageFile.Size = new System.Drawing.Size(148, 61);
+            this.m_btnNewLanguageFile.TabIndex = 0;
+            this.m_btnNewLanguageFile.Text = "Neue Sprachdatei";
+            this.m_btnNewLanguageFile.UseVisualStyleBackColor = true;
+            this.m_btnNewLanguageFile.Click += new System.EventHandler(this.button5_Click);
             // 
-            // openFileDialog1
+            // m_dlgOpenFileDialog
             // 
-            this.openFileDialog1.DefaultExt = "Vokabeln.xml";
-            this.openFileDialog1.FileName = "Englisch-Deutsch.Vokabeln.xml";
-            this.openFileDialog1.Filter = "Vokabel-Dateien|*.Vokabeln.xml";
+            this.m_dlgOpenFileDialog.DefaultExt = "Vokabeln.xml";
+            this.m_dlgOpenFileDialog.FileName = "Englisch-Deutsch.Vokabeln.xml";
+            this.m_dlgOpenFileDialog.Filter = "Vokabel-Dateien|*.Vokabeln.xml";
             // 
-            // button6
+            // m_btnIntensiveSecondToFirst
             // 
-            this.button6.Enabled = false;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(186, 79);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(213, 61);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.m_btnIntensiveSecondToFirst.Enabled = false;
+            this.m_btnIntensiveSecondToFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnIntensiveSecondToFirst.Location = new System.Drawing.Point(186, 79);
+            this.m_btnIntensiveSecondToFirst.Name = "m_btnIntensiveSecondToFirst";
+            this.m_btnIntensiveSecondToFirst.Size = new System.Drawing.Size(213, 61);
+            this.m_btnIntensiveSecondToFirst.TabIndex = 5;
+            this.m_btnIntensiveSecondToFirst.UseVisualStyleBackColor = true;
+            this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // m_btnIntensiveFirstToSecond
             // 
-            this.button7.Enabled = false;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(406, 79);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(213, 61);
-            this.button7.TabIndex = 6;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.m_btnIntensiveFirstToSecond.Enabled = false;
+            this.m_btnIntensiveFirstToSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnIntensiveFirstToSecond.Location = new System.Drawing.Point(406, 79);
+            this.m_btnIntensiveFirstToSecond.Name = "m_btnIntensiveFirstToSecond";
+            this.m_btnIntensiveFirstToSecond.Size = new System.Drawing.Size(213, 61);
+            this.m_btnIntensiveFirstToSecond.TabIndex = 6;
+            this.m_btnIntensiveFirstToSecond.UseVisualStyleBackColor = true;
+            this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // m_btnMostIntensiveSecondToFirst
             // 
-            this.button8.Enabled = false;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(186, 146);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(213, 61);
-            this.button8.TabIndex = 7;
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.m_btnMostIntensiveSecondToFirst.Enabled = false;
+            this.m_btnMostIntensiveSecondToFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnMostIntensiveSecondToFirst.Location = new System.Drawing.Point(186, 146);
+            this.m_btnMostIntensiveSecondToFirst.Name = "m_btnMostIntensiveSecondToFirst";
+            this.m_btnMostIntensiveSecondToFirst.Size = new System.Drawing.Size(213, 61);
+            this.m_btnMostIntensiveSecondToFirst.TabIndex = 7;
+            this.m_btnMostIntensiveSecondToFirst.UseVisualStyleBackColor = true;
+            this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // m_btnMostIntensiveFirstToSecond
             // 
-            this.button9.Enabled = false;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(406, 146);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(213, 61);
-            this.button9.TabIndex = 8;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.m_btnMostIntensiveFirstToSecond.Enabled = false;
+            this.m_btnMostIntensiveFirstToSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnMostIntensiveFirstToSecond.Location = new System.Drawing.Point(406, 146);
+            this.m_btnMostIntensiveFirstToSecond.Name = "m_btnMostIntensiveFirstToSecond";
+            this.m_btnMostIntensiveFirstToSecond.Size = new System.Drawing.Size(213, 61);
+            this.m_btnMostIntensiveFirstToSecond.TabIndex = 8;
+            this.m_btnMostIntensiveFirstToSecond.UseVisualStyleBackColor = true;
+            this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.button9_Click);
             // 
-            // linkLabel1
+            // m_lblShowLicenceLocalised
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(391, 246);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(228, 16);
-            this.linkLabel1.TabIndex = 11;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Lizenztext auf Deutsch (nicht bindend)";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.m_lblShowLicenceLocalised.AutoSize = true;
+            this.m_lblShowLicenceLocalised.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lblShowLicenceLocalised.Location = new System.Drawing.Point(391, 246);
+            this.m_lblShowLicenceLocalised.Name = "m_lblShowLicenceLocalised";
+            this.m_lblShowLicenceLocalised.Size = new System.Drawing.Size(228, 16);
+            this.m_lblShowLicenceLocalised.TabIndex = 11;
+            this.m_lblShowLicenceLocalised.TabStop = true;
+            this.m_lblShowLicenceLocalised.Text = "Lizenztext auf Deutsch (nicht bindend)";
+            this.m_lblShowLicenceLocalised.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // linkLabel2
+            // m_lblShowLicense
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(183, 246);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(154, 16);
-            this.linkLabel2.TabIndex = 10;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Lizenz (GPL v2, bindend)";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            this.m_lblShowLicense.AutoSize = true;
+            this.m_lblShowLicense.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lblShowLicense.Location = new System.Drawing.Point(183, 246);
+            this.m_lblShowLicense.Name = "m_lblShowLicense";
+            this.m_lblShowLicense.Size = new System.Drawing.Size(154, 16);
+            this.m_lblShowLicense.TabIndex = 10;
+            this.m_lblShowLicense.TabStop = true;
+            this.m_lblShowLicense.Text = "Lizenz (GPL v2, bindend)";
+            this.m_lblShowLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
-            // linkLabel3
+            // m_lblShowAbout
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(459, 213);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(160, 16);
-            this.linkLabel3.TabIndex = 9;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Info über Vokabel-Trainer";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            this.m_lblShowAbout.AutoSize = true;
+            this.m_lblShowAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lblShowAbout.Location = new System.Drawing.Point(459, 213);
+            this.m_lblShowAbout.Name = "m_lblShowAbout";
+            this.m_lblShowAbout.Size = new System.Drawing.Size(160, 16);
+            this.m_lblShowAbout.TabIndex = 9;
+            this.m_lblShowAbout.TabStop = true;
+            this.m_lblShowAbout.Text = "Info über Vokabel-Trainer";
+            this.m_lblShowAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
-            // button10
+            // m_btnShowDesktopKeyboard
             // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(12, 213);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(148, 49);
-            this.button10.TabIndex = 12;
-            this.button10.Text = "Bildschirmtastatur (osk.exe)";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.m_btnShowDesktopKeyboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnShowDesktopKeyboard.Location = new System.Drawing.Point(12, 213);
+            this.m_btnShowDesktopKeyboard.Name = "m_btnShowDesktopKeyboard";
+            this.m_btnShowDesktopKeyboard.Size = new System.Drawing.Size(148, 49);
+            this.m_btnShowDesktopKeyboard.TabIndex = 12;
+            this.m_btnShowDesktopKeyboard.Text = "Bildschirmtastatur (osk.exe)";
+            this.m_btnShowDesktopKeyboard.UseVisualStyleBackColor = true;
+            this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.button10_Click);
             // 
-            // label1
+            // m_lblReader
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(183, 216);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Vorlesen:";
+            this.m_lblReader.AutoSize = true;
+            this.m_lblReader.Location = new System.Drawing.Point(183, 216);
+            this.m_lblReader.Name = "m_lblReader";
+            this.m_lblReader.Size = new System.Drawing.Size(51, 13);
+            this.m_lblReader.TabIndex = 13;
+            this.m_lblReader.Text = "Vorlesen:";
             // 
-            // comboBox1
+            // m_cbxReader
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.m_cbxReader.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbxReader.Enabled = false;
+            this.m_cbxReader.FormattingEnabled = true;
+            this.m_cbxReader.Items.AddRange(new object[] {
             "Angezeigte Sprache",
             "Geprüfte Sprache",
             "Nur bei Fehlern"});
-            this.comboBox1.Location = new System.Drawing.Point(240, 212);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(213, 21);
-            this.comboBox1.TabIndex = 14;
+            this.m_cbxReader.Location = new System.Drawing.Point(240, 212);
+            this.m_cbxReader.Name = "m_cbxReader";
+            this.m_cbxReader.Size = new System.Drawing.Size(213, 21);
+            this.m_cbxReader.TabIndex = 14;
             // 
             // VokabelTrainer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 274);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.m_cbxReader);
+            this.Controls.Add(this.m_lblReader);
+            this.Controls.Add(this.m_btnShowDesktopKeyboard);
+            this.Controls.Add(this.m_lblShowAbout);
+            this.Controls.Add(this.m_lblShowLicense);
+            this.Controls.Add(this.m_lblShowLicenceLocalised);
+            this.Controls.Add(this.m_btnMostIntensiveFirstToSecond);
+            this.Controls.Add(this.m_btnMostIntensiveSecondToFirst);
+            this.Controls.Add(this.m_btnIntensiveFirstToSecond);
+            this.Controls.Add(this.m_btnIntensiveSecondToFirst);
+            this.Controls.Add(this.m_btnNewLanguageFile);
+            this.Controls.Add(this.m_btnExerciseFirstToSecond);
+            this.Controls.Add(this.m_btnExerciseSecondToFirst);
+            this.Controls.Add(this.m_btnEnterVocabulary);
+            this.Controls.Add(this.m_btnLoadLanguageFile);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -274,22 +274,22 @@ namespace VokabelTrainer
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button m_btnLoadLanguageFile;
+        private System.Windows.Forms.Button m_btnEnterVocabulary;
+        private System.Windows.Forms.Button m_btnExerciseSecondToFirst;
+        private System.Windows.Forms.Button m_btnExerciseFirstToSecond;
+        private System.Windows.Forms.Button m_btnNewLanguageFile;
+        private System.Windows.Forms.OpenFileDialog m_dlgOpenFileDialog;
+        private System.Windows.Forms.Button m_btnIntensiveSecondToFirst;
+        private System.Windows.Forms.Button m_btnIntensiveFirstToSecond;
+        private System.Windows.Forms.Button m_btnMostIntensiveSecondToFirst;
+        private System.Windows.Forms.Button m_btnMostIntensiveFirstToSecond;
+        private System.Windows.Forms.LinkLabel m_lblShowLicenceLocalised;
+        private System.Windows.Forms.LinkLabel m_lblShowLicense;
+        private System.Windows.Forms.LinkLabel m_lblShowAbout;
+        private System.Windows.Forms.Button m_btnShowDesktopKeyboard;
+        private System.Windows.Forms.Label m_lblReader;
+        private System.Windows.Forms.ComboBox m_cbxReader;
     }
 }
 

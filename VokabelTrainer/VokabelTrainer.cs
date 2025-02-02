@@ -52,48 +52,48 @@ namespace VokabelTrainer
             // init random with current time
             _rnd = new Random(((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
             _rnd2 = new Random((((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond)*365+DateTime.UtcNow.DayOfYear);
-            comboBox1.SelectedIndex = 0;
+            m_cbxReader.SelectedIndex = 0;
         }
 
         public void EnableDisableButtons()
         {
-            button5.Enabled = true;
-            button2.Enabled = (_currentPath != null) && _modifiable;
-            button3.Enabled = (_currentPath != null) && _firstToSecond.Count > 0;
-            button4.Enabled = (_currentPath != null) && _secondToFirst.Count > 0;
+            m_btnNewLanguageFile.Enabled = true;
+            m_btnEnterVocabulary.Enabled = (_currentPath != null) && _modifiable;
+            m_btnExerciseSecondToFirst.Enabled = (_currentPath != null) && _firstToSecond.Count > 0;
+            m_btnExerciseFirstToSecond.Enabled = (_currentPath != null) && _secondToFirst.Count > 0;
             if (string.IsNullOrEmpty(_firstLanguage) || string.IsNullOrEmpty(_secondLanguage))
             {
-                button3.Text = button4.Text = button6.Text = button7.Text = button8.Text = button9.Text = "";
-                button3.Enabled = button4.Enabled = button6.Enabled = button7.Enabled = button8.Enabled = button9.Enabled = false;
-                comboBox1.Enabled = false;
-                label1.Enabled = false;
+                m_btnExerciseSecondToFirst.Text = m_btnExerciseFirstToSecond.Text = m_btnIntensiveSecondToFirst.Text = m_btnIntensiveFirstToSecond.Text = m_btnMostIntensiveSecondToFirst.Text = m_btnMostIntensiveFirstToSecond.Text = "";
+                m_btnExerciseSecondToFirst.Enabled = m_btnExerciseFirstToSecond.Enabled = m_btnIntensiveSecondToFirst.Enabled = m_btnIntensiveFirstToSecond.Enabled = m_btnMostIntensiveSecondToFirst.Enabled = m_btnMostIntensiveFirstToSecond.Enabled = false;
+                m_cbxReader.Enabled = false;
+                m_lblReader.Enabled = false;
             }
             else
             {
-                button3.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
-                button4.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
-                button6.Enabled = button3.Enabled = _trainingFirstLanguage.Count > 0;
-                button7.Enabled = button4.Enabled = _trainingSecondLanguage.Count > 0;
-                label1.Enabled = comboBox1.Enabled = _trainingFirstLanguage.Count > 0 || _trainingSecondLanguage.Count > 0;
+                m_btnExerciseSecondToFirst.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
+                m_btnExerciseFirstToSecond.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
+                m_btnIntensiveSecondToFirst.Enabled = m_btnExerciseSecondToFirst.Enabled = _trainingFirstLanguage.Count > 0;
+                m_btnIntensiveFirstToSecond.Enabled = m_btnExerciseFirstToSecond.Enabled = _trainingSecondLanguage.Count > 0;
+                m_lblReader.Enabled = m_cbxReader.Enabled = _trainingFirstLanguage.Count > 0 || _trainingSecondLanguage.Count > 0;
 
-                button6.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
-                button7.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
+                m_btnIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
+                m_btnIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
 
-                button8.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
-                button9.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
+                m_btnMostIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
+                m_btnMostIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
 
-                button8.Enabled = _totalNumberOfErrorsSecondLanguage > 0;
-                button9.Enabled = _totalNumberOfErrorsFirstLanguage > 0;
+                m_btnMostIntensiveSecondToFirst.Enabled = _totalNumberOfErrorsSecondLanguage > 0;
+                m_btnMostIntensiveFirstToSecond.Enabled = _totalNumberOfErrorsFirstLanguage > 0;
             }
         }
 
         private void button1_Click(object sender, EventArgs ev)
         {
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            if (m_dlgOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
-                    _currentPath = openFileDialog1.FileName;
+                    _currentPath = m_dlgOpenFileDialog.FileName;
                     _currentDoc = new System.Xml.XmlDocument();
                     _currentDoc.Load(_currentPath);
 
@@ -819,7 +819,7 @@ namespace VokabelTrainer
                         test.label2.Text = _firstLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (comboBox1.SelectedIndex == 0)
+                        if (m_cbxReader.SelectedIndex == 0)
                             Speaker.Say(_secondLanguage,pair.Key,true);
 
                         switch (test.ShowDialog())
@@ -949,7 +949,7 @@ namespace VokabelTrainer
                             }
                             else
                             {
-                                if (comboBox1.SelectedIndex == 1)
+                                if (m_cbxReader.SelectedIndex == 1)
                                     Speaker.Say(_firstLanguage, test.textBox1.Text.Trim(), true);
                                 RememberResultSecondLanguage(pair.Key, true);
                             }
@@ -1239,7 +1239,7 @@ namespace VokabelTrainer
                         test.label2.Text = _secondLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (comboBox1.SelectedIndex==0)
+                        if (m_cbxReader.SelectedIndex==0)
                             Speaker.Say(_firstLanguage, pair.Key, true);
 
 
@@ -1373,7 +1373,7 @@ namespace VokabelTrainer
                             }
                             else
                             {
-                                if (comboBox1.SelectedIndex == 1)
+                                if (m_cbxReader.SelectedIndex == 1)
                                     Speaker.Say(_secondLanguage, test.textBox1.Text.Trim(), true);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
