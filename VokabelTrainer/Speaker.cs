@@ -310,16 +310,23 @@ namespace VokabelTrainer
                 b2 = new StringBuilder();
                 b.Append("</phoneme>\r\n");
 
-                if (bAsync)
-                    reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
-                                            "xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>{0}</speak>",
-                    b.ToString()
-                    ));
-                else
-                    reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
-                                            "xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>{0}</speak>",
-                    b.ToString()
-                    ));
+                try
+                {
+                    if (bAsync)
+                        reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
+                                                "xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>{0}</speak>",
+                        b.ToString()
+                        ));
+                    else
+                        reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
+                                                "xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>{0}</speak>",
+                        b.ToString()
+                        ));
+                }
+                catch
+                {
+                    // ignore
+                }
                 
 
             }
@@ -333,8 +340,8 @@ namespace VokabelTrainer
                         (strCurrentCulture.StartsWith("en") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='en-US'") :
                     "In".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='en-US'" :
                     "Ан".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='en-US'" :
-                    "De".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
                     // german
+                    "De".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
                         (strCurrentCulture.StartsWith("de") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='de-DE'") :
                     "Al".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
                     "Не".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='de-DE'" :
@@ -351,6 +358,7 @@ namespace VokabelTrainer
                     "Hi".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     "Ин".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     "द्".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
+                    "भा".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     // japanese
                     "Ja".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ja-JP'" :
                     "Яп".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ja-JP'" :
@@ -382,18 +390,25 @@ namespace VokabelTrainer
 
                 if (!string.IsNullOrEmpty(strSSMLLanguageToSpeak))
                 {
-                    if (bAsync)
-                        reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
-                                                "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>", 
-                                                strSSMLLanguageToSpeak,
-                                                text
-                        ));
-                    else
-                        reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
-                                                "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
-                                                strSSMLLanguageToSpeak,
-                                                text
-                        ));
+                    try
+                    {
+                        if (bAsync)
+                            reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
+                                                    "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
+                                                    strSSMLLanguageToSpeak,
+                                                    text
+                            ));
+                        else
+                            reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
+                                                    "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
+                                                    strSSMLLanguageToSpeak,
+                                                    text
+                            ));
+                    }
+                    catch
+                    {
+                        // ignore
+                    }
                 }
             }
         }
