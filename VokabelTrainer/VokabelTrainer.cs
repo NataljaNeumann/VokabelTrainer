@@ -837,7 +837,7 @@ namespace VokabelTrainer
                         test.m_lblAskedTranslation.Text = _firstLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
+                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
                             Speaker.Say(_secondLanguage,pair.Key,true);
 
                         switch (test.ShowDialog())
@@ -970,7 +970,7 @@ namespace VokabelTrainer
                             }
                             else
                             {
-                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
+                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
                                     Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultSecondLanguage(pair.Key, true);
                             }
@@ -1263,7 +1263,7 @@ namespace VokabelTrainer
                         test.m_lblAskedTranslation.Text = _secondLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
+                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
                             Speaker.Say(_firstLanguage, pair.Key, true);
 
 
@@ -1397,7 +1397,7 @@ namespace VokabelTrainer
                             }
                             else
                             {
-                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
+                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
                                     Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
