@@ -118,60 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>Error!</value>
+    <value>¡Error!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>Error while loding training results XML file</value>
+    <value>Error al cargar el archivo XML de resultados de entrenamiento</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>An error happened while loading training results XML file: {0}</value>
+    <value>Se produjo un error al cargar el archivo XML de resultados de entrenamiento: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>Error while loding vocabulary XML file</value>
+    <value>Error al cargar el archivo XML de vocabulario</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>An error happened while loading vocabulary XML file: {0}</value>
+    <value>Se produjo un error al cargar el archivo XML de vocabulario: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>An error occured while saving training results file: {0}</value>
+    <value>Se produjo un error al guardar el archivo de resultados del entrenamiento: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>An error occured while saving vocabulary file:  {0}</value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>Exercise {0} - {1}</value>
+    <value>Se produjo un error al guardar el archivo de vocabulario: {0}</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Following meanings were missing: {0}</value>
+    <value>Faltaban los siguientes significados: {0}</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>Following entered meanings were wrong: </value>
+    <value>Los siguientes significados ingresados ​​eran incorrectos: </value>
   </data>
   <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>Following meaning was missing: </value>
+    <value>Faltaba el siguiente significado:</value>
   </data>
   <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>Following entered meaning was wrong: </value>
+    <value>El siguiente significado ingresado era incorrecto: </value>
   </data>
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>Following meanings were missing:  </value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>Intensive {0} - {1}</value>
+    <value>Faltaban los siguientes significados:  </value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Datei überschreiben?</value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>The language file "{0}" does already exis, do you want to overwrite it?</value>
-  </data>
-  <data name="LocalizedLicenseUrl" xml:space="preserve">
-    <value>https://www.gnu.org/licenses/gpl-2.0.html</value>
+    <value>El archivo de idioma "{0}" ya existe. ¿Desea sobrescribirlo?</value>
   </data>
   <data name="Mistake" xml:space="preserve">
-    <value>Mistake!</value>
-  </data>
-  <data name="MostIntensive" xml:space="preserve">
-    <value>Most Intensive {0} - {1}</value>
+    <value>¡Error! </value>
   </data>
 </root>

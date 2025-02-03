@@ -70,17 +70,27 @@ namespace VokabelTrainer
             }
             else
             {
-                m_btnExerciseSecondToFirst.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
-                m_btnExerciseFirstToSecond.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
+                m_btnExerciseSecondToFirst.Text = string.Format(Properties.Resources.Exercise, _secondLanguage, _firstLanguage);
+                //m_btnExerciseSecondToFirst.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
+                m_btnExerciseFirstToSecond.Text = string.Format(Properties.Resources.Exercise, _firstLanguage, _secondLanguage);
+                //m_btnExerciseFirstToSecond.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
                 m_btnIntensiveSecondToFirst.Enabled = m_btnExerciseSecondToFirst.Enabled = _trainingFirstLanguage.Count > 0;
                 m_btnIntensiveFirstToSecond.Enabled = m_btnExerciseFirstToSecond.Enabled = _trainingSecondLanguage.Count > 0;
                 m_lblReader.Enabled = m_cbxReader.Enabled = _trainingFirstLanguage.Count > 0 || _trainingSecondLanguage.Count > 0;
 
-                m_btnIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
-                m_btnIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
 
-                m_btnMostIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
-                m_btnMostIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
+                m_btnIntensiveSecondToFirst.Text = string.Format(Properties.Resources.Intensive, _secondLanguage, _firstLanguage);
+                m_btnIntensiveFirstToSecond.Text = string.Format(Properties.Resources.Intensive, _firstLanguage, _secondLanguage);
+
+                //m_btnIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
+                //m_btnIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
+
+
+                m_btnMostIntensiveSecondToFirst.Text = string.Format(Properties.Resources.MostIntensive, _secondLanguage, _firstLanguage );
+                m_btnMostIntensiveFirstToSecond.Text = string.Format(Properties.Resources.MostIntensive, _firstLanguage, _secondLanguage );
+
+                //m_btnMostIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
+                //m_btnMostIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
 
                 m_btnMostIntensiveSecondToFirst.Enabled = _totalNumberOfErrorsSecondLanguage > 0;
                 m_btnMostIntensiveFirstToSecond.Enabled = _totalNumberOfErrorsFirstLanguage > 0;
@@ -210,7 +220,8 @@ namespace VokabelTrainer
                 }
                 catch (Exception ex)
                 {
-                    NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Vokabeldatei", "Beim Laden der XML-Vokabeldatei ist der folgende Fehler aufgetreten: " + ex.Message);
+                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingXmlFileHeader, string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, ex.Message));
+                    //NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Vokabeldatei", "Beim Laden der XML-Vokabeldatei ist der folgende Fehler aufgetreten: " + ex.Message);
                     //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Laden der XML-Vokabeldatei", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                     _currentPath = null;
@@ -230,7 +241,8 @@ namespace VokabelTrainer
                 if (_currentPath!=null)
                 try {
 
-                    string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml");
+                    string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml")
+                        .Replace("Vocabulary.xml",".Training.xml");
                     System.IO.FileInfo fi = new System.IO.FileInfo(currentPath);
                     if (fi.Exists)
                     {
@@ -315,7 +327,9 @@ namespace VokabelTrainer
                 }
                 catch (Exception ex)
                 {
-                    NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Trainingdatei", "Beim Laden der XML-Trainingdatei ist der folgende Fehler aufgetreten: " + ex.Message);
+                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
+                        string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, ex.Message));
+                    //NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Trainingdatei", "Beim Laden der XML-Trainingdatei ist der folgende Fehler aufgetreten: " + ex.Message);
                     //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Laden der XML-Vokabeldatei", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                     _currentPath = null;
@@ -345,7 +359,11 @@ namespace VokabelTrainer
                     System.IO.FileInfo fi = new System.IO.FileInfo(newPath);
                     if (fi.Exists)
                     {
-                        if (System.Windows.Forms.MessageBox.Show(this, "Die Sprachdatei existiert bereits: \"" + newPath + "\", möchten Sie diese überschreiben?", "Datei überschreiben?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                        if (System.Windows.Forms.MessageBox.Show(this, 
+                            string.Format(Properties.Resources.LanguageFileAlreadyExistsMessage, newPath), 
+                            Properties.Resources.LanguageFileAlreadyExistsHeader, MessageBoxButtons.YesNo, MessageBoxIcon.Question) 
+                            != DialogResult.Yes)
+                        //if (System.Windows.Forms.MessageBox.Show(this, "Die Sprachdatei existiert bereits: \"" + newPath + "\", möchten Sie diese überschreiben?", "Datei überschreiben?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
                             return;
                     };
                     _currentPath = newPath;
@@ -819,7 +837,7 @@ namespace VokabelTrainer
                         test.m_lblAskedTranslation.Text = _firstLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
+                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
                             Speaker.Say(_secondLanguage,pair.Key,true);
 
                         switch (test.ShowDialog())
@@ -872,7 +890,9 @@ namespace VokabelTrainer
                                 if (missing.Count > 1)
                                 {
                                     string textToSpeak = "";
-                                    errorMessage = "Folgende Bedeutungen haben gefehlt: ";
+
+                                    errorMessage = Properties.Resources.FollowingMeaningWereMissing;
+                                    //errorMessage = "Folgende Bedeutungen haben gefehlt: ";
                                     bool bFirst = true;
                                     foreach (string s in missing.Keys)
                                     {
@@ -895,7 +915,8 @@ namespace VokabelTrainer
                                 else
                                     if (missing.Count == 1)
                                     {
-                                        errorMessage = "Folgende Bedeutung hat gefehlt: ";
+                                        errorMessage = Properties.Resources.FollowingMeaningWasMissing;
+                                        //errorMessage = "Folgende Bedeutung hat gefehlt: ";
                                         foreach (string s in missing.Keys)
                                         {
                                             errorMessage = errorMessage + s + ". ";
@@ -911,7 +932,7 @@ namespace VokabelTrainer
                                 if (wrong.Count > 1)
                                 {
 
-                                    errorMessage = errorMessage + "Folgende eingegebene Bedeutungen waren falsch: ";
+                                    errorMessage = errorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
                                     foreach (string s in wrong.Keys)
                                     {
@@ -930,7 +951,7 @@ namespace VokabelTrainer
                                 else
                                     if (wrong.Count == 1)
                                     {
-                                        errorMessage = errorMessage + "Folgende eingegebene Bedeutung war falsch: ";
+                                        errorMessage = errorMessage + Properties.Resources.FollowingMeaningWasWrong;
                                         foreach (string s in wrong.Keys)
                                         {
                                             errorMessage = errorMessage + s + ". ";
@@ -940,16 +961,16 @@ namespace VokabelTrainer
                                     }
 
                                 if (missing.Count > 0)
-                                    NewMessageBox.Show(this, errorMessage, "Fehler!", null);
+                                    NewMessageBox.Show(this, errorMessage, Properties.Resources.Mistake, null);
                                 else
-                                    MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    MessageBox.Show(errorMessage, Properties.Resources.Mistake, MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 //MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, missing.Count>0? MessageBoxIcon.None:MessageBoxIcon.Error);
 
                                 RememberResultSecondLanguage(pair.Key, false);
                             }
                             else
                             {
-                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
+                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
                                     Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultSecondLanguage(pair.Key, true);
                             }
@@ -1090,7 +1111,8 @@ namespace VokabelTrainer
                 {
                 };
 
-                NewMessageBox.Show(this, ex.Message, "Fehler!", "Beim Speichern der Vokabeldatei ist folgender Fehler aufgetreten: " + ex.Message);
+                NewMessageBox.Show(this, ex.Message, Properties.Resources.Error, 
+                    string.Format(Properties.Resources.ErrorWhileSavingVocabularyFile, ex.Message));
                 //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Speichern", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -1098,7 +1120,8 @@ namespace VokabelTrainer
 
         bool SaveTrainingProgress()
         {
-            string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml");
+            string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml")
+                .Replace(".Vocabulary.xml",".Training.xml");
             System.IO.FileInfo fi = new System.IO.FileInfo(currentPath);
 
             try
@@ -1185,7 +1208,8 @@ namespace VokabelTrainer
                 {
                 };
 
-                NewMessageBox.Show(this, ex.Message, "Fehler!", "Beim Speichern der Training-Datei ist folgender Fehler aufgetreten: " + ex.Message);
+                NewMessageBox.Show(this, ex.Message, Properties.Resources.Error, 
+                    string.Format(Properties.Resources.ErrorWhileSavingTrainingFile,ex.Message));
                 //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Speichern", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
@@ -1239,7 +1263,7 @@ namespace VokabelTrainer
                         test.m_lblAskedTranslation.Text = _secondLanguage + ":";
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
-                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
+                        if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
                             Speaker.Say(_firstLanguage, pair.Key, true);
 
 
@@ -1293,7 +1317,7 @@ namespace VokabelTrainer
                                 if (missing.Count > 1)
                                 {
                                     string textToSpeak = "";
-                                    errorMessage = "Folgende Bedeutungen haben gefehlt: ";
+                                    errorMessage = Properties.Resources.FollowingMeaningsWereMissing;
                                     bool bFirst = true;
                                     foreach (string s in missing.Keys)
                                     {
@@ -1316,7 +1340,7 @@ namespace VokabelTrainer
                                 else
                                     if (missing.Count == 1)
                                     {
-                                        errorMessage = "Folgende Bedeutung hat gefehlt: ";
+                                        errorMessage = Properties.Resources.FollowingMeaningWasMissing;
                                         foreach (string s in missing.Keys)
                                         {
                                             errorMessage = errorMessage + s + ". ";
@@ -1334,7 +1358,7 @@ namespace VokabelTrainer
                                 if (wrong.Count > 1)
                                 {
 
-                                    errorMessage = errorMessage + "Folgende eingegebene Bedeutungen waren falsch: ";
+                                    errorMessage = errorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
                                     foreach (string s in wrong.Keys)
                                     {
@@ -1353,7 +1377,7 @@ namespace VokabelTrainer
                                 else
                                     if (wrong.Count == 1)
                                     {
-                                        errorMessage = errorMessage + "Folgende eingegebene Bedeutung war falsch: ";
+                                        errorMessage = errorMessage + Properties.Resources.FollowingMeaningWasWrong;
                                         foreach (string s in wrong.Keys)
                                         {
                                             errorMessage = errorMessage + s + ". ";
@@ -1364,16 +1388,16 @@ namespace VokabelTrainer
 
 
                                 if (missing.Count > 0)
-                                    NewMessageBox.Show(this, errorMessage, "Fehler!", null);
+                                    NewMessageBox.Show(this, errorMessage, Properties.Resources.Mistake, null);
                                 else
-                                    MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    MessageBox.Show(errorMessage, Properties.Resources.Mistake, MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 //MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, missing.Count>0? MessageBoxIcon.None:MessageBoxIcon.Error);
 
                                 RememberResultFirstLanguage(pair.Key, false);
                             }
                             else
                             {
-                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
+                                if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
                                     Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }

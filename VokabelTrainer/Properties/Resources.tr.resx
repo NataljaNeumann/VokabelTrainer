@@ -118,60 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>Error!</value>
+    <value>Hata!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>Error while loding training results XML file</value>
+    <value>Eğitim sonuçları XML dosyası yüklenirken hata oluştu</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>An error happened while loading training results XML file: {0}</value>
+    <value>Eğitim sonuçları XML dosyası yüklenirken bir hata oluştu: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>Error while loding vocabulary XML file</value>
+    <value>Kelime XML dosyası yüklenirken hata oluştu</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>An error happened while loading vocabulary XML file: {0}</value>
+    <value>Kelime XML dosyası yüklenirken bir hata oluştu: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>An error occured while saving training results file: {0}</value>
+    <value>Eğitim sonuçları dosyası kaydedilirken bir hata oluştu: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>An error occured while saving vocabulary file:  {0}</value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>Exercise {0} - {1}</value>
+    <value>Kelime dosyası kaydedilirken bir hata oluştu: {0}</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Following meanings were missing: {0}</value>
+    <value>Şu anlamlar eksikti: {0}</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>Following entered meanings were wrong: </value>
+    <value>Aşağıdaki girilen anlamlar yanlıştı: </value>
   </data>
   <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>Following meaning was missing: </value>
+    <value>Aşağıdaki anlam eksikti:</value>
   </data>
   <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>Following entered meaning was wrong: </value>
+    <value>Aşağıdaki girilen anlam yanlıştı: </value>
   </data>
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>Following meanings were missing:  </value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>Intensive {0} - {1}</value>
+    <value>Aşağıdaki anlamlar eksikti:  </value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>Datei überschreiben?</value>
+    <value>Dosyanın üzerine yazılsın mı?</value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>The language file "{0}" does already exis, do you want to overwrite it?</value>
-  </data>
-  <data name="LocalizedLicenseUrl" xml:space="preserve">
-    <value>https://www.gnu.org/licenses/gpl-2.0.html</value>
+    <value>"{0}" dil dosyası zaten mevcut, üzerine yazmak istiyor musunuz?</value>
   </data>
   <data name="Mistake" xml:space="preserve">
-    <value>Mistake!</value>
-  </data>
-  <data name="MostIntensive" xml:space="preserve">
-    <value>Most Intensive {0} - {1}</value>
+    <value>Hata! </value>
   </data>
 </root>

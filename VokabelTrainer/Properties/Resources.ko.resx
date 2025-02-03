@@ -118,60 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>Error!</value>
+    <value>오류!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>Error while loding training results XML file</value>
+    <value>훈련 결과 XML 파일을 로드하는 중 오류가 발생했습니다.</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>An error happened while loading training results XML file: {0}</value>
+    <value>학습 결과 XML 파일을 로드하는 중 오류가 발생했습니다: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>Error while loding vocabulary XML file</value>
+    <value>어휘 XML 파일을 로드하는 중 오류가 발생했습니다.</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>An error happened while loading vocabulary XML file: {0}</value>
+    <value>어휘 XML 파일을 로드하는 중 오류가 발생했습니다: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>An error occured while saving training results file: {0}</value>
+    <value>훈련 결과 파일을 저장하는 동안 오류가 발생했습니다: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>An error occured while saving vocabulary file:  {0}</value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>Exercise {0} - {1}</value>
+    <value>어휘 파일을 저장하는 동안 오류가 발생했습니다: {0}</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Following meanings were missing: {0}</value>
+    <value>다음 의미가 누락되었습니다: {0}</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>Following entered meanings were wrong: </value>
+    <value>다음 입력된 의미가 잘못되었습니다. </value>
   </data>
   <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>Following meaning was missing: </value>
+    <value>다음 의미가 누락되었습니다.</value>
   </data>
   <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>Following entered meaning was wrong: </value>
+    <value>다음 입력된 의미가 잘못되었습니다. </value>
   </data>
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>Following meanings were missing:  </value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>Intensive {0} - {1}</value>
+    <value>다음 의미가 누락되었습니다.  </value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Datei überschreiben?</value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>The language file "{0}" does already exis, do you want to overwrite it?</value>
-  </data>
-  <data name="LocalizedLicenseUrl" xml:space="preserve">
-    <value>https://www.gnu.org/licenses/gpl-2.0.html</value>
+    <value>언어 파일 "{0}"이(가) 이미 존재합니다. 덮어쓰시겠습니까?</value>
   </data>
   <data name="Mistake" xml:space="preserve">
-    <value>Mistake!</value>
-  </data>
-  <data name="MostIntensive" xml:space="preserve">
-    <value>Most Intensive {0} - {1}</value>
+    <value>실수! </value>
   </data>
 </root>
