@@ -18,6 +18,7 @@
 
 using System;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace VokabelTrainer
 {
@@ -29,6 +30,11 @@ namespace VokabelTrainer
         [STAThread]
         static void Main()
         {
+#if DEBUG
+            //System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("de-CH");
+            //System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-CH");
+#endif
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VokabelTrainer());
