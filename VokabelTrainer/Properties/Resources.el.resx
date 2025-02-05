@@ -162,4 +162,13 @@
   <data name="Mistake" xml:space="preserve">
     <value>Λάθος! </value>
   </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>{0} - {1} εξάσκηση</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>{0} - {1} εντατική</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>{0} - {1} πιο έντονες </value>
+  </data>
 </root>

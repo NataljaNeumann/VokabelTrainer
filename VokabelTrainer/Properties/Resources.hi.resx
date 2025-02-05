@@ -162,4 +162,13 @@
   <data name="Mistake" xml:space="preserve">
     <value>गलती!</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} अभ्यास</value>
+  </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} गहन</value>
+  </data>
+  <data name="MostIntensive" xml:space="preserve">
+    <value>{0} - {1} सबसे तीव्र</value>
+  </data>
 </root>

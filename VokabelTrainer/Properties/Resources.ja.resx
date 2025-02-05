@@ -162,4 +162,13 @@
   <data name="Mistake" xml:space="preserve">
     <value>間違い！ </value>
   </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>{0} - {1} の練習</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>{0} - {1} 集中型</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>{0} - {1} が最も激しい </value>
+  </data>
 </root>

@@ -162,4 +162,13 @@
   <data name="Mistake" xml:space="preserve">
     <value>Errore! </value>
   </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>{0} - {1} pratica</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>{0} - {1} intensivo</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>{0} - {1} più intenso </value>
+  </data>
 </root>
