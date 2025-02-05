@@ -154,7 +154,7 @@
     <value>다음 의미가 누락되었습니다.  </value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>Datei überschreiben?</value>
+    <value>파일을 덮어쓰시겠습니까? </value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>언어 파일 "{0}"이(가) 이미 존재합니다. 덮어쓰시겠습니까?</value>

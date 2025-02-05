@@ -160,7 +160,7 @@
     <value>Intensive {0} - {1}</value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>Datei überschreiben?</value>
+    <value>Overwrite file? </value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>The language file "{0}" does already exis, do you want to overwrite it?</value>

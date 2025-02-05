@@ -154,7 +154,7 @@
     <value>Faltavam os seguintes significados:  </value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>Datei überschreiben?</value>
+    <value>Substituir arquivo? </value>
   </data>
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>O arquivo de idioma "{0}" já existe. Deseja substituí-lo?</value>
