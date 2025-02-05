@@ -1,5 +1,6 @@
 VokabelTrainer/obj/**
 VokabelTrainer/bin/Release/**
 VokabelTrainer/bin/Debug/**
+*.csv
 *.user
 *.suo
