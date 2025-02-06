@@ -159,6 +159,8 @@ namespace VokabelTrainer
             this.m_chkSecondLanguageRTL.AccessibleName = null;
             resources.ApplyResources(this.m_chkSecondLanguageRTL, "m_chkSecondLanguageRTL");
             this.m_chkSecondLanguageRTL.BackgroundImage = null;
+            this.m_chkSecondLanguageRTL.Checked = true;
+            this.m_chkSecondLanguageRTL.CheckState = System.Windows.Forms.CheckState.Checked;
             this.m_chkSecondLanguageRTL.Font = null;
             this.m_chkSecondLanguageRTL.Name = "m_chkSecondLanguageRTL";
             this.m_chkSecondLanguageRTL.UseVisualStyleBackColor = true;

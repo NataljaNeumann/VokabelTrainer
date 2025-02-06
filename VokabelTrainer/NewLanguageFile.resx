@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;m_tbxSecondLanguage.Name" xml:space="preserve">
+    <value>m_tbxSecondLanguage</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_tbxFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 33</value>
@@ -165,23 +168,23 @@
   <data name="m_chkFirstLanguageRTL.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="m_chkLanguageFileModifiable.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>519, 220</value>
   </data>
-  <data name="m_chkLanguageFileModifiable.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="&gt;&gt;m_chkLanguageFileUnderGPL2.Name" xml:space="preserve">
     <value>m_chkLanguageFileUnderGPL2</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 20</value>
+  </data>
+  <data name="&gt;&gt;m_btnCreateLanguageFile.Name" xml:space="preserve">
+    <value>m_btnCreateLanguageFile</value>
+  </data>
+  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
   </data>
   <data name="m_btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -207,8 +210,8 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>
-  <data name="&gt;&gt;m_tbxFirstLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_chkLanguageFileUnderGPL2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="m_btnCreateLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>295, 177</value>
@@ -288,9 +291,6 @@
   <data name="&gt;&gt;m_lblSecondLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_chkSecondLanguageRTL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;m_chkSecondLanguageRTL.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -317,6 +317,9 @@
   </data>
   <data name="&gt;&gt;m_lblSecondLanguage.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -366,14 +369,11 @@
   <data name="&gt;&gt;m_chkLanguageFileModifiable.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_btnCreateLanguageFile.Name" xml:space="preserve">
-    <value>m_btnCreateLanguageFile</value>
+  <data name="m_chkLanguageFileModifiable.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;m_btnCancel.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;m_chkLanguageFileModifiable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 136</value>
@@ -396,8 +396,8 @@
   <data name="m_chkLanguageFileModifiable.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;m_tbxSecondLanguage.Name" xml:space="preserve">
-    <value>m_tbxSecondLanguage</value>
+  <data name="m_chkLanguageFileModifiable.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 28</value>
@@ -411,14 +411,14 @@
   <data name="m_chkSecondLanguageRTL.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;m_chkLanguageFileUnderGPL2.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;m_chkLanguageFileModifiable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_lblFirstLanguage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 16</value>
+  <data name="m_chkSecondLanguageRTL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="m_lblFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 11</value>
@@ -429,8 +429,8 @@
   <data name="&gt;&gt;m_tbxSecondLanguage.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;m_tbxFirstLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_chkFirstLanguageRTL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
