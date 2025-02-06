@@ -117,53 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 214</value>
-  </data>
-  <data xml:space="preserve" name="m_btnLoadLanguageFile.Text">
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Открыть языковой файл</value>
   </data>
-  <data xml:space="preserve" name="m_btnEnterVocabulary.Text">
-    <value>Введите словарь</value>
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
+    <value>Ввод словаря</value>
   </data>
-  <data xml:space="preserve" name="m_btnNewLanguageFile.Text">
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>Новый языковой файл</value>
   </data>
-  <data xml:space="preserve" name="m_dlgOpenFileDialog.Filter">
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Файлы словарей|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicenceLocalised.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 246</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 16</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
     <value>Перевод текста лицензии</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicense.Text">
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 214</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 16</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Лицензия (GPL v2)</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowAbout.Text">
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 246</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 16</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Информация о словарном тренажере</value>
   </data>
-  <data xml:space="preserve" name="m_btnShowDesktopKeyboard.Text">
-    <value>Экранная клавиатура (osk.exe)</value>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Экранная клав. (osk.exe)</value>
   </data>
-  <data xml:space="preserve" name="m_lblReader.Text">
-    <value>Прочитайте вслух:</value>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items">
+  <data name="m_lblReader.Text" xml:space="preserve">
+    <value>Прочитать вслух:</value>
+  </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
     <value>Отображаемый язык</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items1">
+  <data name="m_cbxReader.Items1" xml:space="preserve">
     <value>Проверенный язык</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items2">
+  <data name="m_cbxReader.Items2" xml:space="preserve">
     <value>Первый язык</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items3">
+  <data name="m_cbxReader.Items3" xml:space="preserve">
     <value>Второй язык</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items4">
+  <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Только в случае ошибок</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 212</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 21</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
     <value>Тренажер словарного запаса </value>
   </data>
 </root>

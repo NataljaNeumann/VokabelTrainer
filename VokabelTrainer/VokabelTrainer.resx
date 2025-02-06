@@ -131,6 +131,9 @@
     <value>466, 214</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_btnEnterVocabulary.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="m_btnIntensiveFirstToSecond.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
@@ -147,9 +150,6 @@
   <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
     <value>m_lblShowAbout</value>
   </data>
-  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
     <value>m_btnShowDesktopKeyboard</value>
   </data>
@@ -161,9 +161,6 @@
   </data>
   <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
   </data>
   <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -249,8 +246,8 @@
   <data name="&gt;&gt;m_btnExerciseFirstToSecond.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Load language file</value>
@@ -342,6 +339,9 @@
   <data name="&gt;&gt;m_lblShowAbout.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;m_btnIntensiveFirstToSecond.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;m_btnLoadLanguageFile.Name" xml:space="preserve">
     <value>m_btnLoadLanguageFile</value>
   </data>
@@ -383,6 +383,9 @@
   </data>
   <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Name" xml:space="preserve">
     <value>m_btnMostIntensiveSecondToFirst</value>
@@ -440,9 +443,6 @@
   </data>
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Enter vocabulary</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
-    <value>m_lblShowLicenceLocalised</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 61</value>
@@ -561,11 +561,11 @@
   <data name="&gt;&gt;m_btnNewLanguageFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="m_btnEnterVocabulary.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 16</value>
+  <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
+    <value>m_lblShowLicenceLocalised</value>
   </data>
   <data name="m_btnLoadLanguageFile.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

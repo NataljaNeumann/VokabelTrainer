@@ -117,53 +117,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 214</value>
-  </data>
-  <data xml:space="preserve" name="m_btnLoadLanguageFile.Text">
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Dil dosyasını aç</value>
   </data>
-  <data xml:space="preserve" name="m_btnEnterVocabulary.Text">
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Kelime girin</value>
   </data>
-  <data xml:space="preserve" name="m_btnNewLanguageFile.Text">
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>Yeni dil dosyası</value>
   </data>
-  <data xml:space="preserve" name="m_dlgOpenFileDialog.Filter">
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Kelime dosyaları|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicenceLocalised.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 214</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 16</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
     <value>Lisans metninin tercümesi</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicense.Text">
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Lisans (GPL v2)</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowAbout.Text">
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 249</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 16</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Kelime eğitmenleri hakkında bilgi</value>
   </data>
-  <data xml:space="preserve" name="m_btnShowDesktopKeyboard.Text">
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Ekran klavyesi (osk.exe)</value>
   </data>
-  <data xml:space="preserve" name="m_lblReader.Text">
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="m_lblReader.Text" xml:space="preserve">
     <value>Yüksek sesle okuyun:</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items">
+  <data name="m_cbxReader.Items" xml:space="preserve">
     <value>Görüntülenen dil</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items1">
+  <data name="m_cbxReader.Items1" xml:space="preserve">
     <value>Test edilen dil</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items2">
+  <data name="m_cbxReader.Items2" xml:space="preserve">
     <value>İlk dil</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items3">
+  <data name="m_cbxReader.Items3" xml:space="preserve">
     <value>İkinci dil</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items4">
+  <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Yalnızca hata durumunda</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 213</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 21</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
     <value>Kelime antrenörü</value>
   </data>
 </root>

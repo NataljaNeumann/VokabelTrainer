@@ -117,53 +117,84 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 214</value>
-  </data>
-  <data xml:space="preserve" name="m_btnLoadLanguageFile.Text">
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Ανοίξτε το αρχείο γλώσσας</value>
   </data>
-  <data xml:space="preserve" name="m_btnEnterVocabulary.Text">
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Εισαγάγετε λεξιλόγιο</value>
   </data>
-  <data xml:space="preserve" name="m_btnNewLanguageFile.Text">
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>Νέο αρχείο γλώσσας</value>
   </data>
-  <data xml:space="preserve" name="m_dlgOpenFileDialog.Filter">
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Αρχεία λεξιλογίου|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicenceLocalised.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 253</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 16</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
     <value>Μετάφραση του κειμένου της άδειας</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicense.Text">
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_lblShowLicenceLocalised.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 214</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 16</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Άδεια χρήσης (GPL v2)</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowAbout.Text">
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 237</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 16</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Πληροφορίες για εκπαιδευτές λεξιλογίου</value>
   </data>
-  <data xml:space="preserve" name="m_btnShowDesktopKeyboard.Text">
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Πληκτρολόγιο οθόνης (osk.exe)</value>
   </data>
-  <data xml:space="preserve" name="m_lblReader.Text">
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="m_lblReader.Text" xml:space="preserve">
     <value>Διαβάστε δυνατά:</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items">
+  <data name="m_cbxReader.Items" xml:space="preserve">
     <value>Εμφανίζεται η γλώσσα</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items1">
+  <data name="m_cbxReader.Items1" xml:space="preserve">
     <value>Δοκιμασμένη γλώσσα</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items2">
+  <data name="m_cbxReader.Items2" xml:space="preserve">
     <value>Πρώτη γλώσσα</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items3">
+  <data name="m_cbxReader.Items3" xml:space="preserve">
     <value>Δεύτερη γλώσσα</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items4">
+  <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Μόνο σε περίπτωση σφαλμάτων</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 213</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 276</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
     <value>Εκπαιδευτής λεξιλογίου </value>
   </data>
 </root>

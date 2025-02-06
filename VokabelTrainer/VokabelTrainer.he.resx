@@ -117,53 +117,82 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 214</value>
-  </data>
-  <data xml:space="preserve" name="m_btnLoadLanguageFile.Text">
+  <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>פתח את קובץ השפה</value>
   </data>
-  <data xml:space="preserve" name="m_btnEnterVocabulary.Text">
+  <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>הזן אוצר מילים</value>
   </data>
-  <data xml:space="preserve" name="m_btnNewLanguageFile.Text">
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>קובץ שפה חדש</value>
   </data>
-  <data xml:space="preserve" name="m_dlgOpenFileDialog.Filter">
+  <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>קבצי אוצר מילים|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicenceLocalised.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 246</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 16</value>
+  </data>
+  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
     <value>תרגום טקסט הרישיון</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowLicense.Text">
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>רישיון (GPL v2)</value>
   </data>
-  <data xml:space="preserve" name="m_lblShowAbout.Text">
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 214</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 16</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>מידע על מאמן אוצר המילים</value>
   </data>
-  <data xml:space="preserve" name="m_btnShowDesktopKeyboard.Text">
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>מקלדת על המסך (osk.exe)</value>
   </data>
-  <data xml:space="preserve" name="m_lblReader.Text">
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="m_lblReader.Text" xml:space="preserve">
     <value>קרא בקול:</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items">
+  <data name="m_cbxReader.Items" xml:space="preserve">
     <value>השפה מוצגת</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items1">
+  <data name="m_cbxReader.Items1" xml:space="preserve">
     <value>שפה בדוקה</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items2">
+  <data name="m_cbxReader.Items2" xml:space="preserve">
     <value>שפה ראשונה</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items3">
+  <data name="m_cbxReader.Items3" xml:space="preserve">
     <value>שפה שניה</value>
   </data>
-  <data xml:space="preserve" name="m_cbxReader.Items4">
+  <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>רק במקרה של טעויות</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 212</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
     <value>מאמן אוצר מילים </value>
   </data>
 </root>
