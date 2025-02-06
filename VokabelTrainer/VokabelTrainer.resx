@@ -147,6 +147,9 @@
   <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
     <value>m_lblShowAbout</value>
   </data>
+  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
     <value>m_btnShowDesktopKeyboard</value>
   </data>
@@ -159,14 +162,14 @@
   <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>Vocabulary files|*.Vokabeln.xml;*.Vocabulary.xml</value>
+    <value>Vocabulary files|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.Name" xml:space="preserve">
     <value>m_btnMostIntensiveFirstToSecond</value>
@@ -236,9 +239,6 @@
   </data>
   <data name="&gt;&gt;m_lblReader.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>634, 274</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -441,6 +441,9 @@
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>Enter vocabulary</value>
   </data>
+  <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
+    <value>m_lblShowLicenceLocalised</value>
+  </data>
   <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 61</value>
   </data>
@@ -450,11 +453,8 @@
   <data name="&gt;&gt;m_btnNewLanguageFile.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
-    <value>m_lblShowLicenceLocalised</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 274</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -498,8 +498,8 @@
   <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
     <value>477, 246</value>
   </data>
-  <data name="&gt;&gt;m_cbxReader.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;m_lblShowLicenceLocalised.ZOrder" xml:space="preserve">
     <value>5</value>
