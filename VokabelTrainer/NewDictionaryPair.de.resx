@@ -120,10 +120,6 @@
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>Erste Sprache</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 24</value>
-  </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Zweite Sprache</value>
   </data>
