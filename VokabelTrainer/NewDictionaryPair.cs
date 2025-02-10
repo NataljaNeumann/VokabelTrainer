@@ -28,16 +28,23 @@ namespace VokabelTrainer
     {
         bool _bAlreadySaid;
 
-        public NewDictionaryPair()
+        bool m_bUseESpeak;
+        string m_strEspeakPath;
+
+        public NewDictionaryPair(bool bUseESpeak, string strEspeakPath)
         {
             InitializeComponent();
+
+            m_bUseESpeak = bUseESpeak;
+            m_strEspeakPath = strEspeakPath;
+
         }
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
             if (!_bAlreadySaid && textBoxSecondLanguage.Text.Length > 0)
             {
-                Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true);
+                Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
                 _bAlreadySaid = true;
             }
 
@@ -65,12 +72,12 @@ namespace VokabelTrainer
 
         private void textBoxFirstLanguage_Leave(object sender, EventArgs e)
         {
-            Speaker.Say(m_lblFirstLanguage.Text, m_tbxFirstLanguage.Text, true);
+            Speaker.Say(m_lblFirstLanguage.Text, m_tbxFirstLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
         }
 
         private void textBoxSecondLanguage_Leave(object sender, EventArgs e)
         {
-            Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true);
+            Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
             _bAlreadySaid = true;
         }
 

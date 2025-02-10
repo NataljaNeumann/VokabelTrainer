@@ -436,7 +436,7 @@ namespace VokabelTrainer
                 while (bRepeat2)
                 {
                     bRepeat2 = false;
-                    using (NewDictionaryPair pair = new NewDictionaryPair())
+                    using (NewDictionaryPair pair = new NewDictionaryPair(m_chkUseESpeak.Checked, m_tbxESpeakPath.Text))
                     {
                         char[] separators = { ',', ';' };
                         pair.m_lblFirstLanguage.Text = _firstLanguage + ":";
@@ -859,7 +859,7 @@ namespace VokabelTrainer
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
-                            Speaker.Say(_secondLanguage,pair.Key,true);
+                            Speaker.Say(_secondLanguage,pair.Key,true,m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                         switch (test.ShowDialog())
                         {
@@ -930,7 +930,7 @@ namespace VokabelTrainer
                                     }
                                     errorMessage = errorMessage + ". ";
 
-                                    Speaker.Say(_firstLanguage, textToSpeak, true);
+                                    Speaker.Say(_firstLanguage, textToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
@@ -942,7 +942,7 @@ namespace VokabelTrainer
                                         {
                                             errorMessage = errorMessage + s + ". ";
 
-                                            Speaker.Say(_firstLanguage, s, true);
+                                            Speaker.Say(_firstLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                         }
                                     }
@@ -992,7 +992,7 @@ namespace VokabelTrainer
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
-                                    Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
+                                    Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
                                 RememberResultSecondLanguage(pair.Key, true);
                             }
                         }
@@ -1291,7 +1291,7 @@ namespace VokabelTrainer
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
-                            Speaker.Say(_firstLanguage, pair.Key, true);
+                            Speaker.Say(_firstLanguage, pair.Key, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                         switch (test.ShowDialog())
@@ -1361,7 +1361,7 @@ namespace VokabelTrainer
                                     }
                                     errorMessage = errorMessage + ". ";
 
-                                    Speaker.Say(_secondLanguage, textToSpeak, true);
+                                    Speaker.Say(_secondLanguage, textToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
@@ -1373,7 +1373,7 @@ namespace VokabelTrainer
                                             errorMessage = errorMessage + s + ". ";
 
 
-                                            Speaker.Say(_secondLanguage, s, true);
+                                            Speaker.Say(_secondLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                                         }
@@ -1425,7 +1425,7 @@ namespace VokabelTrainer
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
-                                    Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true);
+                                    Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
                         }
@@ -1654,6 +1654,37 @@ namespace VokabelTrainer
                 _rnd = new Random(_rnd.Next() + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond + (e.X & 3) * 256);
             if (_rnd2 != null)
                 _rnd2 = new Random(_rnd2.Next() + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear + (e.Y & 3) * 256);
+        }
+
+        private void m_lblDownloadESpeak_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://espeak.sourceforge.net/");
+        }
+
+        private void m_chkUseESpeak_CheckedChanged(object sender, EventArgs e)
+        {
+            m_tbxESpeakPath.Enabled = m_chkUseESpeak.Checked;
+            m_btnSearchESpeak.Enabled = m_chkUseESpeak.Checked;
+        }
+
+        private void m_btnSearchESpeak_Click(object sender, EventArgs e)
+        {
+            using (System.Windows.Forms.OpenFileDialog oDlg = new OpenFileDialog())
+            {
+                oDlg.Filter = "espeak|espeak.exe";
+                oDlg.FileName = "espeak.exe";
+                oDlg.CheckFileExists = true;
+                if (oDlg.ShowDialog() == DialogResult.OK)
+                {
+                    m_tbxESpeakPath.Text = oDlg.FileName;
+                }
+            }
+        }
+
+        private void VokabelTrainer_Load(object sender, EventArgs e)
+        {
+            m_tbxESpeakPath.Text = "C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe";
+            m_chkUseESpeak.Checked = System.IO.File.Exists(m_tbxESpeakPath.Text);
         }
 
     }

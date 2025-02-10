@@ -24,13 +24,14 @@ namespace VokabelTrainer
 {
     class Speaker
     {
-        public static void Say(string language, string text, bool bAsync)
+        public static void Say(string language, string text, bool bAsync, bool bUseESpeak, string strESpeakPath)
         {
             language = language.Substring(0,2); 
             System.Speech.Synthesis.SpeechSynthesizer reader = new System.Speech.Synthesis.SpeechSynthesizer();
 
-            if ("Ru".Equals(language, StringComparison.InvariantCultureIgnoreCase) ||
-                "Ру".Equals(language, StringComparison.CurrentCultureIgnoreCase))
+            if ((!bUseESpeak || string.IsNullOrEmpty(strESpeakPath)) &&
+                ("Ru".Equals(language, StringComparison.InvariantCultureIgnoreCase) ||
+                "Ру".Equals(language, StringComparison.CurrentCultureIgnoreCase)))
             {
                 text = (text+" ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ").Replace("!", " ").Replace("  ", " ").Replace("  ", " ").
                     Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
@@ -350,6 +351,11 @@ namespace VokabelTrainer
                     "Es".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
                         (strCurrentCulture.StartsWith("es") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='es-ES'") :
                     "Ис".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='es-ES'" :
+                    // russian
+                    "Ru".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ru-RU'" :
+                    "Ру".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
+                        (strCurrentCulture.StartsWith("ru") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ru-RU'") :
+                    "ру".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ru-RU'" :
                     // french
                     "Fr".Equals(language, StringComparison.InvariantCultureIgnoreCase) ?
                         (strCurrentCulture.StartsWith("fr") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='fr-FR'") :
@@ -383,32 +389,74 @@ namespace VokabelTrainer
                     // arab
                     "Ar".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ar-SA'" :
                     "Ар".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ar-SA'" :
-                    "عر".Equals(language, StringComparison.CurrentCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("ar") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ar-SA'") :
+                    "عر".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? 
+                    (strCurrentCulture.StartsWith("ar") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ar-SA'") :
                     "";
 
 
                 if (!string.IsNullOrEmpty(strSSMLLanguageToSpeak))
                 {
+                    string strSsml = string.Format(@"<speak version='1.0' " +
+                                                            "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
+                                                            strSSMLLanguageToSpeak,
+                                                            text);
+                    bool bFallback = true;
                     try
                     {
-                        if (bAsync)
-                            reader.SpeakSsmlAsync(string.Format(@"<speak version='1.0' " +
-                                                    "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
-                                                    strSSMLLanguageToSpeak,
-                                                    text
-                            ));
-                        else
-                            reader.SpeakSsml(string.Format(@"<speak version='1.0' " +
-                                                    "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
-                                                    strSSMLLanguageToSpeak,
-                                                    text
-                            ));
+                        bFallback = !bUseESpeak || string.IsNullOrEmpty(strESpeakPath) || !System.IO.File.Exists(strESpeakPath);
+
+                        if (!bFallback)
+                        {
+                            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo
+                            {
+                                FileName = strESpeakPath, // Replace with your executable file
+                                Arguments = "-m \""+strSsml+"\"", // Replace with any arguments if needed
+                                RedirectStandardOutput = true,
+                                RedirectStandardInput = true,
+                                UseShellExecute = false,
+                                CreateNoWindow = true,
+                                WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden
+                            };
+
+                            // Start the process
+                            using (System.Diagnostics.Process process = System.Diagnostics.Process.Start(startInfo))
+                            {
+                                process.StandardInput.Write(strSsml);
+                                process.StandardInput.Close();
+
+                                if (!bAsync)
+                                {
+                                    // Wait for the process to exit
+                                    process.WaitForExit();
+
+                                    // Read the output if needed
+                                    string output = process.StandardOutput.ReadToEnd();
+                                }
+                                bFallback = false;
+
+                            }
+                        }
                     }
                     catch
                     {
-                        // ignore
+                        bFallback = true;
                     }
+
+                    if (bFallback)
+                    {
+                        try
+                        {
+                            if (bAsync)
+                                reader.SpeakSsmlAsync(strSsml);
+                            else
+                                reader.SpeakSsml(strSsml);
+                        }
+                        catch
+                        {
+                            // ignore
+                        }
+                    }
+
                 }
             }
         }

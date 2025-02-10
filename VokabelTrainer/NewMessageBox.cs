@@ -41,8 +41,10 @@ namespace VokabelTrainer
                 mb.m_lblMessageText.Text = message;
                 mb.Text = header;
 
+                /*
                 if (!string.IsNullOrEmpty(say))
-                    Speaker.Say("Deutsch",say,true);
+                    Speaker.Say("Deutsch", say, true, m_chkUseESpeak.Checked, m_tbxESpeakPath);
+                 */
 
                 return mb.ShowDialog(owner);
             }
