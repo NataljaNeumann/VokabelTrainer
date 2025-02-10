@@ -117,15 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 24</value>
-  </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>第一语言</value>
-  </data>
-  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 24</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>第二语言</value>
