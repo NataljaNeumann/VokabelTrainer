@@ -95,7 +95,6 @@ namespace VokabelTrainer
             this.m_btnEnterNext.AccessibleName = null;
             resources.ApplyResources(this.m_btnEnterNext, "m_btnEnterNext");
             this.m_btnEnterNext.BackgroundImage = null;
-            this.m_btnEnterNext.Font = null;
             this.m_btnEnterNext.Name = "m_btnEnterNext";
             this.m_btnEnterNext.UseVisualStyleBackColor = true;
             this.m_btnEnterNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -106,7 +105,6 @@ namespace VokabelTrainer
             this.m_btnEnteredLast.AccessibleName = null;
             resources.ApplyResources(this.m_btnEnteredLast, "m_btnEnteredLast");
             this.m_btnEnteredLast.BackgroundImage = null;
-            this.m_btnEnteredLast.Font = null;
             this.m_btnEnteredLast.Name = "m_btnEnteredLast";
             this.m_btnEnteredLast.UseVisualStyleBackColor = true;
             this.m_btnEnteredLast.Click += new System.EventHandler(this.button1_Click);
@@ -118,7 +116,6 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnCancelEntering, "m_btnCancelEntering");
             this.m_btnCancelEntering.BackgroundImage = null;
             this.m_btnCancelEntering.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.m_btnCancelEntering.Font = null;
             this.m_btnCancelEntering.Name = "m_btnCancelEntering";
             this.m_btnCancelEntering.UseVisualStyleBackColor = true;
             this.m_btnCancelEntering.Click += new System.EventHandler(this.button2_Click);
