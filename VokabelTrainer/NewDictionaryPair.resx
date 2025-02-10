@@ -121,6 +121,9 @@
   <data name="m_btnEnteredLast.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="m_lblFirstLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_btnEnteredLast.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -143,9 +146,6 @@
   </data>
   <data name="textBoxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 124</value>
-  </data>
-  <data name="m_lblSecondLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>First language</value>
@@ -175,7 +175,7 @@
     <value>textBoxSecondLanguage</value>
   </data>
   <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 24</value>
+    <value>560, 24</value>
   </data>
   <data name="&gt;&gt;m_lblFirstLanguage.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -186,11 +186,14 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Enter new vocabulary</value>
   </data>
+  <data name="m_lblSecondLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="m_tbxFirstLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 24</value>
+    <value>560, 24</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
@@ -329,9 +332,6 @@
   </data>
   <data name="m_btnCancelEntering.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 28</value>
-  </data>
-  <data name="m_lblFirstLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="m_btnCancelEntering.Location" type="System.Drawing.Point, System.Drawing">
     <value>481, 198</value>
