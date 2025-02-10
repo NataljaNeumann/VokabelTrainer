@@ -64,5 +64,15 @@ namespace VokabelTrainer
                 m_chkLanguageFileModifiable.Enabled = true;
             }
         }
+
+        private void m_chkFirstLanguageRTL_CheckedChanged(object sender, EventArgs e)
+        {
+            m_tbxFirstLanguage.RightToLeft = m_chkFirstLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
+        }
+
+        private void m_chkSecondLanguageRTL_CheckedChanged(object sender, EventArgs e)
+        {
+            m_tbxSecondLanguage.RightToLeft = m_chkSecondLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
+        }
     }
 }
