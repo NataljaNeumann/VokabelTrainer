@@ -30,6 +30,8 @@ namespace VokabelTrainer
         Random _rnd;
         Random _rnd2;
         System.Xml.XmlDocument _currentDoc;
+        bool m_bFirstLanguageRtl;
+        bool m_bSecondLanguageRtl;
 
         SortedDictionary<string, string> _trainingFirstLanguage;
         SortedDictionary<string, string> _trainingSecondLanguage;
@@ -118,6 +120,10 @@ namespace VokabelTrainer
 
                     _secondLanguage = _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
                     _firstLanguage = _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
+                    m_bFirstLanguageRtl = _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl") != null ?
+                        _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl").InnerText.Equals("ja") : false;
+                    m_bSecondLanguageRtl = _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl") != null ?
+                        _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl").InnerText.Equals("ja") : false;
                     _modifiable = true;
                     _license = "";
                     foreach (System.Xml.XmlElement e in _currentDoc.SelectNodes("/vokabeln/lizenz"))
@@ -392,8 +398,15 @@ namespace VokabelTrainer
                         _license = "Copyright (C) " + System.DateTime.Now.Year + " " + Environment.GetEnvironmentVariable("USERNAME") + ", alle Rechte vorbehalten";
                     }
 
-                    _currentDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n  <zweite-sprache-name>" + form.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n<lizenz><modifikationen>" + (_saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + _license + "</text></lizenz></vokabeln>\r\n");
+                    _currentDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n"+
+                        "  <zweite-sprache-name>" + form.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n"+
+                        "  <erste-sprache-rtl>"+(form.m_chkFirstLanguageRTL.Checked?"ja":"nein")+"</erste-sprache-rtl>\r\n"+
+                        "  <zweite-sprache-rtl>" + (form.m_chkSecondLanguageRTL.Checked ? "ja" : "nein") + "</zweite-sprache-rtl>\r\n" +
+                        "<lizenz><modifikationen>" + (_saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + _license + "</text></lizenz></vokabeln>\r\n");
                     _currentDoc.Save(_currentPath);
+
+                    m_bFirstLanguageRtl = form.m_chkFirstLanguageRTL.Checked;
+                    m_bSecondLanguageRtl = form.m_chkSecondLanguageRTL.Checked;
 
                     _trainingFirstLanguage = new SortedDictionary<string,string>();
                     _trainingSecondLanguage = new SortedDictionary<string,string>();
@@ -430,6 +443,10 @@ namespace VokabelTrainer
                         pair.m_lblSecondLanguage.Text = _secondLanguage + ":";
                         pair.m_tbxFirstLanguage.Text = firstText;
                         pair.textBoxSecondLanguage.Text = secondText;
+                        pair.m_lblFirstLanguage.RightToLeft = m_bFirstLanguageRtl?RightToLeft.Yes:RightToLeft.No;
+                        pair.m_lblSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        pair.m_tbxFirstLanguage.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        pair.textBoxSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         switch (pair.ShowDialog())
                         {
                             case DialogResult.Retry:
@@ -835,6 +852,10 @@ namespace VokabelTrainer
                     {
                         test.m_lblShownText.Text = _secondLanguage + ": " + pair.Key;
                         test.m_lblAskedTranslation.Text = _firstLanguage + ":";
+                        test.m_lblShownText.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        test.m_lblAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        test.m_tbxAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
@@ -1060,9 +1081,12 @@ namespace VokabelTrainer
                     w.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
                     w.WriteLine("<vokabeln>");
                     w.WriteLine();
-                    w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft -->");
+                    w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->");
                     w.WriteLine("  <erste-sprache-name>{0}</erste-sprache-name>", _firstLanguage);
                     w.WriteLine("  <zweite-sprache-name>{0}</zweite-sprache-name>", _secondLanguage);
+                    w.WriteLine("  <erste-sprache-rtl>{0}</erste-sprache-rtl>", m_bFirstLanguageRtl ? "ja" : "nein");
+                    w.WriteLine("  <zweite-sprache-rtl>{0}</zweite-sprache-rtl>", m_bSecondLanguageRtl ? "ja" : "nein");;
+
                     w.WriteLine();
                     w.WriteLine("  <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->");
                     w.WriteLine("  <lizenz><modifikationen>{0}</modifikationen>", _saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen");
@@ -1261,6 +1285,9 @@ namespace VokabelTrainer
                     {
                         test.m_lblShownText.Text = _firstLanguage + ": " + pair.Key;
                         test.m_lblAskedTranslation.Text = _secondLanguage + ":";
+                        test.m_lblShownText.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        test.m_lblAskedTranslation.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        test.m_tbxAskedTranslation.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
