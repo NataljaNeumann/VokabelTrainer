@@ -157,15 +157,6 @@
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Lire à haute voix :</value>
   </data>
-  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 212</value>
-  </data>
-  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 21</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Entraîneur de vocabulaire</value>
-  </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>Langue affichée</value>
   </data>
@@ -180,5 +171,26 @@
   </data>
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>En cas d'erreurs </value>
+  </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 212</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>Télécharger eSpeak</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>Utiliser eSpeak</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Entraîneur de vocabulaire</value>
   </data>
 </root>

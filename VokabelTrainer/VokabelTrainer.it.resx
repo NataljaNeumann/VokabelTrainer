@@ -187,6 +187,21 @@
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 21</value>
   </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>Scarica eSpeak</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 275</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>Leggi con eSpeak</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Allenatore di vocabolario</value>
   </data>

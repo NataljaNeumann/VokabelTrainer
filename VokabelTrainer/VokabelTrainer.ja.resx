@@ -299,9 +299,6 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>オンスクリーン キーボード (osk.exe)</value>
   </data>
-  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 299</value>
   </data>
@@ -313,9 +310,6 @@
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>声に出して読みます:</value>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>表示言語</value>
@@ -341,11 +335,38 @@
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 26</value>
   </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 386</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 18</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>eSpeakをダウンロード</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 385</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>eSpeak で読む</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 383</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>565, 24</value>
+  </data>
+  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>886, 384</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>951, 379</value>
+    <value>951, 426</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>

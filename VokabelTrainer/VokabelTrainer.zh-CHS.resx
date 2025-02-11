@@ -196,17 +196,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>屏幕键盘 (osk.exe)</value>
   </data>
-  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 18</value>
+    <value>61, 13</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>大声朗读：</value>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>显示语言</value>
@@ -226,8 +220,35 @@
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 211</value>
   </data>
-  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 26</value>
+  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 271</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>下载eSpeak</value>
+  </data>
+  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 270</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 24</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>使用 eSpeak 阅读</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 273</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>词汇训练器</value>

@@ -299,9 +299,6 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>ऑन-स्क्रीन कीबोर्ड (osk.exe)</value>
   </data>
-  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 332</value>
   </data>
@@ -309,13 +306,10 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 29</value>
+    <value>60, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>ज़ोर से पढ़ें:</value>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>भाषा प्रदर्शित की गई</value>
@@ -339,13 +333,52 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 37</value>
+    <value>310, 28</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 433</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 29</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>eSpeak डाउनलोड करें</value>
+  </data>
+  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 432</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 33</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>eSpeak का प्रयोग करें</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 437</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 26</value>
+  </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 431</value>
+  </data>
+  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 33</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>951, 422</value>
+    <value>951, 478</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>

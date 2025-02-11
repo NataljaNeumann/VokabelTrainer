@@ -184,6 +184,24 @@
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 21</value>
   </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>eSpeak'i indirin</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>eSpeak ile okuyun</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 273</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 20</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Kelime antrenörü</value>
   </data>
