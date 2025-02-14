@@ -1690,7 +1690,9 @@ namespace VokabelTrainer
         private void VokabelTrainer_Load(object sender, EventArgs e)
         {
             m_tbxESpeakPath.Text = "C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe";
-            m_chkUseESpeak.Checked = System.IO.File.Exists(m_tbxESpeakPath.Text);
+            m_btnSearchESpeak.Enabled = 
+                m_tbxESpeakPath.Enabled = 
+                    m_chkUseESpeak.Checked = System.IO.File.Exists(m_tbxESpeakPath.Text);
         }
 
     }
