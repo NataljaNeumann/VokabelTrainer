@@ -1042,13 +1042,16 @@ namespace VokabelTrainer
             try
             {
 
-                System.IO.FileInfo fi4 = new System.IO.FileInfo(_currentPath + ".bak");
-                if (fi4.Exists)
-                    fi4.Delete();
-
-
                 if (fi.Exists)
+                {
+                    System.IO.FileInfo fi4 = new System.IO.FileInfo(_currentPath + ".bak");
+                    if (fi4.Exists)
+                        fi4.Delete();
+
+
+
                     fi.MoveTo(fi.FullName + ".bak");
+                }
 
                 using (System.IO.StreamWriter w = new System.IO.StreamWriter(_currentPath, false, System.Text.Encoding.UTF8))
                 {
@@ -1151,13 +1154,16 @@ namespace VokabelTrainer
             try
             {
 
-                System.IO.FileInfo fi4 = new System.IO.FileInfo(currentPath + ".bak");
-                if (fi4.Exists)
-                    fi4.Delete();
-
-
                 if (fi.Exists)
+                {
+
+                    System.IO.FileInfo fi4 = new System.IO.FileInfo(currentPath + ".bak");
+                    if (fi4.Exists)
+                        fi4.Delete();
+
+
                     fi.MoveTo(fi.FullName + ".bak");
+                }
 
                 using (System.IO.StreamWriter w = new System.IO.StreamWriter(currentPath, false, System.Text.Encoding.UTF8))
                 {
