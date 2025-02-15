@@ -193,6 +193,9 @@ namespace VokabelTrainer
 
                 m_cbxReader.Enabled = false;
                 m_lblReader.Enabled = false;
+
+                m_lblDontLearnAquire.Enabled = false;
+                m_lblDontLearnAquire.Visible = false;
             }
             else
             {
@@ -220,6 +223,17 @@ namespace VokabelTrainer
 
                 m_btnMostIntensiveSecondToFirst.Enabled = m_nTotalNumberOfErrorsSecondLanguage > 0;
                 m_btnMostIntensiveFirstToSecond.Enabled = m_nTotalNumberOfErrorsFirstLanguage > 0;
+
+                List<string> oEasyLearn = GetEasyLanguageAquireList();
+                if (oEasyLearn != null && oEasyLearn.Count > 0)
+                {
+                    m_lblDontLearnAquire.Enabled = true;
+                    m_lblDontLearnAquire.Visible = true;
+                } else
+                {
+                    m_lblDontLearnAquire.Enabled = false;
+                    m_lblDontLearnAquire.Visible = false;
+                }
             }
         }
 
@@ -2037,10 +2051,144 @@ namespace VokabelTrainer
         //===================================================================================================
         private void VokabelTrainer_Load(object oSender, EventArgs oArgs)
         {
+            m_lblDontLearnAquire.Visible = false;
             m_tbxESpeakPath.Text = "C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe";
             m_btnSearchESpeak.Enabled = 
                 m_tbxESpeakPath.Enabled = 
                     m_chkUseESpeak.Checked = System.IO.File.Exists(m_tbxESpeakPath.Text);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the form is loaded. It tests presence of eSpeak
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private List<string> GetEasyLanguageAquireList()
+        {
+            List<string> oResult = new List<string>();
+            string strLanguageCodeFirstLanguage = m_strFirstLanguage.Substring(0,2);
+            // if current culture isn't german
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
+            {
+                // and one of the trained languages is german
+                if (strLanguageCodeFirstLanguage.Equals("De", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Не", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Al", StringComparison.InvariantCultureIgnoreCase)
+                    )
+                {
+                    // then add german resources for language aquisition without explicit learning
+                    oResult.Add(@"https://www.youtube.com/watch?v=abFz6JgOMCk&list=PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg");
+                    oResult.Add(@"https://www.youtube.com/@Der_Postillon");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=ganzer+film+deutsch");
+                    oResult.Add(@"https://www.kraehseite.de/");
+                    oResult.Add(@"https://www.welt.de/satire/");
+                    oResult.Add(@"https://www.radio.de/");
+                    oResult.Add(@"https://de.wikipedia.org/wiki/Spezial:Zuf%C3%A4llige_Seite");
+                    oResult.Add(@"https://www.schlagerradio.de/");
+                    oResult.Add(@"https://www.dw.com/de");
+                    oResult.Add(@"https://www.prosieben.de/");
+                    oResult.Add(@"https://www.rtl.de/unterhaltung/");
+                    oResult.Add(@"https://www.tagesschau.de/multimedia");
+                    oResult.Add(@"https://de.euronews.com/");
+                    oResult.Add(@"https://www.der-postillon.com/");
+                }
+            }
+
+            // if current culture isn't french
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr"))
+            {
+                // and one of the trained languages is french
+                if (strLanguageCodeFirstLanguage.Equals("Fr", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Фр", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add german resources for language aquisition without explicit learning
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Film+complet+en+fran%C3%A7ais");
+                    oResult.Add(@"https://www.youtube.com/@CinemaCinemas");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Satire+fran%C3%A7aise");
+                    oResult.Add(@"https://www.radio-en-ligne.fr/");
+                    oResult.Add(@"https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal");
+                    oResult.Add(@"https://www.france24.com/fr/");
+                    oResult.Add(@"https://fr.euronews.com/");
+
+                    // for german speakers: Witch huckla / French
+                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
+                    {
+                        oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+französisch");
+                        oResult.Add(@"https://www.amazon.de/Die-Gro%C3%9Fe-Franz%C3%B6sisch-Lernen-Box-3-CD-Hspbox/dp/B07N3P5B1N/ref=sr_1_4?dib=eyJ2IjoiMSJ9.odJgnSYaq03JHBxRUn6dm84bHjnQg_AeHqXvhKt8_vwmz1tyIfoZ8hwYZcfqsFURZGEll128RUe1uXXp8A39BPMojDqR_5KODVYCKWveCGAFPLjdozMJMg3tpv0-i7IfJMqhA1x7OqVVCA-5wdJVS2Lpgeytb2u85Zk9nhqOjP3LfdV72RjMb2GQ_c1GOh31SWCEi6biUw9D4G3mfU4pzO8J3iu6Thg4gXGX6daAAew.6E1bfrl23Sv8SzGzt0KdzJ3OepzGupB4wK74lGFn3xg&dib_tag=se&keywords=hexe+huckla+franz%C3%B6sisch&qid=1739659809&sr=8-4");
+                    }
+                }
+            }
+
+
+            // if current culture isn't spanish
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("es"))
+            {
+                // and one of the trained languages is spanish
+                if (strLanguageCodeFirstLanguage.Equals("Es", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ис", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Sp", StringComparison.InvariantCultureIgnoreCase)
+                    )
+                {
+                    // then add german resources for language aquisition without explicit learning
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Film+complet+en+fran%C3%A7ais");
+                    oResult.Add(@"https://www.youtube.com/@CinemaCinemas");
+                    oResult.Add(@"https://emisoras.com.mx/");
+                    oResult.Add(@"https://www.amazon.es/s/ref=nb_sb_noss?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Ddvd&field-keywords=&crid=1G69ZSAMOGS5G&sprefix=%2Cdvd%2C91");
+                    oResult.Add(@"https://www.amazon.com/-/es/mejores-3000-chistes-espa%C3%B1ol-Spanish/dp/B0B6XRZF2R");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=pel%C3%ADcula+en+espa%C3%B1ol");
+                    oResult.Add(@"https://elpais.com/noticias/espana/");
+                }
+            }
+
+            // if current culture isn't english
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en"))
+            {
+                // and one of the trained languages is english
+                if (strLanguageCodeFirstLanguage.Equals("En", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ан", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("In", StringComparison.InvariantCultureIgnoreCase)
+                    )
+                {
+                    // then add german resources for language aquisition without explicit learning
+                    oResult.Add(@"https://www.youtube.com/results?search_query=English+movie");
+                    oResult.Add(@"https://www.bbc.com");
+                    oResult.Add(@"https://www.cnn.com");
+                    oResult.Add(@"https://www.the-postillon.com/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=just+for+laughs+gags");
+                    oResult.Add(@"https://www.dw.com/en/");
+                    oResult.Add(@"https://www.abc.net.au");
+                    oResult.Add(@"https://www.euronews.com/");
+                    oResult.Add(@"https://en.wikipedia.org/wiki/Main_Page");
+
+                    // for german speakers: Witch huckla / English
+                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
+                    {
+                        oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+englisch");
+                    }
+                }
+            }
+
+            return oResult;
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks on easy language aquisition button
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_lblDontLearnAquire_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        {
+            List<string> oEasyAquireList = GetEasyLanguageAquireList();
+            if (oEasyAquireList != null && oEasyAquireList.Count > 0)
+            {
+                System.Diagnostics.Process.Start(oEasyAquireList[m_oRnd.Next(oEasyAquireList.Count)]);
+            }
         }
 
     }

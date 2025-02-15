@@ -68,6 +68,7 @@ namespace VokabelTrainer
             this.m_tbxESpeakPath = new System.Windows.Forms.TextBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.m_btnSearchESpeak = new System.Windows.Forms.Button();
+            this.m_lblDontLearnAquire = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -204,10 +205,18 @@ namespace VokabelTrainer
             this.m_btnSearchESpeak.UseVisualStyleBackColor = true;
             this.m_btnSearchESpeak.Click += new System.EventHandler(this.m_btnSearchESpeak_Click);
             // 
+            // m_lblDontLearnAquire
+            // 
+            resources.ApplyResources(this.m_lblDontLearnAquire, "m_lblDontLearnAquire");
+            this.m_lblDontLearnAquire.Name = "m_lblDontLearnAquire";
+            this.m_lblDontLearnAquire.TabStop = true;
+            this.m_lblDontLearnAquire.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblDontLearnAquire_LinkClicked);
+            // 
             // VokabelTrainer
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.m_lblDontLearnAquire);
             this.Controls.Add(this.m_btnSearchESpeak);
             this.Controls.Add(this.m_tbxESpeakPath);
             this.Controls.Add(this.m_chkUseESpeak);
@@ -260,6 +269,7 @@ namespace VokabelTrainer
         private System.Windows.Forms.TextBox m_tbxESpeakPath;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Button m_btnSearchESpeak;
+        private System.Windows.Forms.LinkLabel m_lblDontLearnAquire;
     }
 }
 

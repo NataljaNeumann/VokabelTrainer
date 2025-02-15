@@ -364,13 +364,13 @@
     <value>193, 10</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 20</value>
+    <value>213, 20</value>
   </data>
   <data name="m_chkFirstLanguageRTL.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>Writing from right to left</value>
+    <value>Writing direction from right to left</value>
   </data>
   <data name="&gt;&gt;m_chkFirstLanguageRTL.Name" xml:space="preserve">
     <value>m_chkFirstLanguageRTL</value>
@@ -391,13 +391,13 @@
     <value>193, 71</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 20</value>
+    <value>213, 20</value>
   </data>
   <data name="m_chkSecondLanguageRTL.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>Writing  from right to left</value>
+    <value>Writing direction from right to left</value>
   </data>
   <data name="&gt;&gt;m_chkSecondLanguageRTL.Name" xml:space="preserve">
     <value>m_chkSecondLanguageRTL</value>
