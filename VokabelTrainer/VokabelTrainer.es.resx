@@ -130,15 +130,6 @@
     <value>Archivos de vocabulario|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 214</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 16</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>Traducción del texto de la licencia.</value>
-  </data>
   <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 16</value>
   </data>
@@ -157,8 +148,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Teclado en pantalla (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
+    <value>105, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Leer en voz alta:</value>
@@ -179,28 +173,37 @@
     <value>En caso de errores </value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 212</value>
+    <value>310, 215</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 13</value>
+    <value>123, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Descargar eSpeak</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
+    <value>118, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Utilizar eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 273</value>
+    <value>262, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 20</value>
+    <value>311, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 217</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 16</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>Sin aprendizaje (aleatorio)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Entrenador de vocabulario</value>
