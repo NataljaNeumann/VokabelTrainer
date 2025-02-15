@@ -58,7 +58,6 @@ namespace VokabelTrainer
             this.m_btnIntensiveFirstToSecond = new System.Windows.Forms.Button();
             this.m_btnMostIntensiveSecondToFirst = new System.Windows.Forms.Button();
             this.m_btnMostIntensiveFirstToSecond = new System.Windows.Forms.Button();
-            this.m_lblShowLicenceLocalised = new System.Windows.Forms.LinkLabel();
             this.m_lblShowLicense = new System.Windows.Forms.LinkLabel();
             this.m_lblShowAbout = new System.Windows.Forms.LinkLabel();
             this.m_btnShowDesktopKeyboard = new System.Windows.Forms.Button();
@@ -77,14 +76,14 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnLoadLanguageFile, "m_btnLoadLanguageFile");
             this.m_btnLoadLanguageFile.Name = "m_btnLoadLanguageFile";
             this.m_btnLoadLanguageFile.UseVisualStyleBackColor = true;
-            this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.m_btnLoadLanguageFile_Click);
             // 
             // m_btnEnterVocabulary
             // 
             resources.ApplyResources(this.m_btnEnterVocabulary, "m_btnEnterVocabulary");
             this.m_btnEnterVocabulary.Name = "m_btnEnterVocabulary";
             this.m_btnEnterVocabulary.UseVisualStyleBackColor = true;
-            this.m_btnEnterVocabulary.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnEnterVocabulary.Click += new System.EventHandler(this.m_btnEnterVocabulary_Click);
             // 
             // m_btnExerciseSecondToFirst
             // 
@@ -98,14 +97,14 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnExerciseFirstToSecond, "m_btnExerciseFirstToSecond");
             this.m_btnExerciseFirstToSecond.Name = "m_btnExerciseFirstToSecond";
             this.m_btnExerciseFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.button4_Click);
+            this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.m_btnExerciseFirstToSecond_Click);
             // 
             // m_btnNewLanguageFile
             // 
             resources.ApplyResources(this.m_btnNewLanguageFile, "m_btnNewLanguageFile");
             this.m_btnNewLanguageFile.Name = "m_btnNewLanguageFile";
             this.m_btnNewLanguageFile.UseVisualStyleBackColor = true;
-            this.m_btnNewLanguageFile.Click += new System.EventHandler(this.button5_Click);
+            this.m_btnNewLanguageFile.Click += new System.EventHandler(this.m_btnNewLanguage_Click);
             // 
             // m_dlgOpenFileDialog
             // 
@@ -117,56 +116,49 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnIntensiveSecondToFirst, "m_btnIntensiveSecondToFirst");
             this.m_btnIntensiveSecondToFirst.Name = "m_btnIntensiveSecondToFirst";
             this.m_btnIntensiveSecondToFirst.UseVisualStyleBackColor = true;
-            this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.button6_Click);
+            this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.m_btnIntensiveSecondToFirst_Click);
             // 
             // m_btnIntensiveFirstToSecond
             // 
             resources.ApplyResources(this.m_btnIntensiveFirstToSecond, "m_btnIntensiveFirstToSecond");
             this.m_btnIntensiveFirstToSecond.Name = "m_btnIntensiveFirstToSecond";
             this.m_btnIntensiveFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.button7_Click);
+            this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.m_btnIntensiveFirstToSecond_Click);
             // 
             // m_btnMostIntensiveSecondToFirst
             // 
             resources.ApplyResources(this.m_btnMostIntensiveSecondToFirst, "m_btnMostIntensiveSecondToFirst");
             this.m_btnMostIntensiveSecondToFirst.Name = "m_btnMostIntensiveSecondToFirst";
             this.m_btnMostIntensiveSecondToFirst.UseVisualStyleBackColor = true;
-            this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.button8_Click);
+            this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.m_btnMostIntensiveSecondToFirst_Click);
             // 
             // m_btnMostIntensiveFirstToSecond
             // 
             resources.ApplyResources(this.m_btnMostIntensiveFirstToSecond, "m_btnMostIntensiveFirstToSecond");
             this.m_btnMostIntensiveFirstToSecond.Name = "m_btnMostIntensiveFirstToSecond";
             this.m_btnMostIntensiveFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // m_lblShowLicenceLocalised
-            // 
-            resources.ApplyResources(this.m_lblShowLicenceLocalised, "m_lblShowLicenceLocalised");
-            this.m_lblShowLicenceLocalised.Name = "m_lblShowLicenceLocalised";
-            this.m_lblShowLicenceLocalised.TabStop = true;
-            this.m_lblShowLicenceLocalised.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.m_btnMostIntensiveFirstToSecond_Click);
             // 
             // m_lblShowLicense
             // 
             resources.ApplyResources(this.m_lblShowLicense, "m_lblShowLicense");
             this.m_lblShowLicense.Name = "m_lblShowLicense";
             this.m_lblShowLicense.TabStop = true;
-            this.m_lblShowLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            this.m_lblShowLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblShowLicence_LinkClicked);
             // 
             // m_lblShowAbout
             // 
             resources.ApplyResources(this.m_lblShowAbout, "m_lblShowAbout");
             this.m_lblShowAbout.Name = "m_lblShowAbout";
             this.m_lblShowAbout.TabStop = true;
-            this.m_lblShowAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            this.m_lblShowAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblShowAbout_LinkClicked);
             // 
             // m_btnShowDesktopKeyboard
             // 
             resources.ApplyResources(this.m_btnShowDesktopKeyboard, "m_btnShowDesktopKeyboard");
             this.m_btnShowDesktopKeyboard.Name = "m_btnShowDesktopKeyboard";
             this.m_btnShowDesktopKeyboard.UseVisualStyleBackColor = true;
-            this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.button10_Click);
+            this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.m_btnShowDesktopKeyboard_Click);
             // 
             // m_lblReader
             // 
@@ -225,7 +217,6 @@ namespace VokabelTrainer
             this.Controls.Add(this.m_btnShowDesktopKeyboard);
             this.Controls.Add(this.m_lblShowAbout);
             this.Controls.Add(this.m_lblShowLicense);
-            this.Controls.Add(this.m_lblShowLicenceLocalised);
             this.Controls.Add(this.m_btnMostIntensiveFirstToSecond);
             this.Controls.Add(this.m_btnMostIntensiveSecondToFirst);
             this.Controls.Add(this.m_btnIntensiveFirstToSecond);
@@ -259,7 +250,6 @@ namespace VokabelTrainer
         private System.Windows.Forms.Button m_btnIntensiveFirstToSecond;
         private System.Windows.Forms.Button m_btnMostIntensiveSecondToFirst;
         private System.Windows.Forms.Button m_btnMostIntensiveFirstToSecond;
-        private System.Windows.Forms.LinkLabel m_lblShowLicenceLocalised;
         private System.Windows.Forms.LinkLabel m_lblShowLicense;
         private System.Windows.Forms.LinkLabel m_lblShowAbout;
         private System.Windows.Forms.Button m_btnShowDesktopKeyboard;

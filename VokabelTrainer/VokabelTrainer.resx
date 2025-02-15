@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="m_btnEnterVocabulary.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -174,7 +174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnEnterVocabulary.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>16</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnExerciseSecondToFirst.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_btnExerciseFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -232,7 +232,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnExerciseFirstToSecond.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -259,7 +259,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnNewLanguageFile.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <metadata name="m_dlgOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -292,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnIntensiveSecondToFirst.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="m_btnIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -322,7 +322,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnIntensiveFirstToSecond.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -349,7 +349,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -379,39 +379,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveFirstToSecond.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 246</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 16</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>Translated licence text</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Name" xml:space="preserve">
-    <value>m_lblShowLicenceLocalised</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicenceLocalised.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
   <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
