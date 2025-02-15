@@ -22,310 +22,450 @@ using System.Windows.Forms;
 
 namespace VokabelTrainer
 {
+    //*******************************************************************************************************
+    /// <summary>
+    /// Main form of the application
+    /// </summary>
+    //*******************************************************************************************************
     public partial class VokabelTrainer : Form
     {
-        string _firstLanguage;
-        string _secondLanguage;
-        string _currentPath;
-        Random _rnd;
-        Random _rnd2;
-        System.Xml.XmlDocument _currentDoc;
+        //===================================================================================================
+        /// <summary>
+        /// First language of the vocabulary dictionary
+        /// </summary>
+        string m_strFirstLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Second language of the vocabulary dictionary
+        /// </summary>
+        string m_strSecondLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Current path of the vocabulary file
+        /// </summary>
+        string m_strCurrentPath;
+        //===================================================================================================
+        /// <summary>
+        /// A random number generator for choosing words 
+        /// </summary>
+        Random m_oRnd;
+        //===================================================================================================
+        /// <summary>
+        /// A second random number generator for even more randomness
+        /// </summary>
+        Random m_oRnd2;
+        //===================================================================================================
+        /// <summary>
+        /// Current vocabulary document
+        /// </summary>
+        System.Xml.XmlDocument m_oCurrentVocabularyDoc;
+        //===================================================================================================
+        /// <summary>
+        /// Indicates that first language has right-to-left writing direction
+        /// </summary>
         bool m_bFirstLanguageRtl;
+        //===================================================================================================
+        /// <summary>
+        /// Indicates that second language has right-to-left writing direction
+        /// </summary>
         bool m_bSecondLanguageRtl;
 
-        SortedDictionary<string, string> _trainingFirstLanguage;
-        SortedDictionary<string, string> _trainingSecondLanguage;
-        SortedDictionary<string, int> _correctFirstLanguage;
-        SortedDictionary<string, int> _correctSecondLanguage;
-        SortedDictionary<string, SortedDictionary<string,bool>> _firstToSecond;
-        SortedDictionary<string, SortedDictionary<string,bool>> _secondToFirst;
-        LinkedList<string> _trainedWords = new LinkedList<string>();
-        int _totalNumberOfErrorsFirstLanguage;
-        int _totalNumberOfErrorsSecondLanguage;
-        bool _skipLast;
-        string _license;
-        bool _modifiable;
-        bool _saveModifiable;
-        bool _savePossible;
+        //===================================================================================================
+        /// <summary>
+        /// Holds training results of the first language. 1 for correct 0 for error. 
+        /// </summary>
+        SortedDictionary<string, string> m_oTrainingResultsFirstLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Holds training results of the second language. 1 for correct 0 for error. 
+        /// </summary>
+        SortedDictionary<string, string> m_oTtrainingResultsSecondLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Holds count of correct answers for the first language
+        /// </summary>
+        SortedDictionary<string, int> m_oCorrectAnswersFirstLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Holds count of correct answers for the second language
+        /// </summary>
+        SortedDictionary<string, int> m_oCorrectSecondLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Mapping from first language to all meanings in second
+        /// </summary>
+        SortedDictionary<string, SortedDictionary<string,bool>> m_oFirstToSecond;
+        //===================================================================================================
+        /// <summary>
+        /// Mapping from second language to all meanings in firs
+        /// </summary>
+        SortedDictionary<string, SortedDictionary<string,bool>> m_oSecondToFirst;
 
+        //===================================================================================================
+        /// <summary>
+        /// List of recently trained words
+        /// </summary>
+        LinkedList<string> m_oRecentlyTrainedWords = new LinkedList<string>();
+
+        //===================================================================================================
+        /// <summary>
+        /// Holds total number of errors in first language, for correct calculation of random number in
+        /// training
+        /// </summary>
+        int m_nTotalNumberOfErrorsFirstLanguage;
+        //===================================================================================================
+        /// <summary>
+        /// Holds total number of errors in second language, for correct calculation of random number in
+        /// training
+        /// </summary>
+        int m_nTotalNumberOfErrorsSecondLanguage;
+
+        //===================================================================================================
+        /// <summary>
+        /// Provides indication, if last asked words must be skipped
+        /// </summary>
+        bool m_bSkipLast;
+        //===================================================================================================
+        /// <summary>
+        /// The text of the license for the vocabulary file
+        /// </summary>
+        string m_strLicense;
+
+        //===================================================================================================
+        /// <summary>
+        /// Provides indication, if the vocabulary file is modifiable
+        /// </summary>
+        bool m_bModifiable;
+        //===================================================================================================
+        /// <summary>
+        /// Provides indication, what shall be written into the modifiable flag in vocabulary file
+        /// </summary>
+        bool m_bIsModifiableFlagForXml;
+        //===================================================================================================
+        /// <summary>
+        /// Provides indication, if save of the vocabulary file is possible
+        /// </summary>
+        bool m_bSavePossible;
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Constructs a new vocabulary trainer object
+        /// </summary>
+        //===================================================================================================
         public VokabelTrainer()
         {
             InitializeComponent();
             // init random with current time
-            _rnd = new Random(((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
-            _rnd2 = new Random((((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond)*365+DateTime.UtcNow.DayOfYear);
+            m_oRnd = new Random(((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
+            m_oRnd2 = new Random((((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond)*365+DateTime.UtcNow.DayOfYear);
             m_cbxReader.SelectedIndex = 0;
         }
 
+        //===================================================================================================
+        /// <summary>
+        /// Enables or disables buttons, depending on the current situation
+        /// </summary>
+        //===================================================================================================
         public void EnableDisableButtons()
         {
             m_btnNewLanguageFile.Enabled = true;
-            m_btnEnterVocabulary.Enabled = (_currentPath != null) && _modifiable;
-            m_btnExerciseSecondToFirst.Enabled = (_currentPath != null) && _firstToSecond.Count > 0;
-            m_btnExerciseFirstToSecond.Enabled = (_currentPath != null) && _secondToFirst.Count > 0;
-            if (string.IsNullOrEmpty(_firstLanguage) || string.IsNullOrEmpty(_secondLanguage))
+            m_btnEnterVocabulary.Enabled = (m_strCurrentPath != null) && m_bModifiable;
+            m_btnExerciseSecondToFirst.Enabled = (m_strCurrentPath != null) && m_oFirstToSecond.Count > 0;
+            m_btnExerciseFirstToSecond.Enabled = (m_strCurrentPath != null) && m_oSecondToFirst.Count > 0;
+            if (string.IsNullOrEmpty(m_strFirstLanguage) || string.IsNullOrEmpty(m_strSecondLanguage))
             {
-                m_btnExerciseSecondToFirst.Text = m_btnExerciseFirstToSecond.Text = m_btnIntensiveSecondToFirst.Text = m_btnIntensiveFirstToSecond.Text = m_btnMostIntensiveSecondToFirst.Text = m_btnMostIntensiveFirstToSecond.Text = "";
-                m_btnExerciseSecondToFirst.Enabled = m_btnExerciseFirstToSecond.Enabled = m_btnIntensiveSecondToFirst.Enabled = m_btnIntensiveFirstToSecond.Enabled = m_btnMostIntensiveSecondToFirst.Enabled = m_btnMostIntensiveFirstToSecond.Enabled = false;
+                m_btnExerciseSecondToFirst.Text = 
+                    m_btnExerciseFirstToSecond.Text = 
+                    m_btnIntensiveSecondToFirst.Text = 
+                    m_btnIntensiveFirstToSecond.Text = 
+                    m_btnMostIntensiveSecondToFirst.Text = 
+                    m_btnMostIntensiveFirstToSecond.Text = "";
+
+                m_btnExerciseSecondToFirst.Enabled = 
+                    m_btnExerciseFirstToSecond.Enabled = 
+                    m_btnIntensiveSecondToFirst.Enabled = 
+                    m_btnIntensiveFirstToSecond.Enabled = 
+                    m_btnMostIntensiveSecondToFirst.Enabled = 
+                    m_btnMostIntensiveFirstToSecond.Enabled = false;
+
                 m_cbxReader.Enabled = false;
                 m_lblReader.Enabled = false;
             }
             else
             {
-                m_btnExerciseSecondToFirst.Text = string.Format(Properties.Resources.Exercise, _secondLanguage, _firstLanguage);
+                m_btnExerciseSecondToFirst.Text = string.Format(Properties.Resources.Exercise, m_strSecondLanguage, m_strFirstLanguage);
                 //m_btnExerciseSecondToFirst.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
-                m_btnExerciseFirstToSecond.Text = string.Format(Properties.Resources.Exercise, _firstLanguage, _secondLanguage);
+                m_btnExerciseFirstToSecond.Text = string.Format(Properties.Resources.Exercise, m_strFirstLanguage, m_strSecondLanguage);
                 //m_btnExerciseFirstToSecond.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
-                m_btnIntensiveSecondToFirst.Enabled = m_btnExerciseSecondToFirst.Enabled = _trainingFirstLanguage.Count > 0;
-                m_btnIntensiveFirstToSecond.Enabled = m_btnExerciseFirstToSecond.Enabled = _trainingSecondLanguage.Count > 0;
-                m_lblReader.Enabled = m_cbxReader.Enabled = _trainingFirstLanguage.Count > 0 || _trainingSecondLanguage.Count > 0;
+                m_btnIntensiveSecondToFirst.Enabled = m_btnExerciseSecondToFirst.Enabled = m_oTrainingResultsFirstLanguage.Count > 0;
+                m_btnIntensiveFirstToSecond.Enabled = m_btnExerciseFirstToSecond.Enabled = m_oTtrainingResultsSecondLanguage.Count > 0;
+                m_lblReader.Enabled = m_cbxReader.Enabled = m_oTrainingResultsFirstLanguage.Count > 0 || m_oTtrainingResultsSecondLanguage.Count > 0;
 
 
-                m_btnIntensiveSecondToFirst.Text = string.Format(Properties.Resources.Intensive, _secondLanguage, _firstLanguage);
-                m_btnIntensiveFirstToSecond.Text = string.Format(Properties.Resources.Intensive, _firstLanguage, _secondLanguage);
+                m_btnIntensiveSecondToFirst.Text = string.Format(Properties.Resources.Intensive, m_strSecondLanguage, m_strFirstLanguage);
+                m_btnIntensiveFirstToSecond.Text = string.Format(Properties.Resources.Intensive, m_strFirstLanguage, m_strSecondLanguage);
 
                 //m_btnIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
                 //m_btnIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
 
 
-                m_btnMostIntensiveSecondToFirst.Text = string.Format(Properties.Resources.MostIntensive, _secondLanguage, _firstLanguage );
-                m_btnMostIntensiveFirstToSecond.Text = string.Format(Properties.Resources.MostIntensive, _firstLanguage, _secondLanguage );
+                m_btnMostIntensiveSecondToFirst.Text = string.Format(Properties.Resources.MostIntensive, m_strSecondLanguage, m_strFirstLanguage );
+                m_btnMostIntensiveFirstToSecond.Text = string.Format(Properties.Resources.MostIntensive, m_strFirstLanguage, m_strSecondLanguage );
 
                 //m_btnMostIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
                 //m_btnMostIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
 
-                m_btnMostIntensiveSecondToFirst.Enabled = _totalNumberOfErrorsSecondLanguage > 0;
-                m_btnMostIntensiveFirstToSecond.Enabled = _totalNumberOfErrorsFirstLanguage > 0;
+                m_btnMostIntensiveSecondToFirst.Enabled = m_nTotalNumberOfErrorsSecondLanguage > 0;
+                m_btnMostIntensiveFirstToSecond.Enabled = m_nTotalNumberOfErrorsFirstLanguage > 0;
             }
         }
 
-        private void button1_Click(object sender, EventArgs ev)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to load a language file
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnLoadLanguageFile_Click(object oSender, EventArgs oArgs)
         {
+            m_dlgOpenFileDialog.InitialDirectory = 
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             if (m_dlgOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
-                    _currentPath = m_dlgOpenFileDialog.FileName;
-                    _currentDoc = new System.Xml.XmlDocument();
-                    _currentDoc.Load(_currentPath);
+                    m_strCurrentPath = m_dlgOpenFileDialog.FileName;
+                    m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
+                    m_oCurrentVocabularyDoc.Load(m_strCurrentPath);
 
-                    _trainingFirstLanguage = new SortedDictionary<string, string>();
-                    _trainingSecondLanguage = new SortedDictionary<string, string>();
-                    _firstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _secondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _correctFirstLanguage = new SortedDictionary<string, int>();
-                    _correctSecondLanguage = new SortedDictionary<string, int>();
-                    _totalNumberOfErrorsFirstLanguage = 0;
-                    _totalNumberOfErrorsSecondLanguage = 0;
+                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                    m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                    m_nTotalNumberOfErrorsFirstLanguage = 0;
+                    m_nTotalNumberOfErrorsSecondLanguage = 0;
 
-                    _secondLanguage = _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
-                    _firstLanguage = _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
-                    m_bFirstLanguageRtl = _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl") != null ?
-                        _currentDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl").InnerText.Equals("ja") : false;
-                    m_bSecondLanguageRtl = _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl") != null ?
-                        _currentDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl").InnerText.Equals("ja") : false;
-                    _modifiable = true;
-                    _license = "";
-                    foreach (System.Xml.XmlElement e in _currentDoc.SelectNodes("/vokabeln/lizenz"))
+                    m_strSecondLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
+                    m_strFirstLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
+                    m_bFirstLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl") != null ?
+                        m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl").InnerText.Equals("ja") : false;
+                    m_bSecondLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl") != null ?
+                        m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl").InnerText.Equals("ja") : false;
+                    m_bModifiable = true;
+                    m_strLicense = "";
+                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/lizenz"))
                     {
-                        _saveModifiable = _modifiable = e.SelectSingleNode("modifikationen").InnerText.Equals("Unter Lizenzbedingungen", StringComparison.CurrentCultureIgnoreCase);
-                        _savePossible = _saveModifiable || e.SelectSingleNode("modifikationen").InnerText.Equals("Keine neuen Wörter und keine Lizenzänderungen", StringComparison.CurrentCultureIgnoreCase);
-                        _license = e.SelectSingleNode("text").InnerText;
+                        m_bIsModifiableFlagForXml = m_bModifiable = 
+                                e.SelectSingleNode("modifikationen").InnerText.Equals("Unter Lizenzbedingungen", 
+                                StringComparison.CurrentCultureIgnoreCase);
+
+                        m_bSavePossible = m_bIsModifiableFlagForXml || 
+                            e.SelectSingleNode("modifikationen").InnerText.Equals(
+                            "Keine neuen Wörter und keine Lizenzänderungen", StringComparison.CurrentCultureIgnoreCase);
+
+                        m_strLicense = e.SelectSingleNode("text").InnerText;
                     }
 
-                    foreach (System.Xml.XmlElement e in _currentDoc.SelectNodes("/vokabeln/erste-sprache"))
+                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/erste-sprache"))
                     {
-                        string trainingFortschritt = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                        if (trainingFortschritt.Length > 6)
-                            trainingFortschritt = trainingFortschritt.Substring(0, 6);
+                        string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                        if (strTrainingProgress.Length > 6)
+                            strTrainingProgress = strTrainingProgress.Substring(0, 6);
                         else
-                            while (trainingFortschritt.Length < 6)
-                                trainingFortschritt = trainingFortschritt + "1";
+                            while (strTrainingProgress.Length < 6)
+                                strTrainingProgress = strTrainingProgress + "1";
 
-                        _trainingFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = trainingFortschritt;
-                        _totalNumberOfErrorsFirstLanguage += trainingFortschritt.Length - trainingFortschritt.Replace("0", "").Length; 
-                        _firstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+                        m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+                        m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length; 
+                        m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
 
                         System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
                         if (n != null)
                         {
-                            string correctAnswers = n.InnerText;
+                            string strCorrectAnswers = n.InnerText;
                             int nCorrectAnswers = 0;
-                            if (!int.TryParse(correctAnswers, out nCorrectAnswers))
+                            if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
                                 nCorrectAnswers = 0;
                             else
                                 if (nCorrectAnswers < 0)
                                     nCorrectAnswers = 0;
-                            _correctFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                            m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                         } else
-                            _correctFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                            m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
                     }
 
-                    foreach (System.Xml.XmlElement e in _currentDoc.SelectNodes("/vokabeln/zweite-sprache"))
+                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/zweite-sprache"))
                     {
-                        string trainingFortschritt = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                        if (trainingFortschritt.Length > 6)
-                            trainingFortschritt = trainingFortschritt.Substring(0, 6);
+                        string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                        if (strTrainingProgress.Length > 6)
+                            strTrainingProgress = strTrainingProgress.Substring(0, 6);
                         else
-                            while (trainingFortschritt.Length < 6)
-                                trainingFortschritt = trainingFortschritt + "1";
-                        _trainingSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = trainingFortschritt;
-                        _secondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-                        _totalNumberOfErrorsSecondLanguage += trainingFortschritt.Length - trainingFortschritt.Replace("0", "").Length;
+                            while (strTrainingProgress.Length < 6)
+                                strTrainingProgress = strTrainingProgress + "1";
+                        m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+                        m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+                        m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length;
 
                         System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
                         if (n != null)
                         {
-                            string correctAnswers = n.InnerText;
+                            string strCorrectAnswers = n.InnerText;
                             int nCorrectAnswers = 0;
-                            if (!int.TryParse(correctAnswers, out nCorrectAnswers))
+                            if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
                                 nCorrectAnswers = 0;
                             else
                                 if (nCorrectAnswers < 0)
                                     nCorrectAnswers = 0;
-                            _correctSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                            m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                         } else
-                            _correctSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                            m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
 
                     }
 
 
-                    foreach (System.Xml.XmlElement e in _currentDoc.SelectNodes("/vokabeln/vokabel-paar"))
+                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/vokabel-paar"))
                     {
-                        string ersteSprache = e.SelectSingleNode("erste-sprache").InnerText;
-                        string zweiteSprache = e.SelectSingleNode("zweite-sprache").InnerText;
+                        string strFirstLanguage = e.SelectSingleNode("erste-sprache").InnerText;
+                        string strSecondLanguage = e.SelectSingleNode("zweite-sprache").InnerText;
 
-                        if (!_trainingFirstLanguage.ContainsKey(ersteSprache))
+                        if (!m_oTrainingResultsFirstLanguage.ContainsKey(strFirstLanguage))
                         {
-                            _trainingFirstLanguage[ersteSprache] = "111110";
-                            _totalNumberOfErrorsFirstLanguage += 1;
-                            _firstToSecond[ersteSprache] = new SortedDictionary<string, bool>();
+                            m_oTrainingResultsFirstLanguage[strFirstLanguage] = "111110";
+                            m_nTotalNumberOfErrorsFirstLanguage += 1;
+                            m_oFirstToSecond[strFirstLanguage] = new SortedDictionary<string, bool>();
                         }
 
-                        if (!_trainingSecondLanguage.ContainsKey(zweiteSprache))
+                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(strSecondLanguage))
                         {
-                            _trainingSecondLanguage[zweiteSprache] = "111110";
-                            _totalNumberOfErrorsSecondLanguage += 1;
-                            _secondToFirst[zweiteSprache] = new SortedDictionary<string, bool>();
+                            m_oTtrainingResultsSecondLanguage[strSecondLanguage] = "111110";
+                            m_nTotalNumberOfErrorsSecondLanguage += 1;
+                            m_oSecondToFirst[strSecondLanguage] = new SortedDictionary<string, bool>();
                         }
 
-                        if (!_correctFirstLanguage.ContainsKey(ersteSprache))
-                            _correctFirstLanguage[ersteSprache] = 0;
+                        if (!m_oCorrectAnswersFirstLanguage.ContainsKey(strFirstLanguage))
+                            m_oCorrectAnswersFirstLanguage[strFirstLanguage] = 0;
 
-                        if (!_correctSecondLanguage.ContainsKey(zweiteSprache))
-                            _correctSecondLanguage[zweiteSprache] = 0;
+                        if (!m_oCorrectSecondLanguage.ContainsKey(strSecondLanguage))
+                            m_oCorrectSecondLanguage[strSecondLanguage] = 0;
 
 
-                        if (!_firstToSecond[ersteSprache].ContainsKey(zweiteSprache))
-                            _firstToSecond[ersteSprache][zweiteSprache] = false;
+                        if (!m_oFirstToSecond[strFirstLanguage].ContainsKey(strSecondLanguage))
+                            m_oFirstToSecond[strFirstLanguage][strSecondLanguage] = false;
 
-                        if (!_secondToFirst[zweiteSprache].ContainsKey(ersteSprache))
-                            _secondToFirst[zweiteSprache][ersteSprache] = false;
+                        if (!m_oSecondToFirst[strSecondLanguage].ContainsKey(strFirstLanguage))
+                            m_oSecondToFirst[strSecondLanguage][strFirstLanguage] = false;
                     }
 
                 }
                 catch (Exception ex)
                 {
-                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingXmlFileHeader, string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, ex.Message));
-                    //NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Vokabeldatei", "Beim Laden der XML-Vokabeldatei ist der folgende Fehler aufgetreten: " + ex.Message);
-                    //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Laden der XML-Vokabeldatei", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingXmlFileHeader, 
+                        string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, ex.Message));
 
-                    _currentPath = null;
-                    _currentDoc = null;
+                    m_strCurrentPath = null;
+                    m_oCurrentVocabularyDoc = null;
 
-                    _trainingFirstLanguage = new SortedDictionary<string, string>();
-                    _trainingSecondLanguage = new SortedDictionary<string, string>();
-                    _firstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _secondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _correctFirstLanguage = new SortedDictionary<string, int>();
-                    _correctSecondLanguage = new SortedDictionary<string, int>();
-                    _totalNumberOfErrorsFirstLanguage = 0;
-                    _totalNumberOfErrorsSecondLanguage = 0;
+                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                    m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                    m_nTotalNumberOfErrorsFirstLanguage = 0;
+                    m_nTotalNumberOfErrorsSecondLanguage = 0;
                 }
 
-                // continue with loading of training file
-                if (_currentPath!=null)
+                // continue with loading of training file, after vocabulary has been loaded
+                if (m_strCurrentPath!=null)
                 try {
 
-                    string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml")
+                    string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml",".Training.xml")
                         .Replace("Vocabulary.xml",".Training.xml");
-                    System.IO.FileInfo fi = new System.IO.FileInfo(currentPath);
+
+                    System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
                     if (fi.Exists)
                     {
-                        System.Xml.XmlDocument currentDoc = new System.Xml.XmlDocument();
-                        currentDoc.Load(currentPath);
+                        System.Xml.XmlDocument oCurrentDoc = new System.Xml.XmlDocument();
+                        oCurrentDoc.Load(strCurrentPath);
 
-                        foreach (System.Xml.XmlElement e in currentDoc.SelectNodes("/training/erste-sprache"))
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
                         {
-                            string trainingFortschritt = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                            if (trainingFortschritt.Length > 6)
-                                trainingFortschritt = trainingFortschritt.Substring(0, 6);
+                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                            if (strTrainingProgress.Length > 6)
+                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
                             else
-                                while (trainingFortschritt.Length < 6)
-                                    trainingFortschritt = trainingFortschritt + "1";
+                                while (strTrainingProgress.Length < 6)
+                                    strTrainingProgress = strTrainingProgress + "1";
 
-                            if (_trainingFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                            if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                             {
-                                _totalNumberOfErrorsFirstLanguage += trainingFortschritt.Length - trainingFortschritt.Replace("0", "").Length
-                                                                  -  (_trainingFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                                                      _trainingFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                                                  -  (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                                                      m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
 
-                                _trainingFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = trainingFortschritt;
+                                m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
-                                if (!_firstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                    _firstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+                                if (!m_oFirstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                    m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
 
                                 System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
                                 if (n != null)
                                 {
-                                    string correctAnswers = n.InnerText;
+                                    string strCorrectAnswers = n.InnerText;
                                     int nCorrectAnswers = 0;
-                                    if (!int.TryParse(correctAnswers, out nCorrectAnswers))
+                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
                                         nCorrectAnswers = 0;
                                     else
                                         if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
-                                    _correctFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                                 }
                                 else
-                                    _correctFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
                             }
                         }
 
-                        foreach (System.Xml.XmlElement e in currentDoc.SelectNodes("/training/zweite-sprache"))
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zweite-sprache"))
                         {
-                            string trainingFortschritt = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                            if (trainingFortschritt.Length > 6)
-                                trainingFortschritt = trainingFortschritt.Substring(0, 6);
+                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                            if (strTrainingProgress.Length > 6)
+                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
                             else
-                                while (trainingFortschritt.Length < 6)
-                                    trainingFortschritt = trainingFortschritt + "1";
+                                while (strTrainingProgress.Length < 6)
+                                    strTrainingProgress = strTrainingProgress + "1";
 
-                            if (_trainingSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                            if (m_oTtrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                             {
-                                _totalNumberOfErrorsSecondLanguage += trainingFortschritt.Length - trainingFortschritt.Replace("0", "").Length
-                                                                   -(_trainingSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                                                     _trainingSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                                                   - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                                                     m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
 
-                                _trainingSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = trainingFortschritt;
+                                m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
-                                if (!_secondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                    _secondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+                                if (!m_oSecondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                    m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
 
                                 System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
                                 if (n != null)
                                 {
-                                    string correctAnswers = n.InnerText;
+                                    string strCorrectAnswers = n.InnerText;
                                     int nCorrectAnswers = 0;
-                                    if (!int.TryParse(correctAnswers, out nCorrectAnswers))
+                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
                                         nCorrectAnswers = 0;
                                     else
                                         if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
-                                    _correctSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                                 }
                                 else
-                                    _correctSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
                             }
 
                         }
@@ -335,52 +475,60 @@ namespace VokabelTrainer
                 {
                     NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
                         string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, ex.Message));
-                    //NewMessageBox.Show(this, ex.Message, "Fehler beim Laden der XML-Trainingdatei", "Beim Laden der XML-Trainingdatei ist der folgende Fehler aufgetreten: " + ex.Message);
-                    //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Laden der XML-Vokabeldatei", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                    _currentPath = null;
-                    _currentDoc = null;
+                    m_strCurrentPath = null;
+                    m_oCurrentVocabularyDoc = null;
 
-                    _trainingFirstLanguage = new SortedDictionary<string, string>();
-                    _trainingSecondLanguage = new SortedDictionary<string, string>();
-                    _firstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _secondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    _correctFirstLanguage = new SortedDictionary<string, int>();
-                    _correctSecondLanguage = new SortedDictionary<string, int>();
-                    _totalNumberOfErrorsFirstLanguage = 0;
-                    _totalNumberOfErrorsSecondLanguage = 0;
+                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                    m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                    m_nTotalNumberOfErrorsFirstLanguage = 0;
+                    m_nTotalNumberOfErrorsSecondLanguage = 0;
                 }
             }
 
             EnableDisableButtons();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed, when user decides to create a new language file
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnNewLanguage_Click(object oSender, EventArgs oArgs)
         {
             using (NewLanguageFile form = new NewLanguageFile())
             {
                 if (form.ShowDialog(this) == DialogResult.OK)
                 {
-                    string newPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text + ".Vokabeln.xml");
-                    System.IO.FileInfo fi = new System.IO.FileInfo(newPath);
+                    string strNewPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
+                        form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text + ".Vokabeln.xml");
+
+                    System.IO.FileInfo fi = new System.IO.FileInfo(strNewPath);
                     if (fi.Exists)
                     {
                         if (System.Windows.Forms.MessageBox.Show(this, 
-                            string.Format(Properties.Resources.LanguageFileAlreadyExistsMessage, newPath), 
-                            Properties.Resources.LanguageFileAlreadyExistsHeader, MessageBoxButtons.YesNo, MessageBoxIcon.Question) 
-                            != DialogResult.Yes)
-                        //if (System.Windows.Forms.MessageBox.Show(this, "Die Sprachdatei existiert bereits: \"" + newPath + "\", möchten Sie diese überschreiben?", "Datei überschreiben?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                                string.Format(Properties.Resources.LanguageFileAlreadyExistsMessage, strNewPath), 
+                                Properties.Resources.LanguageFileAlreadyExistsHeader,
+                                MessageBoxButtons.YesNo, MessageBoxIcon.Question) 
+                                != DialogResult.Yes)
                             return;
                     };
-                    _currentPath = newPath;
-                    _currentDoc = new System.Xml.XmlDocument();
-                    _currentDoc.PreserveWhitespace = false;
-                    _saveModifiable = form.m_chkLanguageFileModifiable.Checked;
-                    _modifiable = true;
-                    _savePossible = true;
+                    m_strCurrentPath = strNewPath;
+                    m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
+                    m_oCurrentVocabularyDoc.PreserveWhitespace = false;
+                    m_bIsModifiableFlagForXml = form.m_chkLanguageFileModifiable.Checked;
+                    m_bModifiable = true;
+                    m_bSavePossible = true;
                     if (form.m_chkLanguageFileUnderGPL2.Checked)
                     {
-                        _license = "Copyright (C) " + System.DateTime.Now.Year + " " + Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
+                        m_strLicense = "Copyright (C) " + System.DateTime.Now.Year + " " + 
+                                    Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
                                    "This program is free software; you can redistribute it and/or\r\n" +
                                    "modify it under the terms of the GNU General Public License\r\n" +
                                    "as published by the Free Software Foundation; either version 2\r\n" +
@@ -395,42 +543,50 @@ namespace VokabelTrainer
                     }
                     else
                     {
-                        _license = "Copyright (C) " + System.DateTime.Now.Year + " " + Environment.GetEnvironmentVariable("USERNAME") + ", alle Rechte vorbehalten";
+                        m_strLicense = "Copyright (C) " + System.DateTime.Now.Year + " " + 
+                            Environment.GetEnvironmentVariable("USERNAME") + ", all rights reserved";
                     }
 
-                    _currentDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n"+
+                    m_oCurrentVocabularyDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n"+
                         "  <zweite-sprache-name>" + form.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n"+
                         "  <erste-sprache-rtl>"+(form.m_chkFirstLanguageRTL.Checked?"ja":"nein")+"</erste-sprache-rtl>\r\n"+
                         "  <zweite-sprache-rtl>" + (form.m_chkSecondLanguageRTL.Checked ? "ja" : "nein") + "</zweite-sprache-rtl>\r\n" +
-                        "<lizenz><modifikationen>" + (_saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + _license + "</text></lizenz></vokabeln>\r\n");
-                    _currentDoc.Save(_currentPath);
+                        "<lizenz><modifikationen>" + (m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + m_strLicense + "</text></lizenz></vokabeln>\r\n");
+                    m_oCurrentVocabularyDoc.Save(m_strCurrentPath);
 
                     m_bFirstLanguageRtl = form.m_chkFirstLanguageRTL.Checked;
                     m_bSecondLanguageRtl = form.m_chkSecondLanguageRTL.Checked;
 
-                    _trainingFirstLanguage = new SortedDictionary<string,string>();
-                    _trainingSecondLanguage = new SortedDictionary<string,string>();
-                    _firstToSecond = new SortedDictionary<string,SortedDictionary<string,bool>>();
-                    _secondToFirst = new SortedDictionary<string,SortedDictionary<string,bool>>();
-                    _correctFirstLanguage = new SortedDictionary<string, int>();
-                    _correctSecondLanguage = new SortedDictionary<string, int>();
-                    _totalNumberOfErrorsFirstLanguage = 0;
-                    _totalNumberOfErrorsSecondLanguage = 0;
-                    _firstLanguage = form.m_tbxFirstLanguage.Text;
-                    _secondLanguage = form.m_tbxSecondLanguage.Text;
+                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string,string>();
+                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string,string>();
+                    m_oFirstToSecond = new SortedDictionary<string,SortedDictionary<string,bool>>();
+                    m_oSecondToFirst = new SortedDictionary<string,SortedDictionary<string,bool>>();
+                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                    m_nTotalNumberOfErrorsFirstLanguage = 0;
+                    m_nTotalNumberOfErrorsSecondLanguage = 0;
+                    m_strFirstLanguage = form.m_tbxFirstLanguage.Text;
+                    m_strSecondLanguage = form.m_tbxSecondLanguage.Text;
                 }
             }
             EnableDisableButtons();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user decides to enter new vocabulary
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnEnterVocabulary_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             bool bSave = false;
             while (bRepeat)
             {
-                string firstText = "";
-                string secondText = "";
+                string strFirstText = "";
+                string strSecondText = "";
 
                 bool bRepeat2 = true;
                 while (bRepeat2)
@@ -439,10 +595,10 @@ namespace VokabelTrainer
                     using (NewDictionaryPair pair = new NewDictionaryPair(m_chkUseESpeak.Checked, m_tbxESpeakPath.Text))
                     {
                         char[] separators = { ',', ';' };
-                        pair.m_lblFirstLanguage.Text = _firstLanguage + ":";
-                        pair.m_lblSecondLanguage.Text = _secondLanguage + ":";
-                        pair.m_tbxFirstLanguage.Text = firstText;
-                        pair.textBoxSecondLanguage.Text = secondText;
+                        pair.m_lblFirstLanguage.Text = m_strFirstLanguage + ":";
+                        pair.m_lblSecondLanguage.Text = m_strSecondLanguage + ":";
+                        pair.m_tbxFirstLanguage.Text = strFirstText;
+                        pair.textBoxSecondLanguage.Text = strSecondText;
                         pair.m_lblFirstLanguage.RightToLeft = m_bFirstLanguageRtl?RightToLeft.Yes:RightToLeft.No;
                         pair.m_lblSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         pair.m_tbxFirstLanguage.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
@@ -452,21 +608,25 @@ namespace VokabelTrainer
                             case DialogResult.Retry:
                                 if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
-                                    firstText = "";
-                                    secondText = pair.textBoxSecondLanguage.Text.Trim();
+                                    strFirstText = "";
+                                    strSecondText = pair.textBoxSecondLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
                                 if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
                                 {
-                                    secondText = "";
-                                    firstText = pair.m_tbxFirstLanguage.Text.Trim();
+                                    strSecondText = "";
+                                    strFirstText = pair.m_tbxFirstLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
 
-                                string sss1 = pair.m_tbxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
-                                string sss2 = pair.textBoxSecondLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                string sss1 = pair.m_tbxFirstLanguage.Text
+                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                string sss2 = pair.textBoxSecondLanguage.Text
+                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
                                     foreach (string ss2 in sss2.Split(separators, StringSplitOptions.RemoveEmptyEntries))
@@ -474,52 +634,58 @@ namespace VokabelTrainer
                                         string s1 = ss1.Trim();
                                         string s2 = ss2.Trim();
 
-                                        if (!_trainingFirstLanguage.ContainsKey(s1))
+                                        if (!m_oTrainingResultsFirstLanguage.ContainsKey(s1))
                                         {
-                                            _trainingFirstLanguage[s1] = "111110";
-                                            _totalNumberOfErrorsFirstLanguage += 1;
-                                            _firstToSecond[s1] = new SortedDictionary<string, bool>();
+                                            m_oTrainingResultsFirstLanguage[s1] = "111110";
+                                            m_nTotalNumberOfErrorsFirstLanguage += 1;
+                                            m_oFirstToSecond[s1] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(_trainingFirstLanguage[s1].Substring(5, 1)))
+                                            if ("1".Equals(m_oTrainingResultsFirstLanguage[s1].Substring(5, 1)))
                                             {
-                                                _totalNumberOfErrorsFirstLanguage += 1;
-                                                _trainingFirstLanguage[s1] = _trainingFirstLanguage[s1].Substring(0, 5) + "0"; // +_trainingFirstLanguage[s1].Substring(6);
+                                                m_nTotalNumberOfErrorsFirstLanguage += 1;
+                                                m_oTrainingResultsFirstLanguage[s1] = 
+                                                    m_oTrainingResultsFirstLanguage[s1].Substring(0, 5) + "0"; 
+                                                // +_trainingFirstLanguage[s1].Substring(6);
                                             }
                                         }
 
-                                        if (!_trainingSecondLanguage.ContainsKey(s2))
+                                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(s2))
                                         {
-                                            _totalNumberOfErrorsSecondLanguage += 1;
-                                            _trainingSecondLanguage[s2] = "111110";
+                                            m_nTotalNumberOfErrorsSecondLanguage += 1;
+                                            m_oTtrainingResultsSecondLanguage[s2] = "111110";
 
-                                            _secondToFirst[s2] = new SortedDictionary<string, bool>();
+                                            m_oSecondToFirst[s2] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(_trainingSecondLanguage[s2].Substring(5, 1)))
+                                            if ("1".Equals(m_oTtrainingResultsSecondLanguage[s2].Substring(5, 1)))
                                             {
-                                                _totalNumberOfErrorsSecondLanguage += 1;
-                                                _trainingSecondLanguage[s2] = _trainingSecondLanguage[s2].Substring(0, 5) + "0"; // +_trainingSecondLanguage[s2].Substring(6);
+                                                m_nTotalNumberOfErrorsSecondLanguage += 1;
+                                                m_oTtrainingResultsSecondLanguage[s2] = 
+                                                    m_oTtrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
+                                                // +_trainingSecondLanguage[s2].Substring(6);
                                             }
                                         }
 
-                                        if (!_correctFirstLanguage.ContainsKey(s1))
-                                            _correctFirstLanguage[s1] = 0;
+                                        if (!m_oCorrectAnswersFirstLanguage.ContainsKey(s1))
+                                            m_oCorrectAnswersFirstLanguage[s1] = 0;
                                         else
-                                            _correctFirstLanguage[s1] = Math.Max(0,_correctFirstLanguage[s1]-3);
+                                            m_oCorrectAnswersFirstLanguage[s1] = 
+                                                Math.Max(0,m_oCorrectAnswersFirstLanguage[s1]-3);
 
 
-                                        if (!_correctSecondLanguage.ContainsKey(s2))
-                                            _correctSecondLanguage[s2] = 0;
+                                        if (!m_oCorrectSecondLanguage.ContainsKey(s2))
+                                            m_oCorrectSecondLanguage[s2] = 0;
                                         else
-                                            _correctSecondLanguage[s2] = Math.Max(0, _correctSecondLanguage[s2] - 3);
+                                            m_oCorrectSecondLanguage[s2] = 
+                                                Math.Max(0, m_oCorrectSecondLanguage[s2] - 3);
 
-                                        if (!_firstToSecond[s1].ContainsKey(s2))
-                                            _firstToSecond[s1][s2] = false;
-                                        if (!_secondToFirst[s2].ContainsKey(s1))
-                                            _secondToFirst[s2][s1] = false;
+                                        if (!m_oFirstToSecond[s1].ContainsKey(s2))
+                                            m_oFirstToSecond[s1][s2] = false;
+                                        if (!m_oSecondToFirst[s2].ContainsKey(s1))
+                                            m_oSecondToFirst[s2][s1] = false;
                                     }
                                 bSave = true;
                                 bRepeat = true;
@@ -528,21 +694,25 @@ namespace VokabelTrainer
                             case DialogResult.OK:
                                 if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
-                                    firstText = "";
-                                    secondText = pair.textBoxSecondLanguage.Text.Trim();
+                                    strFirstText = "";
+                                    strSecondText = pair.textBoxSecondLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
                                 if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
                                 {
-                                    secondText = "";
-                                    firstText = pair.m_tbxFirstLanguage.Text.Trim();
+                                    strSecondText = "";
+                                    strFirstText = pair.m_tbxFirstLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
 
-                                sss1 = pair.m_tbxFirstLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
-                                sss2 = pair.textBoxSecondLanguage.Text.Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                sss1 = pair.m_tbxFirstLanguage.Text
+                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
+                                sss2 = pair.textBoxSecondLanguage.Text
+                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
                                     foreach (string ss2 in sss2.Split(separators, StringSplitOptions.RemoveEmptyEntries))
@@ -550,53 +720,59 @@ namespace VokabelTrainer
                                         string s1 = ss1.Trim();
                                         string s2 = ss2.Trim();
 
-                                        if (!_trainingFirstLanguage.ContainsKey(s1))
+                                        if (!m_oTrainingResultsFirstLanguage.ContainsKey(s1))
                                         {
-                                            _trainingFirstLanguage[s1] = "111110";
-                                            _totalNumberOfErrorsFirstLanguage += 1;
-                                            _firstToSecond[s1] = new SortedDictionary<string, bool>();
+                                            m_oTrainingResultsFirstLanguage[s1] = "111110";
+                                            m_nTotalNumberOfErrorsFirstLanguage += 1;
+                                            m_oFirstToSecond[s1] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(_trainingFirstLanguage[s1].Substring(5, 1)))
+                                            if ("1".Equals(m_oTrainingResultsFirstLanguage[s1].Substring(5, 1)))
                                             {
-                                                _totalNumberOfErrorsFirstLanguage += 1;
-                                                _trainingFirstLanguage[s1] = _trainingFirstLanguage[s1].Substring(0, 5) + "0"; // +_trainingFirstLanguage[s1].Substring(6);
+                                                m_nTotalNumberOfErrorsFirstLanguage += 1;
+                                                m_oTrainingResultsFirstLanguage[s1] = 
+                                                    m_oTrainingResultsFirstLanguage[s1].Substring(0, 5) + "0"; 
+                                                // +_trainingFirstLanguage[s1].Substring(6);
                                             }
                                         }
 
-                                        if (!_trainingSecondLanguage.ContainsKey(s2))
+                                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(s2))
                                         {
-                                            _totalNumberOfErrorsSecondLanguage += 1;
-                                            _trainingSecondLanguage[s2] = "111110";
+                                            m_nTotalNumberOfErrorsSecondLanguage += 1;
+                                            m_oTtrainingResultsSecondLanguage[s2] = "111110";
 
-                                            _secondToFirst[s2] = new SortedDictionary<string, bool>();
+                                            m_oSecondToFirst[s2] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(_trainingSecondLanguage[s2].Substring(5, 1)))
+                                            if ("1".Equals(m_oTtrainingResultsSecondLanguage[s2].Substring(5, 1)))
                                             {
-                                                _totalNumberOfErrorsSecondLanguage += 1;
-                                                _trainingSecondLanguage[s2] = _trainingSecondLanguage[s2].Substring(0, 5) + "0"; // +_trainingSecondLanguage[s2].Substring(6);
+                                                m_nTotalNumberOfErrorsSecondLanguage += 1;
+                                                m_oTtrainingResultsSecondLanguage[s2] = 
+                                                    m_oTtrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
+                                                // +_trainingSecondLanguage[s2].Substring(6);
                                             }
                                         }
 
-                                        if (!_correctFirstLanguage.ContainsKey(s1))
-                                            _correctFirstLanguage[s1] = 0;
+                                        if (!m_oCorrectAnswersFirstLanguage.ContainsKey(s1))
+                                            m_oCorrectAnswersFirstLanguage[s1] = 0;
                                         else
-                                            _correctFirstLanguage[s1] = Math.Max(0, _correctFirstLanguage[s1] - 3);
+                                            m_oCorrectAnswersFirstLanguage[s1] = 
+                                                Math.Max(0, m_oCorrectAnswersFirstLanguage[s1] - 3);
 
 
-                                        if (!_correctSecondLanguage.ContainsKey(s2))
-                                            _correctSecondLanguage[s2] = 0;
+                                        if (!m_oCorrectSecondLanguage.ContainsKey(s2))
+                                            m_oCorrectSecondLanguage[s2] = 0;
                                         else
-                                            _correctSecondLanguage[s2] = Math.Max(0, _correctSecondLanguage[s2] - 3);
+                                            m_oCorrectSecondLanguage[s2] = 
+                                                Math.Max(0, m_oCorrectSecondLanguage[s2] - 3);
 
 
-                                        if (!_firstToSecond[s1].ContainsKey(s2))
-                                            _firstToSecond[s1][s2] = false;
-                                        if (!_secondToFirst[s2].ContainsKey(s1))
-                                            _secondToFirst[s2][s1] = false;
+                                        if (!m_oFirstToSecond[s1].ContainsKey(s2))
+                                            m_oFirstToSecond[s1][s2] = false;
+                                        if (!m_oSecondToFirst[s2].ContainsKey(s1))
+                                            m_oSecondToFirst[s2][s1] = false;
                                     }
 
                                 bSave = true;
@@ -620,22 +796,31 @@ namespace VokabelTrainer
             EnableDisableButtons();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed, when user decides to exercise from second to first
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void button3_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
             {
                 bRepeat = false;
                 // there we train one of the words randomly. Words with errors get higher weight
-                int rnd2 = _rnd2.Next();
-                _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                int rnd2 = m_oRnd2.Next();
+                m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                int selectedError = rnd2 % (_totalNumberOfErrorsSecondLanguage + _trainingSecondLanguage.Count);
+                int selectedError = rnd2 % (m_nTotalNumberOfErrorsSecondLanguage + m_oTtrainingResultsSecondLanguage.Count);
 
-                _skipLast = _trainingSecondLanguage.Count > 10;
+                m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
 
                 int wordIndex = -1;
-                using (SortedDictionary<string,string>.ValueCollection.Enumerator values = _trainingSecondLanguage.Values.GetEnumerator())
+                using (SortedDictionary<string,string>.ValueCollection.Enumerator values = 
+                    m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
                 {
                     while (selectedError >= 0 && values.MoveNext())
                     {
@@ -648,34 +833,45 @@ namespace VokabelTrainer
                             selectedError -= 1;
                     }
 
-                    bRepeat = TrainSecondLanguage(wordIndex);
+                    bRepeat = TrainSecondToFirstLanguage(wordIndex);
                 };
             }
             SaveTrainingProgress();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is called when user wants to train from second language to first intensively
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnIntensiveSecondToFirst_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
             {
                 bRepeat = false;
                 // decide, if we will train one word randomly, or one that needs additional training
-                int rnd = _rnd.Next();
-                _rnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
+                int rnd = m_oRnd.Next();
+                m_oRnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
 
-                if ((_totalNumberOfErrorsSecondLanguage>0) && (rnd % 100 < 50))
+                if ((m_nTotalNumberOfErrorsSecondLanguage>0) && (rnd % 100 < 50))
                 {
                     // there we train one of the words that need training
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedError = rnd2 % _totalNumberOfErrorsSecondLanguage;
+                    int selectedError = rnd2 % m_nTotalNumberOfErrorsSecondLanguage;
 
-                    _skipLast = _trainingSecondLanguage.Count > 20;
+                    m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 20;
 
                     int wordIndex = -1;
-                    using (SortedDictionary<string, string>.ValueCollection.Enumerator values = _trainingSecondLanguage.Values.GetEnumerator())
+                    using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
+                        m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
                     {
                         while (selectedError >= 0 && values.MoveNext())
                         {
@@ -686,26 +882,27 @@ namespace VokabelTrainer
                             }
                         }
 
-                        bRepeat = TrainSecondLanguage(wordIndex);
+                        bRepeat = TrainSecondToFirstLanguage(wordIndex);
                     }
                 }
                 else
                 {
                     // there we train one of the words
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
 
                     // calculate mean of correct answers
                     long lTotal = 0;
-                    foreach (int i in _correctSecondLanguage.Values)
+                    foreach (int i in m_oCorrectSecondLanguage.Values)
                         lTotal += i;
 
-                    int mean = (int)((lTotal+_correctSecondLanguage.Count/2) / _correctSecondLanguage.Count);
+                    int mean = (int)((lTotal+m_oCorrectSecondLanguage.Count/2) / m_oCorrectSecondLanguage.Count);
 
                     // now calculate the sum of weights of all words
                     int iTotalWeights = 0;
-                    foreach (int i in _correctSecondLanguage.Values)
+                    foreach (int i in m_oCorrectSecondLanguage.Values)
                     {
                         int weight = (i > mean + 3) ? 0 : (mean + 3 - i)*(mean + 3 - i);
                         iTotalWeights += weight;
@@ -714,20 +911,22 @@ namespace VokabelTrainer
                     int selectedWeight = rnd2 % iTotalWeights;
 
                     int wordIndex = -1;
-                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = _correctSecondLanguage.Values.GetEnumerator())
+                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
+                        m_oCorrectSecondLanguage.Values.GetEnumerator())
                     {
                         while (selectedWeight >= 0 && values.MoveNext())
                         {
                             wordIndex += 1;
 
-                            int weight = (values.Current > mean + 3) ? 0 : (mean + 3 - values.Current) * (mean + 3 - values.Current);
+                            int weight = (values.Current > mean + 3) ? 0 : 
+                                (mean + 3 - values.Current) * (mean + 3 - values.Current);
 
                             selectedWeight -= weight;
                         }
 
-                        _skipLast = _trainingSecondLanguage.Count > 10;
+                        m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
 
-                        bRepeat = TrainSecondLanguage(wordIndex);
+                        bRepeat = TrainSecondToFirstLanguage(wordIndex);
                     }
 
                     /*
@@ -740,7 +939,14 @@ namespace VokabelTrainer
             SaveTrainingProgress();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to do most intensive training from second to first language
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnMostIntensiveSecondToFirst_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -751,7 +957,7 @@ namespace VokabelTrainer
                 int bestCount = 0;
                 int bestTime = 16;
                 int wordIndex = -1;
-                foreach(string s in _trainingSecondLanguage.Values)
+                foreach(string s in m_oTtrainingResultsSecondLanguage.Values)
                 {
                     ++wordIndex;
                     int time = s.IndexOf('0');
@@ -771,13 +977,14 @@ namespace VokabelTrainer
 
                 if (bestCount > 0)
                 {
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
                     int selectedBest = rnd2 % bestCount;
 
                     wordIndex = -1;
-                    foreach (string s in _trainingSecondLanguage.Values)
+                    foreach (string s in m_oTtrainingResultsSecondLanguage.Values)
                     {
                         ++wordIndex;
                         int time = s.IndexOf('0');
@@ -796,8 +1003,8 @@ namespace VokabelTrainer
 
                     if (bestIndex >= 0)
                     {
-                        _skipLast = false;
-                        bRepeat = TrainSecondLanguage(bestIndex);
+                        m_bSkipLast = false;
+                        bRepeat = TrainSecondToFirstLanguage(bestIndex);
                     }
                 }
             }
@@ -805,63 +1012,69 @@ namespace VokabelTrainer
         }
 
 
-
-        private bool TrainSecondLanguage(int index)
+        //===================================================================================================
+        /// <summary>
+        /// Trains from second to first language
+        /// </summary>
+        /// <param name="nIndex">Index of the word to train</param>
+        /// <returns>true iff the training shall continue</returns>
+        //===================================================================================================
+        private bool TrainSecondToFirstLanguage(int nIndex)
         {
             bool bRepeat = false;
             bool bVerify = false;
-            foreach(KeyValuePair<string,string> pair in _trainingSecondLanguage)
+            foreach(KeyValuePair<string,string> oPair in m_oTtrainingResultsSecondLanguage)
             {
-                if (0 == index-- )
+                if (0 == nIndex-- )
                 {
-                    if (_skipLast)
+                    if (m_bSkipLast)
                     {
-                        foreach (string s in _trainedWords)
+                        foreach (string s in m_oRecentlyTrainedWords)
                         {
                             // if we trained this word recently, then try to skip it
-                            if (s.Equals(pair.Key))
-                                if (_rnd2.Next(100) > 0)
+                            if (s.Equals(oPair.Key))
+                                if (m_oRnd2.Next(100) > 0)
                                     return true;
                         };
 
                         // add the word to the list of recently trained words, rotate the list
-                        if (_trainedWords.Count > 10)
-                            _trainedWords.RemoveLast();
-                        _trainedWords.AddFirst(pair.Key);
+                        if (m_oRecentlyTrainedWords.Count > 10)
+                            m_oRecentlyTrainedWords.RemoveLast();
+                        m_oRecentlyTrainedWords.AddFirst(oPair.Key);
 
                     }
                     else
                     {
-                        foreach (string s in _trainedWords)
+                        foreach (string s in m_oRecentlyTrainedWords)
                         {
                             // if we trained this word recently, then try to skip it, but not with that high probability
-                            if (s.Equals(pair.Key))
-                                if (_rnd2.Next(3) > 0)
+                            if (s.Equals(oPair.Key))
+                                if (m_oRnd2.Next(3) > 0)
                                     return true;
                         }
 
                         // add the word to the list of recently trained words, rotate the list
-                        while (_trainedWords.Count > 3)
-                            _trainedWords.RemoveLast();
-                        _trainedWords.AddFirst(pair.Key);
+                        while (m_oRecentlyTrainedWords.Count > 3)
+                            m_oRecentlyTrainedWords.RemoveLast();
+                        m_oRecentlyTrainedWords.AddFirst(oPair.Key);
 
                     }
 
 
-                    using (WordTest test = new WordTest())
+                    using (WordTest oTestDlg = new WordTest())
                     {
-                        test.m_lblShownText.Text = _secondLanguage + ": " + pair.Key;
-                        test.m_lblAskedTranslation.Text = _firstLanguage + ":";
-                        test.m_lblShownText.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
-                        test.m_lblAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
-                        test.m_tbxAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        oTestDlg.m_lblShownText.Text = m_strSecondLanguage + ": " + oPair.Key;
+                        oTestDlg.m_lblAskedTranslation.Text = m_strFirstLanguage + ":";
+                        oTestDlg.m_lblShownText.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        oTestDlg.m_lblAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        oTestDlg.m_tbxAskedTranslation.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
 
-                        test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
+                        oTestDlg.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 3)
-                            Speaker.Say(_secondLanguage,pair.Key,true,m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                            Speaker.Say(m_strSecondLanguage,oPair.Key,true,m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
-                        switch (test.ShowDialog())
+                        switch (oTestDlg.ShowDialog())
                         {
                             case DialogResult.Retry:
                                 bRepeat = true;
@@ -883,7 +1096,10 @@ namespace VokabelTrainer
                             char[] separators = { ',' };
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
-                            foreach (string s in test.m_tbxAskedTranslation.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
+                            foreach (string s in oTestDlg.m_tbxAskedTranslation.Text.Trim()
+                                .Replace("?", "?,").Replace("!", "!,").Replace(";",",")
+                                .Replace(",,", ",").Replace(",,", ",").Split(separators, 
+                                    StringSplitOptions.RemoveEmptyEntries))
                             {
                                 typedIn[s.Trim()] = false;
                             }
@@ -891,7 +1107,7 @@ namespace VokabelTrainer
                             Dictionary<string, bool> missing = new Dictionary<string, bool>();
                             Dictionary<string, bool> wrong = new Dictionary<string, bool>();
 
-                            foreach (string s in _secondToFirst[pair.Key].Keys)
+                            foreach (string s in m_oSecondToFirst[oPair.Key].Keys)
                             {
                                 if (!typedIn.ContainsKey(s))
                                     missing[s] = false;
@@ -899,7 +1115,7 @@ namespace VokabelTrainer
 
                             foreach (string s in typedIn.Keys)
                             {
-                                if (!_secondToFirst[pair.Key].ContainsKey(s))
+                                if (!m_oSecondToFirst[oPair.Key].ContainsKey(s))
                                 {
                                     wrong[s] = false;
                                 }
@@ -907,93 +1123,96 @@ namespace VokabelTrainer
 
                             if (missing.Count > 0 || wrong.Count > 0)
                             {
-                                string errorMessage = "";
+                                string strErrorMessage = "";
                                 if (missing.Count > 1)
                                 {
-                                    string textToSpeak = "";
+                                    string strTextToSpeak = "";
 
-                                    errorMessage = Properties.Resources.FollowingMeaningWereMissing;
+                                    strErrorMessage = Properties.Resources.FollowingMeaningWereMissing;
                                     //errorMessage = "Folgende Bedeutungen haben gefehlt: ";
                                     bool bFirst = true;
                                     foreach (string s in missing.Keys)
                                     {
                                         if (!bFirst)
                                         {
-                                            textToSpeak = textToSpeak + ", ";
-                                            errorMessage = errorMessage + ", ";
+                                            strTextToSpeak = strTextToSpeak + ", ";
+                                            strErrorMessage = strErrorMessage + ", ";
                                         }
                                         else
                                             bFirst = false;
 
-                                        errorMessage = errorMessage + s;
-                                        textToSpeak = textToSpeak + s;
+                                        strErrorMessage = strErrorMessage + s;
+                                        strTextToSpeak = strTextToSpeak + s;
                                     }
-                                    errorMessage = errorMessage + ". ";
+                                    strErrorMessage = strErrorMessage + ". ";
 
-                                    Speaker.Say(_firstLanguage, textToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                    Speaker.Say(m_strFirstLanguage, strTextToSpeak, true, 
+                                        m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
                                     if (missing.Count == 1)
                                     {
-                                        errorMessage = Properties.Resources.FollowingMeaningWasMissing;
+                                        strErrorMessage = Properties.Resources.FollowingMeaningWasMissing;
                                         //errorMessage = "Folgende Bedeutung hat gefehlt: ";
                                         foreach (string s in missing.Keys)
                                         {
-                                            errorMessage = errorMessage + s + ". ";
+                                            strErrorMessage = strErrorMessage + s + ". ";
 
-                                            Speaker.Say(_firstLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                            Speaker.Say(m_strFirstLanguage, s, true, 
+                                                m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                         }
                                     }
 
-                                if (wrong.Count > 0 && !string.IsNullOrEmpty(errorMessage))
-                                    errorMessage = errorMessage + "\r\n";
+                                if (wrong.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
+                                    strErrorMessage = strErrorMessage + "\r\n";
 
                                 if (wrong.Count > 1)
                                 {
 
-                                    errorMessage = errorMessage + Properties.Resources.FollowingMeaningsWereWrong;
+                                    strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
                                     foreach (string s in wrong.Keys)
                                     {
                                         if (!bFirst)
-                                            errorMessage = errorMessage + ", ";
+                                            strErrorMessage = strErrorMessage + ", ";
                                         else
                                             bFirst = false;
 
-                                        errorMessage = errorMessage + s;
+                                        strErrorMessage = strErrorMessage + s;
 
-                                        if (_trainingFirstLanguage.ContainsKey(s))
+                                        if (m_oTrainingResultsFirstLanguage.ContainsKey(s))
                                             RememberResultFirstLanguage(s, false);
                                     }
-                                    errorMessage = errorMessage + ". ";
+                                    strErrorMessage = strErrorMessage + ". ";
                                 }
                                 else
                                     if (wrong.Count == 1)
                                     {
-                                        errorMessage = errorMessage + Properties.Resources.FollowingMeaningWasWrong;
+                                        strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningWasWrong;
                                         foreach (string s in wrong.Keys)
                                         {
-                                            errorMessage = errorMessage + s + ". ";
-                                            if (_trainingFirstLanguage.ContainsKey(s))
+                                            strErrorMessage = strErrorMessage + s + ". ";
+                                            if (m_oTrainingResultsFirstLanguage.ContainsKey(s))
                                                 RememberResultFirstLanguage(s, false);
                                         }
                                     }
 
                                 if (missing.Count > 0)
-                                    NewMessageBox.Show(this, errorMessage, Properties.Resources.Mistake, null);
+                                    NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
-                                    MessageBox.Show(errorMessage, Properties.Resources.Mistake, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                //MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, missing.Count>0? MessageBoxIcon.None:MessageBoxIcon.Error);
+                                    MessageBox.Show(strErrorMessage, Properties.Resources.Mistake,
+                                        MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                                RememberResultSecondLanguage(pair.Key, false);
+                                RememberResultSecondLanguage(oPair.Key, false);
                             }
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
-                                    Speaker.Say(_firstLanguage, test.m_tbxAskedTranslation.Text.Trim(), true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
-                                RememberResultSecondLanguage(pair.Key, true);
+                                    Speaker.Say(m_strFirstLanguage, oTestDlg.m_tbxAskedTranslation.Text.Trim(), 
+                                        true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                RememberResultSecondLanguage(oPair.Key, true);
                             }
                         }
                     }
@@ -1002,58 +1221,80 @@ namespace VokabelTrainer
                 }
             }
             return bRepeat;
-
         }
 
-        void RememberResultFirstLanguage(string word, bool bCorrect)
+        //===================================================================================================
+        /// <summary>
+        /// Remembers the result of the test of first to second language
+        /// </summary>
+        /// <param name="strWord">Tested word in first language</param>
+        /// <param name="bCorrect">Indicates, if the result was correct</param>
+        //===================================================================================================
+        void RememberResultFirstLanguage(string strWord, bool bCorrect)
         {
-            string prevResults = _trainingFirstLanguage[word];
-            string newResults = (bCorrect ? "1" : "0") + prevResults.Substring(0, prevResults.Length<5?prevResults.Length:5);
-            _trainingFirstLanguage[word] = newResults;
-            _totalNumberOfErrorsFirstLanguage += newResults.Length - newResults.Replace("0", "").Length - (prevResults.Length - prevResults.Replace("0", "").Length);
+            string strPrevResults = m_oTrainingResultsFirstLanguage[strWord];
+            string strNewResults = (bCorrect ? "1" : "0") + 
+                strPrevResults.Substring(0, strPrevResults.Length<5?strPrevResults.Length:5);
+            m_oTrainingResultsFirstLanguage[strWord] = strNewResults;
+            m_nTotalNumberOfErrorsFirstLanguage += strNewResults.Length - strNewResults.Replace("0", "").Length - 
+                (strPrevResults.Length - strPrevResults.Replace("0", "").Length);
 
-            // if the result was correct and we didn't repeat it because of earlier mistakes, then increment the number of correct answers
-            if (bCorrect && prevResults.IndexOf('0')<0)
-                _correctFirstLanguage[word]++;
+            // if the result was correct and we didn't repeat it because of earlier 
+            // mistakes, then increment the number of correct answers
+            if (bCorrect && strPrevResults.IndexOf('0')<0)
+                m_oCorrectAnswersFirstLanguage[strWord]++;
 
             EnableDisableButtons();
         }
 
 
-        void RememberResultSecondLanguage(string word, bool bCorrect)
+        //===================================================================================================
+        /// <summary>
+        /// Remembers the result of the test of second to first language
+        /// </summary>
+        /// <param name="strWord">Tested word in second language</param>
+        /// <param name="bCorrect">Indicates, if the result was correct</param>
+        //===================================================================================================
+        void RememberResultSecondLanguage(string strWord, bool bCorrect)
         {
-            string prevResults = _trainingSecondLanguage[word];
-            string newResults = (bCorrect ? "1" : "0") + prevResults.Substring(0, prevResults.Length < 5 ? prevResults.Length : 5);
-            _trainingSecondLanguage[word] = newResults;
-            _totalNumberOfErrorsSecondLanguage += newResults.Length - newResults.Replace("0", "").Length - (prevResults.Length - prevResults.Replace("0", "").Length);
+            string strPrevResults = m_oTtrainingResultsSecondLanguage[strWord];
+            string strNewResults = (bCorrect ? "1" : "0") + 
+                strPrevResults.Substring(0, strPrevResults.Length < 5 ? strPrevResults.Length : 5);
+            m_oTtrainingResultsSecondLanguage[strWord] = strNewResults;
+            m_nTotalNumberOfErrorsSecondLanguage += strNewResults.Length - strNewResults.Replace("0", "").Length - 
+                (strPrevResults.Length - strPrevResults.Replace("0", "").Length);
 
-            // if the result was correct and we didn't repeat it because of earlier mistakes, then increment the number of correct answers
-            if (bCorrect && prevResults.IndexOf('0') < 0)
-                _correctSecondLanguage[word]++;
+            // if the result was correct and we didn't repeat it because of 
+            // earlier mistakes, then increment the number of correct answers
+            if (bCorrect && strPrevResults.IndexOf('0') < 0)
+                m_oCorrectSecondLanguage[strWord]++;
 
             EnableDisableButtons();
         }
 
 
+        //===================================================================================================
+        /// <summary>
+        /// Saves vocabulary file
+        /// </summary>
+        //===================================================================================================
         void SaveVokabulary()
         {
-            System.IO.FileInfo fi = new System.IO.FileInfo(_currentPath);
+            System.IO.FileInfo fi = new System.IO.FileInfo(m_strCurrentPath);
 
             try
             {
-
                 if (fi.Exists)
                 {
-                    System.IO.FileInfo fi4 = new System.IO.FileInfo(_currentPath + ".bak");
+                    System.IO.FileInfo fi4 = new System.IO.FileInfo(m_strCurrentPath + ".bak");
                     if (fi4.Exists)
                         fi4.Delete();
-
-
 
                     fi.MoveTo(fi.FullName + ".bak");
                 }
 
-                using (System.IO.StreamWriter w = new System.IO.StreamWriter(_currentPath, false, System.Text.Encoding.UTF8))
+                using (System.IO.StreamWriter w = new System.IO.StreamWriter(
+                    m_strCurrentPath, false, System.Text.Encoding.UTF8))
                 {
                     string[] spaces = {
                         "                         ",
@@ -1085,17 +1326,17 @@ namespace VokabelTrainer
                     w.WriteLine("<vokabeln>");
                     w.WriteLine();
                     w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->");
-                    w.WriteLine("  <erste-sprache-name>{0}</erste-sprache-name>", _firstLanguage);
-                    w.WriteLine("  <zweite-sprache-name>{0}</zweite-sprache-name>", _secondLanguage);
+                    w.WriteLine("  <erste-sprache-name>{0}</erste-sprache-name>", m_strFirstLanguage);
+                    w.WriteLine("  <zweite-sprache-name>{0}</zweite-sprache-name>", m_strSecondLanguage);
                     w.WriteLine("  <erste-sprache-rtl>{0}</erste-sprache-rtl>", m_bFirstLanguageRtl ? "ja" : "nein");
                     w.WriteLine("  <zweite-sprache-rtl>{0}</zweite-sprache-rtl>", m_bSecondLanguageRtl ? "ja" : "nein");;
 
                     w.WriteLine();
                     w.WriteLine("  <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->");
-                    w.WriteLine("  <lizenz><modifikationen>{0}</modifikationen>", _saveModifiable ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen");
-                    w.WriteLine("  <text>{0}</text></lizenz>", _license.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;"));
+                    w.WriteLine("  <lizenz><modifikationen>{0}</modifikationen>", m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen");
+                    w.WriteLine("  <text xml:space=\"preserve\">{0}</text></lizenz>", m_strLicense.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;"));
                     w.WriteLine();
-                    w.WriteLine("  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen ({0}-{1}) -->", _firstLanguage, _secondLanguage);
+                    w.WriteLine("  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen ({0}-{1}) -->", m_strFirstLanguage, m_strSecondLanguage);
                     /*
                     foreach (KeyValuePair<string, SortedDictionary<string, bool>> second in _secondToFirst)
                         foreach (string first in second.Value.Keys)
@@ -1104,23 +1345,23 @@ namespace VokabelTrainer
                             else
                                 w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Trim(), second.Key.Trim(), spaces[first.Trim().Length]);
                      */
-                    foreach (KeyValuePair<string, SortedDictionary<string, bool>> first in _firstToSecond)
-                        foreach (string second in first.Value.Keys)
-                            if (second.Length >= spaces.Length)
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Key.Trim(), second.Trim());
+                    foreach (KeyValuePair<string, SortedDictionary<string, bool>> oFirst in m_oFirstToSecond)
+                        foreach (string strSecond in oFirst.Value.Keys)
+                            if (strSecond.Length >= spaces.Length)
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim());
                             else
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Key.Trim(), second.Trim(), spaces[first.Key.Trim().Length]);
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim(), spaces[oFirst.Key.Trim().Length]);
 
                     w.WriteLine();
                     w.WriteLine("</vokabeln>");
                     w.Close();
                 }
             }
-            catch (Exception ex)
+            catch (Exception oEx)
             {
                 try
                 {
-                    System.IO.FileInfo fi3 = new System.IO.FileInfo(_currentPath);
+                    System.IO.FileInfo fi3 = new System.IO.FileInfo(m_strCurrentPath);
                     if (fi3.Exists)
                         fi3.Delete();
                 }
@@ -1130,26 +1371,30 @@ namespace VokabelTrainer
 
                 try
                 {
-                    System.IO.FileInfo fi2 = new System.IO.FileInfo(_currentPath + ".bak");
+                    System.IO.FileInfo fi2 = new System.IO.FileInfo(m_strCurrentPath + ".bak");
                     if (fi2.Exists)
-                        fi.MoveTo(_currentPath);
+                        fi.MoveTo(m_strCurrentPath);
                 }
                 catch (Exception)
                 {
                 };
 
-                NewMessageBox.Show(this, ex.Message, Properties.Resources.Error, 
-                    string.Format(Properties.Resources.ErrorWhileSavingVocabularyFile, ex.Message));
-                //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Speichern", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                NewMessageBox.Show(this, oEx.Message, Properties.Resources.Error, 
+                    string.Format(Properties.Resources.ErrorWhileSavingVocabularyFile, oEx.Message));
             }
-
         }
 
+        //===================================================================================================
+        /// <summary>
+        /// Saves training progress
+        /// </summary>
+        /// <returns>true iff success</returns>
+        //===================================================================================================
         bool SaveTrainingProgress()
         {
-            string currentPath = _currentPath.Replace(".Vokabeln.xml",".Training.xml")
+            string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml",".Training.xml")
                 .Replace(".Vocabulary.xml",".Training.xml");
-            System.IO.FileInfo fi = new System.IO.FileInfo(currentPath);
+            System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
 
             try
             {
@@ -1157,7 +1402,7 @@ namespace VokabelTrainer
                 if (fi.Exists)
                 {
 
-                    System.IO.FileInfo fi4 = new System.IO.FileInfo(currentPath + ".bak");
+                    System.IO.FileInfo fi4 = new System.IO.FileInfo(strCurrentPath + ".bak");
                     if (fi4.Exists)
                         fi4.Delete();
 
@@ -1165,7 +1410,8 @@ namespace VokabelTrainer
                     fi.MoveTo(fi.FullName + ".bak");
                 }
 
-                using (System.IO.StreamWriter w = new System.IO.StreamWriter(currentPath, false, System.Text.Encoding.UTF8))
+                using (System.IO.StreamWriter w = new System.IO.StreamWriter(
+                    strCurrentPath, false, System.Text.Encoding.UTF8))
                 {
                     string[] spaces = {
                         "                         ",
@@ -1196,31 +1442,31 @@ namespace VokabelTrainer
                     w.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
                     w.WriteLine("<training>");
                     w.WriteLine();
-                    w.WriteLine("  <!-- Die Vokabeln der ersten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", _firstLanguage);
+                    w.WriteLine("  <!-- Die Vokabeln der ersten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", m_strFirstLanguage);
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
-                    foreach (KeyValuePair<string, string> training in _trainingFirstLanguage)
+                    foreach (KeyValuePair<string, string> training in m_oTrainingResultsFirstLanguage)
                         if (training.Key.Length >= spaces.Length)
-                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, _correctFirstLanguage[training.Key]);
+                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key]);
                         else
-                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, _correctFirstLanguage[training.Key], spaces[training.Key.Trim().Length]);
+                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key], spaces[training.Key.Trim().Length]);
                     w.WriteLine();
-                    w.WriteLine("  <!-- Die Vokabeln der zweiten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", _secondLanguage);
+                    w.WriteLine("  <!-- Die Vokabeln der zweiten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", m_strSecondLanguage);
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
-                    foreach (KeyValuePair<string, string> training in _trainingSecondLanguage)
+                    foreach (KeyValuePair<string, string> training in m_oTtrainingResultsSecondLanguage)
                         if (training.Key.Length >= spaces.Length)
-                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, _correctSecondLanguage[training.Key]);
+                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key]);
                         else
-                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, _correctSecondLanguage[training.Key], spaces[training.Key.Trim().Length]);
+                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key], spaces[training.Key.Trim().Length]);
                     w.WriteLine();
                     w.WriteLine("</training>");
                     w.Close();
                 }
             }
-            catch (Exception ex)
+            catch (Exception oEx)
             {
                 try
                 {
-                    System.IO.FileInfo fi3 = new System.IO.FileInfo(currentPath);
+                    System.IO.FileInfo fi3 = new System.IO.FileInfo(strCurrentPath);
                     if (fi3.Exists)
                         fi3.Delete();
                 }
@@ -1230,74 +1476,82 @@ namespace VokabelTrainer
 
                 try
                 {
-                    System.IO.FileInfo fi2 = new System.IO.FileInfo(currentPath + ".bak");
+                    System.IO.FileInfo fi2 = new System.IO.FileInfo(strCurrentPath + ".bak");
                     if (fi2.Exists)
-                        fi.MoveTo(currentPath);
+                        fi.MoveTo(strCurrentPath);
                 }
                 catch (Exception)
                 {
                 };
 
-                NewMessageBox.Show(this, ex.Message, Properties.Resources.Error, 
-                    string.Format(Properties.Resources.ErrorWhileSavingTrainingFile,ex.Message));
-                //System.Windows.Forms.MessageBox.Show(ex.Message, "Fehler beim Speichern", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                NewMessageBox.Show(this, oEx.Message, Properties.Resources.Error, 
+                    string.Format(Properties.Resources.ErrorWhileSavingTrainingFile,oEx.Message));
+
                 return false;
             }
             return true;
         }
 
-        private bool TrainFirstLanguage(int index)
+
+        //===================================================================================================
+        /// <summary>
+        /// Trains first to second language
+        /// </summary>
+        /// <param name="nIndex">Index of the word in first language</param>
+        /// <returns>true iff the training shall continue</returns>
+        //===================================================================================================
+        private bool TrainFirstLanguage(int nIndex)
         {
             bool bRepeat = false;
             bool bVerify = false;
-            foreach (KeyValuePair<string, string> pair in _trainingFirstLanguage)
+            foreach (KeyValuePair<string, string> pair in m_oTrainingResultsFirstLanguage)
             {
-                if (0 == index--)
+                if (0 == nIndex--)
                 {
-                    if (_skipLast)
+                    if (m_bSkipLast)
                     {
-                        foreach (string s in _trainedWords)
+                        foreach (string s in m_oRecentlyTrainedWords)
                         {
                             // if we trained this word recently, then try to skip it
                             if (s.Equals(pair.Key))
-                                if (_rnd2.Next(100) > 0)
+                                if (m_oRnd2.Next(100) > 0)
                                     return true;
                         };
 
                         // add the word to the list of recently trained words, rotate the list
-                        if (_trainedWords.Count > 10)
-                            _trainedWords.RemoveLast();
-                        _trainedWords.AddFirst(pair.Key);
+                        if (m_oRecentlyTrainedWords.Count > 10)
+                            m_oRecentlyTrainedWords.RemoveLast();
+                        m_oRecentlyTrainedWords.AddFirst(pair.Key);
                     }
                     else
                     {
-                        foreach (string s in _trainedWords)
+                        foreach (string s in m_oRecentlyTrainedWords)
                         {
                             // if we trained this word recently, then try to skip it, but not with that high probability
                             if (s.Equals(pair.Key))
-                                if (_rnd2.Next(3) > 0)
+                                if (m_oRnd2.Next(3) > 0)
                                     return true;
                         }
 
                         // add the word to the list of recently trained words, rotate the list
-                        while (_trainedWords.Count > 3)
-                            _trainedWords.RemoveLast();
-                        _trainedWords.AddFirst(pair.Key);
+                        while (m_oRecentlyTrainedWords.Count > 3)
+                            m_oRecentlyTrainedWords.RemoveLast();
+                        m_oRecentlyTrainedWords.AddFirst(pair.Key);
 
                     }
 
 
                     using (WordTest test = new WordTest())
                     {
-                        test.m_lblShownText.Text = _firstLanguage + ": " + pair.Key;
-                        test.m_lblAskedTranslation.Text = _secondLanguage + ":";
+                        test.m_lblShownText.Text = m_strFirstLanguage + ": " + pair.Key;
+                        test.m_lblAskedTranslation.Text = m_strSecondLanguage + ":";
                         test.m_lblShownText.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         test.m_lblAskedTranslation.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         test.m_tbxAskedTranslation.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         test.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
 
                         if (m_cbxReader.SelectedIndex == 0 || m_cbxReader.SelectedIndex == 2)
-                            Speaker.Say(_firstLanguage, pair.Key, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                            Speaker.Say(m_strFirstLanguage, pair.Key, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                         switch (test.ShowDialog())
@@ -1322,7 +1576,10 @@ namespace VokabelTrainer
                             char[] separators = { ',', ';' };
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
-                            foreach (string s in test.m_tbxAskedTranslation.Text.Trim().Replace("?", "?,").Replace("!", "!,").Replace(";",",").Replace(",,", ",").Replace(",,", ",").Split(separators, StringSplitOptions.RemoveEmptyEntries))
+                            foreach (string s in test.m_tbxAskedTranslation.Text.Trim()
+                                .Replace("?", "?,").Replace("!", "!,").Replace(";",",")
+                                .Replace(",,", ",").Replace(",,", ",")
+                                .Split(separators, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 typedIn[s.Trim()] = false;
                             }
@@ -1330,7 +1587,7 @@ namespace VokabelTrainer
                             Dictionary<string, bool> missing = new Dictionary<string, bool>();
                             Dictionary<string, bool> wrong = new Dictionary<string, bool>();
 
-                            foreach (string s in _firstToSecond[pair.Key].Keys)
+                            foreach (string s in m_oFirstToSecond[pair.Key].Keys)
                             {
                                 if (!typedIn.ContainsKey(s))
                                     missing[s] = false;
@@ -1338,7 +1595,7 @@ namespace VokabelTrainer
 
                             foreach (string s in typedIn.Keys)
                             {
-                                if (!_firstToSecond[pair.Key].ContainsKey(s))
+                                if (!m_oFirstToSecond[pair.Key].ContainsKey(s))
                                 {
                                     wrong[s] = false;
                                 }
@@ -1346,92 +1603,93 @@ namespace VokabelTrainer
 
                             if (missing.Count > 0 || wrong.Count > 0)
                             {
-                                string errorMessage = "";
+                                string strErrorMessage = "";
                                 if (missing.Count > 1)
                                 {
-                                    string textToSpeak = "";
-                                    errorMessage = Properties.Resources.FollowingMeaningsWereMissing;
+                                    string strTextToSpeak = "";
+                                    strErrorMessage = Properties.Resources.FollowingMeaningsWereMissing;
                                     bool bFirst = true;
                                     foreach (string s in missing.Keys)
                                     {
                                         if (!bFirst)
                                         {
-                                            textToSpeak = textToSpeak + ", ";
-                                            errorMessage = errorMessage + ", ";
+                                            strTextToSpeak = strTextToSpeak + ", ";
+                                            strErrorMessage = strErrorMessage + ", ";
                                         }
                                         else
                                             bFirst = false;
 
-                                        errorMessage = errorMessage + s;
-                                        textToSpeak = textToSpeak + s;
+                                        strErrorMessage = strErrorMessage + s;
+                                        strTextToSpeak = strTextToSpeak + s;
                                     }
-                                    errorMessage = errorMessage + ". ";
+                                    strErrorMessage = strErrorMessage + ". ";
 
-                                    Speaker.Say(_secondLanguage, textToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                    Speaker.Say(m_strSecondLanguage, strTextToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
                                     if (missing.Count == 1)
                                     {
-                                        errorMessage = Properties.Resources.FollowingMeaningWasMissing;
+                                        strErrorMessage = Properties.Resources.FollowingMeaningWasMissing;
                                         foreach (string s in missing.Keys)
                                         {
-                                            errorMessage = errorMessage + s + ". ";
+                                            strErrorMessage = strErrorMessage + s + ". ";
 
 
-                                            Speaker.Say(_secondLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                            Speaker.Say(m_strSecondLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                                         }
                                     }
 
-                                if (wrong.Count > 0 && !string.IsNullOrEmpty(errorMessage))
-                                    errorMessage = errorMessage + "\r\n";
+                                if (wrong.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
+                                    strErrorMessage = strErrorMessage + "\r\n";
 
                                 if (wrong.Count > 1)
                                 {
 
-                                    errorMessage = errorMessage + Properties.Resources.FollowingMeaningsWereWrong;
+                                    strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
                                     foreach (string s in wrong.Keys)
                                     {
                                         if (!bFirst)
-                                            errorMessage = errorMessage + ", ";
+                                            strErrorMessage = strErrorMessage + ", ";
                                         else
                                             bFirst = false;
 
-                                        errorMessage = errorMessage + s;
+                                        strErrorMessage = strErrorMessage + s;
 
-                                        if (_trainingSecondLanguage.ContainsKey(s))
+                                        if (m_oTtrainingResultsSecondLanguage.ContainsKey(s))
                                             RememberResultSecondLanguage(s, false);
                                     }
-                                    errorMessage = errorMessage + ". ";
+                                    strErrorMessage = strErrorMessage + ". ";
                                 }
                                 else
                                     if (wrong.Count == 1)
                                     {
-                                        errorMessage = errorMessage + Properties.Resources.FollowingMeaningWasWrong;
+                                        strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningWasWrong;
                                         foreach (string s in wrong.Keys)
                                         {
-                                            errorMessage = errorMessage + s + ". ";
-                                            if (_trainingSecondLanguage.ContainsKey(s))
+                                            strErrorMessage = strErrorMessage + s + ". ";
+                                            if (m_oTtrainingResultsSecondLanguage.ContainsKey(s))
                                                 RememberResultSecondLanguage(s, false);
                                         }
                                     }
 
 
                                 if (missing.Count > 0)
-                                    NewMessageBox.Show(this, errorMessage, Properties.Resources.Mistake, null);
+                                    NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
-                                    MessageBox.Show(errorMessage, Properties.Resources.Mistake, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                //MessageBox.Show(errorMessage, "Fehler!", MessageBoxButtons.OK, missing.Count>0? MessageBoxIcon.None:MessageBoxIcon.Error);
+                                    MessageBox.Show(strErrorMessage, Properties.Resources.Mistake, 
+                                        MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                                 RememberResultFirstLanguage(pair.Key, false);
                             }
                             else
                             {
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
-                                    Speaker.Say(_secondLanguage, test.m_tbxAskedTranslation.Text.Trim(), true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                    Speaker.Say(m_strSecondLanguage, test.m_tbxAskedTranslation.Text.Trim(), 
+                                        true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
                         }
@@ -1445,23 +1703,31 @@ namespace VokabelTrainer
 
         }
 
-
-        private void button4_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to make an exercise from first to second
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnExerciseFirstToSecond_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
             {
                 bRepeat = false;
                 // there we train one of the words randomly. The words with errors get higher weight.
-                int rnd2 = _rnd2.Next();
-                _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                int rnd2 = m_oRnd2.Next();
+                m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                int selectedError = rnd2 % (_totalNumberOfErrorsFirstLanguage + _trainingFirstLanguage.Count);
+                int selectedError = rnd2 % (m_nTotalNumberOfErrorsFirstLanguage + m_oTrainingResultsFirstLanguage.Count);
 
-                _skipLast = _trainingFirstLanguage.Count > 10;
+                m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
                 int wordIndex = -1;
-                using (SortedDictionary<string, string>.ValueCollection.Enumerator values = _trainingFirstLanguage.Values.GetEnumerator())
+                using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
+                    m_oTrainingResultsFirstLanguage.Values.GetEnumerator())
                 {
                     while (selectedError >= 0 && values.MoveNext())
                     {
@@ -1480,28 +1746,40 @@ namespace VokabelTrainer
             SaveTrainingProgress();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the user wants to do an intensive training from first to second language
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnIntensiveFirstToSecond_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
             {
                 bRepeat = false;
                 // decide, if we will train one word randomly, or one that needs additional training
-                int rnd = _rnd.Next();
-                _rnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
+                int rnd = m_oRnd.Next();
+                m_oRnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
 
-                if ( (_totalNumberOfErrorsFirstLanguage>0) && (rnd % 100 < 50) )
+                if ( (m_nTotalNumberOfErrorsFirstLanguage>0) && (rnd % 100 < 50) )
                 {
                     // there we train one of the words that need training
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedError = rnd2 % _totalNumberOfErrorsFirstLanguage;
+                    int selectedError = rnd2 % m_nTotalNumberOfErrorsFirstLanguage;
 
-                    _skipLast = _trainingFirstLanguage.Count > 20;
+                    m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 20;
 
                     int wordIndex = -1;
-                    using (SortedDictionary<string, string>.ValueCollection.Enumerator values = _trainingFirstLanguage.Values.GetEnumerator())
+                    using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
+                        m_oTrainingResultsFirstLanguage.Values.GetEnumerator())
                     {
                         while (selectedError >= 0 && values.MoveNext())
                         {
@@ -1518,19 +1796,20 @@ namespace VokabelTrainer
                 else
                 {
                     // there we train one of the words
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
                     // calculate mean of correct answers
                     long lTotal = 0;
-                    foreach (int i in _correctFirstLanguage.Values)
+                    foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
                         lTotal += i;
 
-                    int mean = (int)( (lTotal + _correctFirstLanguage.Count/2) / _correctFirstLanguage.Count);
+                    int mean = (int)( (lTotal + m_oCorrectAnswersFirstLanguage.Count/2) / m_oCorrectAnswersFirstLanguage.Count);
 
                     // now calculate the sum of weights of all words
                     int iTotalWeights = 0;
-                    foreach (int i in _correctFirstLanguage.Values)
+                    foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
                     {
                         int weight = (i > mean + 3) ? 0 : (mean + 3 - i) * (mean + 3 - i);
 
@@ -1540,18 +1819,20 @@ namespace VokabelTrainer
                     int selectedWeight = rnd2 % iTotalWeights;
 
                     int wordIndex = -1;
-                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = _correctFirstLanguage.Values.GetEnumerator())
+                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
+                        m_oCorrectAnswersFirstLanguage.Values.GetEnumerator())
                     {
                         while (selectedWeight >= 0 && values.MoveNext())
                         {
                             wordIndex += 1;
 
-                            int weight = (values.Current > mean + 3) ? 0 : (mean + 3 - values.Current) * (mean + 3 - values.Current);
+                            int weight = (values.Current > mean + 3) ? 0 : 
+                                (mean + 3 - values.Current) * (mean + 3 - values.Current);
 
                             selectedWeight -= weight;
                         }
 
-                        _skipLast = _trainingFirstLanguage.Count > 10;
+                        m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
                         bRepeat = TrainFirstLanguage(wordIndex);
                     }
@@ -1566,18 +1847,26 @@ namespace VokabelTrainer
             SaveTrainingProgress();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to perform most intensive training from first to second
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnMostIntensiveFirstToSecond_Click(object oSender, EventArgs oArgs)
         {
             bool bRepeat = true;
             while (bRepeat)
             {
                 bRepeat = false;
-                // there we train only the words that with errors, and we start with those that had errors recently
+                // there we train only the words that with errors, 
+                // and we start with those that had errors recently
                 int bestIndex = -1;
                 int bestTime = 16;
                 int wordIndex = -1;
                 int bestCount = 0;
-                foreach (string s in _trainingFirstLanguage.Values)
+                foreach (string s in m_oTrainingResultsFirstLanguage.Values)
                 {
                     ++wordIndex;
                     int time = s.IndexOf('0');
@@ -1596,13 +1885,14 @@ namespace VokabelTrainer
 
                 if (bestCount > 0)
                 {
-                    int rnd2 = _rnd2.Next();
-                    _rnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
+                    int rnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                        DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
                     int selectedBest = rnd2 % bestCount;
 
                     wordIndex = -1;
-                    foreach (string s in _trainingFirstLanguage.Values)
+                    foreach (string s in m_oTrainingResultsFirstLanguage.Values)
                     {
                         ++wordIndex;
                         int time = s.IndexOf('0');
@@ -1621,7 +1911,7 @@ namespace VokabelTrainer
 
                     if (bestIndex >= 0)
                     {
-                        _skipLast = false;
+                        m_bSkipLast = false;
 
                         bRepeat = TrainFirstLanguage(bestIndex);
                     }
@@ -1630,17 +1920,27 @@ namespace VokabelTrainer
             SaveTrainingProgress();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.gnu.de/documents/gpl-2.0.de.html");
-        }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to see the licence
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_lblShowLicence_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
         {
             System.Diagnostics.Process.Start("https://www.gnu.org/licenses/gpl-2.0.html");
         }
 
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to see information about the application
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_lblShowAbout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             using (About form = new About())
             {
@@ -1648,32 +1948,73 @@ namespace VokabelTrainer
             }
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user wants to show the desktop keyboard
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnShowDesktopKeyboard_Click(object oSender, EventArgs oArgs)
         {
             System.Diagnostics.Process.Start("osk.exe");
         }
 
-        private void VokabelTrainer_MouseMove(object sender, MouseEventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is called when user moves mouse, in order to improve random numbers
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void VokabelTrainer_MouseMove(object oSender, MouseEventArgs oArgs)
         {
             // make randoms less deterministic, whenever possible
-            if (_rnd != null)
-                _rnd = new Random(_rnd.Next() + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond + (e.X & 3) * 256);
-            if (_rnd2 != null)
-                _rnd2 = new Random(_rnd2.Next() + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear + (e.Y & 3) * 256);
+            if (m_oRnd != null)
+                m_oRnd = new Random(m_oRnd.Next() + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond + (oArgs.X & 3) * 256);
+            if (m_oRnd2 != null)
+                m_oRnd2 = new Random(m_oRnd2.Next() + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear + 
+                    (oArgs.Y & 3) * 256);
         }
 
-        private void m_lblDownloadESpeak_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is called when user wants to download eSpeak
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_lblDownloadESpeak_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
         {
             System.Diagnostics.Process.Start("https://espeak.sourceforge.net/");
         }
 
-        private void m_chkUseESpeak_CheckedChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user toggles the eSpeak Checkbox
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_chkUseESpeak_CheckedChanged(object oSender, EventArgs oArgs)
         {
             m_tbxESpeakPath.Enabled = m_chkUseESpeak.Checked;
             m_btnSearchESpeak.Enabled = m_chkUseESpeak.Checked;
         }
 
-        private void m_btnSearchESpeak_Click(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks on the [...] button besides the eSpeak
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnSearchESpeak_Click(object oSender, EventArgs oArgs)
         {
             using (System.Windows.Forms.OpenFileDialog oDlg = new OpenFileDialog())
             {
@@ -1687,7 +2028,14 @@ namespace VokabelTrainer
             }
         }
 
-        private void VokabelTrainer_Load(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the form is loaded. It tests presence of eSpeak
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void VokabelTrainer_Load(object oSender, EventArgs oArgs)
         {
             m_tbxESpeakPath.Text = "C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe";
             m_btnSearchESpeak.Enabled = 
