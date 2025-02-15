@@ -130,19 +130,6 @@
     <value>Αρχεία λεξιλογίου|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 253</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 16</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>Μετάφραση του κειμένου της άδειας</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblShowLicenceLocalised.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
     <value>478, 214</value>
   </data>
@@ -153,7 +140,7 @@
     <value>Άδεια χρήσης (GPL v2)</value>
   </data>
   <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 237</value>
+    <value>183, 246</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>258, 16</value>
@@ -195,28 +182,37 @@
     <value>12, 281</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 13</value>
+    <value>142, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Κατεβάστε το eSpeak</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 280</value>
+    <value>160, 280</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 17</value>
+    <value>193, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Χρησιμοποιήστε το eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 278</value>
+    <value>359, 280</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 20</value>
+    <value>214, 20</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 276</value>
+    <value>579, 278</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 246</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 16</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>Χωρίς μάθηση (τυχαία)</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>634, 310</value>
