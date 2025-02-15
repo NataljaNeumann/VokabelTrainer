@@ -130,15 +130,6 @@
     <value>Fichiers de vocabulaire|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 214</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 16</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>Traduction du texte de licence</value>
-  </data>
   <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>335, 246</value>
   </data>
@@ -176,19 +167,37 @@
     <value>280, 212</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 21</value>
+    <value>126, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 13</value>
+    <value>133, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Télécharger eSpeak</value>
   </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 273</value>
+  </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
+    <value>119, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Utiliser eSpeak</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 273</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 217</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 16</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>Sans apprentissage (aléatoire)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Entraîneur de vocabulaire</value>
