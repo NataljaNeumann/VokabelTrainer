@@ -2105,7 +2105,7 @@ namespace VokabelTrainer
                     strLanguageCodeFirstLanguage.Equals("Фр", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add german resources for language aquisition without explicit learning
+                    // then add french resources for language aquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/results?search_query=Film+complet+en+fran%C3%A7ais");
                     oResult.Add(@"https://www.youtube.com/@CinemaCinemas");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Satire+fran%C3%A7aise");
@@ -2133,9 +2133,7 @@ namespace VokabelTrainer
                     strLanguageCodeFirstLanguage.Equals("Sp", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add german resources for language aquisition without explicit learning
-                    oResult.Add(@"https://www.youtube.com/results?search_query=Film+complet+en+fran%C3%A7ais");
-                    oResult.Add(@"https://www.youtube.com/@CinemaCinemas");
+                    // then add spanish resources for language aquisition without explicit learning
                     oResult.Add(@"https://emisoras.com.mx/");
                     oResult.Add(@"https://www.amazon.es/s/ref=nb_sb_noss?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Ddvd&field-keywords=&crid=1G69ZSAMOGS5G&sprefix=%2Cdvd%2C91");
                     oResult.Add(@"https://www.amazon.com/-/es/mejores-3000-chistes-espa%C3%B1ol-Spanish/dp/B0B6XRZF2R");
@@ -2153,13 +2151,14 @@ namespace VokabelTrainer
                     strLanguageCodeFirstLanguage.Equals("In", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add german resources for language aquisition without explicit learning
+                    // then add english resources for language aquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/results?search_query=English+movie");
                     oResult.Add(@"https://www.bbc.com");
                     oResult.Add(@"https://www.cnn.com");
                     oResult.Add(@"https://www.the-postillon.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=just+for+laughs+gags");
                     oResult.Add(@"https://www.dw.com/en/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=nightcore+lyrics");
                     oResult.Add(@"https://www.abc.net.au");
                     oResult.Add(@"https://www.euronews.com/");
                     oResult.Add(@"https://en.wikipedia.org/wiki/Main_Page");
@@ -2171,6 +2170,129 @@ namespace VokabelTrainer
                     }
                 }
             }
+
+
+            // if current culture isn't portugese
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt"))
+            {
+                // and one of the trained languages is portugese
+                if (strLanguageCodeFirstLanguage.Equals("Po", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("По", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add Portugese resources for language aquisition without explicit learning
+                    oResult.Add(@"https://www.youtube.com/results?search_query=filme+em+portugu%C3%AAs");
+                    oResult.Add(@"https://www.bbc.com/portuguese");
+                    oResult.Add(@"https://www.dn.pt/");
+                    oResult.Add(@"https://radioonline.com.pt/");
+                    oResult.Add(@"https://www.dw.com/pt-br/");
+                    oResult.Add(@"https://pt.euronews.com/");
+                    oResult.Add(@"https://www.jn.pt/");
+                    oResult.Add(@"https://estrelaseouricos.sapo.pt/atividade/61-piadas-secas-para-impressionar-os-miudos/");
+                }
+            }
+
+
+            // if current culture isn't russian
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ru"))
+            {
+                // and one of the trained languages is russian
+                if (strLanguageCodeFirstLanguage.Equals("Ru", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ру", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in russian for language aquisition without explicit learning (mostly western resources, not from russia)
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%A4%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B");
+                    oResult.Add(@"https://www.bbc.com/russian");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D1%82%D1%8D%D0%BD%D0%B4%D0%B0%D0%BF");
+                    oResult.Add(@"https://www.golosameriki.com/");
+                    oResult.Add(@"https://www.dw.com/ru/");
+                    oResult.Add(@"https://ru.euronews.com/");
+                    oResult.Add(@"https://news.google.com/home?hl=ru&gl=RU&ceid=RU:ru");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B8%D1%82%D1%8F%D0%B9");
+                    oResult.Add(@"https://www.anekdot.ru/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D0%BB%D1%83%D0%B3%D0%B0+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BA%D0%B0%D0%BC%D0%B5%D0%B4%D0%B8+%D0%BA%D0%BB%D0%B0%D0%B1");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
+                }
+            }
+
+
+
+            // if current culture isn't italian
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("it"))
+            {
+                // and one of the trained languages is italian
+                if (strLanguageCodeFirstLanguage.Equals("It", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ит", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in italian for language aquisition without explicit learning 
+                    oResult.Add(@"https://www.radio.de/language/italian");
+                    oResult.Add(@"https://www.corriere.it/");
+                    oResult.Add(@"https://www.ansa.it/");
+                    oResult.Add(@"https://www.learnitalianpod.com/2023/07/13/italian-jokes/");
+                    oResult.Add(@"https://it.euronews.com/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=film+completo");
+                }
+            }
+
+
+            // if current culture isn't korean
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ko"))
+            {
+                // and one of the trained languages is korean
+                if (strLanguageCodeFirstLanguage.Equals("Ko", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ко", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("한국", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in korean for language aquisition without explicit learning
+                    oResult.Add(@"https://www.bbc.com/korean");
+                    oResult.Add(@"https://www.donga.com/");
+                    oResult.Add(@"https://www.joongang.co.kr/");
+                    oResult.Add(@"https://www.chosun.com/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%ED%95%9C%EA%B5%AD%EC%98%81%ED%99%94");
+                    oResult.Add(@"https://www.youtube.com/watch?v=u2U4Qb5uASk");
+                }
+            }
+
+
+            // if current culture isn't japanese
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ja"))
+            {
+                // and one of the trained languages is Japanese
+                if (strLanguageCodeFirstLanguage.Equals("Ja", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Яп", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("日本", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in japanese for language aquisition without explicit learning
+                    oResult.Add(@"https://www.bbc.com/japanese");
+                    oResult.Add(@"https://www3.nhk.or.jp/news/easy/");
+                    oResult.Add(@"https://www.asahi.com/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%E6%97%A5%E6%9C%AC%E6%98%A0%E7%94%BB");
+                }
+            }
+
+
+            // if current culture isn't chinese
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("zh"))
+            {
+                // and one of the trained languages is chinese
+                if (strLanguageCodeFirstLanguage.Equals("Ch", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ки", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("中文", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in chinese for language aquisition without explicit learning
+                    oResult.Add(@"https://www.dw.com/zh/");
+                    oResult.Add(@"https://www.bbc.com/zhongwen/simp");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%E5%AD%97%E5%B9%95%E4%BB%98%E3%81%8D%E3%81%AE%E4%B8%AD%E5%9B%BD%E6%98%A0%E7%94%BB");
+                }
+            }
+
+
 
             return oResult;
         }
