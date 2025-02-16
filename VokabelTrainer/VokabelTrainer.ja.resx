@@ -239,21 +239,6 @@
   <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
     <value>320, 84</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>779, 341</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 18</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>ライセンステキストの翻訳</value>
-  </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -339,7 +324,7 @@
     <value>22, 386</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 18</value>
+    <value>134, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>eSpeakをダウンロード</value>
@@ -348,7 +333,7 @@
     <value>175, 385</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
+    <value>117, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak で読む</value>
@@ -361,6 +346,18 @@
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>886, 384</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>803, 343</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>懲りずに（ランダム）</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>
