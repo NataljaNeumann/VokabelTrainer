@@ -157,18 +157,6 @@
   <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 214</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 18</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>许可证文本的翻译</value>
-  </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -196,11 +184,20 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>屏幕键盘 (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 219</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 13</value>
+    <value>81, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>大声朗读：</value>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>显示语言</value>
@@ -218,7 +215,10 @@
     <value>仅在出现错误时</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 211</value>
+    <value>268, 216</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 28</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -249,6 +249,18 @@
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 219</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>无需学习（随机）</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>词汇训练器</value>
