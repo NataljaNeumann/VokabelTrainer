@@ -2210,6 +2210,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.golosameriki.com/");
                     oResult.Add(@"https://www.dw.com/ru/");
                     oResult.Add(@"https://ru.euronews.com/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+%D1%88%D0%BE%D1%83+%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+c%D1%82%D1%83%D0%B4%D0%B8%D0%BE+%D0%BF%D0%BE+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8");
                     oResult.Add(@"https://news.google.com/home?hl=ru&gl=RU&ceid=RU:ru");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B8%D1%82%D1%8F%D0%B9");
                     oResult.Add(@"https://www.anekdot.ru/");
