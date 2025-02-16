@@ -146,8 +146,8 @@
   <data name="&gt;&gt;m_lblDontLearnAquire.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;m_cbxReader.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -358,7 +358,7 @@
     <value>7</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
-    <value>Don't learn! (random)</value>
+    <value>Without learning (random)</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -368,9 +368,6 @@
   </data>
   <data name="m_btnIntensiveSecondToFirst.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 20</value>
@@ -388,7 +385,7 @@
     <value>Read:</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 16</value>
+    <value>160, 16</value>
   </data>
   <data name="&gt;&gt;m_btnIntensiveFirstToSecond.Parent" xml:space="preserve">
     <value>$this</value>
@@ -411,8 +408,8 @@
   <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>Desktop keyboard (osk.exe)</value>
+  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="&gt;&gt;m_lblDownloadESpeak.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -493,7 +490,7 @@
     <value>183, 216</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
-    <value>487, 246</value>
+    <value>466, 246</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
@@ -618,6 +615,9 @@
   <data name="m_cbxReader.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="&gt;&gt;m_btnLoadLanguageFile.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
   <data name="&gt;&gt;m_btnIntensiveSecondToFirst.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
@@ -636,8 +636,8 @@
   <data name="m_btnIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Desktop keyboard (osk.exe)</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -707,6 +707,9 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Hindi</value>
   </metadata>
   <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>186, 17</value>
