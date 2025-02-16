@@ -239,21 +239,6 @@
   <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
     <value>320, 84</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>767, 341</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 24</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>許可證文本的翻譯</value>
-  </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
@@ -273,7 +258,7 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>729, 297</value>
+    <value>729, 299</value>
   </data>
   <data name="m_lblShowAbout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -299,17 +284,23 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>螢幕鍵盤 (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 299</value>
+    <value>274, 298</value>
   </data>
   <data name="m_lblReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 18</value>
+    <value>107, 25</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>大聲朗讀：</value>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>顯示語言</value>
@@ -327,13 +318,13 @@
     <value>僅在出現錯誤時</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>378, 294</value>
+    <value>389, 295</value>
   </data>
   <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>318, 26</value>
+    <value>318, 33</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -363,19 +354,28 @@
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>378, 386</value>
+    <value>368, 386</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>502, 31</value>
-  </data>
-  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>886, 384</value>
   </data>
   <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 34</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 340</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>無需學習（隨機）</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>
