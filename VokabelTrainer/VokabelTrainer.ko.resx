@@ -157,18 +157,6 @@
   <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <data name="m_lblShowLicenceLocalised.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Location" type="System.Drawing.Point, System.Drawing">
-    <value>486, 246</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 18</value>
-  </data>
-  <data name="m_lblShowLicenceLocalised.Text" xml:space="preserve">
-    <value>라이센스 텍스트 번역</value>
-  </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -182,7 +170,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 214</value>
+    <value>456, 217</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 18</value>
@@ -196,8 +184,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>화상 키보드(osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 13</value>
+    <value>89, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>소리내어 읽기:</value>
@@ -218,28 +209,40 @@
     <value>오류가 발생한 경우에만</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 211</value>
+    <value>278, 218</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 13</value>
+    <value>103, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>eSpeak 다운로드</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 17</value>
+    <value>111, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak로 읽기</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 273</value>
+    <value>255, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 20</value>
+    <value>318, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 242</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>학습하지 않고 (랜덤)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>어휘 트레이너</value>
