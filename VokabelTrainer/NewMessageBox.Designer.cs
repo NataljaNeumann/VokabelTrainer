@@ -69,7 +69,7 @@ namespace VokabelTrainer
             this.m_btnOK.Font = null;
             this.m_btnOK.Name = "m_btnOK";
             this.m_btnOK.UseVisualStyleBackColor = true;
-            this.m_btnOK.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnOK.Click += new System.EventHandler(this.m_btnOk_Click);
             // 
             // NewMessageBox
             // 

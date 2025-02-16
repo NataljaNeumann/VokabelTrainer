@@ -8,49 +8,92 @@ using System.Windows.Forms;
 
 namespace VokabelTrainer
 {
+    //*******************************************************************************************************
+    /// <summary>
+    /// Shows a simple message box
+    /// </summary>
+    //*******************************************************************************************************
     public partial class NewMessageBox : Form
     {
-        System.Drawing.Size _oldSize;
+        //===================================================================================================
+        /// <summary>
+        /// Old size
+        /// </summary>
+        System.Drawing.Size m_oOldSize;
 
+        //===================================================================================================
+        /// <summary>
+        /// Constructs a new message box
+        /// </summary>
+        //===================================================================================================
         public NewMessageBox()
         {
             InitializeComponent();
         }
 
-        private void NewMessageBox_Shown(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the message box is shown
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void NewMessageBox_Shown(object oSender, EventArgs oEventArgs)
         {
-            _oldSize = m_lblMessageText.Size;
+            m_oOldSize = m_lblMessageText.Size;
             m_lblMessageText.AutoSize = true;
         }
 
-        private void label1_SizeChanged(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the size of the label changes
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void label1_SizeChanged(object oSender, EventArgs oEventArgs)
         {
-            if (_oldSize != null)
+            if (m_oOldSize != null)
             {
-                //button1.Location = new Point(button1.Location.X + ((Label)sender).Size.Width - _oldSize.Width,
-                //    button1.Location.Y + ((Label)sender).Size.Height - _oldSize.Height);
-                Size = new Size(Size.Width + ((Label)sender).Size.Width - _oldSize.Width,
-                                Size.Height + ((Label)sender).Size.Height - _oldSize.Height);
+                Size = new Size(Size.Width + ((Label)oSender).Size.Width - m_oOldSize.Width,
+                                Size.Height + ((Label)oSender).Size.Height - m_oOldSize.Height);
             }
         }
 
-        public static DialogResult Show(IWin32Window owner, string message, string header, string say)
+        //===================================================================================================
+        /// <summary>
+        /// Shows a message box
+        /// </summary>
+        /// <param name="iOwner">Owner window</param>
+        /// <param name="strMessage">Message to show</param>
+        /// <param name="strHeader">Header of the window</param>
+        /// <param name="strSay">Text to say</param>
+        /// <returns>Result of the dialog</returns>
+        public static DialogResult Show(IWin32Window iOwner, string strMessage, string strHeader, string strSay)
         {
             using (NewMessageBox mb = new NewMessageBox())
             {
-                mb.m_lblMessageText.Text = message;
-                mb.Text = header;
+                mb.m_lblMessageText.Text = strMessage;
+                mb.Text = strHeader;
 
                 /*
                 if (!string.IsNullOrEmpty(say))
                     Speaker.Say("Deutsch", say, true, m_chkUseESpeak.Checked, m_tbxESpeakPath);
                  */
 
-                return mb.ShowDialog(owner);
+                return mb.ShowDialog(iOwner);
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the user clicks OK
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnOk_Click(object oSender, EventArgs oEventArgs)
         {
             DialogResult = DialogResult.OK;
         }
