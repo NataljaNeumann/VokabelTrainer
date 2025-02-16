@@ -23,36 +23,86 @@ using System.Windows.Forms;
 
 namespace VokabelTrainer
 {
+    //*******************************************************************************************************
+    /// <summary>
+    /// Form for creation of new vocabulary files
+    /// </summary>
+    //*******************************************************************************************************
     public partial class NewLanguageFile : Form
     {
+        //===================================================================================================
+        /// <summary>
+        /// Constructs a new form
+        /// </summary>
+        //===================================================================================================
         public NewLanguageFile()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks create 
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnCreateLanguageFile_Click(object oSender, EventArgs oEventArgs)
         {
             DialogResult = DialogResult.OK;
             Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks cancel
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnCancel_Click(object oSender, EventArgs oEventArgs)
         {
             DialogResult = DialogResult.Cancel;
             Close();
         }
 
-        private void textBoxFirstLanguage_TextChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when text in first language box changes
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void textBoxFirstLanguage_TextChanged(object oSender, EventArgs oEventArgs)
         {
-            m_btnCreateLanguageFile.Enabled = m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
+            m_btnCreateLanguageFile.Enabled = 
+                m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
         }
 
-        private void textBoxSecondLanguage_TextChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when text is second language box changes
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void textBoxSecondLanguage_TextChanged(object oSender, EventArgs oEventArgs)
         {
-            m_btnCreateLanguageFile.Enabled = m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
+            m_btnCreateLanguageFile.Enabled = 
+                m_tbxFirstLanguage.Text.Length > 0 && m_tbxSecondLanguage.Text.Length > 0;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks create 
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_chkGPL2_CheckedChanged(object oSender, EventArgs oEventArgs)
         {
             if (m_chkLanguageFileUnderGPL2.Checked)
             {
@@ -65,12 +115,27 @@ namespace VokabelTrainer
             }
         }
 
-        private void m_chkFirstLanguageRTL_CheckedChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when checkbox first language RTL
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_chkFirstLanguageRTL_CheckedChanged(object oSender, EventArgs oEventArgs)
         {
             m_tbxFirstLanguage.RightToLeft = m_chkFirstLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
         }
 
-        private void m_chkSecondLanguageRTL_CheckedChanged(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when checkbox second language RTL
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_chkSecondLanguageRTL_CheckedChanged(object oSender, EventArgs oEventArgs)
         {
             m_tbxSecondLanguage.RightToLeft = m_chkSecondLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
         }

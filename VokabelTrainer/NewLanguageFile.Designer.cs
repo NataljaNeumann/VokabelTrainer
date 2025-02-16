@@ -86,7 +86,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnCreateLanguageFile, "m_btnCreateLanguageFile");
             this.m_btnCreateLanguageFile.Name = "m_btnCreateLanguageFile";
             this.m_btnCreateLanguageFile.UseVisualStyleBackColor = true;
-            this.m_btnCreateLanguageFile.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnCreateLanguageFile.Click += new System.EventHandler(this.m_btnCreateLanguageFile_Click);
             // 
             // m_btnCancel
             // 
@@ -94,7 +94,7 @@ namespace VokabelTrainer
             this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.m_btnCancel.Name = "m_btnCancel";
             this.m_btnCancel.UseVisualStyleBackColor = true;
-            this.m_btnCancel.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnCancel.Click += new System.EventHandler(this.m_btnCancel_Click);
             // 
             // m_chkLanguageFileUnderGPL2
             // 
@@ -103,7 +103,7 @@ namespace VokabelTrainer
             this.m_chkLanguageFileUnderGPL2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.m_chkLanguageFileUnderGPL2.Name = "m_chkLanguageFileUnderGPL2";
             this.m_chkLanguageFileUnderGPL2.UseVisualStyleBackColor = true;
-            this.m_chkLanguageFileUnderGPL2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.m_chkLanguageFileUnderGPL2.CheckedChanged += new System.EventHandler(this.m_chkGPL2_CheckedChanged);
             // 
             // m_chkLanguageFileModifiable
             // 
