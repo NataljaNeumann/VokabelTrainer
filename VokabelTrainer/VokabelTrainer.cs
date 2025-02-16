@@ -824,30 +824,30 @@ namespace VokabelTrainer
             {
                 bRepeat = false;
                 // there we train one of the words randomly. Words with errors get higher weight
-                int rnd2 = m_oRnd2.Next();
-                m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                int nRnd2 = m_oRnd2.Next();
+                m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                     DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                int selectedError = rnd2 % (m_nTotalNumberOfErrorsSecondLanguage + m_oTtrainingResultsSecondLanguage.Count);
+                int nSelectedError = nRnd2 % (m_nTotalNumberOfErrorsSecondLanguage + m_oTtrainingResultsSecondLanguage.Count);
 
                 m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
 
-                int wordIndex = -1;
+                int nWordIndex = -1;
                 using (SortedDictionary<string,string>.ValueCollection.Enumerator values = 
                     m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
                 {
-                    while (selectedError >= 0 && values.MoveNext())
+                    while (nSelectedError >= 0 && values.MoveNext())
                     {
-                        wordIndex += 1;
+                        nWordIndex += 1;
                         if (values.Current.Contains("0"))
                         {
-                            selectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
+                            nSelectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
                         }
                         else
-                            selectedError -= 1;
+                            nSelectedError -= 1;
                     }
 
-                    bRepeat = TrainSecondToFirstLanguage(wordIndex);
+                    bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                 };
             }
             SaveTrainingProgress();
@@ -868,42 +868,42 @@ namespace VokabelTrainer
             {
                 bRepeat = false;
                 // decide, if we will train one word randomly, or one that needs additional training
-                int rnd = m_oRnd.Next();
-                m_oRnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                int nRnd = m_oRnd.Next();
+                m_oRnd = new Random(nRnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                     DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
 
-                if ((m_nTotalNumberOfErrorsSecondLanguage>0) && (rnd % 100 < 50))
+                if ((m_nTotalNumberOfErrorsSecondLanguage>0) && (nRnd % 100 < 50))
                 {
                     // there we train one of the words that need training
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd + nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedError = rnd2 % m_nTotalNumberOfErrorsSecondLanguage;
+                    int nSelectedError = nRnd2 % m_nTotalNumberOfErrorsSecondLanguage;
 
                     m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 20;
 
-                    int wordIndex = -1;
+                    int nWordIndex = -1;
                     using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
                         m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
                     {
-                        while (selectedError >= 0 && values.MoveNext())
+                        while (nSelectedError >= 0 && values.MoveNext())
                         {
-                            wordIndex += 1;
+                            nWordIndex += 1;
                             if (values.Current.Contains("0"))
                             {
-                                selectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
+                                nSelectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
                             }
                         }
 
-                        bRepeat = TrainSecondToFirstLanguage(wordIndex);
+                        bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                     }
                 }
                 else
                 {
                     // there we train one of the words
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
 
@@ -912,35 +912,35 @@ namespace VokabelTrainer
                     foreach (int i in m_oCorrectSecondLanguage.Values)
                         lTotal += i;
 
-                    int mean = (int)((lTotal+m_oCorrectSecondLanguage.Count/2) / m_oCorrectSecondLanguage.Count);
+                    int nMean = (int)((lTotal+m_oCorrectSecondLanguage.Count/2) / m_oCorrectSecondLanguage.Count);
 
                     // now calculate the sum of weights of all words
-                    int iTotalWeights = 0;
+                    int nTotalWeights = 0;
                     foreach (int i in m_oCorrectSecondLanguage.Values)
                     {
-                        int weight = (i > mean + 3) ? 0 : (mean + 3 - i)*(mean + 3 - i);
-                        iTotalWeights += weight;
+                        int nWeight = (i > nMean + 3) ? 0 : (nMean + 3 - i)*(nMean + 3 - i);
+                        nTotalWeights += nWeight;
                     };
 
-                    int selectedWeight = rnd2 % iTotalWeights;
+                    int nSelectedWeight = nRnd2 % nTotalWeights;
 
-                    int wordIndex = -1;
+                    int nWordIndex = -1;
                     using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
                         m_oCorrectSecondLanguage.Values.GetEnumerator())
                     {
-                        while (selectedWeight >= 0 && values.MoveNext())
+                        while (nSelectedWeight >= 0 && values.MoveNext())
                         {
-                            wordIndex += 1;
+                            nWordIndex += 1;
 
-                            int weight = (values.Current > mean + 3) ? 0 : 
-                                (mean + 3 - values.Current) * (mean + 3 - values.Current);
+                            int nWeight = (values.Current > nMean + 3) ? 0 : 
+                                (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
 
-                            selectedWeight -= weight;
+                            nSelectedWeight -= nWeight;
                         }
 
                         m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
 
-                        bRepeat = TrainSecondToFirstLanguage(wordIndex);
+                        bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                     }
 
                     /*
@@ -967,58 +967,58 @@ namespace VokabelTrainer
             {
                 bRepeat = false;
                 // there we train only the words with errors, and we start with those that had errors recently
-                int bestIndex = -1;
-                int bestCount = 0;
-                int bestTime = 16;
-                int wordIndex = -1;
+                int nBestIndex = -1;
+                int nBestCount = 0;
+                int nBestTime = 16;
+                int nWordIndex = -1;
                 foreach(string s in m_oTtrainingResultsSecondLanguage.Values)
                 {
-                    ++wordIndex;
-                    int time = s.IndexOf('0');
-                    if (time >= 0)
+                    ++nWordIndex;
+                    int nTime = s.IndexOf('0');
+                    if (nTime >= 0)
                     {
-                        if (bestTime > time)
+                        if (nBestTime > nTime)
                         {
-                            bestTime = time;
-                            bestCount = 1;
+                            nBestTime = nTime;
+                            nBestCount = 1;
                         }
                         else
-                            if (bestTime == time)
-                                ++bestCount;
+                            if (nBestTime == nTime)
+                                ++nBestCount;
                     }
                 }
 
 
-                if (bestCount > 0)
+                if (nBestCount > 0)
                 {
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedBest = rnd2 % bestCount;
+                    int nSelectedBest = nRnd2 % nBestCount;
 
-                    wordIndex = -1;
+                    nWordIndex = -1;
                     foreach (string s in m_oTtrainingResultsSecondLanguage.Values)
                     {
-                        ++wordIndex;
-                        int time = s.IndexOf('0');
-                        if (time >= 0)
+                        ++nWordIndex;
+                        int nTime = s.IndexOf('0');
+                        if (nTime >= 0)
                         {
-                            if (bestTime == time)
+                            if (nBestTime == nTime)
                             {
-                                if (--selectedBest < 0)
+                                if (--nSelectedBest < 0)
                                 {
-                                    bestIndex = wordIndex;
+                                    nBestIndex = nWordIndex;
                                     break;
                                 }
                             }
                         }
                     }
 
-                    if (bestIndex >= 0)
+                    if (nBestIndex >= 0)
                     {
                         m_bSkipLast = false;
-                        bRepeat = TrainSecondToFirstLanguage(bestIndex);
+                        bRepeat = TrainSecondToFirstLanguage(nBestIndex);
                     }
                 }
             }
@@ -1731,30 +1731,30 @@ namespace VokabelTrainer
             {
                 bRepeat = false;
                 // there we train one of the words randomly. The words with errors get higher weight.
-                int rnd2 = m_oRnd2.Next();
-                m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                int nRnd2 = m_oRnd2.Next();
+                m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                     DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                int selectedError = rnd2 % (m_nTotalNumberOfErrorsFirstLanguage + m_oTrainingResultsFirstLanguage.Count);
+                int nSelectedError = nRnd2 % (m_nTotalNumberOfErrorsFirstLanguage + m_oTrainingResultsFirstLanguage.Count);
 
                 m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
-                int wordIndex = -1;
+                int nWordIndex = -1;
                 using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
                     m_oTrainingResultsFirstLanguage.Values.GetEnumerator())
                 {
-                    while (selectedError >= 0 && values.MoveNext())
+                    while (nSelectedError >= 0 && values.MoveNext())
                     {
-                        wordIndex += 1;
+                        nWordIndex += 1;
                         if (values.Current.Contains("0"))
                         {
-                            selectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
+                            nSelectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
                         }
                         else
-                            selectedError -= 1;
+                            nSelectedError -= 1;
                     }
 
-                    bRepeat = TrainFirstLanguage(wordIndex);
+                    bRepeat = TrainFirstLanguage(nWordIndex);
                 };
             }
             SaveTrainingProgress();
@@ -1776,42 +1776,42 @@ namespace VokabelTrainer
             {
                 bRepeat = false;
                 // decide, if we will train one word randomly, or one that needs additional training
-                int rnd = m_oRnd.Next();
-                m_oRnd = new Random(rnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                int nRnd = m_oRnd.Next();
+                m_oRnd = new Random(nRnd + ((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                     DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
 
-                if ( (m_nTotalNumberOfErrorsFirstLanguage>0) && (rnd % 100 < 50) )
+                if ( (m_nTotalNumberOfErrorsFirstLanguage>0) && (nRnd % 100 < 50) )
                 {
                     // there we train one of the words that need training
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd + rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd + nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedError = rnd2 % m_nTotalNumberOfErrorsFirstLanguage;
+                    int nSelectedError = nRnd2 % m_nTotalNumberOfErrorsFirstLanguage;
 
                     m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 20;
 
-                    int wordIndex = -1;
+                    int nWordIndex = -1;
                     using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
                         m_oTrainingResultsFirstLanguage.Values.GetEnumerator())
                     {
-                        while (selectedError >= 0 && values.MoveNext())
+                        while (nSelectedError >= 0 && values.MoveNext())
                         {
-                            wordIndex += 1;
+                            nWordIndex += 1;
                             if (values.Current.Contains("0"))
                             {
-                                selectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
+                                nSelectedError -= values.Current.Length - values.Current.Replace("0", "").Length + 1;
                             }
                         }
 
-                        bRepeat = TrainFirstLanguage(wordIndex);
+                        bRepeat = TrainFirstLanguage(nWordIndex);
                     }
                 }
                 else
                 {
                     // there we train one of the words
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
                     // calculate mean of correct answers
@@ -1819,36 +1819,36 @@ namespace VokabelTrainer
                     foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
                         lTotal += i;
 
-                    int mean = (int)( (lTotal + m_oCorrectAnswersFirstLanguage.Count/2) / m_oCorrectAnswersFirstLanguage.Count);
+                    int nMean = (int)( (lTotal + m_oCorrectAnswersFirstLanguage.Count/2) / m_oCorrectAnswersFirstLanguage.Count);
 
                     // now calculate the sum of weights of all words
-                    int iTotalWeights = 0;
+                    int nTotalWeights = 0;
                     foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
                     {
-                        int weight = (i > mean + 3) ? 0 : (mean + 3 - i) * (mean + 3 - i);
+                        int nWeight = (i > nMean + 3) ? 0 : (nMean + 3 - i) * (nMean + 3 - i);
 
-                        iTotalWeights += weight;
+                        nTotalWeights += nWeight;
                     };
 
-                    int selectedWeight = rnd2 % iTotalWeights;
+                    int nSelectedWeight = nRnd2 % nTotalWeights;
 
-                    int wordIndex = -1;
+                    int nWordIndex = -1;
                     using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
                         m_oCorrectAnswersFirstLanguage.Values.GetEnumerator())
                     {
-                        while (selectedWeight >= 0 && values.MoveNext())
+                        while (nSelectedWeight >= 0 && values.MoveNext())
                         {
-                            wordIndex += 1;
+                            nWordIndex += 1;
 
-                            int weight = (values.Current > mean + 3) ? 0 : 
-                                (mean + 3 - values.Current) * (mean + 3 - values.Current);
+                            int nWeight = (values.Current > nMean + 3) ? 0 : 
+                                (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
 
-                            selectedWeight -= weight;
+                            nSelectedWeight -= nWeight;
                         }
 
                         m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
-                        bRepeat = TrainFirstLanguage(wordIndex);
+                        bRepeat = TrainFirstLanguage(nWordIndex);
                     }
 
                     /*
@@ -1876,58 +1876,58 @@ namespace VokabelTrainer
                 bRepeat = false;
                 // there we train only the words that with errors, 
                 // and we start with those that had errors recently
-                int bestIndex = -1;
-                int bestTime = 16;
-                int wordIndex = -1;
-                int bestCount = 0;
+                int nBestIndex = -1;
+                int nBestTime = 16;
+                int nWordIndex = -1;
+                int nBestCount = 0;
                 foreach (string s in m_oTrainingResultsFirstLanguage.Values)
                 {
-                    ++wordIndex;
-                    int time = s.IndexOf('0');
-                    if (time >= 0)
+                    ++nWordIndex;
+                    int nTime = s.IndexOf('0');
+                    if (nTime >= 0)
                     {
-                        if (bestTime > time)
+                        if (nBestTime > nTime)
                         {
-                            bestTime = time;
-                            bestCount = 1;
+                            nBestTime = nTime;
+                            nBestCount = 1;
                         }
                         else
-                            if (bestTime == time)
-                                ++bestCount;
+                            if (nBestTime == nTime)
+                                ++nBestCount;
                     }
                 }
 
-                if (bestCount > 0)
+                if (nBestCount > 0)
                 {
-                    int rnd2 = m_oRnd2.Next();
-                    m_oRnd2 = new Random(rnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
+                    int nRnd2 = m_oRnd2.Next();
+                    m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    int selectedBest = rnd2 % bestCount;
+                    int nSelectedBest = nRnd2 % nBestCount;
 
-                    wordIndex = -1;
+                    nWordIndex = -1;
                     foreach (string s in m_oTrainingResultsFirstLanguage.Values)
                     {
-                        ++wordIndex;
-                        int time = s.IndexOf('0');
-                        if (time >= 0)
+                        ++nWordIndex;
+                        int nTime = s.IndexOf('0');
+                        if (nTime >= 0)
                         {
-                            if (bestTime == time)
+                            if (nBestTime == nTime)
                             {
-                                if (--selectedBest < 0)
+                                if (--nSelectedBest < 0)
                                 {
-                                    bestIndex = wordIndex;
+                                    nBestIndex = nWordIndex;
                                     break;
                                 }
                             }
                         }
                     }
 
-                    if (bestIndex >= 0)
+                    if (nBestIndex >= 0)
                     {
                         m_bSkipLast = false;
 
-                        bRepeat = TrainFirstLanguage(bestIndex);
+                        bRepeat = TrainFirstLanguage(nBestIndex);
                     }
                 }
             }
