@@ -148,11 +148,8 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Teclado en pantalla (osk.exe)</value>
   </data>
-  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 16</value>
+    <value>86, 13</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Leer en voz alta:</value>

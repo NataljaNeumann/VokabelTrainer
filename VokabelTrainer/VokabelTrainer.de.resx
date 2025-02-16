@@ -193,8 +193,14 @@
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>576, 273</value>
   </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 246</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 16</value>
+  </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
-    <value>Ohne lernen (zufällig)</value>
+    <value>Ohne Lernen (zufällig)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Vokabel-Trainer</value>

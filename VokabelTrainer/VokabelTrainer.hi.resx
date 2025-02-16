@@ -299,6 +299,9 @@
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>ज़ोर से पढ़ें:</value>
   </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>भाषा प्रदर्शित की गई</value>
   </data>
@@ -315,13 +318,13 @@
     <value>केवल त्रुटियों के मामले में</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>374, 336</value>
+    <value>402, 329</value>
   </data>
   <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 28</value>
+    <value>293, 37</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
