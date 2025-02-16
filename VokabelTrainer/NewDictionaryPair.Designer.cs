@@ -91,7 +91,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnEnteredLast, "m_btnEnteredLast");
             this.m_btnEnteredLast.Name = "m_btnEnteredLast";
             this.m_btnEnteredLast.UseVisualStyleBackColor = true;
-            this.m_btnEnteredLast.Click += new System.EventHandler(this.button1_Click);
+            this.m_btnEnteredLast.Click += new System.EventHandler(this.m_btnEnteredLast_Click);
             // 
             // m_btnCancelEntering
             // 
@@ -99,7 +99,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_btnCancelEntering, "m_btnCancelEntering");
             this.m_btnCancelEntering.Name = "m_btnCancelEntering";
             this.m_btnCancelEntering.UseVisualStyleBackColor = true;
-            this.m_btnCancelEntering.Click += new System.EventHandler(this.button2_Click);
+            this.m_btnCancelEntering.Click += new System.EventHandler(this.m_btnCancel_Click);
             // 
             // NewDictionaryPair
             // 

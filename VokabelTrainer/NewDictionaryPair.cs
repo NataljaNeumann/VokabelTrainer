@@ -24,13 +24,38 @@ using System.Windows.Forms;
 
 namespace VokabelTrainer
 {
+    //*******************************************************************************************************
+    /// <summary>
+    /// Form for entering new words
+    /// </summary>
+    //*******************************************************************************************************
     public partial class NewDictionaryPair : Form
     {
-        bool _bAlreadySaid;
+        //===================================================================================================
+        /// <summary>
+        /// Indicates, if the word already has been said
+        /// </summary>
+        bool m_bAlreadySaid;
 
+        //===================================================================================================
+        /// <summary>
+        /// Indicates, if eSpeak shall be used
+        /// </summary>
         bool m_bUseESpeak;
+
+        //===================================================================================================
+        /// <summary>
+        /// The path of eSpeak executable
+        /// </summary>
         string m_strEspeakPath;
 
+        //===================================================================================================
+        /// <summary>
+        /// Constructs a new form
+        /// </summary>
+        /// <param name="bUseESpeak">Indicates that eSpeak shall be used</param>
+        /// <param name="strEspeakPath">eSpeak path</param>
+        //===================================================================================================
         public NewDictionaryPair(bool bUseESpeak, string strEspeakPath)
         {
             InitializeComponent();
@@ -40,28 +65,61 @@ namespace VokabelTrainer
 
         }
 
-        private void buttonNext_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user click "next"
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void buttonNext_Click(object oSender, EventArgs oArgs)
         {
-            if (!_bAlreadySaid && textBoxSecondLanguage.Text.Length > 0)
+            if (!m_bAlreadySaid && textBoxSecondLanguage.Text.Length > 0)
             {
-                Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
-                _bAlreadySaid = true;
+                Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, 
+                    m_bUseESpeak, m_strEspeakPath);
+
+                m_bAlreadySaid = true;
             }
 
             DialogResult = DialogResult.Retry;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user click "last"
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnEnteredLast_Click(object oSender, EventArgs oArgs)
         {
             DialogResult = DialogResult.OK;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user click "cancel"
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnCancel_Click(object oSender, EventArgs oArgs)
         {
             DialogResult = DialogResult.Cancel;
         }
 
-        private void NewDictionaryPair_Shown(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the form is shown
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void NewDictionaryPair_Shown(object oSender, EventArgs oArgs)
         {
             if (m_tbxFirstLanguage.Text.Trim().Length == 0)
                 m_tbxFirstLanguage.Focus();
@@ -70,20 +128,45 @@ namespace VokabelTrainer
                     textBoxSecondLanguage.Focus();
         }
 
-        private void textBoxFirstLanguage_Leave(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when focus leaves first language box
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void textBoxFirstLanguage_Leave(object oSender, EventArgs oArgs)
         {
-            Speaker.Say(m_lblFirstLanguage.Text, m_tbxFirstLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
+            Speaker.Say(m_lblFirstLanguage.Text, m_tbxFirstLanguage.Text, true, 
+                m_bUseESpeak, m_strEspeakPath);
         }
 
-        private void textBoxSecondLanguage_Leave(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when focus leaves second language box
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void textBoxSecondLanguage_Leave(object oSender, EventArgs oArgs)
         {
-            Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, m_bUseESpeak, m_strEspeakPath);
-            _bAlreadySaid = true;
+            Speaker.Say(m_lblSecondLanguage.Text, textBoxSecondLanguage.Text, true, 
+                m_bUseESpeak, m_strEspeakPath);
+            m_bAlreadySaid = true;
         }
 
-        private void textBoxSecondLanguage_TextChanged(object sender, EventArgs e)
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the text of second box changes
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void textBoxSecondLanguage_TextChanged(object oSender, EventArgs oArgs)
         {
-            _bAlreadySaid = false;
+            m_bAlreadySaid = false;
         }
     }
 }
