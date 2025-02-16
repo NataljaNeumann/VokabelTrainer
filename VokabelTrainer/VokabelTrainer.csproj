@@ -27,6 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>VokabelTrainer.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -736,6 +737,9 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="VokabelTrainer.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -744,4 +748,36 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
+  if NOT EXIST "$(TargetDir)ZZ_SOURCE_CODE_ZZ" (
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ"
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)"
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
+  )
+  copy /Y "$(SolutionDir)*.sln" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)license.txt"
+  copy /Y "$(SolutionDir)README.md" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(SolutionDir)README.md" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(ProjectDir)*.csproj" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
+  copy /Y "$(SolutionDir).gitignore" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(ProjectDir)*.cs" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
+  copy /Y "$(ProjectDir)*.ico" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
+  copy /Y "$(ProjectDir)*.resx" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
+  copy /Y "$(ProjectDir)Properties\*.resx" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
+  copy /Y "$(ProjectDir)Properties\*.cs" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
+  copy /Y "$(ProjectDir)Properties\*.settings" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
+  cd /D "$(TargetDir)ZZ_SOURCE_CODE_ZZ"
+  tar.exe -cf "..\source_code.tar" *.*
+  cd ..
+  tar.exe -a -c -f source_code.tar.zip source_code.tar
+  del /Q source_code.tar
+  cd /D "$(TargetDir)"
+  del /F /S /Q ZZ_SOURCE_CODE_ZZ
+  rmdir /S /Q ZZ_SOURCE_CODE_ZZ
+  del /Q "*.pdb"
+  tar.exe -a -c -f ..\$(ProjectName).zip *.*
+)</PostBuildEvent>
+  </PropertyGroup>
 </Project>
