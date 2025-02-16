@@ -2139,6 +2139,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.com/-/es/mejores-3000-chistes-espa%C3%B1ol-Spanish/dp/B0B6XRZF2R");
                     oResult.Add(@"https://www.youtube.com/results?search_query=pel%C3%ADcula+en+espa%C3%B1ol");
                     oResult.Add(@"https://elpais.com/noticias/espana/");
+                    oResult.Add(@"https://www.bbc.com/mundo");
+                    oResult.Add(@"https://www.dw.com/es");
                 }
             }
 
@@ -2211,6 +2213,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://news.google.com/home?hl=ru&gl=RU&ceid=RU:ru");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B8%D1%82%D1%8F%D0%B9");
                     oResult.Add(@"https://www.anekdot.ru/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B0%D1%88%D0%B0+%D0%B8+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9D%D1%83+%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B8");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D0%BB%D1%83%D0%B3%D0%B0+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BA%D0%B0%D0%BC%D0%B5%D0%B4%D0%B8+%D0%BA%D0%BB%D0%B0%D0%B1");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
@@ -2292,8 +2296,100 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%89%E5%AD%97%E5%B9%95");
                 }
             }
+        
+            // if current culture isn't turkish
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("tr"))
+            {
+                // and one of the trained languages is turkish
+                if (strLanguageCodeFirstLanguage.Equals("Tü", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ту", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Tu", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in turkish for language aquisition without explicit learning
+                    oResult.Add(@"https://www.dw.com/tr/");
+                    oResult.Add(@"https://www.bbc.com/turkce");
+                    oResult.Add(@"https://www.radio.de/language/turkish");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Türkçe+Dublaj+Film");
+                }
+            }
+
+            // if current culture isn't arabic
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ar"))
+            {
+                // and one of the trained languages is arabic
+                if (strLanguageCodeFirstLanguage.Equals("Ar", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ар", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("عر", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in arabic for language aquisition without explicit learning
+                    oResult.Add(@"https://www.dw.com/ar/");
+                    oResult.Add(@"https://www.bbc.com/arabic");
+                    oResult.Add(@"https://www.radio.de/language/arabic");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9");
+                    oResult.Add(@"https://www.aljazeera.net/");
+                }
+            }
+
+            // if current culture isn't hebrew
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("he"))
+            {
+                // and one of the trained languages is hebrew
+                if (strLanguageCodeFirstLanguage.Equals("He", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ив", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("עב", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("עִ", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in hebrew for language aquisition without explicit learning
+                    oResult.Add(@"https://hebrewnews.com/");
+                    oResult.Add(@"https://www.haaretz.co.il/");
+                    oResult.Add(@"https://www.calcalist.co.il");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D7%A1%D7%A8%D7%98+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%9B%D7%AA%D7%95%D7%91%D7%99%D7%95%D7%AA");
+                    oResult.Add(@"https://www.radio.de/language/hebrew");
+                }
+            }
+
+            // if current culture isn't greek
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("el"))
+            {
+                // and one of the trained languages is greek
+                if (strLanguageCodeFirstLanguage.Equals("Gr", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Гр", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("ελ", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ελ", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in greek for language aquisition without explicit learning
+                    oResult.Add(@"https://live24.gr/");
+                    oResult.Add(@"https://www.cnn.gr/");
+                    oResult.Add(@"https://www.news247.gr/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Ελληνική+ταινία");
+                    oResult.Add(@"https://www.ert.gr/");
+                }
+            }
 
 
+            // if current culture isn't hindi
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("hi"))
+            {
+                // and one of the trained languages is hindi
+                if (strLanguageCodeFirstLanguage.Equals("Hi", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("Ин", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("द्", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageCodeFirstLanguage.Equals("भा", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in hindi for language aquisition without explicit learning
+                    oResult.Add(@"https://www.dw.com/hi/");
+                    oResult.Add(@"https://www.bbc.com/hindi");
+                    oResult.Add(@"https://www.radioindia.in/");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80+%E0%A4%AB%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE");
+                    oResult.Add(@"https://www.indiatv.in/");
+                    oResult.Add(@"https://www.aajtak.in/livetv");
+                }
+            }
 
             return oResult;
         }

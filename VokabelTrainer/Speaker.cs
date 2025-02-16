@@ -391,6 +391,16 @@ namespace VokabelTrainer
                     "Ар".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ar-SA'" :
                     "عر".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? 
                     (strCurrentCulture.StartsWith("ar") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ar-SA'") :
+                    // hebrew
+                    "He".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
+                    "עב".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
+                    "עִ".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
+                    "Ив".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
+                    // greek
+                    "Gr".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
+                    "Гр".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
+                    "ελ".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
+                    "Ελ".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
                     "";
 
 
