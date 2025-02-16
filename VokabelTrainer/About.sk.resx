@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,88 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>517, 277</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AboutForm</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 259</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>About Voсabulary Trainer</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+    <value>493, 255</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.2
 Copyright (C) 2024-2025 NataljaNeumann@gmx.de
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+Tento program je slobodný softvér; môžete ho redistribuovať a/alebo upravovať podľa podmienok GNU General Public License, ako ju publikovala Free Software Foundation; buď verzia 2 licencie, alebo (podľa vášho výberu) akákoľvek novšia verzia.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+Tento program je distribuovaný v nádeji, že bude užitočný, ale BEZ AKEJKOĽVEK ZÁRUKY; dokonca bez implicitnej záruky PREDAJNOSTI alebo VHODNOSTI NA KONKRÉTNY ÚČEL.  Viac podrobností nájdete v GNU General Public License.
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+Spolu s týmto programom by ste mali dostať kópiu GNU General Public License; ak nie, napíšte na Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 </value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>517, 273</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>O "Trénerovi slovnej zásoby"</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAQEACAAEAAQAwBAAAFgAAACgAAABAAAAAgAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAgV5UAAAAAAP//////////////////////////////////////////////////////////9///////
-        ///j/////////8H/9X//////wP/gP/////8Af+B//////4A/4D//////wB/gf//////gD+A///////AH
-        4H//////+APgP//////8AeA///////4A4D///////wBgf+qqqqqqgCA/wAAAAAAAAH/AAAAAAAAAP8AA
-        AAAAAAB/4AAAAAAAAD/AAAAAAAAAP+iIiIiIgCA///////8AYH///////gDgP//////8AeB////+//gD
-        4D/d//x/8Afgf+D/+D/gD+A/wH/gH8Af4D/g/+AfgD/gP8B/wB8Af+B/4P+Af4D/4D/AfgB/wf/wf8D+
-        Af/j////wHwB//f////g+Af//////8BgB///////4OAP///////AQAAAAAAAf+AAAAAAAAA/wAAAAAAA
-        AH/AAAAAAAAAP8AAAAAAAAB/4IAAAAAAAD/AQBd3V3dXf+DgD///////wHAH///////g+AP//////8B8
-        Af//////wP4A///////AfwB//////+D/gD//////wH/AH//////g/+A//////8B/8D/////////4////
-        //////z/////////////////////////////////////////////////////////////////////////
-        ///////////////////////////////////3/////////+P/////////wf/1f//////A/+A//////wB/
-        4H//////gD/gP//////AH+B//////+AP4D//////8Afgf//////4A+A///////wB4D///////gDgP///
-        ////AGB/6qqqqqqAID/AAAAAAAAAf8AAAAAAAAA/wAAAAAAAAH/gAAAAAAAAP8AAAAAAAAA/6IiIiIiA
-        ID///////wBgf//////+AOA///////wB4H////7/+APgP93//H/wB+B/4P/4P+AP4D/Af+AfwB/gP+D/
-        4B+AP+A/wH/AHwB/4H/g/4B/gP/gP8B+AH/B//B/wP4B/+P////AfAH/9////+D4B///////wGAH////
-        ///g4A///////8BAAAAAAAB/4AAAAAAAAD/AAAAAAAAAf8AAAAAAAAA/wAAAAAAAAH/ggAAAAAAAP8BA
-        F3dXd1d/4OAP///////AcAf//////+D4A///////wHwB///////A/gD//////8B/AH//////4P+AP///
-        ///Af8Af/////+D/4D//////wH/wP/////////j//////////P//////////////////////////////
-        //////////////////8=
-</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
