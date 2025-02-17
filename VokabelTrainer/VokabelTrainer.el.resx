@@ -151,8 +151,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Πληκτρολόγιο οθόνης (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
+    <value>111, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Διαβάστε δυνατά:</value>
@@ -173,13 +176,13 @@
     <value>Μόνο σε περίπτωση σφαλμάτων</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 213</value>
+    <value>300, 213</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 281</value>
+    <value>58, 281</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 16</value>
@@ -188,7 +191,7 @@
     <value>Κατεβάστε το eSpeak</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 280</value>
+    <value>206, 280</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 20</value>
@@ -197,10 +200,10 @@
     <value>Χρησιμοποιήστε το eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>359, 280</value>
+    <value>405, 280</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 20</value>
+    <value>168, 20</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>579, 278</value>
@@ -213,6 +216,9 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>Χωρίς μάθηση (τυχαία)</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 270</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>634, 310</value>

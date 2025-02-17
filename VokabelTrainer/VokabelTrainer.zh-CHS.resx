@@ -184,11 +184,14 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>屏幕键盘 (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>183, 219</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 13</value>
+    <value>81, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>大声朗读：</value>
@@ -209,7 +212,7 @@
     <value>仅在出现错误时</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>268, 216</value>
+    <value>268, 221</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 21</value>
@@ -218,7 +221,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 271</value>
+    <value>64, 271</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 20</value>
@@ -230,7 +233,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 270</value>
+    <value>175, 270</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 24</value>
@@ -239,16 +242,16 @@
     <value>使用 eSpeak 阅读</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>302, 273</value>
+    <value>336, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 20</value>
+    <value>237, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 219</value>
+    <value>498, 222</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>

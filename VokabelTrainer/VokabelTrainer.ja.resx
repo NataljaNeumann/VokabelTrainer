@@ -240,7 +240,7 @@
     <value>320, 84</value>
   </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 341</value>
@@ -249,7 +249,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 18</value>
+    <value>135, 20</value>
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>ライセンス (GPL v2)</value>
@@ -284,6 +284,9 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>オンスクリーン キーボード (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 299</value>
   </data>
@@ -291,7 +294,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 18</value>
+    <value>139, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>声に出して読みます:</value>
@@ -320,32 +323,41 @@
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 26</value>
   </data>
+  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 386</value>
+    <value>64, 388</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 16</value>
+    <value>149, 20</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>eSpeakをダウンロード</value>
   </data>
+  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 385</value>
+    <value>262, 387</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
+    <value>129, 24</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak で読む</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 383</value>
+    <value>397, 385</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>565, 24</value>
+    <value>480, 24</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>886, 384</value>
+    <value>883, 383</value>
+  </data>
+  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 30</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -358,6 +370,9 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>懲りずに（ランダム）</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 380</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>

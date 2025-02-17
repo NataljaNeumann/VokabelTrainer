@@ -181,6 +181,9 @@
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 21</value>
   </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 276</value>
+  </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 16</value>
   </data>
@@ -188,7 +191,7 @@
     <value>Scarica eSpeak</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 275</value>
+    <value>169, 275</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 20</value>
@@ -197,10 +200,10 @@
     <value>Leggi con eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 275</value>
+    <value>311, 275</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 20</value>
+    <value>258, 20</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>576, 273</value>

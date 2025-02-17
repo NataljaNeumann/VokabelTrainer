@@ -142,8 +142,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Clavier à l'écran (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 13</value>
+    <value>110, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Lire à haute voix :</value>
@@ -164,7 +167,7 @@
     <value>En cas d'erreurs </value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 212</value>
+    <value>294, 215</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 21</value>
@@ -176,7 +179,7 @@
     <value>Télécharger eSpeak</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 273</value>
+    <value>197, 273</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 20</value>
@@ -185,13 +188,13 @@
     <value>Utiliser eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 273</value>
+    <value>322, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 20</value>
+    <value>251, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 217</value>
+    <value>426, 216</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 16</value>

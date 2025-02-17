@@ -148,8 +148,14 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>מקלדת על המסך (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 214</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
+    <value>64, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>קרא בקול:</value>
@@ -170,7 +176,7 @@
     <value>רק במקרה של טעויות</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 212</value>
+    <value>258, 213</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 21</value>
@@ -188,10 +194,10 @@
     <value>השתמש ב-eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 273</value>
+    <value>323, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 20</value>
+    <value>250, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>504, 246</value>

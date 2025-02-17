@@ -151,8 +151,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Экранная клав. (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 13</value>
+    <value>122, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Прочитать вслух:</value>
@@ -173,10 +176,10 @@
     <value>Только в случае ошибок</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 212</value>
+    <value>311, 212</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 21</value>
+    <value>163, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 16</value>
@@ -191,10 +194,10 @@
     <value>Читайть при помощи eSpeak</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 273</value>
+    <value>402, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 20</value>
+    <value>171, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>492, 246</value>

@@ -299,9 +299,6 @@
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>ज़ोर से पढ़ें:</value>
   </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>भाषा प्रदर्शित की गई</value>
   </data>
@@ -324,13 +321,13 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 37</value>
+    <value>293, 28</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 433</value>
+    <value>72, 433</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 29</value>
@@ -342,7 +339,7 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 432</value>
+    <value>296, 432</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 33</value>
@@ -351,10 +348,10 @@
     <value>eSpeak का प्रयोग करें</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 437</value>
+    <value>529, 437</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>417, 26</value>
+    <value>339, 26</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>885, 431</value>
@@ -373,6 +370,9 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>बिना सीखे (यादृच्छिक)</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 429</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>

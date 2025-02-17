@@ -19,6 +19,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace VokabelTrainer
 {
@@ -2056,6 +2057,14 @@ namespace VokabelTrainer
             m_btnSearchESpeak.Enabled = 
                 m_tbxESpeakPath.Enabled = 
                     m_chkUseESpeak.Checked = System.IO.File.Exists(m_tbxESpeakPath.Text);
+
+            string strWindowsVersion = Environment.OSVersion.Version.ToString();
+            if (strWindowsVersion.StartsWith("10.") || strWindowsVersion.StartsWith("11.") ||
+                strWindowsVersion.StartsWith("6.3") || strWindowsVersion.StartsWith("6.2") ||
+                strWindowsVersion.StartsWith("6.1"))
+                m_btnOsLanguageAndKeyboardSettings.Visible = true;
+            else
+                m_btnOsLanguageAndKeyboardSettings.Visible = false;
         }
 
 
@@ -2408,6 +2417,50 @@ namespace VokabelTrainer
             if (oEasyAquireList != null && oEasyAquireList.Count > 0)
             {
                 System.Diagnostics.Process.Start(oEasyAquireList[m_oRnd.Next(oEasyAquireList.Count)]);
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Shows OS keyboard and language settings (is called when gear is clicked)
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oRags">Event args</param>
+        //===================================================================================================
+        private void m_btnOsLanguageAndKeyboardSettings_Click(object oSender, EventArgs oArgs)
+        {
+            string strWindowsVersion = Environment.OSVersion.Version.ToString();
+
+            try
+            {
+                if (strWindowsVersion.StartsWith("10.") || strWindowsVersion.StartsWith("11."))
+                {
+                    // Windows 10 and 11
+                    Process.Start(new ProcessStartInfo("cmd", "/c start ms-settings:regionlanguage") 
+                    { 
+                        CreateNoWindow = true 
+                    });
+                }
+                else 
+                if (strWindowsVersion.StartsWith("6.3"))
+                {
+                    // Windows 8.1
+                    Process.Start("control.exe", "/name Microsoft.Language");
+                }
+                else if (strWindowsVersion.StartsWith("6.2"))
+                {
+                    // Windows 8
+                    Process.Start("control.exe", "/name Microsoft.Language");
+                }
+                else if (strWindowsVersion.StartsWith("6.1")) 
+                {
+                    // Windows 7
+                    Process.Start("control.exe", "/name Microsoft.RegionAndLanguage");
+                }
+            }
+            catch (Exception oEx)
+            {
+                MessageBox.Show(oEx.Message);
             }
         }
 

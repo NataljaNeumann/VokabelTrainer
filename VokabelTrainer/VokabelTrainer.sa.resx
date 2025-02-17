@@ -284,6 +284,9 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>पर्दायां कीबोर्ड् (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 299</value>
   </data>
@@ -291,7 +294,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 18</value>
+    <value>102, 25</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>उच्चैः पठन्तु : </value>
@@ -324,7 +327,7 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 391</value>
+    <value>64, 391</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 29</value>
@@ -336,7 +339,7 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 390</value>
+    <value>279, 390</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 33</value>
@@ -345,10 +348,10 @@
     <value>eSpeak इत्यनेन सह पठन्तु</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 391</value>
+    <value>534, 389</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 24</value>
+    <value>334, 24</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>886, 388</value>
@@ -367,6 +370,15 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>शिक्षणं विना (यादृच्छिकम्)</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 388</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 36</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>
