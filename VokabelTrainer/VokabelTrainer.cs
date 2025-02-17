@@ -637,10 +637,10 @@ namespace VokabelTrainer
                                 }
 
                                 string sss1 = pair.m_tbxFirstLanguage.Text
-                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace("?", "?,").Replace("!", "!,").Replace("،",",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
                                 string sss2 = pair.textBoxSecondLanguage.Text
-                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace("?", "?,").Replace("!", "!,").Replace("،", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
@@ -723,10 +723,10 @@ namespace VokabelTrainer
                                 }
 
                                 sss1 = pair.m_tbxFirstLanguage.Text
-                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace("?", "?,").Replace("!", "!,").Replace("،", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
                                 sss2 = pair.textBoxSecondLanguage.Text
-                                    .Replace("?", "?,").Replace("!", "!,")
+                                    .Replace("?", "?,").Replace("!", "!,").Replace("،", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
                                 foreach (string ss1 in sss1.Split(separators, StringSplitOptions.RemoveEmptyEntries))
@@ -1112,7 +1112,7 @@ namespace VokabelTrainer
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
                             foreach (string s in oTestDlg.m_tbxAskedTranslation.Text.Trim()
-                                .Replace("?", "?,").Replace("!", "!,").Replace(";",",")
+                                .Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace("،", ",")
                                 .Replace(",,", ",").Replace(",,", ",").Split(separators, 
                                     StringSplitOptions.RemoveEmptyEntries))
                             {
@@ -1592,7 +1592,7 @@ namespace VokabelTrainer
 
                             Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
                             foreach (string s in test.m_tbxAskedTranslation.Text.Trim()
-                                .Replace("?", "?,").Replace("!", "!,").Replace(";",",")
+                                .Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace("،", ",")
                                 .Replace(",,", ",").Replace(",,", ",")
                                 .Split(separators, StringSplitOptions.RemoveEmptyEntries))
                             {
