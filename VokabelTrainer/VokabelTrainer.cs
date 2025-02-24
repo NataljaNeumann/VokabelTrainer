@@ -202,27 +202,29 @@ namespace VokabelTrainer
             }
             else
             {
-                m_btnExerciseSecondToFirst.Text = string.Format(Properties.Resources.Exercise, m_strSecondLanguage, m_strFirstLanguage);
-                //m_btnExerciseSecondToFirst.Text =  _secondLanguage + " - " + _firstLanguage + " trainieren";
-                m_btnExerciseFirstToSecond.Text = string.Format(Properties.Resources.Exercise, m_strFirstLanguage, m_strSecondLanguage);
-                //m_btnExerciseFirstToSecond.Text =  _firstLanguage + " - " + _secondLanguage + " trainieren";
-                m_btnIntensiveSecondToFirst.Enabled = m_btnExerciseSecondToFirst.Enabled = m_oTrainingResultsFirstLanguage.Count > 0;
-                m_btnIntensiveFirstToSecond.Enabled = m_btnExerciseFirstToSecond.Enabled = m_oTtrainingResultsSecondLanguage.Count > 0;
-                m_lblReader.Enabled = m_cbxReader.Enabled = m_oTrainingResultsFirstLanguage.Count > 0 || m_oTtrainingResultsSecondLanguage.Count > 0;
+                m_btnExerciseSecondToFirst.Text = 
+                    string.Format(Properties.Resources.Exercise, m_strSecondLanguage, m_strFirstLanguage);
+                m_btnExerciseFirstToSecond.Text = 
+                    string.Format(Properties.Resources.Exercise, m_strFirstLanguage, m_strSecondLanguage);
+                m_btnIntensiveSecondToFirst.Enabled = 
+                    m_btnExerciseSecondToFirst.Enabled = m_oTrainingResultsFirstLanguage.Count > 0;
+                m_btnIntensiveFirstToSecond.Enabled = 
+                    m_btnExerciseFirstToSecond.Enabled = m_oTtrainingResultsSecondLanguage.Count > 0;
+                m_lblReader.Enabled = m_cbxReader.Enabled = 
+                    m_oTrainingResultsFirstLanguage.Count > 0 || m_oTtrainingResultsSecondLanguage.Count > 0;
 
 
-                m_btnIntensiveSecondToFirst.Text = string.Format(Properties.Resources.Intensive, m_strSecondLanguage, m_strFirstLanguage);
-                m_btnIntensiveFirstToSecond.Text = string.Format(Properties.Resources.Intensive, m_strFirstLanguage, m_strSecondLanguage);
+                m_btnIntensiveSecondToFirst.Text = 
+                    string.Format(Properties.Resources.Intensive, m_strSecondLanguage, m_strFirstLanguage);
+                m_btnIntensiveFirstToSecond.Text = 
+                    string.Format(Properties.Resources.Intensive, m_strFirstLanguage, m_strSecondLanguage);
 
-                //m_btnIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensiv";
-                //m_btnIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensiv";
 
+                m_btnMostIntensiveSecondToFirst.Text = 
+                    string.Format(Properties.Resources.MostIntensive, m_strSecondLanguage, m_strFirstLanguage );
+                m_btnMostIntensiveFirstToSecond.Text = 
+                    string.Format(Properties.Resources.MostIntensive, m_strFirstLanguage, m_strSecondLanguage );
 
-                m_btnMostIntensiveSecondToFirst.Text = string.Format(Properties.Resources.MostIntensive, m_strSecondLanguage, m_strFirstLanguage );
-                m_btnMostIntensiveFirstToSecond.Text = string.Format(Properties.Resources.MostIntensive, m_strFirstLanguage, m_strSecondLanguage );
-
-                //m_btnMostIntensiveSecondToFirst.Text = _secondLanguage + " - " + _firstLanguage + " intensivst";
-                //m_btnMostIntensiveFirstToSecond.Text = _firstLanguage + " - " + _secondLanguage + " intensivst"; 
 
                 m_btnMostIntensiveSecondToFirst.Enabled = m_nTotalNumberOfErrorsSecondLanguage > 0;
                 m_btnMostIntensiveFirstToSecond.Enabled = m_nTotalNumberOfErrorsFirstLanguage > 0;
@@ -427,8 +429,8 @@ namespace VokabelTrainer
                             if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                             {
                                 m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                                                  -  (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                                                      m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                      -  (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                          m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
 
                                 m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
@@ -464,8 +466,8 @@ namespace VokabelTrainer
                             if (m_oTtrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                             {
                                 m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                                                   - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                                                     m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                   - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                      m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
 
                                 m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
@@ -1084,7 +1086,8 @@ namespace VokabelTrainer
                     {
                         foreach (string s in m_oRecentlyTrainedWords)
                         {
-                            // if we trained this word recently, then try to skip it, but not with that high probability
+                            // if we trained this word recently, then try to skip it, 
+                            // but not with that high probability
                             if (s.Equals(oPair.Key))
                                 if (m_oRnd2.Next(3) > 0)
                                     return true;
@@ -1376,7 +1379,8 @@ namespace VokabelTrainer
 
                     w.WriteLine();
                     w.WriteLine("  <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->");
-                    w.WriteLine("  <lizenz><modifikationen>{0}</modifikationen>", m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen");
+                    w.WriteLine("  <lizenz><modifikationen>{0}</modifikationen>", 
+                        m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" : "Keine neuen Wörter und keine Lizenzänderungen");
                     w.WriteLine("  <text xml:space=\"preserve\">{0}</text></lizenz>", m_strLicense.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;"));
                     w.WriteLine();
                     w.WriteLine("  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen ({0}-{1}) -->", m_strFirstLanguage, m_strSecondLanguage);
@@ -1489,17 +1493,32 @@ namespace VokabelTrainer
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
                     foreach (KeyValuePair<string, string> training in m_oTrainingResultsFirstLanguage)
                         if (training.Key.Length >= spaces.Length)
-                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key]);
+                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel>"+
+                                "<training-vorgeschichte>{1}</training-vorgeschichte>"+
+                                "<richtige-antworten>{2}</richtige-antworten></erste-sprache>", 
+                                training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key]);
                         else
-                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></erste-sprache>", training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key], spaces[training.Key.Trim().Length]);
+                            w.WriteLine("  <erste-sprache><vokabel>{0}</vokabel>"+
+                                "{3}<training-vorgeschichte>{1}</training-vorgeschichte>"+
+                                "<richtige-antworten>{2}</richtige-antworten></erste-sprache>", 
+                                training.Key.Trim(), training.Value, m_oCorrectAnswersFirstLanguage[training.Key], 
+                                spaces[training.Key.Trim().Length]);
                     w.WriteLine();
-                    w.WriteLine("  <!-- Die Vokabeln der zweiten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", m_strSecondLanguage);
+                    w.WriteLine("  <!-- Die Vokabeln der zweiten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->",
+                        m_strSecondLanguage);
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
                     foreach (KeyValuePair<string, string> training in m_oTtrainingResultsSecondLanguage)
                         if (training.Key.Length >= spaces.Length)
-                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel><training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key]);
+                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>"+
+                                "<training-vorgeschichte>{1}</training-vorgeschichte>"+
+                                "<richtige-antworten>{2}</richtige-antworten></zweite-sprache>", 
+                                training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key]);
                         else
-                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>{3}<training-vorgeschichte>{1}</training-vorgeschichte><richtige-antworten>{2}</richtige-antworten></zweite-sprache>", training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key], spaces[training.Key.Trim().Length]);
+                            w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>"+
+                                "{3}<training-vorgeschichte>{1}</training-vorgeschichte>"+
+                                "<richtige-antworten>{2}</richtige-antworten></zweite-sprache>", 
+                                training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key], 
+                                spaces[training.Key.Trim().Length]);
                     w.WriteLine();
                     w.WriteLine("</training>");
                     w.Close();
@@ -1669,7 +1688,8 @@ namespace VokabelTrainer
                                     }
                                     strErrorMessage = strErrorMessage + ". ";
 
-                                    Speaker.Say(m_strSecondLanguage, strTextToSpeak, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                    Speaker.Say(m_strSecondLanguage, strTextToSpeak, true, 
+                                        m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
@@ -1681,7 +1701,8 @@ namespace VokabelTrainer
                                             strErrorMessage = strErrorMessage + s + ". ";
 
 
-                                            Speaker.Say(m_strSecondLanguage, s, true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+                                            Speaker.Say(m_strSecondLanguage, s, true, 
+                                                m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                                         }
@@ -2166,7 +2187,7 @@ namespace VokabelTrainer
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
                     {
                         oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+französisch");
-                        oResult.Add(@"https://www.amazon.de/Die-Gro%C3%9Fe-Franz%C3%B6sisch-Lernen-Box-3-CD-Hspbox/dp/B07N3P5B1N/ref=sr_1_4?dib=eyJ2IjoiMSJ9.odJgnSYaq03JHBxRUn6dm84bHjnQg_AeHqXvhKt8_vwmz1tyIfoZ8hwYZcfqsFURZGEll128RUe1uXXp8A39BPMojDqR_5KODVYCKWveCGAFPLjdozMJMg3tpv0-i7IfJMqhA1x7OqVVCA-5wdJVS2Lpgeytb2u85Zk9nhqOjP3LfdV72RjMb2GQ_c1GOh31SWCEi6biUw9D4G3mfU4pzO8J3iu6Thg4gXGX6daAAew.6E1bfrl23Sv8SzGzt0KdzJ3OepzGupB4wK74lGFn3xg&dib_tag=se&keywords=hexe+huckla+franz%C3%B6sisch&qid=1739659809&sr=8-4");
+                        oResult.Add(@"https://www.amazon.de/Die-Gro%C3%9Fe-Franz%C3%B6sisch-Lernen-Box-3-CD-Hspbox/dp/B07N3P5B1N");
                     }
                 }
             }
@@ -2183,7 +2204,6 @@ namespace VokabelTrainer
                 {
                     // then add spanish resources for language aquisition without explicit learning
                     oResult.Add(@"https://emisoras.com.mx/");
-                    oResult.Add(@"https://www.amazon.es/s/ref=nb_sb_noss?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Ddvd&field-keywords=&crid=1G69ZSAMOGS5G&sprefix=%2Cdvd%2C91");
                     oResult.Add(@"https://www.amazon.com/-/es/mejores-3000-chistes-espa%C3%B1ol-Spanish/dp/B0B6XRZF2R");
                     oResult.Add(@"https://www.youtube.com/results?search_query=pel%C3%ADcula+en+espa%C3%B1ol");
                     oResult.Add(@"https://elpais.com/noticias/espana/");
