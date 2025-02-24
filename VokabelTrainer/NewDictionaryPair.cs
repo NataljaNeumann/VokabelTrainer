@@ -59,7 +59,7 @@ namespace VokabelTrainer
         public NewDictionaryPair(bool bUseESpeak, string strEspeakPath)
         {
             InitializeComponent();
-
+            ReadyToUseImageInjection("NewDictionaryPairHeader.jpg");
             m_bUseESpeak = bUseESpeak;
             m_strEspeakPath = strEspeakPath;
 
@@ -168,5 +168,118 @@ namespace VokabelTrainer
         {
             m_bAlreadySaid = false;
         }
+
+        #region image injection part
+        //===================================================================================================
+        /// <summary>
+        /// Picture box control
+        /// </summary>
+        private PictureBox m_ctlPictureBox;
+        //===================================================================================================
+        /// <summary>
+        /// Image
+        /// </summary>
+        private Image m_oLoadedImage;
+        //===================================================================================================
+        /// <summary>
+        /// A dictionary with positions of other elements
+        /// </summary>
+        private Dictionary<Control, int> m_oOriginalPositions;
+
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image from application startup path and shows it at the top of the window
+        /// </summary>
+        /// <param name="strName">Name of the image, without directory specifications</param>
+        //===================================================================================================
+        private void ReadyToUseImageInjection(string strImageName)
+        {
+            string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            if (System.IO.File.Exists(strImagePath))
+            {
+                m_oOriginalPositions = new Dictionary<Control, int>();
+                foreach (Control ctl in Controls)
+                {
+                    m_oOriginalPositions[ctl] = ctl.Top;
+                }
+
+                m_ctlPictureBox = new PictureBox();
+                m_ctlPictureBox.Location = this.ClientRectangle.Location;
+                m_ctlPictureBox.Size = new Size(0, 0);
+                Controls.Add(m_ctlPictureBox);
+
+                LoadAndResizeImage(strImagePath);
+
+                this.Resize += new EventHandler(ResizeImageAlongWithForm);
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image along with the form
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void ResizeImageAlongWithForm(object oSender, EventArgs oEventArgs)
+        {
+            ResizeImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image and resizes it to the width of client area
+        /// </summary>
+        /// <param name="strImagePath"></param>
+        //===================================================================================================
+        private void LoadAndResizeImage(string strImagePath)
+        {
+            m_oLoadedImage = Image.FromFile(strImagePath);
+            ResizeImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image and shifts other elements
+        /// </summary>
+        //===================================================================================================
+        private void ResizeImageAndShiftElements()
+        {
+            if (m_oLoadedImage != null)
+            {
+                if (WindowState != FormWindowState.Minimized)
+                {
+                    float fAspectRatio = (float)m_oLoadedImage.Width / (float)m_oLoadedImage.Height;
+
+                    int nNewWidth = this.ClientSize.Width;
+                    if (nNewWidth != 0)
+                    {
+                        int nNewHeight = (int)(nNewWidth / fAspectRatio);
+
+                        int nHeightChange = nNewHeight - m_ctlPictureBox.Height;
+
+                        this.m_ctlPictureBox.Image = new Bitmap(m_oLoadedImage, nNewWidth, nNewHeight);
+                        this.m_ctlPictureBox.Size = new Size(nNewWidth, nNewHeight);
+
+                        ShiftOtherElementsUpOrDown(nHeightChange);
+                        this.Height += nHeightChange;
+                    }
+                }
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Shifts elements, apart from the image box up or down
+        /// </summary>
+        /// <param name="nHeightChange"></param>
+        private void ShiftOtherElementsUpOrDown(int nHeightChange)
+        {
+            foreach (Control ctl in m_oOriginalPositions.Keys)
+            {
+                ctl.Top = m_oOriginalPositions[ctl] + nHeightChange;
+            }
+        }
+        #endregion
     }
 }

@@ -20,6 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Drawing;
 
 namespace VokabelTrainer
 {
@@ -157,6 +158,7 @@ namespace VokabelTrainer
         public VokabelTrainer()
         {
             InitializeComponent();
+            ReadyToUseImageInjection("VokabelTrainerMainHeader.jpg");
             // init random with current time
             m_oRnd = new Random(((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                 DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
@@ -246,7 +248,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnLoadLanguageFile_Click(object oSender, EventArgs oArgs)
+        private void m_btnLoadLanguageFile_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             m_dlgOpenFileDialog.InitialDirectory = 
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
@@ -515,7 +520,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnNewLanguage_Click(object oSender, EventArgs oArgs)
+        private void m_btnNewLanguage_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             using (NewLanguageFile form = new NewLanguageFile())
             {
@@ -594,7 +602,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnEnterVocabulary_Click(object oSender, EventArgs oArgs)
+        private void m_btnEnterVocabulary_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             bool bSave = false;
@@ -818,7 +829,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void button3_Click(object oSender, EventArgs oArgs)
+        private void button3_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -862,7 +876,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnIntensiveSecondToFirst_Click(object oSender, EventArgs oArgs)
+        private void m_btnIntensiveSecondToFirst_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -961,7 +978,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnMostIntensiveSecondToFirst_Click(object oSender, EventArgs oArgs)
+        private void m_btnMostIntensiveSecondToFirst_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -1034,7 +1054,9 @@ namespace VokabelTrainer
         /// <param name="nIndex">Index of the word to train</param>
         /// <returns>true iff the training shall continue</returns>
         //===================================================================================================
-        private bool TrainSecondToFirstLanguage(int nIndex)
+        private bool TrainSecondToFirstLanguage(
+            int nIndex
+            )
         {
             bool bRepeat = false;
             bool bVerify = false;
@@ -1245,7 +1267,10 @@ namespace VokabelTrainer
         /// <param name="strWord">Tested word in first language</param>
         /// <param name="bCorrect">Indicates, if the result was correct</param>
         //===================================================================================================
-        void RememberResultFirstLanguage(string strWord, bool bCorrect)
+        void RememberResultFirstLanguage(
+            string strWord, 
+            bool bCorrect
+            )
         {
             string strPrevResults = m_oTrainingResultsFirstLanguage[strWord];
             string strNewResults = (bCorrect ? "1" : "0") + 
@@ -1270,7 +1295,10 @@ namespace VokabelTrainer
         /// <param name="strWord">Tested word in second language</param>
         /// <param name="bCorrect">Indicates, if the result was correct</param>
         //===================================================================================================
-        void RememberResultSecondLanguage(string strWord, bool bCorrect)
+        void RememberResultSecondLanguage(
+            string strWord, 
+            bool bCorrect
+            )
         {
             string strPrevResults = m_oTtrainingResultsSecondLanguage[strWord];
             string strNewResults = (bCorrect ? "1" : "0") + 
@@ -1515,7 +1543,9 @@ namespace VokabelTrainer
         /// <param name="nIndex">Index of the word in first language</param>
         /// <returns>true iff the training shall continue</returns>
         //===================================================================================================
-        private bool TrainFirstLanguage(int nIndex)
+        private bool TrainFirstLanguage(
+            int nIndex
+            )
         {
             bool bRepeat = false;
             bool bVerify = false;
@@ -1725,7 +1755,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnExerciseFirstToSecond_Click(object oSender, EventArgs oArgs)
+        private void m_btnExerciseFirstToSecond_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -1770,7 +1803,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnIntensiveFirstToSecond_Click(object oSender, EventArgs oArgs)
+        private void m_btnIntensiveFirstToSecond_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -1869,7 +1905,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnMostIntensiveFirstToSecond_Click(object oSender, EventArgs oArgs)
+        private void m_btnMostIntensiveFirstToSecond_Click(
+            object oSender, 
+            EventArgs oArgs
+            )
         {
             bool bRepeat = true;
             while (bRepeat)
@@ -2463,6 +2502,120 @@ namespace VokabelTrainer
                 MessageBox.Show(oEx.Message);
             }
         }
+
+
+        #region image injection part
+        //===================================================================================================
+        /// <summary>
+        /// Picture box control
+        /// </summary>
+        private PictureBox m_ctlPictureBox;
+        //===================================================================================================
+        /// <summary>
+        /// Image
+        /// </summary>
+        private System.Drawing.Image m_oLoadedImage;
+        //===================================================================================================
+        /// <summary>
+        /// A dictionary with positions of other elements
+        /// </summary>
+        private Dictionary<Control, int> m_oOriginalPositions;
+
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image from application startup path and shows it at the top of the window
+        /// </summary>
+        /// <param name="strName">Name of the image, without directory specifications</param>
+        //===================================================================================================
+        private void ReadyToUseImageInjection(string strImageName)
+        {
+            string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            if (System.IO.File.Exists(strImagePath))
+            {
+                m_oOriginalPositions = new Dictionary<Control, int>();
+                foreach (Control ctl in Controls)
+                {
+                    m_oOriginalPositions[ctl] = ctl.Top;
+                }
+
+                m_ctlPictureBox = new PictureBox();
+                m_ctlPictureBox.Location = this.ClientRectangle.Location;
+                m_ctlPictureBox.Size = new Size(0, 0);
+                Controls.Add(m_ctlPictureBox);
+
+                LoadAndResizeImage(strImagePath);
+
+                this.Resize += new EventHandler(ResizeImageAlongWithForm);
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image along with the form
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void ResizeImageAlongWithForm(object oSender, EventArgs oEventArgs)
+        {
+            ResizeImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image and resizes it to the width of client area
+        /// </summary>
+        /// <param name="strImagePath"></param>
+        //===================================================================================================
+        private void LoadAndResizeImage(string strImagePath)
+        {
+            m_oLoadedImage = Image.FromFile(strImagePath);
+            ResizeImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image and shifts other elements
+        /// </summary>
+        //===================================================================================================
+        private void ResizeImageAndShiftElements()
+        {
+            if (m_oLoadedImage != null)
+            {
+                if (WindowState != FormWindowState.Minimized)
+                {
+                    float fAspectRatio = (float)m_oLoadedImage.Width / (float)m_oLoadedImage.Height;
+
+                    int nNewWidth = this.ClientSize.Width;
+                    if (nNewWidth != 0)
+                    {
+                        int nNewHeight = (int)(nNewWidth / fAspectRatio);
+
+                        int nHeightChange = nNewHeight - m_ctlPictureBox.Height;
+
+                        this.m_ctlPictureBox.Image = new Bitmap(m_oLoadedImage, nNewWidth, nNewHeight);
+                        this.m_ctlPictureBox.Size = new Size(nNewWidth, nNewHeight);
+
+                        ShiftOtherElementsUpOrDown(nHeightChange);
+                        this.Height += nHeightChange;
+                    }
+                }
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Shifts elements, apart from the image box up or down
+        /// </summary>
+        /// <param name="nHeightChange"></param>
+        private void ShiftOtherElementsUpOrDown(int nHeightChange)
+        {
+            foreach (Control ctl in m_oOriginalPositions.Keys)
+            {
+                ctl.Top = m_oOriginalPositions[ctl] + nHeightChange;
+            }
+        }
+        #endregion
 
     }
 }
