@@ -213,7 +213,8 @@ namespace VokabelTrainer
         {
             foreach (Control ctl in m_oOriginalPositions.Keys)
             {
-                ctl.Top = m_oOriginalPositions[ctl] + nHeightChange;
+                if ((ctl.Anchor & AnchorStyles.Bottom) == AnchorStyles.None)
+                    ctl.Top += nHeightChange;
             }
         }
         #endregion
