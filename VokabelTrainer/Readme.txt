@@ -1,17 +1,26 @@
-﻿
-‎
-# Vocabulary Trainer
-  
-[Latest sources and releases](https://github.com/NataljaNeumann/VokabelTrainer)  
-  
-  
-![Vocabulary Trainer](https://github.com/user-attachments/assets/899b33dd-4d31-44f1-888d-5fa28e9cb54b)  
+﻿‎
 
-‎[English](#en), [Français](#fr), [Español](#es), [Português](#pt), [Italiano](#it), [Deutsch](#de), [По русски](#ru), [Polski](#pl), [Στα ελληνικά](#gr), 
-[Nederlands](#nl), [Dansk](#da), [Suomeksi](#fi), [Svenska](#sv), [Türkçe](#tr), [中文文本](#chs), [中文文字](#cht), [日本語](#ja), [한국인](#ko), [भारतीय में](#hi), [باللغة العربية](#ar), [עִברִית](#he)
+
+
+
+Vocabulary Trainer
+______________________________________________________________________________________________________________________
+
+Latest sources and releases: https://github.com/NataljaNeumann/VokabelTrainer
+
+
+> https://github.com/user-attachments/assets/899b33dd-4d31-44f1-888d-5fa28e9cb54b
+
+‎English.., Français.., Español.., Português.., Italiano.., Deutsch.., По русски.., Polski.., Στα ελληνικά.., 
+Nederlands.., Dansk.., Suomeksi.., Svenska.., Türkçe.., 中文文本.., 中文文字.., 日本語.., 한국인.., भारतीय में.., باللغة العربية.., עִברִית..
 ‎
-# English
-<a name="en"></a>
+
+
+
+
+English
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer is an application that gives you the possibility to train vocabulary, no matter if it is for school, study or profession. Vokabeltrainer 
 is the german word for vocabulary trainer. Germany is the country I live in. The application shows you a keyboard on the desktop, where you can access the letters of other languages after installation of language packs, and
 it can read the vocabulary, in case there is a corresponding language pack.
@@ -41,11 +50,16 @@ find below the list of languages and supported variants of their naming in the a
 moment it can become supported in the future.
 
 ‎The application supports writing direction from right to left for the languages that require this, e.g. Arabic, Persian, Pashtu, Hebrew, Punjabi
-  
-[Do you need support?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Français
-<a name="fr"></a>
+
+Do you need support?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Français
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer est une application qui vous donne la possibilité d'entraîner du vocabulaire, que ce soit pour l'école, les études ou la profession.
 Vokabeltrainer est le mot allemand pour entraîneur de vocabulaire. L'Allemagne est le pays dans lequel je vis.
 L'application vous montre un clavier sur le bureau, où vous pouvez accéder aux lettres d'autres langues après l'installation de packs de langue,
@@ -76,11 +90,16 @@ Veuillez trouver ci-dessous la liste des langues et les variantes prises en char
 Même si une langue n'est pas prise en charge pour le moment, elle peut le devenir ultérieurement.
 
 ‎L'application prend en charge le sens d'écriture de droite à gauche pour les langues qui l'exigent, par ex. Arabe, persan, pachtou, hébreu, punjabi
-  
-[Avez-vous besoin de soutien?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wikia](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Español
-<a name="es"></a>
+
+Avez-vous besoin de soutien?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wikia: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Español
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer es una aplicación que te brinda la posibilidad de entrenar vocabulario, ya sea para la escuela, el estudio o la profesión. 
 Vokabeltrainer es la palabra alemana para entrenador de vocabulario. Alemania es el país en el que vivo. La aplicación te muestra un teclado en el escritorio, 
 donde puedes acceder a las letras de otros idiomas después de instalar los paquetes de idiomas, y puede leer el vocabulario, en caso de que exista un paquete 
@@ -112,11 +131,16 @@ Incluso si un idioma no es compatible en este momento, puede serlo en el futuro.
 
 ‎La aplicación admite la dirección de escritura de derecha a izquierda 
 para los idiomas que lo requieren, p. Árabe, persa, pashtu, hebreo, punjabi
-  
-[¿Necesitas apoyo?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Português
-<a name="pt"></a>
+
+¿Necesitas apoyo?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Português
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer é uma aplicação que lhe dá a possibilidade de treinar vocabulário, seja para escola, estudo ou profissão.
 Vokabeltrainer é a palavra alemã para treinador de vocabulário. A Alemanha é o país onde moro. O aplicativo mostra um teclado na área de trabalho,
 onde você pode acessar as letras de outros idiomas após a instalação dos pacotes de idiomas, e pode ler o vocabulário, caso exista um pacote 
@@ -148,11 +172,16 @@ Mesmo que um idioma não seja suportado no momento, ele poderá ser suportado no
 
 ‎O aplicativo suporta a direção de escrita da direita para a esquerda para os idiomas que exigem isso, 
 por ex. Árabe, persa, pashtu, hebraico, punjabi
-  
-[Você precisa de suporte?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Italiano
-<a name="it"></a>
+
+Você precisa de suporte?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Italiano
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer è un'applicazione che ti dà la possibilità di allenare il vocabolario, non importa se è per la scuola, 
 lo studio o la professione. Vokabeltrainer è la parola tedesca per addestratore di vocabolario. La Germania è il paese in cui vivo. 
 L'applicazione mostra una tastiera sul desktop, dove puoi accedere alle lettere di altre lingue dopo l'installazione dei pacchetti lingua, 
@@ -184,11 +213,16 @@ Anche se una lingua non è supportata al momento, potrebbe esserlo in futuro.
 
 ‎L'applicazione supporta la direzione di scrittura da destra a sinistra per le lingue che lo richiedono, 
 ad es. Arabo, persiano, pashtu, ebraico, punjabi
-  
-[Hai bisogno di supporto?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Deutsch
-<a name="de"></a>
+
+Hai bisogno di supporto?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Deutsch
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer ist eine Anwendung, die Ihnen die Möglichkeit gibt, Vokabeln zu trainieren, egal ob für Schule, Studium oder Beruf.
 Vokabeltrainer ist das deutsche Wort für Vokabeltrainer. Deutschland ist das Land, in dem ich lebe. Die Anwendung zeigt Ihnen eine Tastatur auf dem Desktop an, 
 über die Sie nach der Installation von Sprachpaketen auf die Buchstaben anderer Sprachen zugreifen und den Wortschatz vorlesen lassen können, 
@@ -220,11 +254,16 @@ Auch wenn eine Sprache derzeit nicht unterstützt wird, kann sie in Zukunft unte
 
 ‎Die Anwendung unterstützt die Schreibrichtung von rechts nach links für die Sprachen, 
 die dies erfordern, z. B. Arabisch, Persisch, Paschtu, Hebräisch, Punjabi
-  
-[Brauchen Sie Unterstützung?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# По русски
-<a name="ru"></a>
+
+Brauchen Sie Unterstützung?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+По русски
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer — это приложение, которое дает вам возможность тренировать словарный запас, будь то для школы, учебы или работы.
 Vokabeltrainer по-немецки означает «тренажер словарного запаса». Германия – страна, где я живу. Приложение показывает вам клавиатуру на рабочем столе,
 которую вы можете использовать после установки языковых пакетов для доступа к буквам других языков и чтения словарного запаса вслух,
@@ -255,11 +294,16 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 
 ‎Приложение поддерживает направление письма справа налево для языков, которые этого требуют, 
 например. арабский, персидский, пушту, иврит, панджаби
-  
-[Вам нужна поддержка?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Вики](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Polski
-<a name="pl"></a>
+
+Вам нужна поддержка?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Вики: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Polski
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer to aplikacja, która daje możliwość ćwiczenia słownictwa w szkole, na studiach lub w pracy.
 Vokabeltrainer to niemieckie słowo oznaczające trenera słownictwa. Niemcy to kraj, w którym mieszkam. Aplikacja wyświetla na pulpicie klawiaturę,
 za pomocą której po zainstalowaniu pakietów językowych możesz uzyskać dostęp do liter innych języków i głośno przeczytać słownictwo,
@@ -289,11 +333,16 @@ aby aplikacja mogła je rozpoznać i przeczytać słowa. Poniżej znajdziesz lis
 Nawet jeśli dany język nie jest obecnie obsługiwany, może stać się obsługiwany w przyszłości.
 
 ‎Aplikacja obsługuje kierunek pisania od prawej do lewej dla języków, które tego wymagają, np. polskiego. Arabski, perski, pasztu, hebrajski, pendżabski
-  
-[Czy potrzebujesz wsparcia?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Вики](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Στα ελληνικά
-<a name="gr"></a>
+
+Czy potrzebujesz wsparcia?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Вики: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Στα ελληνικά
+______________________________________________________________________________________________________________________
+
 ‎Το VokabelTrainer είναι μια εφαρμογή που σας δίνει την ευκαιρία να εκπαιδεύσετε λεξιλόγιο, είτε για σχολείο,
 είτε για σπουδές είτε για εργασία. Το Vokabeltrainer είναι η γερμανική λέξη για τον εκπαιδευτή λεξιλογίου. Η Γερμανία είναι η χώρα που ζω.
 Η εφαρμογή σάς δείχνει ένα πληκτρολόγιο στην επιφάνεια εργασίας, το οποίο μπορείτε να χρησιμοποιήσετε αφού εγκαταστήσετε πακέτα γλωσσών
@@ -325,11 +374,16 @@ Nawet jeśli dany język nie jest obecnie obsługiwany, może stać się obsług
 Ακόμα κι αν μια γλώσσα δεν υποστηρίζεται αυτή τη στιγμή, μπορεί να γίνει υποστηριζόμενη στο μέλλον.
 
 ‎Η εφαρμογή υποστηρίζει κατεύθυνση γραφής από δεξιά προς τα αριστερά για τις γλώσσες που το απαιτούν, π.χ. Αραβικά, Περσικά, Παστούν, Εβραϊκά, Παντζάμπι
-  
-[Χρειάζεστε υποστήριξη;](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Nederlands
-<a name="nl"></a>
+
+Χρειάζεστε υποστήριξη;: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Nederlands
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer is een applicatie waarmee u woordenschat kunt trainen, of het nu voor school, studie of werk is.
 Vokabeltrainer is het Duitse woord voor woordenschattrainer. Duitsland is het land waar ik woon. De applicatie toont u een toetsenbord 
 op het bureaublad, dat u na het installeren van taalpakketten kunt gebruiken om toegang te krijgen tot de letters van andere talen 
@@ -360,11 +414,16 @@ talen en ondersteunde varianten van hun naamgeving in de applicatie.
 Zelfs als een taal op dit moment niet wordt ondersteund, kan deze in de toekomst wel ondersteund worden.
 
 ‎De applicatie ondersteunt de schrijfrichting van rechts naar links voor de talen die dit vereisen, b.v. Arabisch, Perzisch, Pashtu, Hebreeuws, Punjabi
-  
-[Heeft u ondersteuning nodig?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Dansk
-<a name="da"></a>
+
+Heeft u ondersteuning nodig?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Dansk
+______________________________________________________________________________________________________________________
+
 ‎Hvis der er en sprogpakke installeret i operativsystemet, kan applikationen læse og tale ordforrådet, 
 så du også kan høre ordenes udtale. Når du opretter en ny ordforrådsbog, bedes du navngive sprogene på en bestemt måde, 
 så applikationen kan genkende dem og kan læse ordene. Nedenfor finder du listen over sprog og 
@@ -395,11 +454,16 @@ sikkerhedskopieringsoplysninger gemt i skjulte filer.
 ‎For alle sprog, også dem, der ikke er på listen, foretrækker du at navngive dem med deres oprindelige navn. Selvom et sprog ikke understøttes i øjeblikket, kan det blive understøttet i fremtiden.
 
 ‎Applikationen understøtter skriveretning fra højre mod venstre for de sprog, der kræver dette, f.eks. Arabisk, persisk, pashtu, hebraisk, punjabi
-  
-[Har du brug for støtte?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Suomeksi
-<a name="fi"></a>
+
+Har du brug for støtte?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Suomeksi
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer on sovellus, joka antaa sinulle mahdollisuuden kouluttaa sanastoa, olipa kyseessä sitten koulu, opiskelu tai työ.
 Vokabeltrainer on saksankielinen sana sanaston kouluttamisesta. Saksa on maa, jossa asun. Sovellus näyttää työpöydällä näppäimistön,
 jota voit käyttää kielipakettien asennuksen jälkeen päästäksesi käsiksi muiden kielten kirjaimiin ja lukea sanaston ääneen, 
@@ -428,11 +492,16 @@ Alla on luettelo kielistä ja tuetuista versioista niiden nimeämisestä sovellu
 ‎Kaikille kielille, myös niille, jotka eivät ole luettelossa, kannattaa nimetä ne äidinkielellään. Vaikka kieltä ei tueta tällä hetkellä, se voi tulla tueksi tulevaisuudessa.
 
 ‎Sovellus tukee kirjoitussuuntaa oikealta vasemmalle sitä vaativille kielille, esim. arabia, persia, pashtu, heprea, panjabi
-  
-[Tarvitsetko tukea?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Svenska
-<a name="sv"></a>
+
+Tarvitsetko tukea?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Svenska
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer är en applikation som ger dig möjlighet att träna ordförråd, oavsett om det är för skola, studier eller arbete.
 Vokabeltrainer är det tyska ordet för vokabulärtränare. Tyskland är det land där jag bor. Applikationen visar dig ett tangentbord på skrivbordet,
 som du kan använda efter att ha installerat språkpaket för att komma åt bokstäverna på andra språk och få ordförrådet uppläst om ett motsvarande
@@ -462,11 +531,16 @@ kan känna igen dem och kan läsa orden. Nedan hittar du listan över språk och
 Även om ett språk inte stöds för tillfället kan det bli stöd i framtiden.
 
 ‎Applikationen stöder skrivriktning från höger till vänster för de språk som kräver detta, t.ex. arabiska, persiska, pashtu, hebreiska, punjabi
-  
-[Behöver du stöd?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# Türkçe
-<a name="tr"></a>
+
+Behöver du stöd?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+Türkçe
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer size okul, ders çalışma veya iş için kelime hazinesi geliştirme fırsatı veren bir uygulamadır.
 Vokabeltrainer Almanca kelime antrenörü anlamına gelir. Yaşadığım ülke Almanya. Uygulama size masaüstünde, dil paketlerini
 yükledikten sonra diğer dillerin harflerine erişmek ve karşılık gelen bir dil paketi mevcutsa kelimelerin yüksek sesle okunmasını
@@ -496,11 +570,16 @@ ve desteklenen ad çeşitlerini aşağıda bulabilirsiniz.
 ‎Tüm diller için, listede yer almayanlar da dahil olmak üzere, onları yerel adlarıyla adlandırmayı tercih edin. Bir dil şu anda desteklenmiyor olsa bile gelecekte desteklenebilir.
 
 ‎Uygulama, bunu gerektiren diller için sağdan sola yazma yönünü destekler; Arapça, Farsça, Peştuca, İbranice, Pencapça
-  
-[Desteğe mi ihtiyacınız var?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[Viki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# 中文文本
-<a name="chs"></a>
+
+Desteğe mi ihtiyacınız var?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+Viki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+中文文本
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer 是一款让您有机会训练词汇的应用程序，无论是在学校、学习还是工作中。
 Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家。该应用程序在桌面上向您显示一个键盘，
 您可以在安装语言包后使用该键盘来访问其他语言的字母，并在有相应语言包的情况下朗读词汇。该应用程序支持三种训练模式：
@@ -527,12 +606,17 @@ Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家�
 ‎对于所有语言，即使是那些不在列表中的语言，也更喜欢用它们的母语名称来命名。即使目前不支持某种语言，将来也可能会受到支持。
 
 ‎对于需要此功能的语言，该应用程序支持从右到左的书写方向，例如：阿拉伯语、波斯语、普什图语、希伯来语、旁遮普语
-  
-[您需要支持吗？](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[维基百科](https://github.com/NataljaNeumann/VokabelTrainer/wiki)  
+
+您需要支持吗？: https://github.com/NataljaNeumann/VokabelTrainer/issues
+维基百科: https://github.com/NataljaNeumann/VokabelTrainer/wiki
 ‎
-# 中文文字
-<a name="cht"></a>
+
+
+
+
+中文文字
+______________________________________________________________________________________________________________________
+
 VokabelTrainer 是一款讓您有機會訓練詞彙的應用程序，無論是在學校、學習還是工作中。
 Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家。該應用程式在桌面上向您顯示一個鍵盤，
 您可以在安裝語言包後使用該鍵盤來存取其他語言的字母，並在有相應語言包的情況下朗讀詞彙。
@@ -560,11 +644,16 @@ Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家�
 ‎對於所有語言，即使是那些不在清單中的語言，也更喜歡用它們的母語名稱來命名。即使目前不支援某種語言，將來也可能會受到支援。
 
 ‎對於需要此功能的語言，該應用程式支援從右到左的書寫方向，例如：阿拉伯語、波斯語、普什圖語、希伯來語、旁遮普語
-  
-[您需要支援嗎？](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[維基百科](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# 日本語
-<a name="ja"></a>
+
+您需要支援嗎？: https://github.com/NataljaNeumann/VokabelTrainer/issues
+維基百科: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+日本語
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer は、学校、学習、仕事などで語彙をトレーニングする機会を提供するアプリケーションです。
 Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ドイツは私が住んでいる国です。
 アプリケーションはデスクトップにキーボードを表示します。言語パックをインストールした後、
@@ -596,11 +685,16 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 
 ‎アプリケーションは、これを必要とする言語で右から左への書き込み方向をサポートしています。
 アラビア語、ペルシア語、パシュトゥ語、ヘブライ語、パンジャブ語
-  
-[サポートが必要ですか?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[ウィキ](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# 한국인
-<a name="ko"></a>
+
+サポートが必要ですか?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+ウィキ: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+한국인
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer는 학교, 공부 또는 직장에서 어휘를 훈련할 수 있는 기회를 제공하는 애플리케이션입니다.
 Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일은 내가 살고 있는 나라이다. 
 이 애플리케이션은 데스크탑에 키보드를 표시하는데, 언어 팩을 설치한 후 이를 사용하여 다른 언어의 문자에 액세스하고 해당 
@@ -629,11 +723,16 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 ‎모든 언어에 대해 목록에 없는 언어라도 모국어로 이름을 지정하는 것을 선호합니다. 현재 지원되지 않는 언어라도 향후 지원될 수 있습니다.
 
 ‎응용 프로그램은 이를 요구하는 언어에 대해 오른쪽에서 왼쪽으로 쓰기 방향을 지원합니다. 아랍어, 페르시아어, 파슈투어, 히브리어, 펀자브어
-  
-[지원이 필요합니까?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[위키](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
-# भारतीय में
-<a name="hi"></a>
+
+지원이 필요합니까?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+위키: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
+
+
+
+
+भारतीय में
+______________________________________________________________________________________________________________________
+
 ‎VokabelTrainer एक एप्लिकेशन है जो आपको शब्दावली प्रशिक्षित करने का अवसर देता है, चाहे स्कूल के लिए, अध्ययन के लिए या काम के लिए।    
 वोकबेलट्रेनर शब्दावली प्रशिक्षक के लिए जर्मन शब्द है। जर्मनी वह देश है जहाँ मैं रहता हूँ। एप्लिकेशन आपको डेस्कटॉप पर एक कीबोर्ड दिखाता है, 
 जिसका उपयोग आप भाषा पैक स्थापित करने के बाद अन्य भाषाओं के अक्षरों तक पहुंचने के लिए कर सकते हैं और यदि संबंधित भाषा पैक उपलब्ध है तो 
@@ -662,11 +761,16 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 ‎सभी भाषाओं के लिए, यहां तक ​​कि जो सूची में नहीं हैं, उनका नामकरण उनके मूल नाम से करना पसंद करते हैं। भले ही कोई भाषा इस समय समर्थित न हो, वह भविष्य में समर्थित हो सकती है।
 
 ‎एप्लिकेशन उन भाषाओं के लिए दाईं से बाईं ओर लेखन दिशा का समर्थन करता है जिनके लिए इसकी आवश्यकता होती है, उदाहरण के लिए अरबी, फ़ारसी, पश्तू, हिब्रू, पंजाबी
-  
-[क्या आपको समर्थन की आवश्यकता है?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[विकि](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‏
-# باللغة العربية
-<a name="ar"></a>
+
+क्या आपको समर्थन की आवश्यकता है?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+विकि: https://github.com/NataljaNeumann/VokabelTrainer/wiki‏
+
+
+
+
+باللغة العربية
+______________________________________________________________________________________________________________________
+
 ‏VokabelTrainer هو تطبيق يتيح لك الفرصة لتدريب المفردات سواء للمدرسة أو الدراسة أو العمل. 
 Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات. ألمانيا هي البلد الذي أعيش فيه.
 يعرض لك التطبيق لوحة مفاتيح على سطح المكتب، والتي يمكنك استخدامها بعد تثبيت حزم
@@ -696,11 +800,16 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 
 ‏يدعم التطبيق اتجاه الكتابة من اليمين إلى اليسار للغات التي تتطلب ذلك، على سبيل المثال. العربية، الفارسية، الباشتو، العبرية، البنجابية
 
-‏[هل تحتاج إلى دعم؟](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[ويكي](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
+‏هل تحتاج إلى دعم؟: https://github.com/NataljaNeumann/VokabelTrainer/issues
+ويكي: https://github.com/NataljaNeumann/VokabelTrainer/wiki
 ‏
-# עִברִית
-<a name="he"></a>
+
+
+
+
+עִברִית
+______________________________________________________________________________________________________________________
+
 ‏VokabelTrainer היא אפליקציה שנותנת לך אפשרות לאמן אוצר מילים, בין אם ללימודים, ללימודים או לעבודה.
 Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. גרמניה היא המדינה שבה אני גר. האפליקציה מציגה לך מקלדת על שולחן העבודה,
 שבה תוכל להשתמש לאחר התקנת חבילות שפה כדי לגשת לאותיות של שפות אחרות ולהקריא את אוצר המילים בקול רם אם ערכת שפה מתאימה זמינה.
@@ -730,11 +839,11 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 
 ‏האפליקציה תומכת בכיוון כתיבה מימין לשמאל עבור השפות הדורשות זאת, למשל. ערבית, פרסית, פשטו, עברית, פנג'אבית
 
-‏[האם אתה צריך תמיכה?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
-[ויקי](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
-  
-  
-  
-  
-[^1]: SyncFolders-Don't-Delete.txt
+‏האם אתה צריך תמיכה?: https://github.com/NataljaNeumann/VokabelTrainer/issues
+ויקי: https://github.com/NataljaNeumann/VokabelTrainer/wiki
+
+
+
+
+[1]: SyncFolders-Don't-Delete.txt
 

@@ -744,6 +744,12 @@
     <Content Include="NewLanguageFileHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Readme.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Readme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="VokabelTrainer.ico" />
     <Content Include="VokabelTrainerMainHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
