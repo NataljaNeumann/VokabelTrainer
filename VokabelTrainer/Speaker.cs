@@ -32,8 +32,9 @@ namespace VokabelTrainer
                 ("Ru".Equals(language, StringComparison.InvariantCultureIgnoreCase) ||
                 "Ру".Equals(language, StringComparison.CurrentCultureIgnoreCase)))
             {
-                text = (text+" ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ").Replace("!", " ").Replace("  ", " ").Replace("  ", " ").
-                    Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
+                text = (text + " ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ")
+                    .Replace("،", ",").Replace("、", ",").Replace("，", ",").Replace("!", " ").Replace("  ", " ").Replace("  ", " ")
+                    .Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
                     .Replace("шего ", "шева ").Replace("чего ", "чева ").Replace("рого ", "рова ").Replace("чого ", "чово ").Replace("его ", "ево ")
                     .Replace("чу ", "чю ").Replace("щу ", "щю ").Replace("бъё", "бё").Replace("ое ", "оэ ").Replace("ного ", "нова ").Trim();
                 StringBuilder b = new StringBuilder();
@@ -363,6 +364,7 @@ namespace VokabelTrainer
                     "Hi".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     "Ин".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     "द्".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
+                    "हि".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     "भा".Equals(language, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
                     // japanese
                     "Ja".Equals(language, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ja-JP'" :
