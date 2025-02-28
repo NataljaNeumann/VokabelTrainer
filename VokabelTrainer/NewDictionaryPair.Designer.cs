@@ -120,6 +120,7 @@ namespace VokabelTrainer
             this.Name = "NewDictionaryPair";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Shown += new System.EventHandler(this.NewDictionaryPair_Shown);
+            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.OnHelpRequested);
             this.ResumeLayout(false);
             this.PerformLayout();
 
