@@ -1,4 +1,4 @@
-﻿// VokabelTrainer v1.3
+﻿// VokabelTrainer v1.4
 // Copyright (C) 2019-2025 NataljaNeumann@gmx.de
 //
 // This program is free software; you can redistribute it and/or
@@ -50,6 +50,6 @@ using System.Resources;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.3.1.0")]
-[assembly: AssemblyFileVersion("1.3.1.0")]
+[assembly: AssemblyVersion("1.4.0.0")]
+[assembly: AssemblyFileVersion("1.4.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("")]
