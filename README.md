@@ -678,19 +678,19 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 ‏في حالة وجود حزمة لغة مثبتة في نظام التشغيل، يمكن للتطبيق قراءة المفردات والتحدث بها،
 بحيث يمكنك أيضًا سماع نطق الكلمات. عند إنشاء كتاب مفردات جديد، يرجى تسمية اللغات بطريقة معينة،
 حتى يتمكن التطبيق من التعرف عليها ويمكنه قراءة الكلمات. يرجى الاطلاع أدناه على قائمة اللغات والمتغيرات المدعومة لتسميتها في التطبيق.
-- إنجليزي: English, Englisch, Inglés, Inglês, Inglese, Английский
-- فرنسي: Français, Französisch, Francés, Francês, Francese, Французский
-- البرتغالية: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
-- الأسبانية: Español, Spanish, Spanisch, Espanhol, Spagnolo, Испанский
-- اللغة الإيطالية: Italiano, Italian, Italienisch, Итальяанский
-- اللغة الألمانية: Deutsch, Allemand, Alemão, Alemão, Немецкий
-- : Ελληνικά, Greek, Griechisch, Grego, Greco, Griego, Греческий
-- التركية: Türkçe, Turkish, Türkisch, Turco, Турецкий
-- العبرية: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
-- عربي: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
-- اللغة اليابانية: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
-- اللغة الكورية: 한국인, Korean, Koreanisch, Корейский
-- اللغة الصينية: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
+- إنجليزي: Englisch ،Английский ،English
+- فرنسي: Francese ،Французский ،Français
+- البرتغالية: Portoghese ،Португальский ،Português
+- الأسبانية: Spanish ،Испанский ،Espanhol ،Español
+- اللغة الإيطالية: Italian ،Итальяанский ،Italiano
+- اللغة الألمانية: Немецкий ،Deutsch
+- : Greek ،Греческий ،Ελληνικά
+- التركية: Turkish ،Турецкий ،Türkçe
+- العبرية: עִברִית ،עברית ،Hebrew ،Иврит
+- العربية: العربية ،Arabic ،Arabisch ،Arabo ،Арабский
+- اللغة اليابانية: Japanese ،Японский ،日本語
+- اللغة الكورية: Korean ،Корейский ،한국인
+- اللغة الصينية: Chinese ،Китайский ،中文
 
 ‏بالنسبة لجميع اللغات، حتى تلك غير الموجودة في القائمة، يفضل تسميتها باسمها الأصلي. حتى لو كانت اللغة غير مدعومة في الوقت الحالي، فمن الممكن أن تصبح مدعومة في المستقبل.
 
@@ -712,19 +712,19 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 ‏במקרה שיש חבילת שפה מותקנת במערכת ההפעלה, האפליקציה יכולה לקרוא ולדבר את אוצר המילים,
 כך שתוכל גם לשמוע את הגיית המילים. בעת יצירת ספר אוצר מילים חדש נא לתת שם לשפות בצורה מסוימת,
 כדי שהאפליקציה תוכל לזהות אותן ולקרוא את המילים. מצא להלן את רשימת השפות והגרסאות הנתמכות של השמות שלהן באפליקציה.
-- אַנגְלִית: English, Englisch, Inglés, Inglês, Inglese, Английский
-- צָרְפָתִית: Français, Französisch, Francés, Francês, Francese, Французский
-- פורטוגזית: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
-- סְפָרַדִית: Español, Spanish, Spanisch, Espanhol, Spagnolo, Испанский
-- שפה איטלקית: Italiano, Italian, Italienisch, Итальяанский
-- שפה גרמנית: Deutsch, Allemand, Alemão, Alemão, Немецкий
-- יוונית: Ελληνικά, Greek, Griechisch, Grego, Greco, Griego, Греческий
-- טוּרקִית: Türkçe, Turkish, Türkisch, Turco, Турецкий
-- עִברִית: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
-- עֲרָבִית: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
-- שפה יפנית: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
-- שפה קוריאנית: 한국인, Korean, Koreanisch, Корейский
-- שפה סינית: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
+- אַנגְלִית: Englisch ,Английский ,English
+- צָרְפָתִית: Francés ,Французский ,Français
+- פורטוגזית: Portoghese ,Португальский ,Português
+- סְפָרַדִית: Spanish ,Испанский ,Español
+- שפה איטלקית: Italian ,Итальяанский ,Italiano
+- שפה גרמנית: Немецкий ,Deutsch
+- יוונית: Greek ,Греческий ,Ελληνικά
+- טוּרקִית: Turkish ,Турецкий ,Türkçe
+- עִברִית: עִברִית, עברית, Hebrew ,Иврит
+- עֲרָבִית: العربية, Arabic ,Арабский
+- שפה יפנית: Japanese ,Японский ,日本語
+- שפה קוריאנית: Korean ,Корейский ,한국인
+- שפה סינית: Chinese ,Китайский ,中文
 
 ‏עבור כל השפות, גם אלו שאינן ברשימה, העדיפו לתת להן שמות בשמם המקומי. גם אם שפה לא נתמכת כרגע היא יכולה להיות נתמכת בעתיד.
 
