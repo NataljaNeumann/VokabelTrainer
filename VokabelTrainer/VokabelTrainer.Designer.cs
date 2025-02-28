@@ -315,6 +315,7 @@ namespace VokabelTrainer
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Load += new System.EventHandler(this.VokabelTrainer_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
+            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.OnHelpRequested);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

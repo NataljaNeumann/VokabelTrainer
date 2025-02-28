@@ -169,6 +169,19 @@ namespace VokabelTrainer
             m_bAlreadySaid = false;
         }
 
+        //===================================================================================================
+        /// <summary>
+        /// This is execute when user presses F1 key
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Even args</param>
+        //===================================================================================================
+        private void OnHelpRequested(object oSender, HelpEventArgs oEventArgs)
+        {
+            System.Diagnostics.Process.Start(System.IO.Path.Combine(Application.StartupPath, "Readme.html"));
+        }
+
+
         #region image injection part
         //===================================================================================================
         /// <summary>
@@ -272,7 +285,8 @@ namespace VokabelTrainer
         /// <summary>
         /// Shifts elements, apart from the image box up or down
         /// </summary>
-        /// <param name="nHeightChange"></param>
+        /// <param name="nHeightChange">The change in height, compared to previous</param>
+        //===================================================================================================
         private void ShiftOtherElementsUpOrDown(int nHeightChange)
         {
             foreach (Control ctl in m_oOriginalPositions.Keys)
@@ -282,5 +296,6 @@ namespace VokabelTrainer
             }
         }
         #endregion
+
     }
 }

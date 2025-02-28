@@ -148,6 +148,7 @@ namespace VokabelTrainer
             this.MinimizeBox = false;
             this.Name = "NewLanguageFile";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.OnHelpRequested);
             this.ResumeLayout(false);
             this.PerformLayout();
 

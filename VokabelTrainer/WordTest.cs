@@ -105,6 +105,19 @@ namespace VokabelTrainer
 
         }
 
+        //===================================================================================================
+        /// <summary>
+        /// This is execute when user presses F1 key
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Even args</param>
+        //===================================================================================================
+        private void OnHelpRequested(object oSender, HelpEventArgs oEventArgs)
+        {
+            System.Diagnostics.Process.Start(System.IO.Path.Combine(Application.StartupPath, "Readme.html"));
+        }
+
+
         #region image injection part
         //===================================================================================================
         /// <summary>
@@ -218,5 +231,6 @@ namespace VokabelTrainer
             }
         }
         #endregion
+
     }
 }
