@@ -50,7 +50,7 @@ namespace VokabelTrainer
             this.m_lblFirstLanguage = new System.Windows.Forms.Label();
             this.m_tbxFirstLanguage = new System.Windows.Forms.TextBox();
             this.m_lblSecondLanguage = new System.Windows.Forms.Label();
-            this.textBoxSecondLanguage = new System.Windows.Forms.TextBox();
+            this.m_tbxSecondLanguage = new System.Windows.Forms.TextBox();
             this.m_btnEnterNext = new System.Windows.Forms.Button();
             this.m_btnEnteredLast = new System.Windows.Forms.Button();
             this.m_btnCancelEntering = new System.Windows.Forms.Button();
@@ -66,18 +66,20 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_tbxFirstLanguage, "m_tbxFirstLanguage");
             this.m_tbxFirstLanguage.Name = "m_tbxFirstLanguage";
             this.m_tbxFirstLanguage.Leave += new System.EventHandler(this.textBoxFirstLanguage_Leave);
+            this.m_tbxFirstLanguage.Enter += new System.EventHandler(this.OnTextBoxEntered);
             // 
             // m_lblSecondLanguage
             // 
             resources.ApplyResources(this.m_lblSecondLanguage, "m_lblSecondLanguage");
             this.m_lblSecondLanguage.Name = "m_lblSecondLanguage";
             // 
-            // textBoxSecondLanguage
+            // m_tbxSecondLanguage
             // 
-            resources.ApplyResources(this.textBoxSecondLanguage, "textBoxSecondLanguage");
-            this.textBoxSecondLanguage.Name = "textBoxSecondLanguage";
-            this.textBoxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
-            this.textBoxSecondLanguage.Leave += new System.EventHandler(this.textBoxSecondLanguage_Leave);
+            resources.ApplyResources(this.m_tbxSecondLanguage, "m_tbxSecondLanguage");
+            this.m_tbxSecondLanguage.Name = "m_tbxSecondLanguage";
+            this.m_tbxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
+            this.m_tbxSecondLanguage.Leave += new System.EventHandler(this.textBoxSecondLanguage_Leave);
+            this.m_tbxSecondLanguage.Enter += new System.EventHandler(this.OnTextBoxEntered);
             // 
             // m_btnEnterNext
             // 
@@ -110,7 +112,7 @@ namespace VokabelTrainer
             this.Controls.Add(this.m_btnCancelEntering);
             this.Controls.Add(this.m_btnEnteredLast);
             this.Controls.Add(this.m_btnEnterNext);
-            this.Controls.Add(this.textBoxSecondLanguage);
+            this.Controls.Add(this.m_tbxSecondLanguage);
             this.Controls.Add(this.m_lblSecondLanguage);
             this.Controls.Add(this.m_tbxFirstLanguage);
             this.Controls.Add(this.m_lblFirstLanguage);
@@ -131,7 +133,7 @@ namespace VokabelTrainer
         public System.Windows.Forms.Label m_lblFirstLanguage;
         public System.Windows.Forms.TextBox m_tbxFirstLanguage;
         public System.Windows.Forms.Label m_lblSecondLanguage;
-        public System.Windows.Forms.TextBox textBoxSecondLanguage;
+        public System.Windows.Forms.TextBox m_tbxSecondLanguage;
         private System.Windows.Forms.Button m_btnEnterNext;
         private System.Windows.Forms.Button m_btnEnteredLast;
         private System.Windows.Forms.Button m_btnCancelEntering;

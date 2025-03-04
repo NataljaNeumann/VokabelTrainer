@@ -23,7 +23,7 @@ namespace VokabelTrainer
 {
     class Speaker
     {
-        public static void Say(string strLanguage, string text, bool bAsync, bool bUseESpeak, string strESpeakPath)
+        public static void Say(string strLanguage, string strText, bool bAsync, bool bUseESpeak, string strESpeakPath)
         {
             string strLanguageFirstTwo = strLanguage.Length>=2?strLanguage.Substring(0, 2):strLanguage;
             string strLanguageFirstThree = strLanguage.Length>=3?strLanguage.Substring(0, 3):strLanguage;
@@ -33,7 +33,7 @@ namespace VokabelTrainer
                 ("Rus".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ||
                 "Рус".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase)))
             {
-                text = (text + " ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ")
+                strText = (strText + " ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ")
                     .Replace("،", ",").Replace("、", ",").Replace("，", ",").Replace("!", " ").Replace("  ", " ").Replace("  ", " ")
                     .Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
                     .Replace("шего ", "шева ").Replace("чего ", "чева ").Replace("рого ", "рова ").Replace("чого ", "чово ").Replace("его ", "ево ")
@@ -41,7 +41,7 @@ namespace VokabelTrainer
                 StringBuilder b = new StringBuilder();
                 StringBuilder b2 = new StringBuilder();
                 b.Append("<phoneme alphabet=\"ups\" ph=\"");
-                foreach(char c in text)
+                foreach(char c in strText)
                 {
                     switch (c)
                     {
@@ -334,175 +334,15 @@ namespace VokabelTrainer
             }
             else
             {
-                string strCurrentCulture = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
                 // decide, if we support speaking this language
-                string strSSMLLanguageToSpeak =
-                    // english
-                    "En".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("en") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='en-US'") :
-                    "Ing".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='en-US'" :
-                    "Ан".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='en-US'" :
-                    // german
-                    "De".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("de") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='de-DE'") :
-                    "Ale".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
-                    "All".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
-                    "Ger".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='de-DE'" :
-                    "Не".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='de-DE'" :
-                    // spanish
-                    "Sp".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='es-ES'" :
-                    "Es".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("es") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='es-ES'") :
-                    "Ис".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='es-ES'" :
-                    // russian
-                    "Rus".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ru-RU'" :
-                    "Рус".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("ru") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ru-RU'") :
-                    "руc".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("ru") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ru-RU'") :
-                    // french
-                    "Fr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("fr") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='fr-FR'") :
-                    "Фр".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='fr-FR'" :
-                    // hindi
-                    "Hi".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='hi-IN'" :
-                    "Ин".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
-                    "द्".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
-                    "हि".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
-                    "भा".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='hi-IN'" :
-                    // japanese
-                    "Ja".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ja-JP'" :
-                    "Яп".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ja-JP'" :
-                    "日本".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ja-JP'" :
-                    // portugese
-                    "Por".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("pt") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='pt-PT'") :
-                    "Пор".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='pt-PT'" :
-                    // Italian
-                    "It".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("it") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='it-IT'") :
-                    "Ит".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='it-IT'" :
-                    // korean
-                    "Ko".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ko-KR'" :
-                    "Ко".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ko-KR'" :
-                    "한국".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ko-KR'" :
-                    // chinese
-                    "Chi".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='zh-CN'" :
-                    "Ки".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='zh-CN'" :
-                    "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
-                        (strCurrentCulture.StartsWith("zh") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='zh-CN'") :
-                    // arab
-                    "Ar".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xml:lang='ar-SA'" :
-                    "Ара".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xml:lang='ar-SA'" :
-                    "عر".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("ar") ? "xml:lang='" + strCurrentCulture + "'" : "xml:lang='ar-SA'") :
-                    // hebrew
-                    "He".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
-                    "עב".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
-                    "עִ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='he-IL'" :
-                    "Ив".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='he-IL'" :
-                    // greek
-                    "Gr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
-                    "Гре".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
-                    "ελ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
-                    "Ελ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='el-GR'" :
-                    // Afrikaans
-                    "Af".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='af-ZA'" :
-                    "Афр".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='af-ZA'" :
-                    // Bosnian bosanski
-                    "Bo".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='bs-BA'" :
-                    "Бo".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='bs-BA'" :
-                    // Català
-                    "Ca".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ca'" :
-                    // Czech čeština
-                    "Cz".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='cs-CZ'" :
-                    "Če".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='cs-CZ'" :
-                    "če".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='cs-CZ'" :
-                    "Чеш".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='cs-CZ'" :
-                    // Danish Dansk
-                    "Da".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='da-DK'" :
-                    // Finnish Suomi
-                    "Fi".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='fi-FI'" :
-                    "Su".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='fi-FI'" :
-                    "Фи".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='fi-FI'" :
-                    // Croatian hrvatski
-                    "Cr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hr-HR'" :
-                    "Hr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hr-HR'" :
-                    // Hungarian magyar
-                    "Hu".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hu-HU'" :
-                    "Un".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hu-HU'" :
-                    "Ве".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='hu-HU'" :
-                    "Mag".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hu-HU'" :
-                    // Kannada ಕನ್ನಡ
-                    "Ka".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='kn-IN'" :
-                    "ಕನ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='kn-IN'" :
-                    // Kurdish Kurdî
-                    "Ku".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ku-IQ'" :
-                    "Ку".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='ku-IQ'" :
-                    // Latvian Lettisch latviski
-                    "La".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='lv-LV'" :
-                    "Le".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='lv-LV'" :
-                    // Dutch Nederlands Niederländisch
-                    "Ne".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='nl-NL'" :
-                    "Ni".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='nl-NL'" :
-                    "Du".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='nl-NL'" :
-                    "Го".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='nl-NL'" :
-                    // Polish, Polski
-                    "Pol".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='pl-PL'" :
-                    "Пол".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='pl-PL'" :
-                    // Romanian, Rumänisch, română
-                    "Ro".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ro-RO'" :
-                    "Rum".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ro-RO'" :
-                    "Рум".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='ro-RO'" :
-                    // Slowak
-                    "Slovenský".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sk-SK'" :
-                    // Slovenian
-                    "Slovenski".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sl-SL'" :
-                    // Serbian српски
-                    "Se".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sr-RS'" :
-                    "Ср".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='sr-RS'" :
-                    "Се".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='sr-RS'" :
-                    // Swedish Svenska
-                    "Sw".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sv-SE'" :
-                    "Sv".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sv-SE'" :
-                    "Шв".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='sv-SE'" :
-                    // Tamil தமிழ்
-                    "Ta".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ta-LK'" :
-                    "தம".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ta-LK'" :
-                    // Armenian հայկ
-                    "Arm".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hy-AM'" :
-                    "Арм".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='hy-AM'" :
-                    "հա".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='hy-AM'" :
-                    "ՀԱ".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='hy-AM'" :
-                    "Հա".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='hy-AM'" :
-                    // Inonesian
-                    "Ind".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "xmk:lang='id-ID'" :
-                    // Icelandic íslenskur ÍSLENSKT
-                    "Isl".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='id-ID'" :
-                    "ÍS".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='id-ID'" :
-                    "ís".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='id-ID'" :
-                    // Georgian ქართული  ქართველი
-                    "Geo".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ka-GE'" :
-                    "ქა".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='ka-GE'" :
-                    // Macedonian македонски
-                    "Ma".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='mk-MK'" :
-                    "Ма".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='mk-MK'" :
-                    // Norwegian  norsk
-                    "No".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='no-NO'" :
-                    // Albanian shqiptare shqipe sq
-                    "Alb".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sq-AL'" :
-                    "Shq".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='sq-AL'" :
-                    // Vietnamese việt
-                    "Vi".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "xmk:lang='vi-VI'" :
-                    "";
-
+                string strSSMLLanguageToSpeak = "xml:lang='" + Program.LanguageCodeFromName( strLanguage ) + "'";
 
                 if (!string.IsNullOrEmpty(strSSMLLanguageToSpeak))
                 {
                     string strSsml = string.Format(@"<speak version='1.0' " +
                                                             "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
                                                             strSSMLLanguageToSpeak,
-                                                            text);
+                                                            strText);
                     bool bFallback = true;
                     try
                     {

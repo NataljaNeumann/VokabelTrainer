@@ -613,37 +613,54 @@ namespace VokabelTrainer
         {
             bool bRepeat = true;
             bool bSave = false;
+
+            string strFirstLanguageCode = null;
+            string strSecondLanguageCode = null;
+
             while (bRepeat)
             {
                 string strFirstText = "";
                 string strSecondText = "";
 
+
                 bool bRepeat2 = true;
                 while (bRepeat2)
                 {
                     bRepeat2 = false;
-                    using (NewDictionaryPair pair = new NewDictionaryPair(m_chkUseESpeak.Checked, m_tbxESpeakPath.Text))
+                    using (NewDictionaryPair pair =
+                        new NewDictionaryPair(
+                            m_chkUseESpeak.Checked,
+                            m_tbxESpeakPath.Text,
+                            m_strFirstLanguage,
+                            m_strSecondLanguage))
                     {
+                        if (strFirstLanguageCode != null)
+                            pair.FirstLanguageCode = strFirstLanguageCode;
+                        if (strSecondLanguageCode != null)
+                            pair.SecondLanguageCode = strSecondLanguageCode;
+
                         char[] separators = { ',', ';' };
-                        pair.m_lblFirstLanguage.Text = m_strFirstLanguage + ":";
-                        pair.m_lblSecondLanguage.Text = m_strSecondLanguage + ":";
+                        //pair.m_lblFirstLanguage.Text = m_strFirstLanguage + ":";
+                        //pair.m_lblSecondLanguage.Text = m_strSecondLanguage + ":";
                         pair.m_tbxFirstLanguage.Text = strFirstText;
-                        pair.textBoxSecondLanguage.Text = strSecondText;
+                        pair.m_tbxSecondLanguage.Text = strSecondText;
                         pair.m_lblFirstLanguage.RightToLeft = m_bFirstLanguageRtl?RightToLeft.Yes:RightToLeft.No;
                         pair.m_lblSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         pair.m_tbxFirstLanguage.RightToLeft = m_bFirstLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
-                        pair.textBoxSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
+                        pair.m_tbxSecondLanguage.RightToLeft = m_bSecondLanguageRtl ? RightToLeft.Yes : RightToLeft.No;
                         switch (pair.ShowDialog())
                         {
                             case DialogResult.Retry:
+                                strFirstLanguageCode = pair.FirstLanguageCode;
+                                strSecondLanguageCode = pair.SecondLanguageCode;
                                 if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
                                     strFirstText = "";
-                                    strSecondText = pair.textBoxSecondLanguage.Text.Trim();
+                                    strSecondText = pair.m_tbxSecondLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
-                                if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
+                                if (string.IsNullOrEmpty(pair.m_tbxSecondLanguage.Text.Trim()))
                                 {
                                     strSecondText = "";
                                     strFirstText = pair.m_tbxFirstLanguage.Text.Trim();
@@ -654,7 +671,7 @@ namespace VokabelTrainer
                                 string sss1 = pair.m_tbxFirstLanguage.Text
                                     .Replace("?", "?,").Replace("!", "!,").Replace("،", ",").Replace("、", ",").Replace("，", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
-                                string sss2 = pair.textBoxSecondLanguage.Text
+                                string sss2 = pair.m_tbxSecondLanguage.Text
                                     .Replace("?", "?,").Replace("!", "!,").Replace("،", ",").Replace("、", ",").Replace("，", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 
@@ -725,11 +742,11 @@ namespace VokabelTrainer
                                 if (string.IsNullOrEmpty(pair.m_tbxFirstLanguage.Text.Trim()))
                                 {
                                     strFirstText = "";
-                                    strSecondText = pair.textBoxSecondLanguage.Text.Trim();
+                                    strSecondText = pair.m_tbxSecondLanguage.Text.Trim();
                                     bRepeat2 = true;
                                     break;
                                 }
-                                if (string.IsNullOrEmpty(pair.textBoxSecondLanguage.Text.Trim()))
+                                if (string.IsNullOrEmpty(pair.m_tbxSecondLanguage.Text.Trim()))
                                 {
                                     strSecondText = "";
                                     strFirstText = pair.m_tbxFirstLanguage.Text.Trim();
@@ -740,7 +757,7 @@ namespace VokabelTrainer
                                 sss1 = pair.m_tbxFirstLanguage.Text
                                     .Replace("?", "?,").Replace("!", "!,").Replace("،", ",").Replace("、", ",").Replace("，", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
-                                sss2 = pair.textBoxSecondLanguage.Text
+                                sss2 = pair.m_tbxSecondLanguage.Text
                                     .Replace("?", "?,").Replace("!", "!,").Replace("،", ",").Replace("、", ",").Replace("，", ",")
                                     .Replace(";", ",").Replace(",,", ",").Replace(",,", ",");
 

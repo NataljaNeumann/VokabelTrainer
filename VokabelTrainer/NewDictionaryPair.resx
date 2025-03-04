@@ -216,34 +216,34 @@
   <data name="&gt;&gt;m_lblSecondLanguage.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="textBoxSecondLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="m_tbxSecondLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="textBoxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_tbxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="textBoxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 124</value>
   </data>
-  <data name="textBoxSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="m_tbxSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="textBoxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>560, 38</value>
   </data>
-  <data name="textBoxSecondLanguage.TabIndex" type="System.Int32, mscorlib">
+  <data name="m_tbxSecondLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBoxSecondLanguage.Name" xml:space="preserve">
-    <value>textBoxSecondLanguage</value>
+  <data name="&gt;&gt;m_tbxSecondLanguage.Name" xml:space="preserve">
+    <value>m_tbxSecondLanguage</value>
   </data>
-  <data name="&gt;&gt;textBoxSecondLanguage.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_tbxSecondLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBoxSecondLanguage.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_tbxSecondLanguage.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBoxSecondLanguage.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;m_tbxSecondLanguage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="m_btnEnterNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
