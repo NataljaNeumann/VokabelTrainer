@@ -118,52 +118,143 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 23</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_lblFirstLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
   <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>105, 33</value>
   </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>第一语言：</value>
+    <value>སྐད་ཡིག་དང་པོ།</value>
+  </data>
+  <data name="m_tbxFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 26.25pt</value>
+  </data>
+  <data name="m_tbxFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 68</value>
+  </data>
+  <data name="m_tbxFirstLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="m_tbxFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>839, 47</value>
+  </data>
+  <data name="m_tbxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 26.25pt</value>
+  </data>
+  <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 196</value>
+  </data>
+  <data name="m_tbxSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>839, 47</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>中文文本</value>
+    <value>འཇར་མན།</value>
+  </data>
+  <data name="m_lblSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 146</value>
+  </data>
+  <data name="m_lblSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>115, 33</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>第二语言：</value>
+    <value>སྐད་ཡིག་གཉིས་པ།</value>
+  </data>
+  <data name="m_btnCreateLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 365</value>
+  </data>
+  <data name="m_btnCreateLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="m_btnCreateLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 58</value>
   </data>
   <data name="m_btnCreateLanguageFile.Text" xml:space="preserve">
-    <value>创造</value>
+    <value>གསར་བསྐྲུན</value>
+  </data>
+  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 365</value>
+  </data>
+  <data name="m_btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 58</value>
   </data>
   <data name="m_btnCancel.Text" xml:space="preserve">
-    <value>取消</value>
+    <value>འདོར་བ</value>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 280</value>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
+    <value>452, 37</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
-    <value>语言文件旨在根据 GPL2 许可证分发</value>
+    <value>སྐད་ཡིག་ཡིག་ཆ་དེ་GPL2ཆོག་མཆན་འོག་བཀྲམ་རྒྱུའི་དམིགས་ཡུལ་ཡོད།</value>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 334</value>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 20</value>
+    <value>270, 37</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
-    <value>语言文件可修改</value>
+    <value>སྐད་ཡིག་ཡིག་ཚགས་བཟོ་བཅོས་བྱེད་ཆོག་པ།</value>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
+    <value>235, 37</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>书写方向从右向左</value>
+    <value>གཡས་ནས་གཡོན་དུ་ཁ་ཕྱོགས་འབྲི་བ།</value>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 146</value>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
+    <value>235, 37</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>书写方向从右向左</value>
+    <value>གཡས་ནས་གཡོན་དུ་ཁ་ཕྱོགས་འབྲི་བ།</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 33</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>908, 454</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 15.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>新语言文件</value>
+    <value>སྐད་ཡིག་གསར་པའི་ཡིག་ཆ།</value>
   </data>
 </root>

@@ -117,53 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
-  </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>第一语言：</value>
+    <value>Першая мова:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>中文文本</value>
-  </data>
-  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>нямецкі</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>第二语言：</value>
+    <value>Другая мова:</value>
   </data>
   <data name="m_btnCreateLanguageFile.Text" xml:space="preserve">
-    <value>创造</value>
+    <value>Ствараць</value>
   </data>
   <data name="m_btnCancel.Text" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
+    <value>Адмяніць</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
-    <value>语言文件旨在根据 GPL2 许可证分发</value>
-  </data>
-  <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 20</value>
+    <value>Моўны файл прызначаны для распаўсюджвання па ліцэнзіі GPL2</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
-    <value>语言文件可修改</value>
-  </data>
-  <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
+    <value>Моўны файл мадыфікаваны</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>书写方向从右向左</value>
-  </data>
-  <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
+    <value>Кірунак пісьма справа налева</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>书写方向从右向左</value>
+    <value>Кірунак пісьма справа налева</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>新语言文件</value>
+    <value>Новы моўны файл</value>
   </data>
 </root>

@@ -127,17 +127,23 @@
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>제일외국어:</value>
   </data>
+  <data name="m_tbxFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
   <data name="m_tbxFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 41</value>
   </data>
   <data name="m_tbxFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>541, 26</value>
+    <value>541, 38</value>
+  </data>
+  <data name="m_tbxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 119</value>
   </data>
   <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>541, 26</value>
+    <value>541, 38</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
     <value>한국인</value>

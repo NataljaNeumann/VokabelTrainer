@@ -135,7 +135,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_tbxFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>541, 26</value>
+    <value>541, 31</value>
   </data>
   <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 119</value>
@@ -144,7 +144,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>541, 26</value>
+    <value>541, 31</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
     <value>日本語</value>
