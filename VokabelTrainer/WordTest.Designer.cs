@@ -57,37 +57,53 @@ namespace VokabelTrainer
             // 
             // m_lblShownText
             // 
+            this.m_lblShownText.AccessibleDescription = null;
+            this.m_lblShownText.AccessibleName = null;
             resources.ApplyResources(this.m_lblShownText, "m_lblShownText");
             this.m_lblShownText.Name = "m_lblShownText";
             // 
             // m_lblAskedTranslation
             // 
+            this.m_lblAskedTranslation.AccessibleDescription = null;
+            this.m_lblAskedTranslation.AccessibleName = null;
             resources.ApplyResources(this.m_lblAskedTranslation, "m_lblAskedTranslation");
             this.m_lblAskedTranslation.Name = "m_lblAskedTranslation";
             // 
             // m_tbxAskedTranslation
             // 
+            this.m_tbxAskedTranslation.AccessibleDescription = null;
+            this.m_tbxAskedTranslation.AccessibleName = null;
             resources.ApplyResources(this.m_tbxAskedTranslation, "m_tbxAskedTranslation");
+            this.m_tbxAskedTranslation.BackgroundImage = null;
             this.m_tbxAskedTranslation.Name = "m_tbxAskedTranslation";
             this.m_tbxAskedTranslation.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // m_btnNext
             // 
+            this.m_btnNext.AccessibleDescription = null;
+            this.m_btnNext.AccessibleName = null;
             resources.ApplyResources(this.m_btnNext, "m_btnNext");
+            this.m_btnNext.BackgroundImage = null;
             this.m_btnNext.Name = "m_btnNext";
             this.m_btnNext.UseVisualStyleBackColor = true;
             this.m_btnNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // m_btnLast
             // 
+            this.m_btnLast.AccessibleDescription = null;
+            this.m_btnLast.AccessibleName = null;
             resources.ApplyResources(this.m_btnLast, "m_btnLast");
+            this.m_btnLast.BackgroundImage = null;
             this.m_btnLast.Name = "m_btnLast";
             this.m_btnLast.UseVisualStyleBackColor = true;
             this.m_btnLast.Click += new System.EventHandler(this.buttonLast_Click);
             // 
             // m_btnCancel
             // 
+            this.m_btnCancel.AccessibleDescription = null;
+            this.m_btnCancel.AccessibleName = null;
             resources.ApplyResources(this.m_btnCancel, "m_btnCancel");
+            this.m_btnCancel.BackgroundImage = null;
             this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.m_btnCancel.Name = "m_btnCancel";
             this.m_btnCancel.UseVisualStyleBackColor = true;
@@ -96,8 +112,11 @@ namespace VokabelTrainer
             // WordTest
             // 
             this.AcceptButton = this.m_btnNext;
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = null;
             this.CancelButton = this.m_btnCancel;
             this.Controls.Add(this.m_btnCancel);
             this.Controls.Add(this.m_btnLast);
