@@ -53,13 +53,20 @@ namespace VokabelTrainer
             // 
             // m_lblMessageText
             // 
+            this.m_lblMessageText.AccessibleDescription = null;
+            this.m_lblMessageText.AccessibleName = null;
             resources.ApplyResources(this.m_lblMessageText, "m_lblMessageText");
+            this.m_lblMessageText.Font = null;
             this.m_lblMessageText.Name = "m_lblMessageText";
             this.m_lblMessageText.SizeChanged += new System.EventHandler(this.label1_SizeChanged);
             // 
             // m_btnOK
             // 
+            this.m_btnOK.AccessibleDescription = null;
+            this.m_btnOK.AccessibleName = null;
             resources.ApplyResources(this.m_btnOK, "m_btnOK");
+            this.m_btnOK.BackgroundImage = null;
+            this.m_btnOK.Font = null;
             this.m_btnOK.Name = "m_btnOK";
             this.m_btnOK.UseVisualStyleBackColor = true;
             this.m_btnOK.Click += new System.EventHandler(this.m_btnOk_Click);
@@ -67,8 +74,11 @@ namespace VokabelTrainer
             // NewMessageBox
             // 
             this.AcceptButton = this.m_btnOK;
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = null;
             this.Controls.Add(this.m_btnOK);
             this.Controls.Add(this.m_lblMessageText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
