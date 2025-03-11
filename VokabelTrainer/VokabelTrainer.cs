@@ -2661,6 +2661,7 @@ namespace VokabelTrainer
         /// Shifts elements, apart from the image box up or down
         /// </summary>
         /// <param name="nHeightChange"></param>
+        //===================================================================================================
         private void ShiftOtherElementsUpOrDown(int nHeightChange)
         {
             foreach (Control ctl in m_oOriginalPositions.Keys)

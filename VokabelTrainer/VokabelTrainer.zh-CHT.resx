@@ -189,7 +189,7 @@
     <value>新語言檔案</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>詞彙檔|*.Vocabulary.xml;*.Vocabulary.xml</value>
+    <value>詞彙檔|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>

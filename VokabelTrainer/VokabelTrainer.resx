@@ -131,9 +131,6 @@
   <data name="&gt;&gt;m_btnNewLanguageFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 23</value>
-  </data>
   <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
@@ -300,9 +297,6 @@
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -323,6 +317,9 @@
   </data>
   <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 61</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="&gt;&gt;m_lblShowLicense.Parent" xml:space="preserve">
     <value>$this</value>
@@ -354,14 +351,14 @@
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licence (GPL v2)</value>
   </data>
-  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="m_lblShowAbout.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -407,6 +404,9 @@
   </data>
   <data name="&gt;&gt;bindingSource1.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
+    <value>New language file </value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Download eSpeak</value>
@@ -515,8 +515,8 @@
   <data name="m_btnMostIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 61</value>
   </data>
-  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -547,9 +547,6 @@
   </data>
   <data name="&gt;&gt;m_lblDontLearnAquire.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnNewLanguageFile.Name" xml:space="preserve">
-    <value>m_btnNewLanguageFile</value>
   </data>
   <data name="&gt;&gt;m_btnExerciseFirstToSecond.Name" xml:space="preserve">
     <value>m_btnExerciseFirstToSecond</value>
@@ -683,11 +680,8 @@
   <data name="&gt;&gt;m_btnShowDesktopKeyboard.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
-    <value>New language file </value>
-  </data>
-  <data name="m_btnExerciseFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 61</value>
+  <data name="&gt;&gt;m_btnNewLanguageFile.Name" xml:space="preserve">
+    <value>m_btnNewLanguageFile</value>
   </data>
   <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 16</value>
@@ -703,6 +697,9 @@
   </data>
   <data name="m_lblDontLearnAquire.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Desktop keyboard (osk.exe)</value>
   </data>
   <data name="&gt;&gt;m_cbxReader.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -727,9 +724,6 @@
   </data>
   <data name="&gt;&gt;m_dlgOpenFileDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnEnterVocabulary.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.Parent" xml:space="preserve">
     <value>$this</value>
@@ -761,8 +755,8 @@
   <data name="m_btnIntensiveFirstToSecond.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>Desktop keyboard (osk.exe)</value>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -791,14 +785,17 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>634, 304</value>
   </data>
-  <data name="m_btnMostIntensiveFirstToSecond.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;m_btnEnterVocabulary.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;m_chkUseESpeak.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 23</value>
   </data>
   <data name="m_btnSearchESpeak.Text" xml:space="preserve">
     <value>...</value>
@@ -806,14 +803,17 @@
   <data name="m_btnNewLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 61</value>
   </data>
+  <data name="m_tbxESpeakPath.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
   <data name="&gt;&gt;m_lblShowLicense.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="&gt;&gt;m_lblDontLearnAquire.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="m_tbxESpeakPath.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="m_btnExerciseFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 61</value>
   </data>
   <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -836,13 +836,13 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>Hindi</value>
-  </metadata>
   <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>186, 17</value>
   </metadata>
   <metadata name="m_dlgOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Hindi</value>
   </metadata>
 </root>

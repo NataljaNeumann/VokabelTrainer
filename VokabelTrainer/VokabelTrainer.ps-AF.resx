@@ -119,277 +119,314 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnLoadLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 122</value>
+    <value>16, 97</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_btnLoadLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnLoadLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 94</value>
+    <value>197, 75</value>
   </data>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
-    <value>भाषा फ़ाइल लोड करें</value>
+    <value>د ژبې فایل پورته کړئ</value>
   </data>
   <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnEnterVocabulary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 225</value>
+    <value>16, 180</value>
   </data>
   <data name="m_btnEnterVocabulary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 94</value>
+    <value>197, 75</value>
   </data>
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
-    <value>शब्दावली दर्ज करें</value>
+    <value>لغتونه دننه کړئ</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 18</value>
+    <value>248, 15</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
-    <value>609, 18</value>
+    <value>541, 15</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnExerciseFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnNewLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 18</value>
+    <value>16, 15</value>
   </data>
   <data name="m_btnNewLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnNewLanguageFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 94</value>
+    <value>197, 75</value>
   </data>
   <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
-    <value>नई भाषा फ़ाइल</value>
+    <value>د نوې ژبې فایل</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>शब्दावली फ़ाइलें|*.Vocabulary.xml;*.Vokabeln.xml</value>
+    <value>د لغتونو فایلونه|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 122</value>
+    <value>248, 97</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
-    <value>609, 122</value>
+    <value>541, 97</value>
   </data>
   <data name="m_btnIntensiveFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 225</value>
+    <value>248, 180</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Location" type="System.Drawing.Point, System.Drawing">
-    <value>609, 225</value>
+    <value>541, 180</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnMostIntensiveFirstToSecond.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 94</value>
+    <value>284, 75</value>
   </data>
   <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 378</value>
+    <value>244, 303</value>
   </data>
   <data name="m_lblShowLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 29</value>
+    <value>102, 20</value>
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
-    <value>लाइसेंस (GPL v2)</value>
+    <value>جواز (GPL v2)</value>
   </data>
   <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>635, 378</value>
+    <value>644, 264</value>
   </data>
   <data name="m_lblShowAbout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 29</value>
+    <value>181, 20</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
-    <value>शब्दावली प्रशिक्षकों के बारे में जानकारी</value>
+    <value>د لغتونو روزونکو په اړه معلومات</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 328</value>
+    <value>16, 262</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 75</value>
+    <value>197, 60</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>ऑन-स्क्रीन कीबोर्ड (osk.exe)</value>
+    <value>پر پرده کیبورډ (osk.exe)</value>
   </data>
   <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 332</value>
+    <value>244, 266</value>
   </data>
   <data name="m_lblReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 29</value>
+    <value>99, 20</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
-    <value>ज़ोर से पढ़ें:</value>
+    <value>په لوړ غږ ولولئ:</value>
   </data>
   <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="m_cbxReader.Items" xml:space="preserve">
-    <value>भाषा प्रदर्शित की गई</value>
-  </data>
-  <data name="m_cbxReader.Items1" xml:space="preserve">
-    <value>परीक्षण की गई भाषा</value>
-  </data>
-  <data name="m_cbxReader.Items2" xml:space="preserve">
-    <value>प्रथम भाषा</value>
-  </data>
-  <data name="m_cbxReader.Items3" xml:space="preserve">
-    <value>द्वितीय भाषा</value>
-  </data>
-  <data name="m_cbxReader.Items4" xml:space="preserve">
-    <value>केवल त्रुटियों के मामले में</value>
-  </data>
-  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 329</value>
-  </data>
-  <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 33</value>
-  </data>
-  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 433</value>
-  </data>
-  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 29</value>
-  </data>
-  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
-    <value>eSpeak डाउनलोड करें</value>
-  </data>
-  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 432</value>
-  </data>
-  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 33</value>
-  </data>
-  <data name="m_chkUseESpeak.Text" xml:space="preserve">
-    <value>eSpeak का प्रयोग करें</value>
-  </data>
-  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>529, 437</value>
-  </data>
-  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 26</value>
-  </data>
-  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>885, 431</value>
-  </data>
-  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 33</value>
-  </data>
-  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 332</value>
-  </data>
-  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 29</value>
-  </data>
-  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
-    <value>बिना सीखे (यादृच्छिक)</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 429</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>951, 478</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="m_cbxReader.Items" xml:space="preserve">
+    <value>ژبه ښودل شوې</value>
+  </data>
+  <data name="m_cbxReader.Items1" xml:space="preserve">
+    <value>ازموینه شوې ژبه</value>
+  </data>
+  <data name="m_cbxReader.Items2" xml:space="preserve">
+    <value>لومړۍ ژبه</value>
+  </data>
+  <data name="m_cbxReader.Items3" xml:space="preserve">
+    <value>دویمه ژبه</value>
+  </data>
+  <data name="m_cbxReader.Items4" xml:space="preserve">
+    <value>یوازې د غلطیو په صورت کې</value>
+  </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 261</value>
+  </data>
+  <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 28</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 340</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
+    <value>eSpeak ډاونلوډ کړئ</value>
+  </data>
+  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 339</value>
+  </data>
+  <data name="m_chkUseESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="m_chkUseESpeak.Text" xml:space="preserve">
+    <value>eSpeak وکاروئ</value>
+  </data>
+  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 337</value>
+  </data>
+  <data name="m_tbxESpeakPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 26</value>
+  </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 334</value>
+  </data>
+  <data name="m_btnSearchESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 28</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 303</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
+    <value>پرته له زده کړې (تصادفي)</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 324</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 42</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>845, 374</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>शब्दावली प्रशिक्षक</value>
+    <value>د لغتونو روزونکی</value>
   </data>
 </root>
