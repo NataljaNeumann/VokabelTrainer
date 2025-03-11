@@ -2151,22 +2151,37 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// This is executed when the form is loaded. It tests presence of eSpeak
+        /// This is executed when the form is loaded. It tests, if some links can be provided for user
         /// </summary>
-        /// <param name="oSender">Sender object</param>
-        /// <param name="oArgs">Event args</param>
         //===================================================================================================
         private List<string> GetEasyLanguageAquireList()
         {
+            List<string> oResult = GetEasyLanguageAquireList(m_strFirstLanguage);
+            oResult.AddRange(GetEasyLanguageAquireList(m_strSecondLanguage));
+            return oResult;
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when the form is loaded. It tests, if some links can be provided for user
+        /// </summary>
+        /// <param name="strLanguage">Language to check</param>
+        //===================================================================================================
+        private List<string> GetEasyLanguageAquireList(string strLanguage)
+        {
+
             List<string> oResult = new List<string>();
-            string strLanguageCodeFirstLanguage = m_strFirstLanguage.Substring(0,2);
+            string strLanguageFirst2 = strLanguage.Length > 2 ? strLanguage.Substring(0, 2) : strLanguage;
+            string strLanguageFirst3 = strLanguage.Length > 3 ? strLanguage.Substring(0, 3) : strLanguage;
             // if current culture isn't german
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
             {
                 // and one of the trained languages is german
-                if (strLanguageCodeFirstLanguage.Equals("De", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Не", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Al", StringComparison.InvariantCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("De", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Не", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("All", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Ale", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Ger", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
                     // then add german resources for language aquisition without explicit learning
@@ -2175,15 +2190,15 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=ganzer+film+deutsch");
                     oResult.Add(@"https://www.kraehseite.de/");
                     oResult.Add(@"https://www.welt.de/satire/");
-                    oResult.Add(@"https://www.radio.de/");
+                    oResult.Add(@"https://www.radio.de/country/germany");
                     oResult.Add(@"https://de.wikipedia.org/wiki/Spezial:Zuf%C3%A4llige_Seite");
                     oResult.Add(@"https://www.schlagerradio.de/");
                     oResult.Add(@"https://www.dw.com/de");
-                    oResult.Add(@"https://www.prosieben.de/");
                     oResult.Add(@"https://www.rtl.de/unterhaltung/");
                     oResult.Add(@"https://www.tagesschau.de/multimedia");
                     oResult.Add(@"https://de.euronews.com/");
                     oResult.Add(@"https://www.der-postillon.com/");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubDE");
                 }
             }
 
@@ -2191,8 +2206,8 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr"))
             {
                 // and one of the trained languages is french
-                if (strLanguageCodeFirstLanguage.Equals("Fr", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Фр", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Fr", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Фр", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add french resources for language aquisition without explicit learning
@@ -2203,6 +2218,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal");
                     oResult.Add(@"https://www.france24.com/fr/");
                     oResult.Add(@"https://fr.euronews.com/");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubFR");
 
                     // for german speakers: Witch huckla / French
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
@@ -2218,9 +2234,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("es"))
             {
                 // and one of the trained languages is spanish
-                if (strLanguageCodeFirstLanguage.Equals("Es", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ис", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Sp", StringComparison.InvariantCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Es", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ис", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Sp", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
                     // then add spanish resources for language aquisition without explicit learning
@@ -2230,6 +2246,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://elpais.com/noticias/espana/");
                     oResult.Add(@"https://www.bbc.com/mundo");
                     oResult.Add(@"https://www.dw.com/es");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubES");
                 }
             }
 
@@ -2237,9 +2254,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en"))
             {
                 // and one of the trained languages is english
-                if (strLanguageCodeFirstLanguage.Equals("En", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ан", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("In", StringComparison.InvariantCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("En", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ан", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("In", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
                     // then add english resources for language aquisition without explicit learning
@@ -2253,6 +2270,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.abc.net.au");
                     oResult.Add(@"https://www.euronews.com/");
                     oResult.Add(@"https://en.wikipedia.org/wiki/Main_Page");
+                    oResult.Add(@"https://www.youtube.com/@winxclub");
 
                     // for german speakers: Witch huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
@@ -2267,8 +2285,8 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt"))
             {
                 // and one of the trained languages is portugese
-                if (strLanguageCodeFirstLanguage.Equals("Po", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("По", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst3.Equals("Por", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("По", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add Portugese resources for language aquisition without explicit learning
@@ -2280,6 +2298,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://pt.euronews.com/");
                     oResult.Add(@"https://www.jn.pt/");
                     oResult.Add(@"https://estrelaseouricos.sapo.pt/atividade/61-piadas-secas-para-impressionar-os-miudos/");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubPT");
                 }
             }
 
@@ -2288,8 +2307,8 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ru"))
             {
                 // and one of the trained languages is russian
-                if (strLanguageCodeFirstLanguage.Equals("Ru", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ру", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst3.Equals("Rus", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Рус", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in russian for language aquisition without explicit learning (mostly western resources, not from russia)
@@ -2308,6 +2327,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D0%BB%D1%83%D0%B3%D0%B0+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BA%D0%B0%D0%BC%D0%B5%D0%B4%D0%B8+%D0%BA%D0%BB%D0%B0%D0%B1");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubRU");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
                 }
             }
 
@@ -2317,8 +2338,8 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("it"))
             {
                 // and one of the trained languages is italian
-                if (strLanguageCodeFirstLanguage.Equals("It", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ит", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("It", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ит", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in italian for language aquisition without explicit learning 
@@ -2328,6 +2349,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.learnitalianpod.com/2023/07/13/italian-jokes/");
                     oResult.Add(@"https://it.euronews.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=film+completo");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubIT");
                 }
             }
 
@@ -2336,9 +2358,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ko"))
             {
                 // and one of the trained languages is korean
-                if (strLanguageCodeFirstLanguage.Equals("Ko", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ко", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("한국", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst3.Equals("Kor", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Кор", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("한국", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in korean for language aquisition without explicit learning
@@ -2356,9 +2378,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ja"))
             {
                 // and one of the trained languages is Japanese
-                if (strLanguageCodeFirstLanguage.Equals("Ja", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Яп", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("日本", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Ja", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Яп", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("日本", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in japanese for language aquisition without explicit learning
@@ -2374,9 +2396,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("zh"))
             {
                 // and one of the trained languages is chinese
-                if (strLanguageCodeFirstLanguage.Equals("Ch", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ки", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("中文", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Ch", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ки", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("中文", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in chinese for language aquisition without explicit learning
@@ -2384,6 +2406,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/zhongwen/simp");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E5%AD%97%E5%B9%95%E4%BB%98%E3%81%8D%E3%81%AE%E4%B8%AD%E5%9B%BD%E6%98%A0%E7%94%BB");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%89%E5%AD%97%E5%B9%95");
+                    oResult.Add(@"https://www.youtube.com/@RainbowJuniorCN");
                 }
             }
         
@@ -2391,9 +2414,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("tr"))
             {
                 // and one of the trained languages is turkish
-                if (strLanguageCodeFirstLanguage.Equals("Tü", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ту", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Tu", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Tü", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ту", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Tu", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in turkish for language aquisition without explicit learning
@@ -2401,6 +2424,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/turkce");
                     oResult.Add(@"https://www.radio.de/language/turkish");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Türkçe+Dublaj+Film");
+                    oResult.Add(@"https://www.youtube.com/@WinxClubTr");
                 }
             }
 
@@ -2408,9 +2432,9 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ar"))
             {
                 // and one of the trained languages is arabic
-                if (strLanguageCodeFirstLanguage.Equals("Ar", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ар", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("عر", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Ar", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ар", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("عر", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in arabic for language aquisition without explicit learning
@@ -2426,10 +2450,10 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("he"))
             {
                 // and one of the trained languages is hebrew
-                if (strLanguageCodeFirstLanguage.Equals("He", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ив", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("עב", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("עִ", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("He", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ив", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("עב", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("עִ", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in hebrew for language aquisition without explicit learning
@@ -2445,10 +2469,10 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("el"))
             {
                 // and one of the trained languages is greek
-                if (strLanguageCodeFirstLanguage.Equals("Gr", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Гр", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("ελ", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ελ", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Gr", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Гр", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("ελ", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ελ", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in greek for language aquisition without explicit learning
@@ -2465,10 +2489,10 @@ namespace VokabelTrainer
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("hi"))
             {
                 // and one of the trained languages is hindi
-                if (strLanguageCodeFirstLanguage.Equals("Hi", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("Ин", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("द्", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageCodeFirstLanguage.Equals("भा", StringComparison.CurrentCultureIgnoreCase)
+                if (strLanguageFirst2.Equals("Hi", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("Ин", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("द्", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("भा", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add resources in hindi for language aquisition without explicit learning
