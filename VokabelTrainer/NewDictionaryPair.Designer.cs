@@ -58,24 +58,34 @@ namespace VokabelTrainer
             // 
             // m_lblFirstLanguage
             // 
+            this.m_lblFirstLanguage.AccessibleDescription = null;
+            this.m_lblFirstLanguage.AccessibleName = null;
             resources.ApplyResources(this.m_lblFirstLanguage, "m_lblFirstLanguage");
             this.m_lblFirstLanguage.Name = "m_lblFirstLanguage";
             // 
             // m_tbxFirstLanguage
             // 
+            this.m_tbxFirstLanguage.AccessibleDescription = null;
+            this.m_tbxFirstLanguage.AccessibleName = null;
             resources.ApplyResources(this.m_tbxFirstLanguage, "m_tbxFirstLanguage");
+            this.m_tbxFirstLanguage.BackgroundImage = null;
             this.m_tbxFirstLanguage.Name = "m_tbxFirstLanguage";
             this.m_tbxFirstLanguage.Leave += new System.EventHandler(this.textBoxFirstLanguage_Leave);
             this.m_tbxFirstLanguage.Enter += new System.EventHandler(this.OnTextBoxEntered);
             // 
             // m_lblSecondLanguage
             // 
+            this.m_lblSecondLanguage.AccessibleDescription = null;
+            this.m_lblSecondLanguage.AccessibleName = null;
             resources.ApplyResources(this.m_lblSecondLanguage, "m_lblSecondLanguage");
             this.m_lblSecondLanguage.Name = "m_lblSecondLanguage";
             // 
             // m_tbxSecondLanguage
             // 
+            this.m_tbxSecondLanguage.AccessibleDescription = null;
+            this.m_tbxSecondLanguage.AccessibleName = null;
             resources.ApplyResources(this.m_tbxSecondLanguage, "m_tbxSecondLanguage");
+            this.m_tbxSecondLanguage.BackgroundImage = null;
             this.m_tbxSecondLanguage.Name = "m_tbxSecondLanguage";
             this.m_tbxSecondLanguage.TextChanged += new System.EventHandler(this.textBoxSecondLanguage_TextChanged);
             this.m_tbxSecondLanguage.Leave += new System.EventHandler(this.textBoxSecondLanguage_Leave);
@@ -83,22 +93,31 @@ namespace VokabelTrainer
             // 
             // m_btnEnterNext
             // 
+            this.m_btnEnterNext.AccessibleDescription = null;
+            this.m_btnEnterNext.AccessibleName = null;
             resources.ApplyResources(this.m_btnEnterNext, "m_btnEnterNext");
+            this.m_btnEnterNext.BackgroundImage = null;
             this.m_btnEnterNext.Name = "m_btnEnterNext";
             this.m_btnEnterNext.UseVisualStyleBackColor = true;
             this.m_btnEnterNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // m_btnEnteredLast
             // 
+            this.m_btnEnteredLast.AccessibleDescription = null;
+            this.m_btnEnteredLast.AccessibleName = null;
             resources.ApplyResources(this.m_btnEnteredLast, "m_btnEnteredLast");
+            this.m_btnEnteredLast.BackgroundImage = null;
             this.m_btnEnteredLast.Name = "m_btnEnteredLast";
             this.m_btnEnteredLast.UseVisualStyleBackColor = true;
             this.m_btnEnteredLast.Click += new System.EventHandler(this.m_btnEnteredLast_Click);
             // 
             // m_btnCancelEntering
             // 
-            this.m_btnCancelEntering.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.m_btnCancelEntering.AccessibleDescription = null;
+            this.m_btnCancelEntering.AccessibleName = null;
             resources.ApplyResources(this.m_btnCancelEntering, "m_btnCancelEntering");
+            this.m_btnCancelEntering.BackgroundImage = null;
+            this.m_btnCancelEntering.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.m_btnCancelEntering.Name = "m_btnCancelEntering";
             this.m_btnCancelEntering.UseVisualStyleBackColor = true;
             this.m_btnCancelEntering.Click += new System.EventHandler(this.m_btnCancel_Click);
@@ -106,8 +125,11 @@ namespace VokabelTrainer
             // NewDictionaryPair
             // 
             this.AcceptButton = this.m_btnEnterNext;
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = null;
             this.CancelButton = this.m_btnCancelEntering;
             this.Controls.Add(this.m_btnCancelEntering);
             this.Controls.Add(this.m_btnEnteredLast);

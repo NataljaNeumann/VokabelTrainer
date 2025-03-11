@@ -117,82 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 21</value>
-  </data>
-  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>630, 24</value>
-  </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>اللغة الأولى</value>
-  </data>
-  <data name="m_tbxFirstLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 53</value>
-  </data>
-  <data name="m_tbxFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>630, 38</value>
-  </data>
-  <data name="m_lblSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 108</value>
-  </data>
-  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>630, 24</value>
+    <value>Ensimmäinen kieli</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>اللغة الثانية</value>
-  </data>
-  <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 136</value>
-  </data>
-  <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>630, 38</value>
-  </data>
-  <data name="m_btnEnterNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 223</value>
-  </data>
-  <data name="m_btnEnterNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 32</value>
+    <value>Toinen kieli</value>
   </data>
   <data name="m_btnEnterNext.Text" xml:space="preserve">
-    <value>التالي</value>
-  </data>
-  <data name="m_btnEnteredLast.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 223</value>
-  </data>
-  <data name="m_btnEnteredLast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 32</value>
+    <value>Seuraavaksi</value>
   </data>
   <data name="m_btnEnteredLast.Text" xml:space="preserve">
-    <value>آخر</value>
-  </data>
-  <data name="m_btnCancelEntering.Location" type="System.Drawing.Point, System.Drawing">
-    <value>541, 223</value>
-  </data>
-  <data name="m_btnCancelEntering.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 32</value>
+    <value>Kestää</value>
   </data>
   <data name="m_btnCancelEntering.Text" xml:space="preserve">
-    <value>يلغي</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 18</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>672, 271</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>أدخل مفردات جديدة</value>
+    <value>Syötä uusi sanasto </value>
   </data>
 </root>
