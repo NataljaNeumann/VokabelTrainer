@@ -156,7 +156,7 @@
     <value>660, 38</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>آلمانی</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 106</value>

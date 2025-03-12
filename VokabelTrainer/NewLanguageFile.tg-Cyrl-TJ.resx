@@ -121,7 +121,7 @@
     <value>Забони аввал:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>олмонӣ</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Забони дуюм:</value>

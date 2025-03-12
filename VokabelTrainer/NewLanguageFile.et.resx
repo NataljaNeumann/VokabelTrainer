@@ -121,7 +121,7 @@
     <value>Esimene keel:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>saksa keel</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Teine keel:</value>

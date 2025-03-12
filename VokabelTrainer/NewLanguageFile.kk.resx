@@ -121,7 +121,7 @@
     <value>Бірінші тіл:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>неміс</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Екінші тіл:</value>

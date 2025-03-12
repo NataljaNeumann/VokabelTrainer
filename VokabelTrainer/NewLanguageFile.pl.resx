@@ -121,7 +121,7 @@
     <value>Pierwszy język:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>niemiecki</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Drugi język:</value>

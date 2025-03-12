@@ -121,7 +121,7 @@
     <value>პირველი ენა:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>გერმანული</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>მეორე ენა:</value>

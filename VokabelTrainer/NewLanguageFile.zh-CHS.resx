@@ -125,7 +125,7 @@
     <value>第一语言：</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>中文文本</value>
+    <value>中文</value>
   </data>
   <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 16</value>

@@ -159,7 +159,7 @@
     <value>64, 20</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>دویمه ژبه:</value>
+    <value />
   </data>
   <data name="m_btnCreateLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 221</value>

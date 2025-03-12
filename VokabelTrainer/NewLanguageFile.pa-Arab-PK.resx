@@ -156,7 +156,7 @@
     <value>541, 35</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>جرمن</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 88</value>

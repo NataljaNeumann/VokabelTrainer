@@ -121,7 +121,7 @@
     <value>Ensimmäinen kieli:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>saksaksi</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Toinen kieli:</value>

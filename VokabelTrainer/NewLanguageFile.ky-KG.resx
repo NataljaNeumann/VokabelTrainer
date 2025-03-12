@@ -121,7 +121,7 @@
     <value>Биринчи тил:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>Немисче</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Экинчи тил:</value>

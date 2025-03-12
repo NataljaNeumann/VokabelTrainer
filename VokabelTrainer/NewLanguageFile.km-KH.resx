@@ -159,7 +159,7 @@
     <value>541, 38</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>អាឡឺម៉ង់</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>

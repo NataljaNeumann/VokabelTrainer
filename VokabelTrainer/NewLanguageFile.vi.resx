@@ -121,7 +121,7 @@
     <value>Ngôn ngữ đầu tiên:</value>
   </data>
   <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value>tiếng Đức</value>
+    <value />
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Ngôn ngữ thứ hai:</value>
