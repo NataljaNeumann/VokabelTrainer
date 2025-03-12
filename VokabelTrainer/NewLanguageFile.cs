@@ -39,6 +39,17 @@ namespace VokabelTrainer
         {
             InitializeComponent();
             ReadyToUseImageInjection("NewLanguageFileHeader.jpg");
+            if (string.IsNullOrEmpty(m_tbxFirstLanguage.Text) &&
+                string.IsNullOrEmpty(m_tbxSecondLanguage.Text))
+            {
+                m_chkFirstLanguageRTL.Checked = m_chkSecondLanguageRTL.Checked = RightToLeft == RightToLeft.Yes;
+            }
+            // set direction for right to left
+            if (!string.IsNullOrEmpty(m_tbxSecondLanguage.Text) && RightToLeft == RightToLeft.Yes)
+                m_chkSecondLanguageRTL.Checked = true;
+
+            m_tbxFirstLanguage.RightToLeft = m_chkFirstLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
+            m_tbxSecondLanguage.RightToLeft = m_chkSecondLanguageRTL.Checked ? RightToLeft.Yes : RightToLeft.No;
         }
 
         //===================================================================================================
