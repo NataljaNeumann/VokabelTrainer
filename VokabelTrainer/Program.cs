@@ -37,7 +37,7 @@ namespace VokabelTrainer
         static void Main()
         {
 #if DEBUG
-             string strSetCulture =
+             //string strSetCulture =
                 // "af-ZA";
                 // "ar-SA";
                 // "az-Latn-AZ";
@@ -75,7 +75,7 @@ namespace VokabelTrainer
                 // "no-NO";
                 // "pa-Arab-PK";
                 // "pa-IN";
-                 "pl-PL";
+                // "pl-PL";
                 // "ps-AF";
                 // "pt-PT";
                 // "en-US";
@@ -95,8 +95,8 @@ namespace VokabelTrainer
                 // "zh-TW";
                 // "zh-CN";
 
-             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
-             System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
+            // System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
+            // System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
 #endif
 
 
