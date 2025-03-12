@@ -146,13 +146,13 @@
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>제이외국어</value>
   </data>
-  <data name="textBoxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="m_tbxSecondLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 155</value>
   </data>
-  <data name="textBoxSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="m_tbxSecondLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="textBoxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="m_tbxSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>630, 38</value>
   </data>
   <data name="m_btnEnterNext.Font" type="System.Drawing.Font, System.Drawing">
