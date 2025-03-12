@@ -161,10 +161,10 @@
     <value>Прочитать вслух:</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
-    <value>Отображаемый язык</value>
+    <value>Отображенный язык</value>
   </data>
   <data name="m_cbxReader.Items1" xml:space="preserve">
-    <value>Проверенный язык</value>
+    <value>Проверяемый язык</value>
   </data>
   <data name="m_cbxReader.Items2" xml:space="preserve">
     <value>Первый язык</value>
