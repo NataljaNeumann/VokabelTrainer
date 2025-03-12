@@ -127,7 +127,7 @@
     <value>Nova jezička datoteka</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>Datoteke vokabulara|*.Vocabulary.xml;*.Vocabulary.xml</value>
+    <value>Datoteke vokabulara|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licenca (GPL v2)</value>
