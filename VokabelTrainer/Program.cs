@@ -37,9 +37,68 @@ namespace VokabelTrainer
         static void Main()
         {
 #if DEBUG
-            //System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("de-CH");
-            //System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-CH");
+             string strSetCulture =
+                // "af-ZA";
+                // "ar-SA";
+                // "az-Latn-AZ";
+                // "be-BY";
+                // "bg-BG";
+                // "bs-Latn-BA";
+                // "cs-CZ";
+                // "da-DK";
+                // "de-DE";
+                // "el-GR";
+                // "es-ES";
+                // "et-EE";
+                // "fa-IR";
+                // "fi-FI";
+                // "fr-FR";
+                // "he-IL";
+                // "hi-IN";
+                // "hu-HU";
+                // "hy-AM";
+                // "id-ID";
+                // "is-IS";
+                // "it-IT";
+                // "ja-JP";
+                // "ka-GE";
+                // "kk-KZ";
+                // "km-KH";
+                // "ko-KR";
+                // "ky-KG";
+                // "lt-LT";
+                // "lv-LV";
+                // "mk-MK";
+                // "mn-MN";
+                // "ms-MY";
+                // "nl-NL";
+                // "no-NO";
+                // "pa-Arab-PK";
+                // "pa-IN";
+                 "pl-PL";
+                // "ps-AF";
+                // "pt-PT";
+                // "en-US";
+                // "ro-RO";
+                // "ru-RU";
+                // "sa-IN";
+                // "sk-SK";
+                // "sl-SL";
+                // "sr-Cyrl-RS"; // TODO: need a fix
+                // "sv-SE";
+                // "tg-Cyrl-TJ";
+                // "th-TH";
+                // "tr-TR";
+                // "uk-UA";
+                // "uz-Latn-UZ";
+                // "vi-VN";
+                // "zh-TW";
+                // "zh-CN";
+
+             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
+             System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
 #endif
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -73,7 +132,14 @@ namespace VokabelTrainer
                 "Ale".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
                 "All".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
                 "Ger".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Jer".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Tys".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Tus".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Dui".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Nem".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
                 "Не".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "de-DE" :
+                "Гер".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "de-DE" :
+                "Нім".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "de-DE" :
                 // spanish
                 "Sp".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "es-ES" :
                 "Es".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
@@ -131,6 +197,7 @@ namespace VokabelTrainer
                 "Гре".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "el-GR" :
                 "ελ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "el-GR" :
                 "Ελ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "el-GR" :
+                "Έλ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "el-GR" :
                 // Afrikaans
                 "Af".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "af-ZA" :
                 "Афр".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "af-ZA" :
@@ -170,7 +237,7 @@ namespace VokabelTrainer
                 // Dutch Nederlands Niederländisch
                 "Ne".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
                 "Ni".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
-                "Du".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
+                "Dut".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
                 "Го".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "nl-NL" :
                 // Polish, Polski
                 "Pol".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "pl-PL" :
