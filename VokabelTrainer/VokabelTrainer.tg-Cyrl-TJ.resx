@@ -129,14 +129,33 @@
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Файлҳои вожавӣ|*.vocabulary.xml;*.Vokabeln.xml</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 214</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 16</value>
+  </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Иҷозатнома (GPL v2)</value>
+  </data>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 246</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 16</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Маълумот дар бораи тренерони луғат</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Клавиатураи экран (osk.exe)</value>
+  </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 15</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Бо овози баланд хонед:</value>
@@ -156,11 +175,35 @@
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Танҳо дар сурати хатогиҳо</value>
   </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 213</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 16</value>
+  </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>eSpeak-ро зеркашӣ кунед</value>
   </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 273</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 20</value>
+  </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak-ро истифода баред</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 273</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>Бе омӯзиш (тасодуфӣ)</value>
