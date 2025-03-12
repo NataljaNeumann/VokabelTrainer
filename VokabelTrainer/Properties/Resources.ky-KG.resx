@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>錯誤！</value>
+    <value>Ката!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤</value>
+    <value>XML окутуу файлын жүктөө катасы</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤：{0}</value>
+    <value>XML окутуу файлын жүктөөдө төмөнкү ката кетти: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤</value>
+    <value>XML лексика файлын жүктөө катасы</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤：{0}</value>
+    <value>XML лексика файлын жүктөөдө төмөнкү ката кетти: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>儲存訓練結果檔案時發生錯誤：{0}</value>
+    <value>Тренинг файлын сактоодо төмөнкү ката кетти: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>儲存詞彙檔時發生錯誤：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>缺少以下含義：</value>
-  </data>
-  <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>缺少以下含義：  </value>
-  </data>
-  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>覆蓋文件？</value>
-  </data>
-  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>語言檔案「{0}」已存在，是否要覆寫它？</value>
-  </data>
-  <data name="Mistake" xml:space="preserve">
-    <value>錯誤！ </value>
+    <value>Сөздүк файлын сактоодо төмөнкү ката кетти: {0}</value>
   </data>
   <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
+    <value>Практикалык {0} – {1}</value>
+  </data>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>Төмөнкү маанилер жок болгон: </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>Төмөнкү маанилер туура эмес киргизилген: </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>Төмөнкү мааниси жок болгон: </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>Төмөнкү маани туура эмес киргизилген: </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>Төмөнкү маанилер жок болгон: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
+    <value>{0} - {1} интенсивдүү </value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>Файлдын үстүнө жазылсынбы?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>Тил файлы мурунтан эле бар: "{0}", анын үстүнө жазгыңыз келеби?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>Ката!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} 最強 </value>
+    <value>{0} – {1} эң күчтүү</value>
   </data>
 </root>

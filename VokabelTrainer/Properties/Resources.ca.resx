@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>錯誤！</value>
+    <value>Error!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤</value>
+    <value>S'ha produït un error en carregar el fitxer d'entrenament XML</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤：{0}</value>
+    <value>S'ha produït l'error següent en carregar el fitxer d'entrenament XML: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤</value>
+    <value>S'ha produït un error en carregar el fitxer de vocabulari XML</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤：{0}</value>
+    <value>S'ha produït l'error següent en carregar el fitxer de vocabulari XML: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>儲存訓練結果檔案時發生錯誤：{0}</value>
+    <value>S'ha produït l'error següent en desar el fitxer d'entrenament: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>儲存詞彙檔時發生錯誤：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>缺少以下含義：</value>
-  </data>
-  <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>缺少以下含義：  </value>
-  </data>
-  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>覆蓋文件？</value>
-  </data>
-  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>語言檔案「{0}」已存在，是否要覆寫它？</value>
-  </data>
-  <data name="Mistake" xml:space="preserve">
-    <value>錯誤！ </value>
+    <value>S'ha produït l'error següent en desar el fitxer de vocabulari: {0}</value>
   </data>
   <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
+    <value>Practicar {0} - {1}</value>
+  </data>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>Faltaven els següents significats: </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>Els significats següents introduïts eren incorrectes: </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>Faltava el significat següent: </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>El següent significat introduït era incorrecte: </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>Faltaven els següents significats: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
+    <value>{0} – {1} intensiu</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>Sobreescriure el fitxer?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>El fitxer d'idioma ja existeix: "{0}", el voleu sobreescriure?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>Error!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} 最強 </value>
+    <value>{0} – {1} amb més intensitat</value>
   </data>
 </root>

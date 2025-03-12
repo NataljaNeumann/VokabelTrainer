@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>錯誤！</value>
+    <value>Грешка!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤</value>
+    <value>Грешка при зареждане на XML файл за обучение</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤：{0}</value>
+    <value>Възникна следната грешка при зареждането на XML файла за обучение: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤</value>
+    <value>Грешка при зареждането на файла с XML речник</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤：{0}</value>
+    <value>Възникна следната грешка при зареждане на файла с XML речник: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>儲存訓練結果檔案時發生錯誤：{0}</value>
+    <value>Възникна следната грешка при запазване на обучителния файл: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>儲存詞彙檔時發生錯誤：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>缺少以下含義：</value>
-  </data>
-  <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>缺少以下含義：  </value>
-  </data>
-  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>覆蓋文件？</value>
-  </data>
-  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>語言檔案「{0}」已存在，是否要覆寫它？</value>
-  </data>
-  <data name="Mistake" xml:space="preserve">
-    <value>錯誤！ </value>
+    <value>Възникна следната грешка при запазване на речниковия файл: {0}</value>
   </data>
   <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
+    <value>Практика {0} – {1}</value>
+  </data>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>Липсваха следните значения: </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>Следните въведени значения са неправилни: </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>Липсваше следното значение: </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>Следното въведено значение е неправилно: </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>Липсваха следните значения: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
+    <value>{0} – {1} интензивно</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>Презаписване на файл?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>Езиковият файл вече съществува: „{0}“, искате ли да го презапишете?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>Грешка!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} 最強 </value>
+    <value>{0} – {1} най-интензивно</value>
   </data>
 </root>

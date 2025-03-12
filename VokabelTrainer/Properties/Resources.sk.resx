@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>錯誤！</value>
+    <value>Omyl!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤</value>
+    <value>Chyba pri načítavaní školiaceho súboru XML</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤：{0}</value>
+    <value>Pri načítavaní školiaceho súboru XML sa vyskytla nasledujúca chyba: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤</value>
+    <value>Chyba pri načítavaní súboru slovníka XML</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤：{0}</value>
+    <value>Pri načítavaní súboru so slovníkom XML sa vyskytla nasledujúca chyba: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>儲存訓練結果檔案時發生錯誤：{0}</value>
+    <value>Pri ukladaní tréningového súboru sa vyskytla nasledujúca chyba: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>儲存詞彙檔時發生錯誤：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>缺少以下含義：</value>
-  </data>
-  <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>缺少以下含義：  </value>
-  </data>
-  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>覆蓋文件？</value>
-  </data>
-  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>語言檔案「{0}」已存在，是否要覆寫它？</value>
-  </data>
-  <data name="Mistake" xml:space="preserve">
-    <value>錯誤！ </value>
+    <value>Pri ukladaní súboru so slovníkom sa vyskytla nasledujúca chyba: {0}</value>
   </data>
   <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
+    <value>Prax {0} – {1}</value>
+  </data>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>Chýbali tieto významy: </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>Nasledujúce zadané významy boli nesprávne: </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>Chýbal nasledujúci význam: </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>Nasledujúci význam bol zadaný nesprávne: </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>Chýbali tieto významy: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
+    <value>Intenzívne {0} – {1}</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>Prepísať súbor?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>Jazykový súbor už existuje: „{0}“, chcete ho prepísať?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>Omyl!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} 最強 </value>
+    <value>Najintenzívnejšie {0} – {1}</value>
   </data>
 </root>

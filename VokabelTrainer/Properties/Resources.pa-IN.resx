@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error" xml:space="preserve">
-    <value>錯誤！</value>
+    <value>ਗਲਤੀ!</value>
   </data>
   <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤</value>
+    <value>XML ਸਿਖਲਾਈ ਫਾਈਲ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ</value>
   </data>
   <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
-    <value>載入訓練結果 XML 檔案時發生錯誤：{0}</value>
+    <value>XML ਸਿਖਲਾਈ ਫਾਈਲ ਨੂੰ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੇਠ ਲਿਖੀ ਗਲਤੀ ਆਈ ਹੈ: {0}</value>
   </data>
   <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤</value>
+    <value>XML ਸ਼ਬਦਾਵਲੀ ਫਾਈਲ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ</value>
   </data>
   <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
-    <value>載入詞彙表 XML 檔案時發生錯誤：{0}</value>
+    <value>XML ਸ਼ਬਦਾਵਲੀ ਫਾਈਲ ਨੂੰ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੇਠ ਲਿਖੀ ਗਲਤੀ ਆਈ ਹੈ: {0}</value>
   </data>
   <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
-    <value>儲存訓練結果檔案時發生錯誤：{0}</value>
+    <value>ਸਿਖਲਾਈ ਫਾਈਲ ਨੂੰ ਸੰਭਾਲਣ ਦੌਰਾਨ ਹੇਠ ਲਿਖੀ ਗਲਤੀ ਆਈ ਹੈ: {0}</value>
   </data>
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
-    <value>儲存詞彙檔時發生錯誤：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
-  </data>
-  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWasMissing" xml:space="preserve">
-    <value>缺少以下含義：</value>
-  </data>
-  <data name="FollowingMeaningWasWrong" xml:space="preserve">
-    <value>以下輸入的意思是錯誤的： </value>
-  </data>
-  <data name="FollowingMeaningWereMissing" xml:space="preserve">
-    <value>缺少以下含義：  </value>
-  </data>
-  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
-    <value>覆蓋文件？</value>
-  </data>
-  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
-    <value>語言檔案「{0}」已存在，是否要覆寫它？</value>
-  </data>
-  <data name="Mistake" xml:space="preserve">
-    <value>錯誤！ </value>
+    <value>ਸ਼ਬਦਾਵਲੀ ਫਾਇਲ ਨੂੰ ਸੰਭਾਲਣ ਦੌਰਾਨ ਹੇਠ ਲਿਖੀ ਗਲਤੀ ਆਈ ਹੈ: {0}</value>
   </data>
   <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
+    <value>ਅਭਿਆਸ {0} – {1}</value>
+  </data>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>ਹੇਠ ਲਿਖੇ ਅਰਥ ਗਾਇਬ ਸਨ: </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>ਹੇਠਾਂ ਦਿੱਤੇ ਅਰਥ ਗਲਤ ਸਨ: </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>ਹੇਠ ਲਿਖੇ ਅਰਥ ਗੁੰਮ ਸਨ: </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਅਰਥ ਗਲਤ ਸੀ: </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>ਹੇਠ ਲਿਖੇ ਅਰਥ ਗਾਇਬ ਸਨ: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
+    <value>{0} - {1} ਤੀਬਰ </value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>ਕੀ ਫ਼ਾਈਲ ਨੂੰ ਓਵਰਰਾਈਟ ਕਰਨਾ ਹੈ?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>ਭਾਸ਼ਾ ਫਾਈਲ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ: “{0}”, ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਓਵਰਰਾਈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>ਗਲਤੀ!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} 最強 </value>
+    <value>{0} – {1} ਸਭ ਤੋਂ ਤੀਬਰ</value>
   </data>
 </root>
