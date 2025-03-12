@@ -127,7 +127,7 @@
     <value>Sledeći</value>
   </data>
   <data name="m_btnEnteredLast.Text" xml:space="preserve">
-    <value>Last</value>
+    <value>Poslenji</value>
   </data>
   <data name="m_btnCancelEntering.Text" xml:space="preserve">
     <value>Otkaži</value>
