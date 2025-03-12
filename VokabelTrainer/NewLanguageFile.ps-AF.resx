@@ -255,4 +255,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>د نوې ژبې فایل</value>
   </data>
+  <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
+    <value />
+  </data>
 </root>
