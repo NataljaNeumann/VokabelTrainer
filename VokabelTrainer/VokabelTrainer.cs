@@ -2199,6 +2199,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://de.euronews.com/");
                     oResult.Add(@"https://www.der-postillon.com/");
                     oResult.Add(@"https://www.youtube.com/@WinxClubDE");
+                    oResult.Add(@"https://www.deutschlandfunk.de/");
+                    oResult.Add(@"https://www.amazon.de/s?k=das+philosophie+buch");
+                    oResult.Add(@"https://www.amazon.de/s?k=Wirtschaft+verstehen+mit+Infografiken");
+                    oResult.Add(@"https://www.amazon.de/s?k=dtv+atlas");
+                    oResult.Add(@"https://www.amazon.de/s?k=eine+kurze+weltgeschichte+f%C3%BCr+junge+leser+ernst+h.+gombrich");
                 }
             }
 
@@ -2219,6 +2224,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.france24.com/fr/");
                     oResult.Add(@"https://fr.euronews.com/");
                     oResult.Add(@"https://www.youtube.com/@WinxClubFR");
+                    oResult.Add(@"https://www.amazon.fr/s?k=psychologie+livre");
 
                     // for german speakers: Witch huckla / French
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
@@ -2247,6 +2253,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/mundo");
                     oResult.Add(@"https://www.dw.com/es");
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
+                    oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
                 }
             }
 
@@ -2271,6 +2278,10 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.euronews.com/");
                     oResult.Add(@"https://en.wikipedia.org/wiki/Main_Page");
                     oResult.Add(@"https://www.youtube.com/@winxclub");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=The+economics+book");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=the+intelligent+investor+by+benjamin+graham");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=the+wealth+of+nations");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=irrational+exuberance");
 
                     // for german speakers: Witch huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
