@@ -149,13 +149,10 @@
   <data name="m_tbxSecondLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblFirstLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="m_btnCreateLanguageFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_lblSecondLanguage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -320,6 +317,9 @@
   </data>
   <data name="&gt;&gt;m_lblSecondLanguage.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -512,8 +512,8 @@
   <data name="&gt;&gt;m_chkLanguageFileUnderGPL2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="m_lblFirstLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="m_tbxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
