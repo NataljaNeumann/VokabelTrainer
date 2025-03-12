@@ -117,11 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>ផ្ទុកឯកសារភាសា</value>
   </data>
+  <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
     <value>បញ្ចូលវាក្យសព្ទ</value>
+  </data>
+  <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnExerciseFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
     <value>ឯកសារភាសាថ្មី។</value>
@@ -129,17 +145,59 @@
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>ឯកសារវាក្យសព្ទ|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
+  <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnMostIntensiveFirstToSecond.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 216</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>អាជ្ញាប័ណ្ណ (GPL v2)</value>
+  </data>
+  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 246</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 24</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>ព័ត៌មានអំពីអ្នកបណ្តុះបណ្តាលវាក្យសព្ទ</value>
   </data>
+  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>ក្តារចុចលើអេក្រង់ (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>អាន​ឮៗ៖</value>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>ភាសាត្រូវបានបង្ហាញ</value>
@@ -156,11 +214,53 @@
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>មានតែក្នុងករណីមានកំហុសប៉ុណ្ណោះ។</value>
   </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 211</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 32</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 273</value>
+  </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>ទាញយក eSpeak</value>
   </data>
+  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 272</value>
+  </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 28</value>
+  </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>ប្រើ eSpeak</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 278</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 276</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 246</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 24</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>ដោយមិនរៀន (ចៃដន្យ)</value>
