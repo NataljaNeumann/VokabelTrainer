@@ -2204,6 +2204,9 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.de/s?k=Wirtschaft+verstehen+mit+Infografiken");
                     oResult.Add(@"https://www.amazon.de/s?k=dtv+atlas");
                     oResult.Add(@"https://www.amazon.de/s?k=eine+kurze+weltgeschichte+f%C3%BCr+junge+leser+ernst+h.+gombrich");
+                    oResult.Add(@"https://www.amazon.de/s?k=glutenfreie+rezepte");
+                    oResult.Add(@"https://www.amazon.de/s?k=laktosefreie+rezepte");
+                    oResult.Add(@"https://www.amazon.de/s?k=low+carb+ngv");
                 }
             }
 
