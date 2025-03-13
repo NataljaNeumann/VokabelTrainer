@@ -119,50 +119,50 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_lblShownText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 15</value>
+    <value>24, 17</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_lblShownText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="m_lblShownText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1192, 141</value>
+    <value>1121, 163</value>
   </data>
   <data name="m_lblAskedTranslation.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_lblAskedTranslation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 162</value>
+    <value>24, 187</value>
   </data>
   <data name="m_lblAskedTranslation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="m_lblAskedTranslation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1192, 59</value>
+    <value>1121, 68</value>
   </data>
   <data name="m_tbxAskedTranslation.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 24pt</value>
   </data>
   <data name="m_tbxAskedTranslation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 225</value>
+    <value>36, 260</value>
   </data>
   <data name="m_tbxAskedTranslation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>7, 6, 7, 6</value>
   </data>
   <data name="m_tbxAskedTranslation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1178, 44</value>
+    <value>1104, 44</value>
   </data>
   <data name="m_btnNext.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_btnNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>632, 309</value>
+    <value>467, 357</value>
   </data>
   <data name="m_btnNext.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>7, 6, 7, 6</value>
   </data>
   <data name="m_btnNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 46</value>
+    <value>198, 53</value>
   </data>
   <data name="m_btnNext.Text" xml:space="preserve">
     <value>التالي</value>
@@ -171,13 +171,13 @@
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_btnLast.Location" type="System.Drawing.Point, System.Drawing">
-    <value>835, 309</value>
+    <value>704, 357</value>
   </data>
   <data name="m_btnLast.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>7, 6, 7, 6</value>
   </data>
   <data name="m_btnLast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 46</value>
+    <value>198, 53</value>
   </data>
   <data name="m_btnLast.Text" xml:space="preserve">
     <value>آخر</value>
@@ -186,13 +186,13 @@
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1042, 309</value>
+    <value>946, 357</value>
   </data>
   <data name="m_btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+    <value>7, 6, 7, 6</value>
   </data>
   <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 46</value>
+    <value>199, 53</value>
   </data>
   <data name="m_btnCancel.Text" xml:space="preserve">
     <value>يلغي</value>
@@ -201,13 +201,13 @@
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1234, 376</value>
+    <value>1170, 434</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 6, 7, 6</value>
+    <value>8, 7, 8, 7</value>
   </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
