@@ -132,7 +132,7 @@
     <value>222, 84</value>
   </data>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
-    <value>ናይ ቋንቋ ፋይል ጽዓን።</value>
+    <value>የቋንቋ ፋይልን ጫን</value>
   </data>
   <data name="m_btnEnterVocabulary.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -147,7 +147,7 @@
     <value>222, 84</value>
   </data>
   <data name="m_btnEnterVocabulary.Text" xml:space="preserve">
-    <value>ቃላት ኣእትዉ</value>
+    <value>መዝገበ ቃላት አስገባ</value>
   </data>
   <data name="m_btnExerciseSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -186,10 +186,10 @@
     <value>222, 84</value>
   </data>
   <data name="m_btnNewLanguageFile.Text" xml:space="preserve">
-    <value>ሓድሽ ናይ ቋንቋ ፋይል</value>
+    <value>አዲስ ቋንቋ ፋይል</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>ፋይላት ቃላት|*.vocabulary.xml;*.Vokabeln.xml</value>
+    <value>መዝገበ ቃላት|*.vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -243,7 +243,7 @@
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 299</value>
+    <value>751, 297</value>
   </data>
   <data name="m_lblShowLicense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -252,7 +252,7 @@
     <value>178, 31</value>
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
-    <value>ፍቓድ (GPL v2)</value>
+    <value>ፈቃድ (GPL v2)</value>
   </data>
   <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -264,10 +264,10 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 31</value>
+    <value>317, 31</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
-    <value>Info ብዛዕባ ኣሰልጠንቲ ቃላት</value>
+    <value>ስለ መዝገበ ቃላት አሰልጣኞች መረጃ</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -282,7 +282,7 @@
     <value>222, 68</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>ኣብ ስክሪን ዝርከብ ሰሌዳ ቁልፊ (osk.exe)</value>
+    <value>የማያ ገጽ ላይ ቁልፍ ሰሌዳ (osk.exe)</value>
   </data>
   <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -297,55 +297,55 @@
     <value>176, 31</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
-    <value>ዓው ኢልካ ኣንብብ፤</value>
+    <value>ጮክ ብለህ አንብብ፡</value>
   </data>
   <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
-    <value>ቋንቋ ተራእዩ።</value>
+    <value>ቋንቋ ታይቷል።</value>
   </data>
   <data name="m_cbxReader.Items1" xml:space="preserve">
-    <value>ዝተፈተነ ቋንቋ</value>
+    <value>የተፈተነ ቋንቋ</value>
   </data>
   <data name="m_cbxReader.Items2" xml:space="preserve">
-    <value>ቀዳማይ ቋንቋ</value>
+    <value>የመጀመሪያ ቋንቋ</value>
   </data>
   <data name="m_cbxReader.Items3" xml:space="preserve">
-    <value>ካልኣይ ቋንቋ</value>
+    <value>ሁለተኛ ቋንቋ</value>
   </data>
   <data name="m_cbxReader.Items4" xml:space="preserve">
-    <value>ጌጋታት ኣብ ዝፍጠረሉ እዋን ጥራይ</value>
+    <value>ስህተቶች ሲኖሩ ብቻ</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>458, 303</value>
+    <value>458, 294</value>
   </data>
   <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 32</value>
+    <value>285, 39</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_lblDownloadESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 379</value>
+    <value>87, 379</value>
   </data>
   <data name="m_lblDownloadESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 31</value>
+    <value>191, 31</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
-    <value>eSpeak ኣውርድ</value>
+    <value>eSpeakን ያውርዱ</value>
   </data>
   <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_chkUseESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>271, 378</value>
+    <value>286, 378</value>
   </data>
   <data name="m_chkUseESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -354,19 +354,19 @@
     <value>203, 35</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
-    <value>eSpeak ተጠቐም</value>
+    <value>eSpeak ተጠቀም</value>
   </data>
   <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 383</value>
+    <value>497, 383</value>
   </data>
   <data name="m_tbxESpeakPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 29</value>
+    <value>354, 29</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>865, 383</value>
@@ -381,19 +381,19 @@
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
-    <value>782, 341</value>
+    <value>758, 340</value>
   </data>
   <data name="m_lblDontLearnAquire.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 31</value>
+    <value>171, 31</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
-    <value>ብዘይ ትምህርቲ</value>
+    <value>ሳይማሩ (በዘፈቀደ)</value>
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 21.75pt</value>
+    <value>Microsoft Sans Serif, 24pt</value>
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 371</value>
@@ -417,6 +417,6 @@
     <value>6, 6, 6, 6</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ኣሰልጣኒ ስነ-ቓላት</value>
+    <value>የቃላት አሠልጣኝ</value>
   </data>
 </root>

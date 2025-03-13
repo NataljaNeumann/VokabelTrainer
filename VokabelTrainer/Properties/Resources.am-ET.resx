@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,32 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>ቀዳማይ ቋንቋ</value>
+  <data name="Error" xml:space="preserve">
+    <value>ስህተት!</value>
   </data>
-  <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>ካልኣይ ቋንቋ</value>
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
+    <value>የኤክስኤምኤል ማሰልጠኛ ፋይል መጫን ላይ ስህተት</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_btnEnterNext.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
+    <value>የኤክስኤምኤል ማሰልጠኛ ፋይልን በመጫን ላይ ሳለ የሚከተለው ስህተት ተከስቷል፡ {0}</value>
   </data>
-  <data name="m_btnEnterNext.Text" xml:space="preserve">
-    <value>ቀፃሊ</value>
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
+    <value>የኤክስኤምኤል መዝገበ ቃላት ፋይል መጫን ላይ ስህተት</value>
   </data>
-  <data name="m_btnEnteredLast.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
+    <value>የሚከተለው ስህተት የኤክስኤምኤል መዝገበ-ቃላት ፋይሉን በመጫን ላይ ነበር፡- {0}</value>
   </data>
-  <data name="m_btnEnteredLast.Text" xml:space="preserve">
-    <value>መጨረሻ</value>
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
+    <value>የስልጠና ፋይሉን በማስቀመጥ ላይ ሳለ የሚከተለው ስህተት ተከስቷል፡ {0}</value>
   </data>
-  <data name="m_btnCancelEntering.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
+    <value>የሚከተለው ስህተት የቃላት ፋይሉን በማስቀመጥ ላይ ሳለ፡- {0}</value>
   </data>
-  <data name="m_btnCancelEntering.Text" xml:space="preserve">
-    <value>ሰርዝ</value>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} ልምምድ</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>ሓድሽ ቃላት ኣእቱ </value>
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
+    <value>የሚከተሉት ትርጉሞች ጠፍተዋል፡ </value>
+  </data>
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
+    <value>የገቡት የሚከተሉት ትርጉሞች የተሳሳቱ ነበሩ፡- </value>
+  </data>
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
+    <value>የሚከተለው ትርጉም ጠፍቷል፡- </value>
+  </data>
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
+    <value>የገባው የሚከተለው ትርጉም የተሳሳተ ነበር፡- </value>
+  </data>
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
+    <value>የሚከተሉት ትርጉሞች ጠፍተዋል፡ </value>
+  </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} የተጠናከረ</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>ፋይል ይተካ?</value>
+  </data>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>የቋንቋ ፋይሉ አስቀድሞ አለ፡ "{0}" ሊተካው ይፈልጋሉ?</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>ስህተት!</value>
+  </data>
+  <data name="MostIntensive" xml:space="preserve">
+    <value>{0} - {1} በጣም ኃይለኛ </value>
   </data>
 </root>

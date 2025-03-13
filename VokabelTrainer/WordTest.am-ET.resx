@@ -117,32 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>ቀዳማይ ቋንቋ</value>
-  </data>
-  <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>ካልኣይ ቋንቋ</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_btnEnterNext.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_btnNext.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="m_btnEnterNext.Text" xml:space="preserve">
-    <value>ቀፃሊ</value>
+  <data name="m_btnNext.Text" xml:space="preserve">
+    <value>ቀጥሎ</value>
   </data>
-  <data name="m_btnEnteredLast.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_btnLast.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="m_btnEnteredLast.Text" xml:space="preserve">
-    <value>መጨረሻ</value>
+  <data name="m_btnLast.Text" xml:space="preserve">
+    <value>የመጨረሻ</value>
   </data>
-  <data name="m_btnCancelEntering.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="m_btnCancel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="m_btnCancelEntering.Text" xml:space="preserve">
+  <data name="m_btnCancel.Text" xml:space="preserve">
     <value>ሰርዝ</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ሓድሽ ቃላት ኣእቱ </value>
+    <value>የአካል ብቃት እንቅስቃሴ ያድርጉ</value>
   </data>
 </root>

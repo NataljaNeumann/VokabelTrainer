@@ -125,10 +125,10 @@
     <value>18, 14</value>
   </data>
   <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 25</value>
+    <value>129, 25</value>
   </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
-    <value>ቀዳማይ ቋንቋ፤</value>
+    <value>የመጀመሪያ ቋንቋ፡</value>
   </data>
   <data name="m_tbxFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -162,10 +162,10 @@
     <value>19, 89</value>
   </data>
   <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 25</value>
+    <value>110, 25</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
-    <value>ካልኣይ ቋንቋ፤</value>
+    <value>ሁለተኛ ቋንቋ፡-</value>
   </data>
   <data name="m_btnCreateLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -207,10 +207,10 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 29</value>
+    <value>403, 29</value>
   </data>
   <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
-    <value>ፋይል ቋንቋ ብፍቓድ GPL2 ክዝርጋሕ ዝተሓሰበ እዩ።</value>
+    <value>የቋንቋ ፋይል በGPL2 ፍቃድ ለመሰራጨት የታሰበ ነው።</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -222,10 +222,10 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 29</value>
+    <value>283, 29</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
-    <value>ናይ ቋንቋ ፋይል ክቕየር ዝኽእል እዩ።</value>
+    <value>የቋንቋ ፋይል ሊስተካከል የሚችል ነው።</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -237,10 +237,10 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 29</value>
+    <value>230, 29</value>
   </data>
   <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
-    <value>ኣንፈት ምጽሓፍ ካብ የማን ናብ ጸጋም</value>
+    <value>ከቀኝ ወደ ግራ አቅጣጫ መፃፍ</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
@@ -252,10 +252,10 @@
     <value>3, 4, 3, 4</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 29</value>
+    <value>230, 29</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
-    <value>ኣንፈት ምጽሓፍ ካብ የማን ናብ ጸጋም</value>
+    <value>ከቀኝ ወደ ግራ አቅጣጫ መፃፍ</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
@@ -270,6 +270,6 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ሓድሽ ናይ ቋንቋ ፋይል</value>
+    <value>አዲስ ቋንቋ ፋይል</value>
   </data>
 </root>
