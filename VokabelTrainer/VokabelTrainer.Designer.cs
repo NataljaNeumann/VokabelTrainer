@@ -210,7 +210,6 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_cbxReader, "m_cbxReader");
             this.m_cbxReader.BackgroundImage = null;
             this.m_cbxReader.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.m_cbxReader.Font = null;
             this.m_cbxReader.FormattingEnabled = true;
             this.m_cbxReader.Items.AddRange(new object[] {
             resources.GetString("m_cbxReader.Items"),
@@ -245,7 +244,6 @@ namespace VokabelTrainer
             this.m_tbxESpeakPath.AccessibleName = null;
             resources.ApplyResources(this.m_tbxESpeakPath, "m_tbxESpeakPath");
             this.m_tbxESpeakPath.BackgroundImage = null;
-            this.m_tbxESpeakPath.Font = null;
             this.m_tbxESpeakPath.Name = "m_tbxESpeakPath";
             // 
             // m_btnSearchESpeak
