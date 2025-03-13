@@ -95,6 +95,13 @@ namespace VokabelTrainer
                 // "zh-TW";
                 // "zh-CN";
 
+                // "ti-ER";
+                // "am-ET";
+                // "ig-NG";
+                // "yo-NG";
+                // "wo-SN";
+                // "so-SO";
+                // "rw-RW";
             // System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
             // System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
 #endif
