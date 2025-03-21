@@ -242,10 +242,13 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>282, 271</value>
+    <value>282, 275</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>253, 22</value>
+  </data>
+  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 273</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>

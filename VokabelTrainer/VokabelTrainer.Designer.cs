@@ -70,6 +70,7 @@ namespace VokabelTrainer
             this.m_btnSearchESpeak = new System.Windows.Forms.Button();
             this.m_lblDontLearnAquire = new System.Windows.Forms.LinkLabel();
             this.m_btnOsLanguageAndKeyboardSettings = new System.Windows.Forms.Button();
+            this.m_btnStats = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -245,6 +246,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_tbxESpeakPath, "m_tbxESpeakPath");
             this.m_tbxESpeakPath.BackgroundImage = null;
             this.m_tbxESpeakPath.Name = "m_tbxESpeakPath";
+            this.m_tbxESpeakPath.TextChanged += new System.EventHandler(this.m_tbxESpeakPath_TextChanged);
             // 
             // m_btnSearchESpeak
             // 
@@ -280,6 +282,20 @@ namespace VokabelTrainer
             this.m_btnOsLanguageAndKeyboardSettings.UseVisualStyleBackColor = false;
             this.m_btnOsLanguageAndKeyboardSettings.Click += new System.EventHandler(this.m_btnOsLanguageAndKeyboardSettings_Click);
             // 
+            // m_btnStats
+            // 
+            this.m_btnStats.AccessibleDescription = null;
+            this.m_btnStats.AccessibleName = null;
+            resources.ApplyResources(this.m_btnStats, "m_btnStats");
+            this.m_btnStats.BackgroundImage = null;
+            this.m_btnStats.FlatAppearance.BorderSize = 0;
+            this.m_btnStats.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.m_btnStats.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
+            this.m_btnStats.ForeColor = System.Drawing.Color.Blue;
+            this.m_btnStats.Name = "m_btnStats";
+            this.m_btnStats.UseVisualStyleBackColor = true;
+            this.m_btnStats.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnButtonStatsClick);
+            // 
             // VokabelTrainer
             // 
             this.AccessibleDescription = null;
@@ -287,6 +303,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = null;
+            this.Controls.Add(this.m_btnStats);
             this.Controls.Add(this.m_btnOsLanguageAndKeyboardSettings);
             this.Controls.Add(this.m_lblDontLearnAquire);
             this.Controls.Add(this.m_btnSearchESpeak);
@@ -344,6 +361,7 @@ namespace VokabelTrainer
         private System.Windows.Forms.Button m_btnSearchESpeak;
         private System.Windows.Forms.LinkLabel m_lblDontLearnAquire;
         private System.Windows.Forms.Button m_btnOsLanguageAndKeyboardSettings;
+        private System.Windows.Forms.Button m_btnStats;
     }
 }
 

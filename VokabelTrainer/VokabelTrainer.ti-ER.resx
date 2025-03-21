@@ -189,7 +189,7 @@
     <value>ሓድሽ ናይ ቋንቋ ፋይል</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>ፋይላት ቃላት|*.vocabulary.xml;*.Vokabeln.xml</value>
+    <value>ፋይላት ቃላት|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -366,10 +366,10 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 29</value>
+    <value>329, 29</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>865, 383</value>
+    <value>819, 383</value>
   </data>
   <data name="m_btnSearchESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -403,6 +403,12 @@
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 47</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 384</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>

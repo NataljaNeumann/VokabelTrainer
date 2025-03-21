@@ -194,10 +194,7 @@
     <value>300, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>571, 271</value>
+    <value>235, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>456, 216</value>

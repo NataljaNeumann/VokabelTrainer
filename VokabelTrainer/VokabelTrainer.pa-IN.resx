@@ -248,10 +248,10 @@
     <value>389, 277</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 277</value>
+    <value>539, 275</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -264,6 +264,9 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>ਸਿੱਖਣ ਤੋਂ ਬਿਨਾਂ (ਬੇਤਰਤੀਬ)</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 269</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ਸ਼ਬਦਾਵਲੀ ਟ੍ਰੇਨਰ</value>
