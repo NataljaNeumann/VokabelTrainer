@@ -190,6 +190,9 @@
   <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 219</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 24</value>
   </data>
@@ -197,7 +200,7 @@
     <value>អាន​ឮៗ៖</value>
   </data>
   <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>ភាសាត្រូវបានបង្ហាញ</value>
@@ -215,10 +218,10 @@
     <value>មានតែក្នុងករណីមានកំហុសប៉ុណ្ណោះ។</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 215</value>
+    <value>256, 219</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 32</value>
+    <value>208, 23</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -244,14 +247,17 @@
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>ប្រើ eSpeak</value>
   </data>
+  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>326, 278</value>
+    <value>326, 276</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 20</value>
+    <value>203, 21</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 276</value>
+    <value>535, 276</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -264,6 +270,12 @@
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>ដោយមិនរៀន (ចៃដន្យ)</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 272</value>
+  </data>
+  <data name="m_btnStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 25</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>គ្រូបណ្តុះបណ្តាលវាក្យសព្ទ</value>
