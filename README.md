@@ -774,9 +774,75 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 
 ‏[האם אתה צריך תמיכה?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [ויקי](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
-  
-  
-  
-  
-[^1]: SyncFolders-Don't-Delete.txt
+
+
+# Other languages:
+- Woordeskat oefenprogram. Woordeskatboek - sagteware.
+- Programi i praktikës së fjalorit. Libër fjalori - softuer.
+- የቃላት ልምምድ ፕሮግራም. የቃላት ዝርዝር - ሶፍትዌር.
+- برنامج ممارسة المفردات. كتاب المفردات - البرمجيات.
+- Բառապաշարի պրակտիկայի ծրագիր. Բառապաշար - ծրագրային ապահովում.
+- Lüğət təcrübə proqramı. Lüğət kitabı - proqram təminatı.
+- Праграму па практыцы слоўнікавага запасу. 
+- 詞彙練習計劃。詞彙書-軟體。
+- Programm zum Üben von Vokabeln. Vokabelheft - Software.
+- Program for practicing vocabulary. Vocabulary book software.
+- Sõnavara harjutamise programm. Sõnavararaamat - tarkvara.
+- Sanaston harjoitusohjelma. Sanastokirja - ohjelmisto.
+- Programme de pratique du vocabulaire. Livre de vocabulaire - logiciel.
+- ლექსიკის სავარჯიშო პროგრამა. ლექსიკის წიგნი - პროგრამული უზრუნველყოფა.
+- Πρόγραμμα εξάσκησης λεξιλογίου. Βιβλίο λεξιλογίου - λογισμικό.
+- תוכנית לתרגול אוצר מילים. ספר אוצר מילים - תוכנה.
+- शब्दावली अभ्यास कार्यक्रम. शब्दावली पुस्तक - सॉफ्टवेयर.
+- Mmemme omume okwu. Akwụkwọ okwu - software.
+- Program latihan kosakata. Buku kosakata - perangkat lunak.
+- Æfingaáætlun orðaforða. Orðaforðabók - hugbúnaður.
+- Programma di pratica del vocabolario. Libro di vocabolario - software.
+- Тыл үөрэҕин дьарыктанар бырагыраама. Лексика кинигэтэ - софт.
+- 語彙練習プログラム。単語帳 - ソフトウェア。
+- ಶಬ್ದಕೋಶ ಅಭ್ಯಾಸ ಕಾರ್ಯಕ್ರಮ. ಶಬ್ದಕೋಶ ಪುಸ್ತಕ - ಸಾಫ್ಟ್‌ವೇರ್.
+- Сөздік тәжірибелік бағдарлама. Сөздік кітап – бағдарламалық құрал.
+- Programa de pràctica de vocabulari. Llibre de vocabulari - programari.
+- កម្មវិធីអនុវត្តវាក្យសព្ទ។ សៀវភៅវាក្យសព្ទ - កម្មវិធី។
+- Лексика боюнча практикалык программа. Лексика китеби - программалык камсыздоо.
+- 어휘 연습 프로그램. 어휘 책 - 소프트웨어.
+- Program vježbanja vokabulara. Rječnik - softver.
+- Vārdu krājuma prakses programma. Vārdnīca - programmatūra.
+- Žodyno praktikos programa. Žodyno knyga – programinė įranga.
+- Program latihan kosa kata. Buku kosa kata - perisian.
+- ڤروڬرام لاتيهن ڤركاتان. بوكو ڤركاتان - ڤرايسين.
+- Програма за вежбање вокабулар. Книга вокабулар - софтвер.
+- Тайлбар толь бичгийн дасгалын хөтөлбөр. Тайлбар толь бичиг - програм хангамж.
+- Woordenschat oefenprogramma. Woordenschatboek - software.
+- Praksisprogram for ordforråd. Ordbok - programvare.
+- د لغتونو تمرین پروګرام. د لغتونو کتاب - سافټویر.
+- برنامه تمرین واژگان. کتاب واژگان - نرم افزار.
+- Program ćwiczeń słownictwa. Książka słownictwa - oprogramowanie.
+- Programa de prática de vocabulário. Livro de vocabulário - software.
+- ਸ਼ਬਦਾਵਲੀ ਅਭਿਆਸ ਪ੍ਰੋਗਰਾਮ. ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ - ਸਾਫਟਵੇਅਰ.
+- لفظاں دی مشق دا پروگرام۔ لفظاں دی کتاب - سافٹ ویئر۔
+- Program de exersare a vocabularului. Carte de vocabular - software.
+- Программа тренировки словарного запаса. Словарный справочник - программа.
+- शब्दावली अभ्यास कार्यक्रम। शब्दावली पुस्तक - सॉफ्टवेयर।
+- Ordförrådsövningsprogram. Ordbok - programvara.
+- Програм вежбања речника. Речник - софтвер.
+- Program precvičovania slovnej zásoby. Kniha slovnej zásoby - softvér.
+- Program za vadbo besedišča. Besednjak - programska oprema.
+- Barnaamijka ku celcelinta erayada. Buuga erayada - software.
+- Programa de práctica de vocabulario. Libro de vocabulario - software.
+- Барномаи амалии лексика. Китоби луғат - нармафзор.
+- መደብ ልምምድ ቃላት። መጽሓፍ ቃላት - ሶፍትዌር።
+- Program procvičování slovní zásoby. Kniha slovíček - software.
+- Лексика Ӏаморан программа. Лексикин книга - программни гӀирс.
+- Kelime alıştırma programı. Kelime kitabı - yazılım.
+- Sözlük amaly programmasy. Sözlük kitaby - programma üpjünçiligi.
+- Програма практики словникового запасу. Словник - програмне забезпечення.
+- Szókincsgyakorló program. Szótár - szoftver.
+- Lug'at amaliyoti dasturi. Lug'at kitobi - dasturiy ta'minot.
+- Chương trình luyện tập từ vựng. Sách từ vựng - phần mềm.
+- Eto adaṣe fokabulari. Fokabulari iwe - software.
+- Gahunda y'imyitozo y'amagambo. Igitabo cy'amagambo - software.
+- Prograamu jàngat baatu-kàddu. Téere vocabulaire - logiciel.
+
+
 
