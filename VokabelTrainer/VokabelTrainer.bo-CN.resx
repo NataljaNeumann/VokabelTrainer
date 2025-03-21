@@ -189,7 +189,7 @@
     <value>སྐད་ཡིག་གསར་པའི་ཡིག་ཆ།</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>མིང་ཚིག་ཡིག་ཆ།|*.vocabulary.xml;*.Vokabeln.xml</value>
+    <value>མིང་ཚིག་ཡིག་ཆ།|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Narrow, 21.75pt</value>
@@ -360,10 +360,10 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 26</value>
+    <value>338, 26</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>868, 422</value>
+    <value>803, 423</value>
   </data>
   <data name="m_btnSearchESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -397,6 +397,12 @@
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 52</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 427</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>

@@ -189,7 +189,7 @@
     <value>አዲስ ቋንቋ ፋይል</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>መዝገበ ቃላት|*.vocabulary.xml;*.Vokabeln.xml</value>
+    <value>መዝገበ ቃላት|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <data name="m_btnIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -324,7 +324,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 39</value>
+    <value>285, 26</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -356,9 +356,6 @@
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak ተጠቀም</value>
   </data>
-  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>497, 383</value>
   </data>
@@ -366,16 +363,16 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 29</value>
+    <value>314, 24</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>865, 383</value>
+    <value>819, 383</value>
   </data>
   <data name="m_btnSearchESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 32</value>
+    <value>64, 25</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
@@ -403,6 +400,9 @@
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 47</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 377</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>

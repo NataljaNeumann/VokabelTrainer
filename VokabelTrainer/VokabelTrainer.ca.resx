@@ -155,7 +155,7 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 16</value>
+    <value>99, 13</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Llegeix en veu alta:</value>
@@ -200,7 +200,7 @@
     <value>325, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 20</value>
+    <value>210, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>452, 216</value>

@@ -132,11 +132,18 @@
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Licenca (GPL v2)</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 16</value>
+  </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Informacije o trenerima vokabulara</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Tastatura na ekranu (osk.exe)</value>
+  </data>
+  <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Pročitaj naglas:</value>
@@ -156,11 +163,26 @@
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Samo u slučaju grešaka</value>
   </data>
+  <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 16</value>
+  </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Preuzmite eSpeak</value>
   </data>
+  <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Koristite eSpeak</value>
+  </data>
+  <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 273</value>
+  </data>
+  <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>Bez učenja (nasumično)</value>

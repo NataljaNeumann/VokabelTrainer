@@ -324,7 +324,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 32</value>
+    <value>211, 24</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -357,16 +357,16 @@
     <value>از eSpeak استفاده کنید</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 336</value>
+    <value>436, 340</value>
   </data>
   <data name="m_tbxESpeakPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>327, 22</value>
+    <value>286, 22</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 334</value>
+    <value>730, 335</value>
   </data>
   <data name="m_btnSearchESpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -389,6 +389,9 @@
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>بدون یادگیری (تصادفی)</value>
   </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 328</value>
   </data>
@@ -397,6 +400,12 @@
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 42</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 333</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
