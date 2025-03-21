@@ -2181,6 +2181,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Не", StringComparison.CurrentCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("All", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Ale", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Jer", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Ger", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
@@ -2285,6 +2286,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=the+intelligent+investor+by+benjamin+graham");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=the+wealth+of+nations");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=irrational+exuberance");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=Death+of+Stalin");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=The+dictator+dvd");
 
                     // for german speakers: Witch huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
@@ -2300,7 +2303,7 @@ namespace VokabelTrainer
             {
                 // and one of the trained languages is portugese
                 if (strLanguageFirst3.Equals("Por", StringComparison.InvariantCultureIgnoreCase) ||
-                    strLanguageFirst2.Equals("По", StringComparison.CurrentCultureIgnoreCase)
+                    strLanguageFirst3.Equals("Пор", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
                     // then add Portugese resources for language aquisition without explicit learning
