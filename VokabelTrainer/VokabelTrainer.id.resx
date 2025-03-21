@@ -200,7 +200,7 @@
     <value>300, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 20</value>
+    <value>235, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>485, 246</value>

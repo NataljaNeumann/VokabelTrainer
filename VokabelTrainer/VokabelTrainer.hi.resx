@@ -351,10 +351,10 @@
     <value>529, 437</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 26</value>
+    <value>293, 26</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>885, 431</value>
+    <value>828, 434</value>
   </data>
   <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 33</value>
@@ -371,8 +371,20 @@
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>बिना सीखे (यादृच्छिक)</value>
   </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 429</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>878, 429</value>
+  </data>
+  <data name="m_btnStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 39</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>

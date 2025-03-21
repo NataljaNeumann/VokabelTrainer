@@ -351,10 +351,10 @@
     <value>397, 385</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 24</value>
+    <value>434, 24</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>883, 383</value>
+    <value>837, 381</value>
   </data>
   <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 30</value>
@@ -371,8 +371,23 @@
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>懲りずに（ランダム）</value>
   </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 380</value>
+    <value>18, 370</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 44</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>886, 370</value>
+  </data>
+  <data name="m_btnStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 42</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>

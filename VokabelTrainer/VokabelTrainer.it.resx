@@ -203,10 +203,10 @@
     <value>311, 275</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 20</value>
+    <value>224, 20</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 273</value>
+    <value>541, 273</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>183, 246</value>
