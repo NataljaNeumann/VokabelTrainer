@@ -245,7 +245,7 @@
     <value>336, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 20</value>
+    <value>199, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>

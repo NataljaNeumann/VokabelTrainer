@@ -127,7 +127,7 @@
     <value>Fayl luqad cusub</value>
   </data>
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
-    <value>Galalka erayada|*.vocabulary.xml;*.Vokabeln.xml</value>
+    <value>Galalka erayada|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
@@ -200,7 +200,7 @@
     <value>310, 273</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 20</value>
+    <value>225, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>183, 246</value>

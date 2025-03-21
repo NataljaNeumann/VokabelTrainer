@@ -348,13 +348,13 @@
     <value>使用 eSpeak 閱讀</value>
   </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 385</value>
+    <value>424, 391</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>438, 24</value>
+    <value>395, 24</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>886, 384</value>
+    <value>841, 386</value>
   </data>
   <data name="m_btnSearchESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 31</value>
@@ -379,6 +379,15 @@
   </data>
   <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 45</value>
+  </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 384</value>
+  </data>
+  <data name="m_btnStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 37</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 18</value>
