@@ -1,8 +1,6 @@
 ﻿‎
 
 
-
-
 Vocabulary Trainer
 ______________________________________________________________________________________________________________________
 
@@ -884,8 +882,4 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 ‏האם אתה צריך תמיכה?: https://github.com/NataljaNeumann/VokabelTrainer/issues
 ויקי: https://github.com/NataljaNeumann/VokabelTrainer/wiki
 
-
-
-
-[1]: SyncFolders-Don't-Delete.txt
 
