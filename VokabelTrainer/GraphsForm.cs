@@ -56,15 +56,15 @@ namespace VokabelTrainer
         /// <summary>
         /// The data for total exercises
         /// </summary>
-        private Dictionary<DateTime, int> m_oTotalGraphData;
+        private SortedDictionary<DateTime, int> m_oTotalGraphData;
         /// <summary>
         /// The data for the number or words
         /// </summary>
-        private Dictionary<DateTime, int> m_oWordsGraphData;
+        private SortedDictionary<DateTime, int> m_oWordsGraphData;
         /// <summary>
         /// The data for learned words
         /// </summary>
-        private Dictionary<DateTime, int> m_oLearnedWordsGraphData;
+        private SortedDictionary<DateTime, int> m_oLearnedWordsGraphData;
 
         //===================================================================================================
         /// <summary>
@@ -103,9 +103,9 @@ namespace VokabelTrainer
         /// <param name="wordsMinusErrors">The graph for learned words</param>
         //===================================================================================================
         public GraphsForm(
-            Dictionary<DateTime, int> wordsIncludingRepeats,
-            Dictionary<DateTime, int> wordsInBookOverTime,
-            Dictionary<DateTime, int> wordsMinusErrors)
+            SortedDictionary<DateTime, int> wordsIncludingRepeats,
+            SortedDictionary<DateTime, int> wordsInBookOverTime,
+            SortedDictionary<DateTime, int> wordsMinusErrors)
         {
             InitializeComponent();
             InitializeResources();
@@ -295,7 +295,7 @@ namespace VokabelTrainer
         private void DrawCurve(
             Graphics oGraphics, 
             Rectangle oArea, 
-            Dictionary<DateTime, int> oData, 
+            IDictionary<DateTime, int> oData, 
             Pen oPen, 
             string strName
             )

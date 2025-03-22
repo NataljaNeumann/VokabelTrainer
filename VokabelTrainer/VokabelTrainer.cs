@@ -154,15 +154,15 @@ namespace VokabelTrainer
         /// <summary>
         /// The data for total exercises
         /// </summary>
-        private Dictionary<DateTime, int> m_oTotalGraphData;
+        private SortedDictionary<DateTime, int> m_oTotalGraphData;
         /// <summary>
         /// The data for the number or words
         /// </summary>
-        private Dictionary<DateTime, int> m_oWordsGraphData;
+        private SortedDictionary<DateTime, int> m_oWordsGraphData;
         /// <summary>
         /// The data for learned words
         /// </summary>
-        private Dictionary<DateTime, int> m_oLearnedWordsGraphData;
+        private SortedDictionary<DateTime, int> m_oLearnedWordsGraphData;
 
 
         //===================================================================================================
@@ -521,9 +521,9 @@ namespace VokabelTrainer
 
                         }
 
-                        m_oTotalGraphData = new Dictionary<DateTime, int>();
-                        m_oWordsGraphData = new Dictionary<DateTime, int>();
-                        m_oLearnedWordsGraphData = new Dictionary<DateTime, int>();
+                        m_oTotalGraphData = new SortedDictionary<DateTime, int>();
+                        m_oWordsGraphData = new SortedDictionary<DateTime, int>();
+                        m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
 
                         DateTime dtmLastStatsDate = DateTime.MinValue;
 
@@ -620,9 +620,9 @@ namespace VokabelTrainer
             {
                 if (form.ShowDialog(this) == DialogResult.OK)
                 {
-                    m_oTotalGraphData = new Dictionary<DateTime, int>();
-                    m_oWordsGraphData = new Dictionary<DateTime, int>();
-                    m_oLearnedWordsGraphData = new Dictionary<DateTime, int>();
+                    m_oTotalGraphData = new SortedDictionary<DateTime, int>();
+                    m_oWordsGraphData = new SortedDictionary<DateTime, int>();
+                    m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
 
                     m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = 0;
                     m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = 0;
