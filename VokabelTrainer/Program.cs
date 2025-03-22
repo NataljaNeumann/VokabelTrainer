@@ -95,6 +95,8 @@ namespace VokabelTrainer
                 // "zh-TW";
                 // "zh-CN";
 
+                // "ga-IE";
+                // "ku-Arab-IQ";
                 // "ti-ER";
                 // "am-ET";
                 // "ig-NG";
