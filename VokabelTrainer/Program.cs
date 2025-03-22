@@ -30,7 +30,7 @@ namespace VokabelTrainer
     {
         //===================================================================================================
         /// <summary>
-        /// Der Haupteinstiegspunkt für die Anwendung.
+        /// Main entry point of the application
         /// </summary>
         //===================================================================================================
         [STAThread]
