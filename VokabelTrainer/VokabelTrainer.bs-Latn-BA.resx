@@ -133,6 +133,9 @@
     <value>Licenca (GPL v2)</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 246</value>
+  </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 16</value>
   </data>
@@ -142,8 +145,11 @@
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
     <value>Tastatura na ekranu (osk.exe)</value>
   </data>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 13</value>
+    <value>100, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Pročitaj naglas:</value>
@@ -163,6 +169,12 @@
   <data name="m_cbxReader.Items4" xml:space="preserve">
     <value>Samo u slučaju grešaka</value>
   </data>
+  <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 212</value>
+  </data>
+  <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 16</value>
   </data>
@@ -180,6 +192,9 @@
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 20</value>
+  </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 214</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 16</value>
