@@ -28,10 +28,6 @@ namespace VokabelTrainer
         /// </summary>
         private Font m_oDateFont;
         /// <summary>
-        /// Font for displaying graph labels
-        /// </summary>
-        private Font m_oLabelFont;
-        /// <summary>
         /// Text brush
         /// </summary>
         private Brush m_oTextBrush;
@@ -151,7 +147,6 @@ namespace VokabelTrainer
         private void InitializeResources()
         {
             m_oDateFont = new Font("Arial", 8);
-            m_oLabelFont = new Font("Arial", 10);
             m_oTextBrush = Brushes.Black;
 
             m_oAxisPen = new Pen(Color.Black, 2);
@@ -181,8 +176,6 @@ namespace VokabelTrainer
                 // Dispose of all resources
                 if (m_oDateFont != null)
                     m_oDateFont.Dispose();
-                if (m_oLabelFont != null)
-                    m_oLabelFont.Dispose();
                 if (m_oAxisPen != null)
                     m_oAxisPen.Dispose();
                 if (m_oTotalGraphPen != null)
@@ -215,10 +208,10 @@ namespace VokabelTrainer
             int nBottomMargin = (int)oMaxDateSize.Height + 10;
             int nRightMargin =
                 Math.Max(
-                    (int)oGraphics.MeasureString(m_strTotalWordsLabel, m_oLabelFont).Width,
+                    (int)oGraphics.MeasureString(m_strTotalWordsLabel, m_lblTotal.Font).Width,
                     Math.Max(
-                    (int)oGraphics.MeasureString(m_strWordsLabel, m_oLabelFont).Width,
-                    (int)oGraphics.MeasureString(m_strLearnedWordsLabel, m_oLabelFont).Width)
+                    (int)oGraphics.MeasureString(m_strWordsLabel, m_lblTotal.Font).Width,
+                    (int)oGraphics.MeasureString(m_strLearnedWordsLabel, m_lblTotal.Font).Width)
                     ) + 10;
 
             MinimumSize = new Size(nRightMargin + 100, this.MinimumSize.Height);
@@ -320,7 +313,7 @@ namespace VokabelTrainer
                 Point oLastPoint = aPoints[aPoints.Count - 1];
 
                 using (Brush oBrush = new SolidBrush(oPen.Color))
-                    oGraphics.DrawString(strName, m_oLabelFont, oBrush, new PointF(oLastPoint.X + 5, oLastPoint.Y - 10));
+                    oGraphics.DrawString(strName, m_lblTotal.Font, oBrush, new PointF(oLastPoint.X + 5, oLastPoint.Y - 10));
             }
         }
     }
