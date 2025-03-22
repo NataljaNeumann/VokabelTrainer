@@ -82,7 +82,7 @@ namespace VokabelTrainer
             this.m_btnLoadLanguageFile.BackgroundImage = null;
             this.m_btnLoadLanguageFile.Name = "m_btnLoadLanguageFile";
             this.m_btnLoadLanguageFile.UseVisualStyleBackColor = true;
-            this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.m_btnLoadLanguageFile_Click);
+            this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.OnLoadLanguageFileClick);
             // 
             // m_btnEnterVocabulary
             // 
@@ -102,7 +102,7 @@ namespace VokabelTrainer
             this.m_btnExerciseSecondToFirst.BackgroundImage = null;
             this.m_btnExerciseSecondToFirst.Name = "m_btnExerciseSecondToFirst";
             this.m_btnExerciseSecondToFirst.UseVisualStyleBackColor = true;
-            this.m_btnExerciseSecondToFirst.Click += new System.EventHandler(this.button3_Click);
+            this.m_btnExerciseSecondToFirst.Click += new System.EventHandler(this.OnExerciseSecondToFirstClick);
             // 
             // m_btnExerciseFirstToSecond
             // 
@@ -112,7 +112,7 @@ namespace VokabelTrainer
             this.m_btnExerciseFirstToSecond.BackgroundImage = null;
             this.m_btnExerciseFirstToSecond.Name = "m_btnExerciseFirstToSecond";
             this.m_btnExerciseFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.m_btnExerciseFirstToSecond_Click);
+            this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.OnExerciseFirstToSecondClick);
             // 
             // m_btnNewLanguageFile
             // 
@@ -122,7 +122,7 @@ namespace VokabelTrainer
             this.m_btnNewLanguageFile.BackgroundImage = null;
             this.m_btnNewLanguageFile.Name = "m_btnNewLanguageFile";
             this.m_btnNewLanguageFile.UseVisualStyleBackColor = true;
-            this.m_btnNewLanguageFile.Click += new System.EventHandler(this.m_btnNewLanguage_Click);
+            this.m_btnNewLanguageFile.Click += new System.EventHandler(this.OnNewLanguageClick);
             // 
             // m_dlgOpenFileDialog
             // 
@@ -137,7 +137,7 @@ namespace VokabelTrainer
             this.m_btnIntensiveSecondToFirst.BackgroundImage = null;
             this.m_btnIntensiveSecondToFirst.Name = "m_btnIntensiveSecondToFirst";
             this.m_btnIntensiveSecondToFirst.UseVisualStyleBackColor = true;
-            this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.m_btnIntensiveSecondToFirst_Click);
+            this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.OnIntensiveSecondToFirstClick);
             // 
             // m_btnIntensiveFirstToSecond
             // 
@@ -147,7 +147,7 @@ namespace VokabelTrainer
             this.m_btnIntensiveFirstToSecond.BackgroundImage = null;
             this.m_btnIntensiveFirstToSecond.Name = "m_btnIntensiveFirstToSecond";
             this.m_btnIntensiveFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.m_btnIntensiveFirstToSecond_Click);
+            this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.OnIntensiveFirstToSecondClick);
             // 
             // m_btnMostIntensiveSecondToFirst
             // 
@@ -157,7 +157,7 @@ namespace VokabelTrainer
             this.m_btnMostIntensiveSecondToFirst.BackgroundImage = null;
             this.m_btnMostIntensiveSecondToFirst.Name = "m_btnMostIntensiveSecondToFirst";
             this.m_btnMostIntensiveSecondToFirst.UseVisualStyleBackColor = true;
-            this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.m_btnMostIntensiveSecondToFirst_Click);
+            this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.OnMostIntensiveSecondToFirstClick);
             // 
             // m_btnMostIntensiveFirstToSecond
             // 
@@ -167,7 +167,7 @@ namespace VokabelTrainer
             this.m_btnMostIntensiveFirstToSecond.BackgroundImage = null;
             this.m_btnMostIntensiveFirstToSecond.Name = "m_btnMostIntensiveFirstToSecond";
             this.m_btnMostIntensiveFirstToSecond.UseVisualStyleBackColor = true;
-            this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.m_btnMostIntensiveFirstToSecond_Click);
+            this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.OnMostIntensiveFirstToSecondClick);
             // 
             // m_lblShowLicense
             // 

@@ -22,6 +22,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Drawing;
 
+
 namespace VokabelTrainer
 {
     //*******************************************************************************************************
@@ -149,6 +150,20 @@ namespace VokabelTrainer
         /// </summary>
         bool m_bSavePossible;
 
+        //===================================================================================================
+        /// <summary>
+        /// The data for total exercises
+        /// </summary>
+        private Dictionary<DateTime, int> m_oTotalGraphData;
+        /// <summary>
+        /// The data for the number or words
+        /// </summary>
+        private Dictionary<DateTime, int> m_oWordsGraphData;
+        /// <summary>
+        /// The data for learned words
+        /// </summary>
+        private Dictionary<DateTime, int> m_oLearnedWordsGraphData;
+
 
         //===================================================================================================
         /// <summary>
@@ -165,6 +180,7 @@ namespace VokabelTrainer
             m_oRnd2 = new Random((((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                 DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond)*365+DateTime.UtcNow.DayOfYear);
             m_cbxReader.SelectedIndex = 0;
+            m_btnStats.Enabled = false;
         }
 
         //===================================================================================================
@@ -199,6 +215,7 @@ namespace VokabelTrainer
 
                 m_lblDontLearnAquire.Enabled = false;
                 m_lblDontLearnAquire.Visible = false;
+                m_btnStats.Enabled = false;
             }
             else
             {
@@ -239,6 +256,8 @@ namespace VokabelTrainer
                     m_lblDontLearnAquire.Enabled = false;
                     m_lblDontLearnAquire.Visible = false;
                 }
+
+                m_btnStats.Enabled = m_oTotalGraphData != null && m_oTotalGraphData.Count > 1;
             }
         }
 
@@ -250,13 +269,17 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnLoadLanguageFile_Click(
+        private void OnLoadLanguageFileClick(
             object oSender, 
             EventArgs oArgs
             )
         {
+            int nTotalCountCorrectAnswers = 0;
+
             m_dlgOpenFileDialog.InitialDirectory = 
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
+                m_dlgOpenFileDialog.DefaultExt = "Vokabeln.xml";
             if (m_dlgOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -318,6 +341,7 @@ namespace VokabelTrainer
                             else
                                 if (nCorrectAnswers < 0)
                                     nCorrectAnswers = 0;
+                            nTotalCountCorrectAnswers += nCorrectAnswers;
                             m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                         } else
                             m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
@@ -345,6 +369,7 @@ namespace VokabelTrainer
                             else
                                 if (nCorrectAnswers < 0)
                                     nCorrectAnswers = 0;
+                            nTotalCountCorrectAnswers += nCorrectAnswers;
                             m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                         } else
                             m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
@@ -429,8 +454,8 @@ namespace VokabelTrainer
                             if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                             {
                                 m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                      -  (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                          m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                      - (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                          m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
 
                                 m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
@@ -447,6 +472,8 @@ namespace VokabelTrainer
                                     else
                                         if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
+
+                                    nTotalCountCorrectAnswers += nCorrectAnswers;
                                     m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                                 }
                                 else
@@ -467,7 +494,7 @@ namespace VokabelTrainer
                             {
                                 m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
                                    - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                      m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0","").Length);
+                                      m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
 
                                 m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
 
@@ -484,6 +511,8 @@ namespace VokabelTrainer
                                     else
                                         if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
+
+                                    nTotalCountCorrectAnswers += nCorrectAnswers;
                                     m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
                                 }
                                 else
@@ -491,6 +520,66 @@ namespace VokabelTrainer
                             }
 
                         }
+
+                        m_oTotalGraphData = new Dictionary<DateTime, int>();
+                        m_oWordsGraphData = new Dictionary<DateTime, int>();
+                        m_oLearnedWordsGraphData = new Dictionary<DateTime, int>();
+
+                        DateTime dtmLastStatsDate = DateTime.MinValue;
+
+                        // load the training stats over time
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zustand"))
+                        {
+                            try
+                            {
+                                DateTime dtmStatsDate = DateTime.Parse(e.SelectSingleNode("datum").InnerText);
+                                int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
+                                int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
+                                int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
+
+                                m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
+                                m_oWordsGraphData[dtmStatsDate] = nNumberWords;
+                                m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
+
+                                if (dtmLastStatsDate < dtmStatsDate)
+                                    dtmLastStatsDate = dtmLastStatsDate;
+                            }
+                            catch
+                            {
+                                // ignore
+                            }
+                        }
+
+                        DateTime dtmStatsDate2 = DateTime.Now.Date;
+                        int nNumberWords2 = m_oFirstToSecond.Keys.Count + m_oSecondToFirst.Keys.Count;
+                        int nNumberErrors2 = m_nTotalNumberOfErrorsFirstLanguage + m_nTotalNumberOfErrorsSecondLanguage;
+
+                        if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
+                        {
+                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+
+                            if (m_oTotalGraphData.Count == 1)
+                            {
+                                m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = nTotalCountCorrectAnswers + nNumberWords2;
+                                m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2;
+                                m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2 - nNumberErrors2;
+                            }
+                        }
+                        else
+                        {
+                            // if same month then remove the old date and put the new stats in last row
+                            m_oTotalGraphData.Remove(dtmLastStatsDate);
+                            m_oWordsGraphData.Remove(dtmLastStatsDate);
+                            m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
+
+
+                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+                        }
+
                     }
                 }
                 catch (Exception ex)
@@ -522,7 +611,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnNewLanguage_Click(
+        private void OnNewLanguageClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -531,8 +620,29 @@ namespace VokabelTrainer
             {
                 if (form.ShowDialog(this) == DialogResult.OK)
                 {
-                    string strNewPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
-                        form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text + ".Vokabeln.xml");
+                    m_oTotalGraphData = new Dictionary<DateTime, int>();
+                    m_oWordsGraphData = new Dictionary<DateTime, int>();
+                    m_oLearnedWordsGraphData = new Dictionary<DateTime, int>();
+
+                    m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = 0;
+                    m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = 0;
+                    m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = 0;
+
+                    m_oTotalGraphData[DateTime.Now.Date] = 0;
+                    m_oWordsGraphData[DateTime.Now.Date] = 0;
+                    m_oLearnedWordsGraphData[DateTime.Now.Date] = 0;
+
+
+                    string strNewPath;
+
+
+                    strNewPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
+                        form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text);
+
+                    if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
+                        strNewPath += ".Vokabeln.xml";
+                    else
+                        strNewPath += ".Vocabulary.xml";
 
                     System.IO.FileInfo fi = new System.IO.FileInfo(strNewPath);
                     if (fi.Exists)
@@ -850,7 +960,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void button3_Click(
+        private void OnExerciseSecondToFirstClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -897,7 +1007,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnIntensiveSecondToFirst_Click(
+        private void OnIntensiveSecondToFirstClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -999,7 +1109,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnMostIntensiveSecondToFirst_Click(
+        private void OnMostIntensiveSecondToFirstClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -1540,6 +1650,17 @@ namespace VokabelTrainer
                                 training.Key.Trim(), training.Value, m_oCorrectSecondLanguage[training.Key], 
                                 spaces[training.Key.Trim().Length]);
                     w.WriteLine();
+                    w.WriteLine();
+                    w.WriteLine("  <!-- Grphen des Trainingsfortschritts -->");
+                    foreach (DateTime dtmGraphPoint in m_oTotalGraphData.Keys)
+                    {
+                        w.WriteLine("  <zustand><datum>{0}</datum><woerter>{1}</woerter><richtige-antworten>{2}</richtige-antworten><fehler>{3}</fehler></zustand>",
+                            dtmGraphPoint.ToString("yyyy-MM-dd"),
+                            m_oWordsGraphData[dtmGraphPoint],
+                            m_oTotalGraphData[dtmGraphPoint] - m_oWordsGraphData[dtmGraphPoint],
+                            m_oWordsGraphData[dtmGraphPoint] - m_oLearnedWordsGraphData[dtmGraphPoint]);
+                    }
+
                     w.WriteLine("</training>");
                     w.Close();
                 }
@@ -1797,7 +1918,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnExerciseFirstToSecond_Click(
+        private void OnExerciseFirstToSecondClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -1845,7 +1966,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnIntensiveFirstToSecond_Click(
+        private void OnIntensiveFirstToSecondClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -1947,7 +2068,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnMostIntensiveFirstToSecond_Click(
+        private void OnMostIntensiveFirstToSecondClick(
             object oSender, 
             EventArgs oArgs
             )
@@ -2712,6 +2833,23 @@ namespace VokabelTrainer
             }
         }
         #endregion
+
+
+        private void OnButtonStatsClick(object sender, MouseEventArgs e)
+        {
+            // Open the graphs window
+            GraphsForm graphsForm = new GraphsForm(
+                m_oTotalGraphData,
+                m_oWordsGraphData,
+                m_oLearnedWordsGraphData
+                );
+            graphsForm.Show();
+        }
+
+        private void m_tbxESpeakPath_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
 
     }

@@ -309,9 +309,6 @@
   <data name="&gt;&gt;m_btnMostIntensiveSecondToFirst.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -327,8 +324,8 @@
   <data name="&gt;&gt;m_chkUseESpeak.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_lblReader.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 266</value>
   </data>
   <data name="m_btnEnterVocabulary.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 61</value>
@@ -533,11 +530,11 @@
   <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <data name="m_btnStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 266</value>
-  </data>
   <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 216</value>
   </data>
   <data name="m_btnNewLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -629,8 +626,8 @@
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>293, 273</value>
   </data>
-  <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 216</value>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 246</value>
@@ -727,6 +724,9 @@
   </data>
   <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
     <value>m_btnShowDesktopKeyboard</value>
+  </data>
+  <data name="m_lblReader.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
     <value>m_lblShowAbout</value>
