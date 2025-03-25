@@ -2409,6 +2409,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=irrational+exuberance");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=Death+of+Stalin");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=The+dictator+dvd");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=inception+dvd");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=matrix+dvd");
 
                     // for german speakers: Witch huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
