@@ -2419,6 +2419,13 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=matrix+dvd");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
 
+                    // also sometimes add the business dynamics sometimes that is probably useful only 
+                    // for a small percentage of users
+                    if (m_oRnd.Next(10) == 7)
+                    {
+                        oResult.Add(@"https://www.amazon.co.uk/s?k=business+dynamics+sterman");
+                    }
+
                     // for german speakers: Witch huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
                     {
