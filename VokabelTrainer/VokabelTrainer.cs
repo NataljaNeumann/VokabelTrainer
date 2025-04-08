@@ -2329,6 +2329,12 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.de/s?k=glutenfreie+rezepte");
                     oResult.Add(@"https://www.amazon.de/s?k=laktosefreie+rezepte");
                     oResult.Add(@"https://www.amazon.de/s?k=low+carb+ngv");
+
+                    // sometimes also add the critical book
+                    if (m_oRnd.Next(10) == 7)
+                    {
+                        oResult.Add(@"https://www.amazon.de/s?k=die+kunst+der+ehezerr%C3%BCttung");
+                    }
                 }
             }
 
