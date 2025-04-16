@@ -2414,6 +2414,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=the+intelligent+investor+by+benjamin+graham");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=the+wealth+of+nations");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=irrational+exuberance");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=Mary+Buffett");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=Death+of+Stalin");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=The+dictator+dvd");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=inception+dvd");
