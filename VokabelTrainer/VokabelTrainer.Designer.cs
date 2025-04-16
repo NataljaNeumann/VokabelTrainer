@@ -246,7 +246,6 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_tbxESpeakPath, "m_tbxESpeakPath");
             this.m_tbxESpeakPath.BackgroundImage = null;
             this.m_tbxESpeakPath.Name = "m_tbxESpeakPath";
-            this.m_tbxESpeakPath.TextChanged += new System.EventHandler(this.m_tbxESpeakPath_TextChanged);
             // 
             // m_btnSearchESpeak
             // 

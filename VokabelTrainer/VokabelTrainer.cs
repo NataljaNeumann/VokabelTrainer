@@ -2852,8 +2852,14 @@ namespace VokabelTrainer
         }
         #endregion
 
-
-        private void OnButtonStatsClick(object sender, MouseEventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks the Stats button
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void OnButtonStatsClick(object oSender, MouseEventArgs oArgs)
         {
             // Open the graphs window
             GraphsForm graphsForm = new GraphsForm(
@@ -2862,11 +2868,6 @@ namespace VokabelTrainer
                 m_oLearnedWordsGraphData
                 );
             graphsForm.Show();
-        }
-
-        private void m_tbxESpeakPath_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
 
