@@ -173,7 +173,7 @@ namespace VokabelTrainer
         public VokabelTrainer()
         {
             InitializeComponent();
-            ReadyToUseImageInjection("VokabelTrainerMainHeader.jpg");
+
             // init random with current time
             m_oRnd = new Random(((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                 DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond);
@@ -181,6 +181,30 @@ namespace VokabelTrainer
                 DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond)*365+DateTime.UtcNow.DayOfYear);
             m_cbxReader.SelectedIndex = 0;
             m_btnStats.Enabled = false;
+
+            // Variations of main header, depending on dates, let's start with easter, other will follow
+            DateTime dtmNow = DateTime.Now;
+            if (dtmNow >= GetEasterStart() && dtmNow < GetEasterEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\EasterHeader.jpg"))
+                    return;
+            };
+
+            if (dtmNow >= GetChristmasStart() && dtmNow < GetChristmasEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ChristmasHeader.jpg"))
+                    return;
+            };
+
+            if (dtmNow >= GetNewYearStart() || dtmNow < GetNewYearEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\NewYearHeader.jpg"))
+                    return;
+            };
+
+
+            // If there is no special header, then use default
+            ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
         }
 
         //===================================================================================================
@@ -2760,7 +2784,7 @@ namespace VokabelTrainer
         /// </summary>
         /// <param name="strName">Name of the image, without directory specifications</param>
         //===================================================================================================
-        private void ReadyToUseImageInjection(string strImageName)
+        private bool ReadyToUseImageInjection(string strImageName)
         {
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
             if (System.IO.File.Exists(strImagePath))
@@ -2779,6 +2803,11 @@ namespace VokabelTrainer
                 LoadAndResizeImage(strImagePath);
 
                 this.Resize += new EventHandler(ResizeImageAlongWithForm);
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
@@ -2870,6 +2899,136 @@ namespace VokabelTrainer
             graphsForm.Show();
         }
 
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the day of eastern for current year
+        /// </summary>
+        /// <returns>The day of eastern sunday</returns>
+        //===================================================================================================
+        static DateTime GetEasterSunday()
+        {
+            int nYear = System.DateTime.Now.Year;
+
+            int a = nYear % 19;
+            int b = nYear / 100;
+            int c = nYear % 100;
+            int d = b / 4;
+            int e = b % 4;
+            int f = (b + 8) / 25;
+            int g = (b - f + 1) / 3;
+            int h = (19 * a + b - d - g + 15) % 30;
+            int i = c / 4;
+            int k = c % 4;
+            int l = (32 + 2 * e + 2 * i - h - k) % 7;
+            int m = (a + 11 * h + 22 * l) / 451;
+            int month = (h + l - 7 * m + 114) / 31;
+            int day = ((h + l - 7 * m + 114) % 31) + 1;
+
+            return new DateTime(nYear, month, day);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the day of eastern for current year
+        /// </summary>
+        /// <returns>The day of eastern sunday</returns>
+        //===================================================================================================
+        static DateTime GetEasterStart()
+        {
+            return GetEasterSunday().AddDays(-3);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the day of eastern for current year
+        /// </summary>
+        /// <returns>The day of eastern sunday</returns>
+        //===================================================================================================
+        static DateTime GetEasterEnd()
+        {
+            return GetEasterSunday().AddDays(+2);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets approximate ramadan start data
+        /// </summary>
+        /// <returns>The start or ramadan heading</returns>
+        //===================================================================================================
+        static DateTime GetRamadanStart()
+        {
+            int year = System.DateTime.Now.Year;
+
+            double shiftPerYear = -10.875;
+            double totalShift = (year - 2024) * shiftPerYear; // Compute precise total shift
+
+            int roundedShift = (int)Math.Round(totalShift); // Round the result to nearest integer
+
+            DateTime referenceRamadan2024 = new DateTime(2024, 3, 11); // Approximate start in 2024
+            DateTime estimatedRamadan = referenceRamadan2024.AddDays(roundedShift); // Apply rounded shift
+
+            return estimatedRamadan;
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets a date for end of showing ramadan header
+        /// </summary>
+        /// <returns>5 days after start of ramadan header</returns>
+        //===================================================================================================
+        static DateTime GetRamadanEnd()
+        {
+            return GetRamadanStart().AddDays(5);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of christmas header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetChristmasStart()
+        {
+            return new DateTime(DateTime.Now.Year, 12, 22);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of christmas header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetChristmasEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 12, 27);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// The New Years eve header start date
+        /// </summary>
+        /// <returns>Last day of the year</returns>
+        //===================================================================================================
+        static DateTime GetNewYearStart()
+        {
+            return new DateTime(DateTime.Now.Year, 12, 31);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// The New Years eve header start date
+        /// </summary>
+        /// <returns>Last day of the year</returns>
+        //===================================================================================================
+        static DateTime GetNewYearEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 1, 2);
+        }
 
     }
 }

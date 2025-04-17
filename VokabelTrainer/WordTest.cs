@@ -38,7 +38,7 @@ namespace VokabelTrainer
         public WordTest()
         {
             InitializeComponent();
-            ReadyToUseImageInjection("WordTestHeader.jpg");
+            ReadyToUseImageInjection("Images\\WordTestHeader.jpg");
         }
 
 

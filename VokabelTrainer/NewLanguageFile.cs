@@ -38,7 +38,7 @@ namespace VokabelTrainer
         public NewLanguageFile()
         {
             InitializeComponent();
-            ReadyToUseImageInjection("NewLanguageFileHeader.jpg");
+            ReadyToUseImageInjection("Images\\NewLanguageFileHeader.jpg");
             if (string.IsNullOrEmpty(m_tbxFirstLanguage.Text) &&
                 string.IsNullOrEmpty(m_tbxSecondLanguage.Text))
             {
