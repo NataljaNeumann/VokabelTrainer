@@ -164,6 +164,24 @@ namespace VokabelTrainer
         /// </summary>
         private SortedDictionary<DateTime, int> m_oLearnedWordsGraphData;
 
+        //===================================================================================================
+        /// <summary>
+        /// Ramadan start dates
+        /// </summary>
+        private static readonly Dictionary<int, DateTime> s_oRamadanStartDates = new Dictionary<int, DateTime>
+        {
+            { 2025, new DateTime(2025, 3, 1) },
+            { 2026, new DateTime(2026, 2, 18) },
+            { 2027, new DateTime(2027, 2, 8) },
+            { 2028, new DateTime(2028, 1, 28) },
+            { 2029, new DateTime(2029, 1, 16) },
+            { 2030, new DateTime(2030, 1, 5) },
+            { 2031, new DateTime(2031, 12, 15) },
+            { 2032, new DateTime(2032, 12, 4) },
+            { 2033, new DateTime(2033, 11, 23) },
+            { 2034, new DateTime(2034, 11, 12) },
+            { 2035, new DateTime(2035, 11, 1) }
+        };
 
         //===================================================================================================
         /// <summary>
@@ -190,18 +208,26 @@ namespace VokabelTrainer
                     return;
             };
 
+            // christmas
             if (dtmNow >= GetChristmasStart() && dtmNow < GetChristmasEnd())
             {
                 if (ReadyToUseImageInjection("Images\\ChristmasHeader.jpg"))
                     return;
             };
 
+            // new year
             if (dtmNow >= GetNewYearStart() || dtmNow < GetNewYearEnd())
             {
                 if (ReadyToUseImageInjection("Images\\NewYearHeader.jpg"))
                     return;
             };
 
+            // ramadan
+            if (dtmNow >= GetRamadanStart() && dtmNow < GetRamadanEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\RamadanHeader.jpg"))
+                    return;
+            };
 
             // If there is no special header, then use default
             ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
@@ -2953,6 +2979,7 @@ namespace VokabelTrainer
         }
 
 
+
         //===================================================================================================
         /// <summary>
         /// Gets approximate ramadan start data
@@ -2961,17 +2988,22 @@ namespace VokabelTrainer
         //===================================================================================================
         static DateTime GetRamadanStart()
         {
-            int year = System.DateTime.Now.Year;
+            int nYear = System.DateTime.Now.Year;
 
-            double shiftPerYear = -10.875;
-            double totalShift = (year - 2024) * shiftPerYear; // Compute precise total shift
+            // if there is a ready date then use it
+            if (s_oRamadanStartDates.ContainsKey(nYear))
+                return s_oRamadanStartDates[nYear];
 
-            int roundedShift = (int)Math.Round(totalShift); // Round the result to nearest integer
+            // in other case estimate it
+            double dblShiftPerYear = -10.875;
+            double dblTotalShift = (nYear - 2035) * dblShiftPerYear;
 
-            DateTime referenceRamadan2024 = new DateTime(2024, 3, 11); // Approximate start in 2024
-            DateTime estimatedRamadan = referenceRamadan2024.AddDays(roundedShift); // Apply rounded shift
+            int nRoundedShift = (int)Math.Round(dblTotalShift);
 
-            return estimatedRamadan;
+            DateTime dtmReferenceRamadan2035 = new DateTime(2035, 11, 1);
+            DateTime dtmEstimatedRamadan = dtmReferenceRamadan2035.AddDays(nRoundedShift); 
+
+            return dtmEstimatedRamadan;
         }
 
 
