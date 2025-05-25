@@ -2235,6 +2235,9 @@
     <Content Include="Images\ChristmasHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\DiwaliHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\EasterHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

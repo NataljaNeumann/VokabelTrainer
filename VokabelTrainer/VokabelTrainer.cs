@@ -183,6 +183,26 @@ namespace VokabelTrainer
             { 2035, new DateTime(2035, 11, 1) }
         };
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Predefined Diwali dates (using Hindu lunar calendar)
+        /// </summary> 
+        private static readonly Dictionary<int, DateTime> s_oDiwaliDates = new Dictionary<int, DateTime>
+        {
+            { 2025, new DateTime(2025, 10, 21) },
+            { 2026, new DateTime(2026, 11, 9) },
+            { 2027, new DateTime(2027, 10, 29) },
+            { 2028, new DateTime(2028, 10, 17) },
+            { 2029, new DateTime(2029, 11, 5) },
+            { 2030, new DateTime(2030, 10, 26) },
+            { 2031, new DateTime(2031, 10, 15) },
+            { 2032, new DateTime(2032, 11, 2) },
+            { 2033, new DateTime(2033, 10, 23) },
+            { 2034, new DateTime(2034, 11, 11) }
+        };
+
+
         //===================================================================================================
         /// <summary>
         /// Constructs a new vocabulary trainer object
@@ -200,7 +220,7 @@ namespace VokabelTrainer
             m_cbxReader.SelectedIndex = 0;
             m_btnStats.Enabled = false;
 
-            // Variations of main header, depending on dates, let's start with easter, other will follow
+            // Variations of main header, depending on dates, let's start with Easter, other will follow
             DateTime dtmNow = DateTime.Now;
             if (dtmNow >= GetEasterStart() && dtmNow < GetEasterEnd())
             {
@@ -208,26 +228,35 @@ namespace VokabelTrainer
                     return;
             };
 
-            // christmas
+            // Christmas
             if (dtmNow >= GetChristmasStart() && dtmNow < GetChristmasEnd())
             {
                 if (ReadyToUseImageInjection("Images\\ChristmasHeader.jpg"))
                     return;
             };
 
-            // new year
+            // New year
             if (dtmNow >= GetNewYearStart() || dtmNow < GetNewYearEnd())
             {
                 if (ReadyToUseImageInjection("Images\\NewYearHeader.jpg"))
                     return;
             };
 
-            // ramadan
+            // Ramadan
             if (dtmNow >= GetRamadanStart() && dtmNow < GetRamadanEnd())
             {
                 if (ReadyToUseImageInjection("Images\\RamadanHeader.jpg"))
                     return;
             };
+
+
+            // Divali
+            if (dtmNow >= GetDiwaliStart() && dtmNow < GetDiwaliEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\DiwaliHeader.jpg"))
+                    return;
+            };
+
 
             // If there is no special header, then use default
             ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
@@ -3007,6 +3036,8 @@ namespace VokabelTrainer
         }
 
 
+
+
         //===================================================================================================
         /// <summary>
         /// Gets a date for end of showing ramadan header
@@ -3053,7 +3084,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// The New Years eve header start date
+        /// The New Years eve header end date
         /// </summary>
         /// <returns>Last day of the year</returns>
         //===================================================================================================
@@ -3062,5 +3093,40 @@ namespace VokabelTrainer
             return new DateTime(DateTime.Now.Year, 1, 2);
         }
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimate Diwali dates after known data
+        /// </summary>
+        /// <returns>The diwali staart date for current year</returns>
+        //===================================================================================================
+        public static DateTime GetDiwaliStart()
+        {
+            int nYear = System.DateTime.Now.Year;
+
+            if (s_oDiwaliDates.ContainsKey(nYear))
+            {
+                return s_oDiwaliDates[nYear].AddDays(-2);
+            }
+            else
+            {
+                // Estimate based on past trends (Diwali usually falls between October and November)
+                int nEstimatedMonth = (nYear % 3 == 0) ? 10 : 11; // Alternating between Oct and Nov
+                int nEstimatedDay = 20 + (nYear % 5); // Rough day estimation
+                return new DateTime(nYear, nEstimatedMonth, nEstimatedDay);
+            }
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimate Diwali dates after known data
+        /// </summary>
+        /// <returns>The diwali staart date for current year</returns>
+        //===================================================================================================
+        public static DateTime GetDiwaliEnd()
+        {
+            return GetDiwaliStart().AddDays(5);
+        }
     }
 }
