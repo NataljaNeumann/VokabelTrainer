@@ -234,6 +234,25 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
+        /// Known Hajj dates for 2025–2034
+        /// </summary>
+        private static Dictionary<int, DateTime> s_oKnownHajjDates = new Dictionary<int, DateTime>
+        {
+            { 2025, new DateTime(2025, 6, 5) },
+            { 2026, new DateTime(2026, 5, 26) },
+            { 2027, new DateTime(2027, 5, 16) },
+            { 2028, new DateTime(2028, 5, 5) },
+            { 2029, new DateTime(2029, 4, 24) },
+            { 2030, new DateTime(2030, 4, 14) },
+            { 2031, new DateTime(2031, 4, 3) },
+            { 2032, new DateTime(2032, 3, 23) },
+            { 2033, new DateTime(2033, 3, 12) },
+            { 2034, new DateTime(2034, 3, 2) }
+        };
+
+
+        //===================================================================================================
+        /// <summary>
         /// Constructs a new vocabulary trainer object
         /// </summary>
         //===================================================================================================
@@ -290,6 +309,21 @@ namespace VokabelTrainer
             if (dtmNow >= GetChineseNewYearStart() && dtmNow < GetChineseNewYearEnd())
             {
                 if (ReadyToUseImageInjection("Images\\ChineseNewYearHeader.jpg"))
+                    return;
+            };
+
+            // Orthodox Christmas
+            if (dtmNow >= GetOrthodoxChristmasStart() && dtmNow < GetOrthodoxChristmasEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\OrthodoxChristmasHeader.jpg"))
+                    return;
+            };
+
+
+            // Muslim Hajj pilgrimage
+            if (dtmNow >= GetHajjStart() && dtmNow < GetHajjEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\HajjHeader.jpg"))
                     return;
             };
 
@@ -3066,7 +3100,9 @@ namespace VokabelTrainer
             int nRoundedShift = (int)Math.Round(dblTotalShift);
 
             DateTime dtmReferenceRamadan2035 = new DateTime(2035, 11, 1);
-            DateTime dtmEstimatedRamadan = dtmReferenceRamadan2035.AddDays(nRoundedShift); 
+            DateTime dtmTemp = dtmReferenceRamadan2035.AddDays(nRoundedShift);
+            DateTime dtmEstimatedRamadan = new DateTime(
+                System.DateTime.Now.Year, dtmTemp.Month, dtmTemp.Day);
 
             return dtmEstimatedRamadan;
         }
@@ -3106,6 +3142,26 @@ namespace VokabelTrainer
             return new DateTime(DateTime.Now.Year, 12, 27);
         }
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of orthodox christmas header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOrthodoxChristmasStart()
+        {
+            return new DateTime(DateTime.Now.Year, 1, 5);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of orthodox christmas header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOrthodoxChristmasEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 1, 9);
+        }
 
         //===================================================================================================
         /// <summary>
@@ -3205,6 +3261,50 @@ namespace VokabelTrainer
         public static DateTime GetChineseNewYearEnd()
         {
             return GetChineseNewYearStart().AddDays(5);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Returns the beginning of Hajj Header start
+        /// </summary>
+        /// <returns>Start of Hajj header</returns>
+        //===================================================================================================
+        static DateTime GetHajjStart()
+        {
+
+            int nYear = System.DateTime.Now.Year;
+
+            // If year is within known dates, return exact date
+            if (s_oKnownHajjDates.ContainsKey(nYear))
+            {
+                return s_oKnownHajjDates[nYear].AddDays(-2);
+            }
+
+            // in other case estimate it
+            double dblShiftPerYear = -10.875;
+            double dblTotalShift = (nYear - 2035) * dblShiftPerYear;
+
+            int nRoundedShift = (int)Math.Round(dblTotalShift);
+
+            DateTime dtmReferenceHajj2035 = new DateTime(2034, 3, 2);
+            DateTime dtmTemp = dtmReferenceHajj2035.AddDays(nRoundedShift);
+            DateTime dtmEstimatedHajj = new DateTime(
+                System.DateTime.Now.Year, dtmTemp.Month, dtmTemp.Day);
+
+            return dtmEstimatedHajj.AddDays(-2);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Returns the end of Hajj Header 
+        /// </summary>
+        /// <returns>End of Hajj header</returns>
+        //===================================================================================================
+        static DateTime GetHajjEnd()
+        {
+            return GetHajjStart().AddDays(5);
         }
 
 
