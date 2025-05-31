@@ -2232,6 +2232,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\ChineseNewYearHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\ChristmasHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

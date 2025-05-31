@@ -205,6 +205,35 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
+        /// Exact known Chinese New Year dates 2025..2044
+        /// </summary>
+        private static Dictionary<int, DateTime> s_oChineseNewYearDates = new Dictionary<int, DateTime>
+        {
+            { 2025, new DateTime(2025, 1, 29) },
+            { 2026, new DateTime(2026, 2, 17) },
+            { 2027, new DateTime(2027, 2, 6) },
+            { 2028, new DateTime(2028, 1, 26) },
+            { 2029, new DateTime(2029, 2, 13) },
+            { 2030, new DateTime(2030, 2, 2) },
+            { 2031, new DateTime(2031, 1, 22) },
+            { 2032, new DateTime(2032, 2, 10) },
+            { 2033, new DateTime(2033, 1, 29) },
+            { 2034, new DateTime(2034, 2, 18) },
+            { 2035, new DateTime(2035, 2, 7) },
+            { 2036, new DateTime(2036, 1, 28) },
+            { 2037, new DateTime(2037, 2, 15) },
+            { 2038, new DateTime(2038, 2, 4) },
+            { 2039, new DateTime(2039, 1, 24) },
+            { 2040, new DateTime(2040, 2, 12) },
+            { 2041, new DateTime(2041, 2, 1) },
+            { 2042, new DateTime(2042, 1, 22) },
+            { 2043, new DateTime(2043, 2, 10) },
+            { 2044, new DateTime(2044, 1, 30) }
+        };
+
+
+        //===================================================================================================
+        /// <summary>
         /// Constructs a new vocabulary trainer object
         /// </summary>
         //===================================================================================================
@@ -250,10 +279,17 @@ namespace VokabelTrainer
             };
 
 
-            // Divali
+            // Diwali (Hindu Light celebration for truth winning over lies)
             if (dtmNow >= GetDiwaliStart() && dtmNow < GetDiwaliEnd())
             {
                 if (ReadyToUseImageInjection("Images\\DiwaliHeader.jpg"))
+                    return;
+            };
+
+            // Chinese new year
+            if (dtmNow >= GetChineseNewYearStart() && dtmNow < GetChineseNewYearEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ChineseNewYearHeader.jpg"))
                     return;
             };
 
@@ -3098,7 +3134,7 @@ namespace VokabelTrainer
         /// <summary>
         /// Estimate Diwali dates after known data
         /// </summary>
-        /// <returns>The diwali staart date for current year</returns>
+        /// <returns>The diwali start date for current year</returns>
         //===================================================================================================
         public static DateTime GetDiwaliStart()
         {
@@ -3113,7 +3149,7 @@ namespace VokabelTrainer
                 // Estimate based on past trends (Diwali usually falls between October and November)
                 int nEstimatedMonth = (nYear % 3 == 0) ? 10 : 11; // Alternating between Oct and Nov
                 int nEstimatedDay = 20 + (nYear % 5); // Rough day estimation
-                return new DateTime(nYear, nEstimatedMonth, nEstimatedDay);
+                return new DateTime(nYear, nEstimatedMonth, nEstimatedDay).AddDays(-2);
             }
         }
 
@@ -3122,11 +3158,55 @@ namespace VokabelTrainer
         /// <summary>
         /// Estimate Diwali dates after known data
         /// </summary>
-        /// <returns>The diwali staart date for current year</returns>
+        /// <returns>The diwali end date for current year</returns>
         //===================================================================================================
         public static DateTime GetDiwaliEnd()
         {
             return GetDiwaliStart().AddDays(5);
         }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimates the chinese new year dates
+        /// </summary>
+        /// <returns>The start of chinese new year header</returns>
+        //===================================================================================================
+        public static DateTime GetChineseNewYearStart()
+        {
+            int nYear = System.DateTime.Now.Year;
+
+            // if after the last year then shift back using 19 year meton cycle
+            while (nYear > 2044)
+                nYear -= 19;
+
+            // if before the first year then shift forward using 19 year meton cycle
+            while (nYear < 2025)
+                nYear += 19;
+
+            // if known then return exact date
+            if (s_oChineseNewYearDates.ContainsKey(nYear))
+            {
+                DateTime dtmKnown = s_oChineseNewYearDates[nYear];
+                return new DateTime(System.DateTime.Now.Year, dtmKnown.Month, dtmKnown.Day).AddDays(-2);
+            }
+
+            // now known? that's strange! return something
+            return new DateTime(System.DateTime.Now.Year, 1, 29);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimates the chinese new year dates
+        /// </summary>
+        /// <returns>The start of chinese new year header</returns>
+        //===================================================================================================
+        public static DateTime GetChineseNewYearEnd()
+        {
+            return GetChineseNewYearStart().AddDays(5);
+        }
+
+
     }
 }
