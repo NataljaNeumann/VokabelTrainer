@@ -370,7 +370,7 @@ namespace VokabelTrainer
                     return;
             };
 
-            // Japanese children celebration and korean buddha birthday celebration 
+            // Japanese children celebration and Korean Buddha birthday celebration 
             if (dtmNow >= GetChildrenAndBuddhaStart() && dtmNow < GetChildrenAndBuddhaEnd())
             {
                 if (ReadyToUseImageInjection("Images\\ChildrenAndBuddhaHeader.jpg"))
