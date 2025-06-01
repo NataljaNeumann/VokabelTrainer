@@ -253,6 +253,34 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
+        /// Exact dates of Rosh Hashanah
+        /// </summary>
+        private static readonly Dictionary<int, DateTime> s_oRoshHashanahDates = new Dictionary<int, DateTime>
+        {
+            {2025, new DateTime(2025, 9, 22)},
+            {2026, new DateTime(2026, 9, 11)},
+            {2027, new DateTime(2027, 10, 1)},
+            {2028, new DateTime(2028, 9, 20)},
+            {2029, new DateTime(2029, 9, 9)},
+            {2030, new DateTime(2030, 9, 28)},
+            {2031, new DateTime(2031, 9, 18)},
+            {2032, new DateTime(2032, 9, 6)},
+            {2033, new DateTime(2033, 9, 24)},
+            {2034, new DateTime(2034, 9, 14)},
+            {2035, new DateTime(2035, 10, 4)},
+            {2036, new DateTime(2036, 9, 22)},
+            {2037, new DateTime(2037, 9, 11)},
+            {2038, new DateTime(2038, 10, 1)},
+            {2039, new DateTime(2039, 9, 21)},
+            {2040, new DateTime(2040, 9, 10)},
+            {2041, new DateTime(2041, 9, 28)},
+            {2042, new DateTime(2042, 9, 18)},
+            {2043, new DateTime(2043, 9, 6)},
+            {2044, new DateTime(2044, 9, 24)}
+        };
+
+        //===================================================================================================
+        /// <summary>
         /// Constructs a new vocabulary trainer object
         /// </summary>
         //===================================================================================================
@@ -327,6 +355,27 @@ namespace VokabelTrainer
                     return;
             };
 
+
+            // Rosh Hashanah (Israeli new year) 
+            if (dtmNow >= GetRoshHashanahStart() && dtmNow < GetRoshHashanahEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\RoshHashanahHeader.jpg"))
+                    return;
+            };
+
+            // Halloween 
+            if (dtmNow >= GetHalloweenStart() && dtmNow < GetHalloweenEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\HalloweenHeader.jpg"))
+                    return;
+            };
+
+            // Japanese children celebration and korean buddha birthday celebration 
+            if (dtmNow >= GetChildrenAndBuddhaStart() && dtmNow < GetChildrenAndBuddhaEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ChildrenAndBuddhaHeader.jpg"))
+                    return;
+            };
 
             // If there is no special header, then use default
             ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
@@ -3307,6 +3356,88 @@ namespace VokabelTrainer
             return GetHajjStart().AddDays(5);
         }
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of Halloween
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetHalloweenStart()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 26);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of Halloween header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetHalloweenEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 2);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of Halloween
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetChildrenAndBuddhaStart()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 2);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of Halloween header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetChildrenAndBuddhaEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 6);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimates the Rosh Hashanah Israeli new year dates
+        /// </summary>
+        /// <returns>The start of Rosh Hashanah Israeli new year header</returns>
+        //===================================================================================================
+        public static DateTime GetRoshHashanahStart()
+        {
+            int nYear = System.DateTime.Now.Year;
+
+            // if after the last year then shift back using 19 year meton cycle
+            while (nYear > 2044)
+                nYear -= 19;
+
+            // if before the first year then shift forward using 19 year meton cycle
+            while (nYear < 2025)
+                nYear += 19;
+
+            // if known then return exact date
+            if (s_oRoshHashanahDates.ContainsKey(nYear))
+            {
+                DateTime dtmKnown = s_oRoshHashanahDates[nYear];
+                return new DateTime(System.DateTime.Now.Year, dtmKnown.Month, dtmKnown.Day).AddDays(-4);
+            }
+
+            // now known? that's strange! return something
+            return new DateTime(System.DateTime.Now.Year, 9, 20);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Estimates the Rosh Hashanah Israeli new year dates
+        /// </summary>
+        /// <returns>The end of Rosh Hashanah Israeli new year header</returns>
+        //===================================================================================================
+        public static DateTime GetRoshHashanahEnd()
+        {
+            return GetRoshHashanahStart().AddDays(5);
+        }
 
     }
 }
