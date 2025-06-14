@@ -2631,6 +2631,54 @@ namespace VokabelTrainer
                     {
                         oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+englisch");
                     }
+
+                    // for language speakers that aren't muslim add visionary christian songs with lyrics
+                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    {
+                        case "he":
+                            oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
+                            goto case "de";
+                        case "de":
+                        case "fr":
+                        case "es":
+                        case "pt":
+                        case "it":
+                        case "po":
+                        case "af":
+                        case "am":
+                        case "bg":
+                        case "bs":
+                        case "ca":
+                        case "el":
+                        case "fi":
+                        case "hi":
+                        case "zh":
+                        case "hr":
+                        case "uk":
+                        case "ru":
+                        case "hy":
+                        case "ig":
+                        case "is":
+                        case "ka":
+                        case "km":
+                        case "ko":
+                        case "lt":
+                        case "lv":
+                        case "mk":
+                        case "mn":
+                        case "ro":
+                        case "sk":
+                        case "sl":
+                        case "so":
+                        case "sr":
+                        case "sv":
+                        case "th":
+                        case "vi":
+                        case "wo":
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/results?search_query=divine+harmony+choir+lyrics");
+                            break;
+                    }
                 }
             }
 
