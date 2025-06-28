@@ -279,6 +279,33 @@ namespace VokabelTrainer
             {2044, new DateTime(2044, 9, 24)}
         };
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Results of Pow Calculation
+        /// </summary>
+        private static readonly Dictionary<KeyValuePair<int, double>, double> s_oPowResults =
+            new Dictionary<KeyValuePair<int, double>, double>();
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates Power of x to y. Reuses already known results.
+        /// </summary>
+        /// <param name="nX">x</param>
+        /// <param name="dblY">y</param>
+        /// <returns>Power of x to y</returns>
+        //===================================================================================================
+        static double Pow(int nX, double dblY)
+        {
+            KeyValuePair<int,double> oKey = new KeyValuePair<int,double>(nX,dblY);
+            if (s_oPowResults.ContainsKey(oKey))
+                return s_oPowResults[oKey];
+
+            return s_oPowResults[oKey] = Math.Pow(nX, dblY);
+        }
+
+
         //===================================================================================================
         /// <summary>
         /// Constructs a new vocabulary trainer object
@@ -1253,41 +1280,80 @@ namespace VokabelTrainer
                     m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-
-                    // calculate mean of correct answers
-                    long lTotal = 0;
-                    foreach (int i in m_oCorrectSecondLanguage.Values)
-                        lTotal += i;
-
-                    int nMean = (int)((lTotal+m_oCorrectSecondLanguage.Count/2) / m_oCorrectSecondLanguage.Count);
-
-                    // now calculate the sum of weights of all words
-                    int nTotalWeights = 0;
-                    foreach (int i in m_oCorrectSecondLanguage.Values)
+                    // with few words as before, based on the mean
+                    if (m_oCorrectSecondLanguage.Count < 300)
                     {
-                        int nWeight = (i > nMean + 3) ? 0 : (nMean + 3 - i)*(nMean + 3 - i);
-                        nTotalWeights += nWeight;
-                    };
+                        // calculate mean of correct answers
+                        long lTotal = 0;
+                        foreach (int i in m_oCorrectSecondLanguage.Values)
+                            lTotal += i;
 
-                    int nSelectedWeight = nRnd2 % nTotalWeights;
+                        int nMean = (int)((lTotal + m_oCorrectSecondLanguage.Count / 2) / m_oCorrectSecondLanguage.Count);
 
-                    int nWordIndex = -1;
-                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
-                        m_oCorrectSecondLanguage.Values.GetEnumerator())
-                    {
-                        while (nSelectedWeight >= 0 && values.MoveNext())
+                        // now calculate the sum of weights of all words
+                        int nTotalWeights = 0;
+                        foreach (int i in m_oCorrectSecondLanguage.Values)
                         {
-                            nWordIndex += 1;
+                            int nWeight = (i >= nMean + 3) ? 0 : (nMean + 3 - i) * (nMean + 3 - i);
+                            nTotalWeights += nWeight;
+                        };
 
-                            int nWeight = (values.Current > nMean + 3) ? 0 : 
-                                (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
+                        int nSelectedWeight = nRnd2 % nTotalWeights;
 
-                            nSelectedWeight -= nWeight;
+                        int nWordIndex = -1;
+                        using (SortedDictionary<string, int>.ValueCollection.Enumerator values =
+                            m_oCorrectSecondLanguage.Values.GetEnumerator())
+                        {
+                            while (nSelectedWeight >= 0 && values.MoveNext())
+                            {
+                                nWordIndex += 1;
+
+                                int nWeight = (values.Current >= nMean + 3) ? 0 :
+                                    (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
+
+                                nSelectedWeight -= nWeight;
+                            }
+
+                            m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+
+                            bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                         }
+                    }
+                    else
+                    {
+                        // with many words - based on the equalizing power
+                        // the formula equalizes the probability of 50 half as much trained words
+                        // with the equally trained rest
+                        double dblPower = Math.Log(50.0 / (m_oCorrectSecondLanguage.Values.Count-50), 2.0);
 
-                        m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+                        // now calculate the sum of weights of all words
+                        double dblTotalWeights = 0;
+                        foreach (int i in m_oCorrectSecondLanguage.Values)
+                        {
+                            double dblWeight = Pow(i+1, dblPower);
+                            dblTotalWeights += dblWeight;
+                        };
 
-                        bRepeat = TrainSecondToFirstLanguage(nWordIndex);
+
+                        double dblSelectedWeight = nRnd2 * dblTotalWeights / int.MaxValue;
+
+                        int nWordIndex = -1;
+                        using (SortedDictionary<string, int>.ValueCollection.Enumerator values =
+                            m_oCorrectSecondLanguage.Values.GetEnumerator())
+                        {
+                            while (dblSelectedWeight >= 0 && values.MoveNext())
+                            {
+                                nWordIndex += 1;
+
+                                double dblWeight = Pow(values.Current+1, dblPower);
+
+                                dblSelectedWeight -= dblWeight;
+                            }
+
+                            m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+
+                            bRepeat = TrainSecondToFirstLanguage(nWordIndex);
+                        }
                     }
 
                     /*
@@ -1849,14 +1915,17 @@ namespace VokabelTrainer
                                 spaces[training.Key.Trim().Length]);
                     w.WriteLine();
                     w.WriteLine();
-                    w.WriteLine("  <!-- Grphen des Trainingsfortschritts -->");
-                    foreach (DateTime dtmGraphPoint in m_oTotalGraphData.Keys)
+                    w.WriteLine("  <!-- Graphen des Trainingsfortschritts -->");
+                    if (m_oTotalGraphData != null)
                     {
-                        w.WriteLine("  <zustand><datum>{0}</datum><woerter>{1}</woerter><richtige-antworten>{2}</richtige-antworten><fehler>{3}</fehler></zustand>",
-                            dtmGraphPoint.ToString("yyyy-MM-dd"),
-                            m_oWordsGraphData[dtmGraphPoint],
-                            m_oTotalGraphData[dtmGraphPoint] - m_oWordsGraphData[dtmGraphPoint],
-                            m_oWordsGraphData[dtmGraphPoint] - m_oLearnedWordsGraphData[dtmGraphPoint]);
+                        foreach (DateTime dtmGraphPoint in m_oTotalGraphData.Keys)
+                        {
+                            w.WriteLine("  <zustand><datum>{0}</datum><woerter>{1}</woerter><richtige-antworten>{2}</richtige-antworten><fehler>{3}</fehler></zustand>",
+                                dtmGraphPoint.ToString("yyyy-MM-dd"),
+                                m_oWordsGraphData[dtmGraphPoint],
+                                m_oTotalGraphData[dtmGraphPoint] - m_oWordsGraphData[dtmGraphPoint],
+                                m_oWordsGraphData[dtmGraphPoint] - m_oLearnedWordsGraphData[dtmGraphPoint]);
+                        }
                     }
 
                     w.WriteLine("</training>");
@@ -2212,41 +2281,81 @@ namespace VokabelTrainer
                     m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                         DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                    // calculate mean of correct answers
-                    long lTotal = 0;
-                    foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
-                        lTotal += i;
-
-                    int nMean = (int)( (lTotal + m_oCorrectAnswersFirstLanguage.Count/2) / m_oCorrectAnswersFirstLanguage.Count);
-
-                    // now calculate the sum of weights of all words
-                    int nTotalWeights = 0;
-                    foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
+                    // if not as many words then do as before
+                    if (m_oCorrectAnswersFirstLanguage.Values.Count<300)
                     {
-                        int nWeight = (i > nMean + 3) ? 0 : (nMean + 3 - i) * (nMean + 3 - i);
+                        // calculate mean of correct answers
+                        long lTotal = 0;
+                        foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
+                            lTotal += i;
 
-                        nTotalWeights += nWeight;
-                    };
+                        int nMean = (int)( (lTotal + m_oCorrectAnswersFirstLanguage.Count/2) / m_oCorrectAnswersFirstLanguage.Count);
 
-                    int nSelectedWeight = nRnd2 % nTotalWeights;
-
-                    int nWordIndex = -1;
-                    using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
-                        m_oCorrectAnswersFirstLanguage.Values.GetEnumerator())
-                    {
-                        while (nSelectedWeight >= 0 && values.MoveNext())
+                        // now calculate the sum of weights of all words
+                        int nTotalWeights = 0;
+                        foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
                         {
-                            nWordIndex += 1;
+                            int nWeight = (i > nMean + 3) ? 0 : (nMean + 3 - i) * (nMean + 3 - i);
 
-                            int nWeight = (values.Current > nMean + 3) ? 0 : 
-                                (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
+                            nTotalWeights += nWeight;
+                        };
 
-                            nSelectedWeight -= nWeight;
+                        int nSelectedWeight = nRnd2 % nTotalWeights;
+
+                        int nWordIndex = -1;
+                        using (SortedDictionary<string, int>.ValueCollection.Enumerator values = 
+                            m_oCorrectAnswersFirstLanguage.Values.GetEnumerator())
+                        {
+                            while (nSelectedWeight >= 0 && values.MoveNext())
+                            {
+                                nWordIndex += 1;
+
+                                int nWeight = (values.Current > nMean + 3) ? 0 : 
+                                    (nMean + 3 - values.Current) * (nMean + 3 - values.Current);
+
+                                nSelectedWeight -= nWeight;
+                            }
+
+                            m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
+
+                            bRepeat = TrainFirstLanguage(nWordIndex);
                         }
+                    }
+                    else
+                    {
+                        // with many words - based on the equalizing power
+                        // the formula equalizes the probability of 50 half as much trained words
+                        // with the equally trained rest
+                        double dblPower = Math.Log(50.0 / (m_oCorrectAnswersFirstLanguage.Values.Count - 50), 2.0);
 
-                        m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
+                        // now calculate the sum of weights of all words
+                        double dblTotalWeights = 0;
+                        foreach (int i in m_oCorrectAnswersFirstLanguage.Values)
+                        {
+                            double dblWeight = Pow(i + 1, dblPower);
+                            dblTotalWeights += dblWeight;
+                        };
 
-                        bRepeat = TrainFirstLanguage(nWordIndex);
+
+                        double dblSelectedWeight = nRnd2 * dblTotalWeights / int.MaxValue;
+
+                        int nWordIndex = -1;
+                        using (SortedDictionary<string, int>.ValueCollection.Enumerator values =
+                            m_oCorrectAnswersFirstLanguage.Values.GetEnumerator())
+                        {
+                            while (dblSelectedWeight >= 0 && values.MoveNext())
+                            {
+                                nWordIndex += 1;
+
+                                double dblWeight = Pow(values.Current + 1, dblPower);
+
+                                dblSelectedWeight -= dblWeight;
+                            }
+
+                            m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
+
+                            bRepeat = TrainFirstLanguage(nWordIndex);
+                        }
                     }
 
                     /*
