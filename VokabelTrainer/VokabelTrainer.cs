@@ -2693,6 +2693,54 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.dw.com/es");
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
                     oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
+                    
+
+                    // for language speakers that aren't muslim add visionary christian songs
+                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    {
+                        case "he":
+                        case "de":
+                        case "fr":
+                        case "en":
+                        case "pt":
+                        case "it":
+                        case "po":
+                        case "af":
+                        case "am":
+                        case "bg":
+                        case "bs":
+                        case "ca":
+                        case "el":
+                        case "fi":
+                        case "hi":
+                        case "zh":
+                        case "hr":
+                        case "uk":
+                        case "ru":
+                        case "hy":
+                        case "ig":
+                        case "is":
+                        case "ka":
+                        case "km":
+                        case "ko":
+                        case "lt":
+                        case "lv":
+                        case "mk":
+                        case "mn":
+                        case "ro":
+                        case "sk":
+                        case "sl":
+                        case "so":
+                        case "sr":
+                        case "sv":
+                        case "th":
+                        case "vi":
+                        case "wo":
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
+                            break;
+                    }
+
                 }
             }
 
