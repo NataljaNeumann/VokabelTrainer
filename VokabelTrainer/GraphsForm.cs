@@ -234,12 +234,13 @@ namespace VokabelTrainer
             DrawDates(oGraphics, oDrawingArea);
 
             // Draw curves
-            DrawCurve(oGraphics, oDrawingArea, m_oTotalGraphData, 
-                m_oTotalGraphPen, m_strTotalWordsLabel);
-            DrawCurve(oGraphics, oDrawingArea, m_oWordsGraphData, 
-                m_oWordsGraphPen, m_strWordsLabel);
+            float fYPositionMainLabel = 0;
+            DrawCurve(oGraphics, oDrawingArea, m_oWordsGraphData,
+                m_oWordsGraphPen, m_strWordsLabel, ref fYPositionMainLabel, true);
             DrawCurve(oGraphics, oDrawingArea, m_oLearnedWordsGraphData,
-                m_oLearnedWordsGraphPen, m_strLearnedWordsLabel);
+                m_oLearnedWordsGraphPen, m_strLearnedWordsLabel, ref fYPositionMainLabel, true);
+            DrawCurve(oGraphics, oDrawingArea, m_oTotalGraphData,
+                m_oTotalGraphPen, m_strTotalWordsLabel, ref fYPositionMainLabel, false);
         }
 
         //===================================================================================================
@@ -284,13 +285,17 @@ namespace VokabelTrainer
         /// <param name="oData">Data to draw</param>
         /// <param name="oPen">Pen to use</param>
         /// <param name="strName">Name of the graph</param>
+        /// <param name="fPosition">The last position of the main graph (words)</param>
+        /// <param name="bAbove">Indicates if the new label shall be placed above the given position</param>
         //===================================================================================================
         private void DrawCurve(
             Graphics oGraphics, 
             Rectangle oArea, 
             IDictionary<DateTime, int> oData, 
             Pen oPen, 
-            string strName
+            string strName,
+            ref float fPosition,
+            bool bAbove
             )
         {
             List<Point> aPoints = new List<Point>();
@@ -313,7 +318,25 @@ namespace VokabelTrainer
                 Point oLastPoint = aPoints[aPoints.Count - 1];
 
                 using (Brush oBrush = new SolidBrush(oPen.Color))
-                    oGraphics.DrawString(strName, m_lblTotal.Font, oBrush, new PointF(oLastPoint.X + 5, oLastPoint.Y - 10));
+                {
+                    float fNewPosition = oLastPoint.Y - 10;
+                    if (bAbove)
+                    {
+                        if (fPosition + m_lblWords.Height > fNewPosition)
+                            fNewPosition = fPosition + m_lblWords.Height;
+
+                        if (fPosition == 0)
+                            fPosition = fNewPosition;
+                    }
+                    else
+                    {
+                        if (fPosition - m_lblWordsLearned.Height < fNewPosition)
+                            fNewPosition = fPosition - m_lblWordsLearned.Height;
+
+                    }
+                    
+                    oGraphics.DrawString(strName, m_lblTotal.Font, oBrush, new PointF(oLastPoint.X + 5, fNewPosition));
+                }
             }
         }
     }
