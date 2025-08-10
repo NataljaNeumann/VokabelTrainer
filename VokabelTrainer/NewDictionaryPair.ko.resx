@@ -215,4 +215,20 @@
   <data name="$this.Text" xml:space="preserve">
     <value>새로운 어휘를 입력하세요</value>
   </data>
+  <data name="m_lblFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_tbxFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_lblSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_tbxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

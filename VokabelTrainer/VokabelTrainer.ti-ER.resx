@@ -425,4 +425,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ኣሰልጣኒ ስነ-ቓላት</value>
   </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

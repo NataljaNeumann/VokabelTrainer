@@ -130,4 +130,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Entrenador de vocabulario</value>
   </data>
+  <data name="m_btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

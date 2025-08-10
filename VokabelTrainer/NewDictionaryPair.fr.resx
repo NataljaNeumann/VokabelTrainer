@@ -142,4 +142,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Entrez un nouveau vocabulaire</value>
   </data>
+  <data name="textBoxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

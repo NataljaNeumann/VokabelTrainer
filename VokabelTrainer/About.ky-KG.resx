@@ -117,8 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Сөздүк тренер жөнүндө</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 296</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.4
@@ -130,5 +131,11 @@ Copyright (C) 2024-2025 NataljaNeumann@gmx.de
 
 Сиз бул программа менен бирге GNU General Public License көчүрмөсүн алган болушуңуз керек; болбосо,  Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>517, 314</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Сөздүк тренер жөнүндө</value>
   </data>
 </root>

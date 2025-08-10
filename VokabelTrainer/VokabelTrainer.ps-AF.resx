@@ -432,4 +432,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>د لغتونو روزونکی</value>
   </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

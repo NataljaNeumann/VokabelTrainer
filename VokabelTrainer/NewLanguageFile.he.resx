@@ -177,4 +177,28 @@
   <data name="$this.Text" xml:space="preserve">
     <value>קובץ שפה חדש </value>
   </data>
+  <data name="m_lblFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_lblSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

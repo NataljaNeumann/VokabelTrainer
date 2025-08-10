@@ -305,4 +305,12 @@
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Thai</value>
   </metadata>
+  <data name="m_lblMessageText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

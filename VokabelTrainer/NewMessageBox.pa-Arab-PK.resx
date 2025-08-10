@@ -159,4 +159,12 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ووکیبولری ٹرینر</value>
   </data>
+  <data name="m_lblMessageText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

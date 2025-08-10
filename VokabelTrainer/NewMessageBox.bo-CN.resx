@@ -155,4 +155,12 @@
   <data name="$this.Text" xml:space="preserve">
     <value>མིང་ཚིག་སྦྱོང་བརྡར་བྱེད་མཁན།</value>
   </data>
+  <data name="m_lblMessageText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

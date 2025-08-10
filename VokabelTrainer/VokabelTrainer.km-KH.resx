@@ -280,4 +280,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>គ្រូបណ្តុះបណ្តាលវាក្យសព្ទ</value>
   </data>
+  <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

@@ -881,4 +881,20 @@
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>ខ្មែរ (កម្ពុជា)</value>
   </metadata>
+  <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

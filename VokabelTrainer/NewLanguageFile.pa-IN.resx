@@ -257,4 +257,36 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ਨਵੀਂ ਭਾਸ਼ਾ ਫਾਈਲ</value>
   </data>
+  <data name="m_lblFirstLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_lblSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnCreateLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkLanguageFileUnderGPL2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkFirstLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

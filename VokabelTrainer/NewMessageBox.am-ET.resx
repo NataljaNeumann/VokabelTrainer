@@ -158,4 +158,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>የቃላት አሠልጣኝ</value>
   </data>
+  <data name="m_lblMessageText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

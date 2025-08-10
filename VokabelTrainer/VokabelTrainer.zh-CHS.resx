@@ -262,4 +262,12 @@
   <data name="$this.Text" xml:space="preserve">
     <value>词汇训练器</value>
   </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

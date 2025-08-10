@@ -216,4 +216,12 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ورزش کنید</value>
   </data>
+  <data name="m_lblShownText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
+  <data name="m_tbxAskedTranslation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>

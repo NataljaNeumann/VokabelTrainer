@@ -151,4 +151,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>नई शब्दावली दर्ज करें</value>
   </data>
+  <data name="textBoxSecondLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+    <comment>Automatically fixed</comment>
+  </data>
 </root>
