@@ -1,6 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<html>
+<html><head><style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ccc;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px; 
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            margin: auto; 
+            position: relative;         
+        }
+        .note-ltr {
+            position: relative;
+            border-left: 5px solid blue;
+            padding-left: 30px;
+            padding-top: 30px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+        .note-ltr::before {
+            content: 'ⓘ';
+            position: absolute;
+            top: 5px;
+            left: 5px; 
+            font-size: 25px;
+            color: blue;
+        }
+        .note-rtl {
+            position: relative;
+            border-right: 5px solid blue;
+            padding-right: 30px;
+            padding-top: 30px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+        .note-rtl::before {
+            content: 'ⓘ';
+            position: absolute;
+            top: 5px; 
+            right: 5px;
+            font-size: 25px;
+            color: blue;
+        }
+    </style>
+  </head>
   <body>
+    <div class="container">
     <h1 dir="ltr" lang="en">Vocabulary Trainer</h1>
     <br/>
     <a href="https://github.com/NataljaNeumann/VokabelTrainer" target="_new" dir="ltr" lang="en">Latest sources and releases</a>
@@ -989,9 +1040,6 @@
     </font>
     <br/>
     <br/>
-    <br/>
-    <hr/>
-    <br/>
-    <a name="fn1">[1]:</a> SyncFolders-Don't-Delete.txt
+    </div>
   </body>
 </html>
