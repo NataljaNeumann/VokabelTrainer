@@ -404,6 +404,41 @@ namespace VokabelTrainer
                     return;
             };
 
+            // Day of Science
+            if (dtmNow >= GetScienceStart() && dtmNow < GetScienceEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ScienceDayHeader.jpg"))
+                    return;
+            };
+
+            // Philosophy day
+            if (dtmNow >= GetPhilosophyStart() && dtmNow < GetPhilosophyEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\PhilosophyDayHeader.jpg"))
+                    return;
+            };
+
+            // Psychology day
+            if (dtmNow >= GetPsychologyStart() && dtmNow < GetPsychologyEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\PsychologyDayHeader.jpg"))
+                    return;
+            };
+
+            // Reading day
+            if (dtmNow >= GetReadingDayStart() && dtmNow < GetReadingDayEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ReadingDayHeader.jpg"))
+                    return;
+            };
+
+            // Valentine day
+            if (dtmNow >= GetValentineStart() && dtmNow < GetValentineEnd())
+            {
+                if (ReadyToUseImageInjection("Images\\ValentineHeader.jpg"))
+                    return;
+            };
+
             // If there is no special header, then use default
             ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
         }
@@ -3585,7 +3620,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// Gets the beginning of Halloween
+        /// Gets the beginning of children and Buddha header
         /// </summary>
         //===================================================================================================
         static DateTime GetChildrenAndBuddhaStart()
@@ -3595,7 +3630,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// Gets the ending of Halloween header
+        /// Gets the ending of children and Buddha header
         /// </summary>
         //===================================================================================================
         static DateTime GetChildrenAndBuddhaEnd()
@@ -3603,6 +3638,108 @@ namespace VokabelTrainer
             return new DateTime(DateTime.Now.Year, 5, 6);
         }
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of science day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetScienceStart()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 7);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of science header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetScienceEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 11);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of philosophy header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetPhilosophyStart()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 17);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of philosophy header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetPhilosophyEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 21);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of psychology header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetPsychologyStart()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 7);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of psychology header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetPsychologyEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 11);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of reading day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetReadingDayStart()
+        {
+            return new DateTime(DateTime.Now.Year, 4, 20);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of reading day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetReadingDayEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 4, 24);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of valentine header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetValentineStart()
+        {
+            return new DateTime(DateTime.Now.Year, 2, 13);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of valentine header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetValentineEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 2, 15);
+        }
 
         //===================================================================================================
         /// <summary>
