@@ -2700,6 +2700,55 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@WinxClubFR");
                     oResult.Add(@"https://www.amazon.fr/s?k=psychologie+livre");
 
+                    // for language speakers that aren't muslim add visionary christian songs
+                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    {
+                        case "he":
+                        case "de":
+                        case "es":
+                        case "en":
+                        case "pt":
+                        case "it":
+                        case "po":
+                        case "af":
+                        case "am":
+                        case "bg":
+                        case "bs":
+                        case "ca":
+                        case "el":
+                        case "fi":
+                        case "hi":
+                        case "zh":
+                        case "hr":
+                        case "uk":
+                        case "ru":
+                        case "hy":
+                        case "ig":
+                        case "is":
+                        case "ka":
+                        case "km":
+                        case "ko":
+                        case "lt":
+                        case "lv":
+                        case "mk":
+                        case "mn":
+                        case "ro":
+                        case "sk":
+                        case "sl":
+                        case "so":
+                        case "sr":
+                        case "sv":
+                        case "th":
+                        case "vi":
+                        case "wo":
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/results?search_query=MARYLINE+ORCEL+Digne+est+l%27Agneau+%E2%80%93+Louange+et+Adoration");
+                            //https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise
+                            //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
+                            break;
+                    }
+                    
+
                     // for german speakers: Witch huckla / French
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
                     {
