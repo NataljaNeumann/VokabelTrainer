@@ -2743,6 +2743,7 @@ namespace VokabelTrainer
                         case "wo":
                         case "yo":
                             oResult.Add(@"https://www.youtube.com/results?search_query=MARYLINE+ORCEL+Digne+est+l%27Agneau+%E2%80%93+Louange+et+Adoration");
+                            oResult.Add(@"https://www.youtube.com/@Bible-A.I/videos");
                             //https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise
                             //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             break;
