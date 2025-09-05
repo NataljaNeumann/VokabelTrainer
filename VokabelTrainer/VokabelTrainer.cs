@@ -2750,7 +2750,7 @@ namespace VokabelTrainer
                     }
                     
 
-                    // for german speakers: Witch huckla / French
+                    // for german speakers: Witch Huckla / French
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
                     {
                         oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+französisch");
@@ -2860,15 +2860,16 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=inception+dvd");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=matrix+dvd");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
+                    oResult.Add(@"https://www.amazon.co.uk/s?k=meet+the+fockers");
 
-                    // also sometimes add the business dynamics sometimes that is probably useful only 
+                    // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
                     if (m_oRnd.Next(10) == 7)
                     {
                         oResult.Add(@"https://www.amazon.co.uk/s?k=business+dynamics+sterman");
                     }
 
-                    // for german speakers: Witch huckla / English
+                    // for german speakers: Witch Huckla / English
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
                     {
                         oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+englisch");
@@ -2973,6 +2974,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
                     oResult.Add(@"https://www.youtube.com/@WinxClubRU");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D0%B8%D1%82%D1%8F%D0%B9+%D0%B8%D0%B7+%D0%BA%D1%83%D1%87%D1%83%D0%B3%D1%83%D1%80")
                 }
             }
 
