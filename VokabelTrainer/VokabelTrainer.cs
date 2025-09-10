@@ -2678,6 +2678,53 @@ namespace VokabelTrainer
                     {
                         oResult.Add(@"https://www.amazon.de/s?k=die+kunst+der+ehezerr%C3%BCttung");
                     }
+
+                    // for language speakers that aren't muslim add visionary christian songs
+                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    {
+                        case "he":
+                        case "fr":
+                        case "es":
+                        case "en":
+                        case "pt":
+                        case "it":
+                        case "po":
+                        case "af":
+                        case "am":
+                        case "bg":
+                        case "bs":
+                        case "ca":
+                        case "el":
+                        case "fi":
+                        case "hi":
+                        case "zh":
+                        case "hr":
+                        case "uk":
+                        case "ru":
+                        case "hy":
+                        case "ig":
+                        case "is":
+                        case "ka":
+                        case "km":
+                        case "ko":
+                        case "lt":
+                        case "lv":
+                        case "mk":
+                        case "mn":
+                        case "ro":
+                        case "sk":
+                        case "sl":
+                        case "so":
+                        case "sr":
+                        case "sv":
+                        case "th":
+                        case "vi":
+                        case "wo":
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/@BibelA.I/videos");
+                            break;
+                    }
+
                 }
             }
 
@@ -2974,7 +3021,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
                     oResult.Add(@"https://www.youtube.com/@WinxClubRU");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
-                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D0%B8%D1%82%D1%8F%D0%B9+%D0%B8%D0%B7+%D0%BA%D1%83%D1%87%D1%83%D0%B3%D1%83%D1%80")
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D0%B8%D1%82%D1%8F%D0%B9+%D0%B8%D0%B7+%D0%BA%D1%83%D1%87%D1%83%D0%B3%D1%83%D1%80");
                 }
             }
 
@@ -3108,6 +3155,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.calcalist.co.il");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D7%A1%D7%A8%D7%98+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%9B%D7%AA%D7%95%D7%91%D7%99%D7%95%D7%AA");
                     oResult.Add(@"https://www.radio.de/language/hebrew");
+
+                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en"))
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
+                    }
                 }
             }
 
