@@ -21,8 +21,58 @@ using System.Text;
 
 namespace VokabelTrainer
 {
+    //*******************************************************************************************************
+    /// <summary>
+    /// Outputs text to speakers
+    /// </summary>
+    //*******************************************************************************************************
     class Speaker
     {
+        //===================================================================================================
+        /// <summary>
+        /// Transforms unicode text to XML-Format
+        /// </summary>
+        /// <param name="strInput">Input text</param>
+        /// <returns>Text in XML format</returns>
+        //===================================================================================================
+        public static string TransformToXml(string strInput)
+        {
+            if (strInput == null)
+                return string.Empty;
+
+            StringBuilder oResult = new StringBuilder(strInput.Length*2);
+
+            foreach (char c in strInput)
+            {
+                switch (c)
+                {
+                    case '<': oResult.Append("&lt;"); break;
+                    case '>': oResult.Append("&gt;"); break;
+                    case '&': oResult.Append("&amp;"); break;
+                    case '"': oResult.Append("&quot;"); break;
+                    case '\'': oResult.Append("&apos;"); break;
+                    default:
+                        if (c > 127 || c<=0) // Non-ASCII
+                            oResult.Append("&#" + ((int)c) + ";");
+                        else
+                            oResult.Append(c);
+                        break;
+                }
+            }
+
+            return oResult.ToString();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Says the text, in case the language is supported
+        /// </summary>
+        /// <param name="strLanguage">Language name, possibly the native name</param>
+        /// <param name="strText">Text to say</param>
+        /// <param name="bAsync">Synchronously or asynchronously</param>
+        /// <param name="bUseESpeak">Indicates if eSpeak shall be used</param>
+        /// <param name="strESpeakPath">Path of eSpeak</param>
+        //===================================================================================================
         public static void Say(string strLanguage, string strText, bool bAsync, bool bUseESpeak, string strESpeakPath)
         {
             string strLanguageFirstTwo = strLanguage.Length>=2?strLanguage.Substring(0, 2):strLanguage;
@@ -342,7 +392,7 @@ namespace VokabelTrainer
                     string strSsml = string.Format(@"<speak version='1.0' " +
                                                             "xmlns='http://www.w3.org/2001/10/synthesis' {0}>{1}</speak>",
                                                             strSSMLLanguageToSpeak,
-                                                            strText);
+                                                            TransformToXml(strText));
                     bool bFallback = true;
                     try
                     {
