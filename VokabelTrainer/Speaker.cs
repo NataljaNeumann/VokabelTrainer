@@ -92,6 +92,7 @@ namespace VokabelTrainer
                     .Replace("чего ", "чева ")/*backtransform special case*/.Replace(" чева ", " чиво ")
                     .Replace("рого ", "рова ")/*backtransform special case*/.Replace(" дорова ", " дорага ")
                     .Replace("шего ", "шева ").Replace("ного ", "нова ").Replace("чого ", "чово ")
+                    .Replace(" что ", " што ")
                     .Replace("чу", "чю").Replace("щу", "щю").Replace("бъё", "бё").Replace("ое ", "оэ ").Trim();
                 StringBuilder b = new StringBuilder();
                 StringBuilder b2 = new StringBuilder();
