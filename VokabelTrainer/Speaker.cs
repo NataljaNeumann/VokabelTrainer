@@ -83,11 +83,16 @@ namespace VokabelTrainer
                 ("Rus".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ||
                 "Рус".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase)))
             {
-                strText = (strText + " ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ")
+                // special treatment of russian, since OS can't handle it correctly at the moment
+                strText = (" " +strText + " ").Replace(",", " ").Replace("; ", " ").Replace(". ", " ").Replace("?", " ")
                     .Replace("،", ",").Replace("、", ",").Replace("，", ",").Replace("!", " ").Replace("  ", " ").Replace("  ", " ")
-                    .Replace("ться", "ца").Replace("тся", "ца").Replace("шого ", "шова ").Replace("того ", "това ").Replace("кого ", "кова ")
-                    .Replace("шего ", "шева ").Replace("чего ", "чева ").Replace("рого ", "рова ").Replace("чого ", "чово ").Replace("его ", "ево ")
-                    .Replace("чу ", "чю ").Replace("щу ", "щю ").Replace("бъё", "бё").Replace("ое ", "оэ ").Replace("ного ", "нова ").Trim();
+                    .Replace("ться", "ца").Replace("тся", "ца").Replace("тса", "ца").Replace("шого ", "шова ")
+                    .Replace("того ", "това ")/*backtransform special case*/.Replace(" това ", " таво ")
+                    .Replace("кого ", "кова ")/*backtransform special case*/.Replace(" кова "," каво ")
+                    .Replace("чего ", "чева ")/*backtransform special case*/.Replace(" чева ", " чиво ")
+                    .Replace("рого ", "рова ")/*backtransform special case*/.Replace(" дорова ", " дорага ")
+                    .Replace("шего ", "шева ").Replace("ного ", "нова ").Replace("чого ", "чово ")
+                    .Replace("чу", "чю").Replace("щу", "щю").Replace("бъё", "бё").Replace("ое ", "оэ ").Trim();
                 StringBuilder b = new StringBuilder();
                 StringBuilder b2 = new StringBuilder();
                 b.Append("<phoneme alphabet=\"ups\" ph=\"");
