@@ -3100,6 +3100,54 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E5%AD%97%E5%B9%95%E4%BB%98%E3%81%8D%E3%81%AE%E4%B8%AD%E5%9B%BD%E6%98%A0%E7%94%BB");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%89%E5%AD%97%E5%B9%95");
                     oResult.Add(@"https://www.youtube.com/@RainbowJuniorCN");
+
+                    // for language speakers that aren't muslim add christian songs (sorry, haven't found visionary content)
+                    // and only traditional chinese, not simplified
+                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    {
+                        case "he":
+                        case "fr":
+                        case "es":
+                        case "en":
+                        case "pt":
+                        case "it":
+                        case "po":
+                        case "af":
+                        case "am":
+                        case "bg":
+                        case "bs":
+                        case "ca":
+                        case "el":
+                        case "fi":
+                        case "hi":
+                        case "de":
+                        case "hr":
+                        case "uk":
+                        case "ru":
+                        case "hy":
+                        case "ig":
+                        case "is":
+                        case "ka":
+                        case "km":
+                        case "ko":
+                        case "lt":
+                        case "lv":
+                        case "mk":
+                        case "mn":
+                        case "ro":
+                        case "sk":
+                        case "sl":
+                        case "so":
+                        case "sr":
+                        case "sv":
+                        case "th":
+                        case "vi":
+                        case "wo":
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/@W247/videos");
+                            break;
+                    }
+
                 }
             }
         
