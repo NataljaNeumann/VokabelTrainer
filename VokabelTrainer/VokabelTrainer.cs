@@ -3145,6 +3145,7 @@ namespace VokabelTrainer
                         case "wo":
                         case "yo":
                             oResult.Add(@"https://www.youtube.com/@W247/videos");
+                            oResult.Add(@"https://www.youtube.com/results?search_query=%E7%A5%A2%E7%9A%84%E8%89%AF%E5%96%84%E4%BD%9C%E4%B8%BA");
                             break;
                     }
 
