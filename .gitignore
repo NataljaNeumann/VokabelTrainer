@@ -2,8 +2,8 @@ VokabelTrainer/obj/**
 VokabelTrainer/bin/Release/**
 VokabelTrainer/bin/Debug/**
 VokabelTrainer/bin/*.zip
-**\.vs\**
-Backup\**
+**/.vs/**
+Backup/**
 *.csv
 *.exe
 *.user
