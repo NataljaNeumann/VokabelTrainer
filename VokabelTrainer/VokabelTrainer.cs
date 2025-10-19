@@ -355,7 +355,7 @@ namespace VokabelTrainer
             }
 
 
-            // Diwali (Hindu Light celebration for truth winning over lies)
+            // Diwali (Hindu light celebration for truth winning over lies)
             if (dtmNow >= GetDiwaliStart() && dtmNow < GetDiwaliEnd())
             {
                 if (ReadyToUseImageInjection(strStartPath + "DiwaliHeader.jpg"))
@@ -441,13 +441,27 @@ namespace VokabelTrainer
                     return;
             }
 
-
-            // Valentine day
+            // World Savings Day
             if (dtmNow >= GetWorldSavingsDayStart() && dtmNow < GetWorldSavingsDayEnd())
             {
                 if (ReadyToUseImageInjection(strStartPath + "WorldSavingsDayHeader.jpg"))
                     return;
             }
+
+            // World Peace Day
+            if (dtmNow >= GetWorldPeaceDayStart() && dtmNow < GetWorldPeaceDayEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "WorldPeaceDayHeader.jpg"))
+                    return;
+            }
+
+            // World Dancing Day
+            if (dtmNow >= GetWorldDancingDayStart() && dtmNow < GetWorldDancingDayEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "WorldDancingDayHeader.jpg"))
+                    return;
+            }
+
 
             // If there is no special header, then use default
             ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
@@ -3906,7 +3920,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// Gets the beginning of valentine header
+        /// Gets the beginning of world savings day header
         /// </summary>
         //===================================================================================================
         static DateTime GetWorldSavingsDayStart()
@@ -3916,12 +3930,54 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// Gets the ending of valentine header
+        /// Gets the ending of world savings day header
         /// </summary>
         //===================================================================================================
         static DateTime GetWorldSavingsDayEnd()
         {
             return new DateTime(DateTime.Now.Year, 11, 1);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of world dancing day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldDancingDayStart()
+        {
+            return new DateTime(DateTime.Now.Year, 4, 25);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of world dancing day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldDancingDayEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 4, 30);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of world dancing day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldPeaceDayStart()
+        {
+            return new DateTime(DateTime.Now.Year, 9, 18);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of world dancing day header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldPeaceDayEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 9, 22);
         }
 
         //===================================================================================================
