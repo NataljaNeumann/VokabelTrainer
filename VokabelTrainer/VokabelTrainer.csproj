@@ -2309,6 +2309,9 @@
     <Content Include="Images\ValentineHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\WorldSavingsDayHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Readme.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -2361,7 +2364,7 @@
   del /F /S /Q ZZ_SOURCE_CODE_ZZ
   rmdir /S /Q ZZ_SOURCE_CODE_ZZ
   del /Q "*.pdb"
-  tar.exe -a -c -f ..\$(ProjectName).zip *.*
+  tar.exe -a -c -f ..\..\$(ProjectName).zip *.*
 )</PostBuildEvent>
   </PropertyGroup>
 </Project>

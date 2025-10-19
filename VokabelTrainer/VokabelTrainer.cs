@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 
 
 namespace VokabelTrainer
@@ -325,122 +326,131 @@ namespace VokabelTrainer
 
             // Variations of main header, depending on dates, let's start with Easter, other will follow
             DateTime dtmNow = DateTime.Now;
+            string strStartPath = "Images" + Path.DirectorySeparatorChar;
             if (dtmNow >= GetEasterStart() && dtmNow < GetEasterEnd())
             {
-                if (ReadyToUseImageInjection("Images\\EasterHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "EasterHeader.jpg"))
                     return;
-            };
+            }
 
             // Christmas
             if (dtmNow >= GetChristmasStart() && dtmNow < GetChristmasEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ChristmasHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ChristmasHeader.jpg"))
                     return;
-            };
+            }
 
             // New year
             if (dtmNow >= GetNewYearStart() || dtmNow < GetNewYearEnd())
             {
-                if (ReadyToUseImageInjection("Images\\NewYearHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "NewYearHeader.jpg"))
                     return;
-            };
+            }
 
             // Ramadan
             if (dtmNow >= GetRamadanStart() && dtmNow < GetRamadanEnd())
             {
-                if (ReadyToUseImageInjection("Images\\RamadanHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "RamadanHeader.jpg"))
                     return;
-            };
+            }
 
 
             // Diwali (Hindu Light celebration for truth winning over lies)
             if (dtmNow >= GetDiwaliStart() && dtmNow < GetDiwaliEnd())
             {
-                if (ReadyToUseImageInjection("Images\\DiwaliHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "DiwaliHeader.jpg"))
                     return;
-            };
+            }
 
             // Chinese new year
             if (dtmNow >= GetChineseNewYearStart() && dtmNow < GetChineseNewYearEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ChineseNewYearHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ChineseNewYearHeader.jpg"))
                     return;
-            };
+            }
 
             // Orthodox Christmas
             if (dtmNow >= GetOrthodoxChristmasStart() && dtmNow < GetOrthodoxChristmasEnd())
             {
-                if (ReadyToUseImageInjection("Images\\OrthodoxChristmasHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "OrthodoxChristmasHeader.jpg"))
                     return;
-            };
+            }
 
 
             // Muslim Hajj pilgrimage
             if (dtmNow >= GetHajjStart() && dtmNow < GetHajjEnd())
             {
-                if (ReadyToUseImageInjection("Images\\HajjHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "HajjHeader.jpg"))
                     return;
-            };
+            }
 
 
             // Rosh Hashanah (Israeli new year) 
             if (dtmNow >= GetRoshHashanahStart() && dtmNow < GetRoshHashanahEnd())
             {
-                if (ReadyToUseImageInjection("Images\\RoshHashanahHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "RoshHashanahHeader.jpg"))
                     return;
-            };
+            }
 
             // Halloween 
             if (dtmNow >= GetHalloweenStart() && dtmNow < GetHalloweenEnd())
             {
-                if (ReadyToUseImageInjection("Images\\HalloweenHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "HalloweenHeader.jpg"))
                     return;
-            };
+            }
 
             // Japanese children celebration and Korean Buddha birthday celebration 
             if (dtmNow >= GetChildrenAndBuddhaStart() && dtmNow < GetChildrenAndBuddhaEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ChildrenAndBuddhaHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ChildrenAndBuddhaHeader.jpg"))
                     return;
-            };
+            }
 
             // Day of Science
             if (dtmNow >= GetScienceStart() && dtmNow < GetScienceEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ScienceDayHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ScienceDayHeader.jpg"))
                     return;
-            };
+            }
 
             // Philosophy day
             if (dtmNow >= GetPhilosophyStart() && dtmNow < GetPhilosophyEnd())
             {
-                if (ReadyToUseImageInjection("Images\\PhilosophyDayHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "PhilosophyDayHeader.jpg"))
                     return;
-            };
+            }
 
             // Psychology day
             if (dtmNow >= GetPsychologyStart() && dtmNow < GetPsychologyEnd())
             {
-                if (ReadyToUseImageInjection("Images\\PsychologyDayHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "PsychologyDayHeader.jpg"))
                     return;
-            };
+            }
 
             // Reading day
             if (dtmNow >= GetReadingDayStart() && dtmNow < GetReadingDayEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ReadingDayHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ReadingDayHeader.jpg"))
                     return;
-            };
+            }
 
             // Valentine day
             if (dtmNow >= GetValentineStart() && dtmNow < GetValentineEnd())
             {
-                if (ReadyToUseImageInjection("Images\\ValentineHeader.jpg"))
+                if (ReadyToUseImageInjection(strStartPath + "ValentineHeader.jpg"))
                     return;
-            };
+            }
+
+
+            // Valentine day
+            if (dtmNow >= GetWorldSavingsDayStart() && dtmNow < GetWorldSavingsDayEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "WorldSavingsDayHeader.jpg"))
+                    return;
+            }
 
             // If there is no special header, then use default
-            ReadyToUseImageInjection("Images\\VokabelTrainerMainHeader.jpg");
+            ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
         }
 
         //===================================================================================================
@@ -3892,6 +3902,26 @@ namespace VokabelTrainer
         static DateTime GetValentineEnd()
         {
             return new DateTime(DateTime.Now.Year, 2, 15);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of valentine header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldSavingsDayStart()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 25);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of valentine header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetWorldSavingsDayEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 11, 1);
         }
 
         //===================================================================================================
