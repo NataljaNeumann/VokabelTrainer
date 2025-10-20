@@ -265,7 +265,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_lblDontLearnAquire, "m_lblDontLearnAquire");
             this.m_lblDontLearnAquire.Name = "m_lblDontLearnAquire";
             this.m_lblDontLearnAquire.TabStop = true;
-            this.m_lblDontLearnAquire.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblDontLearnAquire_LinkClicked);
+            this.m_lblDontLearnAquire.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnDontLearnAquire_LinkClicked);
             // 
             // m_btnOsLanguageAndKeyboardSettings
             // 
@@ -279,7 +279,7 @@ namespace VokabelTrainer
             this.m_btnOsLanguageAndKeyboardSettings.ForeColor = System.Drawing.Color.Blue;
             this.m_btnOsLanguageAndKeyboardSettings.Name = "m_btnOsLanguageAndKeyboardSettings";
             this.m_btnOsLanguageAndKeyboardSettings.UseVisualStyleBackColor = false;
-            this.m_btnOsLanguageAndKeyboardSettings.Click += new System.EventHandler(this.m_btnOsLanguageAndKeyboardSettings_Click);
+            this.m_btnOsLanguageAndKeyboardSettings.Click += new System.EventHandler(this.OnOsLanguageAndKeyboardSettings_Click);
             // 
             // m_btnStats
             // 

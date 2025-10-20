@@ -463,6 +463,35 @@ namespace VokabelTrainer
             }
 
 
+            // Olymbic summer games
+            if (dtmNow >= GetOlympicSummerStart() && dtmNow < GetOlympicSummerEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "OlympicGamesHeader.jpg"))
+                    return;
+            }
+
+            // Olymbic winter games
+            if (dtmNow >= GetOlympicWinterStart() && dtmNow < GetOlympicWinterEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "OlympicWinterGamesHeader.jpg"))
+                    return;
+            }
+
+            // Olymbic winter games
+            if (dtmNow >= GetSoccerStart() && dtmNow < GetSoccerEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "SoccerHeader.jpg"))
+                    return;
+            }
+
+            // Olymbic winter games
+            if (dtmNow >= GetSoccerChampionsStart() && dtmNow < GetSoccerChampionsEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "SoccerHeader.jpg"))
+                    return;
+            }
+
+
             // If there is no special header, then use default
             ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
         }
@@ -3286,7 +3315,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_lblDontLearnAquire_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnDontLearnAquire_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
         {
             List<string> oEasyAquireList = GetEasyLanguageAquireList();
             if (oEasyAquireList != null && oEasyAquireList.Count > 0)
@@ -3302,7 +3331,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oRags">Event args</param>
         //===================================================================================================
-        private void m_btnOsLanguageAndKeyboardSettings_Click(object oSender, EventArgs oArgs)
+        private void OnOsLanguageAndKeyboardSettings_Click(object oSender, EventArgs oArgs)
         {
             string strWindowsVersion = Environment.OSVersion.Version.ToString();
 
@@ -3978,6 +4007,89 @@ namespace VokabelTrainer
         static DateTime GetWorldPeaceDayEnd()
         {
             return new DateTime(DateTime.Now.Year, 9, 22);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of olympic summer gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOlympicSummerStart()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4, 8, 3);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of olympic summer gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOlympicSummerEnd()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4, 8, 9);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOlympicWinterStart()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 2, 12);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOlympicWinterEnd()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 2, 20);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetSoccerStart()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 6, 14);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetSoccerEnd()
+        {
+            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 6, 20);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetSoccerChampionsStart()
+        {
+            return new DateTime(DateTime.Now.Year, 3, 11);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of olympic winter gammes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetSoccerChampionsEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 3, 16);
         }
 
         //===================================================================================================
