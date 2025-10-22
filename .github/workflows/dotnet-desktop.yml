@@ -75,7 +75,9 @@ jobs:
         uses: microsoft/setup-msbuild@v2
 
       - name: Build solution
-        run: msbuild VokabelTrainer.sln /p:Configuration=Release
+        run: msbuild VokabelTrainer.sln /p:Configuration=Release /verbosity:diag
+        with:
+          vs-version: '17.8'
 
 
       - name: Upload built zip archive
