@@ -2356,6 +2356,7 @@
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)"
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
   )
+
   copy /Y "$(SolutionDir)*.sln" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
   copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
   copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)license.txt"
