@@ -25,9 +25,9 @@ using System.Windows.Forms;
 
 namespace VokabelTrainer
 {
-    public partial class AboutForm : Form
+    public partial class About : Form
     {
-        public AboutForm()
+        public About()
         {
             InitializeComponent();
         }

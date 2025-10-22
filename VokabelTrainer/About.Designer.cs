@@ -23,7 +23,7 @@ namespace VokabelTrainer
     /// About window
     /// </summary>
     //*******************************************************************************************************
-    partial class AboutForm
+    partial class About
     {
         /// <summary>
         /// Required designer variable.
@@ -51,7 +51,7 @@ namespace VokabelTrainer
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 

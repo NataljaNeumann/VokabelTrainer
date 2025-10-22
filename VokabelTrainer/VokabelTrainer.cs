@@ -2554,7 +2554,7 @@ namespace VokabelTrainer
         //===================================================================================================
         private void m_lblShowAbout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            using (AboutForm oAboutForm = new AboutForm())
+            using (About oAboutForm = new About())
             {
                 oAboutForm.ShowDialog(this);
             }
