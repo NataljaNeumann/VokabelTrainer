@@ -1,0 +1,58 @@
+name: Build .NET Desktop
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Increment build number in AssemblyInfo.cs
+        shell: pwsh
+        run: |
+          $file = 'VokabelTrainer/Properties/AssemblyInfo.cs'
+          $content = Get-Content $file
+          $pattern = 'AssemblyVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)'
+          $newContent = $content -replace $pattern, {
+            $major = $matches[1]
+            $minor = $matches[2]
+            $build = $matches[3]
+            $revision = [int]$matches[4] + 1
+            "AssemblyVersion(\"$major.$minor.$build.$revision\")"
+          }
+          $pattern2 = 'AssemblyFileVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)'
+          $newContent = $newContent -replace $pattern2, {
+            $major = $matches[1]
+            $minor = $matches[2]
+            $build = $matches[3]
+            $revision = [int]$matches[4] + 1
+            "AssemblyFileVersion(\"$major.$minor.$build.$revision\")"
+          }
+          Set-Content $file $newContent
+
+      - name: Commit version change
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Automatically incremented build number in AssemblyInfo.cs'
+          add: 'VokabelTrainer/Properties/AssemblyInfo.cs'
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Restore NuGet packages
+        run: nuget restore VokabelTrainer.sln
+
+      - name: Build solution
+        run: msbuild VokabelTrainer.sln /p:Configuration=Release
+
+      - name: Upload built zip archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: VokabelTrainer-zip
+          path: VokabelTrainer/bin/VokabelTrainer-v1.5.zip
