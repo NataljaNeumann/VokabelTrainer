@@ -23,16 +23,16 @@ jobs:
             if ($line -match 'AssemblyVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)') {
               $major = $matches[1]
               $minor = $matches[2]
-              $build = $matches[3]
-              $revision = [int]$matches[4] + 1
-              $newContent += "assembly: AssemblyVersion(`"$major.$minor.$build.$revision`")"
+              $build = [int]$matches[3] + 1
+              $revision = "0"
+              $newContent += "[assembly: AssemblyVersion(`"$major.$minor.$build.$revision`")]"
             }
             elseif ($line -match 'AssemblyFileVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)') {
               $major = $matches[1]
               $minor = $matches[2]
-              $build = $matches[3]
-              $revision = [int]$matches[4] + 1
-              $newContent += "assembly: AssemblyFileVersion(`"$major.$minor.$build.$revision`")"
+              $build = [int]$matches[3] + 1
+              $revision = "0"
+              $newContent += "[assembly: AssemblyFileVersion(`"$major.$minor.$build.$revision`")]"
             }
             else {
               $newContent += $line

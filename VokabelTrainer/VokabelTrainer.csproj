@@ -157,7 +157,7 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.cs.resx">
+    <EmbeddedResource Include="About.cs-CZ.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -417,7 +417,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.cs.resx">
+    <EmbeddedResource Include="GraphsForm.cs-CZ.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -701,7 +701,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.cs.resx">
+    <EmbeddedResource Include="NewDictionaryPair.cs-CZ.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -973,7 +973,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.cs.resx">
+    <EmbeddedResource Include="NewLanguageFile.cs-CZ.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1245,7 +1245,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.cs.resx">
+    <EmbeddedResource Include="NewMessageBox.cs-CZ.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1538,7 +1538,7 @@
     <EmbeddedResource Include="Properties\Resources.ca.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.cs.resx">
+    <EmbeddedResource Include="Properties\Resources.cs-CZ.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.da.resx">
@@ -1703,7 +1703,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.cs.resx">
+    <EmbeddedResource Include="VokabelTrainer.cs-CZ.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1979,7 +1979,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.cs.resx">
+    <EmbeddedResource Include="WordTest.cs-CZ.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2356,6 +2356,7 @@
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)"
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
   )
+
   copy /Y "$(SolutionDir)*.sln" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
   copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
   copy /Y "$(SolutionDir)LICENSE.TXT" "$(TargetDir)license.txt"
