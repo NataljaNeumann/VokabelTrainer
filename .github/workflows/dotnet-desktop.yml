@@ -73,11 +73,13 @@ jobs:
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
-        with:
-          vs-version: '17.8'
+      #  with:
+      #    vs-version: '17.8'
 
       - name: Build solution
-        run: msbuild VokabelTrainer.sln /p:Configuration=Release /verbosity:diag
+        run: msbuild VokabelTrainer.sln /p:Configuration=Release
+
+      # /verbosity:diag
 
 
 
