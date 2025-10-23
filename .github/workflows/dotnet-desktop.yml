@@ -6,25 +6,34 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Increment build number in AssemblyInfo.cs
+        id: increment
         shell: pwsh
         run: |
           $file = 'VokabelTrainer/Properties/AssemblyInfo.cs'
           $content = Get-Content $file
           $newContent = @()
+          $newVersion = $null
+
           foreach ($line in $content) {
             if ($line -match 'AssemblyVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)') {
               $major = $matches[1]
               $minor = $matches[2]
               $build = [int]$matches[3] + 1
               $revision = "0"
+              $newVersion = "$major.$minor.$build.$revision"
               $newContent += "[assembly: AssemblyVersion(`"$major.$minor.$build.$revision`")]"
             }
             elseif ($line -match 'AssemblyFileVersion\("(\d+)\.(\d+)\.(\d+)\.(\d+)"\)') {
@@ -32,13 +41,23 @@ jobs:
               $minor = $matches[2]
               $build = [int]$matches[3] + 1
               $revision = "0"
+              $newVersion = "$major.$minor.$build.$revision"
               $newContent += "[assembly: AssemblyFileVersion(`"$major.$minor.$build.$revision`")]"
             }
             else {
               $newContent += $line
             }
           }
+
+          if (-not $newVersion) {
+            Write-Error "Couldn't find AssemblyVersion/AssemblyFileVersion in $file"
+            exit 1
+          }
+
           Set-Content $file $newContent
+
+          # publish the version as a step output in the new ($GITHUB_OUTPUT) format
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "version=$newVersion"
 
       - name: Commit version change
         uses: EndBug/add-and-commit@v9
@@ -46,6 +65,7 @@ jobs:
           message: 'Automatically incremented build number in AssemblyInfo.cs'
           add: 'VokabelTrainer/Properties/AssemblyInfo.cs'
           github_token: ${{ secrets.GH_TOKEN }}
+
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v2
@@ -78,14 +98,47 @@ jobs:
 
       - name: Build solution
         run: msbuild VokabelTrainer.sln /p:Configuration=Release
-
       # /verbosity:diag
 
+      #- name: Upload built zip archive
+      #  uses: actions/upload-artifact@v4
+      #  with:
+      #    name: VokabelTrainer-zip
+      #    path: VokabelTrainer/bin/VokabelTrainer.zip
+
+      - name: Rename output zip to include version
+        shell: pwsh
+        run: |
+          $version = '${{ steps.increment.outputs.version }}'
+          $src = 'VokabelTrainer/bin/VokabelTrainer.zip' 
+          $dest = 'VokabelTrainer/bin/VokabelTrainer-v$version.zip'
+          if (-not (Test-Path $src)) {
+            Write-Error "Source zip not found: $src"
+            exit 1
+          }
+          if (Test-Path $dest) { Remove-Item $dest -Force }
+          Move-Item -Path $src -Destination $dest -Force
+          Write-Host "Renamed $src -> $dest"
+
+      - name: Create and push tag
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ensure history & tags are present
+          git fetch --no-tags --prune --unshallow || true
+          git fetch --tags || true
+
+          $tag = "VokabelTrainer_v${{ steps.increment.outputs.version }}"
+          if (git rev-parse --verify $tag 2>$null) {
+             Write-Host "Tag $tag already exists; skipping"
+          } else {
+             git tag -a $tag -m "Release $tag"
+             git push origin refs/tags/$tag
+             Write-Host "Created and pushed tag $tag"
+          }
 
 
-      - name: Upload built zip archive
-        uses: actions/upload-artifact@v4
-        with:
-          name: VokabelTrainer-zip
-          path: VokabelTrainer/bin/VokabelTrainer-v1.5.zip
 
