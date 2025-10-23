@@ -62,7 +62,7 @@ jobs:
       - name: Commit version change
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Automatically incremented build number in AssemblyInfo.cs'
+          message: "Set version to ${{ steps.increment.outputs.version }}"
           add: 'VokabelTrainer/Properties/AssemblyInfo.cs'
           github_token: ${{ secrets.GH_TOKEN }}
 
@@ -135,8 +135,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # ensure history & tags are present
-          git fetch --no-tags --prune --unshallow || true
-          git fetch --tags || true
+          # Only run --unshallow if the repo is actually shallow to avoid the harmless fatal
+          if (Test-Path -Path ".git\shallow") {
+            git fetch --unshallow --tags || git fetch --tags
+          } else {
+            git fetch --tags
+          }
 
           $tag = "VokabelTrainer_v${{ steps.increment.outputs.version }}"
           if (git rev-parse --verify $tag 2>$null) {
@@ -148,4 +152,21 @@ jobs:
           }
 
 
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.increment.outputs.version }}
+          release_name: VokabelTrainer v${{ steps.increment.outputs.version }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: VokabelTrainer/bin/VokabelTrainer-v${{ steps.increment.outputs.version }}.zip
+          asset_name: VokabelTrainer-v${{ steps.increment.outputs.version }}.zip
+          asset_content_type: application/zip
