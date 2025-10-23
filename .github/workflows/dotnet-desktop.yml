@@ -130,6 +130,81 @@ jobs:
           name: VokabelTrainer-v${{ steps.increment.outputs.version }}
           path: VokabelTrainer/bin/VokabelTrainer-v${{ steps.increment.outputs.version }}.zip
 
+      - name: Generate release notes (commits since last tag and since last minor version)
+        id: generate_release_notes
+        shell: pwsh
+        run: |
+          $version = '${{ steps.increment.outputs.version }}'
+
+          # Ensure tags are available
+          git fetch --tags
+
+          # Get tags sorted by creation date (newest first)
+          $tags = git for-each-ref --sort=-creatordate --format '%(refname:short)' refs/tags | ForEach-Object { $_ }
+
+          $prevTag = if ($tags.Length -gt 0) { $tags[0] } else { "" }
+
+          # Parse current major.minor from incremented version
+          $major = $null; $minor = $null
+          if ($version -match '^(\d+)\.(\d+)\.(\d+)\.(\d+)$') {
+            $major = $matches[1]; $minor = $matches[2]
+          }
+
+          # Find most recent tag with same major.minor
+          $minorTag = ""
+          if ($major -ne $null) {
+            foreach ($t in $tags) {
+              if ($t -match 'VokabelTrainer_v(\d+)\.(\d+)\.(\d+)\.(\d+)') {
+                if ($matches[1] -eq $major -and $matches[2] -eq $minor) {
+                  $minorTag = $t
+                  break
+                }
+              }
+            }
+          }
+
+          # Helper: get commits between range (exclude merge commits), filter out version-bump commit
+          function Get-Commits($range) {
+            if ([string]::IsNullOrEmpty($range)) {
+              $list = git log --pretty=format:'- %s (%an)' --no-merges
+            } else {
+              $list = git log $range --pretty=format:'- %s (%an)' --no-merges
+            }
+            if ($list) {
+              $lines = $list -split "`n" | Where-Object { $_ -notmatch 'Set version to' }
+              return ,$lines
+            }
+            return @()
+          }
+
+          if ($prevTag -ne "") {
+            $commits = Get-Commits("$prevTag..HEAD")
+          } else {
+            $commits = Get-Commits("")
+          }
+
+          if ($minorTag -ne "") {
+            # If minorTag is same as prevTag, minorCommits will be same as commits
+            if ($minorTag -ne $prevTag) {
+              $minorCommits = Get-Commits("$minorTag..HEAD")
+            } else {
+              $minorCommits = $commits
+            }
+          } else {
+            $minorCommits = $commits
+          }
+
+          if ($commits.Count -eq 0) { $commits = @("- (no commits found)") }
+          if ($minorCommits.Count -eq 0) { $minorCommits = @("- (no commits found)") }
+
+          $releaseBody = "Commits since last tag ($prevTag):`n"
+          $releaseBody += ($commits -join "`n")
+          $releaseBody += "`n`nCommits since last minor version ($minorTag):`n"
+          $releaseBody += ($minorCommits -join "`n")
+
+          # Publish as multiline step output
+          [System.IO.File]::AppendAllText($env:GITHUB_OUTPUT, "release_body<<EOF`n$releaseBody`nEOF`n")
+
       - name: Create and push tag
         shell: pwsh
         env:
@@ -159,8 +234,9 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         with:
-          tag_name: ${{ steps.increment.outputs.version }}
+          tag_name: VokabelTrainer_v${{ steps.increment.outputs.version }}
           release_name: VokabelTrainer v${{ steps.increment.outputs.version }}
+          body: ${{ steps.generate_release_notes.outputs.release_body }}
           draft: false
           prerelease: false
         env:
