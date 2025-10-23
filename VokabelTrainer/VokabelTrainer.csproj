@@ -2353,7 +2353,9 @@
     <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
   if NOT EXIST "$(TargetDir)ZZ_SOURCE_CODE_ZZ" (
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ"
-    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)"
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\.github\"
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\.github\workflows\"
+    mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
   )
   copy /Y "$(SolutionDir)*.sln" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
@@ -2362,6 +2364,7 @@
   copy /Y "$(SolutionDir)README.md" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
   copy /Y "$(ProjectDir)*.csproj" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
   copy /Y "$(SolutionDir).gitignore" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\"
+  copy /Y "$(SolutionDir).github\workflows\*.*"  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\.github\workflows\"
   copy /Y "$(ProjectDir)*.cs" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
   copy /Y "$(ProjectDir)*.ico" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
   rem copy /Y "$(ProjectDir)*.jpg" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\"
