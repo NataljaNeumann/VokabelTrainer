@@ -2379,7 +2379,7 @@
   del /F /S /Q ZZ_SOURCE_CODE_ZZ
   rmdir /S /Q ZZ_SOURCE_CODE_ZZ
   del /Q "*.pdb"
-  tar.exe -a -c -f ..\..\$(ProjectName).zip *.*
+  tar.exe -a -c -f ..\$(ProjectName).zip *.*
 )</PostBuildEvent>
   </PropertyGroup>
 </Project>
