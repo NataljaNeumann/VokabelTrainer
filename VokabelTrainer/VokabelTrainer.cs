@@ -492,6 +492,14 @@ namespace VokabelTrainer
             }
 
 
+            // Nobel Prize
+            if (dtmNow >= GetNobelPrizeStart() && dtmNow < GetNobelPrizeEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "NobelPrizeHeader.jpg"))
+                    return;
+            }
+
+
             // If there is no special header, then use default
             ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
         }
@@ -3810,7 +3818,7 @@ namespace VokabelTrainer
         //===================================================================================================
         static DateTime GetHalloweenStart()
         {
-            return new DateTime(DateTime.Now.Year, 10, 26);
+            return new DateTime(DateTime.Now.Year, 10, 29);
         }
 
         //===================================================================================================
@@ -3954,7 +3962,7 @@ namespace VokabelTrainer
         //===================================================================================================
         static DateTime GetWorldSavingsDayStart()
         {
-            return new DateTime(DateTime.Now.Year, 10, 25);
+            return new DateTime(DateTime.Now.Year, 10, 24);
         }
 
         //===================================================================================================
@@ -4090,6 +4098,26 @@ namespace VokabelTrainer
         static DateTime GetSoccerChampionsEnd()
         {
             return new DateTime(DateTime.Now.Year, 3, 16);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of nobel prize header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetNobelPrizeStart()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 3);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the ending of nobel prize header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetNobelPrizeEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 10, 08);
         }
 
         //===================================================================================================

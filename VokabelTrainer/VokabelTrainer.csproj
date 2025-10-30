@@ -2285,6 +2285,9 @@
     <Content Include="Images\NewYearHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\NobelPrizeHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\OlympicGamesHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
