@@ -94,44 +94,60 @@ namespace VokabelTrainer
         /// <summary>
         /// Constructs a new GraphForm object
         /// </summary>
-        /// <param name="wordsIncludingRepeats">The graph for total exercises</param>
-        /// <param name="wordsInBookOverTime">The graph for number of words</param>
-        /// <param name="wordsMinusErrors">The graph for learned words</param>
+        /// <param name="oWordsIncludingRepeats">The graph for total exercises</param>
+        /// <param name="oWordsInBookOverTime">The graph for number of words</param>
+        /// <param name="oWordsMinusErrors">The graph for learned words</param>
         //===================================================================================================
         public GraphsForm(
-            SortedDictionary<DateTime, int> wordsIncludingRepeats,
-            SortedDictionary<DateTime, int> wordsInBookOverTime,
-            SortedDictionary<DateTime, int> wordsMinusErrors)
+            SortedDictionary<DateTime, int> oWordsIncludingRepeats,
+            SortedDictionary<DateTime, int> oWordsInBookOverTime,
+            SortedDictionary<DateTime, int> oWordsMinusErrors)
         {
             InitializeComponent();
             InitializeResources();
 
             // save graph data
-            m_oTotalGraphData = wordsIncludingRepeats;
-            m_oWordsGraphData = wordsInBookOverTime;
-            m_oLearnedWordsGraphData = wordsMinusErrors;
+            SortedDictionary<DateTime, int> oWordsIncludingRepeats2 =
+                new SortedDictionary<DateTime, int>();
+
+            int nDownscaling = oWordsInBookOverTime.Values.Last<int>() == 0 ? 1 : 
+                oWordsIncludingRepeats.Values.Last<int>() /
+                oWordsInBookOverTime.Values.Last<int>();
+            if (nDownscaling < 1)
+                nDownscaling = 1;
+
+            foreach (KeyValuePair<DateTime, int> oKvp in oWordsIncludingRepeats)
+            {
+                oWordsIncludingRepeats2[oKvp.Key] = oKvp.Value / nDownscaling; 
+            }
+            m_oTotalGraphData = oWordsIncludingRepeats2;
+            m_oWordsGraphData = oWordsInBookOverTime;
+            m_oLearnedWordsGraphData = oWordsMinusErrors;
 
             // save localized labels in strings 
-            m_strTotalWordsLabel = m_lblTotal.Text;
-            m_strWordsLabel = m_lblWords.Text;
-            m_strLearnedWordsLabel = m_lblWordsLearned.Text;
+            m_strTotalWordsLabel = m_lblTotal.Text.Trim() + 
+                " (" + oWordsIncludingRepeats.Values.Last<int>().ToString() + ")";
+            m_strWordsLabel = m_lblWords.Text.Trim() +
+                 " (" + oWordsInBookOverTime.Values.Last<int>().ToString() + ")";
+            m_strLearnedWordsLabel = m_lblWordsLearned.Text.Trim() +
+                 " (" + oWordsMinusErrors.Values.Last<int>().ToString() + ")";
 
             // Determine min and max dates
             m_dtmMinDate = DateTime.MaxValue;
             m_dtmMaxDate = DateTime.MinValue;
 
-            foreach (var date in wordsIncludingRepeats.Keys)
+            foreach (var dtmDate in oWordsIncludingRepeats.Keys)
             {
-                if (date < m_dtmMinDate) m_dtmMinDate = date;
-                if (date > m_dtmMaxDate) m_dtmMaxDate = date;
+                if (dtmDate < m_dtmMinDate) m_dtmMinDate = dtmDate;
+                if (dtmDate > m_dtmMaxDate) m_dtmMaxDate = dtmDate;
             }
 
             // Calculate the maximum value across all graphs
             m_nMaxValue = Math.Max(
-                wordsIncludingRepeats.Values.Max(),
+                oWordsIncludingRepeats.Values.Max(),
                 Math.Max(
-                    wordsInBookOverTime.Values.Max(),
-                    wordsMinusErrors.Values.Max()
+                    oWordsInBookOverTime.Values.Max(),
+                    oWordsMinusErrors.Values.Max()
                 )
             );
 
@@ -304,7 +320,7 @@ namespace VokabelTrainer
             foreach (var oEntry in oData)
             {
                 int x = oArea.Left + (int)((oEntry.Key - m_dtmMinDate).TotalDays * oArea.Width / nTotalDays);
-                int y = oArea.Bottom - (oEntry.Value * oArea.Height / m_nMaxValue);
+                int y = oArea.Bottom - (oEntry.Value * oArea.Height / (m_nMaxValue + 1));
                 aPoints.Add(new Point(x, y));
             }
 
@@ -334,8 +350,17 @@ namespace VokabelTrainer
                             fNewPosition = fPosition - m_lblWordsLearned.Height;
 
                     }
-                    
-                    oGraphics.DrawString(strName, m_lblTotal.Font, oBrush, new PointF(oLastPoint.X + 5, fNewPosition));
+
+                    StringFormat oFormat = new StringFormat();
+
+                    if (this.RightToLeft == RightToLeft.Yes)
+                    {
+                        oFormat.FormatFlags |= StringFormatFlags.DirectionRightToLeft;
+                        oFormat.Alignment = StringAlignment.Far;
+                    }
+
+                    oGraphics.DrawString(strName, m_lblTotal.Font, oBrush,
+                            new PointF(oLastPoint.X + 5, fNewPosition), oFormat);
                 }
             }
         }
