@@ -69,1398 +69,1398 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.cs">
+    <Compile Include="Forms\About.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="About.Designer.cs">
+    <Compile Include="Forms\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="GraphsForm.cs">
+    <Compile Include="Forms\GraphsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GraphsForm.Designer.cs">
+    <Compile Include="Forms\GraphsForm.Designer.cs">
       <DependentUpon>GraphsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewDictionaryPair.cs">
+    <Compile Include="Forms\NewDictionaryPair.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewDictionaryPair.Designer.cs">
+    <Compile Include="Forms\NewDictionaryPair.Designer.cs">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewLanguageFile.cs">
+    <Compile Include="Forms\NewLanguageFile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewLanguageFile.Designer.cs">
+    <Compile Include="Forms\NewLanguageFile.Designer.cs">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewMessageBox.cs">
+    <Compile Include="Forms\NewMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewMessageBox.Designer.cs">
+    <Compile Include="Forms\NewMessageBox.Designer.cs">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Speaker.cs" />
-    <Compile Include="VokabelTrainer.cs">
+    <Compile Include="Forms\VokabelTrainer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VokabelTrainer.Designer.cs">
+    <Compile Include="Forms\VokabelTrainer.Designer.cs">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="About.am-ET.resx">
+    <EmbeddedResource Include="Forms\About.am-ET.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.bo-CN.resx">
+    <EmbeddedResource Include="Forms\About.bo-CN.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ga-IE.resx">
+    <EmbeddedResource Include="Forms\About.ga-IE.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ig-NG.resx">
+    <EmbeddedResource Include="Forms\About.ig-NG.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\About.ku-Arab-IQ.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.resx">
+    <EmbeddedResource Include="Forms\About.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.af.resx">
+    <EmbeddedResource Include="Forms\About.af.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ar.resx">
+    <EmbeddedResource Include="Forms\About.ar.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.az.resx">
+    <EmbeddedResource Include="Forms\About.az.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.be-BY.resx">
+    <EmbeddedResource Include="Forms\About.be-BY.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.bg.resx">
+    <EmbeddedResource Include="Forms\About.bg.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\About.bs-Latn-BA.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ca.resx">
+    <EmbeddedResource Include="Forms\About.ca.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.cs.resx">
+    <EmbeddedResource Include="Forms\About.cs.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.da.resx">
+    <EmbeddedResource Include="Forms\About.da.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.de.resx">
+    <EmbeddedResource Include="Forms\About.de.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.el.resx">
+    <EmbeddedResource Include="Forms\About.el.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.es.resx">
+    <EmbeddedResource Include="Forms\About.es.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.et.resx">
+    <EmbeddedResource Include="Forms\About.et.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.fa.resx">
+    <EmbeddedResource Include="Forms\About.fa.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.fi.resx">
+    <EmbeddedResource Include="Forms\About.fi.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.fr.resx">
+    <EmbeddedResource Include="Forms\About.fr.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.he.resx">
+    <EmbeddedResource Include="Forms\About.he.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.hi.resx">
+    <EmbeddedResource Include="Forms\About.hi.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.hu.resx">
+    <EmbeddedResource Include="Forms\About.hu.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.hy.resx">
+    <EmbeddedResource Include="Forms\About.hy.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.id-ID.resx">
+    <EmbeddedResource Include="Forms\About.id-ID.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.is.resx">
+    <EmbeddedResource Include="Forms\About.is.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.it.resx">
+    <EmbeddedResource Include="Forms\About.it.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ja.resx">
+    <EmbeddedResource Include="Forms\About.ja.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ka.resx">
+    <EmbeddedResource Include="Forms\About.ka.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.kk.resx">
+    <EmbeddedResource Include="Forms\About.kk.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.km-KH.resx">
+    <EmbeddedResource Include="Forms\About.km-KH.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ko.resx">
+    <EmbeddedResource Include="Forms\About.ko.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ky-KG.resx">
+    <EmbeddedResource Include="Forms\About.ky-KG.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.la.resx">
+    <EmbeddedResource Include="Forms\About.la.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.lt.resx">
+    <EmbeddedResource Include="Forms\About.lt.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.lv.resx">
+    <EmbeddedResource Include="Forms\About.lv.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.mk.resx">
+    <EmbeddedResource Include="Forms\About.mk.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.mn-MN.resx">
+    <EmbeddedResource Include="Forms\About.mn-MN.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ms.resx">
+    <EmbeddedResource Include="Forms\About.ms.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.nl.resx">
+    <EmbeddedResource Include="Forms\About.nl.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.no.resx">
+    <EmbeddedResource Include="Forms\About.no.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\About.pa-Arab-PK.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.pa-IN.resx">
+    <EmbeddedResource Include="Forms\About.pa-IN.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.pl.resx">
+    <EmbeddedResource Include="Forms\About.pl.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ps-AF.resx">
+    <EmbeddedResource Include="Forms\About.ps-AF.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.pt.resx">
+    <EmbeddedResource Include="Forms\About.pt.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ro.resx">
+    <EmbeddedResource Include="Forms\About.ro.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ru.resx">
+    <EmbeddedResource Include="Forms\About.ru.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.rw-RW.resx">
+    <EmbeddedResource Include="Forms\About.rw-RW.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.sa.resx">
+    <EmbeddedResource Include="Forms\About.sa.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.sk.resx">
+    <EmbeddedResource Include="Forms\About.sk.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.sl.resx">
+    <EmbeddedResource Include="Forms\About.sl.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.so-SO.resx">
+    <EmbeddedResource Include="Forms\About.so-SO.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.sr.resx">
+    <EmbeddedResource Include="Forms\About.sr.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.sv.resx">
+    <EmbeddedResource Include="Forms\About.sv.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\About.tg-Cyrl-TJ.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.th.resx">
+    <EmbeddedResource Include="Forms\About.th.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ti-ER.resx">
+    <EmbeddedResource Include="Forms\About.ti-ER.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.ti-ET.resx">
+    <EmbeddedResource Include="Forms\About.ti-ET.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.tr.resx">
+    <EmbeddedResource Include="Forms\About.tr.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.uk.resx">
+    <EmbeddedResource Include="Forms\About.uk.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.uz.resx">
+    <EmbeddedResource Include="Forms\About.uz.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.vi.resx">
+    <EmbeddedResource Include="Forms\About.vi.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.wo-SN.resx">
+    <EmbeddedResource Include="Forms\About.wo-SN.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.yo-NG.resx">
+    <EmbeddedResource Include="Forms\About.yo-NG.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\About.zh-CHS.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\About.zh-CHT.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.af.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.af.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.am-ET.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.am-ET.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ar.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ar.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.az.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.az.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.be.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.be.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.bg.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.bg.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.bo-CN.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.bo-CN.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.bs-Latn-BA.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ca.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ca.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.cs-CZ.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.da.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.da.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.de.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.de.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.el.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.el.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.en.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.en.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.es.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.es.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.et.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.et.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.fa.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.fa.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.fi.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.fi.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.fr.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.fr.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ga-IE.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ga-IE.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.he.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.he.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.hi.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.hi.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.hr.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.hr.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.hu.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.hu.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.hy.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.hy.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.id.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.id.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ig-NG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ig-NG.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.is.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.is.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.it.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.it.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ja.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ja.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ka.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ka.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.kk.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.kk.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.km-KH.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.km-KH.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ko.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ko.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ku-Arab-IQ.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ky-KG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ky-KG.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.lt.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.lt.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.lv.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.lv.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.mk.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.mk.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.mn-MN.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.mn-MN.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ms.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ms.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.nl.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.nl.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.no.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.no.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.pa-Arab-PK.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.pa-IN.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.pa-IN.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.pl.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.pl.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ps-AF.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ps-AF.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.pt.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.pt.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ro.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ro.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ru.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ru.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.rw-RW.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.rw-RW.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.sa.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.sa.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.sk.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.sk.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.sl.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.sl.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.so-SO.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.so-SO.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.sr.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.sr.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.sv.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.sv.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.tg-Cyrl-TJ.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.th.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.th.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ti-ER.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ti-ER.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.ti-ET.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ti-ET.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.tk-TM.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.tk-TM.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.tr.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.tr.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.uk.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.uk.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.uz.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.uz.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.vi.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.vi.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.wo-SN.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.wo-SN.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.yo-NG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.yo-NG.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.zh-CHS.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="GraphsForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.zh-CHT.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.af.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.af.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.am-ET.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ar.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ar.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.az.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.az.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.be.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.be.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.bg.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.bg.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.bo-CN.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.bo-CN.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.bs-Latn-BA.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ca.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ca.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.cs-CZ.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.da.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.da.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.de.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.de.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.el.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.el.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.es.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.es.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.et.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.et.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.fa.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.fa.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.fi.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.fi.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.fr.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.fr.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.he.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.he.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.hi.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.hi.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.hr.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.hr.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.hu.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.hu.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.hy.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.hy.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.id.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.id.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ig-NG.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.is.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.is.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.it.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.it.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ja.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ja.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ka.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ka.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.kk.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.kk.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.km-KH.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.km-KH.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ko.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ko.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ku-Arab-IQ.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ky-KG.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.lt.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.lt.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.lv.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.lv.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.mk.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.mk.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.mn-MN.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.mn-MN.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ms.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ms.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.nl.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.nl.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.no.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.no.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.pa-Arab-PK.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.pa-IN.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.pa-IN.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.pl.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.pl.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ps-AF.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.pt.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.pt.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ro.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ro.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ru.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ru.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.rw-RW.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.sa.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.sa.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.sk.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.sk.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.sl.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.sl.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.so-SO.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.sr.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.sr.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.sv.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.sv.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.tg-Cyrl-TJ.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.th.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.th.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ti-ER.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.tk-TM.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.tr.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.tr.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.uk.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.uk.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.uz.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.uz.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.vi.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.vi.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.wo-SN.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.yo-NG.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.zh-CHS.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewDictionaryPair.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.zh-CHT.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.af.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.af.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.am-ET.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ar.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ar.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.az.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.az.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.be.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.be.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.bg.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.bg.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.bo-CN.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.bo-CN.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.bs-Latn-BA.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ca.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ca.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.cs-CZ.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.da.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.da.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.de.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.de.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.el.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.el.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.es.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.es.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.et.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.et.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.fa.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.fa.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.fi.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.fi.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.fr.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.fr.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.he.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.he.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.hi.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.hi.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.hr.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.hr.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.hu.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.hu.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.hy.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.hy.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.id.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.id.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ig-NG.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.is.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.is.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.it.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.it.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ja.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ja.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ka.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ka.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.kk.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.kk.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.km-KH.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.km-KH.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ko.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ko.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ku-Arab-IQ.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ky-KG.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.lt.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.lt.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.lv.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.lv.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.mk.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.mk.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.mn-MN.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.mn-MN.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ms.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ms.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.nl.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.nl.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.no.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.no.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.pa-Arab-PK.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.pa-IN.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.pa-IN.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.pl.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.pl.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ps-AF.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.pt.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.pt.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ro.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ro.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ru.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ru.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.rw-RW.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.sa.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.sa.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.sk.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.sk.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.sl.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.sl.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.so-SO.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.sr.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.sr.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.sv.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.sv.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.tg-Cyrl-TJ.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.th.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.th.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ti-ER.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.tk-TM.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.tr.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.tr.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.uk.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.uk.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.uz.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.uz.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.vi.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.vi.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.wo-SN.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.yo-NG.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.zh-CHS.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLanguageFile.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.zh-CHT.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.af.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.af.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.am-ET.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ar.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ar.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.az.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.az.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.be.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.be.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.bg.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.bg.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.bo-CN.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.bo-CN.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.bs-Latn-BA.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ca.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ca.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.cs-CZ.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.da.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.da.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.de.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.de.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.es.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.es.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.et.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.et.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.fa.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.fa.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.fi.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.fi.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.fr.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.fr.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.hi.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.hi.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.hr.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.hr.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.hu.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.hu.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.hy.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.hy.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.id.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.id.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ig-NG.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.is.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.is.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.it.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.it.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ja.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ja.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ka.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ka.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.kk.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.kk.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.km-KH.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.km-KH.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ko.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ko.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ky-KG.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.lt.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.lt.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.lv.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.lv.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.mk.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.mk.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.mn-MN.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.mn-MN.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ms.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ms.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.nl.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.nl.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.no.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.no.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.pa-Arab-PK.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.pa-IN.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.pa-IN.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.pl.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.pl.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ps-AF.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.pt.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.pt.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ro.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ro.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.rw-RW.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.sa.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.sa.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.sk.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.sk.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.sl.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.sl.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.so-SO.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.sr.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.sr.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.sv.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.sv.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.tg-Cyrl-TJ.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.th.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.th.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ti-ER.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.tk-TM.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.uk.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.uk.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.uz.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.uz.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.vi.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.vi.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.wo-SN.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.yo-NG.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.zh-CHS.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMessageBox.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.zh-CHT.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1670,551 +1670,551 @@
     <EmbeddedResource Include="Properties\Resources.ku-Arab-IQ.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.af.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.af.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.am-ET.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.am-ET.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ar.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ar.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.az.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.az.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.be.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.be.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.bg.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.bg.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.bo-CN.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.bo-CN.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.bs-Latn-BA.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ca.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ca.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.cs-CZ.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.da.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.da.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.de.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.de.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.el.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.el.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.es.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.es.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.et.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.et.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.fa.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.fa.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.fi.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.fi.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.fr.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.fr.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ga-IE.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ga-IE.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.he.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.he.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.hi.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.hi.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.hr.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.hr.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.hu.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.hu.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.hy.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.hy.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.id.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.id.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ig-NG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ig-NG.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.is.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.is.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.it.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.it.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ja.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ja.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ka.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ka.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.kk.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.kk.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.km-KH.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.km-KH.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ko.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ko.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ku-Arab-IQ.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ky-KG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ky-KG.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.lt.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.lt.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.lv.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.lv.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.mk.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.mk.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.mn-MN.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.mn-MN.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ms.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ms.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.nl.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.nl.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.no.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.no.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.pa-Arab-PK.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.pa-IN.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.pa-IN.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.pl.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.pl.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ps-AF.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ps-AF.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.pt.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.pt.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ro.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ro.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ru.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ru.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.rw-RW.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.rw-RW.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.sa.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.sa.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.sk.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.sk.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.sl.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.sl.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.so-SO.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.so-SO.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.sr.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.sr.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.sv.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.sv.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.tg-Cyrl-TJ.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.th.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.th.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.ti-ER.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ti-ER.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.tk-TM.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.tk-TM.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.tr.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.tr.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.uk.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.uk.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.uz.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.uz.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.vi.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.vi.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.wo-SN.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.wo-SN.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.yo-NG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.yo-NG.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.zh-CHS.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="VokabelTrainer.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.zh-CHT.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.af.resx">
+    <EmbeddedResource Include="Forms\WordTest.af.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.am-ET.resx">
+    <EmbeddedResource Include="Forms\WordTest.am-ET.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ar.resx">
+    <EmbeddedResource Include="Forms\WordTest.ar.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.az.resx">
+    <EmbeddedResource Include="Forms\WordTest.az.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.be.resx">
+    <EmbeddedResource Include="Forms\WordTest.be.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.bg.resx">
+    <EmbeddedResource Include="Forms\WordTest.bg.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.bo-CN.resx">
+    <EmbeddedResource Include="Forms\WordTest.bo-CN.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\WordTest.bs-Latn-BA.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ca.resx">
+    <EmbeddedResource Include="Forms\WordTest.ca.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.cs-CZ.resx">
+    <EmbeddedResource Include="Forms\WordTest.cs-CZ.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.da.resx">
+    <EmbeddedResource Include="Forms\WordTest.da.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.de.resx">
+    <EmbeddedResource Include="Forms\WordTest.de.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.el.resx">
+    <EmbeddedResource Include="Forms\WordTest.el.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.es.resx">
+    <EmbeddedResource Include="Forms\WordTest.es.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.et.resx">
+    <EmbeddedResource Include="Forms\WordTest.et.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.fa.resx">
+    <EmbeddedResource Include="Forms\WordTest.fa.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.fi.resx">
+    <EmbeddedResource Include="Forms\WordTest.fi.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.fr.resx">
+    <EmbeddedResource Include="Forms\WordTest.fr.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.he.resx">
+    <EmbeddedResource Include="Forms\WordTest.he.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.hi.resx">
+    <EmbeddedResource Include="Forms\WordTest.hi.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.hr.resx">
+    <EmbeddedResource Include="Forms\WordTest.hr.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.hu.resx">
+    <EmbeddedResource Include="Forms\WordTest.hu.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.hy.resx">
+    <EmbeddedResource Include="Forms\WordTest.hy.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.id.resx">
+    <EmbeddedResource Include="Forms\WordTest.id.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ig-NG.resx">
+    <EmbeddedResource Include="Forms\WordTest.ig-NG.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.is.resx">
+    <EmbeddedResource Include="Forms\WordTest.is.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.it.resx">
+    <EmbeddedResource Include="Forms\WordTest.it.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ja.resx">
+    <EmbeddedResource Include="Forms\WordTest.ja.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ka.resx">
+    <EmbeddedResource Include="Forms\WordTest.ka.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.kk.resx">
+    <EmbeddedResource Include="Forms\WordTest.kk.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.km-KH.resx">
+    <EmbeddedResource Include="Forms\WordTest.km-KH.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ko.resx">
+    <EmbeddedResource Include="Forms\WordTest.ko.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ku-Arab-IQ.resx">
+    <EmbeddedResource Include="Forms\WordTest.ku-Arab-IQ.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ky.resx">
+    <EmbeddedResource Include="Forms\WordTest.ky.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.lt.resx">
+    <EmbeddedResource Include="Forms\WordTest.lt.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.lv.resx">
+    <EmbeddedResource Include="Forms\WordTest.lv.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.mk.resx">
+    <EmbeddedResource Include="Forms\WordTest.mk.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.mn-MN.resx">
+    <EmbeddedResource Include="Forms\WordTest.mn-MN.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ms.resx">
+    <EmbeddedResource Include="Forms\WordTest.ms.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.nl.resx">
+    <EmbeddedResource Include="Forms\WordTest.nl.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.no.resx">
+    <EmbeddedResource Include="Forms\WordTest.no.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.pa-Arab-PK.resx">
+    <EmbeddedResource Include="Forms\WordTest.pa-Arab-PK.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.pa-IN.resx">
+    <EmbeddedResource Include="Forms\WordTest.pa-IN.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.pl.resx">
+    <EmbeddedResource Include="Forms\WordTest.pl.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ps-AF.resx">
+    <EmbeddedResource Include="Forms\WordTest.ps-AF.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.pt.resx">
+    <EmbeddedResource Include="Forms\WordTest.pt.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.resx">
+    <EmbeddedResource Include="Forms\WordTest.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ro.resx">
+    <EmbeddedResource Include="Forms\WordTest.ro.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ru.resx">
+    <EmbeddedResource Include="Forms\WordTest.ru.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.rw-RW.resx">
+    <EmbeddedResource Include="Forms\WordTest.rw-RW.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.sa.resx">
+    <EmbeddedResource Include="Forms\WordTest.sa.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.sk.resx">
+    <EmbeddedResource Include="Forms\WordTest.sk.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.sl.resx">
+    <EmbeddedResource Include="Forms\WordTest.sl.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.so-SO.resx">
+    <EmbeddedResource Include="Forms\WordTest.so-SO.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.sr.resx">
+    <EmbeddedResource Include="Forms\WordTest.sr.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.sv.resx">
+    <EmbeddedResource Include="Forms\WordTest.sv.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\WordTest.tg-Cyrl-TJ.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.th.resx">
+    <EmbeddedResource Include="Forms\WordTest.th.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.ti-ER.resx">
+    <EmbeddedResource Include="Forms\WordTest.ti-ER.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.tk-TM.resx">
+    <EmbeddedResource Include="Forms\WordTest.tk-TM.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.tr.resx">
+    <EmbeddedResource Include="Forms\WordTest.tr.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.uk.resx">
+    <EmbeddedResource Include="Forms\WordTest.uk.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.uz.resx">
+    <EmbeddedResource Include="Forms\WordTest.uz.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.vi.resx">
+    <EmbeddedResource Include="Forms\WordTest.vi.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.wo-SN.resx">
+    <EmbeddedResource Include="Forms\WordTest.wo-SN.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.yo-NG.resx">
+    <EmbeddedResource Include="Forms\WordTest.yo-NG.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\WordTest.zh-CHS.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WordTest.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\WordTest.zh-CHT.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2233,10 +2233,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="WordTest.cs">
+    <Compile Include="Forms\WordTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WordTest.Designer.cs">
+    <Compile Include="Forms\WordTest.Designer.cs">
       <DependentUpon>WordTest.cs</DependentUpon>
     </Compile>
   </ItemGroup>
