@@ -751,174 +751,179 @@ namespace VokabelTrainer
                 }
 
                 // continue with loading of training file, after vocabulary has been loaded
-                if (m_strCurrentPath!=null)
-                try {
-
-                    string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml",".Training.xml")
-                        .Replace("Vocabulary.xml",".Training.xml");
-
-                    System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
-                    if (fi.Exists)
+                if (m_strCurrentPath != null)
+                {
+                    try
                     {
-                        System.Xml.XmlDocument oCurrentDoc = new System.Xml.XmlDocument();
-                        oCurrentDoc.Load(strCurrentPath);
 
-                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
+                        string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml", ".Training.xml")
+                            .Replace("Vocabulary.xml", ".Training.xml");
+
+                        System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
+                        if (fi.Exists)
                         {
-                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                            if (strTrainingProgress.Length > 6)
-                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                            else
-                                while (strTrainingProgress.Length < 6)
-                                    strTrainingProgress = strTrainingProgress + "1";
+                            System.Xml.XmlDocument oCurrentDoc = new System.Xml.XmlDocument();
+                            oCurrentDoc.Load(strCurrentPath);
 
-                            if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
                             {
-                                m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                      - (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                          m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
+                                string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                                if (strTrainingProgress.Length > 6)
+                                    strTrainingProgress = strTrainingProgress.Substring(0, 6);
+                                else
+                                    while (strTrainingProgress.Length < 6)
+                                        strTrainingProgress = strTrainingProgress + "1";
 
-                                m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-
-                                if (!m_oFirstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                    m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-
-                                System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                                if (n != null)
+                                if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                                 {
-                                    string strCorrectAnswers = n.InnerText;
-                                    int nCorrectAnswers = 0;
-                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                        nCorrectAnswers = 0;
-                                    else
-                                        if (nCorrectAnswers < 0)
+                                    m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                          - (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                              m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
+
+                                    m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+
+                                    if (!m_oFirstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                        m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+
+                                    System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
+                                    if (n != null)
+                                    {
+                                        string strCorrectAnswers = n.InnerText;
+                                        int nCorrectAnswers = 0;
+                                        if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                            nCorrectAnswers = 0;
+                                        else
+                                            if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
 
-                                    nTotalCountCorrectAnswers += nCorrectAnswers;
-                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
-                                }
-                                else
-                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
-                            }
-                        }
-
-                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zweite-sprache"))
-                        {
-                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                            if (strTrainingProgress.Length > 6)
-                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                            else
-                                while (strTrainingProgress.Length < 6)
-                                    strTrainingProgress = strTrainingProgress + "1";
-
-                            if (m_oTtrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                            {
-                                m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                   - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                      m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
-
-                                m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-
-                                if (!m_oSecondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                    m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-
-                                System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                                if (n != null)
-                                {
-                                    string strCorrectAnswers = n.InnerText;
-                                    int nCorrectAnswers = 0;
-                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                        nCorrectAnswers = 0;
+                                        nTotalCountCorrectAnswers += nCorrectAnswers;
+                                        m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                    }
                                     else
-                                        if (nCorrectAnswers < 0)
+                                        m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                                }
+                            }
+
+                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zweite-sprache"))
+                            {
+                                string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                                if (strTrainingProgress.Length > 6)
+                                    strTrainingProgress = strTrainingProgress.Substring(0, 6);
+                                else
+                                    while (strTrainingProgress.Length < 6)
+                                        strTrainingProgress = strTrainingProgress + "1";
+
+                                if (m_oTtrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                {
+                                    m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                       - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                          m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
+
+                                    m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+
+                                    if (!m_oSecondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                        m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+
+                                    System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
+                                    if (n != null)
+                                    {
+                                        string strCorrectAnswers = n.InnerText;
+                                        int nCorrectAnswers = 0;
+                                        if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                            nCorrectAnswers = 0;
+                                        else
+                                            if (nCorrectAnswers < 0)
                                             nCorrectAnswers = 0;
 
-                                    nTotalCountCorrectAnswers += nCorrectAnswers;
-                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                        nTotalCountCorrectAnswers += nCorrectAnswers;
+                                        m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                    }
+                                    else
+                                        m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
                                 }
-                                else
-                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+
                             }
 
-                        }
+                            m_oTotalGraphData = new SortedDictionary<DateTime, int>();
+                            m_oWordsGraphData = new SortedDictionary<DateTime, int>();
+                            m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
 
-                        m_oTotalGraphData = new SortedDictionary<DateTime, int>();
-                        m_oWordsGraphData = new SortedDictionary<DateTime, int>();
-                        m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
+                            DateTime dtmLastStatsDate = DateTime.MinValue;
 
-                        DateTime dtmLastStatsDate = DateTime.MinValue;
-
-                        // load the training stats over time
-                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zustand"))
-                        {
-                            try
+                            // load the training stats over time
+                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zustand"))
                             {
-                                DateTime dtmStatsDate = DateTime.Parse(e.SelectSingleNode("datum").InnerText);
-                                int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
-                                int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
-                                int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
+                                try
+                                {
+                                    DateTime dtmStatsDate = DateTime.ParseExact(e.SelectSingleNode("datum").InnerText,
+                                        "yyyy-MM-dd", 
+                                        System.Threading.Thread.CurrentThread.CurrentUICulture);
+                                    int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
+                                    int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
+                                    int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
 
                                 m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
-                                m_oWordsGraphData[dtmStatsDate] = nNumberWords;
-                                m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
+                                    m_oWordsGraphData[dtmStatsDate] = nNumberWords;
+                                    m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
 
-                                if (dtmLastStatsDate < dtmStatsDate)
-                                    dtmLastStatsDate = dtmLastStatsDate;
+                                    if (dtmLastStatsDate < dtmStatsDate)
+                                        dtmLastStatsDate = dtmLastStatsDate;
+                                }
+                                catch
+                                {
+                                    // ignore
+                                }
                             }
-                            catch
+
+                            DateTime dtmStatsDate2 = DateTime.Now.Date;
+                            int nNumberWords2 = m_oFirstToSecond.Keys.Count + m_oSecondToFirst.Keys.Count;
+                            int nNumberErrors2 = m_nTotalNumberOfErrorsFirstLanguage + m_nTotalNumberOfErrorsSecondLanguage;
+
+                            if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
                             {
-                                // ignore
-                            }
-                        }
-
-                        DateTime dtmStatsDate2 = DateTime.Now.Date;
-                        int nNumberWords2 = m_oFirstToSecond.Keys.Count + m_oSecondToFirst.Keys.Count;
-                        int nNumberErrors2 = m_nTotalNumberOfErrorsFirstLanguage + m_nTotalNumberOfErrorsSecondLanguage;
-
-                        if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
-                        {
                             m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
-                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
-                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+                                m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                                m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
 
-                            if (m_oTotalGraphData.Count == 1)
-                            {
+                                if (m_oTotalGraphData.Count == 1)
+                                {
                                 m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = nTotalCountCorrectAnswers + nNumberWords2;
-                                m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2;
-                                m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2 - nNumberErrors2;
+                                    m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2;
+                                    m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2 - nNumberErrors2;
+                                }
                             }
-                        }
-                        else
-                        {
-                            // if same month then remove the old date and put the new stats in last row
-                            m_oTotalGraphData.Remove(dtmLastStatsDate);
-                            m_oWordsGraphData.Remove(dtmLastStatsDate);
-                            m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
+                            else
+                            {
+                                // if same month then remove the old date and put the new stats in last row
+                                m_oTotalGraphData.Remove(dtmLastStatsDate);
+                                m_oWordsGraphData.Remove(dtmLastStatsDate);
+                                m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
 
 
                             m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
-                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
-                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+                                m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                                m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+                            }
+
                         }
-
                     }
-                }
-                catch (Exception ex)
-                {
-                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
-                        string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, ex.Message));
+                    catch (Exception oEx)
+                    {
+                        NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
+                            string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, oEx.Message));
 
-                    m_strCurrentPath = null;
-                    m_oCurrentVocabularyDoc = null;
+                        m_strCurrentPath = null;
+                        m_oCurrentVocabularyDoc = null;
 
-                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
-                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
-                    m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
-                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
-                    m_nTotalNumberOfErrorsFirstLanguage = 0;
-                    m_nTotalNumberOfErrorsSecondLanguage = 0;
+                        m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                        m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                        m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                        m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                        m_nTotalNumberOfErrorsFirstLanguage = 0;
+                        m_nTotalNumberOfErrorsSecondLanguage = 0;
+                    }
                 }
             }
 
@@ -957,7 +962,8 @@ namespace VokabelTrainer
                     string strNewPath;
 
 
-                    strNewPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
+                    strNewPath = System.IO.Path.Combine(
+                        Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
                         form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text);
 
                     if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))

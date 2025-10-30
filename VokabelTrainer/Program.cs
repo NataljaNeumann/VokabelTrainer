@@ -106,6 +106,10 @@ namespace VokabelTrainer
                 // "rw-RW";
             // System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
             // System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
+
+            // we need gregorian calender, so the dates are parsed correctly across all cultures
+            // System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.Calendar = new GregorianCalendar();
+            // System.Threading.Thread.CurrentThread.CurrentUICulture.DateTimeFormat.Calendar = new GregorianCalendar();
 #endif
 
 
