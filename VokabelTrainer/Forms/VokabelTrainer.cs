@@ -182,38 +182,15 @@ namespace VokabelTrainer
             { 2031, new DateTime(2031, 10, 15) },
             { 2032, new DateTime(2032, 11, 2) },
             { 2033, new DateTime(2033, 10, 23) },
-            { 2034, new DateTime(2034, 11, 11) }
+            { 2034, new DateTime(2034, 11, 11) },
+            { 2046, new DateTime(2046, 10, 23) },
+            { 2047, new DateTime(2047, 11, 12) },
+            { 2048, new DateTime(2048, 11, 1) },
+            { 2049, new DateTime(2046, 10, 21) },
+            { 2050, new DateTime(2050, 11, 9) },
+            { 2051, new DateTime(2051, 10, 29) },
+            { 2052, new DateTime(2052, 11, 17) }
         };
-
-
-        //===================================================================================================
-        /// <summary>
-        /// Exact known Chinese New Year dates 2025..2044
-        /// </summary>
-        private static Dictionary<int, DateTime> s_oChineseNewYearDates = new Dictionary<int, DateTime>
-        {
-            { 2025, new DateTime(2025, 1, 29) },
-            { 2026, new DateTime(2026, 2, 17) },
-            { 2027, new DateTime(2027, 2, 6) },
-            { 2028, new DateTime(2028, 1, 26) },
-            { 2029, new DateTime(2029, 2, 13) },
-            { 2030, new DateTime(2030, 2, 2) },
-            { 2031, new DateTime(2031, 1, 22) },
-            { 2032, new DateTime(2032, 2, 10) },
-            { 2033, new DateTime(2033, 1, 29) },
-            { 2034, new DateTime(2034, 2, 18) },
-            { 2035, new DateTime(2035, 2, 7) },
-            { 2036, new DateTime(2036, 1, 28) },
-            { 2037, new DateTime(2037, 2, 15) },
-            { 2038, new DateTime(2038, 2, 4) },
-            { 2039, new DateTime(2039, 1, 24) },
-            { 2040, new DateTime(2040, 2, 12) },
-            { 2041, new DateTime(2041, 2, 1) },
-            { 2042, new DateTime(2042, 1, 22) },
-            { 2043, new DateTime(2043, 2, 10) },
-            { 2044, new DateTime(2044, 1, 30) }
-        };
-
 
 
 
@@ -3553,7 +3530,8 @@ namespace VokabelTrainer
                 0, 0, 0, 0               // Time component
             );
 
-            return dtmRamadanDateGregorian;
+            // Add 5 days, so there are less collisions with other lunisolar calendars
+            return dtmRamadanDateGregorian.AddDays(5);
         }
 
 
@@ -3651,10 +3629,14 @@ namespace VokabelTrainer
             }
             else
             {
+                /*
                 // Estimate based on past trends (Diwali usually falls between October and November)
                 int nEstimatedMonth = (nYear % 3 == 0) ? 10 : 11; // Alternating between Oct and Nov
                 int nEstimatedDay = 20 + (nYear % 5); // Rough day estimation
                 return new DateTime(nYear, nEstimatedMonth, nEstimatedDay).AddDays(-2);
+                */
+                // Estimate based on Rosh Hashanah: 41 day after Rosh Hashanah
+                return GetRoshHashanahStart().AddDays(41);
             }
         }
 
@@ -3679,25 +3661,15 @@ namespace VokabelTrainer
         //===================================================================================================
         public static DateTime GetChineseNewYearStart()
         {
-            int nYear = System.DateTime.Now.Year;
+            ChineseLunisolarCalendar oChineseCalendar = new ChineseLunisolarCalendar();
 
-            // if after the last year then shift back using 19 year meton cycle
-            while (nYear > 2044)
-                nYear -= 19;
+            // The Chinese New Year is always the first day of the first month.
+            // We need to determine which Chinese year starts within our target Gregorian year.
 
-            // if before the first year then shift forward using 19 year meton cycle
-            while (nYear < 2025)
-                nYear += 19;
+            int nChineseYear = oChineseCalendar.GetYear(new DateTime(DateTime.Now.Year, 3, 1));
+            DateTime dtmChineseNewYearDate = oChineseCalendar.ToDateTime(nChineseYear, 1, 1, 0, 0, 0, 0);
 
-            // if known then return exact date
-            if (s_oChineseNewYearDates.ContainsKey(nYear))
-            {
-                DateTime dtmKnown = s_oChineseNewYearDates[nYear];
-                return new DateTime(System.DateTime.Now.Year, dtmKnown.Month, dtmKnown.Day).AddDays(-2);
-            }
-
-            // now known? that's strange! return something
-            return new DateTime(System.DateTime.Now.Year, 1, 29);
+            return dtmChineseNewYearDate;
         }
 
 
@@ -3715,7 +3687,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// Returns the beginning of Hajj Header start
+        /// Returns the beginning of Hajj header start
         /// </summary>
         /// <returns>Start of Hajj header</returns>
         //===================================================================================================
