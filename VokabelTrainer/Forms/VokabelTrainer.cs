@@ -412,6 +412,56 @@ namespace VokabelTrainer
                     return;
             }
 
+            // Oscar - Header
+            if (dtmNow >= GetOscarStart() && dtmNow < GetOscarEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
+                    return;
+            }
+
+            // Cannes - Header
+            if (dtmNow >= GetCannesStart() && dtmNow < GetCannesEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
+                    return;
+            }
+
+            // Berlinale - Header
+            if (dtmNow >= GetBerlinaleStart() && dtmNow < GetBerlinaleEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
+                    return;
+            }
+
+            // Durban - Header
+            if (dtmNow >= GetDurbanStart() && dtmNow < GetDurbanEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
+                    return;
+            }
+
+            // Timkat - Header
+            if (dtmNow >= GetTimkatStart() && dtmNow < GetTimkatEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "TimkatHeader.jpg"))
+                    return;
+            }
+
+            // Grad Prix de la Chanson - ESC - Header
+            if (dtmNow >= GetEscStart() && dtmNow < GetEscEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "EscHeader.jpg"))
+                    return;
+            }
+
+
+            // Festima - Header (African Masks)
+            if (dtmNow >= GetFestimaStart() && dtmNow < GetFestimaEnd())
+            {
+                if (ReadyToUseImageInjection(strStartPath + "FestimaHeader.jpg"))
+                    return;
+            }
+
 
             // If there is no special header, then use default
             ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
@@ -4039,6 +4089,150 @@ namespace VokabelTrainer
         static DateTime GetNobelPrizeEnd()
         {
             return new DateTime(DateTime.Now.Year, 10, 08);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning Oscar header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOscarStart()
+        {
+            return new DateTime(DateTime.Now.Year, 3, 1);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of Oscar header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetOscarEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 3, 3);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning Cannes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetCannesStart()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 18);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of Cannes header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetCannesEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 21);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning Berlinale header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetBerlinaleStart()
+        {
+            return new DateTime(DateTime.Now.Year, 2, 18);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of Berlinale header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetBerlinaleEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 2, 21);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning Durban header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetDurbanStart()
+        {
+            return new DateTime(DateTime.Now.Year, 7, 21);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of Durban header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetDurbanEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 7, 24);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of Timkat header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetTimkatStart()
+        {
+            return new DateTime(DateTime.Now.Year, 1, 17);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of Timkat header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetTimkatEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 1, 22);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of FESTIMA header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetFestimaStart()
+        {
+            return new DateTime(DateTime.Now.Year, 2, 26);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of FESTIMA header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetFestimaEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 3, 1);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the beginning of ESC header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetEscStart()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 13);
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Gets the end of ESC header
+        /// </summary>
+        //===================================================================================================
+        static DateTime GetEscEnd()
+        {
+            return new DateTime(DateTime.Now.Year, 5, 17);
         }
 
         //===================================================================================================
