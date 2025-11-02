@@ -18,10 +18,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
+using System.Windows.Forms;
 
 
 namespace VokabelTrainer
@@ -165,25 +166,6 @@ namespace VokabelTrainer
         /// </summary>
         private SortedDictionary<DateTime, int> m_oLearnedWordsGraphData;
 
-        //===================================================================================================
-        /// <summary>
-        /// Ramadan start dates
-        /// </summary>
-        private static readonly Dictionary<int, DateTime> s_oRamadanStartDates = new Dictionary<int, DateTime>
-        {
-            { 2025, new DateTime(2025, 3, 1) },
-            { 2026, new DateTime(2026, 2, 18) },
-            { 2027, new DateTime(2027, 2, 8) },
-            { 2028, new DateTime(2028, 1, 28) },
-            { 2029, new DateTime(2029, 1, 16) },
-            { 2030, new DateTime(2030, 1, 5) },
-            { 2031, new DateTime(2031, 12, 15) },
-            { 2032, new DateTime(2032, 12, 4) },
-            { 2033, new DateTime(2033, 11, 23) },
-            { 2034, new DateTime(2034, 11, 12) },
-            { 2035, new DateTime(2035, 11, 1) }
-        };
-
 
         //===================================================================================================
         /// <summary>
@@ -233,52 +215,6 @@ namespace VokabelTrainer
         };
 
 
-        //===================================================================================================
-        /// <summary>
-        /// Known Hajj dates for 2025–2034
-        /// </summary>
-        private static Dictionary<int, DateTime> s_oKnownHajjDates = new Dictionary<int, DateTime>
-        {
-            { 2025, new DateTime(2025, 6, 5) },
-            { 2026, new DateTime(2026, 5, 26) },
-            { 2027, new DateTime(2027, 5, 16) },
-            { 2028, new DateTime(2028, 5, 5) },
-            { 2029, new DateTime(2029, 4, 24) },
-            { 2030, new DateTime(2030, 4, 14) },
-            { 2031, new DateTime(2031, 4, 3) },
-            { 2032, new DateTime(2032, 3, 23) },
-            { 2033, new DateTime(2033, 3, 12) },
-            { 2034, new DateTime(2034, 3, 2) }
-        };
-
-
-        //===================================================================================================
-        /// <summary>
-        /// Exact dates of Rosh Hashanah
-        /// </summary>
-        private static readonly Dictionary<int, DateTime> s_oRoshHashanahDates = new Dictionary<int, DateTime>
-        {
-            {2025, new DateTime(2025, 9, 22)},
-            {2026, new DateTime(2026, 9, 11)},
-            {2027, new DateTime(2027, 10, 1)},
-            {2028, new DateTime(2028, 9, 20)},
-            {2029, new DateTime(2029, 9, 9)},
-            {2030, new DateTime(2030, 9, 28)},
-            {2031, new DateTime(2031, 9, 18)},
-            {2032, new DateTime(2032, 9, 6)},
-            {2033, new DateTime(2033, 9, 24)},
-            {2034, new DateTime(2034, 9, 14)},
-            {2035, new DateTime(2035, 10, 4)},
-            {2036, new DateTime(2036, 9, 22)},
-            {2037, new DateTime(2037, 9, 11)},
-            {2038, new DateTime(2038, 10, 1)},
-            {2039, new DateTime(2039, 9, 21)},
-            {2040, new DateTime(2040, 9, 10)},
-            {2041, new DateTime(2041, 9, 28)},
-            {2042, new DateTime(2042, 9, 18)},
-            {2043, new DateTime(2043, 9, 6)},
-            {2044, new DateTime(2044, 9, 24)}
-        };
 
 
         //===================================================================================================
@@ -856,8 +792,8 @@ namespace VokabelTrainer
                                 try
                                 {
                                     DateTime dtmStatsDate = DateTime.ParseExact(e.SelectSingleNode("datum").InnerText,
-                                        "yyyy-MM-dd", 
-                                        System.Threading.Thread.CurrentThread.CurrentUICulture);
+                                        "yyyy-MM-dd",
+                                        CultureInfo.InvariantCulture);
                                     int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
                                     int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
                                     int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
@@ -2023,7 +1959,7 @@ namespace VokabelTrainer
                         foreach (DateTime dtmGraphPoint in m_oTotalGraphData.Keys)
                         {
                             w.WriteLine("  <zustand><datum>{0}</datum><woerter>{1}</woerter><richtige-antworten>{2}</richtige-antworten><fehler>{3}</fehler></zustand>",
-                                dtmGraphPoint.ToString("yyyy-MM-dd"),
+                                dtmGraphPoint.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture),
                                 m_oWordsGraphData[dtmGraphPoint],
                                 m_oTotalGraphData[dtmGraphPoint] - m_oWordsGraphData[dtmGraphPoint],
                                 m_oWordsGraphData[dtmGraphPoint] - m_oLearnedWordsGraphData[dtmGraphPoint]);
@@ -3596,24 +3532,28 @@ namespace VokabelTrainer
         //===================================================================================================
         static DateTime GetRamadanStart()
         {
-            int nYear = System.DateTime.Now.Year;
+            // Initialize the UmAlQuraCalendar (Islamic Calendar used in Saudi Arabia)
+            Calendar umAlQura = new UmAlQuraCalendar();
 
-            // if there is a ready date then use it
-            if (s_oRamadanStartDates.ContainsKey(nYear))
-                return s_oRamadanStartDates[nYear];
+            // Month of Ramadan is the 9th month
+            const int nRamadanMonth = 9;
+            // Ramadan starts on the 1st day of the month
+            const int nStartDay = 1;
 
-            // in other case estimate it
-            double dblShiftPerYear = -10.875;
-            double dblTotalShift = (nYear - 2035) * dblShiftPerYear;
+            // ... and find out which Islamic year current date falls into
+            int nApproxIslamicYear = umAlQura.GetYear(DateTime.Now);
 
-            int nRoundedShift = (int)Math.Round(dblTotalShift);
 
-            DateTime dtmReferenceRamadan2035 = new DateTime(2035, 11, 1);
-            DateTime dtmTemp = dtmReferenceRamadan2035.AddDays(nRoundedShift);
-            DateTime dtmEstimatedRamadan = new DateTime(
-                System.DateTime.Now.Year, dtmTemp.Month, dtmTemp.Day);
+            // This calculates the Gregorian date that corresponds to the 1st day of the 9th month 
+            // in the calculated Islamic year.
+            DateTime dtmRamadanDateGregorian = umAlQura.ToDateTime(
+                nApproxIslamicYear,      // Islamic Year
+                nRamadanMonth,           // Islamic Month (12)
+                nStartDay,               // Islamic Day (1)
+                0, 0, 0, 0               // Time component
+            );
 
-            return dtmEstimatedRamadan;
+            return dtmRamadanDateGregorian;
         }
 
 
@@ -3781,27 +3721,30 @@ namespace VokabelTrainer
         //===================================================================================================
         static DateTime GetHajjStart()
         {
+            // Initialize the UmAlQuraCalendar (Islamic Calendar used in Saudi Arabia)
+            Calendar umAlQura = new UmAlQuraCalendar();
 
-            int nYear = System.DateTime.Now.Year;
+            // Hajj month is Dhu al-Hijjah (the 12th month)
+            const int nDhuAlHijjah = 12;
+            // Hajj peak day (Arafah day) is the 9th day of the month
+            const int nDayOfHajj = 9;
 
-            // If year is within known dates, return exact date
-            if (s_oKnownHajjDates.ContainsKey(nYear))
-            {
-                return s_oKnownHajjDates[nYear].AddDays(-2);
-            }
+            // ... and find out which Islamic year current date falls into
+            int nApproxIslamicYear = umAlQura.GetYear(DateTime.Now);
 
-            // in other case estimate it
-            double dblShiftPerYear = -10.875;
-            double dblTotalShift = (nYear - 2035) * dblShiftPerYear;
+            // Calculate the Gregorian DateTime for the 9th of Dhu al-Hijjah
 
-            int nRoundedShift = (int)Math.Round(dblTotalShift);
+            // This calculates the Gregorian date that corresponds to the 9th day of the 12th month 
+            // in the calculated Islamic year.
+            DateTime dtmHajjDateGregorian = umAlQura.ToDateTime(
+                nApproxIslamicYear,      // Islamic Year
+                nDhuAlHijjah,            // Islamic Month (12)
+                nDayOfHajj,              // Islamic Day (9)
+                0, 0, 0, 0               // Time component
+            );
 
-            DateTime dtmReferenceHajj2035 = new DateTime(2034, 3, 2);
-            DateTime dtmTemp = dtmReferenceHajj2035.AddDays(nRoundedShift);
-            DateTime dtmEstimatedHajj = new DateTime(
-                System.DateTime.Now.Year, dtmTemp.Month, dtmTemp.Day);
-
-            return dtmEstimatedHajj.AddDays(-2);
+            // start one day before
+            return dtmHajjDateGregorian.AddDays(-1);
         }
 
 
@@ -4130,40 +4073,40 @@ namespace VokabelTrainer
         /// <summary>
         /// Estimates the Rosh Hashanah Israeli new year dates
         /// </summary>
-        /// <returns>The start of Rosh Hashanah Israeli new year header</returns>
+        /// <returns>The start of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
         public static DateTime GetRoshHashanahStart()
         {
-            int nYear = System.DateTime.Now.Year;
-
-            // if after the last year then shift back using 19 year meton cycle
-            while (nYear > 2044)
-                nYear -= 19;
-
-            // if before the first year then shift forward using 19 year meton cycle
-            while (nYear < 2025)
-                nYear += 19;
-
-            // if known then return exact date
-            if (s_oRoshHashanahDates.ContainsKey(nYear))
-            {
-                DateTime dtmKnown = s_oRoshHashanahDates[nYear];
-                return new DateTime(System.DateTime.Now.Year, dtmKnown.Month, dtmKnown.Day).AddDays(-4);
-            }
-
-            // now known? that's strange! return something
-            return new DateTime(System.DateTime.Now.Year, 9, 20);
+            // Rosh Hashanah is only two days, but we want the header to be viewed longer.
+            return GetRoshHashanahEnd().AddDays(-4);
         }
 
         //===================================================================================================
         /// <summary>
         /// Estimates the Rosh Hashanah Israeli new year dates
         /// </summary>
-        /// <returns>The end of Rosh Hashanah Israeli new year header</returns>
+        /// <returns>The end of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
         public static DateTime GetRoshHashanahEnd()
         {
-            return GetRoshHashanahStart().AddDays(5);
+            // Initialize the HebrewCalendar
+            Calendar hebrewCalendar = new HebrewCalendar();
+
+            // Use a utility function to determine the correct Hebrew Year for the current Gregorian Year cycle
+            int nHebrewYear = 5786 - 2025 + DateTime.Now.Year;
+
+            // Month 1 of the Hebrew calendar is Tishrei (Rosh Hashanah is the 1st day of Tishrei)
+            const int nTishrei = 1;
+            const int nDayAfterRoshHashanah = 3;
+
+            // 4. Calculate the Gregorian DateTime for the day after Rosh Hashanah
+            DateTime dtmRoshHashanahEndDateGregorian = hebrewCalendar.ToDateTime(
+                nHebrewYear,
+                nTishrei,
+                nDayAfterRoshHashanah,
+                0, 0, 0, 0);
+
+            return dtmRoshHashanahEndDateGregorian;
         }
 
     }

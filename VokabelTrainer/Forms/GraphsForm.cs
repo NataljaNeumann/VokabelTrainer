@@ -144,7 +144,7 @@ namespace VokabelTrainer
 
             // Calculate the maximum value across all graphs
             m_nMaxValue = Math.Max(
-                oWordsIncludingRepeats.Values.Max(),
+                oWordsIncludingRepeats2.Values.Max(),
                 Math.Max(
                     oWordsInBookOverTime.Values.Max(),
                     oWordsMinusErrors.Values.Max()
