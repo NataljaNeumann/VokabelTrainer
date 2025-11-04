@@ -237,6 +237,248 @@ namespace VokabelTrainer
             m_cbxReader.SelectedIndex = 0;
             m_btnStats.Enabled = false;
 
+            // let's see, if there are expected collisions within the next 2 years:
+            for (int i=1; i<=366*2; ++i)
+            {
+                DateTime dtmTestedDay = DateTime.Now.AddDays(i);
+                List<string> astrEventsThatDay = new List<string>();
+                const string strDateFormat = "yyyy-MM-dd";
+
+                if (dtmTestedDay >= GetEasterStart(dtmTestedDay) && dtmTestedDay < GetEasterEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetEasterStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetEasterEnd(dtmTestedDay).ToString(strDateFormat) + " Easter");
+                }
+
+                // Christmas
+                if (dtmTestedDay >= GetChristmasStart(dtmTestedDay) && dtmTestedDay < GetChristmasEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetChristmasStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetChristmasEnd(dtmTestedDay).ToString(strDateFormat) + " Christmas");
+                }
+
+                // New year
+                if (dtmTestedDay >= GetNewYearStart(dtmTestedDay) && dtmTestedDay < GetNewYearStart(dtmTestedDay).AddDays(2))
+                {
+                    astrEventsThatDay.Add(GetNewYearStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetNewYearEnd(dtmTestedDay).ToString(strDateFormat) + " Western New Year");
+                }
+
+                // Ramadan
+                if (dtmTestedDay >= GetRamadanStart(dtmTestedDay) && dtmTestedDay < GetRamadanEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetRamadanStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetRamadanEnd(dtmTestedDay).ToString(strDateFormat) + " Ramadan");
+                }
+
+
+                // Diwali (Hindu light celebration for truth winning over lies)
+                if (dtmTestedDay >= GetDiwaliStart(dtmTestedDay) && dtmTestedDay < GetDiwaliEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetDiwaliStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetDiwaliEnd(dtmTestedDay).ToString(strDateFormat) + " Diwali");
+                }
+
+                // Chinese new year
+                if (dtmTestedDay >= GetChineseNewYearStart(dtmTestedDay) && dtmTestedDay < GetChineseNewYearEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetChineseNewYearStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetChineseNewYearEnd(dtmTestedDay).ToString(strDateFormat) + " Chinese New Year");
+                }
+
+                // Orthodox Christmas
+                if (dtmTestedDay >= GetOrthodoxChristmasStart(dtmTestedDay) && dtmTestedDay < GetOrthodoxChristmasEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetOrthodoxChristmasStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetOrthodoxChristmasEnd(dtmTestedDay).ToString(strDateFormat) + " Orthodox Christmas");
+                }
+
+
+                // Muslim Hajj pilgrimage
+                if (dtmTestedDay >= GetHajjStart(dtmTestedDay) && dtmTestedDay < GetHajjEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetHajjStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetHajjEnd(dtmTestedDay).ToString(strDateFormat) + " Hajj");
+                }
+
+
+                // Rosh Hashanah (Israeli new year) 
+                if (dtmTestedDay >= GetRoshHashanahStart(dtmTestedDay) && dtmTestedDay < GetRoshHashanahEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetRoshHashanahStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetRoshHashanahEnd(dtmTestedDay).ToString(strDateFormat) + " Rosh Hashanah");
+                }
+
+                // Halloween 
+                if (dtmTestedDay >= GetHalloweenStart(dtmTestedDay) && dtmTestedDay < GetHalloweenEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetHalloweenStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetHalloweenEnd(dtmTestedDay).ToString(strDateFormat) + " Halloween");
+                }
+
+                // Japanese children celebration and Korean Buddha birthday celebration 
+                if (dtmTestedDay >= GetChildrenAndBuddhaStart(dtmTestedDay) && dtmTestedDay < GetChildrenAndBuddhaEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetChildrenAndBuddhaStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetChildrenAndBuddhaEnd(dtmTestedDay).ToString(strDateFormat) + " Children And Buddha");
+                }
+
+                // Day of Science
+                if (dtmTestedDay >= GetScienceStart(dtmTestedDay) && dtmTestedDay < GetScienceEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetScienceStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetScienceEnd(dtmTestedDay).ToString(strDateFormat) + " World Science Day");
+                }
+
+                // Philosophy day
+                if (dtmTestedDay >= GetPhilosophyStart(dtmTestedDay) && dtmTestedDay < GetPhilosophyEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetPhilosophyStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetPhilosophyEnd(dtmTestedDay).ToString(strDateFormat) + " Philosophy Day");
+                }
+
+                // Psychology day
+                if (dtmTestedDay >= GetPsychologyStart(dtmTestedDay) && dtmTestedDay < GetPsychologyEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetPsychologyStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetPsychologyEnd(dtmTestedDay).ToString(strDateFormat) + " Psychology Day");
+                }
+
+                // Reading day
+                if (dtmTestedDay >= GetReadingDayStart(dtmTestedDay) && dtmTestedDay < GetReadingDayEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetReadingDayStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetReadingDayEnd(dtmTestedDay).ToString(strDateFormat) + " Reading Day");
+                }
+
+                // Valentine day
+                if (dtmTestedDay >= GetValentineStart(dtmTestedDay) && dtmTestedDay < GetValentineEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetValentineStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetValentineEnd(dtmTestedDay).ToString(strDateFormat) + " Valentine");
+                }
+
+                // World Savings Day
+                if (dtmTestedDay >= GetWorldSavingsDayStart(dtmTestedDay) && dtmTestedDay < GetWorldSavingsDayEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetWorldSavingsDayStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetWorldSavingsDayEnd(dtmTestedDay).ToString(strDateFormat) + " World Savings Day");
+                }
+
+                // World Peace Day
+                if (dtmTestedDay >= GetWorldPeaceDayStart(dtmTestedDay) && dtmTestedDay < GetWorldPeaceDayEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetWorldPeaceDayStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetWorldPeaceDayEnd(dtmTestedDay).ToString(strDateFormat) + " World Peace Day");
+                }
+
+                // World Dancing Day
+                if (dtmTestedDay >= GetWorldDancingDayStart(dtmTestedDay) && dtmTestedDay < GetWorldDancingDayEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetWorldDancingDayStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetWorldDancingDayEnd(dtmTestedDay).ToString(strDateFormat) + " World Dancing Day");
+                }
+
+
+                // Olymbic summer games
+                if (dtmTestedDay >= GetOlympicSummerStart(dtmTestedDay) && dtmTestedDay < GetOlympicSummerEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetOlympicSummerStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetOlympicSummerEnd(dtmTestedDay).ToString(strDateFormat) + " Olympic Summer Games");
+                }
+
+                // Olymbic winter games
+                if (dtmTestedDay >= GetOlympicWinterStart(dtmTestedDay) && dtmTestedDay < GetOlympicWinterEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetOlympicWinterStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetOlympicWinterEnd(dtmTestedDay).ToString(strDateFormat) + " Olympic Winter Games");
+                }
+
+                // Olymbic winter games
+                if (dtmTestedDay >= GetSoccerStart(dtmTestedDay) && dtmTestedDay < GetSoccerEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetSoccerStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetSoccerEnd(dtmTestedDay).ToString(strDateFormat) + " Soccer");
+                }
+
+                // Olymbic winter games
+                if (dtmTestedDay >= GetSoccerChampionsStart(dtmTestedDay) && dtmTestedDay < GetSoccerChampionsEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetSoccerChampionsStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetSoccerChampionsEnd(dtmTestedDay).ToString(strDateFormat) + " Soccer Champions");
+                }
+
+
+                // Nobel Prize
+                if (dtmTestedDay >= GetNobelPrizeStart(dtmTestedDay) && dtmTestedDay < GetNobelPrizeEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetNobelPrizeStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetNobelPrizeEnd(dtmTestedDay).ToString(strDateFormat) + " Nobel Prize");
+                }
+
+                // Oscar - Header
+                if (dtmTestedDay >= GetOscarStart(dtmTestedDay) && dtmTestedDay < GetOscarEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetOscarStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetOscarEnd(dtmTestedDay).ToString(strDateFormat) + " Oscar");
+                }
+
+                // Cannes - Header
+                if (dtmTestedDay >= GetCannesStart(dtmTestedDay) && dtmTestedDay < GetCannesEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetCannesStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetCannesEnd(dtmTestedDay).ToString(strDateFormat) + " Cannes");
+                }
+
+                // Berlinale - Header
+                if (dtmTestedDay >= GetBerlinaleStart(dtmTestedDay) && dtmTestedDay < GetBerlinaleEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetBerlinaleStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetBerlinaleEnd(dtmTestedDay).ToString(strDateFormat) + " Berlinale");
+                }
+
+                // Durban - Header
+                if (dtmTestedDay >= GetDurbanStart(dtmTestedDay) && dtmTestedDay < GetDurbanEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetDurbanStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetDurbanEnd(dtmTestedDay).ToString(strDateFormat) + " Durban");
+                }
+
+                // Timkat - Header
+                if (dtmTestedDay >= GetTimkatStart(dtmTestedDay) && dtmTestedDay < GetTimkatEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetTimkatStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetTimkatEnd(dtmTestedDay).ToString(strDateFormat) + " Timkat");
+                }
+
+                // Grad Prix de la Chanson - ESC - Header
+                if (dtmTestedDay >= GetEscStart(dtmTestedDay) && dtmTestedDay < GetEscEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetEscStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetEscEnd(dtmTestedDay).ToString(strDateFormat) + " ESC");
+                }
+
+
+                // Festima - Header (African Masks)
+                if (dtmTestedDay >= GetFestimaStart(dtmTestedDay) && dtmTestedDay < GetFestimaEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetFestimaStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetFestimaEnd(dtmTestedDay).ToString(strDateFormat) + " Festima");
+                }
+
+                if (astrEventsThatDay.Count>1)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("There is a foreseeable event collision at " + dtmTestedDay.ToString(strDateFormat) + ":");
+                    foreach(string strEvent in astrEventsThatDay)
+                    {
+                        Console.WriteLine(strEvent);
+                    }
+
+
+                }
+            }
+
             // Variations of main header, depending on dates, let's start with Easter, other will follow
             DateTime dtmNow = DateTime.Now;
             string strStartPath = "Images" + Path.DirectorySeparatorChar;
@@ -731,11 +973,16 @@ namespace VokabelTrainer
                             foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
                             {
                                 string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+
                                 if (strTrainingProgress.Length > 6)
+                                {
                                     strTrainingProgress = strTrainingProgress.Substring(0, 6);
+                                }
                                 else
+                                {
                                     while (strTrainingProgress.Length < 6)
                                         strTrainingProgress = strTrainingProgress + "1";
+                                }
 
                                 if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
                                 {
@@ -753,11 +1000,16 @@ namespace VokabelTrainer
                                     {
                                         string strCorrectAnswers = n.InnerText;
                                         int nCorrectAnswers = 0;
+
                                         if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                        {
                                             nCorrectAnswers = 0;
+                                        }
                                         else
+                                        {
                                             if (nCorrectAnswers < 0)
-                                            nCorrectAnswers = 0;
+                                                nCorrectAnswers = 0;
+                                        }
 
                                         nTotalCountCorrectAnswers += nCorrectAnswers;
                                         m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
@@ -792,11 +1044,16 @@ namespace VokabelTrainer
                                     {
                                         string strCorrectAnswers = n.InnerText;
                                         int nCorrectAnswers = 0;
+
                                         if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                        {
                                             nCorrectAnswers = 0;
+                                        }
                                         else
+                                        {
                                             if (nCorrectAnswers < 0)
-                                            nCorrectAnswers = 0;
+                                                nCorrectAnswers = 0;
+                                        }
 
                                         nTotalCountCorrectAnswers += nCorrectAnswers;
                                         m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
@@ -825,7 +1082,7 @@ namespace VokabelTrainer
                                     int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
                                     int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
 
-                                m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
+                                    m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
                                     m_oWordsGraphData[dtmStatsDate] = nNumberWords;
                                     m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
 
@@ -844,7 +1101,7 @@ namespace VokabelTrainer
 
                             if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
                             {
-                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                                m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
                                 m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
                                 m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
 
@@ -863,11 +1120,10 @@ namespace VokabelTrainer
                                 m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
 
 
-                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                                m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
                                 m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
                                 m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
                             }
-
                         }
                     }
                     catch (Exception oEx)
@@ -952,7 +1208,7 @@ namespace VokabelTrainer
                     m_bSavePossible = true;
                     if (form.m_chkLanguageFileUnderGPL2.Checked)
                     {
-                        m_strLicense = "Copyright (C) " + System.DateTime.Now.Year + " " + 
+                        m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " + 
                                     Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
                                    "This program is free software; you can redistribute it and/or\r\n" +
                                    "modify it under the terms of the GNU General Public License\r\n" +
@@ -968,7 +1224,7 @@ namespace VokabelTrainer
                     }
                     else
                     {
-                        m_strLicense = "Copyright (C) " + System.DateTime.Now.Year + " " + 
+                        m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " + 
                             Environment.GetEnvironmentVariable("USERNAME") + ", all rights reserved";
                     }
 
@@ -3504,9 +3760,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterSunday()
+        static DateTime GetEasterSunday(DateTime? dtmTestedDate = null)
         {
-            int nYear = System.DateTime.Now.Year;
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            int nYear = dtmTestedDate.Value.Year;
 
             int a = nYear % 19;
             int b = nYear / 100;
@@ -3532,9 +3794,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterStart()
+        static DateTime GetEasterStart(DateTime? dtmTestedDate = null)
         {
-            return GetEasterSunday().AddDays(-3);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return GetEasterSunday(dtmTestedDate).AddDays(-3);
         }
 
 
@@ -3544,9 +3812,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterEnd()
+        static DateTime GetEasterEnd(DateTime? dtmTestedDate = null)
         {
-            return GetEasterSunday().AddDays(+2);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return GetEasterSunday(dtmTestedDate).AddDays(+2);
         }
 
 
@@ -3557,8 +3831,14 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start or ramadan heading</returns>
         //===================================================================================================
-        static DateTime GetRamadanStart()
+        static DateTime GetRamadanStart(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
             // Initialize the UmAlQuraCalendar (Islamic Calendar used in Saudi Arabia)
             Calendar umAlQura = new UmAlQuraCalendar();
 
@@ -3568,7 +3848,7 @@ namespace VokabelTrainer
             const int nStartDay = 1;
 
             // ... and find out which Islamic year current date falls into
-            int nApproxIslamicYear = umAlQura.GetYear(DateTime.Now);
+            int nApproxIslamicYear = umAlQura.GetYear(dtmTestedDate.Value);
 
 
             // This calculates the Gregorian date that corresponds to the 1st day of the 9th month 
@@ -3593,8 +3873,14 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>5 days after start of ramadan header</returns>
         //===================================================================================================
-        static DateTime GetRamadanEnd()
+        static DateTime GetRamadanEnd(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
             return GetRamadanStart().AddDays(5);
         }
 
@@ -3604,9 +3890,15 @@ namespace VokabelTrainer
         /// Gets the beginning of christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChristmasStart()
+        static DateTime GetChristmasStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 12, 22);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 12, 22);
         }
 
         //===================================================================================================
@@ -3614,9 +3906,15 @@ namespace VokabelTrainer
         /// Gets the ending of christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChristmasEnd()
+        static DateTime GetChristmasEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 12, 27);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 12, 27);
         }
 
 
@@ -3625,9 +3923,15 @@ namespace VokabelTrainer
         /// Gets the beginning of orthodox christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOrthodoxChristmasStart()
+        static DateTime GetOrthodoxChristmasStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 1, 5);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 1, 5);
         }
 
         //===================================================================================================
@@ -3635,9 +3939,15 @@ namespace VokabelTrainer
         /// Gets the ending of orthodox christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOrthodoxChristmasEnd()
+        static DateTime GetOrthodoxChristmasEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 1, 9);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 1, 9);
         }
 
         //===================================================================================================
@@ -3646,9 +3956,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Last day of the year</returns>
         //===================================================================================================
-        static DateTime GetNewYearStart()
+        static DateTime GetNewYearStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 12, 31);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 12, 31);
         }
 
         //===================================================================================================
@@ -3657,9 +3973,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Last day of the year</returns>
         //===================================================================================================
-        static DateTime GetNewYearEnd()
+        static DateTime GetNewYearEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 1, 2);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 1, 2);
         }
 
 
@@ -3669,9 +3991,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The diwali start date for current year</returns>
         //===================================================================================================
-        public static DateTime GetDiwaliStart()
+        public static DateTime GetDiwaliStart(DateTime? dtmTestedDate = null)
         {
-            int nYear = System.DateTime.Now.Year;
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            int nYear = dtmTestedDate.Value.Year;
 
             if (s_oDiwaliDates.ContainsKey(nYear))
             {
@@ -3697,9 +4025,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The diwali end date for current year</returns>
         //===================================================================================================
-        public static DateTime GetDiwaliEnd()
+        public static DateTime GetDiwaliEnd(DateTime? dtmTestedDate = null)
         {
-            return GetDiwaliStart().AddDays(5);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return GetDiwaliStart(dtmTestedDate).AddDays(5);
         }
 
 
@@ -3709,14 +4043,20 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of chinese new year header</returns>
         //===================================================================================================
-        public static DateTime GetChineseNewYearStart()
+        public static DateTime GetChineseNewYearStart(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
             ChineseLunisolarCalendar oChineseCalendar = new ChineseLunisolarCalendar();
 
             // The Chinese New Year is always the first day of the first month.
             // We need to determine which Chinese year starts within our target Gregorian year.
 
-            int nChineseYear = oChineseCalendar.GetYear(new DateTime(DateTime.Now.Year, 3, 1));
+            int nChineseYear = oChineseCalendar.GetYear(new DateTime(dtmTestedDate.Value.Year, 3, 1));
             DateTime dtmChineseNewYearDate = oChineseCalendar.ToDateTime(nChineseYear, 1, 1, 0, 0, 0, 0);
 
             return dtmChineseNewYearDate;
@@ -3729,9 +4069,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of chinese new year header</returns>
         //===================================================================================================
-        public static DateTime GetChineseNewYearEnd()
+        public static DateTime GetChineseNewYearEnd(DateTime? dtmTestedDate = null)
         {
-            return GetChineseNewYearStart().AddDays(5);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return GetChineseNewYearStart(dtmTestedDate).AddDays(5);
         }
 
 
@@ -3741,8 +4087,14 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Start of Hajj header</returns>
         //===================================================================================================
-        static DateTime GetHajjStart()
+        static DateTime GetHajjStart(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
             // Initialize the UmAlQuraCalendar (Islamic Calendar used in Saudi Arabia)
             Calendar umAlQura = new UmAlQuraCalendar();
 
@@ -3752,7 +4104,7 @@ namespace VokabelTrainer
             const int nDayOfHajj = 9;
 
             // ... and find out which Islamic year current date falls into
-            int nApproxIslamicYear = umAlQura.GetYear(DateTime.Now);
+            int nApproxIslamicYear = umAlQura.GetYear(dtmTestedDate.Value);
 
             // Calculate the Gregorian DateTime for the 9th of Dhu al-Hijjah
 
@@ -3776,9 +4128,15 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>End of Hajj header</returns>
         //===================================================================================================
-        static DateTime GetHajjEnd()
+        static DateTime GetHajjEnd(DateTime? dtmTestedDate = null)
         {
-            return GetHajjStart().AddDays(5);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return GetHajjStart(dtmTestedDate).AddDays(4);
         }
 
 
@@ -3787,9 +4145,15 @@ namespace VokabelTrainer
         /// Gets the beginning of Halloween
         /// </summary>
         //===================================================================================================
-        static DateTime GetHalloweenStart()
+        static DateTime GetHalloweenStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 29);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 28);
         }
 
         //===================================================================================================
@@ -3797,9 +4161,15 @@ namespace VokabelTrainer
         /// Gets the ending of Halloween header
         /// </summary>
         //===================================================================================================
-        static DateTime GetHalloweenEnd()
+        static DateTime GetHalloweenEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 2);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 11, 2);
         }
 
 
@@ -3808,9 +4178,15 @@ namespace VokabelTrainer
         /// Gets the beginning of children and Buddha header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChildrenAndBuddhaStart()
+        static DateTime GetChildrenAndBuddhaStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 2);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 2);
         }
 
         //===================================================================================================
@@ -3818,9 +4194,15 @@ namespace VokabelTrainer
         /// Gets the ending of children and Buddha header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChildrenAndBuddhaEnd()
+        static DateTime GetChildrenAndBuddhaEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 6);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 6);
         }
 
 
@@ -3829,9 +4211,15 @@ namespace VokabelTrainer
         /// Gets the beginning of science day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetScienceStart()
+        static DateTime GetScienceStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 7);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 11, 7);
         }
 
         //===================================================================================================
@@ -3839,9 +4227,15 @@ namespace VokabelTrainer
         /// Gets the ending of science header
         /// </summary>
         //===================================================================================================
-        static DateTime GetScienceEnd()
+        static DateTime GetScienceEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 11);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 11, 11);
         }
 
         //===================================================================================================
@@ -3849,9 +4243,15 @@ namespace VokabelTrainer
         /// Gets the beginning of philosophy header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPhilosophyStart()
+        static DateTime GetPhilosophyStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 17);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 11, 17);
         }
 
         //===================================================================================================
@@ -3859,9 +4259,15 @@ namespace VokabelTrainer
         /// Gets the ending of philosophy header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPhilosophyEnd()
+        static DateTime GetPhilosophyEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 21);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 11, 21);
         }
 
 
@@ -3870,19 +4276,31 @@ namespace VokabelTrainer
         /// Gets the beginning of psychology header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPsychologyStart()
+        static DateTime GetPsychologyStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 7);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 7);
         }
 
         //===================================================================================================
         /// <summary>
-        /// Gets the ending of psychology header
+        /// Gets the ending of psychology headerТ
         /// </summary>
         //===================================================================================================
-        static DateTime GetPsychologyEnd()
+        static DateTime GetPsychologyEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 11);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 11);
         }
 
 
@@ -3891,9 +4309,15 @@ namespace VokabelTrainer
         /// Gets the beginning of reading day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetReadingDayStart()
+        static DateTime GetReadingDayStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 4, 20);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 4, 20);
         }
 
         //===================================================================================================
@@ -3901,9 +4325,15 @@ namespace VokabelTrainer
         /// Gets the ending of reading day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetReadingDayEnd()
+        static DateTime GetReadingDayEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 4, 24);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 4, 24);
         }
 
         //===================================================================================================
@@ -3911,9 +4341,15 @@ namespace VokabelTrainer
         /// Gets the beginning of valentine header
         /// </summary>
         //===================================================================================================
-        static DateTime GetValentineStart()
+        static DateTime GetValentineStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 2, 13);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 2, 13);
         }
 
         //===================================================================================================
@@ -3921,9 +4357,15 @@ namespace VokabelTrainer
         /// Gets the ending of valentine header
         /// </summary>
         //===================================================================================================
-        static DateTime GetValentineEnd()
+        static DateTime GetValentineEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 2, 15);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 2, 15);
         }
 
         //===================================================================================================
@@ -3931,9 +4373,15 @@ namespace VokabelTrainer
         /// Gets the beginning of world savings day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldSavingsDayStart()
+        static DateTime GetWorldSavingsDayStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 24);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 24);
         }
 
         //===================================================================================================
@@ -3941,9 +4389,15 @@ namespace VokabelTrainer
         /// Gets the ending of world savings day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldSavingsDayEnd()
+        static DateTime GetWorldSavingsDayEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 11, 1);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 28);
         }
 
 
@@ -3952,9 +4406,15 @@ namespace VokabelTrainer
         /// Gets the beginning of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldDancingDayStart()
+        static DateTime GetWorldDancingDayStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 4, 25);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 4, 25);
         }
 
         //===================================================================================================
@@ -3962,9 +4422,15 @@ namespace VokabelTrainer
         /// Gets the ending of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldDancingDayEnd()
+        static DateTime GetWorldDancingDayEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 4, 30);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 4, 30);
         }
 
 
@@ -3973,9 +4439,15 @@ namespace VokabelTrainer
         /// Gets the beginning of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldPeaceDayStart()
+        static DateTime GetWorldPeaceDayStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 9, 18);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 9, 18);
         }
 
         //===================================================================================================
@@ -3983,9 +4455,15 @@ namespace VokabelTrainer
         /// Gets the ending of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldPeaceDayEnd()
+        static DateTime GetWorldPeaceDayEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 9, 22);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 9, 22);
         }
 
 
@@ -3994,9 +4472,15 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic summer gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicSummerStart()
+        static DateTime GetOlympicSummerStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4, 8, 3);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4, 8, 3);
         }
 
         //===================================================================================================
@@ -4004,9 +4488,15 @@ namespace VokabelTrainer
         /// Gets the ending of olympic summer gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicSummerEnd()
+        static DateTime GetOlympicSummerEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4, 8, 9);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4, 8, 9);
         }
 
 
@@ -4015,9 +4505,15 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicWinterStart()
+        static DateTime GetOlympicWinterStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 2, 12);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4 + 2, 2, 12);
         }
 
         //===================================================================================================
@@ -4025,9 +4521,15 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicWinterEnd()
+        static DateTime GetOlympicWinterEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 2, 20);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4 + 2, 2, 20);
         }
 
 
@@ -4036,9 +4538,15 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerStart()
+        static DateTime GetSoccerStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 6, 14);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4 + 2, 6, 14);
         }
 
         //===================================================================================================
@@ -4046,9 +4554,15 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerEnd()
+        static DateTime GetSoccerEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year / 4 * 4 + 2, 6, 20);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year / 4 * 4 + 2, 6, 20);
         }
 
         //===================================================================================================
@@ -4056,9 +4570,15 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerChampionsStart()
+        static DateTime GetSoccerChampionsStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 3, 11);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 3, 11);
         }
 
         //===================================================================================================
@@ -4066,9 +4586,15 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerChampionsEnd()
+        static DateTime GetSoccerChampionsEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 3, 16);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 3, 16);
         }
 
         //===================================================================================================
@@ -4076,9 +4602,15 @@ namespace VokabelTrainer
         /// Gets the beginning of nobel prize header
         /// </summary>
         //===================================================================================================
-        static DateTime GetNobelPrizeStart()
+        static DateTime GetNobelPrizeStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 3);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 3);
         }
 
         //===================================================================================================
@@ -4086,9 +4618,15 @@ namespace VokabelTrainer
         /// Gets the ending of nobel prize header
         /// </summary>
         //===================================================================================================
-        static DateTime GetNobelPrizeEnd()
+        static DateTime GetNobelPrizeEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 10, 08);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 10, 07);
         }
 
 
@@ -4097,9 +4635,15 @@ namespace VokabelTrainer
         /// Gets the beginning Oscar header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOscarStart()
+        static DateTime GetOscarStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 3, 1);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 3, 1);
         }
 
         //===================================================================================================
@@ -4107,9 +4651,15 @@ namespace VokabelTrainer
         /// Gets the end of Oscar header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOscarEnd()
+        static DateTime GetOscarEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 3, 3);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 3, 3);
         }
 
 
@@ -4118,9 +4668,15 @@ namespace VokabelTrainer
         /// Gets the beginning Cannes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetCannesStart()
+        static DateTime GetCannesStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 18);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 18);
         }
 
         //===================================================================================================
@@ -4128,9 +4684,15 @@ namespace VokabelTrainer
         /// Gets the end of Cannes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetCannesEnd()
+        static DateTime GetCannesEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 21);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 21);
         }
 
         //===================================================================================================
@@ -4138,9 +4700,15 @@ namespace VokabelTrainer
         /// Gets the beginning Berlinale header
         /// </summary>
         //===================================================================================================
-        static DateTime GetBerlinaleStart()
+        static DateTime GetBerlinaleStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 2, 18);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 2, 18);
         }
 
         //===================================================================================================
@@ -4148,9 +4716,15 @@ namespace VokabelTrainer
         /// Gets the end of Berlinale header
         /// </summary>
         //===================================================================================================
-        static DateTime GetBerlinaleEnd()
+        static DateTime GetBerlinaleEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 2, 21);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 2, 21);
         }
 
         //===================================================================================================
@@ -4158,9 +4732,15 @@ namespace VokabelTrainer
         /// Gets the beginning Durban header
         /// </summary>
         //===================================================================================================
-        static DateTime GetDurbanStart()
+        static DateTime GetDurbanStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 7, 21);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 7, 21);
         }
 
         //===================================================================================================
@@ -4168,9 +4748,15 @@ namespace VokabelTrainer
         /// Gets the end of Durban header
         /// </summary>
         //===================================================================================================
-        static DateTime GetDurbanEnd()
+        static DateTime GetDurbanEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 7, 24);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 7, 24);
         }
 
         //===================================================================================================
@@ -4178,9 +4764,15 @@ namespace VokabelTrainer
         /// Gets the beginning of Timkat header
         /// </summary>
         //===================================================================================================
-        static DateTime GetTimkatStart()
+        static DateTime GetTimkatStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 1, 17);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 1, 17);
         }
 
         //===================================================================================================
@@ -4188,9 +4780,15 @@ namespace VokabelTrainer
         /// Gets the end of Timkat header
         /// </summary>
         //===================================================================================================
-        static DateTime GetTimkatEnd()
+        static DateTime GetTimkatEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 1, 22);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 1, 22);
         }
 
 
@@ -4199,9 +4797,15 @@ namespace VokabelTrainer
         /// Gets the beginning of FESTIMA header
         /// </summary>
         //===================================================================================================
-        static DateTime GetFestimaStart()
+        static DateTime GetFestimaStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 2, 26);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 2, 26);
         }
 
         //===================================================================================================
@@ -4209,9 +4813,15 @@ namespace VokabelTrainer
         /// Gets the end of FESTIMA header
         /// </summary>
         //===================================================================================================
-        static DateTime GetFestimaEnd()
+        static DateTime GetFestimaEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 3, 1);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 3, 1);
         }
 
 
@@ -4220,9 +4830,15 @@ namespace VokabelTrainer
         /// Gets the beginning of ESC header
         /// </summary>
         //===================================================================================================
-        static DateTime GetEscStart()
+        static DateTime GetEscStart(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 13);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 11);
         }
 
         //===================================================================================================
@@ -4230,9 +4846,15 @@ namespace VokabelTrainer
         /// Gets the end of ESC header
         /// </summary>
         //===================================================================================================
-        static DateTime GetEscEnd()
+        static DateTime GetEscEnd(DateTime? dtmTestedDate = null)
         {
-            return new DateTime(DateTime.Now.Year, 5, 17);
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+            return new DateTime(dtmTestedDate.Value.Year, 5, 17);
         }
 
         //===================================================================================================
@@ -4241,10 +4863,17 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
-        public static DateTime GetRoshHashanahStart()
+        public static DateTime GetRoshHashanahStart(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
+
             // Rosh Hashanah is only two days, but we want the header to be viewed longer.
-            return GetRoshHashanahEnd().AddDays(-4);
+            return GetRoshHashanahEnd(dtmTestedDate).AddDays(-4);
         }
 
         //===================================================================================================
@@ -4253,13 +4882,19 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The end of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
-        public static DateTime GetRoshHashanahEnd()
+        public static DateTime GetRoshHashanahEnd(DateTime? dtmTestedDate = null)
         {
+            // if caller didn't specify the date, then take current date
+            if (!dtmTestedDate.HasValue)
+            {
+                dtmTestedDate = DateTime.Now;
+            }
+
             // Initialize the HebrewCalendar
             Calendar hebrewCalendar = new HebrewCalendar();
 
             // Use a utility function to determine the correct Hebrew Year for the current Gregorian Year cycle
-            int nHebrewYear = 5786 - 2025 + DateTime.Now.Year;
+            int nHebrewYear = 5786 - 2025 + dtmTestedDate.Value.Year;
 
             // Month 1 of the Hebrew calendar is Tishrei (Rosh Hashanah is the 1st day of Tishrei)
             const int nTishrei = 1;
