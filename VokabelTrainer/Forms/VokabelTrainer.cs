@@ -777,7 +777,7 @@ namespace VokabelTrainer
                 oEvents.Add((
                     strStartPath + "FestimaHeader.jpg",
                     "FESTIMA Masks",
-                    SearchEngineRouter.GetSearchUrl("FESTIMA")));
+                    SearchEngineRouter.GetSearchUrl("FESTIMA Masks")));
             }
 
             // Choose one of the events randomly
