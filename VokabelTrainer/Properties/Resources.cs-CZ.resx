@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Filmový festival</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Filmový festival v Cannes</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Oslavy narozenin dětí a Buddhy v Japonsku a Koreji</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Oslavy čínského Nového roku</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Křesťané po celém světě slaví Vánoce</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Den tance</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Oslava hinduistických světel pro vítězství pravdy nad lží</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Africký filmový festival v Durbanu</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Křesťané po celém světě slaví Velikonoce</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslimové poutují do Mekky: Hadždž</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Lidé po celém světě slaví nový rok.</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Nobelova cena: Cena za medicínu, chemii, fyziku, ekonomiku, mír a literaturu</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Letní olympijské hry</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Ortodoxní křesťané slaví Vánoce</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Ceny filmové akademie</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Světový den míru</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Den filozofie</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Den psychologie</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Muslimové po celém světě se účastní Ramadánu</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Světový den čtení</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Roš hašana: Izraelský nový rok</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Světový den spoření</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Světový den vědy</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>Halloween</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Mistrovství ve fotbale</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Zimní olympijské hry</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Etiopští křesťané si připomínají Ježíšův křest</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentýn </value>
   </data>
   <data name="Error" xml:space="preserve">

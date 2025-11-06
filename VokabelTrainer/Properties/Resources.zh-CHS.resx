@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>柏林电影节</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>戛纳电影节</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>日本和韩国庆祝儿童节和佛诞节</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>中国新年庆祝活动</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>世界各地的基督徒庆祝圣诞节</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>舞蹈日</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>印度教庆祝真理战胜谎言的灯光节</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>德班非洲电影节</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>世界各地的基督徒庆祝复活节</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>穆斯林前往麦加朝觐</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>世界各地的人们庆祝新年</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>诺贝尔奖：医学奖、化学奖、物理学奖、经济学奖、和平奖和文学奖</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>夏季奥运会</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>东正教徒庆祝圣诞节</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>奥斯卡金像奖：电影学院奖</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>世界和平日</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>哲学日</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>心理学日</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>世界各地的穆斯林参与斋月</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>世界阅读日</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>犹太新年（赎罪日）</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>世界储蓄日</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>世界科学日</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>万圣节</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>足球锦标赛</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>冬季奥运会</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>蒂姆卡特节：埃塞俄比亚基督徒纪念耶稣受洗</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>情人节 </value>
   </data>
   <data name="Error" xml:space="preserve">

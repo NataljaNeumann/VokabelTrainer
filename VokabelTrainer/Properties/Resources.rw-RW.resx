@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Ibirori bya Sinema</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Iserukiramuco rya sinema muri Cannes</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Kwizihiza isabukuru y'abana na Buda mu Buyapani na Koreya</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Kwizihiza umwaka mushya w'Ubushinwa</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Abakristu ku isi yose bizihiza Noheri</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Umunsi wo kubyina</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Umunsi mukuru w'abahindu kwizihiza ukuri gutsinda ibinyoma</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Iserukiramuco rya sinema nyafurika i Durban</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Abakristu kwisi yose bizihiza Pasika</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Abayisilamu basura Maka: Hija</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Abantu ku isi yose bizihiza umwaka mushya.</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Nobel: Igihembo cy'ubuvuzi, Ubutabire, Ubugenge, Ubukungu, Amahoro n'Ubuvanganzo</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Imikino yo mu mpeshyi</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Abakristu ba orotodogisi bizihiza Noheri</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Ibihembo bya Film Academy</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Umunsi w'amahoro ku isi</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Umunsi wa filozofiya</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Umunsi wa psychologiya</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Abayisilamu kwisi yose bitabiriye Ramazani</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Umunsi wo gusoma ku isi</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: Umwaka mushya wa Isiraheli</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Umunsi wo kuzigama ku isi</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Umunsi w’ubumenyi ku isi</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>Halloween</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Shampiyona y'umupira w'amaguru</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Imikino Olempike</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Abakirisitu b'Abanyetiyopiya bibuka Umubatizo wa Yesu</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Umunsi w'abakundana </value>
   </data>
   <data name="Error" xml:space="preserve">

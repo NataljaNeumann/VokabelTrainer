@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Берлинале: Кинофестивал</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Канндагы кинофестивал</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Японияда жана Кореяда балдар жана Будданын туулган күнүн майрамдоо</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Кытай жаңы жылын майрамдоо</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Дүйнө жүзүндөгү христиандар Рождествону майрамдашууда</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Бий күнү</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Калпты жеңген чындык үчүн индус жарык майрамы</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Дурбандагы африкалык кинофестивал</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Дүйнө жүзүндөгү христиандар Пасханы майрамдашууда</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Меккеге зыярат кылган мусулмандар: Ажылык</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Бүткүл дүйнө жүзү боюнча адамдар жаңы жылды майрамдашууда.</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Нобель: Медицина, химия, физика, экономика, тынчтык жана адабият боюнча сыйлык</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Жайкы Олимпиада оюндары</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Православ христиандары Рождество майрамын белгилешүүдө</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Оскар: Киноакадемиянын сыйлыктары</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Бүткүл дүйнөлүк тынчтык күнү</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Философия күнү</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Психология күнү</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Дүйнөнүн бардык мусулмандары Рамазанга катышууда</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Бүткүл дүйнөлүк окуу күнү</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Рош Хашана: Израилдин жаңы жылы</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Бүткүл дүйнөлүк аманат күнү</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Бүткүл дүйнөлүк илим күнү</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>Хэллоуин</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Футбол чемпионаты</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Олимпиадалык кышкы оюндар</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Тимкат: Эфиопиялык христиандар Ыйсанын чөмүлдүрүлүшүн эскерип жатышат</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Валентин күнү </value>
   </data>
   <data name="Error" xml:space="preserve">

@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: មហោស្រពភាពយន្ត</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>មហោស្រពភាពយន្តនៅទីក្រុង Cannes</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ពិធីបុណ្យចម្រើនព្រះជន្ម និងព្រះពុទ្ធនៅប្រទេសជប៉ុន និងកូរ៉េ</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>ពិធីបុណ្យចូលឆ្នាំចិន</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>គ្រិស្តបរិស័ទទូទាំងពិភពលោកកំពុងប្រារព្ធពិធីបុណ្យណូអែល</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>ថ្ងៃនៃការរាំ</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>ពិធីបុណ្យពន្លឺហិណ្ឌូសម្រាប់ការពិតឈ្នះលើការកុហក</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>មហោស្រពភាពយន្តអាហ្វ្រិកនៅទីក្រុង Durban</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>គ្រិស្តបរិស័ទទូទាំងពិភពលោកកំពុងប្រារព្ធពិធីបុណ្យ Easter</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>ជនមូស្លីមធ្វើធម្មយាត្រាទៅកាន់ទីក្រុង Mecca: Hajj</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>មនុស្សទូទាំងពិភពលោកកំពុងប្រារព្ធពិធីចូលឆ្នាំថ្មី។</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>ណូបែល៖ រង្វាន់ផ្នែកវេជ្ជសាស្ត្រ គីមីវិទ្យា រូបវិទ្យា សេដ្ឋកិច្ច សន្តិភាព និងអក្សរសាស្រ្ត</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>ហ្គេមអូឡាំពិករដូវក្តៅ</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>គ្រិស្តអូស្សូដក់ កំពុង ប្រារព្ធពិធី បុណ្យណូអែល</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>អូស្ការៈ ពានរង្វាន់បណ្ឌិត្យសភាភាពយន្ត</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>ទិវាសន្តិភាពពិភពលោក</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>ថ្ងៃនៃទស្សនវិជ្ជា</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>ថ្ងៃនៃចិត្តវិទ្យា</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>ប្រជាជនម៉ូស្លីមនៅទូទាំងពិភពលោកកំពុងចូលរួមក្នុងបុណ្យរ៉ាម៉ាដាន</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>ទិវាអំណានពិភពលោក</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: ឆ្នាំថ្មីរបស់អ៊ីស្រាអែល</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>ទិវាសន្សំពិភពលោក</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>ទិវាវិទ្យាសាស្ត្រពិភពលោក</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>បុណ្យ Halloween</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>ជើងឯកបាល់ទាត់</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ហ្គេមអូឡាំពិករដូវរងា</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: គ្រិស្តបរិស័ទអេត្យូពីប្រារព្ធពិធីបុណ្យជ្រមុជទឹករបស់ព្រះយេស៊ូវ</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>ថ្ងៃនៃក្តីស្រឡាញ់ </value>
   </data>
   <data name="Error" xml:space="preserve">

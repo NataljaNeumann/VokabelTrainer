@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: فێستیڤاڵی فیلم</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>فێستیڤاڵی فیلم لە شاری کان</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ئاهەنگی لەدایکبوونی منداڵان و بودا لە ژاپۆن و کۆریا</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>ئاهەنگی ساڵی نوێی چینی</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>مەسیحییەکان لە سەرانسەری جیهان ئاهەنگی جەژنی کریسمس دەگێڕن</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>ڕۆژی سەماکردن</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>ئاهەنگی ڕووناکی هیندۆسی بۆ بردنەوەی ڕاستی بەسەر درۆدا</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>فێستیڤاڵی فیلمی ئەفریقی لە شاری دوربان</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>لە هەموو جیهاندا مەسیحییەکان ئاهەنگی جەژنی ئیستەر دەگێڕن</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>موسڵمانان حاجی بۆ مەککە: حەج</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>خەڵک لە هەموو جیهان ئاهەنگی ساڵی نوێ دەگێڕن.</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>نۆبڵ: خەڵاتی پزیشکی، کیمیا، فیزیا، ئابووری، ئاشتی و ئەدەبیات</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>یارییەکانی هاوینەی ئۆڵۆمپیاد</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>مەسیحییە ئۆرتۆدۆکسەکان ئاهەنگی جەژنی کریسمس دەگێڕن</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>ئۆسکار: خەڵاتی ئەکادیمیای فیلم</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>ڕۆژی جیهانی ئاشتی</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>ڕۆژی فەلسەفە</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>ڕۆژی دەروونناسی</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>موسڵمانانی سەرتاسەری جیهان بەشداری جەژنی ڕەمەزان دەکەن</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>ڕۆژی جیهانی خوێندنەوە</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>ڕۆش هاشانا: ساڵی نوێی ئیسرائیل</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>ڕۆژی جیهانی پاشەکەوت</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>ڕۆژی جیهانی زانست</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>جەژنی هالۆوین</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>پاڵەوانێتی تۆپی پێ</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>یارییەکانی زستانەی ئۆڵۆمپیاد</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>تیمکات: مەسیحییەکانی ئەسیوپی کە یادی مەعمودی عیسا دەکەنەوە</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>ڕۆژی ڤالانتاین </value>
   </data>
   <data name="Error" xml:space="preserve">

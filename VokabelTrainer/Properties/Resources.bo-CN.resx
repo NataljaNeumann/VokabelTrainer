@@ -118,88 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>བྷར་ལི་ནལ་གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>ཀན་སིའི་གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ཉི་ཧོང་དང་ཀོ་རི་ཡའི་ནང་བྱིས་པ་དང་སངས་རྒྱས་ཀྱི་འཁྲུངས་སྐར་སྲུང་བརྩི།</value>
   </data>
-  <data name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>ཀྲུང་གོའི་ལོ་སར་སྲུང་བརྩི།</value>
   </data>
-  <data name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>འཛམ་གླིང་གང་སར་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཡེ་ཤུའི་འཁྲུངས་སྐར་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>ཞབས་བྲོ་འཁྲབ་པའི་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>རྫུན་གཏམ་ལས་རྣམ་པར་རྒྱལ་བའི་ཧིན་རྡུའི་འོད་སྣང་སྲུང་བརྩི།</value>
   </data>
-  <data name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>ཨ་ཧྥེ་རི་ཁའི་གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཨིསི་ཊར་དུས་ཆེན་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>ཁ་ཆེ་བ་རྣམས་མེ་ཀ་ལ་གནས་མཇལ་དུ་འགྲོ་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་མི་རྣམས་ཀྱིས་ལོ་གསར་གཏོང་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>ནོ་སྦེལ་བྱ་དགའ།: གསོ་རིག་དང་རྫས་ཁམས་རིག་པ།དངོས་ཁམས་རིག་པ།དཔལ་འབྱོར།ཞི་བདེ་དང་རྩོམ་རིག་བཅས་ཀྱི་གཟེངས་རྟགས།</value>
   </data>
-  <data name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>ཨོ་ལིམ་ཕིག་དབྱར་དུས་ཀྱི་ལུས་རྩལ་འགྲན་ཚོགས།</value>
   </data>
-  <data name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ཡེ་ཤུའི་འཁྲུངས་སྐར་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>ཨོ་སི་ཀར།གློག་བརྙན་སློབ་གླིང་གི་བྱ་དགའ།</value>
   </data>
-  <data name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>འཛམ་གླིང་ཞི་བདེའི་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>མཚན་ཉིད་རིག་པའི་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>སེམས་ཁམས་རིག་པའི་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཁ་ཆེ་བ་ཚོས་ར་མ་དཱན་ལ་མཉམ་ཞུགས་བྱེད་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>འཛམ་གླིང་དཔེ་ཀློག་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>རོ་ཤི་ཧ་ཤ་ན་: ཨི་སི་རེལ་གྱི་ལོ་གསར།</value>
   </data>
-  <data name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>འཛམ་གླིང་གསོག་འཇོག་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>འཛམ་གླིང་ཚན་རིག་ཉིན་མོ།</value>
   </data>
-  <data name="CelebrationsHelloween">
+  <data name="CelebrationsHelloween" xml:space="preserve">
     <value>ཧ་ལོ་ཝིན།</value>
   </data>
-  <data name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>རྐང་སྤོལ་འགྲན་བསྡུར།</value>
   </data>
-  <data name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ཨོ་རྩལ་འགྲན་ཚོགས་ཀྱི་དགུན་དུས་ལུས་རྩལ་འགྲན་ཚོགས།</value>
   </data>
-  <data name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>ཏིམ་ཀཊ། ཨི་ཐོ་པི་ཡའི་ཡི་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཡེ་ཤུའི་ཁྲུས་གསོལ་དྲན་གསོ་ཞུ་བཞིན་ཡོད།</value>
   </data>
-  <data name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>བརྩེ་དུང་གི་ཉིན་མོ། </value>
   </data>
   <data name="Error" xml:space="preserve">
