@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Liên hoan phim</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Liên hoan phim tại Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Lễ mừng sinh nhật của trẻ em và Đức Phật tại Nhật Bản và Hàn Quốc</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Tết Nguyên đán</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Người theo đạo Thiên chúa trên khắp thế giới đang đón Giáng sinh</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Ngày nhảy múa</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Lễ hội ánh sáng Hindu vì chân lý chiến thắng dối trá</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Liên hoan phim Châu Phi tại Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Người theo đạo Thiên chúa trên khắp thế giới đang đón lễ Phục sinh</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Người Hồi giáo hành hương đến Mecca: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Người dân trên khắp thế giới đang đón năm mới.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Giải thưởng Y học, Hóa học, Vật lý, Kinh tế, Hòa bình và Văn học</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Thế vận hội Mùa hè Olympic</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Người theo đạo Thiên chúa Chính thống giáo đang đón Giáng sinh</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Giải thưởng của Viện Hàn lâm Điện ảnh</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Ngày Hòa bình Thế giới</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Ngày Triết học</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Ngày Tâm lý học</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Người Hồi giáo trên khắp thế giới đang tham gia Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Ngày đọc sách thế giới</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Năm mới của Israel</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Ngày Tiết kiệm Thế giới</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Ngày Khoa học Thế giới</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Giải vô địch bóng đá</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Thế vận hội Mùa đông Olympic</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Người theo đạo Thiên chúa Ethiopia kỷ niệm Lễ Rửa tội của Chúa Jesus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Ngày Lễ Tình nhân </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Sai lầm!</value>
   </data>

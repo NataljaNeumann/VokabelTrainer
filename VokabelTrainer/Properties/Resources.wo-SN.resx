@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festiwaalu filmu</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festiwaalu filmu ci Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Xale yi ak màggalu aniwerseeru Buddha ci Japon ak Kore</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Màggalu at mu bees ci waa Chine</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Chretien yi ci àdduna bi yépp ñu ngi màggal noel</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Bisu fecc</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Màggalu leeralu Hindu ngir dëgg daan fen</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Festiwaalu filmu afrik ci Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Chretien yi ci àdduna bi yépp ñu ngi màggal Pâques</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Jullit yi hajj Màkka: Hajj màkka</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Nit ñi ci àdduna bi yépp ñu ngi màggal at mu bees.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Neexal ci medsin, chimie, physique, koom, jàmm ak bind</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>jeux olympic été</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Chretien orthodoxe yi ñu ngi màggal noel</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Neexal yu Akademi Film</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Bisu jàmm ci àdduna bi</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Bisu filosofi</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Bisu psychologie</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Jullit yi ci aduna bi yepp ñu ngi bokk ci Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Bisu jàng ci àdduna bi</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: At mu bees ci Israël</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Bisu dencukaay ci àdduna bi</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Bisu science ci àdduna bi</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Haweel</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Championnat de football</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>jeux olympic hiver</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Chretien yu Ethiopie dañuy màggal batisu Jesus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Bisu valentiin </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Njuumte!</value>
   </data>

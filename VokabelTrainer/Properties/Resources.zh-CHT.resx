@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>柏林影展</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>坎城影展</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>日本和韓國慶祝兒童節和佛誕節</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>中國新年慶祝活動</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>世界各地的基督徒慶祝聖誕節</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>舞蹈日</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>印度教慶祝真理戰勝謊言的燈光節</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>德班非洲電影節</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>世界各地的基督徒慶祝復活節</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>穆斯林前往麥加朝覲</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>世界各地的人們慶祝新年</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>諾貝爾獎：醫學獎、化學獎、物理學獎、經濟學獎、和平獎、文學獎</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>夏季奧運會</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>東正教徒慶祝聖誕節</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>奧斯卡金像獎：電影學院獎</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>世界和平日</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>哲學日</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>心理學日</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>世界各地的穆斯林參與齋戒月</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>世界閱讀日</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>猶太新年（贖罪日）</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>世界儲蓄日</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>世界科學日</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>萬聖節</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>足球錦標賽</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>冬季奧運</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>提姆卡特節：衣索比亞基督徒紀念耶穌受洗</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>情人節 </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>錯誤！</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>儲存詞彙檔時發生錯誤：{0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} 練習</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>缺少以下意義：{0}</value>
+    <value>缺少以下意義：</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>以下輸入的意思是錯誤的： </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>缺少以下含義：  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} 優勢</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>覆蓋文件？</value>
   </data>
@@ -161,12 +252,6 @@
   </data>
   <data name="Mistake" xml:space="preserve">
     <value>錯誤！ </value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} 練習</value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} 優勢</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} 最強 </value>
