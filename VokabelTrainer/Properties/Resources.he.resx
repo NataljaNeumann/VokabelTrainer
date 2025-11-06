@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>ברלינאלה: פסטיבל קולנוע</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>פסטיבל קולנוע בקאן</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>חגיגות יום הולדת לילדים ובודהה ביפן ובקוריאה</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>חגיגות ראש השנה הסיני</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>נוצרים בכל רחבי העולם חוגגים את חג המולד</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>יום ריקודים</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>חגיגת אורות הינדים לניצחון האמת על השקרים</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>פסטיבל קולנוע אפריקאי בדרבן</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>נוצרים בכל רחבי העולם חוגגים את חג הפסחא</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>מוסלמים עולים לרגל למכה: חאג'</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>אנשים בכל רחבי העולם חוגגים את ראש השנה.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>פרס נובל לרפואה, כימיה, פיזיקה, כלכלה, שלום וספרות</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>משחקי הקיץ האולימפיים</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>נוצרים אורתודוקסים חוגגים את חג המולד</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>אוסקר: פרסי האקדמיה לקולנוע</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>יום השלום העולמי</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>יום הפילוסופיה</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>יום הפסיכולוגיה</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>מוסלמים בכל רחבי העולם משתתפים ברמדאן</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>יום הקריאה העולמי</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>ראש השנה: ראש השנה הישראלי</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>יום החיסכון העולמי</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>יום המדע העולמי</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>ליל כל הקדושים</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>אליפות כדורגל</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>משחקי החורף האולימפיים</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>טימקט: נוצרים אתיופים מציינים את טבילת ישו</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>יום האהבה </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>שְׁגִיאָה!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>אירעה שגיאה בעת שמירת קובץ אוצר המילים: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} תרגול</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>המשמעויות הבאות היו חסרות: {0}</value>
+    <value>המשמעויות הבאות היו חסרות: </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>המשמעויות הבאות שהוזנו היו שגויות: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>המשמעויות הבאות היו חסרות:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} אינטנסיבי</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>להחליף קובץ?</value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>טָעוּת! </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} תרגול</value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} אינטנסיבי</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} אינטנסיבי ביותר </value>
   </data>
 </root>

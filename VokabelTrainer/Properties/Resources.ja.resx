@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>ベルリン国際映画祭：映画祭</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>カンヌ映画祭</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>日本と韓国で子供たちと釈迦誕生日を祝う</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>春節のお祝い</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>世界中のキリスト教徒がクリスマスを祝う</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>ダンスの日</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>真実が嘘に打ち勝つヒンドゥー教の光の祭典</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>ダーバンでアフリカ映画祭</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>世界中のキリスト教徒がイースターを祝う</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>イスラム教徒のメッカ巡礼：ハッジ</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>世界中の人々が新年を祝う。</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>ノーベル賞：医学・化学・物理学・経済学・平和・文学賞</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>夏季オリンピック</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>正教会がクリスマスを祝う</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>オスカー賞：映画アカデミー賞</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>世界平和デー</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>哲学の日</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>心理学の日</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>世界中のイスラム教徒がラマダンに参加</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>世界読書デー</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>ロシュ・ハシャナ：イスラエルの新年</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>世界貯蓄デー</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>世界科学デー</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>ハロウィーン</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>サッカー選手権</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>冬季オリンピック</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>ティムカット：エチオピアのキリスト教徒がイエスの洗礼を祝う</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>バレンタインデー </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>エラー！</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>語彙ファイルの保存中にエラーが発生しました: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} の練習</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>次の意味が欠落していました: {0}</value>
+    <value>次の意味が欠落していました: </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>入力された次の意味は間違っていました: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>次の意味が欠落していました:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} 集中型</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>ダテイ・ユーバーシュライベン?</value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>間違い！ </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} の練習</value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} 集中型</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} が最も激しい </value>
   </data>
 </root>

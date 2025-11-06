@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Ememme ihe nkiri</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Ememme ihe nkiri na Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Ememe ncheta ọmụmụ ụmụaka na Buddha na Japan na Korea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Ememe afọ ọhụrụ ndị China</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Ndị Kraịst n'ụwa niile na-agba Krismas</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Ụbọchị ịgba egwu</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Ememe ọkụ Hindu maka eziokwu na-emeri ụgha</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Ememme ihe nkiri Afrịka na Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Ndị Kraịst n'ụwa niile na-eme mmemme Ista</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Ndị Alakụba na-eme njem na Mecca: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Ndị mmadụ n'ụwa niile na-eme mmemme afọ ọhụrụ.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Nrite maka Ọgwụ, Chemistry, Fisiks, Economy, Peace and Literature</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Egwuregwu oge okpomọkụ Olympic</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Ndị Kraịst Ọtọdọks na-agba Krismas</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Film Academy Awards</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Ụbọchị Udo Ụwa</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Ụbọchị nkà ihe ọmụma</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Ụbọchị nke nkà mmụta uche</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Ndị Alakụba n'ụwa niile na-ekere òkè na Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Ụbọchị ọgụgụ ụwa</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Afọ ọhụrụ nke Israel</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Ụbọchị Nchekwa Ụwa</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Ụbọchị Sayensị Ụwa</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Asọmpi bọọlụ</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Egwuregwu oyi Olympic</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Ndị Kraịst Etiopia na-echeta Baptizim nke Jizọs</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Ụbọchị Valentine </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Mmehie!</value>
   </data>

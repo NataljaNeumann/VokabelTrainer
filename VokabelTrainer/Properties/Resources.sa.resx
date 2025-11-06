@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>बर्लिनेलः चलचित्रमहोत्सवः</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>कान्स्-नगरे चलच्चित्रमहोत्सवः</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>जापानदेशे कोरियादेशे च बालकानां बुद्धजन्मदिनस्य च उत्सवः</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>चीनी नववर्षस्य उत्सवः</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>सम्पूर्णे विश्वे ईसाईजनाः क्रिसमस-उत्सवम् आचरन्ति</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>नृत्यस्य दिवसः</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>असत्यं जित्वा सत्यं हिन्दू प्रकाश उत्सव</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>डरबन्नगरे आफ्रिकादेशस्य चलच्चित्रमहोत्सवः</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>सम्पूर्णे विश्वे ईसाईजनाः ईस्टर-उत्सवम् आचरन्ति</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>मुसलमाना: मक्काया: हज:</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>सम्पूर्णे विश्वे जनाः नूतनवर्षम् आचरन्ति।</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>नोबेल् : चिकित्सा, रसायनशास्त्र, भौतिकी, अर्थशास्त्र, शान्ति तथा साहित्य के पुरस्कार</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>ओलम्पिक ग्रीष्मकालीनक्रीडाः</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>आर्थोडॉक्स-ईसाई-धर्मस्य जनाः क्रिसमस-उत्सवम् आचरन्ति</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>ऑस्कर : चलचित्र अकादमी पुरस्कार</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>विश्वशान्तिदिवसः</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>दर्शनशास्त्रस्य दिवसः</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>मनोविज्ञानस्य दिवसः</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>सम्पूर्णे विश्वे मुसलमाना: रमजाने भागं गृह्णन्ति</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>विश्व पठन दिवस</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>रोश हशानाहः इजरायलस्य नववर्षम्</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>विश्व बचत दिवस</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>विश्व विज्ञान दिवस</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>हेलोवीन</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>फुटबॉल चॅम्पियनशिप</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>ओलम्पिक शिशिरक्रीडा</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>टिमकाट् : इथियोपियादेशस्य ईसाईजनाः येशुना बप्तिस्मायाः स्मरणं कुर्वन्ति</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>वैलेण्टाइन दिवस </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>त्रुटि!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>शब्दावलीसञ्चिकां रक्षन् त्रुटिः अभवत्: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} अभ्यास</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>निम्नलिखितार्थाः लुप्ताः आसन् : {0}</value>
+    <value>निम्नलिखितार्थाः लुप्ताः आसन् : </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>निम्नलिखितप्रविष्टार्थाः गलताः आसन्-</value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>निम्नलिखितार्थाः लुप्ताः आसन्- १.</value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} सघन</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>सञ्चिकां अधिलेखयतु?</value>
   </data>
@@ -161,12 +252,6 @@
   </data>
   <data name="Mistake" xml:space="preserve">
     <value>त्रुटि!</value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} अभ्यास</value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} सघन</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} अत्यन्तं तीव्रम्</value>

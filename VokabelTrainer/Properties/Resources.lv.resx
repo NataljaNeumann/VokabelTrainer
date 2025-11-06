@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlīnes kinofestivāls</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Kinofestivāls Kannās</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Bērnu un Budas dzimšanas dienas svinības Japānā un Korejā</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Ķīniešu Jaunā gada svinības</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Kristieši visā pasaulē svin Ziemassvētkus</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Deju diena</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Hinduistu gaismas svinības patiesībai uzvarot melus</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Āfrikas filmu festivāls Durbanā</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Kristieši visā pasaulē svin Lieldienas</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Musulmaņu svētceļnieks uz Meku: Hadžs</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Cilvēki visā pasaulē svin Jauno gadu.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobela prēmija medicīnā, ķīmijā, fizikā, ekonomikā, mierā un literatūrā</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Vasaras Olimpiskās spēles</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Pareizticīgie kristieši svin Ziemassvētkus</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oskara Kinoakadēmijas balvas</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Pasaules Miera diena</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Filozofijas diena</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Psiholoģijas diena</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Musulmaņi visā pasaulē piedalās Ramadānā</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Pasaules lasīšanas diena</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Roš Hašana: Izraēlas Jaunais gads</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Pasaules taupīšanas diena</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Pasaules zinātnes diena</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Helovīns</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Futbola čempionāts</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Ziemas Olimpiskās spēles</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkata: Etiopijas kristieši piemin Jēzus kristības</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Valentīna diena </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Kļūda!</value>
   </data>

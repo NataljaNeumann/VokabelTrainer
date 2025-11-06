@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>ਬਰਲਿਨੇਲ: ਫਿਲਮ ਫੈਸਟੀਵਲ</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>ਕਾਨਸ ਵਿੱਚ ਫਿਲਮ ਫੈਸਟੀਵਲ</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>ਜਾਪਾਨ ਅਤੇ ਕੋਰੀਆ ਵਿੱਚ ਬੱਚੇ ਅਤੇ ਬੁੱਧ ਜਨਮਦਿਨ ਦੇ ਜਸ਼ਨ</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>ਚੀਨੀ ਨਵੇਂ ਸਾਲ ਦੇ ਜਸ਼ਨ</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>ਦੁਨੀਆ ਭਰ ਦੇ ਈਸਾਈ ਕ੍ਰਿਸਮਸ ਮਨਾ ਰਹੇ ਹਨ</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>ਨੱਚਣ ਦਾ ਦਿਨ</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>ਝੂਠ ਉੱਤੇ ਸੱਚ ਦੀ ਜਿੱਤ ਲਈ ਹਿੰਦੂ ਪ੍ਰਕਾਸ਼ ਦਾ ਜਸ਼ਨ</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>ਡਰਬਨ ਵਿੱਚ ਅਫਰੀਕੀ ਫਿਲਮ ਫੈਸਟੀਵਲ</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>ਦੁਨੀਆ ਭਰ ਦੇ ਈਸਾਈ ਈਸਟਰ ਮਨਾ ਰਹੇ ਹਨ</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>ਮੱਕਾ ਜਾਣ ਵਾਲੇ ਮੁਸਲਮਾਨ ਸ਼ਰਧਾਲੂ: ਹੱਜ</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>ਦੁਨੀਆ ਭਰ ਦੇ ਲੋਕ ਨਵਾਂ ਸਾਲ ਮਨਾ ਰਹੇ ਹਨ।</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>ਨੋਬਲ: ਮੈਡੀਸਨ, ਕੈਮਿਸਟਰੀ, ਭੌਤਿਕ ਵਿਗਿਆਨ, ਆਰਥਿਕਤਾ, ਸ਼ਾਂਤੀ ਅਤੇ ਸਾਹਿਤ ਲਈ ਪੁਰਸਕਾਰ</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>ਓਲੰਪਿਕ ਗਰਮੀਆਂ ਦੀਆਂ ਖੇਡਾਂ</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>ਆਰਥੋਡਾਕਸ ਈਸਾਈ ਕ੍ਰਿਸਮਸ ਮਨਾ ਰਹੇ ਹਨ</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>ਆਸਕਰ: ਫਿਲਮ ਅਕੈਡਮੀ ਪੁਰਸਕਾਰ</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>ਵਿਸ਼ਵ ਸ਼ਾਂਤੀ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>ਦਰਸ਼ਨ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>ਮਨੋਵਿਗਿਆਨ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>ਦੁਨੀਆ ਭਰ ਦੇ ਮੁਸਲਮਾਨ ਰਮਜ਼ਾਨ ਵਿੱਚ ਹਿੱਸਾ ਲੈ ਰਹੇ ਹਨ</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>ਵਿਸ਼ਵ ਪੜ੍ਹਨ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>ਰੋਸ਼ ਹਸ਼ਨਾਹ: ਇਜ਼ਰਾਈਲੀ ਨਵਾਂ ਸਾਲ</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>ਵਿਸ਼ਵ ਬਚਤ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>ਵਿਸ਼ਵ ਵਿਗਿਆਨ ਦਿਵਸ</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>ਹੇਲੋਵੀਨ</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>ਫੁੱਟਬਾਲ ਚੈਂਪੀਅਨਸ਼ਿਪ</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>ਓਲੰਪਿਕ ਸਰਦੀਆਂ ਦੀਆਂ ਖੇਡਾਂ</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>ਟਿਮਕਤ: ਈਥੋਪੀਅਨ ਈਸਾਈ ਯਿਸੂ ਦੇ ਬਪਤਿਸਮੇ ਦੀ ਯਾਦ ਵਿੱਚ</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>ਵੈਲੇਨਟਾਈਨ ਦਿਵਸ </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ਗਲਤੀ!</value>
   </data>

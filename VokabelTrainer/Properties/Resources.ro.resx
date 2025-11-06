@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festivalul de Film</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festivalul de Film de la Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Sărbătorirea copiilor și a zilei de naștere a lui Buddha în Japonia și Coreea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Sărbătorirea Anului Nou Chinezesc</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Creștinii din întreaga lume sărbătoresc Crăciunul</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Ziua dansului</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Sărbătoarea luminilor hinduse pentru ca adevărul să învingă minciunile</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Festivalul de film african din Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Creștinii din întreaga lume sărbătoresc Paștele</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Musulmanii în pelerinaj la Mecca: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Oameni din întreaga lume sărbătoresc Anul Nou.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Premiul pentru Medicină, Chimie, Fizică, Economie, Pace și Literatură</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Jocurile Olimpice de vară</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Creștinii ortodocși sărbătoresc Crăciunul</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Premiile Academiei de Film</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Ziua Mondială a Păcii</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Ziua filosofiei</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Ziua psihologiei</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Musulmanii din întreaga lume participă la Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Ziua mondială a lecturii</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Anul Nou israelian</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Ziua Mondială a Economiilor</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Ziua Mondială a Științei</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Campionatul de fotbal</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Jocurile Olimpice de iarnă</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Creștinii etiopieni comemorează Botezul lui Isus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Ziua Îndrăgostiților </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Greşeală!</value>
   </data>

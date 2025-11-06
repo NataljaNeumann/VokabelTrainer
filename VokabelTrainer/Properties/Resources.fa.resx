@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>برلیناله: جشنواره فیلم</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>جشنواره فیلم در کن</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>جشن تولد کودکان و بودا در ژاپن و کره</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>جشن‌های سال نو چینی</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>مسیحیان در سراسر جهان کریسمس را جشن می‌گیرند</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>روز رقص</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>جشن نور هندوها برای پیروزی حقیقت بر دروغ</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>جشنواره فیلم آفریقا در دوربان</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>مسیحیان در سراسر جهان عید پاک را جشن می‌گیرند</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>مسلمانان زائر مکه: حج</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>مردم در سراسر جهان سال نو را جشن می‌گیرند.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>نوبل: جایزه پزشکی، شیمی، فیزیک، اقتصاد، صلح و ادبیات</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>بازی‌های تابستانی المپیک</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>مسیحیان ارتدکس کریسمس را جشن می‌گیرند</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>اسکار: جوایز آکادمی فیلم</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>روز جهانی صلح</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>روز فلسفه</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>روز روانشناسی</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>مسلمانان در سراسر جهان در ماه رمضان شرکت می‌کنند</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>روز جهانی مطالعه</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>روش هشانا: سال نو اسرائیلی</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>روز جهانی پس‌انداز</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>روز جهانی علم</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>هالووین</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>مسابقات قهرمانی فوتبال</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>بازی‌های زمستانی المپیک</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>تیمکات: مسیحیان اتیوپیایی در بزرگداشت غسل تعمید عیسی</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>روز ولنتاین </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>اشتباه!</value>
   </data>

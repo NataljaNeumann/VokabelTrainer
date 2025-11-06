@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>བྷར་ལི་ནལ་གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>ཀན་སིའི་གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>ཉི་ཧོང་དང་ཀོ་རི་ཡའི་ནང་བྱིས་པ་དང་སངས་རྒྱས་ཀྱི་འཁྲུངས་སྐར་སྲུང་བརྩི།</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>ཀྲུང་གོའི་ལོ་སར་སྲུང་བརྩི།</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>འཛམ་གླིང་གང་སར་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཡེ་ཤུའི་འཁྲུངས་སྐར་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>ཞབས་བྲོ་འཁྲབ་པའི་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>རྫུན་གཏམ་ལས་རྣམ་པར་རྒྱལ་བའི་ཧིན་རྡུའི་འོད་སྣང་སྲུང་བརྩི།</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>ཨ་ཧྥེ་རི་ཁའི་གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཨིསི་ཊར་དུས་ཆེན་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>ཁ་ཆེ་བ་རྣམས་མེ་ཀ་ལ་གནས་མཇལ་དུ་འགྲོ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་མི་རྣམས་ཀྱིས་ལོ་གསར་གཏོང་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>ནོ་སྦེལ་བྱ་དགའ།: གསོ་རིག་དང་རྫས་ཁམས་རིག་པ།དངོས་ཁམས་རིག་པ།དཔལ་འབྱོར།ཞི་བདེ་དང་རྩོམ་རིག་བཅས་ཀྱི་གཟེངས་རྟགས།</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>ཨོ་ལིམ་ཕིག་དབྱར་དུས་ཀྱི་ལུས་རྩལ་འགྲན་ཚོགས།</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>ཡེ་ཤུའི་འཁྲུངས་སྐར་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>ཨོ་སི་ཀར།གློག་བརྙན་སློབ་གླིང་གི་བྱ་དགའ།</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>འཛམ་གླིང་ཞི་བདེའི་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>མཚན་ཉིད་རིག་པའི་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>སེམས་ཁམས་རིག་པའི་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཁ་ཆེ་བ་ཚོས་ར་མ་དཱན་ལ་མཉམ་ཞུགས་བྱེད་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>འཛམ་གླིང་དཔེ་ཀློག་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>རོ་ཤི་ཧ་ཤ་ན་: ཨི་སི་རེལ་གྱི་ལོ་གསར།</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>འཛམ་གླིང་གསོག་འཇོག་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>འཛམ་གླིང་ཚན་རིག་ཉིན་མོ།</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>ཧ་ལོ་ཝིན།</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>རྐང་སྤོལ་འགྲན་བསྡུར།</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>ཨོ་རྩལ་འགྲན་ཚོགས་ཀྱི་དགུན་དུས་ལུས་རྩལ་འགྲན་ཚོགས།</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>ཏིམ་ཀཊ། ཨི་ཐོ་པི་ཡའི་ཡི་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཡེ་ཤུའི་ཁྲུས་གསོལ་དྲན་གསོ་ཞུ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>བརྩེ་དུང་གི་ཉིན་མོ། </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ནོར་བ!</value>
   </data>

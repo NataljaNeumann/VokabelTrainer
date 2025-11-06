@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>베를린 영화제: 영화제</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>칸 영화제</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>일본과 한국의 어린이날 및 부처님 오신 날 기념 행사</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>중국 설날 기념 행사</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>전 세계 기독교인들이 크리스마스를 기념합니다</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>춤의 날</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>진실이 거짓을 이긴다는 의미의 힌두교 등불 축제</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>더반 아프리카 영화제</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>전 세계 기독교인들이 부활절을 기념합니다</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>메카로 순례하는 무슬림: 하지</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>전 세계 사람들이 새해를 기념합니다.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>노벨상: 의학, 화학, 물리학, 경제학, 평화, 문학상</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>올림픽 하계 올림픽</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>정교회 신도들의 크리스마스 기념</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>오스카상: 영화 아카데미상</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>세계 평화의 날</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>철학의 날</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>심리학의 날</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>전 세계 무슬림들이 라마단에 참여</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>세계 독서의 날</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>로쉬 하샤나: 이스라엘 새해</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>세계 저축의 날</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>세계 과학의 날</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>할로윈</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>축구 선수권 대회</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>올림픽 동계 올림픽</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>팀캇: 에티오피아 기독교인들의 예수 세례 기념</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>발렌타인데이 </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>오류!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>어휘 파일을 저장하는 동안 오류가 발생했습니다: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} 연습</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>다음 의미가 누락되었습니다: {0}</value>
+    <value>다음 의미가 누락되었습니다: </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>다음 입력된 의미가 잘못되었습니다. </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>다음 의미가 누락되었습니다.  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} 집중</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>파일을 덮어쓰시겠습니까? </value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>실수! </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} 연습</value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} 집중</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} 가장 강렬한 </value>
   </data>
 </root>

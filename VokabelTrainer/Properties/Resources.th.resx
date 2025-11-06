@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>เบอร์ลินาเล: เทศกาลภาพยนตร์</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>เทศกาลภาพยนตร์เมืองคานส์</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>งานฉลองวันเด็กและวันคล้ายวันประสูติของพระพุทธเจ้าในญี่ปุ่นและเกาหลี</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>งานฉลองตรุษจีน</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>ชาวคริสต์ทั่วโลกร่วมเฉลิมฉลองเทศกาลคริสต์มาส</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>วันแห่งการเต้นรำ</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>การเฉลิมฉลองแสงสว่างของศาสนาฮินดูเพื่อความจริงที่ชนะความเท็จ</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>เทศกาลภาพยนตร์แอฟริกาในเมืองเดอร์บัน</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>ชาวคริสต์ทั่วโลกร่วมเฉลิมฉลองเทศกาลอีสเตอร์</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>ชาวมุสลิมแสวงบุญที่นครเมกกะ: พิธีฮัจญ์</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>ผู้คนทั่วโลกร่วมเฉลิมฉลองปีใหม่</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>รางวัลโนเบล: รางวัลสาขาการแพทย์ เคมี ฟิสิกส์ เศรษฐศาสตร์ สันติภาพ และวรรณกรรม</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>การแข่งขันกีฬาโอลิมปิกฤดูร้อน</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>ชาวคริสต์นิกายออร์โธดอกซ์ร่วมเฉลิมฉลองเทศกาลคริสต์มาส</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>รางวัลออสการ์: รางวัลจากสถาบันภาพยนตร์</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>วันสันติภาพโลก</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>วันปรัชญา</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>วันจิตวิทยา</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>ชาวมุสลิมทั่วโลกร่วมเฉลิมฉลองเดือนรอมฎอน</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>วันอ่านหนังสือโลก</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>โรช ฮาชานาห์: ปีใหม่ของอิสราเอล</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>วันออมทรัพย์โลก</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>วันวิทยาศาสตร์โลก</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>วันฮาโลวีน</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>การแข่งขันฟุตบอลชิงแชมป์</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>การแข่งขันกีฬาโอลิมปิกฤดูหนาว</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>ทิมกัต: ชาวคริสต์เอธิโอเปียร่วมรำลึกถึงพิธีบัพติศมาของพระเยซู</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>วันวาเลนไทน์ </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ความผิดพลาด!</value>
   </data>

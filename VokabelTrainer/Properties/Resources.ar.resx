@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>مهرجان برلين السينمائي</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>مهرجان كان السينمائي</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>احتفالات الأطفال بعيد ميلاد بوذا في اليابان وكوريا</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>احتفالات رأس السنة الصينية</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>يحتفل المسيحيون حول العالم بعيد الميلاد</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>يوم الرقص</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>احتفال النور الهندوسي لنصرة الحق على الباطل</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>مهرجان السينما الأفريقية في ديربان</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>يحتفل المسيحيون حول العالم بعيد الفصح</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>يؤدي المسلمون فريضة الحج في مكة المكرمة</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>يحتفل الناس في جميع أنحاء العالم برأس السنة.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>نوبل: جائزة الطب، الكيمياء، الفيزياء، الاقتصاد، السلام والأدب</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>الألعاب الأولمبية الصيفية</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>المسيحيون الأرثوذكس يحتفلون بعيد الميلاد</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>الأوسكار: جوائز أكاديمية السينما</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>اليوم العالمي للسلام</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>اليوم العالمي للفلسفة</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>اليوم العالمي لعلم النفس</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>المسلمون في جميع أنحاء العالم يشاركون في شهر رمضان</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>اليوم العالمي للقراءة</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>رأس السنة العبرية (روش هاشناه)</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>اليوم العالمي للادخار</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>اليوم العالمي للعلوم</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>الهالوين</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>بطولة كرة القدم</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>الألعاب الأولمبية الشتوية</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>التيمكات: المسيحيون الإثيوبيون يحيون ذكرى معمودية السيد المسيح</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>عيد الحب </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>خطأ!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>حدث خطأ أثناء حفظ ملف المفردات: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} تمرين</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>المعاني التالية كانت مفقودة: {0}</value>
+    <value>المعاني التالية كانت مفقودة:</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>المعاني المدخلة التالية خاطئة: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>غابت المعاني التالية:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} مكثفة</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>هل تريد الكتابة فوق الملف؟</value>
   </data>
@@ -161,12 +252,6 @@
   </data>
   <data name="Mistake" xml:space="preserve">
     <value>خطأ! </value>
-  </data>
-  <data name="Exercise" xml:space="preserve">
-    <value>{0} - {1} تمرين</value>
-  </data>
-  <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} مكثفة</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} الأكثر كثافة </value>

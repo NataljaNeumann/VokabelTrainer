@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Filmski festival</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Filmski festival u Cannesu</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Proslave dječjeg i Budinog rođendana u Japanu i Koreji</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Proslave kineske nove godine</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Kršćani širom svijeta slave Božić</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Dan plesa</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Proslava hinduističkih svjetla za pobjedu istine nad lažima</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Afrički filmski festival u Durbanu</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Kršćani širom svijeta slave Uskrs</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Muslimani hodočaste u Meku: Hadž</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Ljudi širom svijeta slave novu godinu.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Nagrada za medicinu, hemiju, fiziku, ekonomiju, mir i književnost</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Ljetne olimpijske igre</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Pravoslavni kršćani slave Božić</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oskar: Nagrade filmske akademije</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Svjetski dan mira</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Dan filozofije</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Dan psihologije</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Muslimani širom svijeta učestvuju u Ramazanu</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Svjetski dan čitanja</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Roš Hašana: Izraelska nova godina</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Svjetski dan štednje</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Svjetski dan nauke</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Noć vještica</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Prvenstvo u fudbalu</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Zimske olimpijske igre</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Etiopski kršćani obilježavaju Isusovo krštenje</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Valentinovo </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Greška!</value>
   </data>

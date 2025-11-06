@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>ბერლინალე: კინოფესტივალი</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>კანის კინოფესტივალი</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>ბავშვებისა და ბუდას დაბადების დღის აღნიშვნა იაპონიასა და კორეაში</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>ჩინური ახალი წლის აღნიშვნა</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>მთელი მსოფლიოს ქრისტიანები შობას აღნიშნავენ</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>ცეკვის დღეს</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>ინდუისტური სინათლის დღესასწაული ტყუილზე გამარჯვებისთვის</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>აფრიკული ფილმების ფესტივალი დურბანში</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>მთელი მსოფლიოს ქრისტიანები აღდგომას აღნიშნავენ</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>მუსლიმები მექაში მომლოცველები არიან: ჰაჯი</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>მთელი მსოფლიოს ხალხი ახალ წელს აღნიშნავს.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>ნობელის პრემია: მედიცინის, ქიმიის, ფიზიკის, ეკონომიკის, მშვიდობისა და ლიტერატურის დარგში</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>ზაფხულის ოლიმპიური თამაშები</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>მართლმადიდებლები შობას აღნიშნავენ</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>ოსკარი: კინოაკადემიის ჯილდოები</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>მსოფლიო მშვიდობის დღე</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>ფილოსოფიის დღე</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>ფსიქოლოგიის დღე</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>მთელი მსოფლიოს მუსლიმები რამადანში მონაწილეობენ</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>მსოფლიო კითხვის დღე</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>როშ ჰაშანა: ისრაელის ახალი წელი</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>მსოფლიო დაზოგვის დღე</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>მსოფლიო მეცნიერების დღე</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>ჰელოუინი</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>ფეხბურთის ჩემპიონატი</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>ზამთრის ოლიმპიური თამაშები</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>ტიმკატი: ეთიოპიელი ქრისტიანები იესოს ნათლობას აღნიშნავენ</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>ვალენტინობის დღე </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>შეცდომა!</value>
   </data>

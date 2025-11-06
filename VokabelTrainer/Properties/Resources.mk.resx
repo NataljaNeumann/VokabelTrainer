@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Берлинале: Филмски фестивал</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Филмски фестивал во Кан</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Прослави на роденденот на децата и Буда во Јапонија и Кореја</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Прослави на кинеската Нова година</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Христијаните низ целиот свет го слават Божиќ</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Ден на танцување</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Прослава на хиндуистичката светлина за победа на вистината над лагите</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Африкански филмски фестивал во Дурбан</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Христијаните низ целиот свет го слават Велигден</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Муслиманите одат во Мека: Хаџ</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Луѓе низ целиот свет ја слават Новата година.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Нобел: Награда за медицина, хемија, физика, економија, мир и литература</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Летни олимписки игри</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Православните христијани го слават Божиќ</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Оскар: Награди на Филмската академија</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Светски ден на мирот</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Ден на филозофијата</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Ден на психологијата</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Муслиманите низ целиот свет учествуваат во Рамазан</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Светски ден на читањето</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Рош Хашана: Израелска нова година</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Светски ден на штедењето</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Светски ден на науката</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Ноќта на вештерките</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Фудбалско првенство</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Зимски олимписки игри</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Тимкат: Етиопските христијани го одбележуваат крштевањето на Исус</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Ден на вљубените </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Грешка!</value>
   </data>

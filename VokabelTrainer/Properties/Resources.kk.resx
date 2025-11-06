@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Берлинале: Кинофестиваль</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Канндағы кинофестиваль</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Жапония мен Кореядағы балалар мен Будданың туған күнін тойлау</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Қытайдың жаңа жылын тойлау</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Дүние жүзіндегі христиандар Рождество мерекесін тойлайды</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Би күні</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Өтірікті жеңген шындық үшін үнділік жарық мерекесі</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Дурбандағы Африка кинофестивалі</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Дүние жүзіндегі христиандар Пасханы тойлауда</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Меккеге баратын мұсылмандар: Қажылық</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Бүкіл әлем халқы Жаңа жылды тойлайды.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Нобель: Медицина, химия, физика, экономика, бейбітшілік және әдебиет саласындағы сыйлық</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Жазғы Олимпиада ойындары</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Православие христиандары Рождество мерекесін тойлайды</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Оскар: Киноакадемияның марапаттары</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Дүниежүзілік бейбітшілік күні</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Философия күні</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Психология күні</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Бүкіл әлем мұсылмандары Рамазанға атсалысуда</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Дүниежүзілік кітап оқу күні</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Рош Хашана: Израильдің жаңа жылы</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Дүниежүзілік жинақ күні</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Дүниежүзілік ғылым күні</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Хэллоуин</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Футболдан чемпионат</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Қысқы Олимпиада ойындары</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Тимкат: Эфиопиялық христиандар Исаның шомылдыру рәсімінен өтуін еске алады</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Валентин күні </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Қате!</value>
   </data>

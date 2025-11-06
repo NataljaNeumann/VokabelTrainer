@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festival Filem</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festival Filem di Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Perayaan hari lahir kanak-kanak dan Buddha di Jepun dan Korea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>sambutan tahun baru cina</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Orang Kristian di seluruh dunia sedang merayakan Krismas</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Hari menari</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Perayaan cahaya Hindu untuk kebenaran memenangi pembohongan</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Pesta filem Afrika di Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Orang Kristian di seluruh dunia sedang merayakan Paskah</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Orang Islam berziarah ke Mekah: Haji</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Orang di seluruh dunia sedang menyambut tahun baru.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Hadiah untuk Perubatan, Kimia, Fizik, Ekonomi, Keamanan dan Kesusasteraan</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Sukan musim panas Olimpik</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Kristian Ortodoks sedang merayakan Krismas</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Anugerah Akademi Filem</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Hari Keamanan Sedunia</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Hari falsafah</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Hari psikologi</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Umat ​​Islam di seluruh dunia menyertai Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Hari membaca sedunia</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Tahun baru Israel</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Hari Simpanan Sedunia</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Hari Sains Sedunia</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Kejohanan bola sepak</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Permainan musim sejuk Olimpik</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Kristian Ethiopia memperingati Pembaptisan Yesus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>hari Valentine </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Silap!</value>
   </data>

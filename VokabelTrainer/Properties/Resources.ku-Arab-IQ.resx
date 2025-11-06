@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: فێستیڤاڵی فیلم</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>فێستیڤاڵی فیلم لە شاری کان</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>ئاهەنگی لەدایکبوونی منداڵان و بودا لە ژاپۆن و کۆریا</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>ئاهەنگی ساڵی نوێی چینی</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>مەسیحییەکان لە سەرانسەری جیهان ئاهەنگی جەژنی کریسمس دەگێڕن</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>ڕۆژی سەماکردن</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>ئاهەنگی ڕووناکی هیندۆسی بۆ بردنەوەی ڕاستی بەسەر درۆدا</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>فێستیڤاڵی فیلمی ئەفریقی لە شاری دوربان</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>لە هەموو جیهاندا مەسیحییەکان ئاهەنگی جەژنی ئیستەر دەگێڕن</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>موسڵمانان حاجی بۆ مەککە: حەج</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>خەڵک لە هەموو جیهان ئاهەنگی ساڵی نوێ دەگێڕن.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>نۆبڵ: خەڵاتی پزیشکی، کیمیا، فیزیا، ئابووری، ئاشتی و ئەدەبیات</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>یارییەکانی هاوینەی ئۆڵۆمپیاد</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>مەسیحییە ئۆرتۆدۆکسەکان ئاهەنگی جەژنی کریسمس دەگێڕن</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>ئۆسکار: خەڵاتی ئەکادیمیای فیلم</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>ڕۆژی جیهانی ئاشتی</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>ڕۆژی فەلسەفە</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>ڕۆژی دەروونناسی</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>موسڵمانانی سەرتاسەری جیهان بەشداری جەژنی ڕەمەزان دەکەن</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>ڕۆژی جیهانی خوێندنەوە</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>ڕۆش هاشانا: ساڵی نوێی ئیسرائیل</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>ڕۆژی جیهانی پاشەکەوت</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>ڕۆژی جیهانی زانست</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>جەژنی هالۆوین</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>پاڵەوانێتی تۆپی پێ</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>یارییەکانی زستانەی ئۆڵۆمپیاد</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>تیمکات: مەسیحییەکانی ئەسیوپی کە یادی مەعمودی عیسا دەکەنەوە</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>ڕۆژی ڤالانتاین </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>هەڵە!</value>
   </data>
@@ -165,8 +250,8 @@
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>پەڕگەی زمانەکە پێشتر بوونی هەیە: "{0}"، دەتەوێت بینووسیتەوە؟</value>
   </data>
-  <data name="LocalizedLicenseUrl" xml:space="preserve">
-    <value>https://www.gnu.de/documents/gpl-2.0.de.html</value>
+  <data name="LocalizedLicenseUrl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="Mistake" xml:space="preserve">
     <value>هەڵەی بێباکانە!</value>

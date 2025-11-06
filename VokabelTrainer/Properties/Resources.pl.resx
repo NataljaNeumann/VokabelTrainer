@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festiwal Filmowy</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festiwal Filmowy w Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Obchody urodzin Buddy i dzieci w Japonii i Korei</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Obchody chińskiego Nowego Roku</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Chrześcijanie na całym świecie świętują Boże Narodzenie</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Dzień tańca</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Hinduskie święto światła na cześć zwycięstwa prawdy nad kłamstwami</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Afrykański Festiwal Filmowy w Durbanie</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Chrześcijanie na całym świecie świętują Wielkanoc</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Muzułmanie pielgrzymują do Mekki: Hadżdż</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Ludzie na całym świecie świętują Nowy Rok.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Nagroda Nobla w dziedzinie medycyny, chemii, fizyki, ekonomii, pokoju i literatury</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Letnie igrzyska olimpijskie</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Prawosławni chrześcijanie świętują Boże Narodzenie</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Nagrody Akademii Filmowej</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Światowy Dzień Pokoju</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Dzień filozofii</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Dzień psychologii</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Muzułmanie na całym świecie uczestniczą w Ramadanie</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Światowy Dzień Czytania</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosz ha-Szana: Izraelski Nowy Rok</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Światowy Dzień Oszczędności</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Światowy Dzień Nauki</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Mistrzostwa w piłce nożnej</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Zimowe igrzyska olimpijskie</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Etiopscy chrześcijanie upamiętniają Chrzest Jezusa</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Walentynki </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Błąd!</value>
   </data>

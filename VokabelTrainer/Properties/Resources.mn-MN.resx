@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Берлинале: Кино наадам</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Каннын кино наадам</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Япон, Солонгост хүүхэд ба Буддагийн төрсөн өдрийн баяр</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Хятадын шинэ жилийн баяр</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Дэлхий даяар Христэд итгэгчид Зул сарын баяраа тэмдэглэж байна</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Бүжиглэх өдөр</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Үнэнийг худал хуурмагийг ялан дийлдэг Хиндугийн гэрлийн баяр</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Дурбан дахь Африкийн кино наадам</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Дэлхий даяар Христэд итгэгчид Улаан өндөгний баярыг тэмдэглэж байна</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Мусульманчууд Меккад мөргөл үйлддэг: Хаж</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Дэлхий даяар хүмүүс шинэ жилээ тэмдэглэж байна.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Нобел: Анагаах ухаан, хими, физик, эдийн засаг, энх тайван, утга зохиолын салбарын шагнал</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Зуны олимпийн наадам</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Ортодокс Христэд итгэгчид Зул сарын баяраа тэмдэглэж байна</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Оскар: Кино академийн шагналууд</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Дэлхийн энх тайвны өдөр</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Философийн өдөр</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Сэтгэл судлалын өдөр</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Рамаданд дэлхийн бүх мусульманчууд оролцож байна</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Дэлхийн номын өдөр</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Рош Хашана: Израилийн шинэ жил</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Дэлхийн хуримтлалын өдөр</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Дэлхийн шинжлэх ухааны өдөр</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Хөлбөмбөгийн аварга шалгаруулах тэмцээн</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Өвлийн олимпийн наадам</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Тимкат: Этиопын Христэд итгэгчид Есүсийн баптисм хүртсэн өдрийг тэмдэглэж байна</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Гэгээн Валентины өдөр </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Алдаа!</value>
   </data>

@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festival de Cinema</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festival de Cinema de Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Celebrações do aniversário de crianças e Buda no Japão e na Coreia</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Celebrações do Ano Novo Chinês</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Cristãos de todo o mundo celebram o Natal</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Dia da Dança</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Celebração das Luzes Hindu pela vitória da verdade sobre a mentira</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Festival de Cinema Africano em Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Cristãos de todo o mundo celebram a Páscoa</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Peregrinação muçulmana a Meca: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Pessoas de todo o mundo celebram o Ano Novo.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Prêmio Nobel: Prêmio de Medicina, Química, Física, Economia, Paz e Literatura</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Jogos Olímpicos de Verão</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Cristãos ortodoxos celebram o Natal</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Prêmio da Academia de Cinema</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Dia Mundial da Paz</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Dia da Filosofia</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Dia da Psicologia</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Muçulmanos de todo o mundo participam do Ramadã</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Dia Mundial da Leitura</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashaná: Ano Novo Israelense</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Dia Mundial da Poupança</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Dia Mundial da Ciência</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Campeonato de Futebol</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Jogos Olímpicos de Inverno</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Cristãos etíopes comemoram o Batismo de Jesus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Dia dos Namorados </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Erro!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Ocorreu um erro ao salvar o arquivo de vocabulário: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} prática</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Faltavam os seguintes significados: {0}</value>
+    <value>Faltavam os seguintes significados: </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Os seguintes significados inseridos estavam errados: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Faltavam os seguintes significados:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} intensivo</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Substituir arquivo? </value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>Erro! </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} prática</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} mais intenso </value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} intensivo</value>
   </data>
 </root>

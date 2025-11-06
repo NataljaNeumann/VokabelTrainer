@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Filmfestival</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Filmfestival in Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Kinderen en Boeddha-verjaardagen in Japan en Korea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Chinees nieuwjaar vieren</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Christenen over de hele wereld vieren Kerstmis</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Dag van de dans</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Hindoeïstische lichtviering voor de waarheid die leugens overwint</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Afrikaans filmfestival in Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Christenen over de hele wereld vieren Pasen</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Moslims op pelgrimstocht naar Mekka: Hadj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Mensen over de hele wereld vieren Nieuwjaar.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobelprijs: Prijs voor Geneeskunde, Scheikunde, Natuurkunde, Economie, Vrede en Literatuur</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Olympische Zomerspelen</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Orthodoxe christenen vieren Kerstmis</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Film Academy Awards</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Wereldvredesdag</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Dag van de Filosofie</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Dag van de Psychologie</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Moslims over de hele wereld doen mee aan de Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Wereldleesdag</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosj Hasjana: Israëlisch nieuwjaar</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Werelddag van de Spaarzaamheid</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Werelddag van de Wetenschap</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Voetbalkampioenschap</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Olympische Winterspelen</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Ethiopische christenen herdenken de Doop van Jezus</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Valentijnsdag </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Fout!</value>
   </data>

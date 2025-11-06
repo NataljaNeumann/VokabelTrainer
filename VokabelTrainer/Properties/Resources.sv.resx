@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Filmfestival</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Filmfestival i Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Barn och Buddhas födelsedagsfirande i Japan och Korea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Firandet av kinesiskt nyår</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Kristna över hela världen firar jul</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Dansdagen</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Hinduiskt ljusfirande för sanningen som vinner över lögnerna</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Afrikansk filmfestival i Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Kristna över hela världen firar påsk</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Muslimer pilgrimerar till Mecka: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Människor över hela världen firar nyår.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobelpriset: Nobelpriset för medicin, kemi, fysik, ekonomi, fred och litteratur</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Olympiska sommarspelen</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Ortodoxa kristna firar jul</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Filmakademins utmärkelser</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Världsfredsdagen</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Filosofins dag</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Psykologins dag</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Muslimer över hela världen deltar i Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Världsläsningsdagen</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Israeliskt nyår</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Världsspardagen</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Världsvetenskapsdagen</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Fotbollsmästerskapen</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Olympiska vinterspelen</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Etiopiska kristna firar Jesu dop</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Alla hjärtans dag </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Misstag!</value>
   </data>

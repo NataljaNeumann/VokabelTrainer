@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Festival del Cinema</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Festival del Cinema di Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Celebrazioni di compleanno di bambini e Buddha in Giappone e Corea</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Celebrazioni del Capodanno cinese</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>I cristiani di tutto il mondo festeggiano il Natale</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Giornata della danza</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Festa delle luci indù per la vittoria della verità sulla menzogna</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Festival del cinema africano a Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>I cristiani di tutto il mondo festeggiano la Pasqua</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Musulmani in pellegrinaggio alla Mecca: Hajj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Le persone di tutto il mondo festeggiano il Capodanno.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Premio per la Medicina, la Chimica, la Fisica, l'Economia, la Pace e la Letteratura</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Giochi olimpici estivi</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>I cristiani ortodossi festeggiano il Natale</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Premi dell'Accademia del Cinema</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Giornata mondiale della pace</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Giornata della filosofia</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Giornata della psicologia</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>I musulmani di tutto il mondo partecipano al Ramadan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Giornata mondiale della lettura</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Capodanno israeliano</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Giornata mondiale del risparmio</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Giornata mondiale della scienza</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Campionati di calcio</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Giochi olimpici invernali</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Cristiani etiopi commemorano il Battesimo di Gesù</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>San Valentino </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Errore!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Si è verificato un errore durante il salvataggio del file del vocabolario: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} pratica</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Mancavano i seguenti significati: {0}</value>
+    <value>Mancavano i seguenti significati: </value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>I seguenti significati inseriti erano errati: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Mancavano i seguenti significati:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} intensivo</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Sovrascrivere il file? </value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>Errore! </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} pratica</value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} intensivo</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} più intenso </value>
   </data>
 </root>

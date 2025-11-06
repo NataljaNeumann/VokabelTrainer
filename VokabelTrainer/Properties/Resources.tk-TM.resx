@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Kino festiwaly</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Kannda film festiwaly</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Japanaponiýada we Koreýada çagalar we Buddanyň doglan güni</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Hytaýda täze ýyl baýramçylygy</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Bütin dünýädäki hristianlar Ro Christmasdestwo belleýärler</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Tans güni</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Hakykatyň ýalanlardan üstün çykmagy üçin hindileriň ýeňil baýramçylygy</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Durban şäherinde Afrika film festiwaly</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Bütin dünýädäki hristianlar Pasha baýramyny belleýärler</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Musulmanlar Mekgä zyýaratçy: Haj</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Bütin dünýäde adamlar täze ýyly belleýärler.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Medisina, himiýa, fizika, ykdysadyýet, parahatçylyk we edebiýat baýragy</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Olimpiýa tomusky oýunlar</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Prawoslaw hristianlar Ro Christmasdestwo belleýärler</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oskar: Kino akademiýasynyň baýraklary</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Bütindünýä parahatçylyk güni</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Filosofiýa güni</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Psihologiýa güni</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Bütin dünýädäki musulmanlar Remezana gatnaşýarlar</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Bütindünýä okamak güni</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Roş Haşana: Ysraýylyň täze ýyly</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Bütindünýä tygşytlaýyş güni</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Bütindünýä ylym güni</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Futbol çempionaty</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Olimpiýa gyş oýunlary</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Efiopiýaly hristianlar Isanyň çokundyrylmagyny ýatlaýarlar</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Söýgüliler güni </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Istalňyşlyk!</value>
   </data>

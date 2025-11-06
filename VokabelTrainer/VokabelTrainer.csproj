@@ -99,6 +99,7 @@
     <Compile Include="Forms\NewMessageBox.Designer.cs">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="SearchEngineRouter.cs" />
     <Compile Include="Speaker.cs" />
     <Compile Include="Forms\VokabelTrainer.cs">
       <SubType>Form</SubType>
@@ -2282,7 +2283,7 @@
     <Content Include="Images\HajjHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\HalloweenHeader.jpg">
+    <Content Include="Images\HelloweenHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\MovieFestivalHeader.jpg">

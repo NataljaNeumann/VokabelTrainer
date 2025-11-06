@@ -112,11 +112,123 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CelebrationBerlinale" xml:space="preserve">
+    <value>Berlinale: Movie Festival</value>
+    <comment>Tooltip text for Berlinale</comment>
+  </data>
+  <data name="CelebrationCannes" xml:space="preserve">
+    <value>Movie Festival in Cannes</value>
+    <comment>Tooltip text for Cannes</comment>
+  </data>
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
+    <value>Children and Buddha birthday celebrations in Japan and Korea</value>
+    <comment>Tooltip text for Children / Buddha birthday celebrations</comment>
+  </data>
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
+    <value>Chinese new year celebrations</value>
+    <comment>Tooltip text for Chinese new year</comment>
+  </data>
+  <data name="CelebrationChristmas" xml:space="preserve">
+    <value>Christians all over the world are celebrating Christmas</value>
+    <comment>Tooltip text for Christmas</comment>
+  </data>
+  <data name="CelebrationDancingDay" xml:space="preserve">
+    <value>Day of dancing</value>
+    <comment>Tooltip text for dancing day</comment>
+  </data>
+  <data name="CelebrationDiwali" xml:space="preserve">
+    <value>Hindu light celebration for truth winning over lies</value>
+    <comment>Tooltip text for Diwali</comment>
+  </data>
+  <data name="CelebrationDurban" xml:space="preserve">
+    <value>African movie festival in Durban</value>
+    <comment>Tooltip text for Durban</comment>
+  </data>
+  <data name="CelebrationEaster" xml:space="preserve">
+    <value>Christians all over the world are celebrating Easter</value>
+    <comment>Tooltip text for Easter</comment>
+  </data>
+  <data name="CelebrationHajj" xml:space="preserve">
+    <value>Muslims pilgrim to Mecca: Hajj</value>
+    <comment>Tooltip for Hajj</comment>
+  </data>
+  <data name="CelebrationNewYear" xml:space="preserve">
+    <value>People all over the world are celebrating new year.</value>
+    <comment>Tooltip text for western new year</comment>
+  </data>
+  <data name="CelebrationNobelPrize" xml:space="preserve">
+    <value>Nobel: Prize for Medicine, Chemistry, Physics, Economy, Peace and Literature</value>
+    <comment>Tooltip text for Nobel prize</comment>
+  </data>
+  <data name="CelebrationOlympics" xml:space="preserve">
+    <value>Olympic summer games</value>
+    <comment>Tooltip text for Olympic summer games</comment>
+  </data>
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
+    <value>Orthodox Christians are celebrating Christmas</value>
+    <comment>Tooltip text for Orthodox Christmas</comment>
+  </data>
+  <data name="CelebrationOscar" xml:space="preserve">
+    <value>Oscar: Film Academy awards</value>
+    <comment>Tooltip text for Oscar</comment>
+  </data>
+  <data name="CelebrationPeaceDay" xml:space="preserve">
+    <value>World Peace Day</value>
+    <comment>Tooltip text for world peace day</comment>
+  </data>
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
+    <value>Day of philosophy</value>
+    <comment>Tooltip text for philosophy day</comment>
+  </data>
+  <data name="CelebrationPsychology" xml:space="preserve">
+    <value>Day of psychology</value>
+    <comment>Tooltip text for psychology day</comment>
+  </data>
+  <data name="CelebrationRamadan" xml:space="preserve">
+    <value>Muslims all over the world are participating in Ramadan</value>
+    <comment>Tooltip text for Ramadan</comment>
+  </data>
+  <data name="CelebrationReadingDay" xml:space="preserve">
+    <value>World reading day</value>
+    <comment>Tooltip text for day of reading</comment>
+  </data>
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
+    <value>Rosh Hashanah: Israeli new year</value>
+    <comment>Tooltip text for Rosh Hashanah</comment>
+  </data>
+  <data name="CelebrationSavingsDay" xml:space="preserve">
+    <value>World Savings Day</value>
+    <comment>Tooltip text for world savings day</comment>
+  </data>
+  <data name="CelebrationScienceDay" xml:space="preserve">
+    <value>World Science Day</value>
+    <comment>Tooltip text for World Science Day</comment>
+  </data>
+  <data name="CelebrationsHelloween" xml:space="preserve">
+    <value>Halloween</value>
+    <comment>Tooltip for Halloween</comment>
+  </data>
+  <data name="CelebrationSoccer" xml:space="preserve">
+    <value>Soccer championship</value>
+    <comment>Tooltip text for soccer</comment>
+  </data>
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
+    <value>Olympic winter games</value>
+    <comment>Tooltip text for Olympic winter games</comment>
+  </data>
+  <data name="CelebrationTimkat" xml:space="preserve">
+    <value>Timkat: Ethiopian Christians commemorating the Baptism of Jesus</value>
+    <comment>Tooltip text for Timkat</comment>
+  </data>
+  <data name="CelebrationValentine" xml:space="preserve">
+    <value>Valentine day</value>
+    <comment>Tooltip text for the valentine day</comment>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error!</value>
   </data>
@@ -142,7 +254,7 @@
     <value>Exercise {0} - {1}</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Following meanings were missing: {0}</value>
+    <value>Following meanings were missing:</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Following entered meanings were wrong: </value>

@@ -23,6 +23,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Windows.Forms;
+using VokabelTrainer.Properties;
 
 
 namespace VokabelTrainer
@@ -482,22 +483,36 @@ namespace VokabelTrainer
             // Variations of main header, depending on dates, let's start with Easter, other will follow
             DateTime dtmNow = DateTime.Now;
             string strStartPath = "Images" + Path.DirectorySeparatorChar;
+
+            // currently running events, if any
+            List<(string Header, string ToolTip, string Url)> oEvents = 
+                new List<(string Header, string ToolTip, string Url)>(3);
+
             if (dtmNow >= GetEasterStart() && dtmNow < GetEasterEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "EasterHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "EasterHeader.jpg",
+                    Resources.CelebrationEaster,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationEaster)));
             }
 
             // Christmas
             if (dtmNow >= GetChristmasStart() && dtmNow < GetChristmasEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ChristmasHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ChristmasHeader.jpg",
+                    Resources.CelebrationChristmas,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationChristmas)));
             }
 
             // New year
             if (dtmNow >= GetNewYearStart() || dtmNow < GetNewYearEnd())
             {
+                oEvents.Add((
+                    strStartPath + "NewYearHeader.jpg",
+                    Resources.CelebrationNewYear,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationNewYear)));
+
                 if (ReadyToUseImageInjection(strStartPath + "NewYearHeader.jpg"))
                     return;
             }
@@ -505,158 +520,207 @@ namespace VokabelTrainer
             // Ramadan
             if (dtmNow >= GetRamadanStart() && dtmNow < GetRamadanEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "RamadanHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "RamadanHeader.jpg",
+                    Resources.CelebrationRamadan,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationRamadan)));
             }
 
 
             // Diwali (Hindu light celebration for truth winning over lies)
             if (dtmNow >= GetDiwaliStart() && dtmNow < GetDiwaliEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "DiwaliHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "DiwaliHeader.jpg",
+                    Resources.CelebrationDiwali,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationDiwali)));
+
             }
 
             // Chinese new year
             if (dtmNow >= GetChineseNewYearStart() && dtmNow < GetChineseNewYearEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ChineseNewYearHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ChineseNewYearHeader.jpg",
+                    Resources.CelebrationChineseNewYear,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationChineseNewYear)));
             }
 
             // Orthodox Christmas
             if (dtmNow >= GetOrthodoxChristmasStart() && dtmNow < GetOrthodoxChristmasEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "OrthodoxChristmasHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "OrthodoxChristmasHeader.jpg",
+                    Resources.CelebrationOrthodoxChristmas,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationOrthodoxChristmas)));
             }
 
 
             // Muslim Hajj pilgrimage
             if (dtmNow >= GetHajjStart() && dtmNow < GetHajjEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "HajjHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "HajjHeader.jpg",
+                    Resources.CelebrationHajj,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationHajj)));
             }
 
 
             // Rosh Hashanah (Israeli new year) 
             if (dtmNow >= GetRoshHashanahStart() && dtmNow < GetRoshHashanahEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "RoshHashanahHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "RoshHashanahHeader.jpg",
+                    Resources.CelebrationRoshHashanah,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationRoshHashanah)));
             }
 
             // Halloween 
             if (dtmNow >= GetHalloweenStart() && dtmNow < GetHalloweenEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "HalloweenHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "HelloweenHeader.jpg",
+                    Resources.CelebrationsHelloween,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationChristmas)));
             }
 
             // Japanese children celebration and Korean Buddha birthday celebration 
             if (dtmNow >= GetChildrenAndBuddhaStart() && dtmNow < GetChildrenAndBuddhaEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ChildrenAndBuddhaHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ChildrenAndBuddhaHeader.jpg",
+                    Resources.CelebrationChildrenAndBuddha,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationChildrenAndBuddha)));
             }
 
             // Day of Science
             if (dtmNow >= GetScienceStart() && dtmNow < GetScienceEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ScienceDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ScienceDayHeader.jpg",
+                    Resources.CelebrationScienceDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationScienceDay)));
             }
 
             // Philosophy day
             if (dtmNow >= GetPhilosophyStart() && dtmNow < GetPhilosophyEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "PhilosophyDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "PhilosophyDayHeader.jpg",
+                    Resources.CelebrationPhilosophyDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationPhilosophyDay)));
             }
 
             // Psychology day
             if (dtmNow >= GetPsychologyStart() && dtmNow < GetPsychologyEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "PsychologyDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "PsychologyDayHeader.jpg",
+                    Resources.CelebrationPsychology,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationPsychology)));
             }
 
             // Reading day
             if (dtmNow >= GetReadingDayStart() && dtmNow < GetReadingDayEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ReadingDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ReadingDayHeader.jpg",
+                    Resources.CelebrationReadingDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationReadingDay)));
             }
 
             // Valentine day
             if (dtmNow >= GetValentineStart() && dtmNow < GetValentineEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "ValentineHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "ValentineHeader.jpg",
+                    Resources.CelebrationValentine,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationValentine)));
             }
 
             // World Savings Day
             if (dtmNow >= GetWorldSavingsDayStart() && dtmNow < GetWorldSavingsDayEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "WorldSavingsDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "WorldSavingsDayHeader.jpg",
+                    Resources.CelebrationSavingsDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationSavingsDay)));
             }
 
             // World Peace Day
             if (dtmNow >= GetWorldPeaceDayStart() && dtmNow < GetWorldPeaceDayEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "WorldPeaceDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "WorldPeaceDayHeader.jpg",
+                    Resources.CelebrationPeaceDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationPeaceDay)));
             }
 
             // World Dancing Day
             if (dtmNow >= GetWorldDancingDayStart() && dtmNow < GetWorldDancingDayEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "WorldDancingDayHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "WorldDancingDayHeader.jpg",
+                    Resources.CelebrationDancingDay,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationDancingDay)));
             }
 
 
             // Olymbic summer games
             if (dtmNow >= GetOlympicSummerStart() && dtmNow < GetOlympicSummerEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "OlympicGamesHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "OlympicGamesHeader.jpg",
+                    Resources.CelebrationOlympics,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationOlympics)));
             }
 
             // Olymbic winter games
             if (dtmNow >= GetOlympicWinterStart() && dtmNow < GetOlympicWinterEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "OlympicWinterGamesHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "OlympicWinterGamesHeader.jpg",
+                    Resources.CelebrationsWinterOlympics,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationsWinterOlympics)));
             }
 
             // Olymbic winter games
             if (dtmNow >= GetSoccerStart() && dtmNow < GetSoccerEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "SoccerHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "SoccerHeader.jpg",
+                    Resources.CelebrationSoccer,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationSoccer)));
             }
 
             // Olymbic winter games
             if (dtmNow >= GetSoccerChampionsStart() && dtmNow < GetSoccerChampionsEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "SoccerHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "SoccerHeader.jpg",
+                    Resources.CelebrationSoccer,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationSoccer)));
             }
 
 
             // Nobel Prize
             if (dtmNow >= GetNobelPrizeStart() && dtmNow < GetNobelPrizeEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "NobelPrizeHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "NobelPrizeHeader.jpg",
+                    Resources.CelebrationNobelPrize,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationNobelPrize)));
+
             }
 
             // Oscar - Header
             if (dtmNow >= GetOscarStart() && dtmNow < GetOscarEnd())
             {
+                oEvents.Add((
+                    strStartPath + "MovieFestivalHeader.jpg",
+                    Resources.CelebrationOscar,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationOscar)));
+
                 if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
                     return;
             }
@@ -664,49 +728,101 @@ namespace VokabelTrainer
             // Cannes - Header
             if (dtmNow >= GetCannesStart() && dtmNow < GetCannesEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "MovieFestivalHeader.jpg",
+                    Resources.CelebrationCannes,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationCannes)));
             }
 
             // Berlinale - Header
             if (dtmNow >= GetBerlinaleStart() && dtmNow < GetBerlinaleEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "MovieFestivalHeader.jpg",
+                    Resources.CelebrationBerlinale,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationBerlinale)));
             }
 
             // Durban - Header
             if (dtmNow >= GetDurbanStart() && dtmNow < GetDurbanEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "MovieFestivalHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "MovieFestivalHeader.jpg",
+                    Resources.CelebrationDurban,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationDurban)));
             }
 
             // Timkat - Header
             if (dtmNow >= GetTimkatStart() && dtmNow < GetTimkatEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "TimkatHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "TimkatHeader.jpg",
+                    Resources.CelebrationTimkat,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationTimkat)));
             }
 
             // Grad Prix de la Chanson - ESC - Header
             if (dtmNow >= GetEscStart() && dtmNow < GetEscEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "EscHeader.jpg"))
-                    return;
+                oEvents.Add((
+                    strStartPath + "EscHeader.jpg",
+                    Resources.CelebrationEsc,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationEsc)));
             }
 
 
             // Festima - Header (African Masks)
             if (dtmNow >= GetFestimaStart() && dtmNow < GetFestimaEnd())
             {
-                if (ReadyToUseImageInjection(strStartPath + "FestimaHeader.jpg"))
+                oEvents.Add((
+                    strStartPath + "FestimaHeader.jpg",
+                    "FESTIMA Masks",
+                    SearchEngineRouter.GetSearchUrl("FESTIMA")));
+            }
+
+            // Choose one of the events randomly
+            Random oRandom = new Random(DateTime.Now.DayOfYear * 1000 + 
+                DateTime.Now.Year * 365000 + DateTime.Now.Millisecond);
+            while (oEvents.Count > 0)
+            {
+                int nEvent = oRandom.Next(oEvents.Count);
+                var oEvent = oEvents[nEvent];
+                if (ReadyToUseImageInjection(oEvent.Header))
+                {
+                    // got header, then init the tooltip and the click event handler
+                    m_oToolTip = new ToolTip();
+                    m_oToolTip.SetToolTip(m_ctlPictureBox, oEvent.ToolTip);
+                    m_strUrlForImage = oEvent.Url;
+                    m_ctlPictureBox.Click += OnPictureBox_Click;
+
+                    // we alreade have a header, so get out of the function
                     return;
+                } else
+                {
+                    // Couldn't load header? - remove from list and try another one
+                    oEvents.RemoveAt(nEvent);
+                }
+
             }
 
 
             // If there is no special header, then use default
             ReadyToUseImageInjection(strStartPath + "VokabelTrainerMainHeader.jpg");
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when picture box is clicked
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void OnPictureBox_Click(object oSender, EventArgs oArgs)
+        {
+            if (!string.IsNullOrEmpty(m_strUrlForImage))
+            {
+                System.Diagnostics.Process.Start(m_strUrlForImage);
+            }
         }
 
         //===================================================================================================
@@ -3630,6 +3746,16 @@ namespace VokabelTrainer
         /// A dictionary with positions of other elements
         /// </summary>
         private Dictionary<Control, int> m_oOriginalPositions;
+        //===================================================================================================
+        /// <summary>
+        /// Tooltip for celebrations
+        /// </summary>
+        private ToolTip m_oToolTip;
+        //===================================================================================================
+        /// <summary>
+        /// Url to call when image is clicked
+        /// </summary>
+        private string m_strUrlForImage;
 
         //===================================================================================================
         /// <summary>

@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Bandhig faneedka</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Bandhiga Filimada ee Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Dabaaldegga dhalashada carruurta iyo Buddha ee Japan iyo Kuuriya</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Dabaaldegga sanadka cusub ee Shiinaha</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Masiixiyiinta adduunka oo dhan ayaa u dabaaldegaya Christmas-ka</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Maalinta qoob ka ciyaarka</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Dabaaldegga iftiinka Hinduuga ee runta ka guulaysta beenta</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Bandhiga filimada Afrika ee Durban</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Masiixiyiinta adduunka oo dhan ayaa u dabaaldegaya Easter</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Muslimiintii u xajaysay Maka: Xajka</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Dadka adduunka oo dhan ayaa u dabaaldegaya sanadka cusub.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobel: Abaalmarinta Caafimaadka, Kiimikada, Fiisigiska, Dhaqaalaha, Nabadda iyo Suugaanta</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Ciyaaraha Olombikada xagaaga</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Masiixiyiinta Ortodokska waxay u dabaaldegayaan Christmas-ka</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Abaalmarinta Film Academy</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Maalinta Nabadda Adduunka</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Maalinta falsafada</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Maalinta cilmi-nafsiga</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Muslimiinta caalamka oo dhan ayaa ka qeyb galaya bisha Ramadaan</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Maalinta akhriska aduunka</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: sanadka cusub ee Israa'iil</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Maalinta Kaydka Adduunka</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Maalinta Sayniska Adduunka</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Horyaalka kubada cagta</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Ciyaaraha jiilaalka ee Olombikada</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Masiixiyiinta Itoobiya oo xusaya baabtiiskii Ciise</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Maalinta Jacaylka </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Qalad!</value>
   </data>

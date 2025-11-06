@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Filmový festival</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Filmový festival v Cannes</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Oslavy narodenín detí a Budhu v Japonsku a Kórei</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Oslavy čínskeho Nového roka</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Kresťania na celom svete oslavujú Vianoce</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Deň tanca</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Oslava hinduistických svetiel za víťazstvo pravdy nad lžami</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Africký filmový festival v Durbane</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Kresťania na celom svete oslavujú Veľkú noc</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Moslimovia pútia do Mekky: Hadždž</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Ľudia na celom svete oslavujú nový rok.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Nobelova cena: Cena za medicínu, chémiu, fyziku, ekonomiku, mier a literatúru</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Letné olympijské hry</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Ortodoxní kresťania oslavujú Vianoce</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Oscar: Ceny filmovej akadémie</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Svetový deň mieru</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Deň filozofie</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Deň psychológie</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Moslimovia na celom svete oslavujú Ramadán</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Svetový deň čítania</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Roš hašana: Izraelský nový rok</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Svetový deň úspor</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Svetový deň vedy</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Halloween</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Majstrovstvá vo futbale</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Zimné olympijské hry</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Timkat: Etiópski kresťania si pripomínajú Ježišov krst</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Valentín </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Omyl!</value>
   </data>

@@ -112,11 +112,96 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationBerlinale">
+    <value>Berlinale: Φεστιβάλ Κινηματογράφου</value>
+  </data>
+  <data name="CelebrationCannes">
+    <value>Φεστιβάλ Κινηματογράφου στις Κάννες</value>
+  </data>
+  <data name="CelebrationChildrenAndBuddha">
+    <value>Εορτασμοί για τα παιδιά και τα γενέθλια του Βούδα στην Ιαπωνία και την Κορέα</value>
+  </data>
+  <data name="CelebrationChineseNewYear">
+    <value>Εορτασμοί για την κινεζική πρωτοχρονιά</value>
+  </data>
+  <data name="CelebrationChristmas">
+    <value>Χριστιανοί σε όλο τον κόσμο γιορτάζουν τα Χριστούγεννα</value>
+  </data>
+  <data name="CelebrationDancingDay">
+    <value>Ημέρα χορού</value>
+  </data>
+  <data name="CelebrationDiwali">
+    <value>Εορτασμός Ινδουιστικού φωτός για τη νίκη της αλήθειας επί των ψεμάτων</value>
+  </data>
+  <data name="CelebrationDurban">
+    <value>Φεστιβάλ αφρικανικού κινηματογράφου στο Ντέρμπαν</value>
+  </data>
+  <data name="CelebrationEaster">
+    <value>Χριστιανοί σε όλο τον κόσμο γιορτάζουν το Πάσχα</value>
+  </data>
+  <data name="CelebrationHajj">
+    <value>Μουσουλμάνοι προσκυνητές στη Μέκκα: Χατζ</value>
+  </data>
+  <data name="CelebrationNewYear">
+    <value>Άνθρωποι σε όλο τον κόσμο γιορτάζουν την πρωτοχρονιά.</value>
+  </data>
+  <data name="CelebrationNobelPrize">
+    <value>Νόμπελ: Βραβείο Ιατρικής, Χημείας, Φυσικής, Οικονομίας, Ειρήνης και Λογοτεχνίας</value>
+  </data>
+  <data name="CelebrationOlympics">
+    <value>Ολυμπιακοί αγώνες</value>
+  </data>
+  <data name="CelebrationOrthodoxChristmas">
+    <value>Οι Ορθόδοξοι Χριστιανοί γιορτάζουν τα Χριστούγεννα</value>
+  </data>
+  <data name="CelebrationOscar">
+    <value>Όσκαρ: Βραβεία της Ακαδημίας Κινηματογράφου</value>
+  </data>
+  <data name="CelebrationPeaceDay">
+    <value>Παγκόσμια Ημέρα Ειρήνης</value>
+  </data>
+  <data name="CelebrationPhilosophyDay">
+    <value>Ημέρα φιλοσοφίας</value>
+  </data>
+  <data name="CelebrationPsychology">
+    <value>Ημέρα ψυχολογίας</value>
+  </data>
+  <data name="CelebrationRamadan">
+    <value>Μουσουλμάνοι σε όλο τον κόσμο συμμετέχουν στο Ραμαζάνι</value>
+  </data>
+  <data name="CelebrationReadingDay">
+    <value>Παγκόσμια ημέρα ανάγνωσης</value>
+  </data>
+  <data name="CelebrationRoshHashanah">
+    <value>Ρος Χασανά: Ισραηλινή πρωτοχρονιά</value>
+  </data>
+  <data name="CelebrationSavingsDay">
+    <value>Παγκόσμια Ημέρα Αποταμίευσης</value>
+  </data>
+  <data name="CelebrationScienceDay">
+    <value>Παγκόσμια Ημέρα Επιστήμης</value>
+  </data>
+  <data name="CelebrationsHelloween">
+    <value>Απόκριες</value>
+  </data>
+  <data name="CelebrationSoccer">
+    <value>Πρωτάθλημα ποδοσφαίρου</value>
+  </data>
+  <data name="CelebrationsWinterOlympics">
+    <value>Χειμερινοί Ολυμπιακοί αγώνες</value>
+  </data>
+  <data name="CelebrationTimkat">
+    <value>Τιμκάτ: Αιθίοπες Χριστιανοί τιμούν τη Βάπτιση του Ιησού</value>
+  </data>
+  <data name="CelebrationValentine">
+    <value>Ημέρα του Αγίου Βαλεντίνου </value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Σφάλμα!</value>
   </data>
@@ -138,8 +223,11 @@
   <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Παρουσιάστηκε σφάλμα κατά την αποθήκευση του αρχείου λεξιλογίου: {0}</value>
   </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>{0} - {1} εξάσκηση</value>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
-    <value>Έλειπαν οι ακόλουθες έννοιες: {0}</value>
+    <value>Έλειπαν οι ακόλουθες έννοιες:</value>
   </data>
   <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Οι ακόλουθες έννοιες που εισήχθησαν ήταν λάθος: </value>
@@ -153,6 +241,9 @@
   <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Έλειπαν οι ακόλουθες έννοιες:  </value>
   </data>
+  <data name="Intensive" xml:space="preserve">
+    <value>{0} - {1} εντατική</value>
+  </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Αντικατάσταση αρχείου;</value>
   </data>
@@ -162,13 +253,7 @@
   <data name="Mistake" xml:space="preserve">
     <value>Λάθος! </value>
   </data>
-  <data xml:space="preserve" name="Exercise">
-    <value>{0} - {1} εξάσκηση</value>
-  </data>
-  <data xml:space="preserve" name="Intensive">
-    <value>{0} - {1} εντατική</value>
-  </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} πιο έντονες </value>
   </data>
 </root>
