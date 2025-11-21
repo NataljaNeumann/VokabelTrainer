@@ -4377,7 +4377,7 @@ namespace VokabelTrainer
                 dtmTestedDate = DateTime.Now;
             }
 
-            return new DateTime(dtmTestedDate.Value.Year, 11, 17);
+            return GetPhilosophyEnd(dtmTestedDate).AddDays(-5);
         }
 
         //===================================================================================================
@@ -4393,6 +4393,21 @@ namespace VokabelTrainer
                 dtmTestedDate = DateTime.Now;
             }
 
+            int nThursdayCount = 0;
+            for (int nDay = 1; nDay<=30; ++nDay)
+            {
+                DateTime dtmNovemberDay = new DateTime(dtmTestedDate.Value.Year, 11, nDay);
+                if (dtmNovemberDay.DayOfWeek == DayOfWeek.Thursday)
+                {
+                    ++nThursdayCount;
+                    if (nThursdayCount == 3)
+                    {
+                        return dtmNovemberDay.AddDays(1);
+                    }
+                }
+            }
+
+            // should never be reached, but c# compiler doesn't recognize it.
             return new DateTime(dtmTestedDate.Value.Year, 11, 21);
         }
 
