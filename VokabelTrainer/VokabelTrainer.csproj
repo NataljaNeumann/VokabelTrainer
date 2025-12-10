@@ -2283,7 +2283,7 @@
     <Content Include="Images\HajjHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\HelloweenHeader.jpg">
+    <Content Include="Images\HalloweenHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\MovieFestivalHeader.jpg">
@@ -2406,5 +2406,3 @@
 )</PostBuildEvent>
   </PropertyGroup>
 </Project>
-
-

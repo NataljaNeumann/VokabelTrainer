@@ -209,7 +209,7 @@
     <value>World Science Day</value>
     <comment>Tooltip text for World Science Day</comment>
   </data>
-  <data name="CelebrationsHelloween" xml:space="preserve">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Halloween</value>
     <comment>Tooltip for Halloween</comment>
   </data>

@@ -279,9 +279,9 @@ namespace VokabelTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Halloween.
         /// </summary>
-        internal static string CelebrationsHelloween {
+        internal static string CelebrationsHalloween {
             get {
-                return ResourceManager.GetString("CelebrationsHelloween", resourceCulture);
+                return ResourceManager.GetString("CelebrationsHalloween", resourceCulture);
             }
         }
         

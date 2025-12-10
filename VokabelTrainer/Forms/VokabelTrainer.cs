@@ -579,8 +579,8 @@ namespace VokabelTrainer
             if (dtmNow >= GetHalloweenStart() && dtmNow < GetHalloweenEnd())
             {
                 oEvents.Add((
-                    strStartPath + "HelloweenHeader.jpg",
-                    Resources.CelebrationsHelloween,
+                    strStartPath + "HalloweenHeader.jpg",
+                    Resources.CelebrationsHalloween,
                     SearchEngineRouter.GetSearchUrl(Resources.CelebrationChristmas)));
             }
 
