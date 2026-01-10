@@ -1,7 +1,7 @@
-VokabelTrainer/obj/**
-VokabelTrainer/bin/Release/**
-VokabelTrainer/bin/Debug/**
-VokabelTrainer/bin/*.zip
+*/obj/**
+*/bin/Release/**
+*/bin/Debug/**
+*/bin/*.zip
 **/.vs/**
 Backup/**
 *.csv
