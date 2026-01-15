@@ -117,7 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationBerlinale" xml:space="preserve">
     <value>เบอร์ลินาเล: เทศกาลภาพยนตร์</value>
   </data>
@@ -144,6 +143,10 @@
   </data>
   <data name="CelebrationEaster" xml:space="preserve">
     <value>ชาวคริสต์ทั่วโลกร่วมเฉลิมฉลองเทศกาลอีสเตอร์</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>ชาวมุสลิมแสวงบุญที่นครเมกกะ: พิธีฮัจญ์</value>
@@ -226,6 +229,12 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} รถไฟ</value>
   </data>
+  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>ความหมายต่อไปนี้หายไป: </value>
   </data>
@@ -255,5 +264,11 @@
   </data>
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} รุนแรงที่สุด </value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
 </root>

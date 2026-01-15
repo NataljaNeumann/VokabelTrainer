@@ -142,7 +142,7 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Song Contest in Europe.
+        ///   Looks up a localized string similar to Music festival in Europe.
         /// </summary>
         internal static string CelebrationEsc {
             get {
@@ -394,6 +394,24 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pair of words and the improvement..
+        /// </summary>
+        internal static string ExperimentalThanks {
+            get {
+                return ResourceManager.GetString("ExperimentalThanks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For this language pair there is an experimental vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults, however it hasn&apos;t been proofread by native speakers. Would you try it out?.
+        /// </summary>
+        internal static string ExperimentalVocabularyBook {
+            get {
+                return ResourceManager.GetString("ExperimentalVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Following meanings were missing:.
         /// </summary>
         internal static string FollowingMeaningsWereMissing {
@@ -489,6 +507,24 @@ namespace VokabelTrainer.Properties {
         internal static string MostIntensive {
             get {
                 return ResourceManager.GetString("MostIntensive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New words.
+        /// </summary>
+        internal static string NewVocabularyInCourseHeader {
+            get {
+                return ResourceManager.GetString("NewVocabularyInCourseHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For this language pair there is a vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults. Would you try it out?.
+        /// </summary>
+        internal static string PredefinedVocabularyBook {
+            get {
+                return ResourceManager.GetString("PredefinedVocabularyBook", resourceCulture);
             }
         }
     }

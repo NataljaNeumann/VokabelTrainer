@@ -176,7 +176,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_lblShowLicense, "m_lblShowLicense");
             this.m_lblShowLicense.Name = "m_lblShowLicense";
             this.m_lblShowLicense.TabStop = true;
-            this.m_lblShowLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblShowLicence_LinkClicked);
+            this.m_lblShowLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnShowLicence_LinkClicked);
             // 
             // m_lblShowAbout
             // 
@@ -185,7 +185,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_lblShowAbout, "m_lblShowAbout");
             this.m_lblShowAbout.Name = "m_lblShowAbout";
             this.m_lblShowAbout.TabStop = true;
-            this.m_lblShowAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblShowAbout_LinkClicked);
+            this.m_lblShowAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnShowAbout_LinkClicked);
             // 
             // m_btnShowDesktopKeyboard
             // 
@@ -195,7 +195,7 @@ namespace VokabelTrainer
             this.m_btnShowDesktopKeyboard.BackgroundImage = null;
             this.m_btnShowDesktopKeyboard.Name = "m_btnShowDesktopKeyboard";
             this.m_btnShowDesktopKeyboard.UseVisualStyleBackColor = true;
-            this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.m_btnShowDesktopKeyboard_Click);
+            this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.OnShowDesktopKeyboard_Click);
             // 
             // m_lblReader
             // 
@@ -227,7 +227,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_lblDownloadESpeak, "m_lblDownloadESpeak");
             this.m_lblDownloadESpeak.Name = "m_lblDownloadESpeak";
             this.m_lblDownloadESpeak.TabStop = true;
-            this.m_lblDownloadESpeak.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.m_lblDownloadESpeak_LinkClicked);
+            this.m_lblDownloadESpeak.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnDownloadESpeak_LinkClicked);
             // 
             // m_chkUseESpeak
             // 
@@ -237,7 +237,7 @@ namespace VokabelTrainer
             this.m_chkUseESpeak.BackgroundImage = null;
             this.m_chkUseESpeak.Name = "m_chkUseESpeak";
             this.m_chkUseESpeak.UseVisualStyleBackColor = true;
-            this.m_chkUseESpeak.CheckedChanged += new System.EventHandler(this.m_chkUseESpeak_CheckedChanged);
+            this.m_chkUseESpeak.CheckedChanged += new System.EventHandler(this.OnUseESpeak_CheckedChanged);
             // 
             // m_tbxESpeakPath
             // 
@@ -256,7 +256,7 @@ namespace VokabelTrainer
             this.m_btnSearchESpeak.Font = null;
             this.m_btnSearchESpeak.Name = "m_btnSearchESpeak";
             this.m_btnSearchESpeak.UseVisualStyleBackColor = true;
-            this.m_btnSearchESpeak.Click += new System.EventHandler(this.m_btnSearchESpeak_Click);
+            this.m_btnSearchESpeak.Click += new System.EventHandler(this.OnSearchESpeak_Click);
             // 
             // m_lblDontLearnAquire
             // 

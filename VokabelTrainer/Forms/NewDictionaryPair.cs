@@ -107,7 +107,10 @@ namespace VokabelTrainer
             InitializeComponent();
             m_lblFirstLanguage.Text = strFirstLanguage + ":";
             m_lblSecondLanguage.Text = strSecondLanguage + ":";
-            ReadyToUseImageInjection("Images\\NewDictionaryPairHeader.jpg");
+
+            ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar + 
+                "NewDictionaryPairHeader.jpg");
+
             m_bUseESpeak = bUseESpeak;
             m_strEspeakPath = strEspeakPath;
 

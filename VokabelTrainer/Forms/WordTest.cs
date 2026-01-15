@@ -34,11 +34,18 @@ namespace VokabelTrainer
         /// <summary>
         /// Constructs a new word test object
         /// </summary>
+        /// <param name="bCourse">Indicates, if the vocabulary book is a course</param>
         //===================================================================================================
-        public WordTest()
+        public WordTest(bool bCourse)
         {
             InitializeComponent();
-            ReadyToUseImageInjection("Images\\WordTestHeader.jpg");
+            ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar + 
+                "WordTestHeader.jpg");
+
+            if (bCourse)
+            {
+                AddMoreButton();
+            }
         }
 
 
@@ -52,6 +59,10 @@ namespace VokabelTrainer
         private void textBox1_TextChanged(object oSender, EventArgs oEventArgs)
         {
             m_btnNext.Enabled = m_btnLast.Enabled = m_tbxAskedTranslation.Text.Length > 0;
+            if (m_btnMore != null)
+            {
+                m_btnMore.Enabled = m_btnNext.Enabled;
+            }
         }
 
 
@@ -134,6 +145,11 @@ namespace VokabelTrainer
         /// A dictionary with positions of other elements
         /// </summary>
         private Dictionary<Control, int> m_oOriginalPositions;
+        //===================================================================================================
+        /// <summary>
+        /// The '+' button
+        /// </summary>
+        private Button m_btnMore;
 
         //===================================================================================================
         /// <summary>
@@ -232,5 +248,56 @@ namespace VokabelTrainer
         }
         #endregion
 
+
+        //===================================================================================================
+        /// <summary>
+        /// Adds '+' button for continuation of the course
+        /// </summary>
+        //===================================================================================================
+        private void AddMoreButton()
+        {
+            // Assume m_btnNext and m_btnLast are already defined and added to Controls
+            if (m_btnNext == null || m_btnLast == null)
+                return;
+
+            m_btnMore = new Button();
+            m_btnMore.Name = "m_btnMore";
+            m_btnMore.Text = "+";
+            m_btnMore.Height = m_btnNext.Height;
+            m_btnMore.Width = m_btnNext.Width;
+
+
+            if (this.RightToLeft == RightToLeft.No)
+            {
+                // Left-to-right: place m_btnMore left of m_btnNext
+                m_btnMore.Top = m_btnNext.Top;
+                int spacing = Math.Abs(m_btnNext.Right - m_btnLast.Left);
+                m_btnMore.Left = m_btnNext.Left - spacing - m_btnMore.Width;
+            }
+            else
+            {
+                // Right-to-left: place m_btnMore right of m_btnNext
+                m_btnMore.Top = m_btnNext.Top;
+                int spacing = Math.Abs(m_btnLast.Right - m_btnNext.Left);
+                m_btnMore.Left = m_btnNext.Right + spacing;
+            }
+
+            m_btnMore.Anchor = m_btnNext.Anchor;
+            m_btnMore.Click += On_More_Click;
+            Controls.Add(m_btnMore);
+            m_btnMore.BringToFront();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when '+' buttton is clicked
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oArgs">Event args</param>
+        //===================================================================================================
+        private void On_More_Click(object oSender, EventArgs oArgs)
+        {
+            DialogResult = DialogResult.Yes;
+        }
     }
 }

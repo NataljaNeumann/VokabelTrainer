@@ -153,6 +153,10 @@
     <value>Christians all over the world are celebrating Easter</value>
     <comment>Tooltip text for Easter</comment>
   </data>
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Music festival in Europe</value>
+    <comment>Tooltip and search text for ESC</comment>
+  </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslims pilgrim to Mecca: Hajj</value>
     <comment>Tooltip for Hajj</comment>
@@ -253,6 +257,13 @@
   <data name="Exercise" xml:space="preserve">
     <value>Exercise {0} - {1}</value>
   </data>
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pair of words and the improvement.</value>
+  </data>
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>For this language pair there is an experimental vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults, however it hasn't been proofread by native speakers. Would you try it out?</value>
+    <comment>For message box about experimental vocabulary book.</comment>
+  </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Following meanings were missing:</value>
   </data>
@@ -285,5 +296,13 @@
   </data>
   <data name="MostIntensive" xml:space="preserve">
     <value>Most Intensive {0} - {1}</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>New words</value>
+    <comment>Header for new vocabulary in course dialog</comment>
+  </data>
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>For this language pair there is a vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults. Would you try it out?</value>
+    <comment>For message box about predefined vocabulary book.</comment>
   </data>
 </root>

@@ -23,6 +23,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Windows.Forms;
+using VokabelTrainer.Forms;
 using VokabelTrainer.Properties;
 
 
@@ -35,6 +36,18 @@ namespace VokabelTrainer
     //*******************************************************************************************************
     public partial class VokabelTrainer : Form
     {
+        //===================================================================================================
+        /// <summary>
+        /// Mode of the vocabulary book. 
+        /// "normal" is user-filled, no units/steps
+        /// "kontinuierlich" means the vocabulary will be included automatically
+        /// </summary>
+        string m_strMode;
+        //===================================================================================================
+        /// <summary>
+        /// The current level for the continuous training mode 
+        /// </summary>
+        int m_nStep;
         //===================================================================================================
         /// <summary>
         /// First language of the vocabulary dictionary
@@ -85,7 +98,7 @@ namespace VokabelTrainer
         /// <summary>
         /// Holds training results of the second language. 1 for correct 0 for error. 
         /// </summary>
-        SortedDictionary<string, string> m_oTtrainingResultsSecondLanguage;
+        SortedDictionary<string, string> m_oTrainingResultsSecondLanguage;
         //===================================================================================================
         /// <summary>
         /// Holds count of correct answers for the first language
@@ -833,7 +846,7 @@ namespace VokabelTrainer
         public void EnableDisableButtons()
         {
             m_btnNewLanguageFile.Enabled = true;
-            m_btnEnterVocabulary.Enabled = (m_strCurrentPath != null) && m_bModifiable;
+            m_btnEnterVocabulary.Enabled = ((m_strCurrentPath != null) && m_bModifiable)&&(!"kontinuierlich".Equals(m_strMode));
             m_btnExerciseSecondToFirst.Enabled = (m_strCurrentPath != null) && m_oFirstToSecond.Count > 0;
             m_btnExerciseFirstToSecond.Enabled = (m_strCurrentPath != null) && m_oSecondToFirst.Count > 0;
             if (string.IsNullOrEmpty(m_strFirstLanguage) || string.IsNullOrEmpty(m_strSecondLanguage))
@@ -868,9 +881,9 @@ namespace VokabelTrainer
                 m_btnIntensiveSecondToFirst.Enabled = 
                     m_btnExerciseSecondToFirst.Enabled = m_oTrainingResultsFirstLanguage.Count > 0;
                 m_btnIntensiveFirstToSecond.Enabled = 
-                    m_btnExerciseFirstToSecond.Enabled = m_oTtrainingResultsSecondLanguage.Count > 0;
+                    m_btnExerciseFirstToSecond.Enabled = m_oTrainingResultsSecondLanguage.Count > 0;
                 m_lblReader.Enabled = m_cbxReader.Enabled = 
-                    m_oTrainingResultsFirstLanguage.Count > 0 || m_oTtrainingResultsSecondLanguage.Count > 0;
+                    m_oTrainingResultsFirstLanguage.Count > 0 || m_oTrainingResultsSecondLanguage.Count > 0;
 
 
                 m_btnIntensiveSecondToFirst.Text = 
@@ -912,117 +925,132 @@ namespace VokabelTrainer
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
         private void OnLoadLanguageFileClick(
-            object oSender, 
+            object oSender,
             EventArgs oArgs
             )
         {
-            int nTotalCountCorrectAnswers = 0;
-
-            m_dlgOpenFileDialog.InitialDirectory = 
+            m_dlgOpenFileDialog.InitialDirectory =
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
             if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
                 m_dlgOpenFileDialog.DefaultExt = "Vokabeln.xml";
+
             if (m_dlgOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
-                try
+                m_strCurrentPath = m_dlgOpenFileDialog.FileName;
+                LoadLanguageFile(null);
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Load the file that has been set in m_strCurrentPath
+        /// </summary>
+        //===================================================================================================
+        private void LoadLanguageFile(int? nNeededStep)
+        {
+            int nTotalCountCorrectAnswers = 0;
+            List<KeyValuePair<string, string>> oCurrentStep = new List<KeyValuePair<string, string>>();
+
+            try
+            {
+                m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
+                m_oCurrentVocabularyDoc.Load(m_strCurrentPath);
+
+                m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                m_nTotalNumberOfErrorsFirstLanguage = 0;
+                m_nTotalNumberOfErrorsSecondLanguage = 0;
+                m_nStep = 0;
+                bool bContinuous = false;
+
+                m_strMode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/modus")?.InnerText??null;
+                if (string.IsNullOrWhiteSpace(m_strMode))
                 {
-                    m_strCurrentPath = m_dlgOpenFileDialog.FileName;
-                    m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
-                    m_oCurrentVocabularyDoc.Load(m_strCurrentPath);
+                    m_strMode = "normal";
+                }
+                if ("kontinuierlich".Equals(m_strMode))
+                {
+                    bContinuous = true;
 
-                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
-                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
-                    m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
-                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
-                    m_nTotalNumberOfErrorsFirstLanguage = 0;
-                    m_nTotalNumberOfErrorsSecondLanguage = 0;
-
-                    m_strSecondLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
-                    m_strFirstLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
-                    m_bFirstLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl") != null ?
-                        m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl").InnerText.Equals("ja") : false;
-                    m_bSecondLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl") != null ?
-                        m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl").InnerText.Equals("ja") : false;
-                    m_bModifiable = true;
-                    m_strLicense = "";
-                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/lizenz"))
+                    if (nNeededStep.HasValue)
                     {
-                        m_bIsModifiableFlagForXml = m_bModifiable = 
-                                e.SelectSingleNode("modifikationen").InnerText.Equals("Unter Lizenzbedingungen", 
-                                StringComparison.CurrentCultureIgnoreCase);
-
-                        m_bSavePossible = m_bIsModifiableFlagForXml || 
-                            e.SelectSingleNode("modifikationen").InnerText.Equals(
-                            "Keine neuen Wörter und keine Lizenzänderungen", StringComparison.CurrentCultureIgnoreCase);
-
-                        m_strLicense = e.SelectSingleNode("text").InnerText;
+                        m_nStep = nNeededStep.Value;
                     }
-
-                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/erste-sprache"))
+                    else
                     {
-                        string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                        if (strTrainingProgress.Length > 6)
-                            strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                        else
-                            while (strTrainingProgress.Length < 6)
-                                strTrainingProgress = strTrainingProgress + "1";
-
-                        m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-                        m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length; 
-                        m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-
-                        System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                        if (n != null)
+                        // in continuous mode load the training progress information, just to get the information what is
+                        // the current step
+                        try
                         {
-                            string strCorrectAnswers = n.InnerText;
-                            int nCorrectAnswers = 0;
-                            if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                nCorrectAnswers = 0;
-                            else
-                                if (nCorrectAnswers < 0)
-                                    nCorrectAnswers = 0;
-                            nTotalCountCorrectAnswers += nCorrectAnswers;
-                            m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
-                        } else
-                            m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
-                    }
-
-                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/zweite-sprache"))
-                    {
-                        string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                        if (strTrainingProgress.Length > 6)
-                            strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                        else
-                            while (strTrainingProgress.Length < 6)
-                                strTrainingProgress = strTrainingProgress + "1";
-                        m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-                        m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-                        m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length;
-
-                        System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                        if (n != null)
+                            System.Xml.XmlDocument oTrainingDoc = new System.Xml.XmlDocument();
+                            oTrainingDoc.Load(m_strCurrentPath
+                                .Replace("Vokabeln.xml", "Training.xml")
+                                .Replace("Vocabulary.xml", "Training.xml"));
+                            m_nStep = int.Parse(oTrainingDoc.SelectSingleNode("/training/schritt")?.InnerText ?? "0");
+                        }
+                        catch (Exception oEx)
                         {
-                            string strCorrectAnswers = n.InnerText;
-                            int nCorrectAnswers = 0;
-                            if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                nCorrectAnswers = 0;
-                            else
-                                if (nCorrectAnswers < 0)
-                                    nCorrectAnswers = 0;
-                            nTotalCountCorrectAnswers += nCorrectAnswers;
-                            m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
-                        } else
-                            m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                            // ignore
+                        }
+                    }
+                }
 
+                m_strSecondLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
+                m_strFirstLanguage = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
+                m_bFirstLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl") != null ?
+                    m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/erste-sprache-rtl").InnerText.Equals("ja") : false;
+                m_bSecondLanguageRtl = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl") != null ?
+                    m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/zweite-sprache-rtl").InnerText.Equals("ja") : false;
+                m_bModifiable = true;
+                m_strLicense = "";
+                foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/lizenz"))
+                {
+                    m_bIsModifiableFlagForXml = m_bModifiable = 
+                            e.SelectSingleNode("modifikationen").InnerText.Equals("Unter Lizenzbedingungen", 
+                            StringComparison.CurrentCultureIgnoreCase);
+
+                    m_bSavePossible = m_bIsModifiableFlagForXml || 
+                        e.SelectSingleNode("modifikationen").InnerText.Equals(
+                        "Keine neuen Wörter und keine Lizenzänderungen", StringComparison.CurrentCultureIgnoreCase);
+
+                    m_strLicense = e.SelectSingleNode("text").InnerText;
+                }
+
+                foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/vokabel-paar"))
+                {
+                    bool bContinueLoading = true;
+                    int nStep = -1;
+
+                    if (bContinuous)
+                    {
+                        try
+                        {
+                            string strStep = e.HasAttribute("schritt") ? e.GetAttribute("schritt") : "0";
+                            nStep = int.Parse(strStep);
+
+                            if (nStep > m_nStep)
+                                bContinueLoading = false;
+
+                        } catch (Exception oEx)
+                        {
+                            // ignore
+                        }
                     }
 
-
-                    foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/vokabel-paar"))
+                    if (bContinueLoading)
                     {
                         string strFirstLanguage = e.SelectSingleNode("erste-sprache").InnerText;
                         string strSecondLanguage = e.SelectSingleNode("zweite-sprache").InnerText;
+
+                        if (nNeededStep.HasValue && nNeededStep.Value == nStep)
+                        {
+                            oCurrentStep.Add(new KeyValuePair<string, string>(strFirstLanguage, strSecondLanguage));
+                        }
 
                         if (!m_oTrainingResultsFirstLanguage.ContainsKey(strFirstLanguage))
                         {
@@ -1031,9 +1059,9 @@ namespace VokabelTrainer
                             m_oFirstToSecond[strFirstLanguage] = new SortedDictionary<string, bool>();
                         }
 
-                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(strSecondLanguage))
+                        if (!m_oTrainingResultsSecondLanguage.ContainsKey(strSecondLanguage))
                         {
-                            m_oTtrainingResultsSecondLanguage[strSecondLanguage] = "111110";
+                            m_oTrainingResultsSecondLanguage[strSecondLanguage] = "111110";
                             m_nTotalNumberOfErrorsSecondLanguage += 1;
                             m_oSecondToFirst[strSecondLanguage] = new SortedDictionary<string, bool>();
                         }
@@ -1051,214 +1079,226 @@ namespace VokabelTrainer
                         if (!m_oSecondToFirst[strSecondLanguage].ContainsKey(strFirstLanguage))
                             m_oSecondToFirst[strSecondLanguage][strFirstLanguage] = false;
                     }
-
                 }
-                catch (Exception ex)
+
+            }
+            catch (Exception oEx)
+            {
+                NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingXmlFileHeader, 
+                    string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, oEx.Message));
+
+                m_strCurrentPath = null;
+                m_oCurrentVocabularyDoc = null;
+
+                m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                m_nTotalNumberOfErrorsFirstLanguage = 0;
+                m_nTotalNumberOfErrorsSecondLanguage = 0;
+                m_nStep = 0;
+                m_strMode = "";
+            }
+
+            // continue with loading of training file, after vocabulary has been loaded
+            if (m_strCurrentPath != null)
+            {
+                try
                 {
-                    NewMessageBox.Show(this, ex.Message, Properties.Resources.ErrorLoadingXmlFileHeader, 
-                        string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, ex.Message));
+
+                    string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml", ".Training.xml")
+                        .Replace("Vocabulary.xml", ".Training.xml");
+
+                    System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
+                    if (fi.Exists)
+                    {
+                        System.Xml.XmlDocument oCurrentDoc = new System.Xml.XmlDocument();
+                        oCurrentDoc.Load(strCurrentPath);
+
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
+                        {
+                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+
+                            if (strTrainingProgress.Length > 6)
+                            {
+                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
+                            }
+                            else
+                            {
+                                while (strTrainingProgress.Length < 6)
+                                    strTrainingProgress = strTrainingProgress + "1";
+                            }
+
+                            if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                            {
+                                m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                        - (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                            m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
+
+                                m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+
+                                if (!m_oFirstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                    m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+
+                                System.Xml.XmlNode oCorrectAnswersNode = e.SelectSingleNode("richtige-antworten");
+                                if (oCorrectAnswersNode != null)
+                                {
+                                    string strCorrectAnswers = oCorrectAnswersNode.InnerText;
+                                    int nCorrectAnswers = 0;
+
+                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                    {
+                                        nCorrectAnswers = 0;
+                                    }
+                                    else
+                                    {
+                                        if (nCorrectAnswers < 0)
+                                            nCorrectAnswers = 0;
+                                    }
+
+                                    nTotalCountCorrectAnswers += nCorrectAnswers;
+                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                }
+                                else
+                                    m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                            }
+                        }
+
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zweite-sprache"))
+                        {
+                            string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
+                            if (strTrainingProgress.Length > 6)
+                                strTrainingProgress = strTrainingProgress.Substring(0, 6);
+                            else
+                                while (strTrainingProgress.Length < 6)
+                                    strTrainingProgress = strTrainingProgress + "1";
+
+                            if (m_oTrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                            {
+                                m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
+                                    - (m_oTrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
+                                        m_oTrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
+
+                                m_oTrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
+
+                                if (!m_oSecondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
+                                    m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
+
+                                System.Xml.XmlNode oCorrectAnswersNode = e.SelectSingleNode("richtige-antworten");
+                                if (oCorrectAnswersNode != null)
+                                {
+                                    string strCorrectAnswers = oCorrectAnswersNode.InnerText;
+                                    int nCorrectAnswers = 0;
+
+                                    if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
+                                    {
+                                        nCorrectAnswers = 0;
+                                    }
+                                    else
+                                    {
+                                        if (nCorrectAnswers < 0)
+                                            nCorrectAnswers = 0;
+                                    }
+
+                                    nTotalCountCorrectAnswers += nCorrectAnswers;
+                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
+                                }
+                                else
+                                    m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
+                            }
+                        }
+
+                        m_oTotalGraphData = new SortedDictionary<DateTime, int>();
+                        m_oWordsGraphData = new SortedDictionary<DateTime, int>();
+                        m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
+
+                        DateTime dtmLastStatsDate = DateTime.MinValue;
+
+                        // load the training stats over time
+                        foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zustand"))
+                        {
+                            try
+                            {
+                                DateTime dtmStatsDate = DateTime.ParseExact(e.SelectSingleNode("datum").InnerText,
+                                    "yyyy-MM-dd",
+                                    CultureInfo.InvariantCulture);
+                                int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
+                                int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
+                                int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
+
+                                m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
+                                m_oWordsGraphData[dtmStatsDate] = nNumberWords;
+                                m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
+
+                                if (dtmLastStatsDate < dtmStatsDate)
+                                    dtmLastStatsDate = dtmLastStatsDate;
+                            }
+                            catch
+                            {
+                                // ignore
+                            }
+                        }
+
+                        DateTime dtmStatsDate2 = DateTime.Now.Date;
+                        int nNumberWords2 = m_oFirstToSecond.Keys.Count + m_oSecondToFirst.Keys.Count;
+                        int nNumberErrors2 = m_nTotalNumberOfErrorsFirstLanguage + m_nTotalNumberOfErrorsSecondLanguage;
+
+                        if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
+                        {
+                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+
+                            if (m_oTotalGraphData.Count == 1)
+                            {
+                                m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = nTotalCountCorrectAnswers + nNumberWords2;
+                                m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2;
+                                m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2 - nNumberErrors2;
+                            }
+                        }
+                        else
+                        {
+                            // if same month then remove the old date and put the new stats in last row
+                            m_oTotalGraphData.Remove(dtmLastStatsDate);
+                            m_oWordsGraphData.Remove(dtmLastStatsDate);
+                            m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
+
+
+                            m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
+                            m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
+                            m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
+                        }
+                    }
+                }
+                catch (Exception oEx)
+                {
+                    NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
+                        string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, oEx.Message));
 
                     m_strCurrentPath = null;
                     m_oCurrentVocabularyDoc = null;
 
                     m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
-                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                    m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
                     m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
                     m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
                     m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
                     m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
                     m_nTotalNumberOfErrorsFirstLanguage = 0;
                     m_nTotalNumberOfErrorsSecondLanguage = 0;
+                    m_nStep = 0;
+                    m_strMode = "";
                 }
+            }
 
-                // continue with loading of training file, after vocabulary has been loaded
-                if (m_strCurrentPath != null)
+            if (nNeededStep.HasValue && oCurrentStep!=null && oCurrentStep.Count>0)
+            {
+                using (NewWordsInCourseForm oForm = new NewWordsInCourseForm(
+                    Resources.NewVocabularyInCourseHeader, m_strFirstLanguage, m_strSecondLanguage, oCurrentStep))
                 {
-                    try
-                    {
-
-                        string strCurrentPath = m_strCurrentPath.Replace(".Vokabeln.xml", ".Training.xml")
-                            .Replace("Vocabulary.xml", ".Training.xml");
-
-                        System.IO.FileInfo fi = new System.IO.FileInfo(strCurrentPath);
-                        if (fi.Exists)
-                        {
-                            System.Xml.XmlDocument oCurrentDoc = new System.Xml.XmlDocument();
-                            oCurrentDoc.Load(strCurrentPath);
-
-                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/erste-sprache"))
-                            {
-                                string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-
-                                if (strTrainingProgress.Length > 6)
-                                {
-                                    strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                                }
-                                else
-                                {
-                                    while (strTrainingProgress.Length < 6)
-                                        strTrainingProgress = strTrainingProgress + "1";
-                                }
-
-                                if (m_oTrainingResultsFirstLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                {
-                                    m_nTotalNumberOfErrorsFirstLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                          - (m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                              m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
-
-                                    m_oTrainingResultsFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-
-                                    if (!m_oFirstToSecond.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                        m_oFirstToSecond[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-
-                                    System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                                    if (n != null)
-                                    {
-                                        string strCorrectAnswers = n.InnerText;
-                                        int nCorrectAnswers = 0;
-
-                                        if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                        {
-                                            nCorrectAnswers = 0;
-                                        }
-                                        else
-                                        {
-                                            if (nCorrectAnswers < 0)
-                                                nCorrectAnswers = 0;
-                                        }
-
-                                        nTotalCountCorrectAnswers += nCorrectAnswers;
-                                        m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
-                                    }
-                                    else
-                                        m_oCorrectAnswersFirstLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
-                                }
-                            }
-
-                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zweite-sprache"))
-                            {
-                                string strTrainingProgress = e.SelectSingleNode("training-vorgeschichte").InnerText;
-                                if (strTrainingProgress.Length > 6)
-                                    strTrainingProgress = strTrainingProgress.Substring(0, 6);
-                                else
-                                    while (strTrainingProgress.Length < 6)
-                                        strTrainingProgress = strTrainingProgress + "1";
-
-                                if (m_oTtrainingResultsSecondLanguage.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                {
-                                    m_nTotalNumberOfErrorsSecondLanguage += strTrainingProgress.Length - strTrainingProgress.Replace("0", "").Length
-                                       - (m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Length -
-                                          m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText].Replace("0", "").Length);
-
-                                    m_oTtrainingResultsSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = strTrainingProgress;
-
-                                    if (!m_oSecondToFirst.ContainsKey(e.SelectSingleNode("vokabel").InnerText))
-                                        m_oSecondToFirst[e.SelectSingleNode("vokabel").InnerText] = new SortedDictionary<string, bool>();
-
-                                    System.Xml.XmlNode n = e.SelectSingleNode("richtige-antworten");
-                                    if (n != null)
-                                    {
-                                        string strCorrectAnswers = n.InnerText;
-                                        int nCorrectAnswers = 0;
-
-                                        if (!int.TryParse(strCorrectAnswers, out nCorrectAnswers))
-                                        {
-                                            nCorrectAnswers = 0;
-                                        }
-                                        else
-                                        {
-                                            if (nCorrectAnswers < 0)
-                                                nCorrectAnswers = 0;
-                                        }
-
-                                        nTotalCountCorrectAnswers += nCorrectAnswers;
-                                        m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = nCorrectAnswers;
-                                    }
-                                    else
-                                        m_oCorrectSecondLanguage[e.SelectSingleNode("vokabel").InnerText] = 0;
-                                }
-
-                            }
-
-                            m_oTotalGraphData = new SortedDictionary<DateTime, int>();
-                            m_oWordsGraphData = new SortedDictionary<DateTime, int>();
-                            m_oLearnedWordsGraphData = new SortedDictionary<DateTime, int>();
-
-                            DateTime dtmLastStatsDate = DateTime.MinValue;
-
-                            // load the training stats over time
-                            foreach (System.Xml.XmlElement e in oCurrentDoc.SelectNodes("/training/zustand"))
-                            {
-                                try
-                                {
-                                    DateTime dtmStatsDate = DateTime.ParseExact(e.SelectSingleNode("datum").InnerText,
-                                        "yyyy-MM-dd",
-                                        CultureInfo.InvariantCulture);
-                                    int nNumberWords = int.Parse(e.SelectSingleNode("woerter").InnerText);
-                                    int nNumberErrors = int.Parse(e.SelectSingleNode("fehler").InnerText);
-                                    int nCorrectAnswers = int.Parse(e.SelectSingleNode("richtige-antworten").InnerText);
-
-                                    m_oTotalGraphData[dtmStatsDate] = nCorrectAnswers + nNumberWords;
-                                    m_oWordsGraphData[dtmStatsDate] = nNumberWords;
-                                    m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
-
-                                    if (dtmLastStatsDate < dtmStatsDate)
-                                        dtmLastStatsDate = dtmLastStatsDate;
-                                }
-                                catch
-                                {
-                                    // ignore
-                                }
-                            }
-
-                            DateTime dtmStatsDate2 = DateTime.Now.Date;
-                            int nNumberWords2 = m_oFirstToSecond.Keys.Count + m_oSecondToFirst.Keys.Count;
-                            int nNumberErrors2 = m_nTotalNumberOfErrorsFirstLanguage + m_nTotalNumberOfErrorsSecondLanguage;
-
-                            if (dtmLastStatsDate.Month != DateTime.Now.Month || dtmLastStatsDate.Year != DateTime.Now.Year)
-                            {
-                                m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
-                                m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
-                                m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
-
-                                if (m_oTotalGraphData.Count == 1)
-                                {
-                                m_oTotalGraphData[DateTime.Now.Date.AddDays(-1)] = nTotalCountCorrectAnswers + nNumberWords2;
-                                    m_oWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2;
-                                    m_oLearnedWordsGraphData[DateTime.Now.Date.AddDays(-1)] = nNumberWords2 - nNumberErrors2;
-                                }
-                            }
-                            else
-                            {
-                                // if same month then remove the old date and put the new stats in last row
-                                m_oTotalGraphData.Remove(dtmLastStatsDate);
-                                m_oWordsGraphData.Remove(dtmLastStatsDate);
-                                m_oLearnedWordsGraphData.Remove(dtmLastStatsDate);
-
-
-                                m_oTotalGraphData[DateTime.Now.Date] = nTotalCountCorrectAnswers + nNumberWords2;
-                                m_oWordsGraphData[DateTime.Now.Date] = nNumberWords2;
-                                m_oLearnedWordsGraphData[DateTime.Now.Date] = nNumberWords2 - nNumberErrors2;
-                            }
-                        }
-                    }
-                    catch (Exception oEx)
-                    {
-                        NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
-                            string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, oEx.Message));
-
-                        m_strCurrentPath = null;
-                        m_oCurrentVocabularyDoc = null;
-
-                        m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
-                        m_oTtrainingResultsSecondLanguage = new SortedDictionary<string, string>();
-                        m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                        m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
-                        m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
-                        m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
-                        m_nTotalNumberOfErrorsFirstLanguage = 0;
-                        m_nTotalNumberOfErrorsSecondLanguage = 0;
-                    }
+                    oForm.ShowDialog(this);
                 }
             }
 
@@ -1277,9 +1317,9 @@ namespace VokabelTrainer
             EventArgs oArgs
             )
         {
-            using (NewLanguageFile form = new NewLanguageFile())
+            using (NewLanguageFile oNewForm = new NewLanguageFile())
             {
-                if (form.ShowDialog(this) == DialogResult.OK)
+                if (oNewForm.ShowDialog(this) == DialogResult.OK)
                 {
                     m_oTotalGraphData = new SortedDictionary<DateTime, int>();
                     m_oWordsGraphData = new SortedDictionary<DateTime, int>();
@@ -1293,18 +1333,108 @@ namespace VokabelTrainer
                     m_oWordsGraphData[DateTime.Now.Date] = 0;
                     m_oLearnedWordsGraphData[DateTime.Now.Date] = 0;
 
+                    // let's see, if there is a predefined course for this language pair
+                    string strCode1 = Program.LanguageCodeFromName(oNewForm.m_tbxFirstLanguage.Text);
+                    string strCode2 = Program.LanguageCodeFromName(oNewForm.m_tbxSecondLanguage.Text);
+                    string strFilePath = null;
+                    string strTestedPath;
+
+                    if (!string.IsNullOrEmpty(strCode1) && !string.IsNullOrEmpty(strCode2))
+                    {
+                        string strBaseDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Books");
+
+                        strTestedPath = Path.Combine(strBaseDir, strCode1.Replace("-", "") + "-" + strCode2.Replace("-", "") + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+                        strTestedPath = Path.Combine(strBaseDir, strCode2.Replace("-", "") + "-" + strCode1.Replace("-", "") + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+                        strTestedPath = Path.Combine(strBaseDir, 
+                            strCode1.Substring(0, strCode1.IndexOf('-')) + "-" + strCode2.Replace("-", "") + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+
+                        strTestedPath = Path.Combine(strBaseDir,
+                            strCode2.Substring(0, strCode1.IndexOf('-')) + "-" + strCode1.Replace("-", "") + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+
+                        strTestedPath = Path.Combine(strBaseDir,
+                            strCode1.Substring(0, strCode1.IndexOf('-')) + "-" +
+                            strCode2.Substring(0, strCode2.IndexOf('-')) + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+                        strTestedPath = Path.Combine(strBaseDir,
+                            strCode2.Substring(0, strCode2.IndexOf('-')) + "-" +
+                            strCode1.Substring(0, strCode1.IndexOf('-')) + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+                    }
+
+                    bool bPredefined = false;
+                    if (strFilePath != null)
+                    {
+                        if (strFilePath.EndsWith("en-de.xml") ||
+                            strFilePath.EndsWith("en-ru.xml") ||
+                            strFilePath.EndsWith("de-ru.xml"))
+                        {
+                            if (DialogResult.Yes ==
+                                MessageBox.Show(Resources.PredefinedVocabularyBook, this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                            {
+                                bPredefined = true;
+                            }
+                        }
+                        else
+                        {
+                            if (DialogResult.Yes ==
+                                MessageBox.Show(Resources.ExperimentalVocabularyBook, this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                            {
+                                MessageBox.Show(Resources.ExperimentalThanks, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                bPredefined = true;
+                            }
+                        }
+
+                    }
 
                     string strNewPath;
 
 
                     strNewPath = System.IO.Path.Combine(
-                        Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
-                        form.m_tbxFirstLanguage.Text + "-" + form.m_tbxSecondLanguage.Text);
+                        Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                        oNewForm.m_tbxFirstLanguage.Text + "-" + oNewForm.m_tbxSecondLanguage.Text);
 
-                    if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
-                        strNewPath += ".Vokabeln.xml";
+                    if (bPredefined)
+                    {
+                        if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
+                            strNewPath += ".Kurs.Vokabeln.xml";
+                        else
+                            strNewPath += ".Course.Vocabulary.xml";
+                    }
                     else
-                        strNewPath += ".Vocabulary.xml";
+                    {
+                        if (System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith("de"))
+                            strNewPath += ".Vokabeln.xml";
+                        else
+                            strNewPath += ".Vocabulary.xml";
+                    }
+
 
                     System.IO.FileInfo fi = new System.IO.FileInfo(strNewPath);
                     if (fi.Exists)
@@ -1316,56 +1446,67 @@ namespace VokabelTrainer
                                 != DialogResult.Yes)
                             return;
                     };
+
                     m_strCurrentPath = strNewPath;
-                    m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
-                    m_oCurrentVocabularyDoc.PreserveWhitespace = false;
-                    m_bIsModifiableFlagForXml = form.m_chkLanguageFileModifiable.Checked;
-                    m_bModifiable = true;
-                    m_bSavePossible = true;
-                    if (form.m_chkLanguageFileUnderGPL2.Checked)
+                    if (strFilePath != null && bPredefined)
                     {
-                        m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " + 
-                                    Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
-                                   "This program is free software; you can redistribute it and/or\r\n" +
-                                   "modify it under the terms of the GNU General Public License\r\n" +
-                                   "as published by the Free Software Foundation; either version 2\r\n" +
-                                   "of the License, or (at your option) any later version.\r\n\r\n" +
-                                   "This program is distributed in the hope that it will be useful,\r\n" +
-                                   "but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n" +
-                                   "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n" +
-                                   "GNU General Public License for more details.\r\n\r\n" +
-                                   "You should have received a copy of the GNU General Public License\r\n" +
-                                   "along with this program; if not, write to the Free Software\r\n" +
-                                   "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.";
+                        File.Copy(strFilePath, strNewPath, true);
+                        
+                        LoadLanguageFile(1);
                     }
                     else
                     {
-                        m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " + 
-                            Environment.GetEnvironmentVariable("USERNAME") + ", all rights reserved";
+                        m_strCurrentPath = m_dlgOpenFileDialog.FileName;
+                        m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
+                        m_oCurrentVocabularyDoc.PreserveWhitespace = false;
+                        m_bIsModifiableFlagForXml = oNewForm.m_chkLanguageFileModifiable.Checked;
+                        m_bModifiable = true;
+                        m_bSavePossible = true;
+                        if (oNewForm.m_chkLanguageFileUnderGPL2.Checked)
+                        {
+                            m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " +
+                                        Environment.GetEnvironmentVariable("USERNAME") + "\r\n\r\n" +
+                                       "This program is free software; you can redistribute it and/or\r\n" +
+                                       "modify it under the terms of the GNU General Public License\r\n" +
+                                       "as published by the Free Software Foundation; either version 2\r\n" +
+                                       "of the License, or (at your option) any later version.\r\n\r\n" +
+                                       "This program is distributed in the hope that it will be useful,\r\n" +
+                                       "but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n" +
+                                       "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n" +
+                                       "GNU General Public License for more details.\r\n\r\n" +
+                                       "You should have received a copy of the GNU General Public License\r\n" +
+                                       "along with this program; if not, write to the Free Software\r\n" +
+                                       "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.";
+                        }
+                        else
+                        {
+                            m_strLicense = "Copyright (C) " + DateTime.Now.Year + " " +
+                                Environment.GetEnvironmentVariable("USERNAME") + ", all rights reserved";
+                        }
+
+                        m_oCurrentVocabularyDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <modus>normal</modus>\r\n  <erste-sprache-name>" +
+                            oNewForm.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n" +
+                            "  <zweite-sprache-name>" + oNewForm.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n" +
+                            "  <erste-sprache-rtl>" + (oNewForm.m_chkFirstLanguageRTL.Checked ? "ja" : "nein") + "</erste-sprache-rtl>\r\n" +
+                            "  <zweite-sprache-rtl>" + (oNewForm.m_chkSecondLanguageRTL.Checked ? "ja" : "nein") + "</zweite-sprache-rtl>\r\n" +
+                            "<lizenz><modifikationen>" + (m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" :
+                            "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + m_strLicense + "</text></lizenz></vokabeln>\r\n");
+                        m_oCurrentVocabularyDoc.Save(m_strCurrentPath);
+
+                        m_bFirstLanguageRtl = oNewForm.m_chkFirstLanguageRTL.Checked;
+                        m_bSecondLanguageRtl = oNewForm.m_chkSecondLanguageRTL.Checked;
+
+                        m_oTrainingResultsFirstLanguage = new SortedDictionary<string, string>();
+                        m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
+                        m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
+                        m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
+                        m_nTotalNumberOfErrorsFirstLanguage = 0;
+                        m_nTotalNumberOfErrorsSecondLanguage = 0;
+                        m_strFirstLanguage = oNewForm.m_tbxFirstLanguage.Text;
+                        m_strSecondLanguage = oNewForm.m_tbxSecondLanguage.Text;
                     }
-
-                    m_oCurrentVocabularyDoc.LoadXml("<?xml version=\"1.0\" ?>\r\n<vokabeln>\r\n  <erste-sprache-name>" + 
-                        form.m_tbxFirstLanguage.Text + "</erste-sprache-name>\r\n"+
-                        "  <zweite-sprache-name>" + form.m_tbxSecondLanguage.Text + "</zweite-sprache-name>\r\n"+
-                        "  <erste-sprache-rtl>"+(form.m_chkFirstLanguageRTL.Checked?"ja":"nein")+"</erste-sprache-rtl>\r\n"+
-                        "  <zweite-sprache-rtl>" + (form.m_chkSecondLanguageRTL.Checked ? "ja" : "nein") + "</zweite-sprache-rtl>\r\n" +
-                        "<lizenz><modifikationen>" + (m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" : 
-                        "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + m_strLicense + "</text></lizenz></vokabeln>\r\n");
-                    m_oCurrentVocabularyDoc.Save(m_strCurrentPath);
-
-                    m_bFirstLanguageRtl = form.m_chkFirstLanguageRTL.Checked;
-                    m_bSecondLanguageRtl = form.m_chkSecondLanguageRTL.Checked;
-
-                    m_oTrainingResultsFirstLanguage = new SortedDictionary<string,string>();
-                    m_oTtrainingResultsSecondLanguage = new SortedDictionary<string,string>();
-                    m_oFirstToSecond = new SortedDictionary<string,SortedDictionary<string,bool>>();
-                    m_oSecondToFirst = new SortedDictionary<string,SortedDictionary<string,bool>>();
-                    m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
-                    m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
-                    m_nTotalNumberOfErrorsFirstLanguage = 0;
-                    m_nTotalNumberOfErrorsSecondLanguage = 0;
-                    m_strFirstLanguage = form.m_tbxFirstLanguage.Text;
-                    m_strSecondLanguage = form.m_tbxSecondLanguage.Text;
                 }
             }
             EnableDisableButtons();
@@ -1470,20 +1611,20 @@ namespace VokabelTrainer
                                             }
                                         }
 
-                                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(s2))
+                                        if (!m_oTrainingResultsSecondLanguage.ContainsKey(s2))
                                         {
                                             m_nTotalNumberOfErrorsSecondLanguage += 1;
-                                            m_oTtrainingResultsSecondLanguage[s2] = "111110";
+                                            m_oTrainingResultsSecondLanguage[s2] = "111110";
 
                                             m_oSecondToFirst[s2] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(m_oTtrainingResultsSecondLanguage[s2].Substring(5, 1)))
+                                            if ("1".Equals(m_oTrainingResultsSecondLanguage[s2].Substring(5, 1)))
                                             {
                                                 m_nTotalNumberOfErrorsSecondLanguage += 1;
-                                                m_oTtrainingResultsSecondLanguage[s2] = 
-                                                    m_oTtrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
+                                                m_oTrainingResultsSecondLanguage[s2] = 
+                                                    m_oTrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
                                                 // +_trainingSecondLanguage[s2].Substring(6);
                                             }
                                         }
@@ -1556,20 +1697,20 @@ namespace VokabelTrainer
                                             }
                                         }
 
-                                        if (!m_oTtrainingResultsSecondLanguage.ContainsKey(s2))
+                                        if (!m_oTrainingResultsSecondLanguage.ContainsKey(s2))
                                         {
                                             m_nTotalNumberOfErrorsSecondLanguage += 1;
-                                            m_oTtrainingResultsSecondLanguage[s2] = "111110";
+                                            m_oTrainingResultsSecondLanguage[s2] = "111110";
 
                                             m_oSecondToFirst[s2] = new SortedDictionary<string, bool>();
                                         }
                                         else
                                         {
-                                            if ("1".Equals(m_oTtrainingResultsSecondLanguage[s2].Substring(5, 1)))
+                                            if ("1".Equals(m_oTrainingResultsSecondLanguage[s2].Substring(5, 1)))
                                             {
                                                 m_nTotalNumberOfErrorsSecondLanguage += 1;
-                                                m_oTtrainingResultsSecondLanguage[s2] = 
-                                                    m_oTtrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
+                                                m_oTrainingResultsSecondLanguage[s2] = 
+                                                    m_oTrainingResultsSecondLanguage[s2].Substring(0, 5) + "0"; 
                                                 // +_trainingSecondLanguage[s2].Substring(6);
                                             }
                                         }
@@ -1636,13 +1777,13 @@ namespace VokabelTrainer
                 m_oRnd2 = new Random(nRnd2 + (((DateTime.UtcNow.Hour * 60 + DateTime.UtcNow.Minute) * 60 + 
                     DateTime.UtcNow.Second) * 1000 + DateTime.UtcNow.Millisecond) * 365 + DateTime.UtcNow.DayOfYear);
 
-                int nSelectedError = nRnd2 % (m_nTotalNumberOfErrorsSecondLanguage + m_oTtrainingResultsSecondLanguage.Count);
+                int nSelectedError = nRnd2 % (m_nTotalNumberOfErrorsSecondLanguage + m_oTrainingResultsSecondLanguage.Count);
 
-                m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+                m_bSkipLast = m_oTrainingResultsSecondLanguage.Count > 10;
 
                 int nWordIndex = -1;
                 using (SortedDictionary<string,string>.ValueCollection.Enumerator values = 
-                    m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
+                    m_oTrainingResultsSecondLanguage.Values.GetEnumerator())
                 {
                     while (nSelectedError >= 0 && values.MoveNext())
                     {
@@ -1692,11 +1833,11 @@ namespace VokabelTrainer
 
                     int nSelectedError = nRnd2 % m_nTotalNumberOfErrorsSecondLanguage;
 
-                    m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 20;
+                    m_bSkipLast = m_oTrainingResultsSecondLanguage.Count > 20;
 
                     int nWordIndex = -1;
                     using (SortedDictionary<string, string>.ValueCollection.Enumerator values = 
-                        m_oTtrainingResultsSecondLanguage.Values.GetEnumerator())
+                        m_oTrainingResultsSecondLanguage.Values.GetEnumerator())
                     {
                         while (nSelectedError >= 0 && values.MoveNext())
                         {
@@ -1751,7 +1892,7 @@ namespace VokabelTrainer
                                 nSelectedWeight -= nWeight;
                             }
 
-                            m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+                            m_bSkipLast = m_oTrainingResultsSecondLanguage.Count > 10;
 
                             bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                         }
@@ -1787,7 +1928,7 @@ namespace VokabelTrainer
                                 dblSelectedWeight -= dblWeight;
                             }
 
-                            m_bSkipLast = m_oTtrainingResultsSecondLanguage.Count > 10;
+                            m_bSkipLast = m_oTrainingResultsSecondLanguage.Count > 10;
 
                             bRepeat = TrainSecondToFirstLanguage(nWordIndex);
                         }
@@ -1824,7 +1965,7 @@ namespace VokabelTrainer
                 int nBestCount = 0;
                 int nBestTime = 16;
                 int nWordIndex = -1;
-                foreach(string s in m_oTtrainingResultsSecondLanguage.Values)
+                foreach(string s in m_oTrainingResultsSecondLanguage.Values)
                 {
                     ++nWordIndex;
                     int nTime = s.IndexOf('0');
@@ -1851,7 +1992,7 @@ namespace VokabelTrainer
                     int nSelectedBest = nRnd2 % nBestCount;
 
                     nWordIndex = -1;
-                    foreach (string s in m_oTtrainingResultsSecondLanguage.Values)
+                    foreach (string s in m_oTrainingResultsSecondLanguage.Values)
                     {
                         ++nWordIndex;
                         int nTime = s.IndexOf('0');
@@ -1892,7 +2033,8 @@ namespace VokabelTrainer
         {
             bool bRepeat = false;
             bool bVerify = false;
-            foreach(KeyValuePair<string,string> oPair in m_oTtrainingResultsSecondLanguage)
+            bool bMore = false;
+            foreach (KeyValuePair<string,string> oPair in m_oTrainingResultsSecondLanguage)
             {
                 if (0 == nIndex-- )
                 {
@@ -1931,7 +2073,7 @@ namespace VokabelTrainer
                     }
 
 
-                    using (WordTest oTestDlg = new WordTest())
+                    using (WordTest oTestDlg = new WordTest(m_nStep>0))
                     {
                         oTestDlg.m_lblShownText.Text = m_strSecondLanguage + ": " + oPair.Key;
                         oTestDlg.m_lblAskedTranslation.Text = m_strFirstLanguage + ":";
@@ -1949,14 +2091,22 @@ namespace VokabelTrainer
                             case DialogResult.Retry:
                                 bRepeat = true;
                                 bVerify = true;
+                                bMore = false;
                                 break;
                             case DialogResult.OK:
                                 bRepeat = false;
                                 bVerify = true;
+                                bMore = false;
+                                break;
+                            case DialogResult.Yes:
+                                bRepeat = true;
+                                bVerify = true;
+                                bMore = true;
                                 break;
                             default:
                                 bRepeat = false;
                                 bVerify = false;
+                                bMore = false;
                                 break;
                         }
 
@@ -2076,6 +2226,10 @@ namespace VokabelTrainer
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake,
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+                                if (bMore)
+                                {
+                                    LoadLanguageFile(m_nStep + 1);
+                                }
                                 RememberResultSecondLanguage(oPair.Key, false);
                             }
                             else
@@ -2083,6 +2237,11 @@ namespace VokabelTrainer
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 2)
                                     Speaker.Say(m_strFirstLanguage, oTestDlg.m_tbxAskedTranslation.Text.Trim(), 
                                         true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+
+                                if (bMore)
+                                {
+                                    LoadLanguageFile(m_nStep + 1);
+                                }
                                 RememberResultSecondLanguage(oPair.Key, true);
                             }
                         }
@@ -2134,10 +2293,10 @@ namespace VokabelTrainer
             bool bCorrect
             )
         {
-            string strPrevResults = m_oTtrainingResultsSecondLanguage[strWord];
+            string strPrevResults = m_oTrainingResultsSecondLanguage[strWord];
             string strNewResults = (bCorrect ? "1" : "0") + 
                 strPrevResults.Substring(0, strPrevResults.Length < 5 ? strPrevResults.Length : 5);
-            m_oTtrainingResultsSecondLanguage[strWord] = strNewResults;
+            m_oTrainingResultsSecondLanguage[strWord] = strNewResults;
             m_nTotalNumberOfErrorsSecondLanguage += strNewResults.Length - strNewResults.Replace("0", "").Length - 
                 (strPrevResults.Length - strPrevResults.Replace("0", "").Length);
 
@@ -2202,6 +2361,9 @@ namespace VokabelTrainer
                     w.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
                     w.WriteLine("<vokabeln>");
                     w.WriteLine();
+                    w.WriteLine("  <!-- Modus: kontinuierlich oder normal -->");
+                    w.WriteLine("  <modus>{0}</modus>", m_strMode);
+                    w.WriteLine();
                     w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->");
                     w.WriteLine("  <erste-sprache-name>{0}</erste-sprache-name>", m_strFirstLanguage);
                     w.WriteLine("  <zweite-sprache-name>{0}</zweite-sprache-name>", m_strSecondLanguage);
@@ -2219,16 +2381,16 @@ namespace VokabelTrainer
                     foreach (KeyValuePair<string, SortedDictionary<string, bool>> second in _secondToFirst)
                         foreach (string first in second.Value.Keys)
                             if (first.Length >= spaces.Length)
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Trim(), second.Key.Trim());
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache>", first.Trim(), second.Key.Trim());
                             else
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Trim(), second.Key.Trim(), spaces[first.Trim().Length]);
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache>", first.Trim(), second.Key.Trim(), spaces[first.Trim().Length]);
                      */
                     foreach (KeyValuePair<string, SortedDictionary<string, bool>> oFirst in m_oFirstToSecond)
                         foreach (string strSecond in oFirst.Value.Keys)
                             if (strSecond.Length >= spaces.Length)
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim());
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache>", oFirst.Key.Trim(), strSecond.Trim());
                             else
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim(), spaces[oFirst.Key.Trim().Length]);
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache>", oFirst.Key.Trim(), strSecond.Trim(), spaces[oFirst.Key.Trim().Length]);
 
                     w.WriteLine();
                     w.WriteLine("</vokabeln>");
@@ -2320,6 +2482,12 @@ namespace VokabelTrainer
                     w.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
                     w.WriteLine("<training>");
                     w.WriteLine();
+                    if ("kontinuierlich".Equals(m_strMode))
+                    {
+                        w.WriteLine("  <!-- Im kontinuierlichen Modus der aktuelle Schritt/Übung an dem das Training sich befindet -->");
+                        w.WriteLine("  <schritt>"+m_nStep+"</schritt>");
+                        w.WriteLine();
+                    }
                     w.WriteLine("  <!-- Die Vokabeln der ersten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->", m_strFirstLanguage);
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
                     foreach (KeyValuePair<string, string> training in m_oTrainingResultsFirstLanguage)
@@ -2338,7 +2506,7 @@ namespace VokabelTrainer
                     w.WriteLine("  <!-- Die Vokabeln der zweiten Sprache ({0}), und deren Trainingsfortschritt 1=richtig 0=falsch -->",
                         m_strSecondLanguage);
                     w.WriteLine("  <!-- Das letzte Training ist am Anfang der Zahl, die jeweils früheren jeweils danach -->");
-                    foreach (KeyValuePair<string, string> training in m_oTtrainingResultsSecondLanguage)
+                    foreach (KeyValuePair<string, string> training in m_oTrainingResultsSecondLanguage)
                         if (training.Key.Length >= spaces.Length)
                             w.WriteLine("  <zweite-sprache><vokabel>{0}</vokabel>"+
                                 "<training-vorgeschichte>{1}</training-vorgeschichte>"+
@@ -2413,6 +2581,7 @@ namespace VokabelTrainer
         {
             bool bRepeat = false;
             bool bVerify = false;
+            bool bMore = false;
             foreach (KeyValuePair<string, string> pair in m_oTrainingResultsFirstLanguage)
             {
                 if (0 == nIndex--)
@@ -2450,7 +2619,7 @@ namespace VokabelTrainer
                     }
 
 
-                    using (WordTest test = new WordTest())
+                    using (WordTest test = new WordTest(m_nStep > 0))
                     {
                         test.m_lblShownText.Text = m_strFirstLanguage + ": " + pair.Key;
                         test.m_lblAskedTranslation.Text = m_strSecondLanguage + ":";
@@ -2468,14 +2637,22 @@ namespace VokabelTrainer
                             case DialogResult.Retry:
                                 bRepeat = true;
                                 bVerify = true;
+                                bMore = false;
                                 break;
                             case DialogResult.OK:
                                 bRepeat = false;
                                 bVerify = true;
+                                bMore = false;
+                                break;
+                            case DialogResult.Yes:
+                                bRepeat = true;
+                                bVerify = true;
+                                bMore = true;
                                 break;
                             default:
                                 bRepeat = false;
                                 bVerify = false;
+                                bMore = false;
                                 break;
                         }
 
@@ -2571,7 +2748,7 @@ namespace VokabelTrainer
 
                                         strErrorMessage = strErrorMessage + s;
 
-                                        if (m_oTtrainingResultsSecondLanguage.ContainsKey(s))
+                                        if (m_oTrainingResultsSecondLanguage.ContainsKey(s))
                                             RememberResultSecondLanguage(s, false);
                                     }
                                     strErrorMessage = strErrorMessage + ". ";
@@ -2583,7 +2760,7 @@ namespace VokabelTrainer
                                         foreach (string s in wrong.Keys)
                                         {
                                             strErrorMessage = strErrorMessage + s + ". ";
-                                            if (m_oTtrainingResultsSecondLanguage.ContainsKey(s))
+                                            if (m_oTrainingResultsSecondLanguage.ContainsKey(s))
                                                 RememberResultSecondLanguage(s, false);
                                         }
                                     }
@@ -2595,6 +2772,10 @@ namespace VokabelTrainer
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake, 
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+                                if (bMore)
+                                {
+                                    LoadLanguageFile(m_nStep + 1);
+                                }
                                 RememberResultFirstLanguage(pair.Key, false);
                             }
                             else
@@ -2602,6 +2783,11 @@ namespace VokabelTrainer
                                 if (m_cbxReader.SelectedIndex == 1 || m_cbxReader.SelectedIndex == 3)
                                     Speaker.Say(m_strSecondLanguage, test.m_tbxAskedTranslation.Text.Trim(), 
                                         true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
+
+                                if (bMore)
+                                {
+                                    LoadLanguageFile(m_nStep + 1);
+                                }
                                 RememberResultFirstLanguage(pair.Key, true);
                             }
                         }
@@ -2889,7 +3075,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_lblShowLicence_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnShowLicence_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
         {
             System.Diagnostics.Process.Start("https://www.gnu.org/licenses/gpl-2.0.html");
         }
@@ -2901,7 +3087,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_lblShowAbout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void OnShowAbout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             using (About oAboutForm = new About())
             {
@@ -2916,7 +3102,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnShowDesktopKeyboard_Click(object oSender, EventArgs oArgs)
+        private void OnShowDesktopKeyboard_Click(object oSender, EventArgs oArgs)
         {
             System.Diagnostics.Process.Start("osk.exe");
         }
@@ -2948,7 +3134,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_lblDownloadESpeak_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnDownloadESpeak_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
         {
             System.Diagnostics.Process.Start("https://espeak.sourceforge.net/");
         }
@@ -2961,7 +3147,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_chkUseESpeak_CheckedChanged(object oSender, EventArgs oArgs)
+        private void OnUseESpeak_CheckedChanged(object oSender, EventArgs oArgs)
         {
             m_tbxESpeakPath.Enabled = m_chkUseESpeak.Checked;
             m_btnSearchESpeak.Enabled = m_chkUseESpeak.Checked;
@@ -2975,7 +3161,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnSearchESpeak_Click(object oSender, EventArgs oArgs)
+        private void OnSearchESpeak_Click(object oSender, EventArgs oArgs)
         {
             using (System.Windows.Forms.OpenFileDialog oDlg = new OpenFileDialog())
             {

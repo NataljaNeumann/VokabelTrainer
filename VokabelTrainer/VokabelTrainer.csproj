@@ -99,6 +99,12 @@
     <Compile Include="Forms\NewMessageBox.Designer.cs">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\NewWordsInCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewWordsInCourseForm.Designer.cs">
+      <DependentUpon>NewWordsInCourseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchEngineRouter.cs" />
     <Compile Include="Speaker.cs" />
     <Compile Include="Forms\VokabelTrainer.cs">
@@ -1465,6 +1471,9 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewWordsInCourseForm.resx">
+      <DependentUpon>NewWordsInCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -2539,6 +2548,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\ChristmasHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CourseProgressHorizontalHeader.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CourseProgressVerticalHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\DiwaliHeader.jpg">
