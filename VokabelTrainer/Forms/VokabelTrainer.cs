@@ -3237,7 +3237,6 @@ namespace VokabelTrainer
                     )
                 {
                     // then add german resources for language aquisition without explicit learning
-                    oResult.Add(@"https://www.youtube.com/watch?v=abFz6JgOMCk&list=PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg");
                     oResult.Add(@"https://www.youtube.com/@Der_Postillon");
                     oResult.Add(@"https://www.youtube.com/results?search_query=ganzer+film+deutsch");
                     oResult.Add(@"https://www.kraehseite.de/");
@@ -3245,7 +3244,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.radio.de/country/germany");
                     oResult.Add(@"https://de.wikipedia.org/wiki/Spezial:Zuf%C3%A4llige_Seite");
                     oResult.Add(@"https://www.schlagerradio.de/");
-                    oResult.Add(@"https://www.dw.com/de");
                     oResult.Add(@"https://www.rtl.de/unterhaltung/");
                     oResult.Add(@"https://www.tagesschau.de/multimedia");
                     oResult.Add(@"https://de.euronews.com/");
@@ -3410,7 +3408,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=pel%C3%ADcula+en+espa%C3%B1ol");
                     oResult.Add(@"https://elpais.com/noticias/espana/");
                     oResult.Add(@"https://www.bbc.com/mundo");
-                    oResult.Add(@"https://www.dw.com/es");
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
                     oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
                     
@@ -3479,7 +3476,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.cnn.com");
                     oResult.Add(@"https://www.the-postillon.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=just+for+laughs+gags");
-                    oResult.Add(@"https://www.dw.com/en/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=nightcore+lyrics");
                     oResult.Add(@"https://www.abc.net.au");
                     oResult.Add(@"https://www.euronews.com/");
@@ -3575,7 +3571,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/portuguese");
                     oResult.Add(@"https://www.dn.pt/");
                     oResult.Add(@"https://radioonline.com.pt/");
-                    oResult.Add(@"https://www.dw.com/pt-br/");
                     oResult.Add(@"https://pt.euronews.com/");
                     oResult.Add(@"https://www.jn.pt/");
                     oResult.Add(@"https://estrelaseouricos.sapo.pt/atividade/61-piadas-secas-para-impressionar-os-miudos/");
@@ -3597,7 +3592,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/russian");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D1%82%D1%8D%D0%BD%D0%B4%D0%B0%D0%BF");
                     oResult.Add(@"https://www.golosameriki.com/");
-                    oResult.Add(@"https://www.dw.com/ru/");
                     oResult.Add(@"https://ru.euronews.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+%D1%88%D0%BE%D1%83+%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+c%D1%82%D1%83%D0%B4%D0%B8%D0%BE+%D0%BF%D0%BE+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8");
                     oResult.Add(@"https://news.google.com/home?hl=ru&gl=RU&ceid=RU:ru");
@@ -3684,7 +3678,6 @@ namespace VokabelTrainer
                     )
                 {
                     // then add resources in chinese for language aquisition without explicit learning
-                    oResult.Add(@"https://www.dw.com/zh/");
                     oResult.Add(@"https://www.bbc.com/zhongwen/simp");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E5%AD%97%E5%B9%95%E4%BB%98%E3%81%8D%E3%81%AE%E4%B8%AD%E5%9B%BD%E6%98%A0%E7%94%BB");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%89%E5%AD%97%E5%B9%95");
@@ -3751,7 +3744,6 @@ namespace VokabelTrainer
                     )
                 {
                     // then add resources in turkish for language aquisition without explicit learning
-                    oResult.Add(@"https://www.dw.com/tr/");
                     oResult.Add(@"https://www.bbc.com/turkce");
                     oResult.Add(@"https://www.radio.de/language/turkish");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Türkçe+Dublaj+Film");
@@ -3769,7 +3761,6 @@ namespace VokabelTrainer
                     )
                 {
                     // then add resources in arabic for language aquisition without explicit learning
-                    oResult.Add(@"https://www.dw.com/ar/");
                     oResult.Add(@"https://www.bbc.com/arabic");
                     oResult.Add(@"https://www.radio.de/language/arabic");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9");
@@ -3832,7 +3823,6 @@ namespace VokabelTrainer
                     )
                 {
                     // then add resources in hindi for language aquisition without explicit learning
-                    oResult.Add(@"https://www.dw.com/hi/");
                     oResult.Add(@"https://www.bbc.com/hindi");
                     oResult.Add(@"https://www.radioindia.in/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80+%E0%A4%AB%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE");
