@@ -1,5 +1,5 @@
-# VokabelTrainer v1.4
-# Copyright (C) 2025 NataljaNeumann@gmx.de
+# VokabelTrainer v1.6
+# Copyright (C) 2025-2026 NataljaNeumann@gmx.de
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -114,13 +114,6 @@ jobs:
               $text = $text -replace '<Version>\s*\d+\.\d+\.\d+\.\d+\s*</Version>', "<Version>$newVersion</Version>"
               $changed = $true
               Write-Host "Modifying Version in $path"
-            } else {
-              # Insert <Version> into the first PropertyGroup if none exists
-              if ($text -match '(?s)(<PropertyGroup[^>]*>)') {
-                $text = $text -replace '(?s)(<PropertyGroup[^>]*>)', "`$1`n    <Version>$newVersion</Version>"
-                $changed = $true
-                Write-Host "Adding Version in $path"
-              }
             }
             
             # Replace AssemblyVersion and FileVersion tags if present

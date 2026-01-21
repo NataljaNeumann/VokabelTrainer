@@ -1,5 +1,5 @@
-﻿// VokabelTrainer v1.5
-// Copyright (C) 2019-2025 NataljaNeumann@gmx.de
+﻿// VokabelTrainer v1.6
+// Copyright (C) 2019-2026 NataljaNeumann@gmx.de
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -187,7 +187,6 @@ namespace VokabelTrainer
         /// </summary> 
         private static readonly Dictionary<int, DateTime> s_oDiwaliDates = new Dictionary<int, DateTime>
         {
-            { 2025, new DateTime(2025, 10, 21) },
             { 2026, new DateTime(2026, 11, 9) },
             { 2027, new DateTime(2027, 10, 29) },
             { 2028, new DateTime(2028, 10, 17) },
@@ -5212,7 +5211,7 @@ namespace VokabelTrainer
             Calendar hebrewCalendar = new HebrewCalendar();
 
             // Use a utility function to determine the correct Hebrew Year for the current Gregorian Year cycle
-            int nHebrewYear = 5786 - 2025 + dtmTestedDate.Value.Year;
+            int nHebrewYear = 5786 - 2026 + dtmTestedDate.Value.Year;
 
             // Month 1 of the Hebrew calendar is Tishrei (Rosh Hashanah is the 1st day of Tishrei)
             const int nTishrei = 1;

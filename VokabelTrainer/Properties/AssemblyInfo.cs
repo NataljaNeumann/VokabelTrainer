@@ -1,5 +1,5 @@
-// VokabelTrainer v1.5
-// Copyright (C) 2019-2025 NataljaNeumann@gmx.de
+// VokabelTrainer v1.6
+// Copyright (C) 2019-2026 NataljaNeumann@gmx.de
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -28,7 +28,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Vokabel-Trainer")]
-[assembly: AssemblyCopyright("Copyright ©  2019-2025 NataljaNeumann@gmx.de")]
+[assembly: AssemblyCopyright("Copyright ©  2019-2026 NataljaNeumann@gmx.de")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -50,6 +50,6 @@ using System.Resources;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.5.14.0")]
-[assembly: AssemblyFileVersion("1.5.14.0")]
+[assembly: AssemblyVersion("1.6.0.0")]
+[assembly: AssemblyFileVersion("1.6.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("")]
