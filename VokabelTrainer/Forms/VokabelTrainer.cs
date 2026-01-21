@@ -3257,6 +3257,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.de/s?k=laktosefreie+rezepte");
                     oResult.Add(@"https://www.amazon.de/s?k=low+carb+ngv");
                     oResult.Add(@"https://www.amazon.de/s?k=friedenspreis+des+deutschen+buchhandels+-Ansprachen+-Verleihung");
+                    oResult.Add(@"https://www.youtube.com/@LadyTamara");
 
                     // sometimes also add the critical book
                     if (m_oRnd.Next(10) == 7)
