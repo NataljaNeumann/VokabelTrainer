@@ -266,21 +266,11 @@ namespace VokabelTrainer
             m_btnMore.Height = m_btnNext.Height;
             m_btnMore.Width = m_btnNext.Width;
 
+            // no matter left-to-right or right-to-left, same positioning
+            m_btnMore.Top = m_btnNext.Top;
+            int spacing = Math.Abs(m_btnNext.Right - m_btnLast.Left);
+            m_btnMore.Left = m_btnNext.Left - spacing - m_btnMore.Width;
 
-            if (this.RightToLeft == RightToLeft.No)
-            {
-                // Left-to-right: place m_btnMore left of m_btnNext
-                m_btnMore.Top = m_btnNext.Top;
-                int spacing = Math.Abs(m_btnNext.Right - m_btnLast.Left);
-                m_btnMore.Left = m_btnNext.Left - spacing - m_btnMore.Width;
-            }
-            else
-            {
-                // Right-to-left: place m_btnMore right of m_btnNext
-                m_btnMore.Top = m_btnNext.Top;
-                int spacing = Math.Abs(m_btnLast.Right - m_btnNext.Left);
-                m_btnMore.Left = m_btnNext.Right + spacing;
-            }
 
             m_btnMore.Anchor = m_btnNext.Anchor;
             m_btnMore.Click += On_More_Click;
