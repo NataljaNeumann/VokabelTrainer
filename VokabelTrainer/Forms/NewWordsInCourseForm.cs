@@ -276,6 +276,21 @@ namespace VokabelTrainer.Forms
         }
         #endregion
 
-
+        //===================================================================================================
+        /// <summary>
+        /// Handles key down events to close the form on Space, Enter, or Escape
+        /// </summary>
+        /// <param name="roMsg">The reference to processed message</param>
+        /// <param name="oKeyData">Key event arguments</param>
+        //===================================================================================================
+        protected override bool ProcessCmdKey(ref Message roMsg, Keys oKeyData)
+        {
+            if (oKeyData == Keys.Space || oKeyData == Keys.Enter || oKeyData == Keys.Escape)
+            {
+                this.Close();
+                return true;
+            }
+            return base.ProcessCmdKey(ref roMsg, oKeyData);
+        }
     }
 }
