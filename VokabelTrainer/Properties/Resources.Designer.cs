@@ -394,7 +394,7 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pair of words and the improvement..
+        ///   Looks up a localized string similar to Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pairs of words and the improvements. In the best case, collect all improvement suggestions and post them all at once..
         /// </summary>
         internal static string ExperimentalThanks {
             get {
@@ -403,7 +403,7 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For this language pair there is an experimental vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults, however it hasn&apos;t been proofread by native speakers. Would you try it out?.
+        ///   Looks up a localized string similar to For this language pair there is an experimental vocabulary book, it is under the same license as the software. It has been designed as a continuous course for adults, however it hasn&apos;t been proofread by native speakers. Would you like to try it out?.
         /// </summary>
         internal static string ExperimentalVocabularyBook {
             get {
@@ -520,7 +520,7 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For this language pair there is a vocabulary book, it is under the same license as the software. It is designed as a continuous course  for adults. Would you try it out?.
+        ///   Looks up a localized string similar to For this language pair there is a vocabulary book, it is under the same license as the software. It has been designed as a continuous course for adults. Would you like to try it out?.
         /// </summary>
         internal static string PredefinedVocabularyBook {
             get {
