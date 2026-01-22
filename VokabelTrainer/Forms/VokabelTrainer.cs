@@ -1395,7 +1395,8 @@ namespace VokabelTrainer
                             strFilePath.EndsWith("de-ru.xml"))
                         {
                             if (DialogResult.Yes ==
-                                MessageBox.Show(Resources.PredefinedVocabularyBook, this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                                MessageBox.Show(Resources.PredefinedVocabularyBook, 
+                                this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
                             {
                                 bPredefined = true;
                             }
@@ -1403,9 +1404,11 @@ namespace VokabelTrainer
                         else
                         {
                             if (DialogResult.Yes ==
-                                MessageBox.Show(Resources.ExperimentalVocabularyBook, this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                                MessageBox.Show(Resources.ExperimentalVocabularyBook, 
+                                this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
                             {
-                                MessageBox.Show(Resources.ExperimentalThanks, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show(Resources.ExperimentalThanks, 
+                                    this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 bPredefined = true;
                             }
                         }
@@ -2225,11 +2228,14 @@ namespace VokabelTrainer
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake,
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+
+                                RememberResultSecondLanguage(oPair.Key, false);
+
                                 if (bMore)
                                 {
+                                    SaveTrainingProgress();
                                     LoadLanguageFile(m_nStep + 1);
                                 }
-                                RememberResultSecondLanguage(oPair.Key, false);
                             }
                             else
                             {
@@ -2237,11 +2243,12 @@ namespace VokabelTrainer
                                     Speaker.Say(m_strFirstLanguage, oTestDlg.m_tbxAskedTranslation.Text.Trim(), 
                                         true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
+                                RememberResultSecondLanguage(oPair.Key, true);
                                 if (bMore)
                                 {
+                                    SaveTrainingProgress();
                                     LoadLanguageFile(m_nStep + 1);
                                 }
-                                RememberResultSecondLanguage(oPair.Key, true);
                             }
                         }
                     }
@@ -2574,7 +2581,7 @@ namespace VokabelTrainer
         /// <param name="nIndex">Index of the word in first language</param>
         /// <returns>true iff the training shall continue</returns>
         //===================================================================================================
-        private bool TrainFirstLanguage(
+        private bool TrainFirstToSecondLanguage(
             int nIndex
             )
         {
@@ -2771,11 +2778,13 @@ namespace VokabelTrainer
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake, 
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+                                RememberResultFirstLanguage(pair.Key, false);
+
                                 if (bMore)
                                 {
+                                    SaveTrainingProgress();
                                     LoadLanguageFile(m_nStep + 1);
                                 }
-                                RememberResultFirstLanguage(pair.Key, false);
                             }
                             else
                             {
@@ -2783,11 +2792,13 @@ namespace VokabelTrainer
                                     Speaker.Say(m_strSecondLanguage, test.m_tbxAskedTranslation.Text.Trim(), 
                                         true, m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
+                                RememberResultFirstLanguage(pair.Key, true);
+
                                 if (bMore)
                                 {
+                                    SaveTrainingProgress();
                                     LoadLanguageFile(m_nStep + 1);
                                 }
-                                RememberResultFirstLanguage(pair.Key, true);
                             }
                         }
                     }
@@ -2840,7 +2851,7 @@ namespace VokabelTrainer
                             nSelectedError -= 1;
                     }
 
-                    bRepeat = TrainFirstLanguage(nWordIndex);
+                    bRepeat = TrainFirstToSecondLanguage(nWordIndex);
                 };
             }
             SaveTrainingProgress();
@@ -2893,7 +2904,7 @@ namespace VokabelTrainer
                             }
                         }
 
-                        bRepeat = TrainFirstLanguage(nWordIndex);
+                        bRepeat = TrainFirstToSecondLanguage(nWordIndex);
                     }
                 }
                 else
@@ -2940,7 +2951,7 @@ namespace VokabelTrainer
 
                             m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
-                            bRepeat = TrainFirstLanguage(nWordIndex);
+                            bRepeat = TrainFirstToSecondLanguage(nWordIndex);
                         }
                     }
                     else
@@ -2976,7 +2987,7 @@ namespace VokabelTrainer
 
                             m_bSkipLast = m_oTrainingResultsFirstLanguage.Count > 10;
 
-                            bRepeat = TrainFirstLanguage(nWordIndex);
+                            bRepeat = TrainFirstToSecondLanguage(nWordIndex);
                         }
                     }
 
@@ -3059,7 +3070,7 @@ namespace VokabelTrainer
                     {
                         m_bSkipLast = false;
 
-                        bRepeat = TrainFirstLanguage(nBestIndex);
+                        bRepeat = TrainFirstToSecondLanguage(nBestIndex);
                     }
                 }
             }
