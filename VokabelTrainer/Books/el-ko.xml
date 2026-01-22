@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Greek</erste-sprache-name>
-  <zweite-sprache-name>Korean</zweite-sprache-name>
+  <erste-sprache-name>Ελληνικά</erste-sprache-name>
+  <zweite-sprache-name>한국인</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Greek-Korean) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Ελληνικά-한국인) -->
   <vokabel-paar schritt="1">
     <erste-sprache>γεια</erste-sprache><zweite-sprache>안녕하세요</zweite-sprache>
   </vokabel-paar>
@@ -3849,2796 +3849,2793 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>γυναίκες</erste-sprache><zweite-sprache>여성</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="998">
-    <erste-sprache>της</erste-sprache><zweite-sprache>그녀의</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="999">
     <erste-sprache>πλαίσιο</erste-sprache><zweite-sprache>프레임워크</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>πλαίσιο</erste-sprache><zweite-sprache>맥락</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>πλαίσιο</erste-sprache><zweite-sprache>틀</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>εμπόριο</erste-sprache><zweite-sprache>무역</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1000">
     <erste-sprache>το έκανε</erste-sprache><zweite-sprache>그는 했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1002">
+  <vokabel-paar schritt="1001">
     <erste-sprache>διαθέσιμο</erste-sprache><zweite-sprache>사용 가능한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>αύξηση</erste-sprache><zweite-sprache>증가하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>αύξηση</erste-sprache><zweite-sprache>증가하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>ταμείο</erste-sprache><zweite-sprache>기금</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>είχε</erste-sprache><zweite-sprache>가지고 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>είχε</erste-sprache><zweite-sprache>가졌다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1005">
     <erste-sprache>όμορφο</erste-sprache><zweite-sprache>아름다운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1006">
     <erste-sprache>έγιναν</erste-sprache><zweite-sprache>되었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>αν και</erste-sprache><zweite-sprache>비록</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>είσαι</erste-sprache><zweite-sprache>너는 ~이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>προτεινόμενο</erste-sprache><zweite-sprache>제안된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1011">
+  <vokabel-paar schritt="1010">
     <erste-sprache>σημειωμένο</erste-sprache><zweite-sprache>주목받은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>διεύθυνση</erste-sprache><zweite-sprache>주소</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1013">
+  <vokabel-paar schritt="1012">
     <erste-sprache>εννοώντας</erste-sprache><zweite-sprache>의미</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1014">
+  <vokabel-paar schritt="1013">
     <erste-sprache>θεωρείται</erste-sprache><zweite-sprache>고려된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>είδος</erste-sprache><zweite-sprache>종류</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>είδος</erste-sprache><zweite-sprache>종</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1015">
     <erste-sprache>γρήγορα</erste-sprache><zweite-sprache>빨리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1015">
     <erste-sprache>γρήγορα</erste-sprache><zweite-sprache>빠른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1017">
+  <vokabel-paar schritt="1016">
     <erste-sprache>Ισπανία</erste-sprache><zweite-sprache>스페인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1018">
+  <vokabel-paar schritt="1017">
     <erste-sprache>με βάση</erste-sprache><zweite-sprache>기반</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>προώθηση</erste-sprache><zweite-sprache>촉진하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>προώθηση</erste-sprache><zweite-sprache>승진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>προώθηση</erste-sprache><zweite-sprache>촉진하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>προώθηση</erste-sprache><zweite-sprache>진전하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1019">
     <erste-sprache>σύγκρουση</erste-sprache><zweite-sprache>갈등</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1019">
     <erste-sprache>σύγκρουση</erste-sprache><zweite-sprache>반대</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>τόσο πολύ</erste-sprache><zweite-sprache>너무 많은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>τόσο πολύ</erste-sprache><zweite-sprache>그만큼</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1021">
     <erste-sprache>κάποιος</erste-sprache><zweite-sprache>누군가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1021">
     <erste-sprache>κάποιος</erste-sprache><zweite-sprache>약간의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
+  <vokabel-paar schritt="1022">
     <erste-sprache>αργότερα</erste-sprache><zweite-sprache>나중에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1023">
     <erste-sprache>ένωση</erste-sprache><zweite-sprache>연합</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1023">
     <erste-sprache>ένωση</erste-sprache><zweite-sprache>협회</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1024">
     <erste-sprache>μπορούμε</erste-sprache><zweite-sprache>우리는 할 수 있다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1025">
     <erste-sprache>βιώσιμο</erste-sprache><zweite-sprache>지속 가능한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1026">
     <erste-sprache>άγιος</erste-sprache><zweite-sprache>성인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1027">
     <erste-sprache>ιερός</erste-sprache><zweite-sprache>신성한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>φτώχεια</erste-sprache><zweite-sprache>빈곤</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1029">
     <erste-sprache>ευχαρίστως</erste-sprache><zweite-sprache>기꺼이</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1030">
     <erste-sprache>θα ήθελα</erste-sprache><zweite-sprache>원한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>πλευρά</erste-sprache><zweite-sprache>측면</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1033">
+  <vokabel-paar schritt="1032">
     <erste-sprache>λίγο</erste-sprache><zweite-sprache>작은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1033">
+  <vokabel-paar schritt="1032">
     <erste-sprache>λίγο</erste-sprache><zweite-sprache>약간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1034">
+  <vokabel-paar schritt="1033">
     <erste-sprache>σελίδα</erste-sprache><zweite-sprache>페이지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1034">
     <erste-sprache>τομέας</erste-sprache><zweite-sprache>분야</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1036">
+  <vokabel-paar schritt="1035">
     <erste-sprache>φορείς</erste-sprache><zweite-sprache>기관</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1037">
+  <vokabel-paar schritt="1036">
     <erste-sprache>θα είχε</erste-sprache><zweite-sprache>가졌을 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>αποστολή</erste-sprache><zweite-sprache>임무</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1039">
+  <vokabel-paar schritt="1038">
     <erste-sprache>ψηφίσματα</erste-sprache><zweite-sprache>결의안</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1039">
     <erste-sprache>αγάπη</erste-sprache><zweite-sprache>사랑</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1041">
+  <vokabel-paar schritt="1040">
     <erste-sprache>μηδέν</erste-sprache><zweite-sprache>0</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>부서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>섹션</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>분할</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1043">
+  <vokabel-paar schritt="1042">
     <erste-sprache>μέλλον</erste-sprache><zweite-sprache>미래</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>πολιτικό</erste-sprache><zweite-sprache>민간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>γη</erste-sprache><zweite-sprache>토지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>γη</erste-sprache><zweite-sprache>지구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>δίπλα στο</erste-sprache><zweite-sprache>옆에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1046">
     <erste-sprache>ρωτώ</erste-sprache><zweite-sprache>묻다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1047">
     <erste-sprache>πηγαίνουν</erste-sprache><zweite-sprache>그들은 간다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1049">
+  <vokabel-paar schritt="1048">
     <erste-sprache>λέμε</erste-sprache><zweite-sprache>말한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1049">
     <erste-sprache>στρατιωτικό</erste-sprache><zweite-sprache>군사</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1050">
     <erste-sprache>δήλωση</erste-sprache><zweite-sprache>선언</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1050">
     <erste-sprache>δήλωση</erste-sprache><zweite-sprache>진술</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>περνάει</erste-sprache><zweite-sprache>지나간다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1052">
     <erste-sprache>άκουσε</erste-sprache><zweite-sprache>듣다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1054">
+  <vokabel-paar schritt="1053">
     <erste-sprache>ευνοϊκή</erste-sprache><zweite-sprache>호의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1054">
     <erste-sprache>αλλού</erste-sprache><zweite-sprache>다른 곳</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1055">
     <erste-sprache>επιπλέον</erste-sprache><zweite-sprache>추가적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1055">
     <erste-sprache>επιπλέον</erste-sprache><zweite-sprache>게다가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1057">
+  <vokabel-paar schritt="1056">
     <erste-sprache>αν όχι</erste-sprache><zweite-sprache>그렇지 않다면</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1057">
     <erste-sprache>ιδιαίτερα</erste-sprache><zweite-sprache>특정한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1057">
     <erste-sprache>ιδιαίτερα</erste-sprache><zweite-sprache>특히</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1059">
+  <vokabel-paar schritt="1058">
     <erste-sprache>συμφωνήθηκε</erste-sprache><zweite-sprache>합의된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1060">
+  <vokabel-paar schritt="1059">
     <erste-sprache>ποιου</erste-sprache><zweite-sprache>누구의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1061">
+  <vokabel-paar schritt="1060">
     <erste-sprache>εντολή</erste-sprache><zweite-sprache>위임장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>εκπρόσωποι</erste-sprache><zweite-sprache>대표자들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1063">
+  <vokabel-paar schritt="1062">
     <erste-sprache>επίπτωση</erste-sprache><zweite-sprache>영향</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1064">
+  <vokabel-paar schritt="1063">
     <erste-sprache>ανησυχία</erste-sprache><zweite-sprache>우려</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1065">
+  <vokabel-paar schritt="1064">
     <erste-sprache>σημασία έχει</erste-sprache><zweite-sprache>문제들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1066">
+  <vokabel-paar schritt="1065">
     <erste-sprache>αλλιώς</erste-sprache><zweite-sprache>그렇지 않으면</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1067">
+  <vokabel-paar schritt="1066">
     <erste-sprache>μας</erste-sprache><zweite-sprache>우리의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1068">
+  <vokabel-paar schritt="1067">
     <erste-sprache>σύντομη</erste-sprache><zweite-sprache>간략한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1069">
+  <vokabel-paar schritt="1068">
     <erste-sprache>προσέγγιση</erste-sprache><zweite-sprache>접근 방식</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
+  <vokabel-paar schritt="1069">
     <erste-sprache>συνεχιζόμενη</erste-sprache><zweite-sprache>계속된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
+  <vokabel-paar schritt="1069">
     <erste-sprache>συνεχιζόμενη</erste-sprache><zweite-sprache>진행 중인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1070">
     <erste-sprache>έργα</erste-sprache><zweite-sprache>프로젝트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1070">
     <erste-sprache>έργα</erste-sprache><zweite-sprache>작품</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1072">
+  <vokabel-paar schritt="1071">
     <erste-sprache>συνθήκες</erste-sprache><zweite-sprache>조건</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1073">
+  <vokabel-paar schritt="1072">
     <erste-sprache>έλαβα</erste-sprache><zweite-sprache>받았다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>παιχνίδι</erste-sprache><zweite-sprache>연주</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>παιχνίδι</erste-sprache><zweite-sprache>게임</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>παιχνίδι</erste-sprache><zweite-sprache>연주하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1074">
     <erste-sprache>λιγότερο</erste-sprache><zweite-sprache>덜</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1076">
+  <vokabel-paar schritt="1075">
     <erste-sprache>εμφανίστηκαν</erste-sprache><zweite-sprache>본 적 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1076">
     <erste-sprache>Ευρώ</erste-sprache><zweite-sprache>유로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1078">
+  <vokabel-paar schritt="1077">
     <erste-sprache>δει</erste-sprache><zweite-sprache>본 것</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1079">
+  <vokabel-paar schritt="1078">
     <erste-sprache>ευρώ</erste-sprache><zweite-sprache>유로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>εγκατάσταση</erste-sprache><zweite-sprache>설립</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>μπορείτε</erste-sprache><zweite-sprache>당신은 할 수 있습니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>μπορείτε</erste-sprache><zweite-sprache>할 수 있다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1082">
+  <vokabel-paar schritt="1081">
     <erste-sprache>δεύτερη</erste-sprache><zweite-sprache>두 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1082">
     <erste-sprache>πέρασμα</erste-sprache><zweite-sprache>통과하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1082">
     <erste-sprache>πέρασμα</erste-sprache><zweite-sprache>통로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>πήγε</erste-sprache><zweite-sprache>갔다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1085">
+  <vokabel-paar schritt="1084">
     <erste-sprache>πήγαινε</erste-sprache><zweite-sprache>가고 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1086">
+  <vokabel-paar schritt="1085">
     <erste-sprache>δικαιοσύνη</erste-sprache><zweite-sprache>정의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1087">
+  <vokabel-paar schritt="1086">
     <erste-sprache>άραβας</erste-sprache><zweite-sprache>아랍인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1087">
     <erste-sprache>δύναμη</erste-sprache><zweite-sprache>힘</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1087">
     <erste-sprache>δύναμη</erste-sprache><zweite-sprache>권력</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1088">
     <erste-sprache>πιθανά</erste-sprache><zweite-sprache>가능한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1090">
+  <vokabel-paar schritt="1089">
     <erste-sprache>δικό</erste-sprache><zweite-sprache>자신의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1090">
     <erste-sprache>ευρύ</erste-sprache><zweite-sprache>넓은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1092">
+  <vokabel-paar schritt="1091">
     <erste-sprache>δικαιούχος</erste-sprache><zweite-sprache>권한이 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1092">
     <erste-sprache>δεν μπορούσε</erste-sprache><zweite-sprache>할 수 없었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1093">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>모니터링</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1093">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>보다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1093">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>따랐다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1095">
+  <vokabel-paar schritt="1094">
     <erste-sprache>αστυνομία</erste-sprache><zweite-sprache>경찰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1096">
+  <vokabel-paar schritt="1095">
     <erste-sprache>πίστη</erste-sprache><zweite-sprache>믿음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>πιστεύω</erste-sprache><zweite-sprache>믿어요</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>πιστεύω</erste-sprache><zweite-sprache>믿다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1097">
     <erste-sprache>λεπτά</erste-sprache><zweite-sprache>분</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
+  <vokabel-paar schritt="1098">
     <erste-sprache>πηγαίνετε</erste-sprache><zweite-sprache>당신이 간다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1100">
+  <vokabel-paar schritt="1099">
     <erste-sprache>εκτελεστική</erste-sprache><zweite-sprache>집행부</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1101">
+  <vokabel-paar schritt="1100">
     <erste-sprache>διασυνοριακός</erste-sprache><zweite-sprache>상호</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1102">
+  <vokabel-paar schritt="1101">
     <erste-sprache>συντονισμός</erste-sprache><zweite-sprache>조정</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1103">
+  <vokabel-paar schritt="1102">
     <erste-sprache>αντιμετωπίστηκε</erste-sprache><zweite-sprache>다루어진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>αποτέλεσμα</erste-sprache><zweite-sprache>결과</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>πράξη</erste-sprache><zweite-sprache>행위하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>πράξη</erste-sprache><zweite-sprache>행위</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>πράξη</erste-sprache><zweite-sprache>행동하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1106">
+  <vokabel-paar schritt="1105">
     <erste-sprache>και τα δύο</erste-sprache><zweite-sprache>양쪽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1106">
+  <vokabel-paar schritt="1105">
     <erste-sprache>και τα δύο</erste-sprache><zweite-sprache>둘 다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1106">
     <erste-sprache>εννέα</erste-sprache><zweite-sprache>9</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1108">
+  <vokabel-paar schritt="1107">
     <erste-sprache>βρίσκει</erste-sprache><zweite-sprache>찾는다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1108">
     <erste-sprache>έπρεπε να</erste-sprache><zweite-sprache>그는 어쩔 수 없이</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1110">
+  <vokabel-paar schritt="1109">
     <erste-sprache>δημοσιεύσω</erste-sprache><zweite-sprache>온라인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1111">
+  <vokabel-paar schritt="1110">
     <erste-sprache>αναλαμβάνουμε</erste-sprache><zweite-sprache>뭔가 하고 있어요</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1111">
     <erste-sprache>εβδομάδα</erste-sprache><zweite-sprache>주</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1112">
     <erste-sprache>εντάξει</erste-sprache><zweite-sprache>알겠습니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1112">
     <erste-sprache>εντάξει</erste-sprache><zweite-sprache>괜찮다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1114">
+  <vokabel-paar schritt="1113">
     <erste-sprache>υπάρχον</erste-sprache><zweite-sprache>기존의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1115">
+  <vokabel-paar schritt="1114">
     <erste-sprache>ένοπλη</erste-sprache><zweite-sprache>무장한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1116">
+  <vokabel-paar schritt="1115">
     <erste-sprache>συστήματα</erste-sprache><zweite-sprache>시스템</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1117">
+  <vokabel-paar schritt="1116">
     <erste-sprache>επομένως</erste-sprache><zweite-sprache>따라서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1117">
+  <vokabel-paar schritt="1116">
     <erste-sprache>επομένως</erste-sprache><zweite-sprache>그러므로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1118">
+  <vokabel-paar schritt="1117">
     <erste-sprache>αυξημένο</erste-sprache><zweite-sprache>증가한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1119">
+  <vokabel-paar schritt="1118">
     <erste-sprache>συμπεριλαμβανόμενο</erste-sprache><zweite-sprache>포함된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1120">
+  <vokabel-paar schritt="1119">
     <erste-sprache>τεχνολογία</erste-sprache><zweite-sprache>기술</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1121">
+  <vokabel-paar schritt="1120">
     <erste-sprache>λόγος</erste-sprache><zweite-sprache>이유</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1122">
+  <vokabel-paar schritt="1121">
     <erste-sprache>μόλις</erste-sprache><zweite-sprache>거의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1123">
+  <vokabel-paar schritt="1122">
     <erste-sprache>ονόματα</erste-sprache><zweite-sprache>이름들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1124">
+  <vokabel-paar schritt="1123">
     <erste-sprache>διαδικασίες</erste-sprache><zweite-sprache>절차</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1124">
+  <vokabel-paar schritt="1123">
     <erste-sprache>διαδικασίες</erste-sprache><zweite-sprache>流程</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1125">
+  <vokabel-paar schritt="1124">
     <erste-sprache>πλήρως</erste-sprache><zweite-sprache>완전히</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1126">
+  <vokabel-paar schritt="1125">
     <erste-sprache>σβηστή</erste-sprache><zweite-sprache>꺼져 있어요</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1127">
+  <vokabel-paar schritt="1126">
     <erste-sprache>υποχρεώσεις</erste-sprache><zweite-sprache>의무</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1128">
+  <vokabel-paar schritt="1127">
     <erste-sprache>αιτία</erste-sprache><zweite-sprache>원인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1129">
+  <vokabel-paar schritt="1128">
     <erste-sprache>βάλε</erste-sprache><zweite-sprache>놓다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1130">
+  <vokabel-paar schritt="1129">
     <erste-sprache>μικρό</erste-sprache><zweite-sprache>작은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1130">
+  <vokabel-paar schritt="1129">
     <erste-sprache>μικρό</erste-sprache><zweite-sprache>사소한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1131">
+  <vokabel-paar schritt="1130">
     <erste-sprache>νέο</erste-sprache><zweite-sprache>새로운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1132">
+  <vokabel-paar schritt="1131">
     <erste-sprache>κοιτάζω</erste-sprache><zweite-sprache>보다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1133">
+  <vokabel-paar schritt="1132">
     <erste-sprache>λίγα</erste-sprache><zweite-sprache>작은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1134">
+  <vokabel-paar schritt="1133">
     <erste-sprache>χρήματα</erste-sprache><zweite-sprache>자금</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1134">
+  <vokabel-paar schritt="1133">
     <erste-sprache>χρήματα</erste-sprache><zweite-sprache>돈</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1135">
+  <vokabel-paar schritt="1134">
     <erste-sprache>παράδειγμα</erste-sprache><zweite-sprache>예시</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1136">
+  <vokabel-paar schritt="1135">
     <erste-sprache>υιοθέτηση</erste-sprache><zweite-sprache>입양</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1137">
+  <vokabel-paar schritt="1136">
     <erste-sprache>όροι</erste-sprache><zweite-sprache>조건</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1138">
+  <vokabel-paar schritt="1137">
     <erste-sprache>θέτω</erste-sprache><zweite-sprache>놓다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1139">
+  <vokabel-paar schritt="1138">
     <erste-sprache>ονομάζω</erste-sprache><zweite-sprache>불린</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1140">
+  <vokabel-paar schritt="1139">
     <erste-sprache>βελτίωση</erste-sprache><zweite-sprache>개선하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1140">
+  <vokabel-paar schritt="1139">
     <erste-sprache>βελτίωση</erste-sprache><zweite-sprache>향상시키다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1140">
+  <vokabel-paar schritt="1139">
     <erste-sprache>βελτίωση</erste-sprache><zweite-sprache>개선하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1141">
+  <vokabel-paar schritt="1140">
     <erste-sprache>συνεισφορές</erste-sprache><zweite-sprache>기여</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1142">
+  <vokabel-paar schritt="1141">
     <erste-sprache>απόκριση</erste-sprache><zweite-sprache>응답</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1143">
+  <vokabel-paar schritt="1142">
     <erste-sprache>κίνδυνος</erste-sprache><zweite-sprache>위험</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1144">
+  <vokabel-paar schritt="1143">
     <erste-sprache>άμεση</erste-sprache><zweite-sprache>직접적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1145">
+  <vokabel-paar schritt="1144">
     <erste-sprache>μόνος του</erste-sprache><zweite-sprache>혼자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1146">
+  <vokabel-paar schritt="1145">
     <erste-sprache>του οποίου</erste-sprache><zweite-sprache>누구의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1147">
+  <vokabel-paar schritt="1146">
     <erste-sprache>πραγματικός</erste-sprache><zweite-sprache>진짜</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1148">
+  <vokabel-paar schritt="1147">
     <erste-sprache>κρατώ</erste-sprache><zweite-sprache>유지하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1148">
+  <vokabel-paar schritt="1147">
     <erste-sprache>κρατώ</erste-sprache><zweite-sprache>보유하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1149">
+  <vokabel-paar schritt="1148">
     <erste-sprache>άμεσα</erste-sprache><zweite-sprache>직접적으로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1150">
+  <vokabel-paar schritt="1149">
     <erste-sprache>αποφασισμένος</erste-sprache><zweite-sprache>결정했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1151">
+  <vokabel-paar schritt="1150">
     <erste-sprache>υπουργείο</erste-sprache><zweite-sprache>사역</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1152">
+  <vokabel-paar schritt="1151">
     <erste-sprache>πύργος</erste-sprache><zweite-sprache>탑</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1153">
+  <vokabel-paar schritt="1152">
     <erste-sprache>διαφορετικό</erste-sprache><zweite-sprache>다른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1154">
+  <vokabel-paar schritt="1153">
     <erste-sprache>φαγητό</erste-sprache><zweite-sprache>음식</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1155">
+  <vokabel-paar schritt="1154">
     <erste-sprache>ΗΠΑ</erste-sprache><zweite-sprache>미국</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1156">
+  <vokabel-paar schritt="1155">
     <erste-sprache>ηπα</erste-sprache><zweite-sprache>미국</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1157">
+  <vokabel-paar schritt="1156">
     <erste-sprache>άλλη</erste-sprache><zweite-sprache>또 다른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1157">
+  <vokabel-paar schritt="1156">
     <erste-sprache>άλλη</erste-sprache><zweite-sprache>다른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1158">
+  <vokabel-paar schritt="1157">
     <erste-sprache>άλλος</erste-sprache><zweite-sprache>다른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1159">
+  <vokabel-paar schritt="1158">
     <erste-sprache>συμβουλευτική</erste-sprache><zweite-sprache>자문</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1159">
     <erste-sprache>εκ μέρους</erste-sprache><zweite-sprache>대신하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1161">
+  <vokabel-paar schritt="1160">
     <erste-sprache>ποσό</erste-sprache><zweite-sprache>금액</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1162">
+  <vokabel-paar schritt="1161">
     <erste-sprache>θα έχω</erste-sprache><zweite-sprache>가질 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1163">
+  <vokabel-paar schritt="1162">
     <erste-sprache>τρομοκρατία</erste-sprache><zweite-sprache>테러리즘</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1164">
+  <vokabel-paar schritt="1163">
     <erste-sprache>ανά</erste-sprache><zweite-sprache>당</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1165">
+  <vokabel-paar schritt="1164">
     <erste-sprache>βράδυ</erste-sprache><zweite-sprache>저녁</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1166">
+  <vokabel-paar schritt="1165">
     <erste-sprache>μάλλον</erste-sprache><zweite-sprache>오히려</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1166">
     <erste-sprache>μου αρέσει</erste-sprache><zweite-sprache>좋아하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1166">
     <erste-sprache>μου αρέσει</erste-sprache><zweite-sprache>좋아한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1168">
+  <vokabel-paar schritt="1167">
     <erste-sprache>μουσική</erste-sprache><zweite-sprache>음악</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1169">
+  <vokabel-paar schritt="1168">
     <erste-sprache>υπέρ</erste-sprache><zweite-sprache>찬성</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1170">
+  <vokabel-paar schritt="1169">
     <erste-sprache>αρέσει</erste-sprache><zweite-sprache>좋아하는 것</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1171">
+  <vokabel-paar schritt="1170">
     <erste-sprache>αξιολόγηση</erste-sprache><zweite-sprache>평가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1171">
     <erste-sprache>ολοκληρώθηκε</erste-sprache><zweite-sprache>완료</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1172">
     <erste-sprache>χιλιάδες</erste-sprache><zweite-sprache>천</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1172">
     <erste-sprache>χιλιάδες</erste-sprache><zweite-sprache>수천</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1174">
+  <vokabel-paar schritt="1173">
     <erste-sprache>οφείλεται</erste-sprache><zweite-sprache>기한이 지난</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1175">
+  <vokabel-paar schritt="1174">
     <erste-sprache>πρόσφατες</erste-sprache><zweite-sprache>최근의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1176">
+  <vokabel-paar schritt="1175">
     <erste-sprache>έλαβε</erste-sprache><zweite-sprache>받은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1176">
     <erste-sprache>σύντομα</erste-sprache><zweite-sprache>곧</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1176">
     <erste-sprache>σύντομα</erste-sprache><zweite-sprache>간략하게</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1178">
+  <vokabel-paar schritt="1177">
     <erste-sprache>παλιοί</erste-sprache><zweite-sprache>늙은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1179">
+  <vokabel-paar schritt="1178">
     <erste-sprache>προτιμώ</erste-sprache><zweite-sprache>선호하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1180">
+  <vokabel-paar schritt="1179">
     <erste-sprache>αμέσως</erste-sprache><zweite-sprache>즉시</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1181">
+  <vokabel-paar schritt="1180">
     <erste-sprache>δεύτερος</erste-sprache><zweite-sprache>두 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1182">
+  <vokabel-paar schritt="1181">
     <erste-sprache>στιγμιαίο</erste-sprache><zweite-sprache>즉각적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1183">
+  <vokabel-paar schritt="1182">
     <erste-sprache>πρόληψη</erste-sprache><zweite-sprache>예방</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1184">
+  <vokabel-paar schritt="1183">
     <erste-sprache>από όλους</erste-sprache><zweite-sprache>모든 것의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1185">
+  <vokabel-paar schritt="1184">
     <erste-sprache>σαφώς</erste-sprache><zweite-sprache>분명히</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1186">
+  <vokabel-paar schritt="1185">
     <erste-sprache>βρείτε</erste-sprache><zweite-sprache>찾다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1186">
     <erste-sprache>κεφάλι</erste-sprache><zweite-sprache>머리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1188">
+  <vokabel-paar schritt="1187">
     <erste-sprache>άντρες</erste-sprache><zweite-sprache>남자들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1189">
+  <vokabel-paar schritt="1188">
     <erste-sprache>επόμενος</erste-sprache><zweite-sprache>다음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1190">
+  <vokabel-paar schritt="1189">
     <erste-sprache>διάλογος</erste-sprache><zweite-sprache>대화</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1190">
     <erste-sprache>κοινό</erste-sprache><zweite-sprache>공통적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1190">
     <erste-sprache>κοινό</erste-sprache><zweite-sprache>흔한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1191">
     <erste-sprache>σπουδαίο</erste-sprache><zweite-sprache>훌륭한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1193">
+  <vokabel-paar schritt="1192">
     <erste-sprache>mademoiselle</erste-sprache><zweite-sprache>미스</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1194">
+  <vokabel-paar schritt="1193">
     <erste-sprache>ανατολικά</erste-sprache><zweite-sprache>동쪽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1194">
     <erste-sprache>ισότητα</erste-sprache><zweite-sprache>평등</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1195">
     <erste-sprache>βρέθηκε</erste-sprache><zweite-sprache>찾았다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1196">
     <erste-sprache>ΕΕ</erste-sprache><zweite-sprache>EU</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1198">
+  <vokabel-paar schritt="1197">
     <erste-sprache>ισχύει</erste-sprache><zweite-sprache>적용하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1199">
+  <vokabel-paar schritt="1198">
     <erste-sprache>δύσκολο</erste-sprache><zweite-sprache>어려운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1200">
+  <vokabel-paar schritt="1199">
     <erste-sprache>εσύ είσαι</erste-sprache><zweite-sprache>당신은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1200">
     <erste-sprache>μεταρρύθμιση</erste-sprache><zweite-sprache>개혁</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1202">
+  <vokabel-paar schritt="1201">
     <erste-sprache>πρωί</erste-sprache><zweite-sprache>아침</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1202">
     <erste-sprache>μόνιμα</erste-sprache><zweite-sprache>영구적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1203">
     <erste-sprache>υψηλό</erste-sprache><zweite-sprache>높은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1204">
     <erste-sprache>κοινωνία</erste-sprache><zweite-sprache>사회</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1206">
+  <vokabel-paar schritt="1205">
     <erste-sprache>ισχυροί</erste-sprache><zweite-sprache>강력한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1207">
+  <vokabel-paar schritt="1206">
     <erste-sprache>ισχυρό</erste-sprache><zweite-sprache>강한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1207">
     <erste-sprache>υψηλή</erste-sprache><zweite-sprache>높은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>θέματα</erste-sprache><zweite-sprache>문제들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>θέματα</erste-sprache><zweite-sprache>주제</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1210">
+  <vokabel-paar schritt="1209">
     <erste-sprache>εμπορία ανθρώπων</erste-sprache><zweite-sprache>인신매매</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1211">
+  <vokabel-paar schritt="1210">
     <erste-sprache>αποστολές</erste-sprache><zweite-sprache>임무</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1211">
     <erste-sprache>έγκλημα</erste-sprache><zweite-sprache>범죄</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1213">
+  <vokabel-paar schritt="1212">
     <erste-sprache>αιτήματα</erste-sprache><zweite-sprache>요청</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>αχ</erste-sprache><zweite-sprache>아</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1214">
     <erste-sprache>Γαλλικά</erste-sprache><zweite-sprache>프랑스어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1215">
     <erste-sprache>είμαστε</erste-sprache><zweite-sprache>는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1215">
     <erste-sprache>είμαστε</erste-sprache><zweite-sprache>우리는 ~이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1217">
+  <vokabel-paar schritt="1216">
     <erste-sprache>πρακτική</erste-sprache><zweite-sprache>실천하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1218">
+  <vokabel-paar schritt="1217">
     <erste-sprache>πρόβλημα</erste-sprache><zweite-sprache>문제</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1219">
+  <vokabel-paar schritt="1218">
     <erste-sprache>παιδί</erste-sprache><zweite-sprache>아이</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1219">
     <erste-sprache>γύρω από</erste-sprache><zweite-sprache>주변</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1219">
     <erste-sprache>γύρω από</erste-sprache><zweite-sprache>주변에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1221">
+  <vokabel-paar schritt="1220">
     <erste-sprache>κύριο</erste-sprache><zweite-sprache>주요</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1222">
+  <vokabel-paar schritt="1221">
     <erste-sprache>Ισπανικά</erste-sprache><zweite-sprache>스페인어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1223">
+  <vokabel-paar schritt="1222">
     <erste-sprache>προσφορές</erste-sprache><zweite-sprache>거래</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>ιστός</erste-sprache><zweite-sprache>웹</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1224">
     <erste-sprache>λαοί</erste-sprache><zweite-sprache>사람들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1225">
     <erste-sprache>βόρεια</erste-sprache><zweite-sprache>북쪽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1227">
+  <vokabel-paar schritt="1226">
     <erste-sprache>πράξεις</erste-sprache><zweite-sprache>행위</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1227">
     <erste-sprache>θεός</erste-sprache><zweite-sprache>하나님</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1228">
     <erste-sprache>Ευρώπη</erste-sprache><zweite-sprache>유럽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1230">
+  <vokabel-paar schritt="1229">
     <erste-sprache>γνωστός</erste-sprache><zweite-sprache>알려진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1230">
     <erste-sprache>μέχρι στιγμής</erste-sprache><zweite-sprache>지금까지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1231">
     <erste-sprache>γονείς</erste-sprache><zweite-sprache>부모님</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1233">
+  <vokabel-paar schritt="1232">
     <erste-sprache>θα είχαν</erste-sprache><zweite-sprache>가졌을 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1233">
     <erste-sprache>περάσει</erste-sprache><zweite-sprache>가는 중</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1234">
     <erste-sprache>εβδομάδες</erste-sprache><zweite-sprache>주</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1235">
     <erste-sprache>τρίτος</erste-sprache><zweite-sprache>세 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1236">
     <erste-sprache>επίτροπος</erste-sprache><zweite-sprache>위원</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1238">
+  <vokabel-paar schritt="1237">
     <erste-sprache>λέω</erste-sprache><zweite-sprache>내가 말한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1238">
     <erste-sprache>ιστότοπος</erste-sprache><zweite-sprache>사이트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1239">
     <erste-sprache>χρηματοδότηση</erste-sprache><zweite-sprache>자금 지원</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1239">
     <erste-sprache>χρηματοδότηση</erste-sprache><zweite-sprache>融资</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1241">
+  <vokabel-paar schritt="1240">
     <erste-sprache>διευθυντής</erste-sprache><zweite-sprache>이사</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1241">
     <erste-sprache>παραβιάσεις</erste-sprache><zweite-sprache>위반</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1242">
     <erste-sprache>αποτρέπουμε</erste-sprache><zweite-sprache>예방합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1243">
     <erste-sprache>συζήτηση</erste-sprache><zweite-sprache>토론</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1243">
     <erste-sprache>συζήτηση</erste-sprache><zweite-sprache>이야기하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1244">
     <erste-sprache>ομάδα</erste-sprache><zweite-sprache>그룹</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1244">
     <erste-sprache>ομάδα</erste-sprache><zweite-sprache>팀</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1245">
     <erste-sprache>μάτια</erste-sprache><zweite-sprache>눈</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1246">
     <erste-sprache>σκέφτομαι</erste-sprache><zweite-sprache>생각하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1247">
     <erste-sprache>οι περισσότεροι</erste-sprache><zweite-sprache>대부분의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1248">
     <erste-sprache>γράφω</erste-sprache><zweite-sprache>쓰다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1249">
     <erste-sprache>παρόλα αυτά</erste-sprache><zweite-sprache>그럼에도 불구하고</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1250">
     <erste-sprache>να γράψουμε</erste-sprache><zweite-sprache>쓰다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1251">
     <erste-sprache>συνεργάτες</erste-sprache><zweite-sprache>파트너</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1252">
     <erste-sprache>θεραπεία</erste-sprache><zweite-sprache>치료</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1254">
+  <vokabel-paar schritt="1253">
     <erste-sprache>πέτρα</erste-sprache><zweite-sprache>돌</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1255">
+  <vokabel-paar schritt="1254">
     <erste-sprache>υπουργός</erste-sprache><zweite-sprache>장관</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1255">
     <erste-sprache>όργανα</erste-sprache><zweite-sprache>도구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1256">
     <erste-sprache>Κύριε</erste-sprache><zweite-sprache>미스터</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1257">
     <erste-sprache>ορισμένοι</erste-sprache><zweite-sprache>특정한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>πράγμα</erste-sprache><zweite-sprache>사물</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>πράγμα</erste-sprache><zweite-sprache>것</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>πράγμα</erste-sprache><zweite-sprache>일</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1259">
     <erste-sprache>εύκολο</erste-sprache><zweite-sprache>쉬운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1260">
     <erste-sprache>στην αρχή</erste-sprache><zweite-sprache>처음에는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1261">
     <erste-sprache>κύριε</erste-sprache><zweite-sprache>선생님</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1262">
     <erste-sprache>Κύριος</erste-sprache><zweite-sprache>미스터</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1264">
+  <vokabel-paar schritt="1263">
     <erste-sprache>ετήσιο</erste-sprache><zweite-sprache>연간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1265">
+  <vokabel-paar schritt="1264">
     <erste-sprache>νιώθω</erste-sprache><zweite-sprache>나는 느낀다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1265">
     <erste-sprache>ημερομηνία</erste-sprache><zweite-sprache>날짜</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1265">
     <erste-sprache>ημερομηνία</erste-sprache><zweite-sprache>날짜가 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1266">
     <erste-sprache>υπεύθυνος</erste-sprache><zweite-sprache>책임 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1268">
+  <vokabel-paar schritt="1267">
     <erste-sprache>εξοπλισμός</erste-sprache><zweite-sprache>장비</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1268">
     <erste-sprache>παραγωγή</erste-sprache><zweite-sprache>생산</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1269">
     <erste-sprache>υλοποίηση</erste-sprache><zweite-sprache>시행하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1271">
+  <vokabel-paar schritt="1270">
     <erste-sprache>οργανωμένος</erste-sprache><zweite-sprache>조직된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1271">
     <erste-sprache>άτομα</erste-sprache><zweite-sprache>사람들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1271">
     <erste-sprache>άτομα</erste-sprache><zweite-sprache>개인들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1273">
+  <vokabel-paar schritt="1272">
     <erste-sprache>νομίζω</erste-sprache><zweite-sprache>생각하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1273">
+  <vokabel-paar schritt="1272">
     <erste-sprache>νομίζω</erste-sprache><zweite-sprache>내 생각엔</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1274">
+  <vokabel-paar schritt="1273">
     <erste-sprache>Βαυαρία</erste-sprache><zweite-sprache>바이에른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1274">
     <erste-sprache>Διαδίκτυο</erste-sprache><zweite-sprache>인터넷</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1276">
+  <vokabel-paar schritt="1275">
     <erste-sprache>φωναχτά</erste-sprache><zweite-sprache>시끄럽게</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1277">
+  <vokabel-paar schritt="1276">
     <erste-sprache>διαβάστε</erste-sprache><zweite-sprache>읽는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1278">
+  <vokabel-paar schritt="1277">
     <erste-sprache>σκηνοθεσία</erste-sprache><zweite-sprache>방향</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1279">
+  <vokabel-paar schritt="1278">
     <erste-sprache>τέλος</erste-sprache><zweite-sprache>마침내</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1279">
+  <vokabel-paar schritt="1278">
     <erste-sprache>τέλος</erste-sprache><zweite-sprache>끝</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1280">
+  <vokabel-paar schritt="1279">
     <erste-sprache>παρουσιάζει</erste-sprache><zweite-sprache>~을 제시한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1281">
+  <vokabel-paar schritt="1280">
     <erste-sprache>πρωτεύουσα</erste-sprache><zweite-sprache>자본</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1281">
+  <vokabel-paar schritt="1280">
     <erste-sprache>πρωτεύουσα</erste-sprache><zweite-sprache>수도</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1282">
+  <vokabel-paar schritt="1281">
     <erste-sprache>κλπ</erste-sprache><zweite-sprache>등등</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1283">
+  <vokabel-paar schritt="1282">
     <erste-sprache>ξέρετε</erste-sprache><zweite-sprache>너희는 안다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1284">
+  <vokabel-paar schritt="1283">
     <erste-sprache>απόδοση</erste-sprache><zweite-sprache>성능</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1284">
     <erste-sprache>ημέρες</erste-sprache><zweite-sprache>일</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>διευκολύνουμε</erste-sprache><zweite-sprache>용이하게 합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1287">
+  <vokabel-paar schritt="1286">
     <erste-sprache>σημειώσεις</erste-sprache><zweite-sprache>메모</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1287">
     <erste-sprache>κεντρικός</erste-sprache><zweite-sprache>중앙의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1288">
     <erste-sprache>επίσημος</erste-sprache><zweite-sprache>공식적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1290">
+  <vokabel-paar schritt="1289">
     <erste-sprache>στοχευμένος</erste-sprache><zweite-sprache>목표로 하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1291">
+  <vokabel-paar schritt="1290">
     <erste-sprache>επαρκής</erste-sprache><zweite-sprache>적절한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>σύμφωνα με</erste-sprache><zweite-sprache>따라서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>σύμφωνα με</erste-sprache><zweite-sprache>~에 따르면</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1292">
     <erste-sprache>βιβλίο</erste-sprache><zweite-sprache>책</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1293">
     <erste-sprache>νωρίτερα</erste-sprache><zweite-sprache>이전에는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1294">
     <erste-sprache>τοις εκατό</erste-sprache><zweite-sprache>퍼센트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1295">
     <erste-sprache>γιος</erste-sprache><zweite-sprache>아들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1297">
+  <vokabel-paar schritt="1296">
     <erste-sprache>διασκέδαση</erste-sprache><zweite-sprache>재미</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>σχηματίζει</erste-sprache><zweite-sprache>형태를 갖습니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1299">
+  <vokabel-paar schritt="1298">
     <erste-sprache>γνώση</erste-sprache><zweite-sprache>지식</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1299">
     <erste-sprache>υποστηρίζεται</erste-sprache><zweite-sprache>지원되는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1300">
     <erste-sprache>ικανός</erste-sprache><zweite-sprache>가능한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>εγκεκριμένο</erste-sprache><zweite-sprache>승인된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1303">
+  <vokabel-paar schritt="1302">
     <erste-sprache>νόμοι</erste-sprache><zweite-sprache>법률</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1303">
     <erste-sprache>συγγραφέας</erste-sprache><zweite-sprache>저자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1304">
     <erste-sprache>πολύ καιρός</erste-sprache><zweite-sprache>오랜 시간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1306">
+  <vokabel-paar schritt="1305">
     <erste-sprache>επιτρέπει</erste-sprache><zweite-sprache>허용하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1306">
     <erste-sprache>βοηθάμε</erste-sprache><zweite-sprache>지원합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1307">
     <erste-sprache>κορίτσια</erste-sprache><zweite-sprache>소녀들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1308">
     <erste-sprache>σοβαρός</erste-sprache><zweite-sprache>심각한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1310">
+  <vokabel-paar schritt="1309">
     <erste-sprache>φέρνει</erste-sprache><zweite-sprache>~을 가져온다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1311">
+  <vokabel-paar schritt="1310">
     <erste-sprache>εισόδημα</erste-sprache><zweite-sprache>소득</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1312">
+  <vokabel-paar schritt="1311">
     <erste-sprache>ηλικία</erste-sprache><zweite-sprache>나이</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>κατανόηση</erste-sprache><zweite-sprache>이해</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1314">
+  <vokabel-paar schritt="1313">
     <erste-sprache>καταστατικό</erste-sprache><zweite-sprache>헌장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1314">
     <erste-sprache>μεγαλύτερη</erste-sprache><zweite-sprache>더 큰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1315">
     <erste-sprache>ομοσπονδία</erste-sprache><zweite-sprache>연합</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1316">
     <erste-sprache>αφήνω</erste-sprache><zweite-sprache>떠나다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>προτάσεις</erste-sprache><zweite-sprache>제안</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1318">
     <erste-sprache>εφαρμόστηκε</erste-sprache><zweite-sprache>실행된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1319">
     <erste-sprache>κάθε</erste-sprache><zweite-sprache>각각의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1319">
     <erste-sprache>κάθε</erste-sprache><zweite-sprache>모든</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1321">
+  <vokabel-paar schritt="1320">
     <erste-sprache>δική</erste-sprache><zweite-sprache>자신의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1322">
+  <vokabel-paar schritt="1321">
     <erste-sprache>μορφή</erste-sprache><zweite-sprache>형태</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1322">
     <erste-sprache>ψεύδεται</erste-sprache><zweite-sprache>거짓말하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1323">
     <erste-sprache>Αυστρία</erste-sprache><zweite-sprache>오스트리아</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1324">
     <erste-sprache>ίσο</erste-sprache><zweite-sprache>동등한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1326">
+  <vokabel-paar schritt="1325">
     <erste-sprache>ρυθμίσεις</erste-sprache><zweite-sprache>준비</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>κείμενο</erste-sprache><zweite-sprache>텍스트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1327">
     <erste-sprache>κάνοντας</erste-sprache><zweite-sprache>만드는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1328">
     <erste-sprache>Αγγλικά</erste-sprache><zweite-sprache>영어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1330">
+  <vokabel-paar schritt="1329">
     <erste-sprache>πόνος</erste-sprache><zweite-sprache>고통</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1330">
     <erste-sprache>πιθανοί</erste-sprache><zweite-sprache>잠재력 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>εμπειρογνώμονες</erste-sprache><zweite-sprache>전문가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>που μεταφέρθηκε</erste-sprache><zweite-sprache>운반된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1333">
     <erste-sprache>μερικές φορές</erste-sprache><zweite-sprache>때때로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1335">
+  <vokabel-paar schritt="1334">
     <erste-sprache>υπερβολική</erste-sprache><zweite-sprache>슈퍼</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1336">
+  <vokabel-paar schritt="1335">
     <erste-sprache>επιλογή</erste-sprache><zweite-sprache>선거</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1336">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>큰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1336">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>대규모</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1337">
     <erste-sprache>μεγάλοι</erste-sprache><zweite-sprache>큰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>γραφεία</erste-sprache><zweite-sprache>사무실</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1339">
     <erste-sprache>ξένο</erste-sprache><zweite-sprache>외국인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1340">
     <erste-sprache>που αναλήφθηκε</erste-sprache><zweite-sprache>취업한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1342">
+  <vokabel-paar schritt="1341">
     <erste-sprache>δηλωμένο</erste-sprache><zweite-sprache>언급된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1342">
     <erste-sprache>επηρεασμένος</erste-sprache><zweite-sprache>영향을 받은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1343">
     <erste-sprache>κατευθυντήριες γραμμές</erste-sprache><zweite-sprache>지침</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1344">
     <erste-sprache>αμφιβολία</erste-sprache><zweite-sprache>의심</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>σύνοδος κορυφής</erste-sprache><zweite-sprache>峰会</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>ανάπτυξη</erste-sprache><zweite-sprache>개발</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>ανάπτυξη</erste-sprache><zweite-sprache>개발 중인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>ανάπτυξη</erste-sprache><zweite-sprache>개발하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>ανάπτυξη</erste-sprache><zweite-sprache>성장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>ακολουθήστε</erste-sprache><zweite-sprache>따라서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1348">
     <erste-sprache>φίλους</erste-sprache><zweite-sprache>친구들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>οδηγεί</erste-sprache><zweite-sprache>이끌다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>αναζήτηση</erste-sprache><zweite-sprache>검색</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1351">
     <erste-sprache>ψήφος</erste-sprache><zweite-sprache>投票</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>μελέτη</erste-sprache><zweite-sprache>研究</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1353">
     <erste-sprache>ενημερωμένος</erste-sprache><zweite-sprache>知情的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>ισραηλινός</erste-sprache><zweite-sprache>以色列</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>εγκαταστάσεις</erste-sprache><zweite-sprache>设施</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1356">
     <erste-sprache>συγγνώμη</erste-sprache><zweite-sprache>抱歉</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>θεμελιώδες</erste-sprache><zweite-sprache>基本的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>οικοδόμηση</erste-sprache><zweite-sprache>建设</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>πτυχές</erste-sprache><zweite-sprache>方面</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>μηχανισμός</erste-sprache><zweite-sprache>机制</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1361">
     <erste-sprache>πολυάριθμο</erste-sprache><zweite-sprache>수많은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1362">
     <erste-sprache>πολυάριθμοι</erste-sprache><zweite-sprache>수많은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>κονγκό</erste-sprache><zweite-sprache>刚果</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1364">
     <erste-sprache>σχηματίζουμε</erste-sprache><zweite-sprache>我们形成</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1365">
     <erste-sprache>πενήντα</erste-sprache><zweite-sprache>五十</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>ανταλλαγή</erste-sprache><zweite-sprache>交流</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1367">
     <erste-sprache>ανεξάρτητος</erste-sprache><zweite-sprache>独立的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1368">
     <erste-sprache>πλήρης</erste-sprache><zweite-sprache>전체</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>Σεπτέμβριος</erste-sprache><zweite-sprache>9월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1370">
     <erste-sprache>φόβος</erste-sprache><zweite-sprache>두려움</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>με αυτόν τον τρόπο</erste-sprache><zweite-sprache>따라서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1372">
     <erste-sprache>επιτυχία</erste-sprache><zweite-sprache>성공</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>τοποθεσία</erste-sprache><zweite-sprache>위치</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>τοποθεσία</erste-sprache><zweite-sprache>사이트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1374">
     <erste-sprache>τρέχει</erste-sprache><zweite-sprache>실행한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1375">
     <erste-sprache>πλήρες</erste-sprache><zweite-sprache>가득 찬</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1376">
     <erste-sprache>αγροτικός</erste-sprache><zweite-sprache>农村的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>συνέβη</erste-sprache><zweite-sprache>일어났다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>περιορισμένος</erste-sprache><zweite-sprache>有限的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1379">
     <erste-sprache>κλίμα</erste-sprache><zweite-sprache>气候</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1380">
     <erste-sprache>αντιπροσωπείες</erste-sprache><zweite-sprache>代表团</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>αποδεικτικά στοιχεία</erste-sprache><zweite-sprache>증거</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1382">
     <erste-sprache>κλείνουμε</erste-sprache><zweite-sprache>닫는다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1383">
     <erste-sprache>θεμέλιο</erste-sprache><zweite-sprache>바닥</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>μέτρο</erste-sprache><zweite-sprache>측정하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>προς το παρόν</erste-sprache><zweite-sprache>현재</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1386">
     <erste-sprache>εντός</erste-sprache><zweite-sprache>~안에 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1387">
     <erste-sprache>θάνατος</erste-sprache><zweite-sprache>죽음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1388">
     <erste-sprache>να παίρνει</erste-sprache><zweite-sprache>가져간다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1389">
     <erste-sprache>ΟΚ</erste-sprache><zweite-sprache>괜찮다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>puro</erste-sprache><zweite-sprache>순수하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>νέοι</erste-sprache><zweite-sprache>젊은이들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>νέοι</erste-sprache><zweite-sprache>새로운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>νέοι</erste-sprache><zweite-sprache>젊은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1392">
     <erste-sprache>εξουσία</erste-sprache><zweite-sprache>권한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1393">
     <erste-sprache>διαπραγματεύσεις</erste-sprache><zweite-sprache>협상</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1394">
     <erste-sprache>πραγματικοί</erste-sprache><zweite-sprache>실제</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>επιθυμία</erste-sprache><zweite-sprache>욕망</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1396">
     <erste-sprache>αιώνας</erste-sprache><zweite-sprache>세기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1397">
     <erste-sprache>βγαίνει έξω</erste-sprache><zweite-sprache>나가다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>εργαζόμενοι</erste-sprache><zweite-sprache>노동자들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>διατηρώ</erste-sprache><zweite-sprache>유지하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1400">
     <erste-sprache>υποβάλλουμε</erste-sprache><zweite-sprache>제출한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>προς τα εμπρός</erste-sprache><zweite-sprache>앞으로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>νους</erste-sprache><zweite-sprache>마음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>εμείς πειράζουμε</erste-sprache><zweite-sprache>우리는 신경 쓴다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1404">
     <erste-sprache>σας πειράζει</erste-sprache><zweite-sprache>당신은 신경 쓰나요?</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1405">
     <erste-sprache>Μάρτιος</erste-sprache><zweite-sprache>3월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1406">
     <erste-sprache>με κάποιο τρόπο</erste-sprache><zweite-sprache>어떻게든</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1407">
     <erste-sprache>ως επί το πλείστον</erste-sprache><zweite-sprache>대부분</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>παρά το ότι</erste-sprache><zweite-sprache>그럼에도 불구하고</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>ξεχνάμε</erste-sprache><zweite-sprache>잊는다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1410">
     <erste-sprache>παρά</erste-sprache><zweite-sprache>그럼에도 불구하고</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1411">
     <erste-sprache>δεν μπορούν</erste-sprache><zweite-sprache>할 수 없다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>φέρει</erste-sprache><zweite-sprache>운반하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>υπόλοιπο</erste-sprache><zweite-sprache>나머지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1414">
     <erste-sprache>στροφή</erste-sprache><zweite-sprache>돌리다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>αναγνωρισμένοι</erste-sprache><zweite-sprache>인식된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>οντότητες</erste-sprache><zweite-sprache>실체</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>αξιωματούχοι</erste-sprache><zweite-sprache>공무원</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>αξιωματούχοι</erste-sprache><zweite-sprache>담당관</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1418">
     <erste-sprache>αναφερόμενοι</erste-sprache><zweite-sprache>언급된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1419">
     <erste-sprache>λειτουργίες</erste-sprache><zweite-sprache>기능</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1420">
     <erste-sprache>κώδικας</erste-sprache><zweite-sprache>코드</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>γαλλικό</erste-sprache><zweite-sprache>프랑스어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>κόμμα</erste-sprache><zweite-sprache>당사자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>κόμμα</erste-sprache><zweite-sprache>당</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1423">
     <erste-sprache>ηγούμαστε</erste-sprache><zweite-sprache>이끈다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1424">
     <erste-sprache>της δικής σας</erste-sprache><zweite-sprache>당신의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>ομοίως</erste-sprache><zweite-sprache>마찬가지로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1426">
     <erste-sprache>αγοράζουμε</erste-sprache><zweite-sprache>산다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>μαθαίνουμε</erste-sprache><zweite-sprache>배운다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1428">
     <erste-sprache>γνώμη</erste-sprache><zweite-sprache>의견</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
+  <vokabel-paar schritt="1429">
     <erste-sprache>μιλούμε</erste-sprache><zweite-sprache>이야기한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>πλευρές</erste-sprache><zweite-sprache>측면</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>δεύτερο</erste-sprache><zweite-sprache>두 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>μάθηση</erste-sprache><zweite-sprache>배우다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1433">
     <erste-sprache>το κάνω</erste-sprache><zweite-sprache>하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1434">
     <erste-sprache>ανησυχίες</erste-sprache><zweite-sprache>우려</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>πράγματα</erste-sprache><zweite-sprache>사물들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>σίγουρο</erste-sprache><zweite-sprache>확실한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1437">
     <erste-sprache>εγκλήματα</erste-sprache><zweite-sprache>범죄</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1438">
     <erste-sprache>Ιαπωνία</erste-sprache><zweite-sprache>일본</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>κρατάει</erste-sprache><zweite-sprache>보유한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1440">
     <erste-sprache>νέος</erste-sprache><zweite-sprache>젊은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1441">
     <erste-sprache>στιγμή</erste-sprache><zweite-sprache>순간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>παιχνίδια</erste-sprache><zweite-sprache>게임</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>παιχνίδια</erste-sprache><zweite-sprache>연주한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>κακά</erste-sprache><zweite-sprache>나쁜</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1444">
     <erste-sprache>κακό</erste-sprache><zweite-sprache>나쁜</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>άτυπη</erste-sprache><zweite-sprache>비공식적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1446">
     <erste-sprache>προσωρινή</erste-sprache><zweite-sprache>임시적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1447">
     <erste-sprache>μονάδα</erste-sprache><zweite-sprache>단위</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1448">
     <erste-sprache>επικοινωνίες</erste-sprache><zweite-sprache>통신</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1449">
     <erste-sprache>λύπη</erste-sprache><zweite-sprache>슬픔</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1450">
     <erste-sprache>ταυτοποίησε</erste-sprache><zweite-sprache>확인했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>πορεία</erste-sprache><zweite-sprache>3월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1452">
     <erste-sprache>Αύγουστος</erste-sprache><zweite-sprache>8월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1453">
     <erste-sprache>πιστεύουμε</erste-sprache><zweite-sprache>믿습니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>εικόνες</erste-sprache><zweite-sprache>사진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1455">
     <erste-sprache>μέση</erste-sprache><zweite-sprache>중간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1456">
     <erste-sprache>Νοέμβριος</erste-sprache><zweite-sprache>11월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>μέσος</erste-sprache><zweite-sprache>중간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1458">
     <erste-sprache>υποδομές</erste-sprache><zweite-sprache>인프라</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1460">
+  <vokabel-paar schritt="1459">
     <erste-sprache>προετοιμασία</erste-sprache><zweite-sprache>준비</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>πρώην</erste-sprache><zweite-sprache>이전</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>πρώην</erste-sprache><zweite-sprache>전</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1461">
     <erste-sprache>έδαφος</erste-sprache><zweite-sprache>영토</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1461">
     <erste-sprache>έδαφος</erste-sprache><zweite-sprache>땅</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>ευχαρίστηση</erste-sprache><zweite-sprache>즐거움</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>ευχαρίστηση</erste-sprache><zweite-sprache>기쁨</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1463">
     <erste-sprache>προϊόντα</erste-sprache><zweite-sprache>제품</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>σκοποί</erste-sprache><zweite-sprache>목적</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1466">
+  <vokabel-paar schritt="1465">
     <erste-sprache>άφησε το</erste-sprache><zweite-sprache>떠났다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1467">
+  <vokabel-paar schritt="1466">
     <erste-sprache>Απρίλιος</erste-sprache><zweite-sprache>4월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1467">
     <erste-sprache>χώρος</erste-sprache><zweite-sprache>공간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>δικό σου</erste-sprache><zweite-sprache>네 것</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1469">
     <erste-sprache>κάποιο</erste-sprache><zweite-sprache>몇몇</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1469">
     <erste-sprache>κάποιο</erste-sprache><zweite-sprache>일부</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>φίλη</erste-sprache><zweite-sprache>여자친구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1472">
+  <vokabel-paar schritt="1471">
     <erste-sprache>μιλεί</erste-sprache><zweite-sprache>말한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>ελπίδα</erste-sprache><zweite-sprache>희망</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>ενεργοποιούμε</erste-sprache><zweite-sprache>가능하게 한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>πρωτογενής</erste-sprache><zweite-sprache>주요</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1476">
+  <vokabel-paar schritt="1475">
     <erste-sprache>λευκό</erste-sprache><zweite-sprache>흰색</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1477">
+  <vokabel-paar schritt="1476">
     <erste-sprache>ζω</erste-sprache><zweite-sprache>살다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1478">
+  <vokabel-paar schritt="1477">
     <erste-sprache>κράτηση</erste-sprache><zweite-sprache>구금</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1479">
+  <vokabel-paar schritt="1478">
     <erste-sprache>Ιούνιος</erste-sprache><zweite-sprache>6월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>Ιούλιος</erste-sprache><zweite-sprache>7월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1481">
+  <vokabel-paar schritt="1480">
     <erste-sprache>Οκτώβριος</erste-sprache><zweite-sprache>10월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1482">
+  <vokabel-paar schritt="1481">
     <erste-sprache>άλλο</erste-sprache><zweite-sprache>다른</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1482">
     <erste-sprache>παίρνει</erste-sprache><zweite-sprache>얻는다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1483">
     <erste-sprache>τους συνδέσμους</erste-sprache><zweite-sprache>링크</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>δηλαδή</erste-sprache><zweite-sprache>즉</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>δημιουργεί</erste-sprache><zweite-sprache>만들다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>ορίζει</erste-sprache><zweite-sprache>설정하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1488">
+  <vokabel-paar schritt="1487">
     <erste-sprache>πόρος</erste-sprache><zweite-sprache>자원</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1489">
+  <vokabel-paar schritt="1488">
     <erste-sprache>παράγραφοι</erste-sprache><zweite-sprache>단락</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1490">
+  <vokabel-paar schritt="1489">
     <erste-sprache>ειδικός</erste-sprache><zweite-sprache>전문가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>ένταξη</erste-sprache><zweite-sprache>통합</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>δικαστική</erste-sprache><zweite-sprache>사법</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1493">
+  <vokabel-paar schritt="1492">
     <erste-sprache>μία φορά</erste-sprache><zweite-sprache>한 번</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>χαμηλή</erste-sprache><zweite-sprache>낮은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>απόψεις</erste-sprache><zweite-sprache>견해</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>απόψεις</erste-sprache><zweite-sprache>의견</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>συνεδρίες</erste-sprache><zweite-sprache>회의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>ανάκληση</erste-sprache><zweite-sprache>회상</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>μνήμη</erste-sprache><zweite-sprache>기억</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1498">
     <erste-sprache>ελπίζω</erste-sprache><zweite-sprache>희망하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1498">
     <erste-sprache>ελπίζω</erste-sprache><zweite-sprache>나는 바란다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>θετική</erste-sprache><zweite-sprache>긍정적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1501">
+  <vokabel-paar schritt="1500">
     <erste-sprache>αριθμός μας</erste-sprache><zweite-sprache>숫자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>ακούμε</erste-sprache><zweite-sprache>우리가 듣는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>ταυτόχρονα</erste-sprache><zweite-sprache>동시에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>μεγαλύτερος</erste-sprache><zweite-sprache>더 큰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1505">
+  <vokabel-paar schritt="1504">
     <erste-sprache>δυνατότητα</erste-sprache><zweite-sprache>가능성</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1505">
     <erste-sprache>Ελβετία</erste-sprache><zweite-sprache>스위스</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1507">
+  <vokabel-paar schritt="1506">
     <erste-sprache>το οποίο</erste-sprache><zweite-sprache>어떤</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1508">
+  <vokabel-paar schritt="1507">
     <erste-sprache>ακούω</erste-sprache><zweite-sprache>듣다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1509">
+  <vokabel-paar schritt="1508">
     <erste-sprache>κορεά</erste-sprache><zweite-sprache>한국</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1510">
+  <vokabel-paar schritt="1509">
     <erste-sprache>οργανισμός</erste-sprache><zweite-sprache>기관</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1510">
     <erste-sprache>έφερε</erste-sprache><zweite-sprache>가져왔다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>ώρες</erste-sprache><zweite-sprache>시간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1513">
+  <vokabel-paar schritt="1512">
     <erste-sprache>υψηλότερες</erste-sprache><zweite-sprache>더 높은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>παλαιότερα</erste-sprache><zweite-sprache>나이 든</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>μειώνουμε</erste-sprache><zweite-sprache>줄입니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>επιτρέπουμε</erste-sprache><zweite-sprache>허용합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>χρησιμοποιώντας</erste-sprache><zweite-sprache>사용</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1517">
     <erste-sprache>επόμενο</erste-sprache><zweite-sprache>다음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1519">
+  <vokabel-paar schritt="1518">
     <erste-sprache>πέφτει</erste-sprache><zweite-sprache>떨어진다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1520">
+  <vokabel-paar schritt="1519">
     <erste-sprache>άφησε</erste-sprache><zweite-sprache>허락했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1521">
+  <vokabel-paar schritt="1520">
     <erste-sprache>καλοκαιρινή</erste-sprache><zweite-sprache>여름</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1521">
     <erste-sprache>διαμέρισμά μας</erste-sprache><zweite-sprache>아파트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>νούμερο</erste-sprache><zweite-sprache>숫자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>αναθεώρησε</erste-sprache><zweite-sprache>수정했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1525">
+  <vokabel-paar schritt="1524">
     <erste-sprache>εκστρατεία</erste-sprache><zweite-sprache>선거 운동</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1526">
+  <vokabel-paar schritt="1525">
     <erste-sprache>δημοφιλές</erste-sprache><zweite-sprache>인기 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>επόμενα</erste-sprache><zweite-sprache>다가오는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>περιουσιακά στοιχεία</erste-sprache><zweite-sprache>자산</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1529">
+  <vokabel-paar schritt="1528">
     <erste-sprache>πληρούσε τις απαιτήσεις</erste-sprache><zweite-sprache>충족했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>εταιρείες</erste-sprache><zweite-sprache>회사들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1530">
     <erste-sprache>δωρεάν</erste-sprache><zweite-sprache>무료</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>καταστάσεις</erste-sprache><zweite-sprache>상황</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1533">
+  <vokabel-paar schritt="1532">
     <erste-sprache>σύνταγμα</erste-sprache><zweite-sprache>헌법</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1533">
     <erste-sprache>γλώσσα</erste-sprache><zweite-sprache>언어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1535">
+  <vokabel-paar schritt="1534">
     <erste-sprache>χάθηκε</erste-sprache><zweite-sprache>잃어버린</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1535">
     <erste-sprache>είναι σοφός</erste-sprache><zweite-sprache>그는 현명하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>με τον τρόπο</erste-sprache><zweite-sprache>방법적으로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1537">
     <erste-sprache>παρεμπιπτόντως</erste-sprache><zweite-sprache>그런데</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>πολιτικός</erste-sprache><zweite-sprache>민간인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>πολιτικός</erste-sprache><zweite-sprache>정치인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>πολιτικός</erste-sprache><zweite-sprache>정치적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1539">
     <erste-sprache>σε όλη τη διάρκεια</erste-sprache><zweite-sprache>전반적으로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1541">
+  <vokabel-paar schritt="1540">
     <erste-sprache>ευπρόσδεκτοι</erste-sprache><zweite-sprache>환영받은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1541">
     <erste-sprache>σύνδεσμος</erste-sprache><zweite-sprache>링크</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1543">
+  <vokabel-paar schritt="1542">
     <erste-sprache>θάλασσα</erste-sprache><zweite-sprache>바다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1544">
+  <vokabel-paar schritt="1543">
     <erste-sprache>πηγή</erste-sprache><zweite-sprache>출처</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>καθοδήγηση</erste-sprache><zweite-sprache>지침</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1546">
+  <vokabel-paar schritt="1545">
     <erste-sprache>πίνακας</erste-sprache><zweite-sprache>표</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1546">
     <erste-sprache>συζητήσεις</erste-sprache><zweite-sprache>토론</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1547">
     <erste-sprache>προηγούμενα</erste-sprache><zweite-sprache>이전</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>μπάντα</erste-sprache><zweite-sprache>밴드</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>αργά</erste-sprache><zweite-sprache>천천히</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>αργά</erste-sprache><zweite-sprache>늦은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1551">
+  <vokabel-paar schritt="1550">
     <erste-sprache>παίκτες</erste-sprache><zweite-sprache>플레이어들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>κακός</erste-sprache><zweite-sprache>가난한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1552">
     <erste-sprache>χρέος</erste-sprache><zweite-sprache>부채</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>αποτελεσματικότητα</erste-sprache><zweite-sprache>효율성</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1555">
+  <vokabel-paar schritt="1554">
     <erste-sprache>όρος</erste-sprache><zweite-sprache>용어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1556">
+  <vokabel-paar schritt="1555">
     <erste-sprache>Θητεία</erste-sprache><zweite-sprache>집권 기간</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1557">
+  <vokabel-paar schritt="1556">
     <erste-sprache>κοπή</erste-sprache><zweite-sprache>자르다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>αυλή</erste-sprache><zweite-sprache>안뜰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1558">
     <erste-sprache>οι περισσότερες</erste-sprache><zweite-sprache>대부분의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1559">
     <erste-sprache>μελέτες</erste-sprache><zweite-sprache>연구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>διάφορες</erste-sprache><zweite-sprache>다양한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>μέσα ενημέρωσης</erste-sprache><zweite-sprache>미디어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1563">
+  <vokabel-paar schritt="1562">
     <erste-sprache>εξήγησε</erste-sprache><zweite-sprache>설명된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>αίσθηση</erste-sprache><zweite-sprache>느낌</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>αίσθηση</erste-sprache><zweite-sprache>감각</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1564">
     <erste-sprache>ίδιο</erste-sprache><zweite-sprache>같은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>τρέχω</erste-sprache><zweite-sprache>달리는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>τηλεόραση</erste-sprache><zweite-sprache>TV</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>τηλεόραση</erste-sprache><zweite-sprache>텔레비전</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1567">
     <erste-sprache>συνεχίζεται</erste-sprache><zweite-sprache>계속되는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1567">
     <erste-sprache>συνεχίζεται</erste-sprache><zweite-sprache>계속된다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>τραβάω</erste-sprache><zweite-sprache>끌어당기는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>εξηγεί</erste-sprache><zweite-sprache>설명한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>αγαπητέ μου</erste-sprache><zweite-sprache>친애하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1572">
+  <vokabel-paar schritt="1571">
     <erste-sprache>αγαπητέή μου</erste-sprache><zweite-sprache>친애하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1573">
+  <vokabel-paar schritt="1572">
     <erste-sprache>δίκτυο</erste-sprache><zweite-sprache>네트워크</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>δεκέμβριος</erste-sprache><zweite-sprache>12월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1575">
+  <vokabel-paar schritt="1574">
     <erste-sprache>μήνες</erste-sprache><zweite-sprache>개월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>φτιαγμένο</erste-sprache><zweite-sprache>만든</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>να είναι</erste-sprache><zweite-sprache>있다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>να είναι</erste-sprache><zweite-sprache>이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1577">
     <erste-sprache>υπέροχο</erste-sprache><zweite-sprache>훌륭한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1579">
+  <vokabel-paar schritt="1578">
     <erste-sprache>σύγκριση</erste-sprache><zweite-sprache>비교</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>προσπαθώ</erste-sprache><zweite-sprache>노력합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1580">
     <erste-sprache>φορώ</erste-sprache><zweite-sprache>입다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1581">
     <erste-sprache>τραγούδι</erste-sprache><zweite-sprache>노래</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1583">
+  <vokabel-paar schritt="1582">
     <erste-sprache>φτάνει</erste-sprache><zweite-sprache>도착하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>ορισμένα</erste-sprache><zweite-sprache>특정한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>πριν</erste-sprache><zweite-sprache>~전에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>πριν</erste-sprache><zweite-sprache>이전에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>πριν</erste-sprache><zweite-sprache>전에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>πριν</erste-sprache><zweite-sprache>이전</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>Ιανουάριος</erste-sprache><zweite-sprache>1월</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1587">
+  <vokabel-paar schritt="1586">
     <erste-sprache>ανήκω</erste-sprache><zweite-sprache>소속되다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>καρδιά</erste-sprache><zweite-sprache>마음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>καρδιά</erste-sprache><zweite-sprache>심장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>κοντά</erste-sprache><zweite-sprache>근접성</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>κοντά</erste-sprache><zweite-sprache>근처</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1590">
+  <vokabel-paar schritt="1589">
     <erste-sprache>π.χ.</erste-sprache><zweite-sprache>예시</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>Κογκρέσο</erste-sprache><zweite-sprache>의회</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1592">
+  <vokabel-paar schritt="1591">
     <erste-sprache>υπήρχε</erste-sprache><zweite-sprache>거기에 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>δραστηριότητα</erste-sprache><zweite-sprache>활동</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1593">
     <erste-sprache>Αμερικανική</erste-sprache><zweite-sprache>미국</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1594">
     <erste-sprache>λειτουργία</erste-sprache><zweite-sprache>기능</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1595">
     <erste-sprache>καταραμένος</erste-sprache><zweite-sprache>젠장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1596">
     <erste-sprache>δεδομένα</erste-sprache><zweite-sprache>데이터</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1598">
+  <vokabel-paar schritt="1597">
     <erste-sprache>λάθος σου</erste-sprache><zweite-sprache>틀린</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1598">
     <erste-sprache>φωτογραφία</erste-sprache><zweite-sprache>사진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1599">
     <erste-sprache>πολιτισμός</erste-sprache><zweite-sprache>문화</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>βασιλιάς</erste-sprache><zweite-sprache>왕</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1602">
+  <vokabel-paar schritt="1601">
     <erste-sprache>αέρας</erste-sprache><zweite-sprache>공기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1603">
+  <vokabel-paar schritt="1602">
     <erste-sprache>λύση</erste-sprache><zweite-sprache>해결책</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1603">
     <erste-sprache>όμορφη</erste-sprache><zweite-sprache>아름다운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1603">
     <erste-sprache>όμορφη</erste-sprache><zweite-sprache>멋진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1605">
+  <vokabel-paar schritt="1604">
     <erste-sprache>φωνή</erste-sprache><zweite-sprache>목소리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1605">
     <erste-sprache>τρόποι</erste-sprache><zweite-sprache>방법들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1607">
+  <vokabel-paar schritt="1606">
     <erste-sprache>θέλουμε</erste-sprache><zweite-sprache>우리는 원한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1607">
     <erste-sprache>ανώτερος</erste-sprache><zweite-sprache>우월한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1609">
+  <vokabel-paar schritt="1608">
     <erste-sprache>υποτίθεται</erste-sprache><zweite-sprache>추정되는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>ανακοίνωση</erste-sprache><zweite-sprache>공지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1610">
     <erste-sprache>ταξινόμηση</erste-sprache><zweite-sprache>출구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1611">
     <erste-sprache>πληροφορίες</erste-sprache><zweite-sprache>정보</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1612">
     <erste-sprache>κατάσταση</erste-sprache><zweite-sprache>상황</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1612">
     <erste-sprache>κατάσταση</erste-sprache><zweite-sprache>지위</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1614">
+  <vokabel-paar schritt="1613">
     <erste-sprache>παρακάτω</erste-sprache><zweite-sprache>아래</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1615">
+  <vokabel-paar schritt="1614">
     <erste-sprache>Γαλλία</erste-sprache><zweite-sprache>프랑스</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1616">
+  <vokabel-paar schritt="1615">
     <erste-sprache>κριτική</erste-sprache><zweite-sprache>비판</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1617">
+  <vokabel-paar schritt="1616">
     <erste-sprache>νεότερο</erste-sprache><zweite-sprache>더 새로운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1618">
+  <vokabel-paar schritt="1617">
     <erste-sprache>ταιριάζει</erste-sprache><zweite-sprache>맞다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>μαύρο</erste-sprache><zweite-sprache>검은색</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1620">
+  <vokabel-paar schritt="1619">
     <erste-sprache>σετ</erste-sprache><zweite-sprache>설정하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1620">
+  <vokabel-paar schritt="1619">
     <erste-sprache>σετ</erste-sprache><zweite-sprache>설정</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>βάζοντας</erste-sprache><zweite-sprache>놓는 중</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1622">
+  <vokabel-paar schritt="1621">
     <erste-sprache>βάζει</erste-sprache><zweite-sprache>놓다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1622">
     <erste-sprache>εδάφους</erste-sprache><zweite-sprache>땅</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1624">
+  <vokabel-paar schritt="1623">
     <erste-sprache>αναμονή</erste-sprache><zweite-sprache>기다리는 중</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1624">
     <erste-sprache>στόμα</erste-sprache><zweite-sprache>입</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1626">
+  <vokabel-paar schritt="1625">
     <erste-sprache>είσοδος</erste-sprache><zweite-sprache>입구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1627">
+  <vokabel-paar schritt="1626">
     <erste-sprache>μέσος όρος</erste-sprache><zweite-sprache>평균</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1627">
     <erste-sprache>πραγματικότητα</erste-sprache><zweite-sprache>현실</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1629">
+  <vokabel-paar schritt="1628">
     <erste-sprache>μέλη</erste-sprache><zweite-sprache>회원들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1629">
     <erste-sprache>πληθυσμός</erste-sprache><zweite-sprache>인구</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>όργανο</erste-sprache><zweite-sprache>몸</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>μέσα σε αυτό</erste-sprache><zweite-sprache>그 안에</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1632">
     <erste-sprache>Γερμανική</erste-sprache><zweite-sprache>독일</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>γραμμένο</erste-sprache><zweite-sprache>쓰여진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1634">
     <erste-sprache>νίκη</erste-sprache><zweite-sprache>승리하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1634">
     <erste-sprache>νίκη</erste-sprache><zweite-sprache>승리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1635">
     <erste-sprache>υψηλός</erste-sprache><zweite-sprache>높은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1637">
+  <vokabel-paar schritt="1636">
     <erste-sprache>μικρότερος</erste-sprache><zweite-sprache>더 작은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>κύκλος</erste-sprache><zweite-sprache>원</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1638">
     <erste-sprache>νέα</erste-sprache><zweite-sprache>뉴스</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1638">
     <erste-sprache>νέα</erste-sprache><zweite-sprache>새로운</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1640">
+  <vokabel-paar schritt="1639">
     <erste-sprache>ομιλία</erste-sprache><zweite-sprache>연설</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1641">
+  <vokabel-paar schritt="1640">
     <erste-sprache>σώμα</erste-sprache><zweite-sprache>몸</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>ακτή</erste-sprache><zweite-sprache>해안</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>καθημερινά</erste-sprache><zweite-sprache>매일</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1643">
     <erste-sprache>θα υπάρχει</erste-sprache><zweite-sprache>있을 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1645">
+  <vokabel-paar schritt="1644">
     <erste-sprache>γενικά</erste-sprache><zweite-sprache>일반</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1645">
     <erste-sprache>ανοιχτό</erste-sprache><zweite-sprache>열린</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1646">
     <erste-sprache>αγορά</erste-sprache><zweite-sprache>市场</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1646">
     <erste-sprache>αγορά</erste-sprache><zweite-sprache>사다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>για παράδειγμα</erste-sprache><zweite-sprache>예를 들어</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>πόζαρε</erste-sprache><zweite-sprache>포즈했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>εν τω μεταξύ</erste-sprache><zweite-sprache>한편</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1650">
     <erste-sprache>μήνας</erste-sprache><zweite-sprache>달리기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>δεξιά</erste-sprache><zweite-sprache>오른쪽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1652">
     <erste-sprache>μερικώς</erste-sprache><zweite-sprache>부분적으로</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ούτε</erste-sprache><zweite-sprache>둘 다 아니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ούτε</erste-sprache><zweite-sprache>또한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>πολιτικοί</erste-sprache><zweite-sprache>정치인들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1655">
     <erste-sprache>όπλιση</erste-sprache><zweite-sprache>팔</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1657">
+  <vokabel-paar schritt="1656">
     <erste-sprache>μάρκα</erste-sprache><zweite-sprache>브랜드</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1658">
+  <vokabel-paar schritt="1657">
     <erste-sprache>χάνω</erste-sprache><zweite-sprache>잃다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>σημαίνει</erste-sprache><zweite-sprache>의미</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>σημαίνει</erste-sprache><zweite-sprache>의미하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1659">
     <erste-sprache>FC</erste-sprache><zweite-sprache>축구 클럽</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1660">
     <erste-sprache>ακολουθώντας</erste-sprache><zweite-sprache>따라하는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>άρεσε</erste-sprache><zweite-sprache>좋아했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1663">
+  <vokabel-paar schritt="1662">
     <erste-sprache>σπάνια</erste-sprache><zweite-sprache>드물게</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1664">
+  <vokabel-paar schritt="1663">
     <erste-sprache>εφημερίδα</erste-sprache><zweite-sprache>신문</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1665">
+  <vokabel-paar schritt="1664">
     <erste-sprache>πρώτα</erste-sprache><zweite-sprache>첫 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>πρόεδρος</erste-sprache><zweite-sprache>대통령</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>πρόεδρος</erste-sprache><zweite-sprache>의장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
+  <vokabel-paar schritt="1666">
     <erste-sprache>έργο</erste-sprache><zweite-sprache>프로젝트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>πήρε</erste-sprache><zweite-sprache>가져갔다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1669">
+  <vokabel-paar schritt="1668">
     <erste-sprache>εμπειρία</erste-sprache><zweite-sprache>경험</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1669">
     <erste-sprache>ένδειξη</erste-sprache><zweite-sprache>단서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1670">
     <erste-sprache>πολίτης</erste-sprache><zweite-sprache>시민</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>εξηγώ</erste-sprache><zweite-sprache>설명합니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>είπα</erste-sprache><zweite-sprache>말했습니다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>είπα</erste-sprache><zweite-sprache>내가 말했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1673">
     <erste-sprache>βαθμός</erste-sprache><zweite-sprache>학위</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>μέγιστος</erste-sprache><zweite-sprache>가장 위대한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1675">
     <erste-sprache>αθλητισμός</erste-sprache><zweite-sprache>스포츠</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>έκανα</erste-sprache><zweite-sprache>하고 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>έκανα</erste-sprache><zweite-sprache>내가 했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1677">
     <erste-sprache>πολίτες</erste-sprache><zweite-sprache>시민들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>μεταδίδεται</erste-sprache><zweite-sprache>방송</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1679">
     <erste-sprache>μαθήματα</erste-sprache><zweite-sprache>수업</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>τηλέφωνο</erste-sprache><zweite-sprache>전화</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>τηλέφωνο</erste-sprache><zweite-sprache>폰</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1681">
     <erste-sprache>μόνος</erste-sprache><zweite-sprache>혼자</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>πίεση</erste-sprache><zweite-sprache>압력</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>πίεση</erste-sprache><zweite-sprache>누르다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>λείπει</erste-sprache><zweite-sprache>실종된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1684">
     <erste-sprache>ακριβώς όπως</erste-sprache><zweite-sprache>마치 ~처럼</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>κύριοι</erste-sprache><zweite-sprache>신사들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1686">
     <erste-sprache>ακούει</erste-sprache><zweite-sprache>듣다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1687">
     <erste-sprache>όσο μακριά</erste-sprache><zweite-sprache>지금까지</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>Σαββατοκύριακο</erste-sprache><zweite-sprache>주말</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1689">
     <erste-sprache>σχόλια</erste-sprache><zweite-sprache>댓글</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>δίκτυα</erste-sprache><zweite-sprache>네트워크</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>ξέρουμε</erste-sprache><zweite-sprache>우리는 안다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>σεξ</erste-sprache><zweite-sprache>성관계</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>άφιξη</erste-sprache><zweite-sprache>도착하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>άφιξη</erste-sprache><zweite-sprache>도착</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>καθήκον</erste-sprache><zweite-sprache>의무</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1695">
     <erste-sprache>θα είναι σε θέση να</erste-sprache><zweite-sprache>할 수 있을 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>αποφύγει</erste-sprache><zweite-sprache>피하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1697">
     <erste-sprache>παρέχει</erste-sprache><zweite-sprache>제공하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1698">
     <erste-sprache>αναμενόμενο</erste-sprache><zweite-sprache>예상되는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>τρίτο</erste-sprache><zweite-sprache>세 번째</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1700">
     <erste-sprache>πτώση</erste-sprache><zweite-sprache>떨어지다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>φθινόπωρο</erste-sprache><zweite-sprache>가을</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1702">
     <erste-sprache>πάω</erste-sprache><zweite-sprache>가다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>θα έπρεπε να</erste-sprache><zweite-sprache>해야 할 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1704">
     <erste-sprache>έκανε ένα βήμα</erste-sprache><zweite-sprache>한 걸음 내디뎠다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>ένα βήμα</erste-sprache><zweite-sprache>한 걸음</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>διαθεσιμότητα</erste-sprache><zweite-sprache>성향</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1707">
     <erste-sprache>φύγω</erste-sprache><zweite-sprache>떠나다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1708">
     <erste-sprache>φεύγω</erste-sprache><zweite-sprache>떠나다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1709">
     <erste-sprache>θα υπήρχε</erste-sprache><zweite-sprache>있을 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>νησί</erste-sprache><zweite-sprache>섬</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>μισώ</erste-sprache><zweite-sprache>증오하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>άκρη</erste-sprache><zweite-sprache>가장자리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1713">
     <erste-sprache>πόσο</erste-sprache><zweite-sprache>얼마나</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>γεγονότα</erste-sprache><zweite-sprache>사실</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>θα κάνω</erste-sprache><zweite-sprache>할 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>ευτυχισμένος</erste-sprache><zweite-sprache>행복한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>αίμα</erste-sprache><zweite-sprache>피</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>πόλεις</erste-sprache><zweite-sprache>도시들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>γραμμή</erste-sprache><zweite-sprache>라인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>φύση</erste-sprache><zweite-sprache>自然</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>προσφορά</erste-sprache><zweite-sprache>제안하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1722">
     <erste-sprache>παρέμεινε</erste-sprache><zweite-sprache>남아 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1723">
     <erste-sprache>κάλεσε</erste-sprache><zweite-sprache>전화했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1724">
     <erste-sprache>βοηθά</erste-sprache><zweite-sprache>도움이 된다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>κορυφή</erste-sprache><zweite-sprache>최고</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1726">
     <erste-sprache>αλήθεια</erste-sprache><zweite-sprache>진실</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1727">
     <erste-sprache>ήξερα</erste-sprache><zweite-sprache>알았다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1728">
     <erste-sprache>κινηματογράφος</erste-sprache><zweite-sprache>영화관</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1729">
     <erste-sprache>βιομηχανία</erste-sprache><zweite-sprache>산업</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>βραβείο</erste-sprache><zweite-sprache>상</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>από τώρα και στο εξής</erste-sprache><zweite-sprache>지금부터</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>φρέσκο</erste-sprache><zweite-sprache>신선한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1733">
     <erste-sprache>βιβλία</erste-sprache><zweite-sprache>책들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>θυμάμαι</erste-sprache><zweite-sprache>회상하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>σύνολο</erste-sprache><zweite-sprache>세트</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>σύνολο</erste-sprache><zweite-sprache>총계</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>πρόταση</erste-sprache><zweite-sprache>문장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>πρόταση</erste-sprache><zweite-sprache>제안</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1737">
     <erste-sprache>ήχοι</erste-sprache><zweite-sprache>소리가 난다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1738">
     <erste-sprache>σύντομος</erste-sprache><zweite-sprache>짧은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1739">
     <erste-sprache>Παρίσι</erste-sprache><zweite-sprache>파리</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1740">
     <erste-sprache>κόκκινο</erste-sprache><zweite-sprache>빨간색</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1741">
     <erste-sprache>Θα ήθελα</erste-sprache><zweite-sprache>원한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>πρωτότυπο</erste-sprache><zweite-sprache>원본</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>επανάσταση</erste-sprache><zweite-sprache>혁명</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1744">
     <erste-sprache>νεκρός</erste-sprache><zweite-sprache>죽은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>αναπτυγμένο</erste-sprache><zweite-sprache>개발된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>ορισμένος</erste-sprache><zweite-sprache>지정된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1747">
     <erste-sprache>είτε</erste-sprache><zweite-sprache>둘 중 하나</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1748">
     <erste-sprache>φωτογραφίες</erste-sprache><zweite-sprache>사진</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1749">
     <erste-sprache>εκλεγμένος</erste-sprache><zweite-sprache>선출된</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1750">
     <erste-sprache>κύκλους</erste-sprache><zweite-sprache>둥근</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1751">
     <erste-sprache>ένας γύρος</erste-sprache><zweite-sprache>둥근</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>부분들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>장소들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>당사자들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>παρόμοιο</erste-sprache><zweite-sprache>비슷한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1754">
     <erste-sprache>ψυχή</erste-sprache><zweite-sprache>영혼</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1755">
     <erste-sprache>ψάχνει για</erste-sprache><zweite-sprache>찾고 있다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1756">
     <erste-sprache>περνώντας</erste-sprache><zweite-sprache>지나가는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1757">
     <erste-sprache>θέσεις εργασίας</erste-sprache><zweite-sprache>직업</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>μικρός</erste-sprache><zweite-sprache>작은</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1759">
     <erste-sprache>απόδειξη</erste-sprache><zweite-sprache>증거</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1760">
     <erste-sprache>φυλακή</erste-sprache><zweite-sprache>감옥</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1761">
     <erste-sprache>νόμου</erste-sprache><zweite-sprache>법이라도</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1762">
     <erste-sprache>πρώιμος</erste-sprache><zweite-sprache>초기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1763">
     <erste-sprache>αποφασίζω</erste-sprache><zweite-sprache>결정하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>Παρασκευή</erste-sprache><zweite-sprache>금요일</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1765">
     <erste-sprache>οπωσδήποτε</erste-sprache><zweite-sprache>어쨌든</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1766">
     <erste-sprache>νωρίς</erste-sprache><zweite-sprache>초기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>δώρο</erste-sprache><zweite-sprache>선물</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>έθνος</erste-sprache><zweite-sprache>국가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1769">
     <erste-sprache>επαγγελματίας</erste-sprache><zweite-sprache>전문가</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1770">
     <erste-sprache>βλέπεις</erste-sprache><zweite-sprache>너 보다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>επίθεση</erste-sprache><zweite-sprache>공격하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>επίθεση</erste-sprache><zweite-sprache>공격</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1772">
     <erste-sprache>βία</erste-sprache><zweite-sprache>폭력</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1773">
     <erste-sprache>αποτελέσματα</erste-sprache><zweite-sprache>결과</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1774">
     <erste-sprache>πρόσφυγες</erste-sprache><zweite-sprache>난민</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>κίνημα</erste-sprache><zweite-sprache>움직임</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1776">
     <erste-sprache>γάμος</erste-sprache><zweite-sprache>결혼 생활</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1777">
     <erste-sprache>έμπειρος</erste-sprache><zweite-sprache>경험이 있는</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1778">
     <erste-sprache>ακολουθεί</erste-sprache><zweite-sprache>따르다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>είχα</erste-sprache><zweite-sprache>가지고 있었다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>είχα</erste-sprache><zweite-sprache>나는 가졌다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1780">
     <erste-sprache>πηγαίνω</erste-sprache><zweite-sprache>잘못되고 있다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1781">
     <erste-sprache>έπαιξα</erste-sprache><zweite-sprache>연주했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1782">
     <erste-sprache>χρυσός</erste-sprache><zweite-sprache>금</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1783">
     <erste-sprache>βρέθηκα</erste-sprache><zweite-sprache>찾았다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1784">
     <erste-sprache>κάθισα</erste-sprache><zweite-sprache>앉다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>πόρτα</erste-sprache><zweite-sprache>문</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1786">
     <erste-sprache>συμπεριφέρομαι</erste-sprache><zweite-sprache>행동하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>έναρξη</erste-sprache><zweite-sprache>시작하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1788">
     <erste-sprache>ομοσπονδιακό</erste-sprache><zweite-sprache>연방</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1789">
     <erste-sprache>νύχτες</erste-sprache><zweite-sprache>밤</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1790">
     <erste-sprache>προγράμματα</erste-sprache><zweite-sprache>프로그램</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1791">
     <erste-sprache>κυρία</erste-sprache><zweite-sprache>숙녀</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>όνειρο</erste-sprache><zweite-sprache>꿈</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1793">
     <erste-sprache>κάτοικοι</erste-sprache><zweite-sprache>주민들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>φυσική</erste-sprache><zweite-sprache>신체적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1795">
     <erste-sprache>ραντεβού</erste-sprache><zweite-sprache>만남</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1796">
     <erste-sprache>μοναδικό</erste-sprache><zweite-sprache>독특한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1797">
     <erste-sprache>πώληση</erste-sprache><zweite-sprache>판매</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1798">
     <erste-sprache>ενεργές</erste-sprache><zweite-sprache>활동적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1799">
     <erste-sprache>ζώα</erste-sprache><zweite-sprache>동물들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1800">
     <erste-sprache>στιγμές</erste-sprache><zweite-sprache>순간들</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>τέλειο</erste-sprache><zweite-sprache>완벽한</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>έφτασε</erste-sprache><zweite-sprache>도착했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>κώλος</erste-sprache><zweite-sprache>엉덩이</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1804">
     <erste-sprache>εκλογές</erste-sprache><zweite-sprache>선거</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1805">
     <erste-sprache>έφτασα</erste-sprache><zweite-sprache>도착했다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>καριέρα</erste-sprache><zweite-sprache>경력</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1807">
     <erste-sprache>λένε</erste-sprache><zweite-sprache>그들이 말한다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1808">
     <erste-sprache>διαγωνισμός</erste-sprache><zweite-sprache>경쟁</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>κριτής</erste-sprache><zweite-sprache>판사</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1811">
+  <vokabel-paar schritt="1810">
     <erste-sprache>άνοιγμα</erste-sprache><zweite-sprache>개장</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1811">
     <erste-sprache>βάρος</erste-sprache><zweite-sprache>무게</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1812">
     <erste-sprache>επιτυχής</erste-sprache><zweite-sprache>성공적인</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1813">
     <erste-sprache>εξυπηρετεί</erste-sprache><zweite-sprache>제공하다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1815">
+  <vokabel-paar schritt="1814">
     <erste-sprache>μέγεθος</erste-sprache><zweite-sprache>크기</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1816">
+  <vokabel-paar schritt="1815">
     <erste-sprache>χωριό</erste-sprache><zweite-sprache>마을</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1817">
+  <vokabel-paar schritt="1816">
     <erste-sprache>θα έλεγα</erste-sprache><zweite-sprache>말할 것이다</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1818">
+  <vokabel-paar schritt="1817">
     <erste-sprache>Ελβετικό</erste-sprache><zweite-sprache>스위스</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1819">
+  <vokabel-paar schritt="1818">
     <erste-sprache>κρατά</erste-sprache><zweite-sprache>보유한다</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Italian</erste-sprache-name>
-  <zweite-sprache-name>Japanese</zweite-sprache-name>
+  <erste-sprache-name>Italiano</erste-sprache-name>
+  <zweite-sprache-name>日本語</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italian-Japanese) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italiano-日本語) -->
   <vokabel-paar schritt="1">
     <erste-sprache>Ciao</erste-sprache><zweite-sprache>こんにちは</zweite-sprache>
   </vokabel-paar>

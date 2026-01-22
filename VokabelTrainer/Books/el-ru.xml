@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Greek</erste-sprache-name>
-  <zweite-sprache-name>Russian</zweite-sprache-name>
+  <erste-sprache-name>Ελληνικά</erste-sprache-name>
+  <zweite-sprache-name>Русский</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Greek-Russian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Ελληνικά-Русский) -->
   <vokabel-paar schritt="1">
     <erste-sprache>γεια</erste-sprache><zweite-sprache>привет</zweite-sprache>
   </vokabel-paar>
@@ -117,7 +117,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>αυτού</erste-sprache><zweite-sprache>ей</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="22">
-    <erste-sprache>αυτήν</erste-sprache><zweite-sprache>она</zweite-sprache>
+    <erste-sprache>αυτήν</erste-sprache><zweite-sprache>ей</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="23">
     <erste-sprache>ευχαριστώ</erste-sprache><zweite-sprache>спасибо</zweite-sprache>
@@ -498,7 +498,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>υπέρ</erste-sprache><zweite-sprache>про</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="123">
-    <erste-sprache>Δρ</erste-sprache><zweite-sprache>Доктор</zweite-sprache>
+    <erste-sprache>Δρ</erste-sprache><zweite-sprache>доктор</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="124">
     <erste-sprache>πρακτική</erste-sprache><zweite-sprache>практика</zweite-sprache>
@@ -733,9 +733,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="191">
     <erste-sprache>ένα</erste-sprache><zweite-sprache>одного</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="191">
-    <erste-sprache>ένα</erste-sprache><zweite-sprache>человек</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="191">
     <erste-sprache>ένα</erste-sprache><zweite-sprache>одному</zweite-sprache>
@@ -4653,2202 +4650,2199 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>γυναίκες</erste-sprache><zweite-sprache>женщины</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1191">
-    <erste-sprache>της</erste-sprache><zweite-sprache>она</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1192">
     <erste-sprache>τοπικό</erste-sprache><zweite-sprache>местный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1193">
+  <vokabel-paar schritt="1192">
     <erste-sprache>εμπόριο</erste-sprache><zweite-sprache>торговля</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1194">
+  <vokabel-paar schritt="1193">
     <erste-sprache>το έκανε</erste-sprache><zweite-sprache>он сделал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1194">
     <erste-sprache>ζωή</erste-sprache><zweite-sprache>жизнь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1194">
     <erste-sprache>ζωή</erste-sprache><zweite-sprache>жить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1195">
     <erste-sprache>ταμείο</erste-sprache><zweite-sprache>фонд</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1196">
     <erste-sprache>ακόμα και</erste-sprache><zweite-sprache>даже</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1198">
+  <vokabel-paar schritt="1197">
     <erste-sprache>επτά</erste-sprache><zweite-sprache>семь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1199">
+  <vokabel-paar schritt="1198">
     <erste-sprache>όμορφο</erste-sprache><zweite-sprache>красивый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1200">
+  <vokabel-paar schritt="1199">
     <erste-sprache>αν και</erste-sprache><zweite-sprache>хотя</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1200">
     <erste-sprache>Ευρωπαϊκά</erste-sprache><zweite-sprache>европейская</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1202">
+  <vokabel-paar schritt="1201">
     <erste-sprache>σημειωμένο</erste-sprache><zweite-sprache>взятый на заметку</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1202">
     <erste-sprache>διεύθυνση</erste-sprache><zweite-sprache>адрес</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1203">
     <erste-sprache>σημασία</erste-sprache><zweite-sprache>важность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1203">
     <erste-sprache>σημασία</erste-sprache><zweite-sprache>смысл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1204">
     <erste-sprache>εννοώντας</erste-sprache><zweite-sprache>смысл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1206">
+  <vokabel-paar schritt="1205">
     <erste-sprache>ανθρωπιστικό</erste-sprache><zweite-sprache>гуманитарный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1207">
+  <vokabel-paar schritt="1206">
     <erste-sprache>θεωρείται</erste-sprache><zweite-sprache>рассмотренный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1207">
     <erste-sprache>είδος</erste-sprache><zweite-sprache>вид</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1207">
     <erste-sprache>είδος</erste-sprache><zweite-sprache>виды</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>γρήγορα</erste-sprache><zweite-sprache>быстро</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>γρήγορα</erste-sprache><zweite-sprache>быстрая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1210">
+  <vokabel-paar schritt="1209">
     <erste-sprache>με βάση</erste-sprache><zweite-sprache>основанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1211">
+  <vokabel-paar schritt="1210">
     <erste-sprache>αντιπροσωπεία</erste-sprache><zweite-sprache>делегация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1211">
     <erste-sprache>ένωση</erste-sprache><zweite-sprache>союз</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1211">
     <erste-sprache>ένωση</erste-sprache><zweite-sprache>ассоциация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1213">
+  <vokabel-paar schritt="1212">
     <erste-sprache>μπορούμε</erste-sprache><zweite-sprache>мы можем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>ακόμα</erste-sprache><zweite-sprache>все ещё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>ακόμα</erste-sprache><zweite-sprache>ещё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1214">
     <erste-sprache>συσκευή</erste-sprache><zweite-sprache>устройство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1214">
     <erste-sprache>συσκευή</erste-sprache><zweite-sprache>электроприбор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1215">
     <erste-sprache>ιερός</erste-sprache><zweite-sprache>святой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1217">
+  <vokabel-paar schritt="1216">
     <erste-sprache>έγγραφο</erste-sprache><zweite-sprache>документ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1218">
+  <vokabel-paar schritt="1217">
     <erste-sprache>πλευρά</erste-sprache><zweite-sprache>сторона</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1219">
+  <vokabel-paar schritt="1218">
     <erste-sprache>λίγο</erste-sprache><zweite-sprache>немного</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1219">
     <erste-sprache>επιτροπές</erste-sprache><zweite-sprache>органы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1221">
+  <vokabel-paar schritt="1220">
     <erste-sprache>φορείς</erste-sprache><zweite-sprache>органы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1222">
+  <vokabel-paar schritt="1221">
     <erste-sprache>συγκεκριμένο</erste-sprache><zweite-sprache>конкретный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1223">
+  <vokabel-paar schritt="1222">
     <erste-sprache>αγάπη</erste-sprache><zweite-sprache>любовь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>отдел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>секция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>отсек</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>τμήμα</erste-sprache><zweite-sprache>отделение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1224">
     <erste-sprache>μέλλον</erste-sprache><zweite-sprache>будущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1224">
     <erste-sprache>μέλλον</erste-sprache><zweite-sprache>будущее</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1225">
     <erste-sprache>γη</erste-sprache><zweite-sprache>земля</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1227">
+  <vokabel-paar schritt="1226">
     <erste-sprache>πηγαίνουν</erste-sprache><zweite-sprache>они идут</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1227">
     <erste-sprache>λέμε</erste-sprache><zweite-sprache>говорим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1227">
     <erste-sprache>λέμε</erste-sprache><zweite-sprache>говорят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1228">
     <erste-sprache>στρατιωτικό</erste-sprache><zweite-sprache>военные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1230">
+  <vokabel-paar schritt="1229">
     <erste-sprache>περνάει</erste-sprache><zweite-sprache>проходит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1230">
     <erste-sprache>αρχές</erste-sprache><zweite-sprache>госучреждения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1230">
     <erste-sprache>αρχές</erste-sprache><zweite-sprache>принципы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1231">
     <erste-sprache>τετράγωνο</erste-sprache><zweite-sprache>площадь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1233">
+  <vokabel-paar schritt="1232">
     <erste-sprache>ευνοϊκή</erste-sprache><zweite-sprache>предпочтение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1233">
     <erste-sprache>νότος</erste-sprache><zweite-sprache>юг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1234">
     <erste-sprache>επιχειρήσεις</erste-sprache><zweite-sprache>операции</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1234">
     <erste-sprache>επιχειρήσεις</erste-sprache><zweite-sprache>бизнес</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1235">
     <erste-sprache>αλλού</erste-sprache><zweite-sprache>в другом месте</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1236">
     <erste-sprache>επιπλέον</erste-sprache><zweite-sprache>дополнительные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1236">
     <erste-sprache>επιπλέον</erste-sprache><zweite-sprache>более того</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1238">
+  <vokabel-paar schritt="1237">
     <erste-sprache>προσθήκη</erste-sprache><zweite-sprache>дополнение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1238">
     <erste-sprache>αν όχι</erste-sprache><zweite-sprache>если не</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1239">
     <erste-sprache>ιδιαίτερα</erste-sprache><zweite-sprache>конкретный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1239">
     <erste-sprache>ιδιαίτερα</erste-sprache><zweite-sprache>особенно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1241">
+  <vokabel-paar schritt="1240">
     <erste-sprache>να το πάρουμε</erste-sprache><zweite-sprache>взять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1241">
     <erste-sprache>ποιου</erste-sprache><zweite-sprache>чей</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1242">
     <erste-sprache>εντολή</erste-sprache><zweite-sprache>мандат</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1243">
     <erste-sprache>περιέχονται</erste-sprache><zweite-sprache>содержащийся</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1244">
     <erste-sprache>αλλαγή</erste-sprache><zweite-sprache>изменение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1244">
     <erste-sprache>αλλαγή</erste-sprache><zweite-sprache>измененять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1245">
     <erste-sprache>σημασία έχει</erste-sprache><zweite-sprache>дела</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1246">
     <erste-sprache>προσέγγιση</erste-sprache><zweite-sprache>подход</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1247">
     <erste-sprache>προσοχή</erste-sprache><zweite-sprache>внимание</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1248">
     <erste-sprache>αίτημα</erste-sprache><zweite-sprache>запрос</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1249">
     <erste-sprache>έργα</erste-sprache><zweite-sprache>проекты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1249">
     <erste-sprache>έργα</erste-sprache><zweite-sprache>работает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1250">
     <erste-sprache>έλαβα</erste-sprache><zweite-sprache>получил</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1251">
     <erste-sprache>παιχνίδι</erste-sprache><zweite-sprache>играть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1251">
     <erste-sprache>παιχνίδι</erste-sprache><zweite-sprache>игра</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1252">
     <erste-sprache>εμφανίστηκαν</erste-sprache><zweite-sprache>видел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1254">
+  <vokabel-paar schritt="1253">
     <erste-sprache>Ευρώ</erste-sprache><zweite-sprache>евро</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1255">
+  <vokabel-paar schritt="1254">
     <erste-sprache>δει</erste-sprache><zweite-sprache>видели</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1255">
     <erste-sprache>ευρώ</erste-sprache><zweite-sprache>евро</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1256">
     <erste-sprache>μπορείτε</erste-sprache><zweite-sprache>ты можешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1256">
     <erste-sprache>μπορείτε</erste-sprache><zweite-sprache>можешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1257">
     <erste-sprache>οικογένεια</erste-sprache><zweite-sprache>семья</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>πήγαινε</erste-sprache><zweite-sprache>шёл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1259">
     <erste-sprache>διακρίσεις</erste-sprache><zweite-sprache>дискриминация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1260">
     <erste-sprache>δύναμη</erste-sprache><zweite-sprache>сила</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1260">
     <erste-sprache>δύναμη</erste-sprache><zweite-sprache>власть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1260">
     <erste-sprache>δύναμη</erste-sprache><zweite-sprache>силе</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1261">
     <erste-sprache>άνδρες</erste-sprache><zweite-sprache>мужчины</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1262">
     <erste-sprache>κανόνες</erste-sprache><zweite-sprache>правила</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1264">
+  <vokabel-paar schritt="1263">
     <erste-sprache>δικό</erste-sprache><zweite-sprache>собственные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1265">
+  <vokabel-paar schritt="1264">
     <erste-sprache>ευρύ</erste-sprache><zweite-sprache>широко</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1265">
     <erste-sprache>δεν μπορούσε</erste-sprache><zweite-sprache>не мог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1266">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>мониторинг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1266">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>смотреть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1266">
     <erste-sprache>παρακολούθηση</erste-sprache><zweite-sprache>отслеживание</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1268">
+  <vokabel-paar schritt="1267">
     <erste-sprache>πίστη</erste-sprache><zweite-sprache>вера</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1268">
     <erste-sprache>πιστεύω</erste-sprache><zweite-sprache>верю</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1268">
     <erste-sprache>πιστεύω</erste-sprache><zweite-sprache>верить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1269">
     <erste-sprache>λεπτά</erste-sprache><zweite-sprache>минуты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1271">
+  <vokabel-paar schritt="1270">
     <erste-sprache>πηγαίνετε</erste-sprache><zweite-sprache>ты идёшь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1271">
     <erste-sprache>ενίσχυση</erste-sprache><zweite-sprache>укрепить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1271">
     <erste-sprache>ενίσχυση</erste-sprache><zweite-sprache>укрепление</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1273">
+  <vokabel-paar schritt="1272">
     <erste-sprache>αναφορά</erste-sprache><zweite-sprache>репортажи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1273">
+  <vokabel-paar schritt="1272">
     <erste-sprache>αναφορά</erste-sprache><zweite-sprache>ссылка</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1274">
+  <vokabel-paar schritt="1273">
     <erste-sprache>διασυνοριακός</erste-sprache><zweite-sprache>меж</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1274">
     <erste-sprache>παράρτημα</erste-sprache><zweite-sprache>присоединиться</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1276">
+  <vokabel-paar schritt="1275">
     <erste-sprache>και τα δύο</erste-sprache><zweite-sprache>оба</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1276">
+  <vokabel-paar schritt="1275">
     <erste-sprache>και τα δύο</erste-sprache><zweite-sprache>и</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1277">
+  <vokabel-paar schritt="1276">
     <erste-sprache>εννέα</erste-sprache><zweite-sprache>девять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1278">
+  <vokabel-paar schritt="1277">
     <erste-sprache>εκτός από αυτό</erste-sprache><zweite-sprache>кроме того</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1279">
+  <vokabel-paar schritt="1278">
     <erste-sprache>βρίσκει</erste-sprache><zweite-sprache>находит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1280">
+  <vokabel-paar schritt="1279">
     <erste-sprache>δυστυχώς</erste-sprache><zweite-sprache>к сожалению</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1281">
+  <vokabel-paar schritt="1280">
     <erste-sprache>έπρεπε να</erste-sprache><zweite-sprache>пришлось</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1282">
+  <vokabel-paar schritt="1281">
     <erste-sprache>διαδικτυακά</erste-sprache><zweite-sprache>онлайн</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1283">
+  <vokabel-paar schritt="1282">
     <erste-sprache>εταιρεία</erste-sprache><zweite-sprache>компания</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1284">
+  <vokabel-paar schritt="1283">
     <erste-sprache>υπάρχον</erste-sprache><zweite-sprache>существующие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1284">
     <erste-sprache>ένοπλη</erste-sprache><zweite-sprache>вооруженный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>επομένως</erste-sprache><zweite-sprache>следовательно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>επομένως</erste-sprache><zweite-sprache>поэтому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1287">
+  <vokabel-paar schritt="1286">
     <erste-sprache>συμπεριλαμβανόμενο</erste-sprache><zweite-sprache>включенные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1287">
     <erste-sprache>θέμα</erste-sprache><zweite-sprache>вопрос</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1287">
     <erste-sprache>θέμα</erste-sprache><zweite-sprache>тема</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1287">
     <erste-sprache>θέμα</erste-sprache><zweite-sprache>дело</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1288">
     <erste-sprache>έτσι</erste-sprache><zweite-sprache>таким образом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1288">
     <erste-sprache>έτσι</erste-sprache><zweite-sprache>так</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1288">
     <erste-sprache>έτσι</erste-sprache><zweite-sprache>при этом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1290">
+  <vokabel-paar schritt="1289">
     <erste-sprache>λόγος</erste-sprache><zweite-sprache>причина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1291">
+  <vokabel-paar schritt="1290">
     <erste-sprache>διαμονή</erste-sprache><zweite-sprache>оставаться</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>διαδικασίες</erste-sprache><zweite-sprache>процедуры</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>διαδικασίες</erste-sprache><zweite-sprache>процессов</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1292">
     <erste-sprache>κανόνας</erste-sprache><zweite-sprache>правило</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1293">
     <erste-sprache>σβηστή</erste-sprache><zweite-sprache>отключено</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1294">
     <erste-sprache>αιτία</erste-sprache><zweite-sprache>причинять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1294">
     <erste-sprache>αιτία</erste-sprache><zweite-sprache>вызывать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1295">
     <erste-sprache>βάλε</erste-sprache><zweite-sprache>положить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1297">
+  <vokabel-paar schritt="1296">
     <erste-sprache>γεγονός</erste-sprache><zweite-sprache>факт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>μικρό</erste-sprache><zweite-sprache>маленький</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>μικρό</erste-sprache><zweite-sprache>маленького</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>μικρό</erste-sprache><zweite-sprache>незначительный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1299">
+  <vokabel-paar schritt="1298">
     <erste-sprache>πρότυπα</erste-sprache><zweite-sprache>стандарты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1299">
     <erste-sprache>περιβάλλον</erste-sprache><zweite-sprache>окружающая среда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1300">
     <erste-sprache>λίγα</erste-sprache><zweite-sprache>немного</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>παράδειγμα</erste-sprache><zweite-sprache>пример</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1303">
+  <vokabel-paar schritt="1302">
     <erste-sprache>ποτέ</erste-sprache><zweite-sprache>никогда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1303">
     <erste-sprache>όροι</erste-sprache><zweite-sprache>условия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1304">
     <erste-sprache>θέτω</erste-sprache><zweite-sprache>помещать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1306">
+  <vokabel-paar schritt="1305">
     <erste-sprache>ονομάζω</erste-sprache><zweite-sprache>называемый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1306">
     <erste-sprache>κίνδυνος</erste-sprache><zweite-sprache>риск</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1306">
     <erste-sprache>κίνδυνος</erste-sprache><zweite-sprache>опасность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1307">
     <erste-sprache>μόνος του</erste-sprache><zweite-sprache>один</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1308">
     <erste-sprache>του οποίου</erste-sprache><zweite-sprache>чей</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1310">
+  <vokabel-paar schritt="1309">
     <erste-sprache>δείχνει</erste-sprache><zweite-sprache>показывает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1311">
+  <vokabel-paar schritt="1310">
     <erste-sprache>μόνο του</erste-sprache><zweite-sprache>один</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1312">
+  <vokabel-paar schritt="1311">
     <erste-sprache>αποφασισμένος</erste-sprache><zweite-sprache>решили</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>προκλήσεις</erste-sprache><zweite-sprache>вызовы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1314">
+  <vokabel-paar schritt="1313">
     <erste-sprache>υπουργείο</erste-sprache><zweite-sprache>министерство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1314">
     <erste-sprache>διατήρηση της ειρήνης</erste-sprache><zweite-sprache>миротворчество</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1315">
     <erste-sprache>πύργος</erste-sprache><zweite-sprache>башня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1316">
     <erste-sprache>μακροπρόθεσμο</erste-sprache><zweite-sprache>длинный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>ΗΠΑ</erste-sprache><zweite-sprache>США</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1318">
     <erste-sprache>ηπα</erste-sprache><zweite-sprache>США</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1319">
     <erste-sprache>άλλη</erste-sprache><zweite-sprache>один дополнительный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1319">
     <erste-sprache>άλλη</erste-sprache><zweite-sprache>другое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1321">
+  <vokabel-paar schritt="1320">
     <erste-sprache>συμβουλευτική</erste-sprache><zweite-sprache>консультативная помощь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1322">
+  <vokabel-paar schritt="1321">
     <erste-sprache>ποσό</erste-sprache><zweite-sprache>сумма</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1322">
     <erste-sprache>hiv</erste-sprache><zweite-sprache>ВИЧ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1323">
     <erste-sprache>δέσμευση</erste-sprache><zweite-sprache>активное участие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1323">
     <erste-sprache>δέσμευση</erste-sprache><zweite-sprache>приверженность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1324">
     <erste-sprache>θα έχω</erste-sprache><zweite-sprache>будет иметь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1326">
+  <vokabel-paar schritt="1325">
     <erste-sprache>τρομοκρατία</erste-sprache><zweite-sprache>терроризм</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>ανά</erste-sprache><zweite-sprache>за</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1327">
     <erste-sprache>αξιολόγηση</erste-sprache><zweite-sprache>оценка</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1328">
     <erste-sprache>ολοκληρώθηκε</erste-sprache><zweite-sprache>сделано</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1330">
+  <vokabel-paar schritt="1329">
     <erste-sprache>αποφάσεις</erste-sprache><zweite-sprache>решения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1330">
     <erste-sprache>περιβαλλοντικό</erste-sprache><zweite-sprache>экологический</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>οφείλεται</erste-sprache><zweite-sprache>подлежит к оплате</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>έλαβε</erste-sprache><zweite-sprache>получили</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1333">
     <erste-sprache>σύντομα</erste-sprache><zweite-sprache>скоро</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1333">
     <erste-sprache>σύντομα</erste-sprache><zweite-sprache>коротко</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1335">
+  <vokabel-paar schritt="1334">
     <erste-sprache>προτιμώ</erste-sprache><zweite-sprache>предпочитает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1336">
+  <vokabel-paar schritt="1335">
     <erste-sprache>αμέσως</erste-sprache><zweite-sprache>сразу же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1336">
     <erste-sprache>τοποθετούν</erste-sprache><zweite-sprache>место</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1337">
     <erste-sprache>στιγμιαίο</erste-sprache><zweite-sprache>мгновенный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>πρόληψη</erste-sprache><zweite-sprache>предотвращение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1339">
     <erste-sprache>άντρες</erste-sprache><zweite-sprache>мужчины</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1340">
     <erste-sprache>επόμενος</erste-sprache><zweite-sprache>следующего</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1340">
     <erste-sprache>επόμενος</erste-sprache><zweite-sprache>следующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1342">
+  <vokabel-paar schritt="1341">
     <erste-sprache>κοινό</erste-sprache><zweite-sprache>общий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1342">
     <erste-sprache>mademoiselle</erste-sprache><zweite-sprache>мисс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1342">
     <erste-sprache>mademoiselle</erste-sprache><zweite-sprache>мадемуазель</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1343">
     <erste-sprache>ανατολικά</erste-sprache><zweite-sprache>восток</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1344">
     <erste-sprache>ισότητα</erste-sprache><zweite-sprache>равенство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>μάθημα</erste-sprache><zweite-sprache>курс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>κύριος</erste-sprache><zweite-sprache>главная</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>κύριος</erste-sprache><zweite-sprache>мастер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>άτομο</erste-sprache><zweite-sprache>личность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>άτομο</erste-sprache><zweite-sprache>индивидуум</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>άτομο</erste-sprache><zweite-sprache>одиночные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>άτομο</erste-sprache><zweite-sprache>индивидууум</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1348">
     <erste-sprache>ΕΕ</erste-sprache><zweite-sprache>ЕС</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>ισχύει</erste-sprache><zweite-sprache>применяется</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>εσύ είσαι</erste-sprache><zweite-sprache>ты -</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1351">
     <erste-sprache>έλλειψη</erste-sprache><zweite-sprache>недостаток</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>μεταρρύθμιση</erste-sprache><zweite-sprache>реформа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1353">
     <erste-sprache>πρωί</erste-sprache><zweite-sprache>по утрaм</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>έγγραφα</erste-sprache><zweite-sprache>документы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>μόνιμα</erste-sprache><zweite-sprache>постоянный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1356">
     <erste-sprache>κοινωνία</erste-sprache><zweite-sprache>общество</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>ισχυροί</erste-sprache><zweite-sprache>сильные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>ισχυρό</erste-sprache><zweite-sprache>сильная</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>θέματα</erste-sprache><zweite-sprache>вопросы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>θέματα</erste-sprache><zweite-sprache>темы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>σημασίες</erste-sprache><zweite-sprache>это важно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1361">
     <erste-sprache>εμπορία ανθρώπων</erste-sprache><zweite-sprache>торговля людьми</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1362">
     <erste-sprache>αποστολές</erste-sprache><zweite-sprache>миссии</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>τακτικό</erste-sprache><zweite-sprache>регулярный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1364">
     <erste-sprache>έγκλημα</erste-sprache><zweite-sprache>преступление</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1365">
     <erste-sprache>αιτήματα</erste-sprache><zweite-sprache>запросы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>είμαστε</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>είμαστε</erste-sprache><zweite-sprache>мы -</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1367">
     <erste-sprache>παιδί</erste-sprache><zweite-sprache>ребенок</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1368">
     <erste-sprache>γύρω από</erste-sprache><zweite-sprache>вокруг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>στην κορυφή</erste-sprache><zweite-sprache>выше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1370">
     <erste-sprache>κύριο</erste-sprache><zweite-sprache>главный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>ιστός</erste-sprache><zweite-sprache>веб</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1372">
     <erste-sprache>απαραίτητο</erste-sprache><zweite-sprache>необходимый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>λαοί</erste-sprache><zweite-sprache>народы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1374">
     <erste-sprache>βόρεια</erste-sprache><zweite-sprache>север</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1375">
     <erste-sprache>προτεραιότητα</erste-sprache><zweite-sprache>приоритет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1376">
     <erste-sprache>έρευνα</erste-sprache><zweite-sprache>исследования</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>χιλιετία</erste-sprache><zweite-sprache>тысячелетие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>θεός</erste-sprache><zweite-sprache>Бог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1379">
     <erste-sprache>Ευρώπη</erste-sprache><zweite-sprache>Европа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1380">
     <erste-sprache>μέχρι στιγμής</erste-sprache><zweite-sprache>пока что</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>γονείς</erste-sprache><zweite-sprache>родители</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1382">
     <erste-sprache>θα είχαν</erste-sprache><zweite-sprache>имели бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1383">
     <erste-sprache>περάσει</erste-sprache><zweite-sprache>ушедший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1383">
     <erste-sprache>περάσει</erste-sprache><zweite-sprache>ушёл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>εβδομάδες</erste-sprache><zweite-sprache>недели</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>Θεός</erste-sprache><zweite-sprache>Бог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1386">
     <erste-sprache>επίτροπος</erste-sprache><zweite-sprache>комиссар</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1387">
     <erste-sprache>λέω</erste-sprache><zweite-sprache>я говорю</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1388">
     <erste-sprache>ιστότοπος</erste-sprache><zweite-sprache>сайт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1389">
     <erste-sprache>διοικητική</erste-sprache><zweite-sprache>административный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>συνθήκη</erste-sprache><zweite-sprache>договор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>διευθυντής</erste-sprache><zweite-sprache>директор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1392">
     <erste-sprache>παραβιάσεις</erste-sprache><zweite-sprache>нарушения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1393">
     <erste-sprache>αποτρέπουμε</erste-sprache><zweite-sprache>предотвращаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1394">
     <erste-sprache>ομάδα</erste-sprache><zweite-sprache>группа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1394">
     <erste-sprache>ομάδα</erste-sprache><zweite-sprache>команда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>σκέφτομαι</erste-sprache><zweite-sprache>думать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1396">
     <erste-sprache>γράφω</erste-sprache><zweite-sprache>писать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1397">
     <erste-sprache>παρόλα αυτά</erste-sprache><zweite-sprache>тем не менее</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>να γράψουμε</erste-sprache><zweite-sprache>писать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>συνεργάτες</erste-sprache><zweite-sprache>партнеры</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1400">
     <erste-sprache>στρατηγικές</erste-sprache><zweite-sprache>стратегии</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>θεραπεία</erste-sprache><zweite-sprache>уход</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>πέτρα</erste-sprache><zweite-sprache>камень</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>μείωση</erste-sprache><zweite-sprache>сокращение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1404">
     <erste-sprache>υπουργός</erste-sprache><zweite-sprache>министр</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1405">
     <erste-sprache>συμφωνίες</erste-sprache><zweite-sprache>соглашения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1406">
     <erste-sprache>όργανα</erste-sprache><zweite-sprache>инструменты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1407">
     <erste-sprache>Κύριε</erste-sprache><zweite-sprache>господин</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>πράγμα</erste-sprache><zweite-sprache>вещь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>κανείς</erste-sprache><zweite-sprache>никто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1410">
     <erste-sprache>Κύριος</erste-sprache><zweite-sprache>мистер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1411">
     <erste-sprache>ετήσιο</erste-sprache><zweite-sprache>ежегодный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>νιώθω</erste-sprache><zweite-sprache>я чувствую</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>ημερομηνία</erste-sprache><zweite-sprache>дата</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>ημερομηνία</erste-sprache><zweite-sprache>датированный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1414">
     <erste-sprache>δυνάμεις</erste-sprache><zweite-sprache>силы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>υλοποίηση</erste-sprache><zweite-sprache>реализующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>Βαυαρία</erste-sprache><zweite-sprache>Бавария</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>ταινία</erste-sprache><zweite-sprache>фильм</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1418">
     <erste-sprache>Διαδίκτυο</erste-sprache><zweite-sprache>Интернет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1419">
     <erste-sprache>κλπ</erste-sprache><zweite-sprache>и т. д.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1420">
     <erste-sprache>ξέρετε</erste-sprache><zweite-sprache>ты знаешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>ημέρες</erste-sprache><zweite-sprache>дни</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>ημέρες</erste-sprache><zweite-sprache>дня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>βήματα</erste-sprache><zweite-sprache>шаги</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1423">
     <erste-sprache>επαρκής</erste-sprache><zweite-sprache>адекватный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1424">
     <erste-sprache>σύμφωνα με</erste-sprache><zweite-sprache>в соответствии с</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1424">
     <erste-sprache>σύμφωνα με</erste-sprache><zweite-sprache>согласно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>βιβλίο</erste-sprache><zweite-sprache>книга</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1426">
     <erste-sprache>να γίνει</erste-sprache><zweite-sprache>стал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>τοις εκατό</erste-sprache><zweite-sprache>процент</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1428">
     <erste-sprache>τόπος</erste-sprache><zweite-sprache>место</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
+  <vokabel-paar schritt="1429">
     <erste-sprache>λέξη</erste-sprache><zweite-sprache>слово</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>προηγούμενο</erste-sprache><zweite-sprache>предыдущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>εγκεκριμένο</erste-sprache><zweite-sprache>одобренный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>νόμοι</erste-sprache><zweite-sprache>законы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1433">
     <erste-sprache>συγγραφέας</erste-sprache><zweite-sprache>автор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1434">
     <erste-sprache>πολύ καιρός</erste-sprache><zweite-sprache>долгое время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>επιτρέπει</erste-sprache><zweite-sprache>позволяет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>βοηθάμε</erste-sprache><zweite-sprache>помогаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1437">
     <erste-sprache>ανθρώπινο</erste-sprache><zweite-sprache>человеческий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1438">
     <erste-sprache>σοβαρός</erste-sprache><zweite-sprache>серьёзный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>φέρνει</erste-sprache><zweite-sprache>приносит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1440">
     <erste-sprache>σύσταση</erste-sprache><zweite-sprache>рекомендация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1441">
     <erste-sprache>εαυτός</erste-sprache><zweite-sprache>сам</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>καταστατικό</erste-sprache><zweite-sprache>устав</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>μεγαλύτερη</erste-sprache><zweite-sprache>больший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1444">
     <erste-sprache>αφήνω</erste-sprache><zweite-sprache>оставить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>επικοινωνία</erste-sprache><zweite-sprache>коммуникация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1446">
     <erste-sprache>δική</erste-sprache><zweite-sprache>собственная</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1447">
     <erste-sprache>εταιρική</erste-sprache><zweite-sprache>фирма</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1448">
     <erste-sprache>ψεύδεται</erste-sprache><zweite-sprache>лгать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1449">
     <erste-sprache>συμβαίνει</erste-sprache><zweite-sprache>случается</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1450">
     <erste-sprache>ίσο</erste-sprache><zweite-sprache>равный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>ρυθμίσεις</erste-sprache><zweite-sprache>договоренности</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1452">
     <erste-sprache>κείμενο</erste-sprache><zweite-sprache>текст</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1453">
     <erste-sprache>πόνος</erste-sprache><zweite-sprache>боль</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>εποχή</erste-sprache><zweite-sprache>эра</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1455">
     <erste-sprache>εμπειρογνώμονες</erste-sprache><zweite-sprache>эксперты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1456">
     <erste-sprache>που μεταφέρθηκε</erste-sprache><zweite-sprache>нёс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>κάνει</erste-sprache><zweite-sprache>делает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>κάνει</erste-sprache><zweite-sprache>делай</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>κάνει</erste-sprache><zweite-sprache>сделать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>κάνει</erste-sprache><zweite-sprache>делая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1458">
     <erste-sprache>δεδομένο</erste-sprache><zweite-sprache>данный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1460">
+  <vokabel-paar schritt="1459">
     <erste-sprache>αξία</erste-sprache><zweite-sprache>ценность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>μερικές φορές</erste-sprache><zweite-sprache>иногда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1461">
     <erste-sprache>υπερβολική</erste-sprache><zweite-sprache>супер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>επιλογή</erste-sprache><zweite-sprache>выбор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1463">
     <erste-sprache>αξίας</erste-sprache><zweite-sprache>в цене</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>большой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>большая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>большого</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>μεγάλο</erste-sprache><zweite-sprache>большие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1466">
+  <vokabel-paar schritt="1465">
     <erste-sprache>γραφεία</erste-sprache><zweite-sprache>офисы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1467">
+  <vokabel-paar schritt="1466">
     <erste-sprache>ξένο</erste-sprache><zweite-sprache>иностранный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1467">
     <erste-sprache>συμβάλλουμε</erste-sprache><zweite-sprache>вносим свой вклад</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>ευκαιρίες</erste-sprache><zweite-sprache>возможности</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1469">
     <erste-sprache>διεξάγουμε</erste-sprache><zweite-sprache>проводим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>σύνοδος κορυφής</erste-sprache><zweite-sprache>саммит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1472">
+  <vokabel-paar schritt="1471">
     <erste-sprache>αντικειμενική</erste-sprache><zweite-sprache>цель</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>ακολουθήστε</erste-sprache><zweite-sprache>следовать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>αναζήτηση</erste-sprache><zweite-sprache>искать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ψήφος</erste-sprache><zweite-sprache>голосование</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1476">
+  <vokabel-paar schritt="1475">
     <erste-sprache>μελέτη</erste-sprache><zweite-sprache>исследование</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1477">
+  <vokabel-paar schritt="1476">
     <erste-sprache>εγκαταστάσεις</erste-sprache><zweite-sprache>объекты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1478">
+  <vokabel-paar schritt="1477">
     <erste-sprache>συγγνώμη</erste-sprache><zweite-sprache>извините</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1479">
+  <vokabel-paar schritt="1478">
     <erste-sprache>πολυάριθμο</erste-sprache><zweite-sprache>многочисленные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>πολυάριθμοι</erste-sprache><zweite-sprache>многочисленные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1481">
+  <vokabel-paar schritt="1480">
     <erste-sprache>ανταλλαγή</erste-sprache><zweite-sprache>обмен</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1482">
+  <vokabel-paar schritt="1481">
     <erste-sprache>Σεπτέμβριος</erste-sprache><zweite-sprache>сентябрь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1482">
     <erste-sprache>με αυτόν τον τρόπο</erste-sprache><zweite-sprache>тем самым</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1483">
     <erste-sprache>τοποθεσία</erste-sprache><zweite-sprache>местоположение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1483">
     <erste-sprache>τοποθεσία</erste-sprache><zweite-sprache>сайт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>συνέβη</erste-sprache><zweite-sprache>случилось</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>ευκαιρία</erste-sprache><zweite-sprache>возможность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>θεμέλιο</erste-sprache><zweite-sprache>основа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1488">
+  <vokabel-paar schritt="1487">
     <erste-sprache>μέτρο</erste-sprache><zweite-sprache>мера</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1489">
+  <vokabel-paar schritt="1488">
     <erste-sprache>προς το παρόν</erste-sprache><zweite-sprache>в настоящее время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1490">
+  <vokabel-paar schritt="1489">
     <erste-sprache>εντός</erste-sprache><zweite-sprache>в рамках</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>θάνατος</erste-sprache><zweite-sprache>смерть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>συνολικά</erste-sprache><zweite-sprache>в целом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1493">
+  <vokabel-paar schritt="1492">
     <erste-sprache>χρειαζόμαστε</erste-sprache><zweite-sprache>нужно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>να παίρνει</erste-sprache><zweite-sprache>принимает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>να παίρνει</erste-sprache><zweite-sprache>берёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>puro</erste-sprache><zweite-sprache>чисто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>αληθινό</erste-sprache><zweite-sprache>правда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>νέοι</erste-sprache><zweite-sprache>молодые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>νέοι</erste-sprache><zweite-sprache>новый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>συνιστά</erste-sprache><zweite-sprache>рекомендует</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1498">
     <erste-sprache>μεταφορά</erste-sprache><zweite-sprache>перевод</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>διαπραγματεύσεις</erste-sprache><zweite-sprache>переговоры</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1501">
+  <vokabel-paar schritt="1500">
     <erste-sprache>αιώνας</erste-sprache><zweite-sprache>век</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>βγαίνει έξω</erste-sprache><zweite-sprache>выйти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>βγαίνει έξω</erste-sprache><zweite-sprache>выходит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>εργαζόμενοι</erste-sprache><zweite-sprache>работники</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>ερωτήσεις</erste-sprache><zweite-sprache>вопросы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1505">
+  <vokabel-paar schritt="1504">
     <erste-sprache>επίδραση</erste-sprache><zweite-sprache>эффект</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1505">
     <erste-sprache>συνεισφορά</erste-sprache><zweite-sprache>вклад</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1507">
+  <vokabel-paar schritt="1506">
     <erste-sprache>προς τα εμπρός</erste-sprache><zweite-sprache>вперед</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1508">
+  <vokabel-paar schritt="1507">
     <erste-sprache>σας πειράζει</erste-sprache><zweite-sprache>вы не против?</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1509">
+  <vokabel-paar schritt="1508">
     <erste-sprache>εκτός από</erste-sprache><zweite-sprache>кроме</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1510">
+  <vokabel-paar schritt="1509">
     <erste-sprache>ως επί το πλείστον</erste-sprache><zweite-sprache>в основном</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1510">
     <erste-sprache>παρά το ότι</erste-sprache><zweite-sprache>несмотря на</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>παρελθούσες</erste-sprache><zweite-sprache>прошло</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1513">
+  <vokabel-paar schritt="1512">
     <erste-sprache>παρά</erste-sprache><zweite-sprache>несмотря на</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>οφέλη</erste-sprache><zweite-sprache>преимущества</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>δεν μπορούν</erste-sprache><zweite-sprache>не могут</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>φέρει</erste-sprache><zweite-sprache>несёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>υπόλοιπο</erste-sprache><zweite-sprache>сдача</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>υπόλοιπο</erste-sprache><zweite-sprache>остаток</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1517">
     <erste-sprache>στροφή</erste-sprache><zweite-sprache>повернуть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1519">
+  <vokabel-paar schritt="1518">
     <erste-sprache>αναγνωρισμένοι</erste-sprache><zweite-sprache>признанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1520">
+  <vokabel-paar schritt="1519">
     <erste-sprache>λειτουργίες</erste-sprache><zweite-sprache>функции</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1521">
+  <vokabel-paar schritt="1520">
     <erste-sprache>κώδικας</erste-sprache><zweite-sprache>код</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1521">
     <erste-sprache>κόμμα</erste-sprache><zweite-sprache>сторона</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1521">
     <erste-sprache>κόμμα</erste-sprache><zweite-sprache>партия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>ηγούμαστε</erste-sprache><zweite-sprache>руководим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>της δικής σας</erste-sprache><zweite-sprache>твоих</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1525">
+  <vokabel-paar schritt="1524">
     <erste-sprache>ομοίως</erste-sprache><zweite-sprache>аналогично</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1526">
+  <vokabel-paar schritt="1525">
     <erste-sprache>γνώμη</erste-sprache><zweite-sprache>мнение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>μιλούμε</erste-sprache><zweite-sprache>говорим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>πλευρές</erste-sprache><zweite-sprache>стороны</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1529">
+  <vokabel-paar schritt="1528">
     <erste-sprache>αγοράζω</erste-sprache><zweite-sprache>купить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>πράγματα</erste-sprache><zweite-sprache>вещи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1530">
     <erste-sprache>τελικό</erste-sprache><zweite-sprache>окончательный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1530">
     <erste-sprache>τελικό</erste-sprache><zweite-sprache>финально</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>σίγουρο</erste-sprache><zweite-sprache>уверен</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>σίγουρο</erste-sprache><zweite-sprache>уверенный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1533">
+  <vokabel-paar schritt="1532">
     <erste-sprache>προϊόν</erste-sprache><zweite-sprache>продукт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1533">
     <erste-sprache>Ιαπωνία</erste-sprache><zweite-sprache>Япония</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1535">
+  <vokabel-paar schritt="1534">
     <erste-sprache>συζητάμε</erste-sprache><zweite-sprache>говорим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1535">
     <erste-sprache>νέος</erste-sprache><zweite-sprache>молодого</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>στιγμή</erste-sprache><zweite-sprache>момент</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1537">
     <erste-sprache>παιχνίδια</erste-sprache><zweite-sprache>игры</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1537">
     <erste-sprache>παιχνίδια</erste-sprache><zweite-sprache>играет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>κακά</erste-sprache><zweite-sprache>плохое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1539">
     <erste-sprache>άτυπη</erste-sprache><zweite-sprache>неформальный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1541">
+  <vokabel-paar schritt="1540">
     <erste-sprache>λύπη</erste-sprache><zweite-sprache>печаль</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1541">
     <erste-sprache>φωτιά</erste-sprache><zweite-sprache>огонь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1543">
+  <vokabel-paar schritt="1542">
     <erste-sprache>πορεία</erste-sprache><zweite-sprache>марш</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1544">
+  <vokabel-paar schritt="1543">
     <erste-sprache>επιστρέφουμε</erste-sprache><zweite-sprache>возвращаемся</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>Αύγουστος</erste-sprache><zweite-sprache>август</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1546">
+  <vokabel-paar schritt="1545">
     <erste-sprache>πιστεύουμε</erste-sprache><zweite-sprache>верим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1546">
     <erste-sprache>μέση</erste-sprache><zweite-sprache>середина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1547">
     <erste-sprache>Γαμώτο</erste-sprache><zweite-sprache>чёрт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>μέσος</erste-sprache><zweite-sprache>середина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>πρώην</erste-sprache><zweite-sprache>бывший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>πρώην</erste-sprache><zweite-sprache>экс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1551">
+  <vokabel-paar schritt="1550">
     <erste-sprache>αλλαγές</erste-sprache><zweite-sprache>изменения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>επιβολή</erste-sprache><zweite-sprache>принудительное исполнение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1552">
     <erste-sprache>στρατός</erste-sprache><zweite-sprache>армия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>εμπιστοσύνη</erste-sprache><zweite-sprache>уверенность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1555">
+  <vokabel-paar schritt="1554">
     <erste-sprache>θεσμικοί</erste-sprache><zweite-sprache>институциональный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1556">
+  <vokabel-paar schritt="1555">
     <erste-sprache>σκοποί</erste-sprache><zweite-sprache>цели</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1557">
+  <vokabel-paar schritt="1556">
     <erste-sprache>Απρίλιος</erste-sprache><zweite-sprache>апрель</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>χώρος</erste-sprache><zweite-sprache>пространство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1558">
     <erste-sprache>δικό σου</erste-sprache><zweite-sprache>твой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1559">
     <erste-sprache>κάποιο</erste-sprache><zweite-sprache>некоторым</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1559">
     <erste-sprache>κάποιο</erste-sprache><zweite-sprache>некоторые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>μιλεί</erste-sprache><zweite-sprache>говорит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>μιλώντας</erste-sprache><zweite-sprache>разговор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1563">
+  <vokabel-paar schritt="1562">
     <erste-sprache>ενεργοποιούμε</erste-sprache><zweite-sprache>обеспечиваем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>κοινή</erste-sprache><zweite-sprache>совместный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1564">
     <erste-sprache>άλλο</erste-sprache><zweite-sprache>другому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1564">
     <erste-sprache>άλλο</erste-sprache><zweite-sprache>другой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>παίρνει</erste-sprache><zweite-sprache>получает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>τους συνδέσμους</erste-sprache><zweite-sprache>ссылки</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1567">
     <erste-sprache>δηλαδή</erste-sprache><zweite-sprache>а именно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>δημιουργεί</erste-sprache><zweite-sprache>создавать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>ορίζει</erste-sprache><zweite-sprache>устанавливать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>αναζητά</erste-sprache><zweite-sprache>поиск</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>αναζητά</erste-sprache><zweite-sprache>ищет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1572">
+  <vokabel-paar schritt="1571">
     <erste-sprache>πόρος</erste-sprache><zweite-sprache>ресурс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1573">
+  <vokabel-paar schritt="1572">
     <erste-sprache>παράγραφοι</erste-sprache><zweite-sprache>абзацы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>ένταξη</erste-sprache><zweite-sprache>интеграция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1575">
+  <vokabel-paar schritt="1574">
     <erste-sprache>μία φορά</erste-sprache><zweite-sprache>однажды</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>χαμηλή</erste-sprache><zweite-sprache>низкий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>απόψεις</erste-sprache><zweite-sprache>взгляды</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>απόψεις</erste-sprache><zweite-sprache>мнения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1577">
     <erste-sprache>συνεδρίες</erste-sprache><zweite-sprache>сессии</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1579">
+  <vokabel-paar schritt="1578">
     <erste-sprache>προέλευση</erste-sprache><zweite-sprache>происхождение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>αποτελεσματική</erste-sprache><zweite-sprache>эффективно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1580">
     <erste-sprache>ιατρική</erste-sprache><zweite-sprache>медицинский</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1581">
     <erste-sprache>αριθμός μας</erste-sprache><zweite-sprache>номер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1583">
+  <vokabel-paar schritt="1582">
     <erste-sprache>μεγαλύτερος</erste-sprache><zweite-sprache>большой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>δικό της</erste-sprache><zweite-sprache>её</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>δυνατότητα</erste-sprache><zweite-sprache>возможность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>κορεά</erste-sprache><zweite-sprache>Корея</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1587">
+  <vokabel-paar schritt="1586">
     <erste-sprache>οργανισμός</erste-sprache><zweite-sprache>агентство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>έφερε</erste-sprache><zweite-sprache>принёс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>ώρες</erste-sprache><zweite-sprache>часы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>ώρες</erste-sprache><zweite-sprache>время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1590">
+  <vokabel-paar schritt="1589">
     <erste-sprache>υψηλότερες</erste-sprache><zweite-sprache>выше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>μειώνουμε</erste-sprache><zweite-sprache>сокращаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1592">
+  <vokabel-paar schritt="1591">
     <erste-sprache>επιτρέπουμε</erste-sprache><zweite-sprache>позволяем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>άδεια</erste-sprache><zweite-sprache>разрешить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1593">
     <erste-sprache>διοίκηση</erste-sprache><zweite-sprache>администрация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1594">
     <erste-sprache>οικογένειες</erste-sprache><zweite-sprache>семьи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1595">
     <erste-sprache>επόμενο</erste-sprache><zweite-sprache>следующие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1595">
     <erste-sprache>επόμενο</erste-sprache><zweite-sprache>следующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1596">
     <erste-sprache>πέφτει</erste-sprache><zweite-sprache>падает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1598">
+  <vokabel-paar schritt="1597">
     <erste-sprache>άφησε</erste-sprache><zweite-sprache>позволил</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1598">
     <erste-sprache>καλοκαιρινή</erste-sprache><zweite-sprache>лето</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1599">
     <erste-sprache>διαμέρισμά μας</erste-sprache><zweite-sprache>квартира</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>εκστρατεία</erste-sprache><zweite-sprache>кампания</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1602">
+  <vokabel-paar schritt="1601">
     <erste-sprache>επαρχία</erste-sprache><zweite-sprache>провинция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1603">
+  <vokabel-paar schritt="1602">
     <erste-sprache>επόμενα</erste-sprache><zweite-sprache>приходящий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1603">
     <erste-sprache>περιουσιακά στοιχεία</erste-sprache><zweite-sprache>активы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1605">
+  <vokabel-paar schritt="1604">
     <erste-sprache>τη συνάντησε</erste-sprache><zweite-sprache>встретил</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1605">
     <erste-sprache>εταιρείες</erste-sprache><zweite-sprache>компании</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1607">
+  <vokabel-paar schritt="1606">
     <erste-sprache>δωρεάν</erste-sprache><zweite-sprache>бесплатно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1607">
     <erste-sprache>κρίσιμα</erste-sprache><zweite-sprache>критический</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1609">
+  <vokabel-paar schritt="1608">
     <erste-sprache>συμμετέχοντες</erste-sprache><zweite-sprache>участники</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>σύνταγμα</erste-sprache><zweite-sprache>конституция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1610">
     <erste-sprache>τις ανησυχίες</erste-sprache><zweite-sprache>беспокойства</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1611">
     <erste-sprache>σύνδεσμος</erste-sprache><zweite-sprache>ссылка</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1612">
     <erste-sprache>θάλασσα</erste-sprache><zweite-sprache>море</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1614">
+  <vokabel-paar schritt="1613">
     <erste-sprache>πηγή</erste-sprache><zweite-sprache>источник</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1615">
+  <vokabel-paar schritt="1614">
     <erste-sprache>ενδιαφερόμενοι</erste-sprache><zweite-sprache>заинтересованные стороны</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1616">
+  <vokabel-paar schritt="1615">
     <erste-sprache>καραϊβική</erste-sprache><zweite-sprache>карибский регион</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1617">
+  <vokabel-paar schritt="1616">
     <erste-sprache>στοιχεία</erste-sprache><zweite-sprache>элементы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1618">
+  <vokabel-paar schritt="1617">
     <erste-sprache>προηγούμενα</erste-sprache><zweite-sprache>до</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>βασανιστήρια</erste-sprache><zweite-sprache>пытка</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1620">
+  <vokabel-paar schritt="1619">
     <erste-sprache>ελάχιστων</erste-sprache><zweite-sprache>наименьший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>μπάντα</erste-sprache><zweite-sprache>группа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1622">
+  <vokabel-paar schritt="1621">
     <erste-sprache>αργά</erste-sprache><zweite-sprache>медленно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1622">
+  <vokabel-paar schritt="1621">
     <erste-sprache>αργά</erste-sprache><zweite-sprache>поздно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1622">
     <erste-sprache>αποτελεσματικότητα</erste-sprache><zweite-sprache>эффективность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1624">
+  <vokabel-paar schritt="1623">
     <erste-sprache>όρος</erste-sprache><zweite-sprache>понятие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1624">
     <erste-sprache>Θητεία</erste-sprache><zweite-sprache>срок у власти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1626">
+  <vokabel-paar schritt="1625">
     <erste-sprache>κοπή</erste-sprache><zweite-sprache>резать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1627">
+  <vokabel-paar schritt="1626">
     <erste-sprache>αυλή</erste-sprache><zweite-sprache>внутренний двор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1627">
     <erste-sprache>οι περισσότερες</erste-sprache><zweite-sprache>большинство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1629">
+  <vokabel-paar schritt="1628">
     <erste-sprache>διάφορες</erste-sprache><zweite-sprache>различные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1629">
     <erste-sprache>μέσα ενημέρωσης</erste-sprache><zweite-sprache>СМИ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ίδιο</erste-sprache><zweite-sprache>те же самые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ίδιο</erste-sprache><zweite-sprache>тот же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ίδιο</erste-sprache><zweite-sprache>та же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ίδιο</erste-sprache><zweite-sprache>то же самое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>τρέχω</erste-sprache><zweite-sprache>бегущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1632">
     <erste-sprache>τηλεόραση</erste-sprache><zweite-sprache>ТВ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1632">
     <erste-sprache>τηλεόραση</erste-sprache><zweite-sprache>телевидение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>συνεχίζεται</erste-sprache><zweite-sprache>далее</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>συνεχίζεται</erste-sprache><zweite-sprache>продолжает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1634">
     <erste-sprache>τραβάω</erste-sprache><zweite-sprache>тянущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1635">
     <erste-sprache>εξηγεί</erste-sprache><zweite-sprache>объясняет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1637">
+  <vokabel-paar schritt="1636">
     <erste-sprache>αγαπητέ μου</erste-sprache><zweite-sprache>дорогая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>αγαπητέή μου</erste-sprache><zweite-sprache>дорогой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1638">
     <erste-sprache>εεε</erste-sprache><zweite-sprache>чё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1640">
+  <vokabel-paar schritt="1639">
     <erste-sprache>δεκέμβριος</erste-sprache><zweite-sprache>декабрь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1641">
+  <vokabel-paar schritt="1640">
     <erste-sprache>φτιαγμένο</erste-sprache><zweite-sprache>сделанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>να είναι</erste-sprache><zweite-sprache>будьте</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>να είναι</erste-sprache><zweite-sprache>будь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>υπέροχο</erste-sprache><zweite-sprache>классный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1643">
     <erste-sprache>φορώ</erste-sprache><zweite-sprache>носить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1645">
+  <vokabel-paar schritt="1644">
     <erste-sprache>τραγούδι</erste-sprache><zweite-sprache>песня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1645">
     <erste-sprache>μαζί σου</erste-sprache><zweite-sprache>с тобой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1646">
     <erste-sprache>μήνυμα</erste-sprache><zweite-sprache>сообщение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>απόφαση</erste-sprache><zweite-sprache>решение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>σκέψη</erste-sprache><zweite-sprache>мысль</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>σκέψη</erste-sprache><zweite-sprache>думал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>σκέψη</erste-sprache><zweite-sprache>думая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>π.χ.</erste-sprache><zweite-sprache>например</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1650">
     <erste-sprache>περιμένει</erste-sprache><zweite-sprache>ждёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>καταραμένος</erste-sprache><zweite-sprache>блядь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1652">
     <erste-sprache>σε όλη τη</erste-sprache><zweite-sprache>через</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>πόρνη</erste-sprache><zweite-sprache>шлюха</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>έτοιμος</erste-sprache><zweite-sprache>готов</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1655">
     <erste-sprache>λάθος σου</erste-sprache><zweite-sprache>неправильный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1657">
+  <vokabel-paar schritt="1656">
     <erste-sprache>πολιτισμός</erste-sprache><zweite-sprache>культура</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1658">
+  <vokabel-paar schritt="1657">
     <erste-sprache>βασιλιάς</erste-sprache><zweite-sprache>король</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>αέρας</erste-sprache><zweite-sprache>воздух</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1659">
     <erste-sprache>λύση</erste-sprache><zweite-sprache>решение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1660">
     <erste-sprache>σειρά</erste-sprache><zweite-sprache>ряд</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1660">
     <erste-sprache>σειρά</erste-sprache><zweite-sprache>сериал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>όμορφη</erste-sprache><zweite-sprache>красивый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>όμορφη</erste-sprache><zweite-sprache>милый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1663">
+  <vokabel-paar schritt="1662">
     <erste-sprache>φωνή</erste-sprache><zweite-sprache>голос</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1664">
+  <vokabel-paar schritt="1663">
     <erste-sprache>θέλουμε</erste-sprache><zweite-sprache>мы хотим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1665">
+  <vokabel-paar schritt="1664">
     <erste-sprache>υποτίθεται</erste-sprache><zweite-sprache>предположительлно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>παρουσία</erste-sprache><zweite-sprache>присутствие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
+  <vokabel-paar schritt="1666">
     <erste-sprache>στήθος</erste-sprache><zweite-sprache>грудь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>ταξινόμηση</erste-sprache><zweite-sprache>сорт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1669">
+  <vokabel-paar schritt="1668">
     <erste-sprache>πληροφορίες</erste-sprache><zweite-sprache>информация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1669">
     <erste-sprache>περιοχή</erste-sprache><zweite-sprache>регион</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1669">
     <erste-sprache>περιοχή</erste-sprache><zweite-sprache>область</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1670">
     <erste-sprache>επιτυγχάνουμε</erste-sprache><zweite-sprache>достигаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>Γαλλία</erste-sprache><zweite-sprache>Франция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>πάλι</erste-sprache><zweite-sprache>снова</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1673">
     <erste-sprache>μαύρο</erste-sprache><zweite-sprache>черный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>σετ</erste-sprache><zweite-sprache>устанавливает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>σετ</erste-sprache><zweite-sprache>установлен</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1675">
     <erste-sprache>Κυριακή</erste-sprache><zweite-sprache>воскресенье</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>περιμένω</erste-sprache><zweite-sprache>ждём</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1677">
     <erste-sprache>βάζει</erste-sprache><zweite-sprache>помещает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>εδάφους</erste-sprache><zweite-sprache>земля</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1679">
     <erste-sprache>στόμα</erste-sprache><zweite-sprache>рот</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>πόδι</erste-sprache><zweite-sprache>ступня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1681">
     <erste-sprache>πραγματικότητα</erste-sprache><zweite-sprache>реальность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>όργανο</erste-sprache><zweite-sprache>тело</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>μέσα σε αυτό</erste-sprache><zweite-sprache>в нем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1684">
     <erste-sprache>κύκλος</erste-sprache><zweite-sprache>круг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>νέα</erste-sprache><zweite-sprache>новости</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>νέα</erste-sprache><zweite-sprache>новые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1686">
     <erste-sprache>ομιλία</erste-sprache><zweite-sprache>речь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1687">
     <erste-sprache>λέσχη</erste-sprache><zweite-sprache>клуб</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>γενικά</erste-sprache><zweite-sprache>общий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1689">
     <erste-sprache>ήλιος</erste-sprache><zweite-sprache>солнце</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>πολιτεία</erste-sprache><zweite-sprache>штат</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>πολιτεία</erste-sprache><zweite-sprache>государство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>ελαφριά</erste-sprache><zweite-sprache>свет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>αγορά</erste-sprache><zweite-sprache>рынок</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>αγορά</erste-sprache><zweite-sprache>купить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>για παράδειγμα</erste-sprache><zweite-sprache>например</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>γνωρίζω</erste-sprache><zweite-sprache>знай</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>γνωρίζω</erste-sprache><zweite-sprache>знать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1695">
     <erste-sprache>εν τω μεταξύ</erste-sprache><zweite-sprache>тем временем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>δεξιά</erste-sprache><zweite-sprache>правый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1697">
     <erste-sprache>κυβερνώ</erste-sprache><zweite-sprache>правило</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1698">
     <erste-sprache>ούτε</erste-sprache><zweite-sprache>ни</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>μάρκα</erste-sprache><zweite-sprache>бренд</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1700">
     <erste-sprache>χάνω</erste-sprache><zweite-sprache>потерять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>σύνδεση</erste-sprache><zweite-sprache>связь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1702">
     <erste-sprache>μισό</erste-sprache><zweite-sprache>половина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>σπάνια</erste-sprache><zweite-sprache>редко</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1704">
     <erste-sprache>εν κινήσει</erste-sprache><zweite-sprache>в пути</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>πρόεδρος</erste-sprache><zweite-sprache>президент</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>πρόεδρος</erste-sprache><zweite-sprache>председатель</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>έργο</erste-sprache><zweite-sprache>проект</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1707">
     <erste-sprache>πήρε</erste-sprache><zweite-sprache>взял</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1708">
     <erste-sprache>εμπειρία</erste-sprache><zweite-sprache>опыт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1709">
     <erste-sprache>μάχη</erste-sprache><zweite-sprache>борьба</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>εξηγώ</erste-sprache><zweite-sprache>объясняем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>είπα</erste-sprache><zweite-sprache>рассказал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>είπα</erste-sprache><zweite-sprache>я сказал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>βαθμός</erste-sprache><zweite-sprache>степень</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1713">
     <erste-sprache>αθλητισμός</erste-sprache><zweite-sprache>спорт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>έκανα</erste-sprache><zweite-sprache>делал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>έκανα</erste-sprache><zweite-sprache>я делал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>μεταδίδεται</erste-sprache><zweite-sprache>ставит в эфир</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>μαθήματα</erste-sprache><zweite-sprache>классы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>μαθήματα</erste-sprache><zweite-sprache>курс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>μόνος</erste-sprache><zweite-sprache>один</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>πίεση</erste-sprache><zweite-sprache>давление</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>πίεση</erste-sprache><zweite-sprache>пресса</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>λείπει</erste-sprache><zweite-sprache>отсутствующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>κύριοι</erste-sprache><zweite-sprache>господа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>σχόλια</erste-sprache><zweite-sprache>комментарии</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1722">
     <erste-sprache>ξέρουμε</erste-sprache><zweite-sprache>мы знаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1723">
     <erste-sprache>καθήκον</erste-sprache><zweite-sprache>долг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1724">
     <erste-sprache>θα είναι σε θέση να</erste-sprache><zweite-sprache>сможет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>αποφύγει</erste-sprache><zweite-sprache>избегать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1726">
     <erste-sprache>παρέχει</erste-sprache><zweite-sprache>предоставляет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1727">
     <erste-sprache>λίγοι</erste-sprache><zweite-sprache>немногие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1728">
     <erste-sprache>ξεκινά</erste-sprache><zweite-sprache>начинается</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1729">
     <erste-sprache>πάω</erste-sprache><zweite-sprache>идти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>θα έπρεπε να</erste-sprache><zweite-sprache>пришлось бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>έκανε ένα βήμα</erste-sprache><zweite-sprache>шагнул</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>ένα βήμα</erste-sprache><zweite-sprache>шаг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1733">
     <erste-sprache>φύγω</erste-sprache><zweite-sprache>покинуть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>επιλέξετε</erste-sprache><zweite-sprache>выбрать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>φεύγω</erste-sprache><zweite-sprache>оставить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>αντίθετοι</erste-sprache><zweite-sprache>напротив</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1737">
     <erste-sprache>λογαριασμοί</erste-sprache><zweite-sprache>счета</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1738">
     <erste-sprache>άκρη</erste-sprache><zweite-sprache>край</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1739">
     <erste-sprache>γεγονότα</erste-sprache><zweite-sprache>факты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1740">
     <erste-sprache>ευτυχισμένος</erste-sprache><zweite-sprache>счастливый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1741">
     <erste-sprache>αίμα</erste-sprache><zweite-sprache>кровь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>γραμμή</erste-sprache><zweite-sprache>линия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>προσφορά</erste-sprache><zweite-sprache>предложение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1744">
     <erste-sprache>βοηθά</erste-sprache><zweite-sprache>помогает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>κορυφή</erste-sprache><zweite-sprache>верхний</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>λέξεις</erste-sprache><zweite-sprache>слова</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1747">
     <erste-sprache>ήξερα</erste-sprache><zweite-sprache>знал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1748">
     <erste-sprache>βραβείο</erste-sprache><zweite-sprache>награда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1749">
     <erste-sprache>άμυνα</erste-sprache><zweite-sprache>защита</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1750">
     <erste-sprache>από τώρα και στο εξής</erste-sprache><zweite-sprache>с этого момента</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1751">
     <erste-sprache>βιβλία</erste-sprache><zweite-sprache>книги</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>εκτός αυτού</erste-sprache><zweite-sprache>кроме того</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>σύνολο</erste-sprache><zweite-sprache>набор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>σύνολο</erste-sprache><zweite-sprache>всего</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1754">
     <erste-sprache>κ.λπ.</erste-sprache><zweite-sprache>и т. д.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1755">
     <erste-sprache>πρωτότυπο</erste-sprache><zweite-sprache>оригинально</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1756">
     <erste-sprache>ψήφοι</erste-sprache><zweite-sprache>голоса избирателей</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1757">
     <erste-sprache>επιστροφές</erste-sprache><zweite-sprache>возвращающиеся</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>ξεκίνησε</erste-sprache><zweite-sprache>начал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1759">
     <erste-sprache>κατανοεί</erste-sprache><zweite-sprache>понимает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1760">
     <erste-sprache>αναπτυγμένο</erste-sprache><zweite-sprache>развитый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1761">
     <erste-sprache>αφεντικό</erste-sprache><zweite-sprache>шеф</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1762">
     <erste-sprache>χαρούμενοι</erste-sprache><zweite-sprache>счастлив</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1763">
     <erste-sprache>ένας γύρος</erste-sprache><zweite-sprache>раунд</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>части</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>места</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>μέρη</erste-sprache><zweite-sprache>партии</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1765">
     <erste-sprache>Καταλαβαίνω</erste-sprache><zweite-sprache>понимаю</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1766">
     <erste-sprache>παρόμοιο</erste-sprache><zweite-sprache>похожий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>ψάχνει για</erste-sprache><zweite-sprache>ищет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>νοσοκομείο</erste-sprache><zweite-sprache>больница</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1769">
     <erste-sprache>απόδειξη</erste-sprache><zweite-sprache>доказательство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1770">
     <erste-sprache>προτείνει</erste-sprache><zweite-sprache>предлагает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>νόμου</erste-sprache><zweite-sprache>закон</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1772">
     <erste-sprache>κοντά σε</erste-sprache><zweite-sprache>близ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1773">
     <erste-sprache>Παρασκευή</erste-sprache><zweite-sprache>пятница</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1774">
     <erste-sprache>οπωσδήποτε</erste-sprache><zweite-sprache>в любом случае</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>έλα</erste-sprache><zweite-sprache>приходить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>έλα</erste-sprache><zweite-sprache>прийти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1776">
     <erste-sprache>κληρώνει</erste-sprache><zweite-sprache>рисует</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1777">
     <erste-sprache>έθνος</erste-sprache><zweite-sprache>нация</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1778">
     <erste-sprache>βλέπεις</erste-sprache><zweite-sprache>ты видишь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>βρίσκει ξανά</erste-sprache><zweite-sprache>снова находит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1780">
     <erste-sprache>καθεστώς</erste-sprache><zweite-sprache>режим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1781">
     <erste-sprache>βία</erste-sprache><zweite-sprache>насилие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1782">
     <erste-sprache>ομάδες</erste-sprache><zweite-sprache>группы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1783">
     <erste-sprache>γάμος</erste-sprache><zweite-sprache>брак</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1784">
     <erste-sprache>έμπειρος</erste-sprache><zweite-sprache>опытный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>πηγαίνω</erste-sprache><zweite-sprache>дела</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1786">
     <erste-sprache>έπαιξα</erste-sprache><zweite-sprache>играл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>ξεκίνησα</erste-sprache><zweite-sprache>начать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1788">
     <erste-sprache>συμπεριφέρομαι</erste-sprache><zweite-sprache>вести себя</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1789">
     <erste-sprache>κατανοητός</erste-sprache><zweite-sprache>понял</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1790">
     <erste-sprache>κατανοητό</erste-sprache><zweite-sprache>понял</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1791">
     <erste-sprache>κυρία</erste-sprache><zweite-sprache>леди</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>όνειρο</erste-sprache><zweite-sprache>мечта</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1793">
     <erste-sprache>ταινίες</erste-sprache><zweite-sprache>фильмы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>βίδα</erste-sprache><zweite-sprache>винт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>βίδα</erste-sprache><zweite-sprache>болт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1795">
     <erste-sprache>ενεργές</erste-sprache><zweite-sprache>активно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1796">
     <erste-sprache>ζώα</erste-sprache><zweite-sprache>животные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1797">
     <erste-sprache>γιατρός</erste-sprache><zweite-sprache>врач</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1798">
     <erste-sprache>δρ</erste-sprache><zweite-sprache>Доктор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1799">
     <erste-sprache>στιγμές</erste-sprache><zweite-sprache>моменты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1800">
     <erste-sprache>τέλειο</erste-sprache><zweite-sprache>идеальный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>έφτασε</erste-sprache><zweite-sprache>прибыл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>πόδια</erste-sprache><zweite-sprache>ноги</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>σχέσεις</erste-sprache><zweite-sprache>отношения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1804">
     <erste-sprache>εκλογές</erste-sprache><zweite-sprache>выборы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1805">
     <erste-sprache>έφτασα</erste-sprache><zweite-sprache>прибыл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>διάταγμα</erste-sprache><zweite-sprache>указ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>διάταγμα</erste-sprache><zweite-sprache>декрет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1807">
     <erste-sprache>καριέρα</erste-sprache><zweite-sprache>карьера</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1808">
     <erste-sprache>χρώμα</erste-sprache><zweite-sprache>цвет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>λένε</erste-sprache><zweite-sprache>говорят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1811">
+  <vokabel-paar schritt="1810">
     <erste-sprache>διάρκεια</erste-sprache><zweite-sprache>длительность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1811">
     <erste-sprache>Δευτέρα</erste-sprache><zweite-sprache>понедельник</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1812">
     <erste-sprache>σχέση</erste-sprache><zweite-sprache>отношения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1813">
     <erste-sprache>διαφορά</erste-sprache><zweite-sprache>разница</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1815">
+  <vokabel-paar schritt="1814">
     <erste-sprache>τρελός</erste-sprache><zweite-sprache>сумасшедший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1816">
+  <vokabel-paar schritt="1815">
     <erste-sprache>άνοιγμα</erste-sprache><zweite-sprache>открытие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1817">
+  <vokabel-paar schritt="1816">
     <erste-sprache>μέγεθος</erste-sprache><zweite-sprache>размер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1818">
+  <vokabel-paar schritt="1817">
     <erste-sprache>χωριό</erste-sprache><zweite-sprache>деревня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1819">
+  <vokabel-paar schritt="1818">
     <erste-sprache>ουρανός</erste-sprache><zweite-sprache>небо</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

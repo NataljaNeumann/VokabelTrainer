@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Italian</erste-sprache-name>
-  <zweite-sprache-name>Russian</zweite-sprache-name>
+  <erste-sprache-name>Italiano</erste-sprache-name>
+  <zweite-sprache-name>Русский</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italian-Russian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italiano-Русский) -->
   <vokabel-paar schritt="1">
     <erste-sprache>Ciao</erste-sprache><zweite-sprache>привет</zweite-sprache>
   </vokabel-paar>
@@ -55,6 +55,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="7">
     <erste-sprache>lei</erste-sprache><zweite-sprache>она</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="7">
+    <erste-sprache>lei</erste-sprache><zweite-sprache>ей</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="8">
     <erste-sprache>fratello</erste-sprache><zweite-sprache>брат</zweite-sprache>
@@ -537,7 +540,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>iniziative</erste-sprache><zweite-sprache>инициативы</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="134">
-    <erste-sprache>Dr</erste-sprache><zweite-sprache>Доктор</zweite-sprache>
+    <erste-sprache>Dr</erste-sprache><zweite-sprache>доктор</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="135">
     <erste-sprache>riforma</erste-sprache><zweite-sprache>реформа</zweite-sprache>
@@ -3844,9 +3847,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="1043">
     <erste-sprache>uno</erste-sprache><zweite-sprache>одного</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1043">
-    <erste-sprache>uno</erste-sprache><zweite-sprache>человек</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1043">
     <erste-sprache>uno</erste-sprache><zweite-sprache>один</zweite-sprache>

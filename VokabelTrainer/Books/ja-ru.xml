@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Japanese</erste-sprache-name>
-  <zweite-sprache-name>Russian</zweite-sprache-name>
+  <erste-sprache-name>日本語</erste-sprache-name>
+  <zweite-sprache-name>Русский</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Japanese-Russian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (日本語-Русский) -->
   <vokabel-paar schritt="1">
     <erste-sprache>こんにちは</erste-sprache><zweite-sprache>привет</zweite-sprache>
   </vokabel-paar>
@@ -135,7 +135,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>なれ</erste-sprache><zweite-sprache>быть</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="21">
-    <erste-sprache>彼女に</erste-sprache><zweite-sprache>она</zweite-sprache>
+    <erste-sprache>彼女に</erste-sprache><zweite-sprache>ей</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="22">
     <erste-sprache>ありがとう</erste-sprache><zweite-sprache>спасибо</zweite-sprache>
@@ -1381,9 +1381,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="316">
     <erste-sprache>しない</erste-sprache><zweite-sprache>не</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="317">
-    <erste-sprache>1つ</erste-sprache><zweite-sprache>человек</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="317">
     <erste-sprache>1つ</erste-sprache><zweite-sprache>один</zweite-sprache>
@@ -3970,6 +3967,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="886">
     <erste-sprache>明らかに</erste-sprache><zweite-sprache>ясно</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="887">
+    <erste-sprache>博士</erste-sprache><zweite-sprache>доктор</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="887">
     <erste-sprache>博士</erste-sprache><zweite-sprache>Доктор</zweite-sprache>

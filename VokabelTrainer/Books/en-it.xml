@@ -6,7 +6,7 @@
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
   <erste-sprache-name>English</erste-sprache-name>
-  <zweite-sprache-name>Italian</zweite-sprache-name>
+  <zweite-sprache-name>Italiano</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (English-Italian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (English-Italiano) -->
   <vokabel-paar schritt="1">
     <erste-sprache>hello</erste-sprache><zweite-sprache>Ciao</zweite-sprache>
   </vokabel-paar>
@@ -103,9 +103,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="19">
     <erste-sprache>her</erste-sprache><zweite-sprache>qui</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="19">
-    <erste-sprache>her</erste-sprache><zweite-sprache>loro</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="19">
     <erste-sprache>her</erste-sprache><zweite-sprache>lei</zweite-sprache>

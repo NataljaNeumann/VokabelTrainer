@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Italian</erste-sprache-name>
-  <zweite-sprache-name>Hindi</zweite-sprache-name>
+  <erste-sprache-name>Italiano</erste-sprache-name>
+  <zweite-sprache-name>हिंदी</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italian-Hindi) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Italiano-हिंदी) -->
   <vokabel-paar schritt="1">
     <erste-sprache>Ciao</erste-sprache><zweite-sprache>नमस्ते</zweite-sprache>
   </vokabel-paar>
@@ -52,9 +52,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="7">
     <erste-sprache>lei</erste-sprache><zweite-sprache>वह</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="7">
-    <erste-sprache>lei</erste-sprache><zweite-sprache>उसकी</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="7">
     <erste-sprache>lei</erste-sprache><zweite-sprache>उसे</zweite-sprache>
@@ -2413,9 +2410,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="670">
     <erste-sprache>loro</erste-sprache><zweite-sprache>उनके</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="670">
-    <erste-sprache>loro</erste-sprache><zweite-sprache>उनका</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="670">
     <erste-sprache>loro</erste-sprache><zweite-sprache>उन्हें</zweite-sprache>

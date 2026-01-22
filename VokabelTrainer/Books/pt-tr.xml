@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Portugese</erste-sprache-name>
-  <zweite-sprache-name>Turkish</zweite-sprache-name>
+  <erste-sprache-name>Português</erste-sprache-name>
+  <zweite-sprache-name>Türkçe</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Portugese-Turkish) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Português-Türkçe) -->
   <vokabel-paar schritt="1">
     <erste-sprache>olá</erste-sprache><zweite-sprache>merhaba</zweite-sprache>
   </vokabel-paar>

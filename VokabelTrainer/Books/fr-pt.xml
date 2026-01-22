@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>French</erste-sprache-name>
-  <zweite-sprache-name>Portugese</zweite-sprache-name>
+  <erste-sprache-name>Français</erste-sprache-name>
+  <zweite-sprache-name>Português</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (French-Portugese) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Français-Português) -->
   <vokabel-paar schritt="1">
     <erste-sprache>bonjour</erste-sprache><zweite-sprache>olá</zweite-sprache>
   </vokabel-paar>
@@ -982,9 +982,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="286">
     <erste-sprache>leur</erste-sprache><zweite-sprache>seus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="286">
-    <erste-sprache>leur</erste-sprache><zweite-sprache>deles</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="287">
     <erste-sprache>couronne</erste-sprache><zweite-sprache>coroa</zweite-sprache>

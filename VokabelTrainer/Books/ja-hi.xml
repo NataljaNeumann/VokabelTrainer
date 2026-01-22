@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>Japanese</erste-sprache-name>
-  <zweite-sprache-name>Hindi</zweite-sprache-name>
+  <erste-sprache-name>日本語</erste-sprache-name>
+  <zweite-sprache-name>हिंदी</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Japanese-Hindi) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (日本語-हिंदी) -->
   <vokabel-paar schritt="1">
     <erste-sprache>こんにちは</erste-sprache><zweite-sprache>नमस्ते</zweite-sprache>
   </vokabel-paar>
@@ -1075,9 +1075,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="274">
     <erste-sprache>彼らの</erste-sprache><zweite-sprache>उनके</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="274">
-    <erste-sprache>彼らの</erste-sprache><zweite-sprache>उनका</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="275">
     <erste-sprache>評議会</erste-sprache><zweite-sprache>परिषद</zweite-sprache>

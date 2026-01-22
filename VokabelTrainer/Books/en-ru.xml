@@ -6,7 +6,7 @@
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
   <erste-sprache-name>English</erste-sprache-name>
-  <zweite-sprache-name>Russian</zweite-sprache-name>
+  <zweite-sprache-name>Русский</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (English-Russian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (English-Русский) -->
   <vokabel-paar schritt="1">
     <erste-sprache>hello</erste-sprache><zweite-sprache>привет</zweite-sprache>
   </vokabel-paar>
@@ -118,12 +118,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="19">
     <erste-sprache>her</erste-sprache><zweite-sprache>ей</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="19">
-    <erste-sprache>her</erste-sprache><zweite-sprache>их</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="19">
-    <erste-sprache>her</erste-sprache><zweite-sprache>она</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="20">
     <erste-sprache>thanks</erste-sprache><zweite-sprache>спасибо</zweite-sprache>
@@ -612,7 +606,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>dialogue</erste-sprache><zweite-sprache>диалог</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="160">
-    <erste-sprache>Dr</erste-sprache><zweite-sprache>Доктор</zweite-sprache>
+    <erste-sprache>Dr</erste-sprache><zweite-sprache>доктор</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="161">
     <erste-sprache>cost</erste-sprache><zweite-sprache>стоить</zweite-sprache>
@@ -3421,9 +3415,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="975">
     <erste-sprache>one</erste-sprache><zweite-sprache>одного</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="975">
-    <erste-sprache>one</erste-sprache><zweite-sprache>человек</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="975">
     <erste-sprache>one</erste-sprache><zweite-sprache>один</zweite-sprache>

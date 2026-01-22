@@ -5,8 +5,8 @@
   <modus>kontinuierlich</modus>
 
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
-  <erste-sprache-name>French</erste-sprache-name>
-  <zweite-sprache-name>Italian</zweite-sprache-name>
+  <erste-sprache-name>Français</erste-sprache-name>
+  <zweite-sprache-name>Italiano</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
   <zweite-sprache-rtl>nein</zweite-sprache-rtl>
 
@@ -28,7 +28,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
 
-  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (French-Italian) -->
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Français-Italiano) -->
   <vokabel-paar schritt="1">
     <erste-sprache>bonjour</erste-sprache><zweite-sprache>Ciao</zweite-sprache>
   </vokabel-paar>
