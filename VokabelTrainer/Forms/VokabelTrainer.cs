@@ -1295,10 +1295,22 @@ namespace VokabelTrainer
             if (nNeededStep.HasValue && oCurrentStep!=null && oCurrentStep.Count>0)
             {
                 using (NewWordsInCourseForm oForm = new NewWordsInCourseForm(
-                    Resources.NewVocabularyInCourseHeader, m_strFirstLanguage, m_strSecondLanguage, oCurrentStep))
+                    Resources.NewVocabularyInCourseHeader, m_strFirstLanguage, 
+                    m_strSecondLanguage, oCurrentStep))
                 {
                     oForm.ShowDialog(this);
                 }
+            } else if (nNeededStep.HasValue)
+            {
+                MessageBox.Show(this, Resources.CourseFinishedText, 
+                    Resources.CourseFinishedHeader, 
+                    MessageBoxButtons.OK, 
+                    MessageBoxIcon.Asterisk);
+
+                // switch back to "normal", so user can enter his own vocabulary, in case licence allows it.
+                m_strMode = "normal";
+                if (m_bModifiable)
+                    SaveVokabulary();
             }
 
             EnableDisableButtons();
