@@ -2351,6 +2351,11 @@ namespace VokabelTrainer
                     m_strCurrentPath, false, System.Text.Encoding.UTF8))
                 {
                     string[] spaces = {
+                        "                              ",
+                        "                             ",
+                        "                            ",
+                        "                           ",
+                        "                          ",
                         "                         ",
                         "                        ",
                         "                       ",
