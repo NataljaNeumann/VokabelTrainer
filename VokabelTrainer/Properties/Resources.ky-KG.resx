@@ -145,8 +145,8 @@
     <value>Дүйнө жүзүндөгү христиандар Пасханы майрамдашууда</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Европадагы музыка фестивалы</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Меккеге зыярат кылган мусулмандар: Ажылык</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Валентин күнү </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Куттуктайбыз!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Алдын ала белгиленген тил курсу аяктады! Эми жаңылыктарды окуңуз, субтитрлери бар же субтитрсиз тасмаларды көрүңүз, интернет радиосун угуңуз же алардын түпнуска тилиндеги китептерди окуңуз. Биз менен аягына чейин болгонуңуз үчүн рахмат!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Ката!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Практикалык {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Эксперименталдык лексика китебин сынап көргөнүңүз үчүн рахмат. Эгер кандайдыр бир каталарды тапсаңыз же дагы окшош котормолорду тапсаңыз, форумга жакшыртуу боюнча сунуштарыңызды жазыңыз. Программанын версиясын, тилдердин аталыштарын, сөз жуптарын жана сунуштарыңызды кошуңуз. Идеалында, бардык сунуштарыңызды чогултуп, аларды бир убакта жарыялаңыз.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Бул тил жуп үчүн эксперименталдык лексика китеби бар, ал программалык камсыздоо менен бир лицензияга ылайык. Ал чоңдор үчүн үзгүлтүксүз курс катары иштелип чыккан, бирок эне тилинде сүйлөгөндөр тарабынан текшерилген эмес. Аны сынап көргүңүз келеби?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Төмөнкү маанилер жок болгон: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} эң күчтүү</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Жаңы сөздөр</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Бул тил жуп үчүн лексика китеби бар, ал программалык камсыздоо менен бирдей лицензияга ылайык. Бул чоңдор үчүн үзгүлтүксүз курс катары иштелип чыккан. Аны сынап көргүңүз келеби? </value>
   </data>
 </root>

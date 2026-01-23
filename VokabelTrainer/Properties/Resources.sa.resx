@@ -145,8 +145,8 @@
     <value>सम्पूर्णे विश्वे ईसाईजनाः ईस्टर-उत्सवम् आचरन्ति</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>यूरोपे सङ्गीतमहोत्सवः</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>मुसलमाना: मक्काया: हज:</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>वैलेण्टाइन दिवस </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>अभिनन्दनम् !</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>पूर्वनिर्धारितः भाषापाठ्यक्रमः सम्पूर्णः अस्ति! अधुना वार्ता पठन्तु, उपशीर्षकयुक्तानि वा विना वा चलच्चित्राणि पश्यन्तु, अन्तर्जालरेडियो शृणुत, अथवा मूलभाषायां पुस्तकानि पठन्तु। अन्त्यपर्यन्तं अस्माभिः सह लम्बितुं धन्यवादः!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>त्रुटि!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} अभ्यास</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>प्रयोगात्मकशब्दकोशपुस्तकस्य प्रयोगार्थं धन्यवादः। यदि भवन्तः किमपि त्रुटिं प्राप्नुवन्ति अथवा यदि भवन्तः अधिकानि समानध्वनियुक्तानि अनुवादानि प्राप्नुवन्ति तर्हि कृपया सुधारार्थं स्वसुझावानि स्थापयन्तु। सॉफ्टवेयरसंस्करणं, भाषाणां नामानि, शब्दयुग्मानि, भवतः सुझावः च समाविष्टाः कुर्वन्तु । आदर्शतः भवतः सर्वाणि सुझावानि एकत्र कृत्वा सर्वाणि एकदा एव पोस्ट कुर्वन्तु।</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>अस्य भाषायुग्मस्य कृते प्रयोगात्मकं शब्दावलीपुस्तकम् अस्ति, यत् सॉफ्टवेयरस्य समानानुज्ञापत्रस्य अन्तर्गतम् अस्ति । प्रौढानां कृते सततं पाठ्यक्रमरूपेण एतत् परिकल्पितम् आसीत् किन्तु देशीभाषिभिः तस्य प्रूफरीड् न कृतम् । किं भवन्तः तस्य प्रयोगं कर्तुम् इच्छन्ति ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>निम्नलिखितार्थाः लुप्ताः आसन् : </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} अत्यन्तं तीव्रम्</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>नव शब्द</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>अस्य भाषायुग्मस्य कृते शब्दावलीपुस्तकम् अस्ति, यत् सॉफ्टवेयरस्य समानानुज्ञापत्रस्य अन्तर्गतम् अस्ति । प्रौढानां कृते निरन्तरपाठ्यक्रमरूपेण अस्य परिकल्पना आसीत् । किं भवन्तः तस्य प्रयोगं कर्तुम् इच्छन्ति ? </value>
   </data>
 </root>

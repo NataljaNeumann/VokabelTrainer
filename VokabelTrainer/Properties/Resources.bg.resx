@@ -145,8 +145,8 @@
     <value>Християни по целия свят празнуват Великден</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Музикален фестивал в Европа</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Мюсюлмани се поклоняват в Мека: Хадж</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ден на влюбените </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Поздравления!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Предварително дефинираният езиков курс е завършен! Сега четете новини, гледайте филми със или без субтитри, слушайте интернет радио или четете книги на оригиналния им език. Благодарим ви, че останахте с нас до края!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Грешка!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Практика {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Благодарим ви, че изпробвахте експерименталния речник. Моля, публикувайте вашите предложения за подобрение във форума, ако откриете грешки или ако намерите още подобни преводи. Включете версията на софтуера, имената на езиците, двойките думи и вашите предложения. В идеалния случай съберете всичките си предложения и ги публикувайте наведнъж.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Има експериментален речник за тази езикова двойка, който е под същия лиценз като софтуера. Той е проектиран като текущ курс за възрастни, но не е коректиран от носители на езика. Искате ли да го опитате?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Липсваха следните значения: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} най-интензивно</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Нови думи</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Има речник за тази езикова двойка, който е под същия лиценз като софтуера. Той е проектиран като текущ курс за възрастни. Искате ли да го опитате? </value>
   </data>
 </root>

@@ -145,8 +145,8 @@
     <value>Християни всього світу святкують Великдень</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Музичний фестиваль у Європі</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Мусульмани здійснюють паломництво до Мекки: Хадж</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>День святого Валентина </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Вітаємо!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Попередньо визначений мовний курс завершено! Тепер читайте новини, дивіться фільми з субтитрами або без них, слухайте інтернет-радіо або читайте книги мовою оригіналу. Дякуємо, що залишилися з нами до кінця!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Помилка!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Практика {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Дякуємо, що спробували експериментальний словниковий запас. Будь ласка, опублікуйте свої пропозиції щодо покращення на форумі, якщо ви знайдете якісь помилки або якщо знайдете більше схожих за звучанням перекладів. Вкажіть версію програмного забезпечення, назви мов, пари слів та ваші пропозиції. В ідеалі зберіть усі свої пропозиції та опублікуйте їх одночасно.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Для цієї мовної пари існує експериментальний словниковий запас, який поширюється за тією ж ліцензією, що й програмне забезпечення. Він був розроблений як постійний курс для дорослих, але не пройшов коректуру носіїв мови. Хочете спробувати?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Відсутні такі значення: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} найбільш інтенсивно</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Нові слова</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Для цієї мовної пари існує словниковий запас, який поширюється за тією ж ліцензією, що й програмне забезпечення. Він був розроблений як постійний курс для дорослих. Хочете спробувати? </value>
   </data>
 </root>

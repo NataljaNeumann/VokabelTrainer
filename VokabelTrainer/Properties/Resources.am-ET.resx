@@ -145,8 +145,8 @@
     <value>በመላው አለም ያሉ ክርስቲያኖች የትንሳኤ በዓልን እያከበሩ ነው።</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>በአውሮፓ የሙዚቃ ፌስቲቫል</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>ሙስሊሞች ወደ መካ ተጉዘዋል፡ ሐጅ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>የቫለንታይን ቀን </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>እንኳን ደስ አላችሁ!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>አስቀድሞ የተገለጸው የቋንቋ ትምህርት ተጠናቅቋል! አሁን ዜናውን አንብብ፣ የትርጉም ጽሑፎችን ይዘህ ወይም ያለሱ ፊልሞችን ተመልከት፣ የኢንተርኔት ሬዲዮን አዳምጥ፣ ወይም መጽሐፍትን በመጀመሪያ ቋንቋ አንብብ። እስከ መጨረሻው ድረስ ከእኛ ጋር ስለቆዩ እናመሰግናለን!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ስህተት!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} ልምምድ</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>የሙከራ መዝገበ ቃላት መጽሐፍን ስለሞከሩ እናመሰግናለን። ማንኛውም ስህተቶች ካገኙ ወይም ብዙ ተመሳሳይ ድምጽ ያላቸው ትርጉሞች ካገኙ እባክዎን ለማሻሻል አስተያየትዎን በመድረኩ ላይ ይለጥፉ። የሶፍትዌር ስሪቱን፣ የቋንቋዎቹን ስም፣ ጥንዶችን እና የአስተያየት ጥቆማዎችን ያካትቱ። በሐሳብ ደረጃ፣ ሁሉንም የጥቆማ አስተያየቶች ሰብስብ እና ሁሉንም በአንድ ጊዜ ይለጥፉ።</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>ለዚህ የቋንቋ ጥንድ የሙከራ የቃላት ዝርዝር መጽሐፍ አለ፣ እሱም ከሶፍትዌሩ ጋር በተመሳሳይ ፍቃድ ነው። ለአዋቂዎች ቀጣይነት ያለው ኮርስ ሆኖ ተዘጋጅቷል ነገር ግን በአፍ መፍቻ ቋንቋዎች አልተነበበም። ሊሞክሩት ይፈልጋሉ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>የሚከተሉት ትርጉሞች ጠፍተዋል፡ </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} በጣም ኃይለኛ </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>አዲስ ቃላት</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>ለዚህ የቋንቋ ጥንድ የቃላት መፅሃፍ አለ፣ እሱም ከሶፍትዌሩ ጋር በተመሳሳይ ፍቃድ ነው። ለአዋቂዎች ቀጣይነት ያለው ኮርስ ሆኖ ተዘጋጅቷል. ሊሞክሩት ይፈልጋሉ? </value>
   </data>
 </root>

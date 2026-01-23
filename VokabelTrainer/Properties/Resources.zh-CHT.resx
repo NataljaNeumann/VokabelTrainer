@@ -145,8 +145,8 @@
     <value>世界各地的基督徒慶祝復活節</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>歐洲音樂節</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>穆斯林前往麥加朝覲</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>情人節 </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>恭喜！</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>預設語言課程完成！現在您可以閱讀新聞、觀看有字幕或不帶字幕的電影、收聽網路電台或閱讀原始書籍。感謝您堅持到最後！</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>錯誤！</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} 練習</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>感謝您試用實驗性字彙書。如果您發現任何錯誤或找到更多發音相似的翻譯，請在論壇中提出改進建議。請提供軟體版本、語言名稱、詞對以及您的建議。理想情況下，請收集所有建議並一次發布。</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>我們為該語言對開發了一本實驗性詞彙書，其授權協議與軟體相同。該詞彙書旨在作為成人持續學習課程使用，但尚未經過母語人士校對。您想試試嗎？</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>缺少以下意義：</value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} 最強 </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>新詞</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>我們為該語言對開發了一本詞彙書，其授權協議與軟體相同。該詞彙書旨在作為成人持續學習課程。您想試試嗎？ </value>
   </data>
 </root>

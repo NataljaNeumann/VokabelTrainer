@@ -145,8 +145,8 @@
     <value>ساری دنیا دے عیسائی ایسٹر منا رہے نیں</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>یورپ وچ میوزک فیسٹیول</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>مسلماناں دا حاجی مکہ: حج</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ویلنٹائن ڈے </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>مبارک ہووے!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>پہلے توں طے شدہ زبان دا کورس مکمل ہو گیا اے! ہن خبراں پڑھو، ذیلی عنواناں دے نال یا بغیر فلماں ویکھو، انٹرنیٹ ریڈیو سنو، یا اوہناں دی اصل بولی چ کتاباں پڑھو۔ آخر تک ساڈے نال رہن لئی تہاڈا شکریہ!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>غلطی!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} – {1} شدید دی مشق کرو</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>تجرباتی لفظاں دی کتاب آزمان لئی تہاڈا شکریہ۔ جے تہانوں کوئی غلطی نظر آندی اے یا جے تہانوں ہور رلدے ملدے ترجمے ملدے نیں تے مہربانی کر کے فورم تے بہتری لئی اپنیاں تجویزاں پوسٹ کرو۔ سافٹ ویئر ورژن، زباناں دے ناں، لفظاں دے جوڑے، تے اپنیاں تجویزاں شامل کرو۔ مثالی طور تے، اپنیاں ساریاں تجویزاں اکٹھیاں کرو تے اوہناں ساریاں نوں اکو واری پوسٹ کرو۔</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>اس بولی دے جوڑے لئی اک تجرباتی شبداں دی کتاب اے، جو سافٹویئر دے لائسنس دے ہیٹھ اے۔ ایہ بالغاں لئی اک جاری کورس دے طور تے ڈیزائن کیتا گیا سی پر مقامی بولن آلیاں ولوں ایہنوں پروف ریڈ نئیں کیتا گیا۔ کی تسی ایہنوں آزمانا چاہندے او؟</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>درج ذیل معنی غائب سن: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} سب توں زیادہ شدت نال</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>نویں بول</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>اس بولی دے جوڑے لئی اک شبداولی کتاب اے، جو سافٹویئر دے لائسنس ہیٹھ اے۔ ایہ بالغاں لئی اک جاری کورس دے طور تے ڈیزائن کیتا گیا سی۔ کی تسی ایہنوں آزمانا چاہندے او؟ </value>
   </data>
 </root>

@@ -145,8 +145,8 @@
     <value>전 세계 기독교인들이 부활절을 기념합니다</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>유럽 ​​음악 축제</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>메카로 순례하는 무슬림: 하지</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>발렌타인데이 </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>축하합니다!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>사전 정의된 언어 학습 과정이 완료되었습니다! 이제 뉴스를 읽고, 자막 유무에 관계없이 영화를 시청하고, 인터넷 라디오를 듣고, 원어로 책을 읽어보세요. 끝까지 함께해 주셔서 감사합니다!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>오류!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} 연습</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>실험적인 어휘집을 사용해 주셔서 감사합니다. 오류를 발견하거나 비슷한 번역을 더 발견하시면 포럼에 개선 의견을 남겨주세요. 소프트웨어 버전, 언어 이름, 단어 쌍, 그리고 의견을 함께 적어주시면 더욱 좋습니다. 가능하면 모든 의견을 모아서 한 번에 올려주세요.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>이 언어 쌍에 대한 실험적인 어휘집이 있으며, 소프트웨어와 동일한 라이선스가 적용됩니다. 성인을 위한 지속적인 학습 과정으로 설계되었지만, 원어민의 교정은 거치지 않았습니다. 사용해 보시겠습니까?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>다음 의미가 누락되었습니다: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} 가장 강렬한 </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>새로운 단어</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>이 언어 쌍에 대한 어휘집이 있으며, 소프트웨어와 동일한 라이선스가 적용됩니다. 성인을 위한 지속적인 학습 과정으로 설계되었습니다. 사용해 보시겠습니까? </value>
   </data>
 </root>

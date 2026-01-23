@@ -145,8 +145,8 @@
     <value>Христијаните низ целиот свет го слават Велигден</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Музички фестивал во Европа</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Муслиманите одат во Мека: Хаџ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ден на вљубените </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Честитки!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Предефинираниот јазичен курс е завршен! Сега читајте вести, гледајте филмови со или без титлови, слушајте интернет радио или читајте книги на нивниот оригинален јазик. Ви благодариме што останавте со нас до крај!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Грешка!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Вежбајте {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Ви благодариме што ја испробавте експерименталната книга со вокабулар. Ве молиме објавете ги вашите предлози за подобрување на форумот ако најдете грешки или ако најдете повеќе слични преводи. Вклучете ја верзијата на софтверот, имињата на јазиците, паровите зборови и вашите предлози. Идеално, соберете ги сите ваши предлози и објавете ги сите одеднаш.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Постои експериментална книга со вокабулар за овој јазичен пар, која е под истата лиценца како и софтверот. Дизајнирана е како тековен курс за возрасни, но не е лектурирана од мајчини говорници. Дали сакате да ја пробате?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Недостасуваа следниве значења: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} најинтензивно</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Нови зборови</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Постои книга со вокабулар за овој јазичен пар, која е под истата лиценца како и софтверот. Дизајнирана е како тековен курс за возрасни. Дали сакате да ја пробате? </value>
   </data>
 </root>

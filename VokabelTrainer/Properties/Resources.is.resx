@@ -145,8 +145,8 @@
     <value>Kristnir menn um allan heim halda páska</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Tónlistarhátíð í Evrópu</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Múslimar fara í pílagrímaferð til Mekka: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentínusardagurinn </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Til hamingju!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Forstillta tungumálanámskeiðið er lokið! Lestu nú fréttir, horfðu á kvikmyndir með eða án texta, hlustaðu á netútvarp eða lestu bækur á frummálinu. Þökkum ykkur fyrir að vera með okkur til enda!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Mistök!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Æfa {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Þökkum ykkur fyrir að prófa tilraunaorðabókina. Vinsamlegast sendið tillögur ykkar til úrbóta á spjallborðið ef þið finnið einhverjar villur eða ef þið finnið fleiri svipaðar þýðingar. Takið með hugbúnaðarútgáfuna, nöfn tungumálanna, orðapörin og tillögur ykkar. Helst er gott að safna öllum tillögum ykkar og senda þær allar í einu.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Það er til tilraunaorðabók fyrir þetta tungumálapar, sem er undir sama leyfi og hugbúnaðurinn. Hún var hönnuð sem áframhaldandi námskeið fyrir fullorðna en hefur ekki verið yfirlesin af móðurmálsmönnum. Viltu prófa hana?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Eftirfarandi merkingar vantaði: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mest ákafur</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Ný orð</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Það er til orðabók fyrir þetta tungumálapar, sem er undir sama leyfi og hugbúnaðurinn. Hún var hönnuð sem áframhaldandi námskeið fyrir fullorðna. Viltu prófa hana? </value>
   </data>
 </root>

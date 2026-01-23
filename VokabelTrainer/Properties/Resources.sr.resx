@@ -145,8 +145,8 @@
     <value>Хришћани широм света славе Ускрс</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Музички фестивал у Европи</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Муслимани ходочасници у Меку: Хаџ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Дан заљубљених </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Честитамо!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Унапред дефинисани језички курс је завршен! Сада читајте вести, гледајте филмове са или без титлова, слушајте интернет радио или читајте књиге на оригиналном језику. Хвала вам што сте остали са нама до краја!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Грешка!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Вежбају {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Хвала вам што сте испробали експерименталну књигу речника. Молимо вас да објавите своје предлоге за побољшање на форуму ако пронађете грешке или ако пронађете више сличних превода. Укључите верзију софтвера, имена језика, парове речи и ваше предлоге. Идеално би било да сакупите све своје предлоге и објавите их одједном.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Постоји експериментална књига речника за овај језички пар, која је под истом лиценцом као и софтвер. Осмишљена је као континуирани курс за одрасле, али је нису лекторисали изворни говорници. Да ли бисте желели да је испробате?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Недостајала су следећа значења: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} најинтензивније</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Нове речи</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Постоји књига речника за овај језички пар, која је под истом лиценцом као и софтвер. Осмишљена је као континуирани курс за одрасле. Да ли бисте желели да је испробате? </value>
   </data>
 </root>

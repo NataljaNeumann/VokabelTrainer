@@ -145,8 +145,8 @@
     <value>Kristne over hele verden feirer påske</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Musikkfestival i Europa</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslimer pilegrimer til Mekka: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentinsdagen </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Gratulerer!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Det forhåndsdefinerte språkkurset er fullført! Les nå nyheter, se filmer med eller uten undertekster, lytt til internettradio eller les bøker på originalspråket. Takk for at du følger med oss ​​til slutten!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Feil!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Trene {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Takk for at du prøver den eksperimentelle vokabularboken. Legg gjerne inn dine forslag til forbedringer i forumet hvis du finner noen feil eller hvis du finner flere lignende oversettelser. Inkluder programvareversjonen, navnene på språkene, ordparene og forslagene dine. Ideelt sett bør du samle alle forslagene dine og legge dem ut samtidig.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Det finnes en eksperimentell vokabularbok for dette språkparet, som er under samme lisens som programvaren. Den ble designet som et pågående kurs for voksne, men har ikke blitt korrekturlest av morsmålstalende. Vil du prøve den?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Følgende betydninger manglet: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mest intensivt</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Nye ord</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Det finnes en vokabularbok for dette språkparet, som er under samme lisens som programvaren. Den ble designet som et pågående kurs for voksne. Vil du prøve den? </value>
   </data>
 </root>

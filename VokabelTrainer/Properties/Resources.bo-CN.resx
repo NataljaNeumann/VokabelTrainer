@@ -145,8 +145,8 @@
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཨིསི་ཊར་དུས་ཆེན་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>ཡུ་རོབ་ནང་གི་རོལ་དབྱངས་དུས་སྟོན།</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>ཁ་ཆེ་བ་རྣམས་མེ་ཀ་ལ་གནས་མཇལ་དུ་འགྲོ་བཞིན་ཡོད།</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>བརྩེ་དུང་གི་ཉིན་མོ། </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>འཚམས་འདྲི་ཞུ།</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>སྔོན་ནས་གཏན་འཁེལ་བྱས་པའི་སྐད་ཡིག་སློབ་ཚན་མཇུག་སྒྲིལ་ཟིན། ད་ལྟ་གསར་འགྱུར་ཀློག་པ་དང་། མིང་ཚིག་ཡོད་མེད་ཀྱི་གློག་བརྙན་ལྟ་བ། དྲ་རྒྱའི་རླུང་འཕྲིན་ལ་ཉན་པ། ཡང་ན་ཁོང་ཚོའི་སྐད་ཡིག་ཐོག་མའི་དེབ་ཀློག་པ། མཐའ་མ་བར་དུ་ང་ཚོ་དང་མཉམ་དུ་བསྡད་པར་ཐུགས་རྗེ་ཆེ།</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ནོར་བ!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>ཚོད་ལྟའི་མིང་ཚིག་དེབ་དེ་ཚོད་ལྟ་བྱས་པར་ཐུགས་རྗེ་ཆེ། གལ་ཏེ་ཁྱེད་ལ་ནོར་འཁྲུལ་བྱུང་བའམ་ཡང་ན་སྒྲ་འདྲ་མཚུངས་ཀྱི་སྐད་སྒྱུར་མང་བ་བྱུང་ན་གླེང་སྟེགས་སྟེང་ལ་ཡར་རྒྱས་གཏོང་བའི་བསམ་འཆར་སྤེལ་རོགས། མཉེན་ཆས་ཀྱི་ཐོན་རིམ་དང་སྐད་ཡིག་གི་མིང་དང་མིང་ཚིག་ཆ་གཅིག་དང་ཁྱེད་རང་གི་བསམ་འཆར་བཅས་ཚུད་ཡོད། ཡག་ཤོས་ལ་ཁྱེད་རང་གི་བསམ་འཆར་ཚང་མ་བསྡུ་རུབ་བྱས་ནས་མཉམ་དུ་སྤེལ་དགོས།</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>སྐད་ཡིག་ཆ་གཅིག་འདིའི་ཆེད་དུ་ཚོད་ལྟའི་མིང་ཚིག་དེབ་ཅིག་ཡོད་པ་དེ་མཉེན་ཆས་དང་ཆོག་མཆན་གཅིག་པའི་འོག་ཡོད། དེ་ནི་རྒན་རྒོན་ཚོའི་ཆེད་དུ་རྒྱུན་མཐུད་ཀྱི་སློབ་ཚན་ཞིག་ཏུ་བཟོས་ཡོད་ཀྱང་། ས་གནས་ཀྱི་སྐད་ཡིག་བེད་སྤྱོད་བྱེད་མཁན་གྱིས་བདེན་དཔང་བྱས་མེད། ཁྱེད་རང་ཚོད་ལྟ་བྱེད་འདོད་དམ།</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>གཤམ་གྱི་དོན་དག་བརླག་སོང་། </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ཤུགས་ཆེ་ཤོས། </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>ཚིག་གསར་པ།</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>སྐད་ཡིག་ཆ་གཅིག་འདི་ལ་མིང་ཚིག་དེབ་ཅིག་ཡོད་པ་དེ་ནི་མཉེན་ཆས་དང་ཆོག་མཆན་གཅིག་པའི་འོག་ཡོད། དེ་ནི་རྒན་རྒོན་ཚོའི་ཆེད་དུ་རྒྱུན་མཐུད་ཀྱི་སློབ་ཚན་ཞིག་ཏུ་བཟོས་ཡོད། ཁྱེད་རང་ཚོད་ལྟ་བྱེད་འདོད་དམ། </value>
   </data>
 </root>

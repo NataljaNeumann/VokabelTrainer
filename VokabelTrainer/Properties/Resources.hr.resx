@@ -145,8 +145,8 @@
     <value>Kršćani diljem svijeta slave Uskrs</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Glazbeni festival u Europi</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslimani hodočaste u Meku: Hadž</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentinovo </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Čestitamo!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Unaprijed definirani jezični tečaj je završen! Sada čitajte vijesti, gledajte filmove sa ili bez titlova, slušajte internetski radio ili čitajte knjige na izvornom jeziku. Hvala vam što ste ostali s nama do kraja!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Pogreška!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Vježba {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Hvala vam što ste isprobali eksperimentalnu knjigu vokabulara. Molimo vas da objavite svoje prijedloge za poboljšanje na forumu ako pronađete bilo kakve pogreške ili ako pronađete više slično zvučećih prijevoda. Uključite verziju softvera, nazive jezika, parove riječi i svoje prijedloge. Idealno bi bilo da prikupite sve svoje prijedloge i objavite ih odjednom.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Postoji eksperimentalna knjiga vokabulara za ovaj jezični par, koja je pod istom licencom kao i softver. Osmišljena je kao kontinuirani tečaj za odrasle, ali je nisu lektorirali izvorni govornici. Želite li je isprobati?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Nedostaju sljedeća značenja: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} najintenzivnije</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Nove riječi</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Postoji knjiga vokabulara za ovaj jezični par, koja je pod istom licencom kao i softver. Osmišljena je kao kontinuirani tečaj za odrasle. Želite li je isprobati? </value>
   </data>
 </root>

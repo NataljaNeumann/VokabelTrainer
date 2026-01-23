@@ -233,6 +233,12 @@
     <value>Valentine day</value>
     <comment>Tooltip text for the valentine day</comment>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>The pre-defined language course has finished! Go on and read some news, watch some movies with or without closed captions, turn on the internet radio or read some books in original language. Thank you for staying with us until the end!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error!</value>
   </data>

@@ -145,8 +145,8 @@
     <value>Ndị Kraịst n'ụwa niile na-eme mmemme Ista</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Ememme Egwu na Europe</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Ndị Alakụba na-eme njem na Mecca: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ụbọchị Valentine </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Ekele!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Usoro asụsụ eburu ụzọ kọwaa ezuola! Ugbu a gụọ akụkọ, lelee ihe nkiri na-eji ndepụta okwu ma ọ bụ na-enweghị, gee redio ịntanetị, ma ọ bụ gụọ akwụkwọ n'asụsụ mbụ ha. Daalụ maka ịrapara na anyị ruo ọgwụgwụ!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Mmehie!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} omume</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Daalụ maka ịnwale akwụkwọ nyocha okwu. Biko biputere aro gị maka imeziwanye n'ime ọgbakọ ma ọ bụrụ na ịchọta mperi ọ bụla ma ọ bụ ọ bụrụ na ịchọta ntụgharị asụsụ ndị ọzọ na-ada ụda. Gụnye ụdị ngwanro, aha asụsụ, okwu abụọ na ntụnye gị. Dị ka o kwesịrị, chịkọta aro gị niile wee bipute ha niile ozugbo.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Enwere akwụkwọ nnwale maka ụzọ asụsụ a, nke dị n'okpuru otu ikike dị ka ngwa ngwa. Emebere ya ka ihe na-aga n'ihu maka ndị okenye mana ndị na-asụ obodo agụbeghị ya. Ọ ga-amasị gị ịnwale ya?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Ihe ndị a pụtara efu efu: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} kachasi ike </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Okwu ọhụrụ</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Enwere akwụkwọ okwu maka ụzọ asụsụ a, nke dị n'okpuru otu ikike dị ka ngwa ngwa. Emebere ya ka ọ bụrụ usoro mmụta na-aga n'ihu maka ndị okenye. Ọ ga-amasị gị ịnwale ya? </value>
   </data>
 </root>

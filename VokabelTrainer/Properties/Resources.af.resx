@@ -145,8 +145,8 @@
     <value>Christene regoor die wêreld vier Paasfees</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Musiekfees in Europa</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Moslems pelgrims na Mekka: Hadj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentynsdag </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Baie geluk!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Die voorafbepaalde taalkursus is voltooi! Lees nou die nuus, kyk flieks met of sonder onderskrifte, luister na internetradio of lees boeke in hul oorspronklike taal. Dankie dat julle tot die einde by ons gebly het!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Fout!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Oefen {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Dankie dat julle die eksperimentele woordeskatboek probeer het. Plaas asseblief julle voorstelle vir verbetering in die forum as julle enige foute vind of as julle meer soortgelyke vertalings vind. Sluit die sagtewareweergawe, die name van die tale, die woordpare en julle voorstelle in. Ideaal gesproke, versamel al julle voorstelle en plaas dit alles gelyktydig.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Daar is 'n eksperimentele woordeskatboek vir hierdie taalpaar, wat onder dieselfde lisensie as die sagteware is. Dit is ontwerp as 'n deurlopende kursus vir volwassenes, maar is nie deur moedertaalsprekers nagegaan nie. Wil julle dit probeer?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Die volgende betekenisse het ontbreek: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mees intensief </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Nuwe Woorde</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Daar is 'n woordeskatboek vir hierdie taalpaar, wat onder dieselfde lisensie as die sagteware is. Dit is ontwerp as 'n deurlopende kursus vir volwassenes. Wil julle dit probeer? </value>
   </data>
 </root>

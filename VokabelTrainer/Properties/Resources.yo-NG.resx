@@ -145,8 +145,8 @@
     <value>Awọn Kristiani kaakiri agbaye n ṣe ayẹyẹ Ọjọ ajinde Kristi</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Orin Festival ni Europe</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Musulumi rin ajo si Mekka: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Falentaini ọjọ </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Oriire!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Ẹkọ ede ti a ti sọ tẹlẹ ti pari! Bayi ka awọn iroyin, wo awọn fiimu pẹlu tabi laisi awọn atunkọ, tẹtisi redio intanẹẹti, tabi ka awọn iwe ni ede atilẹba wọn. O ṣeun fun diduro pẹlu wa titi di opin!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Asise!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} iṣe</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>O ṣeun fun igbiyanju iwe-ọrọ esiperimenta. Jọwọ fi awọn imọran rẹ ranṣẹ fun ilọsiwaju ninu apejọ ti o ba ri awọn aṣiṣe eyikeyi tabi ti o ba ri awọn itumọ ti o jọra diẹ sii. Fi ẹyà ẹ̀yà àìrídìmú náà kún, orúkọ àwọn èdè náà, àwọn àkópọ̀ ọ̀rọ̀, àti àwọn àbá rẹ. Ni deede, gba gbogbo awọn imọran rẹ ki o firanṣẹ gbogbo wọn ni ẹẹkan.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Iwe ifọrọwerọ esiperimenta wa fun bata ede yii, eyiti o wa labẹ iwe-aṣẹ kanna gẹgẹbi sọfitiwia naa. A ṣe apẹrẹ rẹ gẹgẹbi ipa-ọna ti nlọ lọwọ fun awọn agbalagba ṣugbọn ko jẹ atunṣe nipasẹ awọn agbọrọsọ abinibi. Ṣe o fẹ gbiyanju rẹ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Awọn itumọ wọnyi ko padanu: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} ti o lagbara julọ </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Awọn Ọrọ Tuntun</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Iwe fokabulari wa fun bata ede yii, eyiti o wa labẹ iwe-aṣẹ kanna gẹgẹbi sọfitiwia naa. A ṣe apẹrẹ rẹ gẹgẹbi ilana ti nlọ lọwọ fun awọn agbalagba. Ṣe o fẹ gbiyanju rẹ? </value>
   </data>
 </root>

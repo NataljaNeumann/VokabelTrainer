@@ -145,8 +145,8 @@
     <value>په ټوله نړۍ کې عیسویان ایسټر لمانځي</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>په اروپا کې د موسیقۍ فستیوال</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>مسلمانان مکې ته زیارت کوي: حج</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>د ویلنټاین ورځ </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>مبارک شه!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>د ژبې مخکې ټاکل شوی کورس بشپړ شو! اوس خبرونه ولولئ، د فرعي سرلیکونو سره یا پرته فلمونه وګورئ، انټرنیټ راډیو واورئ، یا په اصلي ژبه کې کتابونه ولولئ. تر پایه پورې زموږ سره د پاتې کیدو لپاره مننه!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>تېروتنه!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} – {1} تمرین کړئ</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>د تجربوي لغتونو کتاب هڅه کولو لپاره مننه. مهرباني وکړئ که تاسو کومه تېروتنه ومومئ یا که تاسو ورته غږ لرونکي ژباړې ومومئ نو په فورم کې د ښه والي لپاره خپل وړاندیزونه پوسټ کړئ. د سافټویر نسخه، د ژبو نومونه، د کلمو جوړې، او خپل وړاندیزونه شامل کړئ. په مثالي توګه، خپل ټول وړاندیزونه راټول کړئ او ټول یې په یوځل کې پوسټ کړئ.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>د دې ژبې جوړې لپاره د تجربوي لغتونو کتاب شتون لري، کوم چې د سافټویر په څیر ورته جواز لاندې دی. دا د لویانو لپاره د روان کورس په توګه ډیزاین شوی مګر د اصلي ویناوالو لخوا پروف ریډ شوی نه دی. ایا تاسو غواړئ دا هڅه وکړئ؟</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>لاندې معناوې ورکې وې: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} خورا په شدت سره</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>نوي کلمې</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>د دې ژبې جوړې لپاره د لغتونو کتاب شتون لري، کوم چې د سافټویر په څیر ورته جواز لاندې دی. دا د لویانو لپاره د روان کورس په توګه ډیزاین شوی. ایا تاسو غواړئ دا هڅه وکړئ؟ </value>
   </data>
 </root>

@@ -145,8 +145,8 @@
     <value>Χριστιανοί σε όλο τον κόσμο γιορτάζουν το Πάσχα</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Φεστιβάλ Μουσικής στην Ευρώπη</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Μουσουλμάνοι προσκυνητές στη Μέκκα: Χατζ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ημέρα του Αγίου Βαλεντίνου </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Συγχαρητήρια!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Το προκαθορισμένο μάθημα γλωσσών ολοκληρώθηκε! Τώρα διαβάστε τις ειδήσεις, παρακολουθήστε ταινίες με ή χωρίς υπότιτλους, ακούστε διαδικτυακό ραδιόφωνο ή διαβάστε βιβλία στην πρωτότυπη γλώσσα τους. Σας ευχαριστούμε που μείνατε μαζί μας μέχρι το τέλος!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Σφάλμα!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} εξάσκηση</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Σας ευχαριστούμε που δοκιμάσατε το πειραματικό βιβλίο λεξιλογίου. Παρακαλούμε δημοσιεύστε τις προτάσεις σας για βελτίωση στο φόρουμ εάν βρείτε τυχόν σφάλματα ή εάν βρείτε περισσότερες παρόμοιες μεταφράσεις. Συμπεριλάβετε την έκδοση λογισμικού, τα ονόματα των γλωσσών, τα ζεύγη λέξεων και τις προτάσεις σας. Ιδανικά, συγκεντρώστε όλες τις προτάσεις σας και δημοσιεύστε τες όλες μαζί.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Υπάρχει ένα πειραματικό βιβλίο λεξιλογίου για αυτό το ζεύγος γλωσσών, το οποίο βρίσκεται υπό την ίδια άδεια χρήσης με το λογισμικό. Σχεδιάστηκε ως συνεχές μάθημα για ενήλικες, αλλά δεν έχει διορθωθεί από φυσικούς ομιλητές. Θα θέλατε να το δοκιμάσετε;</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Έλειπαν οι ακόλουθες έννοιες:</value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} πιο έντονες </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Νέες Λέξεις</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Υπάρχει ένα βιβλίο λεξιλογίου για αυτό το ζεύγος γλωσσών, το οποίο βρίσκεται υπό την ίδια άδεια χρήσης με το λογισμικό. Σχεδιάστηκε ως συνεχές μάθημα για ενήλικες. Θα θέλατε να το δοκιμάσετε; </value>
   </data>
 </root>

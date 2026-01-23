@@ -322,6 +322,24 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Congratulations!.
+        /// </summary>
+        internal static string CourseFinishedHeader {
+            get {
+                return ResourceManager.GetString("CourseFinishedHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pre-defined language course has finished! Go on and read some news, watch some movies with or without closed captions, turn on the internet radio or read some books in original language. Thank you for staying with us until the end!.
+        /// </summary>
+        internal static string CourseFinishedText {
+            get {
+                return ResourceManager.GetString("CourseFinishedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error!.
         /// </summary>
         internal static string Error {

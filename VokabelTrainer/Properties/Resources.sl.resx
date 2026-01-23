@@ -145,8 +145,8 @@
     <value>Kristjani po vsem svetu praznujejo veliko noč</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Glasbeni festival v Evropi</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslimani romajo v Meko: Hadž</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentinovo </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Čestitamo!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Vnaprej določen jezikovni tečaj je končan! Zdaj lahko berete novice, gledate filme z ali brez podnapisov, poslušate internetni radio ali berete knjige v izvirnem jeziku. Hvala, ker ste z nami vztrajali do konca!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Napaka!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Vadite {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Hvala, ker ste preizkusili eksperimentalni besednjak. Prosimo, da svoje predloge za izboljšave objavite na forumu, če najdete kakršne koli napake ali če najdete več podobno zvenečih prevodov. Vključite različico programske opreme, imena jezikov, besedne pare in svoje predloge. Idealno bi bilo, če bi zbrali vse svoje predloge in jih objavili hkrati.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Za ta jezikovni par obstaja eksperimentalni besednjak, ki je pod isto licenco kot programska oprema. Zasnovan je bil kot tekoči tečaj za odrasle, vendar ga niso lektorirali naravni govorci. Bi ga radi preizkusili?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Manjkali so naslednji pomeni: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Najintenzivneje {0} – {1}</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Nove besede</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Za ta jezikovni par obstaja besednjak, ki je pod isto licenco kot programska oprema. Zasnovan je bil kot tekoči tečaj za odrasle. Bi ga radi preizkusili? </value>
   </data>
 </root>

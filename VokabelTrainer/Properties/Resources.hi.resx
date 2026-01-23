@@ -145,8 +145,8 @@
     <value>दुनिया भर के ईसाई ईस्टर मना रहे हैं</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>यूरोप में संगीत समारोह</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>मक्का के मुस्लिम तीर्थयात्री: हज</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>वेलेंटाइन दिवस </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>बधाई हो!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>पूर्वनिर्धारित भाषा पाठ्यक्रम पूरा हो गया है! अब समाचार पढ़ें, उपशीर्षकों के साथ या बिना उपशीर्षकों के फिल्में देखें, इंटरनेट रेडियो सुनें या मूल भाषा में पुस्तकें पढ़ें। अंत तक हमारे साथ बने रहने के लिए धन्यवाद!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>गलती!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} अभ्यास</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>प्रायोगिक शब्दावली पुस्तक को आज़माने के लिए धन्यवाद। यदि आपको कोई त्रुटि मिलती है या आपको मिलते-जुलते अनुवाद मिलते हैं, तो कृपया फ़ोरम में सुधार के लिए अपने सुझाव पोस्ट करें। सॉफ़्टवेयर संस्करण, भाषाओं के नाम, शब्द युग्म और अपने सुझाव शामिल करें। आदर्श रूप से, अपने सभी सुझावों को एक साथ एकत्रित करके पोस्ट करें।</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>इस भाषा युग्म के लिए एक प्रायोगिक शब्दावली पुस्तक है, जो सॉफ़्टवेयर के समान लाइसेंस के अंतर्गत है। इसे वयस्कों के लिए एक सतत पाठ्यक्रम के रूप में डिज़ाइन किया गया था, लेकिन इसकी मूल भाषा बोलने वालों द्वारा प्रूफरीडिंग नहीं की गई है। क्या आप इसे आज़माना चाहेंगे?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>निम्नलिखित अर्थ गायब थे: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} सबसे तीव्र</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>नए शब्द</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>इस भाषा युग्म के लिए एक शब्दावली पुस्तक है, जो सॉफ़्टवेयर के समान लाइसेंस के अंतर्गत है। इसे वयस्कों के लिए एक सतत पाठ्यक्रम के रूप में डिज़ाइन किया गया था। क्या आप इसे आज़माना चाहेंगे? </value>
   </data>
 </root>

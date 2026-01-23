@@ -145,8 +145,8 @@
     <value>Дэлхий даяар Христэд итгэгчид Улаан өндөгний баярыг тэмдэглэж байна</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Европ дахь хөгжмийн наадам</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Мусульманчууд Меккад мөргөл үйлддэг: Хаж</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Гэгээн Валентины өдөр </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Баяр хүргэе!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Урьдчилан тодорхойлсон хэлний курс дууслаа! Одоо мэдээ уншиж, хадмал орчуулгатай, хадмалгүй кино үзэх, интернет радио сонсох, эх хэлээр нь ном уншаарай. Эцсээ хүртэл бидэнтэй хамт байсанд баярлалаа!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Алдаа!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Дадлага {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Туршилтын үгсийн санг туршиж үзсэнд баярлалаа. Хэрэв та ямар нэг алдаа олвол эсвэл өөр ижил төстэй орчуулга олж байвал сайжруулах саналаа форумд нийтэлнэ үү. Програм хангамжийн хувилбар, хэлний нэр, үгийн хослол, санал хүсэлтээ оруулна уу. Хамгийн тохиромжтой нь бүх саналаа цуглуулж, бүгдийг нэг дор нийтэл.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Энэ хэлний хосод зориулсан туршилтын толь бичгийн ном байдаг бөгөөд энэ нь програм хангамжтай ижил лицензийн дор байдаг. Энэ нь насанд хүрэгчдэд зориулсан сургалт хэлбэрээр зохион бүтээгдсэн боловч төрөлх хэлээр ярьдаг хүмүүс уншаагүй байна. Та туршиж үзмээр байна уу?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Дараахь утгууд дутуу байсан. </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} хамгийн эрчимтэй</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Шинэ үгс</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Энэ хэлний хосод зориулсан үгийн сангийн ном байдаг бөгөөд энэ нь програм хангамжтай ижил лицензтэй байдаг. Энэ нь насанд хүрэгчдэд зориулсан байнгын сургалтаар зохион бүтээгдсэн. Та туршиж үзмээр байна уу? </value>
   </data>
 </root>

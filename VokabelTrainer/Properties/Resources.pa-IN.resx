@@ -145,8 +145,8 @@
     <value>ਦੁਨੀਆ ਭਰ ਦੇ ਈਸਾਈ ਈਸਟਰ ਮਨਾ ਰਹੇ ਹਨ</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>ਯੂਰਪ ਵਿੱਚ ਸੰਗੀਤ ਉਤਸਵ</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>ਮੱਕਾ ਜਾਣ ਵਾਲੇ ਮੁਸਲਮਾਨ ਸ਼ਰਧਾਲੂ: ਹੱਜ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ਵੈਲੇਨਟਾਈਨ ਦਿਵਸ </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>ਵਧਾਈਆਂ!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>ਪਹਿਲਾਂ ਤੋਂ ਨਿਰਧਾਰਤ ਭਾਸ਼ਾ ਕੋਰਸ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ! ਹੁਣ ਖ਼ਬਰਾਂ ਪੜ੍ਹੋ, ਉਪਸਿਰਲੇਖਾਂ ਦੇ ਨਾਲ ਜਾਂ ਬਿਨਾਂ ਫਿਲਮਾਂ ਦੇਖੋ, ਇੰਟਰਨੈੱਟ ਰੇਡੀਓ ਸੁਣੋ, ਜਾਂ ਉਹਨਾਂ ਦੀ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਕਿਤਾਬਾਂ ਪੜ੍ਹੋ। ਅੰਤ ਤੱਕ ਸਾਡੇ ਨਾਲ ਜੁੜੇ ਰਹਿਣ ਲਈ ਧੰਨਵਾਦ!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ਗਲਤੀ!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>ਅਭਿਆਸ {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>ਪ੍ਰਯੋਗਾਤਮਕ ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ ਨੂੰ ਅਜ਼ਮਾਉਣ ਲਈ ਧੰਨਵਾਦ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਕੋਈ ਗਲਤੀ ਮਿਲਦੀ ਹੈ ਜਾਂ ਜੇਕਰ ਤੁਹਾਨੂੰ ਹੋਰ ਸਮਾਨ-ਅਵਾਜ਼ ਵਾਲੇ ਅਨੁਵਾਦ ਮਿਲਦੇ ਹਨ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਫੋਰਮ ਵਿੱਚ ਸੁਧਾਰ ਲਈ ਆਪਣੇ ਸੁਝਾਅ ਪੋਸਟ ਕਰੋ। ਸਾਫਟਵੇਅਰ ਸੰਸਕਰਣ, ਭਾਸ਼ਾਵਾਂ ਦੇ ਨਾਮ, ਸ਼ਬਦ ਜੋੜੇ ਅਤੇ ਆਪਣੇ ਸੁਝਾਅ ਸ਼ਾਮਲ ਕਰੋ। ਆਦਰਸ਼ਕ ਤੌਰ 'ਤੇ, ਆਪਣੇ ਸਾਰੇ ਸੁਝਾਅ ਇਕੱਠੇ ਕਰੋ ਅਤੇ ਉਹਨਾਂ ਸਾਰਿਆਂ ਨੂੰ ਇੱਕੋ ਵਾਰ ਪੋਸਟ ਕਰੋ।</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>ਇਸ ਭਾਸ਼ਾ ਜੋੜੇ ਲਈ ਇੱਕ ਪ੍ਰਯੋਗਾਤਮਕ ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ ਹੈ, ਜੋ ਕਿ ਸਾਫਟਵੇਅਰ ਦੇ ਸਮਾਨ ਲਾਇਸੈਂਸ ਦੇ ਅਧੀਨ ਹੈ। ਇਸਨੂੰ ਬਾਲਗਾਂ ਲਈ ਇੱਕ ਚੱਲ ਰਹੇ ਕੋਰਸ ਦੇ ਰੂਪ ਵਿੱਚ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ ਪਰ ਮੂਲ ਬੋਲਣ ਵਾਲਿਆਂ ਦੁਆਰਾ ਪਰੂਫਰੀਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਅਜ਼ਮਾਉਣਾ ਚਾਹੋਗੇ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>ਹੇਠ ਲਿਖੇ ਅਰਥ ਗਾਇਬ ਸਨ: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ਸਭ ਤੋਂ ਤੀਬਰ</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>ਨਵੇਂ ਸ਼ਬਦ</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>ਇਸ ਭਾਸ਼ਾ ਜੋੜੇ ਲਈ ਇੱਕ ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ ਹੈ, ਜੋ ਕਿ ਸਾਫਟਵੇਅਰ ਦੇ ਸਮਾਨ ਲਾਇਸੈਂਸ ਦੇ ਅਧੀਨ ਹੈ। ਇਸਨੂੰ ਬਾਲਗਾਂ ਲਈ ਇੱਕ ਚੱਲ ਰਹੇ ਕੋਰਸ ਦੇ ਰੂਪ ਵਿੱਚ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ। ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਅਜ਼ਮਾਉਣਾ ਚਾਹੋਗੇ? </value>
   </data>
 </root>

@@ -145,8 +145,8 @@
     <value>Người theo đạo Thiên chúa trên khắp thế giới đang đón lễ Phục sinh</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Lễ hội âm nhạc ở Châu Âu</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Người Hồi giáo hành hương đến Mecca: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ngày Lễ Tình nhân </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Chúc mừng!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Khóa học ngôn ngữ được định sẵn đã hoàn thành! Giờ bạn có thể đọc tin tức, xem phim có hoặc không có phụ đề, nghe đài phát thanh internet hoặc đọc sách bằng ngôn ngữ gốc. Cảm ơn bạn đã đồng hành cùng chúng tôi đến cuối!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Sai lầm!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Luyện {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Cảm ơn bạn đã thử cuốn sách từ vựng thử nghiệm. Vui lòng đăng các đề xuất cải tiến của bạn trên diễn đàn nếu bạn tìm thấy bất kỳ lỗi nào hoặc nếu bạn tìm thấy các bản dịch có âm thanh tương tự hơn. Bao gồm phiên bản phần mềm, tên ngôn ngữ, các cặp từ và đề xuất của bạn. Tốt nhất là hãy thu thập tất cả các đề xuất của bạn và đăng chúng cùng một lúc.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Có một cuốn sách từ vựng thử nghiệm cho cặp ngôn ngữ này, được cấp phép giống với phần mềm. Nó được thiết kế như một khóa học liên tục dành cho người lớn nhưng chưa được người bản ngữ hiệu đính. Bạn có muốn thử không?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Các ý nghĩa sau đây bị thiếu: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} chuyên sâu nhất</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Từ mới</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Có một cuốn sách từ vựng cho cặp ngôn ngữ này, được cấp phép giống với phần mềm. Nó được thiết kế như một khóa học liên tục dành cho người lớn. Bạn có muốn thử không? </value>
   </data>
 </root>

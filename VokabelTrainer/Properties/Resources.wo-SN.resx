@@ -145,8 +145,8 @@
     <value>Chretien yi ci àdduna bi yépp ñu ngi màggal Pâques</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Festiwaalu misik ci Europe</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Jullit yi hajj Màkka: Hajj màkka</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Bisu valentiin </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Jërejëff!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Njàngalem làkk wi ñu tànn bu njëkk jeexna! Leegi jàngal xibaar yi, seetaan filmu yu am wala amul sous-titre, déglu radio ci net bi, wala jàng téere ci làkk wiñ ko bindee. Noo ngi leen di sant ci seen taxawaay ba ci njeexte li!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Njuumte!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} tàggat yaram</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Noo ngi leen di sant ci li ngeen jéem téere vocabulaire bi ñuy jàngat. Baalnu nga publie sa xalaat ngir gëna suqaliku ci forum bi sudee gis nga benn njuumte wala sudee gis nga yeneen tekki yu nuru loolu. Bokk ci xeetu losisel bi, tur làkk yi, ñaari baat yi ak say xalaat. Li gëna wóor mooy nga dajale say xalaat yépp nga publie leen benn yoon.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Amna téere vocabulaire buy jàngat ñaari làkk yii, te nekk ci ndigalu benn lisence ak losisel bi. Ñu ngi ko tëral muy njàngale buy wéy ngir mag ñi waaye ñi ko làkk wiñ nàmp jàngu ñu ko bu baax. Bëgg nga ko jéem ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Tekki yii amul: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} gëna am doole </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Baatu yu bees</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Amna téere vocabulaire ngir ñaari làkk yii, te nekk ci ndigalu benn lisence ak losisel bi. Ñu ngi ko tëral muy njàngale buy wéy ngir mag ñi. Bëgg nga ko jéem ? </value>
   </data>
 </root>

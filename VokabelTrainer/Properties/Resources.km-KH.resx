@@ -145,8 +145,8 @@
     <value>គ្រិស្តបរិស័ទទូទាំងពិភពលោកកំពុងប្រារព្ធពិធីបុណ្យ Easter</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>មហោស្រពតន្ត្រីនៅអឺរ៉ុប</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>ជនមូស្លីមធ្វើធម្មយាត្រាទៅកាន់ទីក្រុង Mecca: Hajj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ថ្ងៃនៃក្តីស្រឡាញ់ </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>អបអរសាទរ!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>វគ្គសិក្សាភាសាដែលបានកំណត់ទុកជាមុនត្រូវបានបញ្ចប់! ឥឡូវនេះ អានព័ត៌មាន មើលភាពយន្តដែលមាន ឬគ្មានចំណងជើងរង ស្តាប់វិទ្យុអ៊ីនធឺណិត ឬអានសៀវភៅជាភាសាដើមរបស់ពួកគេ។ អរគុណដែលនៅជាមួយពួកយើងរហូតដល់ចប់!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>ខុស!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>អនុវត្តភាសា {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>សូមអរគុណចំពោះការសាកល្បងសៀវភៅវាក្យសព្ទពិសោធន៍។ សូមបង្ហោះការផ្ដល់យោបល់របស់អ្នកសម្រាប់ការកែលម្អនៅក្នុងវេទិកា ប្រសិនបើអ្នករកឃើញកំហុសណាមួយ ឬប្រសិនបើអ្នករកឃើញការបកប្រែដែលមានសំឡេងស្រដៀងគ្នាបន្ថែមទៀត។ រួមបញ្ចូលកំណែកម្មវិធី ឈ្មោះភាសា គូពាក្យ និងការផ្ដល់យោបល់របស់អ្នក។ តាមឧត្ដមគតិ ប្រមូលការផ្ដល់យោបល់របស់អ្នកទាំងអស់ ហើយបង្ហោះវាទាំងអស់ក្នុងពេលតែមួយ។</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>មានសៀវភៅវាក្យសព្ទពិសោធន៍សម្រាប់គូភាសានេះ ដែលស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណដូចគ្នានឹងកម្មវិធី។ វាត្រូវបានរចនាឡើងជាវគ្គសិក្សាបន្តសម្រាប់មនុស្សពេញវ័យ ប៉ុន្តែមិនត្រូវបានបញ្ជាក់ដោយអ្នកនិយាយដើមឡើយ។ តើអ្នកចង់សាកល្បងទេ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>អត្ថន័យខាងក្រោមត្រូវបានបាត់៖ </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ខ្លាំងបំផុត។</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>ពាក្យថ្មី។</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>មានសៀវភៅវាក្យសព្ទសម្រាប់គូភាសានេះ ដែលស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណដូចគ្នានឹងកម្មវិធី។ វាត្រូវបានរចនាឡើងជាវគ្គសិក្សាបន្តសម្រាប់មនុស្សពេញវ័យ។ តើអ្នកចង់សាកល្បងទេ? </value>
   </data>
 </root>

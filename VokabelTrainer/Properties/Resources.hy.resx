@@ -145,8 +145,8 @@
     <value>Ամբողջ աշխարհի քրիստոնյաները նշում են Զատիկը</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Երաժշտական ​​փառատոն Եվրոպայում</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Մուսուլմանները ուխտավորներ են Մեքքա. Հաջ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Վալենտինի օր </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Շնորհավորում ենք!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Նախապես սահմանված լեզվի դասընթացն ավարտված է! Այժմ կարդացեք նորությունները, դիտեք ֆիլմեր ենթագրերով կամ առանց դրանց, լսեք ինտերնետային ռադիո կամ կարդացեք գրքեր իրենց բնօրինակ լեզվով։ Շնորհակալություն ենք հայտնում մեզ հետ մնալու համար մինչև վերջ!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Սխալ.</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Պրակտիկա {0} - {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Շնորհակալություն ենք հայտնում փորձարարական բառապաշարի գիրքը փորձարկելու համար։ Խնդրում ենք ֆորումում տեղադրել ձեր առաջարկները բարելավման համար, եթե գտնեք որևէ սխալ կամ եթե գտնեք ավելի շատ նմանատիպ հնչողությամբ թարգմանություններ։ Ներառեք ծրագրի տարբերակը, լեզուների անունները, բառերի զույգերը և ձեր առաջարկները։ Լավագույնն այն է, որ հավաքեք ձեր բոլոր առաջարկները և դրանք բոլորը տեղադրեք միաժամանակ։</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Այս լեզվական զույգի համար կա փորձարարական բառապաշարի գիրք, որը գտնվում է ծրագրի հետ նույն լիցենզիայի ներքո։ Այն մշակվել է որպես մեծահասակների համար շարունակական դասընթաց, բայց չի խմբագրվել մայրենի լեզվով խոսողների կողմից։ Կցանկանայի՞ք փորձել այն։</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Բացակայում էին հետևյալ իմաստները. </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} առավել ինտենսիվ </value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Նոր բառեր</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Այս լեզվական զույգի համար կա բառապաշարի գիրք, որը գտնվում է ծրագրի հետ նույն լիցենզիայի ներքո։ Այն մշակվել է որպես մեծահասակների համար շարունակական դասընթաց։ Կցանկանայի՞ք փորձել այն։ </value>
   </data>
 </root>

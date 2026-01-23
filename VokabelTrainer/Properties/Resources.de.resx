@@ -145,8 +145,8 @@
     <value>Christen weltweit feiern Ostern</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Musikfestival in Europa</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Muslimische Pilgerfahrt nach Mekka: Hadsch</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentinstag </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Herzlichen Glückwunsch!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Der vordefinierte Sprachkurs ist abgeschlossen! Lesen Sie nun Nachrichten, schauen Sie Filme mit oder ohne Untertitel, schalten Sie Internetradio ein oder lesen Sie Bücher im Original. Vielen Dank, dass Sie bis zum Schluss dabei geblieben sind!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Fehler!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} - {1} trainieren</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Vielen Dank, dass Sie das experimentelle Vokabelbuch ausprobiert haben. Bitte posten Sie Ihre Verbesserungsvorschläge im Forum, falls Sie Fehler oder ähnlicher klingende Übersetzungen finden. Geben Sie dabei die Softwareversion, die Namen der Sprachen, die Wortpaare und Ihre Verbesserungsvorschläge an. Idealerweise sammeln Sie alle Verbesserungsvorschläge und posten sie alle auf einmal.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Für dieses Sprachpaar gibt es ein experimentelles Vokabelbuch, das unter derselben Lizenz wie die Software steht. Es wurde als fortlaufender Kurs für Erwachsene konzipiert, jedoch nicht von Muttersprachlern Korrektur gelesen. Möchten Sie es ausprobieren?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Folgende Bedeutungen haben gefehlt: </value>
@@ -268,10 +274,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} intensivst</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Neue Wörter</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Für dieses Sprachpaar gibt es ein Vokabelbuch, das unter derselben Lizenz wie die Software steht. Es wurde als fortlaufender Kurs für Erwachsene konzipiert. Möchten Sie es ausprobieren? </value>
   </data>
 </root>

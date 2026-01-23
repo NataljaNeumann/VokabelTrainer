@@ -145,8 +145,8 @@
     <value>Bütin dünýädäki hristianlar Pasha baýramyny belleýärler</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Europeewropada aýdym-saz festiwaly</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Musulmanlar Mekgä zyýaratçy: Haj</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Söýgüliler güni </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Gutlaýarys!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Öňünden kesgitlenen dil kursy tamamlandy! Indi täzelikleri okaň, subtitrler bilen ýa-da bolmasa film görüň, internet radiosyny diňläň ýa-da asyl dilindäki kitaplary okaň. Ahyryna çenli biziň bilen ýapyşanyňyz üçin sag boluň!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Istalňyşlyk!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>{0} – {1} öwreniň</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Synag söz kitabyny synap göreniňiz üçin sag boluň. Haýsydyr bir ýalňyşlyk tapsaňyz ýa-da has meňzeş terjimeleri tapsaňyz, forumda gowulaşmak üçin teklipleriňizi ibermegiňizi haýyş edýäris. Programma üpjünçiliginiň wersiýasyny, dilleriň atlaryny, jübüt sözüni we teklipleriňizi goşuň. Iň gowusy, ähli teklipleriňizi ýygnaň we hemmesini birbada ýerleşdiriň.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Programma üpjünçiligi bilen bir ygtyýarnamada bolan bu dil jübüti üçin synag synag kitaby bar. Bu ulular üçin dowamly okuw hökmünde döredildi, ýöne ene dilinde gürleýänler tarapyndan synagdan geçirilmedi. Synap görmek isleýärsiňizmi?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Aşakdaky manylar ýokdy: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} iň intensiw</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Täze sözler</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Programma üpjünçiligi bilen birmeňzeş ygtyýarnama eýe bolan bu dil jübüti üçin söz kitaby bar. Ulylar üçin dowamly okuw hökmünde döredildi. Synap görmek isleýärsiňizmi? </value>
   </data>
 </root>

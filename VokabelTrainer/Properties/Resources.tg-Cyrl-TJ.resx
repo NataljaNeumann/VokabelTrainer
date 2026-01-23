@@ -145,8 +145,8 @@
     <value>Масеҳиён дар тамоми ҷаҳон иди Пасхаро ҷашн мегиранд</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CelebrationEsc" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="CelebrationEsc" xml:space="preserve">
+    <value>Фестивали мусиқӣ дар Аврупо</value>
   </data>
   <data name="CelebrationHajj" xml:space="preserve">
     <value>Мусулмонони зиёрати Макка: Ҳаҷ</value>
@@ -205,6 +205,12 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Рӯзи Валентин </value>
   </data>
+  <data name="CourseFinishedHeader" xml:space="preserve">
+    <value>Табрик мекунем!</value>
+  </data>
+  <data name="CourseFinishedText" xml:space="preserve">
+    <value>Курси забони пешакӣ муайяншуда ба анҷом расид! Акнун ахбор хонед, филмҳоро бо субтитр ё бидуни субтитр тамошо кунед, радиои интернетиро гӯш кунед ё китобҳоро бо забони аслии онҳо хонед. Ташаккур барои то охир бо мо буданатон!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Хато!</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Exercise" xml:space="preserve">
     <value>Машқҳои {0} – {1}</value>
   </data>
-  <data name="ExperimentalThanks" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalThanks" xml:space="preserve">
+    <value>Ташаккур ба шумо барои санҷидани китоби лексикаи таҷрибавӣ. Лутфан пешниҳодҳои худро оид ба беҳтарсозӣ дар форум фиристед, агар шумо ягон хатогие пайдо кунед ё тарҷумаҳои ба ҳам монандро пайдо кунед. Версияи нармафзор, номҳои забонҳо, ҷуфтҳои калимаҳо ва пешниҳодҳои худро дохил кунед. Идеалӣ, ҳама пешниҳодҳои худро ҷамъ кунед ва ҳамаро якбора нашр кунед.</value>
   </data>
-  <data name="ExperimentalVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
+    <value>Барои ин ҷуфти забонҳо як китоби таҷрибавии луғат мавҷуд аст, ки таҳти иҷозатномаи ҳамон нармафзор аст. Он ҳамчун як курси давомдор барои калонсолон тарҳрезӣ шуда буд, аммо аз ҷониби забони модарӣ хонда нашудааст. Оё шумо мехоҳед онро санҷед?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Маъноҳои зерин нопадид шуданд: </value>
@@ -265,10 +271,10 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} шадидтарин</value>
   </data>
-  <data name="NewVocabularyInCourseHeader" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
+    <value>Калимаҳои нав</value>
   </data>
-  <data name="PredefinedVocabularyBook" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
+    <value>Барои ин ҷуфти забонҳо як китоби луғат мавҷуд аст, ки таҳти иҷозатномаи ҳамон нармафзор аст. Он ҳамчун курси доимӣ барои калонсолон тарҳрезӣ шудааст. Оё шумо мехоҳед онро санҷед? </value>
   </data>
 </root>
