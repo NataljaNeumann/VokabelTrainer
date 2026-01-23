@@ -2399,16 +2399,16 @@ namespace VokabelTrainer
                     foreach (KeyValuePair<string, SortedDictionary<string, bool>> second in _secondToFirst)
                         foreach (string first in second.Value.Keys)
                             if (first.Length >= spaces.Length)
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache>", first.Trim(), second.Key.Trim());
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Trim(), second.Key.Trim());
                             else
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache>", first.Trim(), second.Key.Trim(), spaces[first.Trim().Length]);
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", first.Trim(), second.Key.Trim(), spaces[first.Trim().Length]);
                      */
                     foreach (KeyValuePair<string, SortedDictionary<string, bool>> oFirst in m_oFirstToSecond)
                         foreach (string strSecond in oFirst.Value.Keys)
-                            if (strSecond.Length >= spaces.Length)
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache>", oFirst.Key.Trim(), strSecond.Trim());
+                            if (oFirst.Key.Trim().Length >= spaces.Length)
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache><zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim());
                             else
-                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache>", oFirst.Key.Trim(), strSecond.Trim(), spaces[oFirst.Key.Trim().Length]);
+                                w.WriteLine("  <vokabel-paar><erste-sprache>{0}</erste-sprache>{2}<zweite-sprache>{1}</zweite-sprache></vokabel-paar>", oFirst.Key.Trim(), strSecond.Trim(), spaces[oFirst.Key.Trim().Length]);
 
                     w.WriteLine();
                     w.WriteLine("</vokabeln>");
