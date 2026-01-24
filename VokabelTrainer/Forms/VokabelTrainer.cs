@@ -2419,6 +2419,10 @@ namespace VokabelTrainer
                     w.WriteLine("</vokabeln>");
                     w.Close();
                 }
+
+                // reload the saved document as XML, just to ensure that the structure is OK
+                System.Xml.XmlDocument oDoc = new System.Xml.XmlDocument();
+                oDoc.Load(m_strCurrentPath);
             }
             catch (Exception oEx)
             {
@@ -2559,6 +2563,10 @@ namespace VokabelTrainer
                     w.WriteLine("</training>");
                     w.Close();
                 }
+
+                // reload the saved document as XML, just to ensure that the structure is OK
+                System.Xml.XmlDocument oDoc = new System.Xml.XmlDocument();
+                oDoc.Load(strCurrentPath);
             }
             catch (Exception oEx)
             {
