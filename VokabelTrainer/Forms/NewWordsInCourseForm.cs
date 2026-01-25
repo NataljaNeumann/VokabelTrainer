@@ -138,6 +138,13 @@ namespace VokabelTrainer.Forms
             this.AutoSize = false;
             this.StartPosition = FormStartPosition.CenterParent;
 
+            if (Program.IslamicCountry && 
+                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderMuslim.jpg"))
+            {
+                return;
+            }
+
             ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar + 
                 "CourseProgressHorizontalHeader.jpg");
         }
@@ -184,7 +191,7 @@ namespace VokabelTrainer.Forms
         /// </summary>
         /// <param name="strName">Name of the image, without directory specifications</param>
         //===================================================================================================
-        private void ReadyToUseImageInjection(string strImageName)
+        private bool ReadyToUseImageInjection(string strImageName)
         {
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
             if (System.IO.File.Exists(strImagePath))
@@ -203,6 +210,10 @@ namespace VokabelTrainer.Forms
                 LoadAndResizeImage(strImagePath);
 
                 this.Resize += new EventHandler(ResizeImageAlongWithForm);
+                return true;
+            } else
+            {
+                return false;
             }
         }
 
