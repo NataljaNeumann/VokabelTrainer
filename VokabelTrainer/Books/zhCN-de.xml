@@ -62,9 +62,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="7">
     <erste-sprache>她</erste-sprache><zweite-sprache>ihre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="7">
-    <erste-sprache>她</erste-sprache><zweite-sprache>ihr</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="8">
     <erste-sprache>哥哥</erste-sprache><zweite-sprache>Bruder</zweite-sprache>
   </vokabel-paar>
@@ -1564,6 +1561,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="334">
     <erste-sprache>你</erste-sprache><zweite-sprache>euch</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="334">
+    <erste-sprache>你</erste-sprache><zweite-sprache>Sie</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="335">
     <erste-sprache>曾经是</erste-sprache><zweite-sprache>war</zweite-sprache>

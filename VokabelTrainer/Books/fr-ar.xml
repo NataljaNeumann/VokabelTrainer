@@ -2172,58 +2172,55 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>être</erste-sprache><zweite-sprache>أن أكون</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="635">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>أنت</zweite-sprache>
+    <erste-sprache>tu</erste-sprache><zweite-sprache>أنت</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="635">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>لك</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="636">
-    <erste-sprache>qu</erste-sprache><zweite-sprache>أن</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="637">
-    <erste-sprache>comme</erste-sprache><zweite-sprache>كما</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="637">
-    <erste-sprache>comme</erste-sprache><zweite-sprache>مثل</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="638">
-    <erste-sprache>on</erste-sprache><zweite-sprache>نحن</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="639">
-    <erste-sprache>avec</erste-sprache><zweite-sprache>مع</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="640">
-    <erste-sprache>j</erste-sprache><zweite-sprache>أنا</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>était</erste-sprache><zweite-sprache>كان</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>se</erste-sprache><zweite-sprache>أرى</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="643">
-    <erste-sprache>moustique</erste-sprache><zweite-sprache>البعوض</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="644">
-    <erste-sprache>ça</erste-sprache><zweite-sprache>أن</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>ont</erste-sprache><zweite-sprache>لدي</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>ont</erste-sprache><zweite-sprache>لديهم</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>ont</erste-sprache><zweite-sprache>يملك</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="646">
-    <erste-sprache>nations</erste-sprache><zweite-sprache>دول</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="647">
     <erste-sprache>tu</erste-sprache><zweite-sprache>أنك</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="636">
+    <erste-sprache>toi</erste-sprache><zweite-sprache>أنت</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="637">
+    <erste-sprache>qu</erste-sprache><zweite-sprache>أن</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>comme</erste-sprache><zweite-sprache>كما</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>comme</erste-sprache><zweite-sprache>مثل</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="639">
+    <erste-sprache>on</erste-sprache><zweite-sprache>نحن</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="640">
+    <erste-sprache>avec</erste-sprache><zweite-sprache>مع</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="641">
+    <erste-sprache>j</erste-sprache><zweite-sprache>أنا</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="642">
+    <erste-sprache>était</erste-sprache><zweite-sprache>كان</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="643">
+    <erste-sprache>se</erste-sprache><zweite-sprache>أرى</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="644">
+    <erste-sprache>moustique</erste-sprache><zweite-sprache>البعوض</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="645">
+    <erste-sprache>ça</erste-sprache><zweite-sprache>أن</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>ont</erste-sprache><zweite-sprache>لدي</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>ont</erste-sprache><zweite-sprache>لديهم</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>ont</erste-sprache><zweite-sprache>يملك</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="647">
-    <erste-sprache>tu</erste-sprache><zweite-sprache>أنت</zweite-sprache>
+    <erste-sprache>nations</erste-sprache><zweite-sprache>دول</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="648">
     <erste-sprache>au</erste-sprache><zweite-sprache>في</zweite-sprache>
@@ -2691,112 +2688,115 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>groupe</erste-sprache><zweite-sprache>فرقة موسيقية</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="751">
-    <erste-sprache>toi</erste-sprache><zweite-sprache>أنت</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="752">
     <erste-sprache>commande</erste-sprache><zweite-sprache>طلب</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>lui</erste-sprache><zweite-sprache>له</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>utiliser</erste-sprache><zweite-sprache>استخدام</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>fournir</erste-sprache><zweite-sprache>توفير</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>problèmes</erste-sprache><zweite-sprache>قضايا</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>problèmes</erste-sprache><zweite-sprache>مشاكل</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="756">
     <erste-sprache>processus</erste-sprache><zweite-sprache>عملية</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="756">
     <erste-sprache>processus</erste-sprache><zweite-sprache>عمليات</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>quoi</erste-sprache><zweite-sprache>ماذا</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>trop</erste-sprache><zweite-sprache>كثير جدًا</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="759">
     <erste-sprache>soit</erste-sprache><zweite-sprache>إما</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>fruit</erste-sprache><zweite-sprache>الفاكهة</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>أبعد من ذلك</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>أكثر</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>أبعد</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>article</erste-sprache><zweite-sprache>مقالة</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>article</erste-sprache><zweite-sprache>بند</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="763">
     <erste-sprache>sache-le</erste-sprache><zweite-sprache>اعلم ذلك</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>allons</erste-sprache><zweite-sprache>نمضي قدماً</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>allons</erste-sprache><zweite-sprache>دعنا</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>conduisons</erste-sprache><zweite-sprache>نحن نقود</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>n’est‑ce pas?</erste-sprache><zweite-sprache>أليس كذلك</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>leurs</erste-sprache><zweite-sprache>لهم</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>je veux</erste-sprache><zweite-sprache>أريد</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>pertinent</erste-sprache><zweite-sprache>ذات صلة</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>en développement</erste-sprache><zweite-sprache>تطوير</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="771">
     <erste-sprache>chez</erste-sprache><zweite-sprache>في</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="772">
     <erste-sprache>fourni</erste-sprache><zweite-sprache>مقدم</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>ne pas</erste-sprache><zweite-sprache>لم يكن</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>dans le délai imparti</erste-sprache><zweite-sprache>خلال</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>premier</erste-sprache><zweite-sprache>أولاً</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>premier</erste-sprache><zweite-sprache>أولًا</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>d'abord</erste-sprache><zweite-sprache>أولاً</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="777">
     <erste-sprache>J'ai</erste-sprache><zweite-sprache>لديّ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="778">
     <erste-sprache>français</erste-sprache><zweite-sprache>فرنسي</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="779">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>لك</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="779">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>أنت</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="780">
     <erste-sprache>public</erste-sprache><zweite-sprache>عامة</zweite-sprache>

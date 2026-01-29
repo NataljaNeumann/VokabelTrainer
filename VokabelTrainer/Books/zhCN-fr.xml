@@ -1443,16 +1443,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>作者</erste-sprache><zweite-sprache>auteur</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="303">
-    <erste-sprache>你</erste-sprache><zweite-sprache>vous</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="303">
     <erste-sprache>你</erste-sprache><zweite-sprache>tu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="303">
-    <erste-sprache>你</erste-sprache><zweite-sprache>te</zweite-sprache>
+    <erste-sprache>你</erste-sprache><zweite-sprache>toi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="303">
-    <erste-sprache>你</erste-sprache><zweite-sprache>toi</zweite-sprache>
+    <erste-sprache>你</erste-sprache><zweite-sprache>vous</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="303">
+    <erste-sprache>你</erste-sprache><zweite-sprache>te</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="304">
     <erste-sprache>基于</erste-sprache><zweite-sprache>sur</zweite-sprache>

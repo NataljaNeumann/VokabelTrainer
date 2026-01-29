@@ -426,76 +426,76 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>par</erste-sprache><zweite-sprache>посредством</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="107">
-    <erste-sprache>ne</erste-sprache><zweite-sprache>не</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="108">
-    <erste-sprache>ça</erste-sprache><zweite-sprache>что</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="109">
-    <erste-sprache>nations</erste-sprache><zweite-sprache>нации</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="110">
     <erste-sprache>tu</erste-sprache><zweite-sprache>ты</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="108">
+    <erste-sprache>toi</erste-sprache><zweite-sprache>тебе</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="108">
+    <erste-sprache>toi</erste-sprache><zweite-sprache>тебя</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="109">
+    <erste-sprache>ne</erste-sprache><zweite-sprache>не</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="110">
+    <erste-sprache>ça</erste-sprache><zweite-sprache>что</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="111">
+    <erste-sprache>nations</erste-sprache><zweite-sprache>нации</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="112">
     <erste-sprache>au</erste-sprache><zweite-sprache>в</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="111">
+  <vokabel-paar schritt="112">
     <erste-sprache>au</erste-sprache><zweite-sprache>при</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="112">
+  <vokabel-paar schritt="113">
     <erste-sprache>allez</erste-sprache><zweite-sprache>будешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="112">
+  <vokabel-paar schritt="113">
     <erste-sprache>allez</erste-sprache><zweite-sprache>идти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="113">
+  <vokabel-paar schritt="114">
     <erste-sprache>me</erste-sprache><zweite-sprache>мне</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="114">
+  <vokabel-paar schritt="115">
     <erste-sprache>étaient</erste-sprache><zweite-sprache>были</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="115">
-    <erste-sprache>ses</erste-sprache><zweite-sprache>ей</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="116">
+    <erste-sprache>ses</erste-sprache><zweite-sprache>их</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="117">
     <erste-sprache>secrétaire</erste-sprache><zweite-sprache>секретарь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="117">
+  <vokabel-paar schritt="118">
     <erste-sprache>ceux</erste-sprache><zweite-sprache>те</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="117">
+  <vokabel-paar schritt="118">
     <erste-sprache>ceux</erste-sprache><zweite-sprache>тем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="118">
+  <vokabel-paar schritt="119">
     <erste-sprache>mais</erste-sprache><zweite-sprache>но</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="118">
+  <vokabel-paar schritt="119">
     <erste-sprache>mais</erste-sprache><zweite-sprache>но всё-же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="119">
+  <vokabel-paar schritt="120">
     <erste-sprache>qui</erste-sprache><zweite-sprache>кто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="119">
+  <vokabel-paar schritt="120">
     <erste-sprache>qui</erste-sprache><zweite-sprache>на этом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="119">
+  <vokabel-paar schritt="120">
     <erste-sprache>qui</erste-sprache><zweite-sprache>которые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="119">
+  <vokabel-paar schritt="120">
     <erste-sprache>qui</erste-sprache><zweite-sprache>который</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="120">
+  <vokabel-paar schritt="121">
     <erste-sprache>te</erste-sprache><zweite-sprache>ты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="121">
+  <vokabel-paar schritt="122">
     <erste-sprache>deux</erste-sprache><zweite-sprache>два</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="122">
-    <erste-sprache>toi</erste-sprache><zweite-sprache>ты</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="122">
-    <erste-sprache>toi</erste-sprache><zweite-sprache>тебя</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="123">
     <erste-sprache>quoi</erste-sprache><zweite-sprache>что</zweite-sprache>
@@ -3012,580 +3012,571 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>sa personne</erste-sprache><zweite-sprache>его самого</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="868">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>ты</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="868">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>тебе</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="868">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>тебя</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="868">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>вам</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="868">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>вас</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="869">
     <erste-sprache>qu</erste-sprache><zweite-sprache>что</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="870">
+  <vokabel-paar schritt="869">
     <erste-sprache>on</erste-sprache><zweite-sprache>мы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="871">
+  <vokabel-paar schritt="870">
     <erste-sprache>avec</erste-sprache><zweite-sprache>с</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="872">
+  <vokabel-paar schritt="871">
     <erste-sprache>j</erste-sprache><zweite-sprache>я</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>était</erste-sprache><zweite-sprache>был</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>était</erste-sprache><zweite-sprache>была</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>était</erste-sprache><zweite-sprache>было</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>était</erste-sprache><zweite-sprache>стал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="873">
     <erste-sprache>sont</erste-sprache><zweite-sprache>являются</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="873">
     <erste-sprache>sont</erste-sprache><zweite-sprache>являшься</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="874">
     <erste-sprache>moustique</erste-sprache><zweite-sprache>комар</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="875">
     <erste-sprache>ou</erste-sprache><zweite-sprache>или</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="875">
     <erste-sprache>ou</erste-sprache><zweite-sprache>либо</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>ont</erste-sprache><zweite-sprache>имеют</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>ont</erste-sprache><zweite-sprache>имею</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>ont</erste-sprache><zweite-sprache>имееешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>ont</erste-sprache><zweite-sprache>имеете</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="877">
     <erste-sprache>peut être</erste-sprache><zweite-sprache>моможет быть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="878">
     <erste-sprache>y</erste-sprache><zweite-sprache>там</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="880">
+  <vokabel-paar schritt="879">
     <erste-sprache>ai</erste-sprache><zweite-sprache>имеешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="881">
+  <vokabel-paar schritt="880">
     <erste-sprache>cela s'appelle</erste-sprache><zweite-sprache>это называется</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="881">
     <erste-sprache>dont</erste-sprache><zweite-sprache>которые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="881">
     <erste-sprache>dont</erste-sprache><zweite-sprache>из которых</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="881">
     <erste-sprache>dont</erste-sprache><zweite-sprache>чей</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="883">
+  <vokabel-paar schritt="882">
     <erste-sprache>leur</erste-sprache><zweite-sprache>их</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="884">
+  <vokabel-paar schritt="883">
     <erste-sprache>est capable</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>comité</erste-sprache><zweite-sprache>комитет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>comité</erste-sprache><zweite-sprache>панель</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
+  <vokabel-paar schritt="885">
     <erste-sprache>M. Mademoiselle</erste-sprache><zweite-sprache>Мистер Мисс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="887">
+  <vokabel-paar schritt="886">
     <erste-sprache>ils</erste-sprache><zweite-sprache>они</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="888">
+  <vokabel-paar schritt="887">
     <erste-sprache>cette</erste-sprache><zweite-sprache>эта</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="889">
+  <vokabel-paar schritt="888">
     <erste-sprache>sera</erste-sprache><zweite-sprache>будет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="890">
+  <vokabel-paar schritt="889">
     <erste-sprache>peut être fait</erste-sprache><zweite-sprache>можно сделать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="890">
     <erste-sprache>aux</erste-sprache><zweite-sprache>к этому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="892">
+  <vokabel-paar schritt="891">
     <erste-sprache>fois</erste-sprache><zweite-sprache>разы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="892">
     <erste-sprache>avait</erste-sprache><zweite-sprache>имел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="892">
     <erste-sprache>avait</erste-sprache><zweite-sprache>имели</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="892">
     <erste-sprache>avait</erste-sprache><zweite-sprache>владел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="894">
+  <vokabel-paar schritt="893">
     <erste-sprache>à travers</erste-sprache><zweite-sprache>через</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="894">
     <erste-sprache>autres</erste-sprache><zweite-sprache>другие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="894">
     <erste-sprache>autres</erste-sprache><zweite-sprache>другой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="895">
     <erste-sprache>autre</erste-sprache><zweite-sprache>другое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="895">
     <erste-sprache>autre</erste-sprache><zweite-sprache>другой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="896">
     <erste-sprache>l'autre</erste-sprache><zweite-sprache>другому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="897">
     <erste-sprache>devrait</erste-sprache><zweite-sprache>должен бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="897">
     <erste-sprache>devrait</erste-sprache><zweite-sprache>должны бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>serait</erste-sprache><zweite-sprache>может будет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>serait</erste-sprache><zweite-sprache>стал бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>serait</erste-sprache><zweite-sprache>были бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="899">
     <erste-sprache>moi</erste-sprache><zweite-sprache>меня</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="899">
     <erste-sprache>moi</erste-sprache><zweite-sprache>мне</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="900">
     <erste-sprache>droits</erste-sprache><zweite-sprache>права</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="900">
     <erste-sprache>droits</erste-sprache><zweite-sprache>правые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="901">
     <erste-sprache>pays</erste-sprache><zweite-sprache>страны</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="901">
     <erste-sprache>pays</erste-sprache><zweite-sprache>страна</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="901">
     <erste-sprache>pays</erste-sprache><zweite-sprache>странам</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="902">
     <erste-sprache>virus</erste-sprache><zweite-sprache>вирус</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>peut</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>peut</erste-sprache><zweite-sprache>могут</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>peut</erste-sprache><zweite-sprache>можешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="904">
     <erste-sprache>y compris</erste-sprache><zweite-sprache>включая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="905">
     <erste-sprache>travail</erste-sprache><zweite-sprache>работа</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="905">
     <erste-sprache>travail</erste-sprache><zweite-sprache>трудовые отношения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="906">
     <erste-sprache>tels</erste-sprache><zweite-sprache>такие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>de la</erste-sprache><zweite-sprache>из</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="908">
     <erste-sprache>humain</erste-sprache><zweite-sprache>человеческий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>dehors</erste-sprache><zweite-sprache>из</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>dehors</erste-sprache><zweite-sprache>наружу</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>dehors</erste-sprache><zweite-sprache>вне</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="910">
     <erste-sprache>très</erste-sprache><zweite-sprache>очень</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="911">
     <erste-sprache>Je suis</erste-sprache><zweite-sprache>я -</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="912">
     <erste-sprache>suis</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>faire</erste-sprache><zweite-sprache>делать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>faire</erste-sprache><zweite-sprache>сделать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>faire</erste-sprache><zweite-sprache>действия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>faire</erste-sprache><zweite-sprache>делай</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="914">
     <erste-sprache>avoir</erste-sprache><zweite-sprache>имею</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="914">
     <erste-sprache>avoir</erste-sprache><zweite-sprache>иметь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="915">
     <erste-sprache>chiffre</erste-sprache><zweite-sprache>фигура</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="916">
     <erste-sprache>où</erste-sprache><zweite-sprache>где</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="917">
     <erste-sprache>convention</erste-sprache><zweite-sprache>конвенция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="918">
     <erste-sprache>mise en œuvre</erste-sprache><zweite-sprache>исполнение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="918">
     <erste-sprache>mise en œuvre</erste-sprache><zweite-sprache>реализующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="919">
     <erste-sprache>va</erste-sprache><zweite-sprache>собирается</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="919">
     <erste-sprache>va</erste-sprache><zweite-sprache>идёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>fait</erste-sprache><zweite-sprache>сделал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>fait</erste-sprache><zweite-sprache>делает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>fait</erste-sprache><zweite-sprache>факт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>fait</erste-sprache><zweite-sprache>сделано</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>fait</erste-sprache><zweite-sprache>сделанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>savoir</erste-sprache><zweite-sprache>знаю</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>savoir</erste-sprache><zweite-sprache>знаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>savoir</erste-sprache><zweite-sprache>знай</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>savoir</erste-sprache><zweite-sprache>знать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="922">
     <erste-sprache>c'est ça</erste-sprache><zweite-sprache>вот и всё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="923">
     <erste-sprache>alors</erste-sprache><zweite-sprache>тогда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>en haut</erste-sprache><zweite-sprache>до</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>il y a</erste-sprache><zweite-sprache>там</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>il y a</erste-sprache><zweite-sprache>есть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="926">
     <erste-sprache>à propos de</erste-sprache><zweite-sprache>о</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="926">
     <erste-sprache>à propos de</erste-sprache><zweite-sprache>около</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="927">
     <erste-sprache>arbre</erste-sprache><zweite-sprache>дерево</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="928">
     <erste-sprache>eh bien</erste-sprache><zweite-sprache>хорошо</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>так что</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>следовательно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>таким образом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>так</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>при этом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>тем самым</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>поэтому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>donc</erste-sprache><zweite-sprache>итак</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="930">
     <erste-sprache>ans</erste-sprache><zweite-sprache>годы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="931">
     <erste-sprache>pour que</erste-sprache><zweite-sprache>так что</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="932">
     <erste-sprache>par le biais de</erste-sprache><zweite-sprache>через</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>simplement</erste-sprache><zweite-sprache>просто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>simplement</erste-sprache><zweite-sprache>лишь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="934">
     <erste-sprache>rien</erste-sprache><zweite-sprache>ничего</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="936">
+  <vokabel-paar schritt="935">
     <erste-sprache>réunion</erste-sprache><zweite-sprache>встреча</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="937">
+  <vokabel-paar schritt="936">
     <erste-sprache>besoin de</erste-sprache><zweite-sprache>нужно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="938">
+  <vokabel-paar schritt="937">
     <erste-sprache>dû à</erste-sprache><zweite-sprache>из за</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="938">
     <erste-sprache>dire</erste-sprache><zweite-sprache>сказать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="939">
     <erste-sprache>M.</erste-sprache><zweite-sprache>господин</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="939">
     <erste-sprache>M.</erste-sprache><zweite-sprache>мистер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>temps</erste-sprache><zweite-sprache>время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>temps</erste-sprache><zweite-sprache>раз</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>temps</erste-sprache><zweite-sprache>времена</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="942">
+  <vokabel-paar schritt="941">
     <erste-sprache>ils ont</erste-sprache><zweite-sprache>у них есть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="943">
+  <vokabel-paar schritt="942">
     <erste-sprache>toujours</erste-sprache><zweite-sprache>всегда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="944">
+  <vokabel-paar schritt="943">
     <erste-sprache>faut</erste-sprache><zweite-sprache>нуждаешься</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="945">
+  <vokabel-paar schritt="944">
     <erste-sprache>sécurité</erste-sprache><zweite-sprache>безопасность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="946">
+  <vokabel-paar schritt="945">
     <erste-sprache>intelligent</erste-sprache><zweite-sprache>умный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="946">
     <erste-sprache>conférence</erste-sprache><zweite-sprache>конференция</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>si</erste-sprache><zweite-sprache>если</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>si</erste-sprache><zweite-sprache>был ли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>si</erste-sprache><zweite-sprache>будет ли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>si</erste-sprache><zweite-sprache>является ли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>si</erste-sprache><zweite-sprache>в случае</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="949">
+  <vokabel-paar schritt="948">
     <erste-sprache>pouvaient</erste-sprache><zweite-sprache>могли бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="950">
+  <vokabel-paar schritt="949">
     <erste-sprache>depuis</erste-sprache><zweite-sprache>с тех пор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="951">
+  <vokabel-paar schritt="950">
     <erste-sprache>ces</erste-sprache><zweite-sprache>эти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>coopération</erste-sprache><zweite-sprache>сотрудничество</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="953">
+  <vokabel-paar schritt="952">
     <erste-sprache>efforts</erste-sprache><zweite-sprache>усилия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>enfants</erste-sprache><zweite-sprache>дети</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>enfants</erste-sprache><zweite-sprache>детям</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="955">
+  <vokabel-paar schritt="954">
     <erste-sprache>je suis</erste-sprache><zweite-sprache>я -</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="956">
+  <vokabel-paar schritt="955">
     <erste-sprache>sous</erste-sprache><zweite-sprache>под</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="956">
     <erste-sprache>pourraient</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="958">
+  <vokabel-paar schritt="957">
     <erste-sprache>Allemagne</erste-sprache><zweite-sprache>Германия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="959">
+  <vokabel-paar schritt="958">
     <erste-sprache>moins</erste-sprache><zweite-sprache>менее</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="960">
+  <vokabel-paar schritt="959">
     <erste-sprache>régional</erste-sprache><zweite-sprache>региональный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="960">
     <erste-sprache>ici</erste-sprache><zweite-sprache>здесь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="960">
     <erste-sprache>ici</erste-sprache><zweite-sprache>сюда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="962">
+  <vokabel-paar schritt="961">
     <erste-sprache>cent</erste-sprache><zweite-sprache>цент</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="962">
     <erste-sprache>plus de</erste-sprache><zweite-sprache>над</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
+  <vokabel-paar schritt="963">
     <erste-sprache>lui</erste-sprache><zweite-sprache>его</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
+  <vokabel-paar schritt="963">
     <erste-sprache>lui</erste-sprache><zweite-sprache>ему</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="964">
     <erste-sprache>fournir</erste-sprache><zweite-sprache>предоставить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="964">
     <erste-sprache>fournir</erste-sprache><zweite-sprache>предоставление</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="965">
     <erste-sprache>trop</erste-sprache><zweite-sprache>слишком</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="966">
     <erste-sprache>fruit</erste-sprache><zweite-sprache>фрукт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>дальше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>больше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="968">
     <erste-sprache>doit</erste-sprache><zweite-sprache>должен</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="968">
     <erste-sprache>doit</erste-sprache><zweite-sprache>должны</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="969">
     <erste-sprache>sache-le</erste-sprache><zweite-sprache>запомни</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="970">
     <erste-sprache>n’est‑ce pas?</erste-sprache><zweite-sprache>верно?</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="972">
+  <vokabel-paar schritt="971">
     <erste-sprache>leurs</erste-sprache><zweite-sprache>их</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>parti</erste-sprache><zweite-sprache>сторона</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>parti</erste-sprache><zweite-sprache>партия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>parti</erste-sprache><zweite-sprache>ушедший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>parti</erste-sprache><zweite-sprache>ушёл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="974">
+  <vokabel-paar schritt="973">
     <erste-sprache>je veux</erste-sprache><zweite-sprache>я хочу</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="974">
     <erste-sprache>vraiment</erste-sprache><zweite-sprache>действительно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="976">
+  <vokabel-paar schritt="975">
     <erste-sprache>chez</erste-sprache><zweite-sprache>у</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="976">
     <erste-sprache>fourni</erste-sprache><zweite-sprache>предоставленный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="976">
     <erste-sprache>fourni</erste-sprache><zweite-sprache>предусловленно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="978">
+  <vokabel-paar schritt="977">
     <erste-sprache>dans le délai imparti</erste-sprache><zweite-sprache>в рамках</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="978">
     <erste-sprache>maintenant</erste-sprache><zweite-sprache>сейчас</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="978">
     <erste-sprache>maintenant</erste-sprache><zweite-sprache>теперь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>premier</erste-sprache><zweite-sprache>сперва</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>premier</erste-sprache><zweite-sprache>первая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>premier</erste-sprache><zweite-sprache>первый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>premier</erste-sprache><zweite-sprache>первые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="981">
+  <vokabel-paar schritt="980">
     <erste-sprache>d'abord</erste-sprache><zweite-sprache>первого</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="982">
+  <vokabel-paar schritt="981">
     <erste-sprache>ainsi</erste-sprache><zweite-sprache>таким образом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="983">
+  <vokabel-paar schritt="982">
     <erste-sprache>J'ai</erste-sprache><zweite-sprache>у меня есть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="984">
+  <vokabel-paar schritt="983">
     <erste-sprache>gestion</erste-sprache><zweite-sprache>управление</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="984">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>вам</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="984">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>вас</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="985">
     <erste-sprache>public</erste-sprache><zweite-sprache>общественный</zweite-sprache>
@@ -3747,970 +3738,967 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>voie</erste-sprache><zweite-sprache>путь</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1017">
-    <erste-sprache>États-Unis</erste-sprache><zweite-sprache>нас</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1017">
-    <erste-sprache>États-Unis</erste-sprache><zweite-sprache>США</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1018">
     <erste-sprache>car</erste-sprache><zweite-sprache>потому что</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>eu</erste-sprache><zweite-sprache>имел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1019">
     <erste-sprache>mal</erste-sprache><zweite-sprache>плохое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>première</erste-sprache><zweite-sprache>сперва</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1021">
     <erste-sprache>établi</erste-sprache><zweite-sprache>установленный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
+  <vokabel-paar schritt="1022">
     <erste-sprache>oui</erste-sprache><zweite-sprache>да</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1023">
     <erste-sprache>pendant</erste-sprache><zweite-sprache>во время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1024">
     <erste-sprache>mieux</erste-sprache><zweite-sprache>лучше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1025">
     <erste-sprache>bonne</erste-sprache><zweite-sprache>хорошее</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1026">
     <erste-sprache>rapports</erste-sprache><zweite-sprache>отчеты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1026">
     <erste-sprache>rapports</erste-sprache><zweite-sprache>репортажи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1027">
     <erste-sprache>année</erste-sprache><zweite-sprache>год</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1027">
     <erste-sprache>année</erste-sprache><zweite-sprache>года</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>les gars</erste-sprache><zweite-sprache>ребята</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1029">
     <erste-sprache>penser</erste-sprache><zweite-sprache>думать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1030">
     <erste-sprache>beaucoup</erste-sprache><zweite-sprache>многие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1030">
     <erste-sprache>beaucoup</erste-sprache><zweite-sprache>много</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>одинаковый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>даже</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>те же самые</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>тот же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>та же</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>même</erste-sprache><zweite-sprache>то же самое</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1033">
+  <vokabel-paar schritt="1032">
     <erste-sprache>progrès</erste-sprache><zweite-sprache>прогресс</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1034">
+  <vokabel-paar schritt="1033">
     <erste-sprache>lié</erste-sprache><zweite-sprache>связанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1034">
     <erste-sprache>travaillant</erste-sprache><zweite-sprache>работающий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1036">
+  <vokabel-paar schritt="1035">
     <erste-sprache>elles</erste-sprache><zweite-sprache>они</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1037">
+  <vokabel-paar schritt="1036">
     <erste-sprache>ta</erste-sprache><zweite-sprache>твоё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>tout le monde</erste-sprache><zweite-sprache>каждый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>tout le monde</erste-sprache><zweite-sprache>каждому</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1039">
+  <vokabel-paar schritt="1038">
     <erste-sprache>genre</erste-sprache><zweite-sprache>гендер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1039">
+  <vokabel-paar schritt="1038">
     <erste-sprache>genre</erste-sprache><zweite-sprache>вид</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1039">
     <erste-sprache>violence</erste-sprache><zweite-sprache>насилие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1041">
+  <vokabel-paar schritt="1040">
     <erste-sprache>vers</erste-sprache><zweite-sprache>в сторону</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>mondial</erste-sprache><zweite-sprache>глобально</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1043">
+  <vokabel-paar schritt="1042">
     <erste-sprache>mort</erste-sprache><zweite-sprache>смерть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>budget</erste-sprache><zweite-sprache>бюджет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>approprié</erste-sprache><zweite-sprache>соответствующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>ensemble</erste-sprache><zweite-sprache>набор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>ensemble</erste-sprache><zweite-sprache>вместе</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>ensemble</erste-sprache><zweite-sprache>устанавливать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1046">
     <erste-sprache>phrase</erste-sprache><zweite-sprache>предложение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1047">
     <erste-sprache>nucléaire</erste-sprache><zweite-sprache>ядерный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1049">
+  <vokabel-paar schritt="1048">
     <erste-sprache>lieu</erste-sprache><zweite-sprache>место</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1049">
     <erste-sprache>années</erste-sprache><zweite-sprache>годы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1050">
     <erste-sprache>fais</erste-sprache><zweite-sprache>делать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>part</erste-sprache><zweite-sprache>часть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1052">
     <erste-sprache>dit</erste-sprache><zweite-sprache>говорит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1052">
     <erste-sprache>dit</erste-sprache><zweite-sprache>рассказал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1054">
+  <vokabel-paar schritt="1053">
     <erste-sprache>africain</erste-sprache><zweite-sprache>африканский</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1054">
     <erste-sprache>après</erste-sprache><zweite-sprache>после</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1054">
     <erste-sprache>après</erste-sprache><zweite-sprache>после того как</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1055">
     <erste-sprache>cas</erste-sprache><zweite-sprache>случай</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1055">
     <erste-sprache>cas</erste-sprache><zweite-sprache>случаи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1057">
+  <vokabel-paar schritt="1056">
     <erste-sprache>état</erste-sprache><zweite-sprache>штат</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1057">
+  <vokabel-paar schritt="1056">
     <erste-sprache>état</erste-sprache><zweite-sprache>государство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1057">
     <erste-sprache>veut</erste-sprache><zweite-sprache>хочет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1059">
+  <vokabel-paar schritt="1058">
     <erste-sprache>en fait</erste-sprache><zweite-sprache>на самом деле</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1060">
+  <vokabel-paar schritt="1059">
     <erste-sprache>droit</erste-sprache><zweite-sprache>правильный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1061">
+  <vokabel-paar schritt="1060">
     <erste-sprache>peux</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>veux</erste-sprache><zweite-sprache>хотеть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>veux</erste-sprache><zweite-sprache>хочешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>veux</erste-sprache><zweite-sprache>хотят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1063">
+  <vokabel-paar schritt="1062">
     <erste-sprache>vos</erste-sprache><zweite-sprache>твой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1064">
+  <vokabel-paar schritt="1063">
     <erste-sprache>le mien</erste-sprache><zweite-sprache>моей</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1065">
+  <vokabel-paar schritt="1064">
     <erste-sprache>personnes</erste-sprache><zweite-sprache>лица</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1066">
+  <vokabel-paar schritt="1065">
     <erste-sprache>celui</erste-sprache><zweite-sprache>тот самый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1067">
+  <vokabel-paar schritt="1066">
     <erste-sprache>grande</erste-sprache><zweite-sprache>большой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1068">
+  <vokabel-paar schritt="1067">
     <erste-sprache>je peux</erste-sprache><zweite-sprache>я могу</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1069">
+  <vokabel-paar schritt="1068">
     <erste-sprache>aller</erste-sprache><zweite-sprache>идущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1069">
+  <vokabel-paar schritt="1068">
     <erste-sprache>aller</erste-sprache><zweite-sprache>идти</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
+  <vokabel-paar schritt="1069">
     <erste-sprache>réunions</erste-sprache><zweite-sprache>встречи</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1070">
     <erste-sprache>également</erste-sprache><zweite-sprache>также</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1072">
+  <vokabel-paar schritt="1071">
     <erste-sprache>fin</erste-sprache><zweite-sprache>конец</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1073">
+  <vokabel-paar schritt="1072">
     <erste-sprache>besoins</erste-sprache><zweite-sprache>потребности</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1073">
+  <vokabel-paar schritt="1072">
     <erste-sprache>besoins</erste-sprache><zweite-sprache>нуждается</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>point</erste-sprache><zweite-sprache>точка</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1074">
     <erste-sprache>vais</erste-sprache><zweite-sprache>идущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1076">
+  <vokabel-paar schritt="1075">
     <erste-sprache>inclure</erste-sprache><zweite-sprache>включают</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1076">
     <erste-sprache>a donné</erste-sprache><zweite-sprache>дал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1078">
+  <vokabel-paar schritt="1077">
     <erste-sprache>pouvez</erste-sprache><zweite-sprache>можешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1078">
+  <vokabel-paar schritt="1077">
     <erste-sprache>pouvez</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1079">
+  <vokabel-paar schritt="1078">
     <erste-sprache>sûrement</erste-sprache><zweite-sprache>конечно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>pendant que</erste-sprache><zweite-sprache>пока</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>venir</erste-sprache><zweite-sprache>приходят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>venir</erste-sprache><zweite-sprache>приходить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1082">
+  <vokabel-paar schritt="1081">
     <erste-sprache>lors</erste-sprache><zweite-sprache>когда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1082">
     <erste-sprache>élevé</erste-sprache><zweite-sprache>высокий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1082">
     <erste-sprache>élevé</erste-sprache><zweite-sprache>высокая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>est venue</erste-sprache><zweite-sprache>пришёл</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>est venue</erste-sprache><zweite-sprache>пришла</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1085">
+  <vokabel-paar schritt="1084">
     <erste-sprache>est venu</erste-sprache><zweite-sprache>пришли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1086">
+  <vokabel-paar schritt="1085">
     <erste-sprache>concerné</erste-sprache><zweite-sprache>обеспокоенный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1087">
+  <vokabel-paar schritt="1086">
     <erste-sprache>il a fait</erste-sprache><zweite-sprache>он сделал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1087">
     <erste-sprache>nous avons</erste-sprache><zweite-sprache>у нас есть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1088">
     <erste-sprache>vie</erste-sprache><zweite-sprache>жизнь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1090">
+  <vokabel-paar schritt="1089">
     <erste-sprache>selon</erste-sprache><zweite-sprache>согласно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1090">
     <erste-sprache>dedans</erste-sprache><zweite-sprache>на нём</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1090">
     <erste-sprache>dedans</erste-sprache><zweite-sprache>в нем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1090">
     <erste-sprache>dedans</erste-sprache><zweite-sprache>на этом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1092">
+  <vokabel-paar schritt="1091">
     <erste-sprache>bien que</erste-sprache><zweite-sprache>хотя</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1092">
     <erste-sprache>aide</erste-sprache><zweite-sprache>помощь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1092">
     <erste-sprache>aide</erste-sprache><zweite-sprache>помогает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1093">
     <erste-sprache>européen</erste-sprache><zweite-sprache>европейский</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1095">
+  <vokabel-paar schritt="1094">
     <erste-sprache>proposé</erste-sprache><zweite-sprache>предложенный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1096">
+  <vokabel-paar schritt="1095">
     <erste-sprache>noté</erste-sprache><zweite-sprache>взятый на заметку</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>considéré</erste-sprache><zweite-sprache>рассмотренный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1097">
     <erste-sprache>huit</erste-sprache><zweite-sprache>восемь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
+  <vokabel-paar schritt="1098">
     <erste-sprache>rapide</erste-sprache><zweite-sprache>быстрая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1100">
+  <vokabel-paar schritt="1099">
     <erste-sprache>Espagne</erste-sprache><zweite-sprache>Испания</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1101">
+  <vokabel-paar schritt="1100">
     <erste-sprache>basé sur</erste-sprache><zweite-sprache>основанный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1102">
+  <vokabel-paar schritt="1101">
     <erste-sprache>promouvoir</erste-sprache><zweite-sprache>продвигать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1102">
+  <vokabel-paar schritt="1101">
     <erste-sprache>promouvoir</erste-sprache><zweite-sprache>продвижение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1103">
+  <vokabel-paar schritt="1102">
     <erste-sprache>conflit</erste-sprache><zweite-sprache>конфликт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>pense</erste-sprache><zweite-sprache>думая</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>pense</erste-sprache><zweite-sprache>думает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>tant</erste-sprache><zweite-sprache>так много</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1106">
+  <vokabel-paar schritt="1105">
     <erste-sprache>soumis</erste-sprache><zweite-sprache>представленный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1106">
     <erste-sprache>en bas</erste-sprache><zweite-sprache>вниз</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1108">
+  <vokabel-paar schritt="1107">
     <erste-sprache>plus tard</erste-sprache><zweite-sprache>позже</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1108">
     <erste-sprache>se tenir debout</erste-sprache><zweite-sprache>стоять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1110">
+  <vokabel-paar schritt="1109">
     <erste-sprache>long</erste-sprache><zweite-sprache>длинный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1110">
+  <vokabel-paar schritt="1109">
     <erste-sprache>long</erste-sprache><zweite-sprache>долго</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1111">
+  <vokabel-paar schritt="1110">
     <erste-sprache>nous pouvons</erste-sprache><zweite-sprache>мы можем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1111">
     <erste-sprache>encore</erste-sprache><zweite-sprache>все ещё</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1111">
     <erste-sprache>encore</erste-sprache><zweite-sprache>снова</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1112">
     <erste-sprache>particulièrement</erste-sprache><zweite-sprache>особенно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1114">
+  <vokabel-paar schritt="1113">
     <erste-sprache>durable</erste-sprache><zweite-sprache>устойчивый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1115">
+  <vokabel-paar schritt="1114">
     <erste-sprache>appareil</erste-sprache><zweite-sprache>устройство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1115">
+  <vokabel-paar schritt="1114">
     <erste-sprache>appareil</erste-sprache><zweite-sprache>электроприбор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1116">
+  <vokabel-paar schritt="1115">
     <erste-sprache>tête</erste-sprache><zweite-sprache>голова</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1116">
+  <vokabel-paar schritt="1115">
     <erste-sprache>tête</erste-sprache><zweite-sprache>глава</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1117">
+  <vokabel-paar schritt="1116">
     <erste-sprache>avais</erste-sprache><zweite-sprache>имел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1118">
+  <vokabel-paar schritt="1117">
     <erste-sprache>saint</erste-sprache><zweite-sprache>святой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1119">
+  <vokabel-paar schritt="1118">
     <erste-sprache>document</erste-sprache><zweite-sprache>документ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1120">
+  <vokabel-paar schritt="1119">
     <erste-sprache>pauvreté</erste-sprache><zweite-sprache>бедность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1121">
+  <vokabel-paar schritt="1120">
     <erste-sprache>aimerais</erste-sprache><zweite-sprache>хотел бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1122">
+  <vokabel-paar schritt="1121">
     <erste-sprache>comités</erste-sprache><zweite-sprache>органы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1123">
+  <vokabel-paar schritt="1122">
     <erste-sprache>corps</erste-sprache><zweite-sprache>тела</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1123">
+  <vokabel-paar schritt="1122">
     <erste-sprache>corps</erste-sprache><zweite-sprache>тело</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1124">
+  <vokabel-paar schritt="1123">
     <erste-sprache>famille</erste-sprache><zweite-sprache>семья</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1125">
+  <vokabel-paar schritt="1124">
     <erste-sprache>aurait</erste-sprache><zweite-sprache>имел бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1126">
+  <vokabel-paar schritt="1125">
     <erste-sprache>avons</erste-sprache><zweite-sprache>иметь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1126">
+  <vokabel-paar schritt="1125">
     <erste-sprache>avons</erste-sprache><zweite-sprache>имеем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1127">
+  <vokabel-paar schritt="1126">
     <erste-sprache>parler</erste-sprache><zweite-sprache>говорить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1127">
+  <vokabel-paar schritt="1126">
     <erste-sprache>parler</erste-sprache><zweite-sprache>разговор</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1128">
+  <vokabel-paar schritt="1127">
     <erste-sprache>suite</erste-sprache><zweite-sprache>следующий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1129">
+  <vokabel-paar schritt="1128">
     <erste-sprache>spécifique</erste-sprache><zweite-sprache>конкретный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1130">
+  <vokabel-paar schritt="1129">
     <erste-sprache>zéro</erste-sprache><zweite-sprache>ноль</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1131">
+  <vokabel-paar schritt="1130">
     <erste-sprache>département</erste-sprache><zweite-sprache>отдел</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1132">
+  <vokabel-paar schritt="1131">
     <erste-sprache>armes</erste-sprache><zweite-sprache>оружие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1132">
+  <vokabel-paar schritt="1131">
     <erste-sprache>armes</erste-sprache><zweite-sprache>вооружение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1133">
+  <vokabel-paar schritt="1132">
     <erste-sprache>besoin</erste-sprache><zweite-sprache>потребность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1134">
+  <vokabel-paar schritt="1133">
     <erste-sprache>trouve</erste-sprache><zweite-sprache>находит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1135">
+  <vokabel-paar schritt="1134">
     <erste-sprache>requis</erste-sprache><zweite-sprache>требуемый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1136">
+  <vokabel-paar schritt="1135">
     <erste-sprache>actuels</erste-sprache><zweite-sprache>текущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1137">
+  <vokabel-paar schritt="1136">
     <erste-sprache>agences</erste-sprache><zweite-sprache>агентства</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1138">
+  <vokabel-paar schritt="1137">
     <erste-sprache>futurs</erste-sprache><zweite-sprache>будущий</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1139">
+  <vokabel-paar schritt="1138">
     <erste-sprache>civils</erste-sprache><zweite-sprache>гражданский</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1140">
+  <vokabel-paar schritt="1139">
     <erste-sprache>à côté de</erste-sprache><zweite-sprache>рядом с</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1141">
+  <vokabel-paar schritt="1140">
     <erste-sprache>au lieu de</erste-sprache><zweite-sprache>вместо</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1142">
+  <vokabel-paar schritt="1141">
     <erste-sprache>puis</erste-sprache><zweite-sprache>тогда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1142">
+  <vokabel-paar schritt="1141">
     <erste-sprache>puis</erste-sprache><zweite-sprache>в то время</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1143">
+  <vokabel-paar schritt="1142">
     <erste-sprache>ils vont</erste-sprache><zweite-sprache>они идут</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1144">
+  <vokabel-paar schritt="1143">
     <erste-sprache>disons</erste-sprache><zweite-sprache>говорим</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1144">
+  <vokabel-paar schritt="1143">
     <erste-sprache>disons</erste-sprache><zweite-sprache>говорят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1145">
+  <vokabel-paar schritt="1144">
     <erste-sprache>raison</erste-sprache><zweite-sprache>причина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1146">
+  <vokabel-paar schritt="1145">
     <erste-sprache>celle</erste-sprache><zweite-sprache>тот самый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1147">
+  <vokabel-paar schritt="1146">
     <erste-sprache>passe</erste-sprache><zweite-sprache>проходит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1148">
+  <vokabel-paar schritt="1147">
     <erste-sprache>diverses</erste-sprache><zweite-sprache>различные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1149">
+  <vokabel-paar schritt="1148">
     <erste-sprache>divers</erste-sprache><zweite-sprache>различные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1150">
+  <vokabel-paar schritt="1149">
     <erste-sprache>autorités</erste-sprache><zweite-sprache>госучреждения</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1151">
+  <vokabel-paar schritt="1150">
     <erste-sprache>appartient</erste-sprache><zweite-sprache>принадлежит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1152">
+  <vokabel-paar schritt="1151">
     <erste-sprache>faveur</erste-sprache><zweite-sprache>предпочтение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1153">
+  <vokabel-paar schritt="1152">
     <erste-sprache>souvent</erste-sprache><zweite-sprache>часто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1154">
+  <vokabel-paar schritt="1153">
     <erste-sprache>avez</erste-sprache><zweite-sprache>имею</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1155">
+  <vokabel-paar schritt="1154">
     <erste-sprache>jeu</erste-sprache><zweite-sprache>игра</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1156">
+  <vokabel-paar schritt="1155">
     <erste-sprache>ailleurs</erste-sprache><zweite-sprache>в другом месте</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1157">
+  <vokabel-paar schritt="1156">
     <erste-sprache>devant</erste-sprache><zweite-sprache>перед</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1158">
+  <vokabel-paar schritt="1157">
     <erste-sprache>soir</erste-sprache><zweite-sprache>вечер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1159">
+  <vokabel-paar schritt="1158">
     <erste-sprache>signifie</erste-sprache><zweite-sprache>означает</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1159">
     <erste-sprache>addition</erste-sprache><zweite-sprache>дополнение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1161">
+  <vokabel-paar schritt="1160">
     <erste-sprache>téléphone intelligent</erste-sprache><zweite-sprache>смартфон</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1162">
+  <vokabel-paar schritt="1161">
     <erste-sprache>général</erste-sprache><zweite-sprache>в общем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1162">
+  <vokabel-paar schritt="1161">
     <erste-sprache>général</erste-sprache><zweite-sprache>генеральное</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1163">
+  <vokabel-paar schritt="1162">
     <erste-sprache>effet</erste-sprache><zweite-sprache>эффект</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1164">
+  <vokabel-paar schritt="1163">
     <erste-sprache>surtout</erste-sprache><zweite-sprache>в основном</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1165">
+  <vokabel-paar schritt="1164">
     <erste-sprache>partir</erste-sprache><zweite-sprache>покинуть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1165">
+  <vokabel-paar schritt="1164">
     <erste-sprache>partir</erste-sprache><zweite-sprache>оставить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1166">
+  <vokabel-paar schritt="1165">
     <erste-sprache>gouvernements</erste-sprache><zweite-sprache>правительства</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1166">
     <erste-sprache>convenu</erste-sprache><zweite-sprache>согласовал</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1168">
+  <vokabel-paar schritt="1167">
     <erste-sprache>contenu</erste-sprache><zweite-sprache>содержащийся</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1169">
+  <vokabel-paar schritt="1168">
     <erste-sprache>étant donné</erste-sprache><zweite-sprache>данный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1170">
+  <vokabel-paar schritt="1169">
     <erste-sprache>nombre</erste-sprache><zweite-sprache>номер</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1171">
+  <vokabel-paar schritt="1170">
     <erste-sprache>parle</erste-sprache><zweite-sprache>говорит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1171">
     <erste-sprache>porte</erste-sprache><zweite-sprache>дверь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1171">
     <erste-sprache>porte</erste-sprache><zweite-sprache>несёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1172">
     <erste-sprache>font</erste-sprache><zweite-sprache>сделать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1174">
+  <vokabel-paar schritt="1173">
     <erste-sprache>impact</erste-sprache><zweite-sprache>воздействие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1175">
+  <vokabel-paar schritt="1174">
     <erste-sprache>ci-dessus</erste-sprache><zweite-sprache>выше</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1176">
+  <vokabel-paar schritt="1175">
     <erste-sprache>préoccupation</erste-sprache><zweite-sprache>обеспокоенность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1176">
     <erste-sprache>représentant</erste-sprache><zweite-sprache>представительный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1178">
+  <vokabel-paar schritt="1177">
     <erste-sprache>affaires</erste-sprache><zweite-sprache>дела</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1178">
+  <vokabel-paar schritt="1177">
     <erste-sprache>affaires</erste-sprache><zweite-sprache>бизнес</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1179">
+  <vokabel-paar schritt="1178">
     <erste-sprache>brièvement</erste-sprache><zweite-sprache>коротко</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1180">
+  <vokabel-paar schritt="1179">
     <erste-sprache>soins</erste-sprache><zweite-sprache>забота</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1181">
+  <vokabel-paar schritt="1180">
     <erste-sprache>approche</erste-sprache><zweite-sprache>подход</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1182">
+  <vokabel-paar schritt="1181">
     <erste-sprache>hé</erste-sprache><zweite-sprache>эй</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1183">
+  <vokabel-paar schritt="1182">
     <erste-sprache>petite</erste-sprache><zweite-sprache>маленький</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1184">
+  <vokabel-paar schritt="1183">
     <erste-sprache>Euro</erste-sprache><zweite-sprache>евро</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1185">
+  <vokabel-paar schritt="1184">
     <erste-sprache>privé</erste-sprache><zweite-sprache>частное</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1186">
+  <vokabel-paar schritt="1185">
     <erste-sprache>vous pouvez</erste-sprache><zweite-sprache>ты можешь</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1186">
     <erste-sprache>propre</erste-sprache><zweite-sprache>собственный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1186">
     <erste-sprache>propre</erste-sprache><zweite-sprache>собственные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1186">
     <erste-sprache>propre</erste-sprache><zweite-sprache>собственная</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1188">
+  <vokabel-paar schritt="1187">
     <erste-sprache>femmes</erste-sprache><zweite-sprache>женщины</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1189">
+  <vokabel-paar schritt="1188">
     <erste-sprache>quelqu'un</erste-sprache><zweite-sprache>кто-то</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1190">
+  <vokabel-paar schritt="1189">
     <erste-sprache>près</erste-sprache><zweite-sprache>рядом</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1190">
     <erste-sprache>vois</erste-sprache><zweite-sprache>видеть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1191">
     <erste-sprache>majeur</erste-sprache><zweite-sprache>главная</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1193">
+  <vokabel-paar schritt="1192">
     <erste-sprache>relatif à</erste-sprache><zweite-sprache>относящийся к</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1194">
+  <vokabel-paar schritt="1193">
     <erste-sprache>arabe</erste-sprache><zweite-sprache>арабские</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1194">
     <erste-sprache>hommes</erste-sprache><zweite-sprache>мужчины</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1195">
     <erste-sprache>question</erste-sprache><zweite-sprache>вопрос</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1195">
     <erste-sprache>question</erste-sprache><zweite-sprache>дело</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1196">
     <erste-sprache>rapport</erste-sprache><zweite-sprache>отчет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1198">
+  <vokabel-paar schritt="1197">
     <erste-sprache>loi</erste-sprache><zweite-sprache>закон</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1199">
+  <vokabel-paar schritt="1198">
     <erste-sprache>pris</erste-sprache><zweite-sprache>взятый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1200">
+  <vokabel-paar schritt="1199">
     <erste-sprache>aucun</erste-sprache><zweite-sprache>никаких</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1200">
     <erste-sprache>dernier</erste-sprache><zweite-sprache>последняя</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1200">
     <erste-sprache>dernier</erste-sprache><zweite-sprache>последнего</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1200">
     <erste-sprache>dernier</erste-sprache><zweite-sprache>последние</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1202">
+  <vokabel-paar schritt="1201">
     <erste-sprache>laissé</erste-sprache><zweite-sprache>позволил</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1202">
     <erste-sprache>image</erste-sprache><zweite-sprache>картина</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1202">
     <erste-sprache>image</erste-sprache><zweite-sprache>изображение</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1203">
     <erste-sprache>dès</erste-sprache><zweite-sprache>от</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1204">
     <erste-sprache>peuvent</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1206">
+  <vokabel-paar schritt="1205">
     <erste-sprache>pu</erste-sprache><zweite-sprache>не мог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1207">
+  <vokabel-paar schritt="1206">
     <erste-sprache>surveillance</erste-sprache><zweite-sprache>мониторинг</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1207">
     <erste-sprache>croyance</erste-sprache><zweite-sprache>вера</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>crois</erste-sprache><zweite-sprache>верю</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1208">
     <erste-sprache>crois</erste-sprache><zweite-sprache>верить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1210">
+  <vokabel-paar schritt="1209">
     <erste-sprache>différent</erste-sprache><zweite-sprache>различный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1211">
+  <vokabel-paar schritt="1210">
     <erste-sprache>exécutif</erste-sprache><zweite-sprache>исполнительный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1211">
     <erste-sprache>inter</erste-sprache><zweite-sprache>меж</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1213">
+  <vokabel-paar schritt="1212">
     <erste-sprache>abordé</erste-sprache><zweite-sprache>рассмотренный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>pourrait</erste-sprache><zweite-sprache>может</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>pourrait</erste-sprache><zweite-sprache>мог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>pourrait</erste-sprache><zweite-sprache>могли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1213">
     <erste-sprache>pourrait</erste-sprache><zweite-sprache>мог бы</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1214">
     <erste-sprache>gouvernement</erste-sprache><zweite-sprache>правительство</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1215">
     <erste-sprache>niveau</erste-sprache><zweite-sprache>уровень</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1217">
+  <vokabel-paar schritt="1216">
     <erste-sprache>guerre</erste-sprache><zweite-sprache>война</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1218">
+  <vokabel-paar schritt="1217">
     <erste-sprache>semaine</erste-sprache><zweite-sprache>неделя</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1219">
+  <vokabel-paar schritt="1218">
     <erste-sprache>autant</erste-sprache><zweite-sprache>так много</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1219">
     <erste-sprache>face</erste-sprache><zweite-sprache>лицо</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1221">
+  <vokabel-paar schritt="1220">
     <erste-sprache>fut</erste-sprache><zweite-sprache>был</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1222">
+  <vokabel-paar schritt="1221">
     <erste-sprache>gros</erste-sprache><zweite-sprache>большой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1223">
+  <vokabel-paar schritt="1222">
     <erste-sprache>seule</erste-sprache><zweite-sprache>один</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1223">
     <erste-sprache>annexer</erste-sprache><zweite-sprache>присоединиться</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1224">
     <erste-sprache>d'ailleurs</erste-sprache><zweite-sprache>кроме того</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1225">
     <erste-sprache>entreprise</erste-sprache><zweite-sprache>компания</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1225">
     <erste-sprache>entreprise</erste-sprache><zweite-sprache>фирма</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1227">
+  <vokabel-paar schritt="1226">
     <erste-sprache>engageons</erste-sprache><zweite-sprache>предпринимаем</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1227">
     <erste-sprache>mettre en œuvre</erste-sprache><zweite-sprache>реализовывать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1228">
     <erste-sprache>existant</erste-sprache><zweite-sprache>существующие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1230">
+  <vokabel-paar schritt="1229">
     <erste-sprache>armé</erste-sprache><zweite-sprache>вооруженный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1230">
     <erste-sprache>problème</erste-sprache><zweite-sprache>проблема</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1231">
     <erste-sprache>ligne</erste-sprache><zweite-sprache>линия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1233">
+  <vokabel-paar schritt="1232">
     <erste-sprache>vient</erste-sprache><zweite-sprache>приходит</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1233">
     <erste-sprache>donne</erste-sprache><zweite-sprache>даёт</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1234">
     <erste-sprache>incluant</erste-sprache><zweite-sprache>включенные</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1235">
     <erste-sprache>coûts</erste-sprache><zweite-sprache>затраты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1236">
     <erste-sprache>coûte</erste-sprache><zweite-sprache>затраты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1238">
+  <vokabel-paar schritt="1237">
     <erste-sprache>clés</erste-sprache><zweite-sprache>ключевой</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1238">
     <erste-sprache>à peine</erste-sprache><zweite-sprache>едва ли</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1239">
     <erste-sprache>noms</erste-sprache><zweite-sprache>имена</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1241">
+  <vokabel-paar schritt="1240">
     <erste-sprache>éteint</erste-sprache><zweite-sprache>начиная с</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1241">
     <erste-sprache>exemple</erste-sprache><zweite-sprache>пример</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1242">
     <erste-sprache>cause</erste-sprache><zweite-sprache>причинять</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1242">
     <erste-sprache>cause</erste-sprache><zweite-sprache>вызывать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1243">
     <erste-sprache>dieu</erste-sprache><zweite-sprache>Бог</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1244">
     <erste-sprache>mis</erste-sprache><zweite-sprache>положить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1245">
     <erste-sprache>petit</erste-sprache><zweite-sprache>маленький</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1245">
     <erste-sprache>petit</erste-sprache><zweite-sprache>маленького</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1246">
     <erste-sprache>sujet</erste-sprache><zweite-sprache>тема</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1247">
     <erste-sprache>normes</erste-sprache><zweite-sprache>стандарты</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1248">
     <erste-sprache>appeler</erste-sprache><zweite-sprache>звонить</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1249">
     <erste-sprache>regarder</erste-sprache><zweite-sprache>смотрят</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1249">
     <erste-sprache>regarder</erste-sprache><zweite-sprache>смотреть</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1250">
     <erste-sprache>suivre</erste-sprache><zweite-sprache>следуют</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1250">
     <erste-sprache>suivre</erste-sprache><zweite-sprache>следовать</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1251">
     <erste-sprache>possible</erste-sprache><zweite-sprache>возможно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1252">
     <erste-sprache>air</erste-sprache><zweite-sprache>воздух</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1254">
+  <vokabel-paar schritt="1253">
     <erste-sprache>aucune</erste-sprache><zweite-sprache>нет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1255">
+  <vokabel-paar schritt="1254">
     <erste-sprache>bas</erste-sprache><zweite-sprache>вниз</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1255">
     <erste-sprache>environnement</erste-sprache><zweite-sprache>окружающая среда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1256">
     <erste-sprache>peu</erste-sprache><zweite-sprache>немного</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1256">
     <erste-sprache>peu</erste-sprache><zweite-sprache>немногие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1257">
     <erste-sprache>assez</erste-sprache><zweite-sprache>достаточно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1257">
     <erste-sprache>assez</erste-sprache><zweite-sprache>довольно</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>jamais</erste-sprache><zweite-sprache>никогда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1258">
     <erste-sprache>jamais</erste-sprache><zweite-sprache>всегда</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1259">
     <erste-sprache>adoption</erste-sprache><zweite-sprache>усыновление</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1259">
     <erste-sprache>adoption</erste-sprache><zweite-sprache>принятие</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1260">
     <erste-sprache>termes</erste-sprache><zweite-sprache>условия</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1261">
     <erste-sprache>personne</erste-sprache><zweite-sprache>личность</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1261">
     <erste-sprache>personne</erste-sprache><zweite-sprache>никто</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1261">
     <erste-sprache>personne</erste-sprache><zweite-sprache>человек</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1262">
     <erste-sprache>appelé</erste-sprache><zweite-sprache>называемый</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1262">
     <erste-sprache>appelé</erste-sprache><zweite-sprache>названный</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1264">
+  <vokabel-paar schritt="1263">
     <erste-sprache>dernière</erste-sprache><zweite-sprache>наконец</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1265">
+  <vokabel-paar schritt="1264">
     <erste-sprache>vont</erste-sprache><zweite-sprache>будет</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1265">
     <erste-sprache>réponse</erste-sprache><zweite-sprache>ответ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1266">
     <erste-sprache>seul</erste-sprache><zweite-sprache>один</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1268">
+  <vokabel-paar schritt="1267">
     <erste-sprache>à nouveau</erste-sprache><zweite-sprache>снова</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1268">
     <erste-sprache>vue</erste-sprache><zweite-sprache>взгляд</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1269">
     <erste-sprache>êtes</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1271">
+  <vokabel-paar schritt="1270">
     <erste-sprache>au moins</erste-sprache><zweite-sprache>наименьший</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1271">
+  <vokabel-paar schritt="1270">
     <erste-sprache>au moins</erste-sprache><zweite-sprache>по крайней мере</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1271">
+    <erste-sprache>États-Unis</erste-sprache><zweite-sprache>США</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1272">
     <erste-sprache>publier</erste-sprache><zweite-sprache>опубликовать</zweite-sprache>

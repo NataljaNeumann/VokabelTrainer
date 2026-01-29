@@ -122,9 +122,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="21">
     <erste-sprache>ей</erste-sprache><zweite-sprache>그녀의</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="21">
-    <erste-sprache>ей</erste-sprache><zweite-sprache>그녀에게</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="22">
     <erste-sprache>спасибо</erste-sprache><zweite-sprache>감사합니다</zweite-sprache>
   </vokabel-paar>
@@ -3179,6 +3176,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="886">
     <erste-sprache>их</erste-sprache><zweite-sprache>그들의</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="886">
+    <erste-sprache>их</erste-sprache><zweite-sprache>그녀에게</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="887">
     <erste-sprache>но всё-же</erste-sprache><zweite-sprache>하지만</zweite-sprache>
   </vokabel-paar>
@@ -3682,6 +3682,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="1004">
     <erste-sprache>вас</erste-sprache><zweite-sprache>당신은</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1004">
+    <erste-sprache>вас</erste-sprache><zweite-sprache>당신</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1005">
     <erste-sprache>сказал</erste-sprache><zweite-sprache>말했다</zweite-sprache>

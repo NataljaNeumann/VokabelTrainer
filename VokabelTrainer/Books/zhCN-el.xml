@@ -1595,9 +1595,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="371">
     <erste-sprache>你</erste-sprache><zweite-sprache>που</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="371">
-    <erste-sprache>你</erste-sprache><zweite-sprache>εσένα</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="372">
     <erste-sprache>曾经是</erste-sprache><zweite-sprache>ήταν</zweite-sprache>
   </vokabel-paar>
@@ -5526,7 +5523,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>米</erste-sprache><zweite-sprache>μέτρα</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1258">
-    <erste-sprache>你自己</erste-sprache><zweite-sprache>εσείς</zweite-sprache>
+    <erste-sprache>你自己</erste-sprache><zweite-sprache>εσένα</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1259">
     <erste-sprache>玩家</erste-sprache><zweite-sprache>παίκτης</zweite-sprache>

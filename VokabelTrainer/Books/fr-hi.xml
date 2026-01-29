@@ -627,22 +627,22 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>une</erste-sprache><zweite-sprache>एक</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="171">
-    <erste-sprache>était</erste-sprache><zweite-sprache>था</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="171">
-    <erste-sprache>était</erste-sprache><zweite-sprache>बन गया</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="172">
-    <erste-sprache>se</erste-sprache><zweite-sprache>यह</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="173">
-    <erste-sprache>moustique</erste-sprache><zweite-sprache>मच्छर</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="174">
     <erste-sprache>tu</erste-sprache><zweite-sprache>तुम</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="174">
+  <vokabel-paar schritt="171">
     <erste-sprache>tu</erste-sprache><zweite-sprache>आप</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="172">
+    <erste-sprache>était</erste-sprache><zweite-sprache>था</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="172">
+    <erste-sprache>était</erste-sprache><zweite-sprache>बन गया</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="173">
+    <erste-sprache>se</erste-sprache><zweite-sprache>यह</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="174">
+    <erste-sprache>moustique</erste-sprache><zweite-sprache>मच्छर</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="175">
     <erste-sprache>couronne</erste-sprache><zweite-sprache>कोरोना</zweite-sprache>
@@ -2211,13 +2211,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>être</erste-sprache><zweite-sprache>होना था</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="645">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>तुम</zweite-sprache>
+    <erste-sprache>toi</erste-sprache><zweite-sprache>आप</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="645">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>आप</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>vous</erste-sprache><zweite-sprache>आपको</zweite-sprache>
+    <erste-sprache>toi</erste-sprache><zweite-sprache>तुम</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="646">
     <erste-sprache>qu</erste-sprache><zweite-sprache>कि</zweite-sprache>
@@ -2676,112 +2673,112 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>groupe</erste-sprache><zweite-sprache>बैंड</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="758">
-    <erste-sprache>toi</erste-sprache><zweite-sprache>तुम्हें</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="758">
-    <erste-sprache>toi</erste-sprache><zweite-sprache>तुम</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="759">
     <erste-sprache>plus de</erste-sprache><zweite-sprache>से अधिक</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="759">
     <erste-sprache>commande</erste-sprache><zweite-sprache>आदेश</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>fournir</erste-sprache><zweite-sprache>प्रदान करें</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>fournir</erste-sprache><zweite-sprache>प्रदान करना</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>problèmes</erste-sprache><zweite-sprache>समस्याएँ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>paragraphe</erste-sprache><zweite-sprache>अनुच्छेद</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="763">
     <erste-sprache>financier</erste-sprache><zweite-sprache>वित्तीय</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>trop</erste-sprache><zweite-sprache>बहुत</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>soit</erste-sprache><zweite-sprache>या तो</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>fruit</erste-sprache><zweite-sprache>फल</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>आगे</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>plus loin</erste-sprache><zweite-sprache>अधिक</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>sache-le</erste-sprache><zweite-sprache>जान लो</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>allons</erste-sprache><zweite-sprache>जाते हैं</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>allons</erste-sprache><zweite-sprache>चलो</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>conduisons</erste-sprache><zweite-sprache>ड्राइव करते हैं</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="771">
     <erste-sprache>n’est‑ce pas?</erste-sprache><zweite-sprache>है ना?</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="772">
     <erste-sprache>leurs</erste-sprache><zweite-sprache>उनके</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>toute</erste-sprache><zweite-sprache>कोई भी</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>je veux</erste-sprache><zweite-sprache>मैं चाहता हूँ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>vraiment</erste-sprache><zweite-sprache>वास्तव में</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>chez</erste-sprache><zweite-sprache>पर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="777">
     <erste-sprache>fourni</erste-sprache><zweite-sprache>प्रदान किया गया</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="778">
     <erste-sprache>ne pas</erste-sprache><zweite-sprache>नहीं किया</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="779">
     <erste-sprache>dans le délai imparti</erste-sprache><zweite-sprache>अंदर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="780">
     <erste-sprache>maintenant</erste-sprache><zweite-sprache>अभी</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="780">
     <erste-sprache>maintenant</erste-sprache><zweite-sprache>अब</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="781">
     <erste-sprache>premier</erste-sprache><zweite-sprache>पहला</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="782">
     <erste-sprache>d'abord</erste-sprache><zweite-sprache>पहले</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="783">
     <erste-sprache>ainsi</erste-sprache><zweite-sprache>इस प्रकार</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="784">
     <erste-sprache>blanc</erste-sprache><zweite-sprache>सफेद है</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="784">
     <erste-sprache>blanc</erste-sprache><zweite-sprache>सफेद</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="785">
     <erste-sprache>J'ai</erste-sprache><zweite-sprache>मेरे पास है</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="786">
     <erste-sprache>gestion</erste-sprache><zweite-sprache>प्रबंधन</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="787">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>आपको</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="787">
+    <erste-sprache>vous</erste-sprache><zweite-sprache>आप</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="788">
     <erste-sprache>public</erste-sprache><zweite-sprache>सार्वजनिक</zweite-sprache>
