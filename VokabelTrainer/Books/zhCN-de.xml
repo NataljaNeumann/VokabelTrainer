@@ -321,175 +321,178 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>床</erste-sprache><zweite-sprache>Bett</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="69">
-    <erste-sprache>建筑</erste-sprache><zweite-sprache>Gebäude</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="69">
-    <erste-sprache>建筑</erste-sprache><zweite-sprache>Bau</zweite-sprache>
+    <erste-sprache>航班</erste-sprache><zweite-sprache>Flug</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="70">
+    <erste-sprache>建筑</erste-sprache><zweite-sprache>Gebäude</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="70">
+    <erste-sprache>建筑</erste-sprache><zweite-sprache>Bau</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="71">
     <erste-sprache>楼层</erste-sprache><zweite-sprache>Etage</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="71">
-    <erste-sprache>旅程</erste-sprache><zweite-sprache>Reise</zweite-sprache>
+    <erste-sprache>楼层</erste-sprache><zweite-sprache>Stockwerk</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="72">
-    <erste-sprache>付款</erste-sprache><zweite-sprache>Zahlung</zweite-sprache>
+    <erste-sprache>旅程</erste-sprache><zweite-sprache>Reise</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="73">
-    <erste-sprache>饮品</erste-sprache><zweite-sprache>trinken</zweite-sprache>
+    <erste-sprache>付款</erste-sprache><zweite-sprache>Zahlung</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="74">
-    <erste-sprache>市中心</erste-sprache><zweite-sprache>Stadtzentrum</zweite-sprache>
+    <erste-sprache>饮品</erste-sprache><zweite-sprache>trinken</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="75">
+    <erste-sprache>市中心</erste-sprache><zweite-sprache>Stadtzentrum</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="76">
     <erste-sprache>假期</erste-sprache><zweite-sprache>Urlaub</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="76">
+  <vokabel-paar schritt="77">
     <erste-sprache>男人</erste-sprache><zweite-sprache>Mann</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="76">
+  <vokabel-paar schritt="77">
     <erste-sprache>男人</erste-sprache><zweite-sprache>Männer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="77">
+  <vokabel-paar schritt="78">
     <erste-sprache>女人</erste-sprache><zweite-sprache>Frau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="78">
+  <vokabel-paar schritt="79">
     <erste-sprache>开车</erste-sprache><zweite-sprache>fahren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="79">
+  <vokabel-paar schritt="80">
     <erste-sprache>房子</erste-sprache><zweite-sprache>Haus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="80">
+  <vokabel-paar schritt="81">
     <erste-sprache>家</erste-sprache><zweite-sprache>Hause</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="81">
+  <vokabel-paar schritt="82">
     <erste-sprache>向下</erste-sprache><zweite-sprache>nach Unten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="81">
+  <vokabel-paar schritt="82">
     <erste-sprache>向下</erste-sprache><zweite-sprache>unten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="82">
+  <vokabel-paar schritt="83">
     <erste-sprache>向上</erste-sprache><zweite-sprache>nach Oben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="83">
+  <vokabel-paar schritt="84">
     <erste-sprache>街道</erste-sprache><zweite-sprache>Strasse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="84">
+  <vokabel-paar schritt="85">
     <erste-sprache>楼梯</erste-sprache><zweite-sprache>Stufen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="85">
+  <vokabel-paar schritt="86">
     <erste-sprache>桥</erste-sprache><zweite-sprache>Brücke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="86">
+  <vokabel-paar schritt="87">
     <erste-sprache>单行道</erste-sprache><zweite-sprache>Einwegstraße</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="87">
+  <vokabel-paar schritt="88">
     <erste-sprache>慢速车辆</erste-sprache><zweite-sprache>langsame Fahrzeuge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="88">
+  <vokabel-paar schritt="89">
     <erste-sprache>教堂</erste-sprache><zweite-sprache>Kirche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="89">
+  <vokabel-paar schritt="90">
     <erste-sprache>清真寺</erste-sprache><zweite-sprache>Moschee</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="90">
+  <vokabel-paar schritt="91">
     <erste-sprache>寺庙</erste-sprache><zweite-sprache>Tempel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="91">
+  <vokabel-paar schritt="92">
     <erste-sprache>我们</erste-sprache><zweite-sprache>wir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="91">
+  <vokabel-paar schritt="92">
     <erste-sprache>我们</erste-sprache><zweite-sprache>uns</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="92">
+  <vokabel-paar schritt="93">
     <erste-sprache>十字路口</erste-sprache><zweite-sprache>Kreuzung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="93">
+  <vokabel-paar schritt="94">
     <erste-sprache>红绿灯</erste-sprache><zweite-sprache>Ampel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="94">
+  <vokabel-paar schritt="95">
     <erste-sprache>直行</erste-sprache><zweite-sprache>geradeaus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="95">
+  <vokabel-paar schritt="96">
     <erste-sprache>左边</erste-sprache><zweite-sprache>links</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="96">
+  <vokabel-paar schritt="97">
     <erste-sprache>正确的</erste-sprache><zweite-sprache>rechts</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="96">
+  <vokabel-paar schritt="97">
     <erste-sprache>正确的</erste-sprache><zweite-sprache>rechten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="96">
+  <vokabel-paar schritt="97">
     <erste-sprache>正确的</erste-sprache><zweite-sprache>richtig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="97">
+  <vokabel-paar schritt="98">
     <erste-sprache>同意</erste-sprache><zweite-sprache>stimme zu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="97">
+  <vokabel-paar schritt="98">
     <erste-sprache>同意</erste-sprache><zweite-sprache>Übereinstimmung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="97">
+  <vokabel-paar schritt="98">
     <erste-sprache>同意</erste-sprache><zweite-sprache>vereinbart</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="98">
+  <vokabel-paar schritt="99">
     <erste-sprache>房间</erste-sprache><zweite-sprache>Raum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="98">
+  <vokabel-paar schritt="99">
     <erste-sprache>房间</erste-sprache><zweite-sprache>Zimmer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="99">
+  <vokabel-paar schritt="100">
     <erste-sprache>已预订</erste-sprache><zweite-sprache>gebucht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="100">
+  <vokabel-paar schritt="101">
     <erste-sprache>多少个</erste-sprache><zweite-sprache>wie viele</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="101">
+  <vokabel-paar schritt="102">
     <erste-sprache>去哪里</erste-sprache><zweite-sprache>wohin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="102">
+  <vokabel-paar schritt="103">
     <erste-sprache>从哪里来</erste-sprache><zweite-sprache>woher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="103">
+  <vokabel-paar schritt="104">
     <erste-sprache>去</erste-sprache><zweite-sprache>zu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="103">
+  <vokabel-paar schritt="104">
     <erste-sprache>去</erste-sprache><zweite-sprache>nach</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="103">
+  <vokabel-paar schritt="104">
     <erste-sprache>去</erste-sprache><zweite-sprache>gehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="103">
+  <vokabel-paar schritt="104">
     <erste-sprache>去</erste-sprache><zweite-sprache>gehender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="104">
+  <vokabel-paar schritt="105">
     <erste-sprache>太</erste-sprache><zweite-sprache>zu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="105">
+  <vokabel-paar schritt="106">
     <erste-sprache>储蓄</erste-sprache><zweite-sprache>Ersparnisse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="106">
+  <vokabel-paar schritt="107">
     <erste-sprache>看</erste-sprache><zweite-sprache>schauen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="106">
+  <vokabel-paar schritt="107">
     <erste-sprache>看</erste-sprache><zweite-sprache>sehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="107">
+  <vokabel-paar schritt="108">
     <erste-sprache>啊</erste-sprache><zweite-sprache>ah</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="108">
+  <vokabel-paar schritt="109">
     <erste-sprache>哦</erste-sprache><zweite-sprache>oh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="109">
+  <vokabel-paar schritt="110">
     <erste-sprache>哇</erste-sprache><zweite-sprache>wow</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="110">
+  <vokabel-paar schritt="111">
     <erste-sprache>排</erste-sprache><zweite-sprache>Reihe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="111">
-    <erste-sprache>嘿</erste-sprache><zweite-sprache>hey</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="112">
-    <erste-sprache>帝国</erste-sprache><zweite-sprache>Reich</zweite-sprache>
+    <erste-sprache>嘿</erste-sprache><zweite-sprache>hey</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="113">
     <erste-sprache>噪音</erste-sprache><zweite-sprache>Geräusche</zweite-sprache>
@@ -3390,3232 +3393,3232 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>经常</erste-sprache><zweite-sprache>häufig</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="648">
-    <erste-sprache>武器</erste-sprache><zweite-sprache>Waffen</zweite-sprache>
+    <erste-sprache>零</erste-sprache><zweite-sprache>Null</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="649">
+    <erste-sprache>武器</erste-sprache><zweite-sprache>Waffen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="650">
     <erste-sprache>所需</erste-sprache><zweite-sprache>erforderlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="650">
+  <vokabel-paar schritt="651">
     <erste-sprache>未来</erste-sprache><zweite-sprache>zukünftig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="650">
+  <vokabel-paar schritt="651">
     <erste-sprache>未来</erste-sprache><zweite-sprache>Zukunft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="652">
     <erste-sprache>民事</erste-sprache><zweite-sprache>zivil</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="652">
+  <vokabel-paar schritt="653">
     <erste-sprache>而不是</erste-sprache><zweite-sprache>statt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="653">
+  <vokabel-paar schritt="654">
     <erste-sprache>他们去</erste-sprache><zweite-sprache>sie gehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="654">
+  <vokabel-paar schritt="655">
     <erste-sprache>们说</erste-sprache><zweite-sprache>sagen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="655">
+  <vokabel-paar schritt="656">
     <erste-sprache>声明</erste-sprache><zweite-sprache>Erklärung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="655">
+  <vokabel-paar schritt="656">
     <erste-sprache>声明</erste-sprache><zweite-sprache>Erklärungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="656">
+  <vokabel-paar schritt="657">
     <erste-sprache>要求</erste-sprache><zweite-sprache>Anforderungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="657">
+  <vokabel-paar schritt="658">
     <erste-sprache>当局</erste-sprache><zweite-sprache>Behörden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="658">
+  <vokabel-paar schritt="659">
     <erste-sprache>请求</erste-sprache><zweite-sprache>angeforderter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="658">
+  <vokabel-paar schritt="659">
     <erste-sprache>请求</erste-sprache><zweite-sprache>Anfrage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="658">
+  <vokabel-paar schritt="659">
     <erste-sprache>请求</erste-sprache><zweite-sprache>Anfragen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="660">
     <erste-sprache>属于</erste-sprache><zweite-sprache>gehört</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="660">
     <erste-sprache>属于</erste-sprache><zweite-sprache>gehören</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="660">
+  <vokabel-paar schritt="661">
     <erste-sprache>南方</erste-sprache><zweite-sprache>Süd</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="661">
+  <vokabel-paar schritt="662">
     <erste-sprache>背景</erste-sprache><zweite-sprache>Kontext</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="662">
+  <vokabel-paar schritt="663">
     <erste-sprache>其他地方</erste-sprache><zweite-sprache>anderswo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="663">
+  <vokabel-paar schritt="664">
     <erste-sprache>手段</erste-sprache><zweite-sprache>Mittel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="664">
+  <vokabel-paar schritt="665">
     <erste-sprache>额外的</erste-sprache><zweite-sprache>zusätzliche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="665">
+  <vokabel-paar schritt="666">
     <erste-sprache>附加</erste-sprache><zweite-sprache>Zusatz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="666">
+  <vokabel-paar schritt="667">
     <erste-sprache>如果不</erste-sprache><zweite-sprache>wenn nicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="667">
+  <vokabel-paar schritt="668">
     <erste-sprache>特定的</erste-sprache><zweite-sprache>besonderer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="668">
+  <vokabel-paar schritt="669">
     <erste-sprache>故事</erste-sprache><zweite-sprache>Geschichte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="669">
+  <vokabel-paar schritt="670">
     <erste-sprache>拿走</erste-sprache><zweite-sprache>nehmen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="670">
+  <vokabel-paar schritt="671">
     <erste-sprache>特别是</erste-sprache><zweite-sprache>besonders</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="671">
+  <vokabel-paar schritt="672">
     <erste-sprache>手机</erste-sprache><zweite-sprache>Smartphone</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="673">
     <erste-sprache>协议</erste-sprache><zweite-sprache>Protokoll</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="673">
     <erste-sprache>协议</erste-sprache><zweite-sprache>Vereinbarung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="673">
     <erste-sprache>协议</erste-sprache><zweite-sprache>Abkommen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="673">
     <erste-sprache>协议</erste-sprache><zweite-sprache>Pakt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="673">
     <erste-sprache>协议</erste-sprache><zweite-sprache>Vereinbarungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="673">
+  <vokabel-paar schritt="674">
     <erste-sprache>关于它</erste-sprache><zweite-sprache>darüber</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="674">
+  <vokabel-paar schritt="675">
     <erste-sprache>谁的</erste-sprache><zweite-sprache>deren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="674">
+  <vokabel-paar schritt="675">
     <erste-sprache>谁的</erste-sprache><zweite-sprache>dessen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="675">
+  <vokabel-paar schritt="676">
     <erste-sprache>朝向</erste-sprache><zweite-sprache>hin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="676">
+  <vokabel-paar schritt="677">
     <erste-sprache>改变</erste-sprache><zweite-sprache>Änderung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="676">
+  <vokabel-paar schritt="677">
     <erste-sprache>改变</erste-sprache><zweite-sprache>ändern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="676">
+  <vokabel-paar schritt="677">
     <erste-sprache>改变</erste-sprache><zweite-sprache>Veränderung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="677">
+  <vokabel-paar schritt="678">
     <erste-sprache>朝着</erste-sprache><zweite-sprache>in Richtung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="678">
+  <vokabel-paar schritt="679">
     <erste-sprache>网站</erste-sprache><zweite-sprache>Website</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="679">
+  <vokabel-paar schritt="680">
     <erste-sprache>影响</erste-sprache><zweite-sprache>Auswirkungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="679">
+  <vokabel-paar schritt="680">
     <erste-sprache>影响</erste-sprache><zweite-sprache>Wirkung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="681">
     <erste-sprache>担忧</erste-sprache><zweite-sprache>Besorgnis</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="681">
     <erste-sprache>担忧</erste-sprache><zweite-sprache>Bedenken</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="682">
     <erste-sprache>代表性</erste-sprache><zweite-sprache>repräsentativer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="682">
+  <vokabel-paar schritt="683">
     <erste-sprache>事务</erste-sprache><zweite-sprache>Angelegenheiten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="682">
+  <vokabel-paar schritt="683">
     <erste-sprache>事务</erste-sprache><zweite-sprache>Angelegenheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="683">
+  <vokabel-paar schritt="684">
     <erste-sprache>重要的事情</erste-sprache><zweite-sprache>Angelegenheiten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="685">
     <erste-sprache>好</erste-sprache><zweite-sprache>guten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="685">
     <erste-sprache>好</erste-sprache><zweite-sprache>guter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="685">
     <erste-sprache>好</erste-sprache><zweite-sprache>gutes</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="685">
     <erste-sprache>好</erste-sprache><zweite-sprache>gut</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="685">
     <erste-sprache>好</erste-sprache><zweite-sprache>nun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="685">
+  <vokabel-paar schritt="686">
     <erste-sprache>简要地</erste-sprache><zweite-sprache>kurz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="687">
     <erste-sprache>否则</erste-sprache><zweite-sprache>sonst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="688">
     <erste-sprache>简短的</erste-sprache><zweite-sprache>kurzum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="688">
+  <vokabel-paar schritt="689">
     <erste-sprache>关怀</erste-sprache><zweite-sprache>Pflege</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="689">
+  <vokabel-paar schritt="690">
     <erste-sprache>持续</erste-sprache><zweite-sprache>fortgesetzter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="689">
+  <vokabel-paar schritt="690">
     <erste-sprache>持续</erste-sprache><zweite-sprache>durchgehend</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="691">
     <erste-sprache>关注</erste-sprache><zweite-sprache>Aufmerksamkeit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="691">
     <erste-sprache>关注</erste-sprache><zweite-sprache>Fokus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="691">
     <erste-sprache>关注</erste-sprache><zweite-sprache>folge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="691">
     <erste-sprache>关注</erste-sprache><zweite-sprache>folgen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="691">
+  <vokabel-paar schritt="692">
     <erste-sprache>条件</erste-sprache><zweite-sprache>Bedingungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="693">
     <erste-sprache>得到</erste-sprache><zweite-sprache>bekommen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="693">
     <erste-sprache>得到</erste-sprache><zweite-sprache>bekommt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="694">
     <erste-sprache>玩耍</erste-sprache><zweite-sprache>spielen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="694">
+  <vokabel-paar schritt="695">
     <erste-sprache>较少的</erste-sprache><zweite-sprache>weniger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="695">
+  <vokabel-paar schritt="696">
     <erste-sprache>已见</erste-sprache><zweite-sprache>gesehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="696">
+  <vokabel-paar schritt="697">
     <erste-sprache>或者更确切地说</erste-sprache><zweite-sprache>bzw</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="697">
+  <vokabel-paar schritt="698">
     <erste-sprache>欧元</erste-sprache><zweite-sprache>Euro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="698">
+  <vokabel-paar schritt="699">
     <erste-sprache>玩</erste-sprache><zweite-sprache>spielen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="700">
     <erste-sprache>私人</erste-sprache><zweite-sprache>privat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="700">
+  <vokabel-paar schritt="701">
     <erste-sprache>你可以</erste-sprache><zweite-sprache>du kannst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="701">
+  <vokabel-paar schritt="702">
     <erste-sprache>通道</erste-sprache><zweite-sprache>pass</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="701">
+  <vokabel-paar schritt="702">
     <erste-sprache>通道</erste-sprache><zweite-sprache>Passage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="702">
+  <vokabel-paar schritt="703">
     <erste-sprache>家庭</erste-sprache><zweite-sprache>Familie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="702">
+  <vokabel-paar schritt="703">
     <erste-sprache>家庭</erste-sprache><zweite-sprache>Familien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="703">
+  <vokabel-paar schritt="704">
     <erste-sprache>去了</erste-sprache><zweite-sprache>ging</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="705">
     <erste-sprache>正在前往</erste-sprache><zweite-sprache>ging</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="705">
+  <vokabel-paar schritt="706">
     <erste-sprache>去过</erste-sprache><zweite-sprache>ging</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="706">
+  <vokabel-paar schritt="707">
     <erste-sprache>歧视</erste-sprache><zweite-sprache>Diskriminierung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="707">
+  <vokabel-paar schritt="708">
     <erste-sprache>正义</erste-sprache><zweite-sprache>Gerechtigkeit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="707">
+  <vokabel-paar schritt="708">
     <erste-sprache>正义</erste-sprache><zweite-sprache>Justiz-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="708">
+  <vokabel-paar schritt="709">
     <erste-sprache>阿拉伯人</erste-sprache><zweite-sprache>arabische</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="709">
+  <vokabel-paar schritt="710">
     <erste-sprache>武力</erste-sprache><zweite-sprache>Kraft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="711">
     <erste-sprache>规则</erste-sprache><zweite-sprache>Regeln</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="711">
     <erste-sprache>规则</erste-sprache><zweite-sprache>Regelung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="711">
     <erste-sprache>规则</erste-sprache><zweite-sprache>Regel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="711">
+  <vokabel-paar schritt="712">
     <erste-sprache>巴勒斯坦的</erste-sprache><zweite-sprache>palästinensisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="712">
+  <vokabel-paar schritt="713">
     <erste-sprache>远</erste-sprache><zweite-sprache>weit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="713">
+  <vokabel-paar schritt="714">
     <erste-sprache>图片</erste-sprache><zweite-sprache>Bild</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="713">
+  <vokabel-paar schritt="714">
     <erste-sprache>图片</erste-sprache><zweite-sprache>Bilder</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="715">
     <erste-sprache>自己的</erste-sprache><zweite-sprache>eigenen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="715">
     <erste-sprache>自己的</erste-sprache><zweite-sprache>eigene</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="715">
+  <vokabel-paar schritt="716">
     <erste-sprache>广泛的</erste-sprache><zweite-sprache>weit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="716">
+  <vokabel-paar schritt="717">
     <erste-sprache>全面的</erste-sprache><zweite-sprache>umfassender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="717">
+  <vokabel-paar schritt="718">
     <erste-sprache>有权的</erste-sprache><zweite-sprache>berechtigter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="718">
+  <vokabel-paar schritt="719">
     <erste-sprache>规定</erste-sprache><zweite-sprache>Vorschrift</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="719">
+  <vokabel-paar schritt="720">
     <erste-sprache>立法</erste-sprache><zweite-sprache>Gesetzgebung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="721">
     <erste-sprache>总计</erste-sprache><zweite-sprache>gesamt-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="721">
     <erste-sprache>总计</erste-sprache><zweite-sprache>insgesamt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="721">
     <erste-sprache>总计</erste-sprache><zweite-sprache>total</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="722">
     <erste-sprache>监测</erste-sprache><zweite-sprache>Überwachung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="723">
     <erste-sprache>警察</erste-sprache><zweite-sprache>Polizei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="724">
     <erste-sprache>信念</erste-sprache><zweite-sprache>Glaube</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="724">
+  <vokabel-paar schritt="725">
     <erste-sprache>分钟</erste-sprache><zweite-sprache>Minuten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="725">
+  <vokabel-paar schritt="726">
     <erste-sprache>信仰</erste-sprache><zweite-sprache>Glaube</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="726">
+  <vokabel-paar schritt="727">
     <erste-sprache>你去</erste-sprache><zweite-sprache>du gehst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="727">
+  <vokabel-paar schritt="728">
     <erste-sprache>行政的</erste-sprache><zweite-sprache>exekutiver</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="728">
+  <vokabel-paar schritt="729">
     <erste-sprache>相互的</erste-sprache><zweite-sprache>inter-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="729">
+  <vokabel-paar schritt="730">
     <erste-sprache>协调</erste-sprache><zweite-sprache>Koordinierung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="730">
+  <vokabel-paar schritt="731">
     <erste-sprache>已解决</erste-sprache><zweite-sprache>angesprochener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="732">
     <erste-sprache>结果</erste-sprache><zweite-sprache>Ergebnis</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="732">
     <erste-sprache>结果</erste-sprache><zweite-sprache>Ergebnisse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="732">
+  <vokabel-paar schritt="733">
     <erste-sprache>国内的</erste-sprache><zweite-sprache>inländisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="734">
     <erste-sprache>表达的</erste-sprache><zweite-sprache>ausgedrückt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="735">
     <erste-sprache>两者</erste-sprache><zweite-sprache>beide</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="735">
     <erste-sprache>两者</erste-sprache><zweite-sprache>beiden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="735">
     <erste-sprache>两者</erste-sprache><zweite-sprache>sowohl</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="736">
     <erste-sprache>九</erste-sprache><zweite-sprache>neun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="737">
     <erste-sprache>此外</erste-sprache><zweite-sprache>ausserdem</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="737">
     <erste-sprache>此外</erste-sprache><zweite-sprache>zudem</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="737">
     <erste-sprache>此外</erste-sprache><zweite-sprache>darüber hinaus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="738">
     <erste-sprache>整个</erste-sprache><zweite-sprache>ganzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="739">
     <erste-sprache>不幸的是</erste-sprache><zweite-sprache>leider</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="740">
     <erste-sprache>他不得不</erste-sprache><zweite-sprache>musste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="741">
     <erste-sprache>在线</erste-sprache><zweite-sprache>publizieren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="742">
     <erste-sprache>发布</erste-sprache><zweite-sprache>online</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="743">
     <erste-sprache>天</erste-sprache><zweite-sprache>Tage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="743">
     <erste-sprache>天</erste-sprache><zweite-sprache>Tagen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="743">
     <erste-sprache>天</erste-sprache><zweite-sprache>Tag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="744">
     <erste-sprache>公司</erste-sprache><zweite-sprache>Unternehemen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="744">
     <erste-sprache>公司</erste-sprache><zweite-sprache>Firma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="744">
     <erste-sprache>公司</erste-sprache><zweite-sprache>Unternehmen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="745">
     <erste-sprache>正在做一些事情</erste-sprache><zweite-sprache>unternehmen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="746">
     <erste-sprache>现有的</erste-sprache><zweite-sprache>bestehende</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="747">
     <erste-sprache>武装的</erste-sprache><zweite-sprache>bewaffneter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="747">
+  <vokabel-paar schritt="748">
     <erste-sprache>责任</erste-sprache><zweite-sprache>Verantwortung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="749">
     <erste-sprache>机制</erste-sprache><zweite-sprache>Mechanismen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="749">
     <erste-sprache>机制</erste-sprache><zweite-sprache>Mechanismus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>daher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>dabei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>deshalb</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>darum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>dadurch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>wobei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>somit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="750">
     <erste-sprache>因此</erste-sprache><zweite-sprache>deswegen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="750">
+  <vokabel-paar schritt="751">
     <erste-sprache>增加的</erste-sprache><zweite-sprache>erhöhter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="752">
     <erste-sprache>成本</erste-sprache><zweite-sprache>Kosten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="752">
     <erste-sprache>成本</erste-sprache><zweite-sprache>kosten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="753">
     <erste-sprache>原则</erste-sprache><zweite-sprache>Prinzipien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="753">
     <erste-sprache>原则</erste-sprache><zweite-sprache>Prinzip</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="754">
     <erste-sprache>关键的</erste-sprache><zweite-sprache>Schlüssel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="755">
     <erste-sprache>留下</erste-sprache><zweite-sprache>bleiben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="756">
     <erste-sprache>最好的</erste-sprache><zweite-sprache>besten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="756">
     <erste-sprache>最好的</erste-sprache><zweite-sprache>beste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="757">
     <erste-sprache>理由</erste-sprache><zweite-sprache>Grund</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="758">
     <erste-sprache>停留</erste-sprache><zweite-sprache>bleiben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="759">
     <erste-sprache>程序</erste-sprache><zweite-sprache>Verfahren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="760">
     <erste-sprache>完全的</erste-sprache><zweite-sprache>vollständig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="760">
     <erste-sprache>完全的</erste-sprache><zweite-sprache>ganzer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="761">
     <erste-sprache>关闭</erste-sprache><zweite-sprache>aus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="761">
     <erste-sprache>关闭</erste-sprache><zweite-sprache>schließen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="761">
     <erste-sprache>关闭</erste-sprache><zweite-sprache>ab</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="762">
     <erste-sprache>义务</erste-sprache><zweite-sprache>Verpflichtungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="763">
     <erste-sprache>原因</erste-sprache><zweite-sprache>verursachen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="764">
     <erste-sprache>放下</erste-sprache><zweite-sprache>legen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="764">
     <erste-sprache>放下</erste-sprache><zweite-sprache>hinunter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="765">
     <erste-sprache>犯罪的</erste-sprache><zweite-sprache>kriminelle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>小的</erste-sprache><zweite-sprache>kleiner</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>小的</erste-sprache><zweite-sprache>kleine</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>小的</erste-sprache><zweite-sprache>kleinen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>小的</erste-sprache><zweite-sprache>klein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>新的</erste-sprache><zweite-sprache>neu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>新的</erste-sprache><zweite-sprache>neuer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>新的</erste-sprache><zweite-sprache>neuen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>新的</erste-sprache><zweite-sprache>neues</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>新的</erste-sprache><zweite-sprache>neue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="768">
     <erste-sprache>到它</erste-sprache><zweite-sprache>daran</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="769">
     <erste-sprache>持有</erste-sprache><zweite-sprache>halten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="769">
     <erste-sprache>持有</erste-sprache><zweite-sprache>hält</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="770">
     <erste-sprache>主题</erste-sprache><zweite-sprache>Thema</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="771">
     <erste-sprache>阿根廷</erste-sprache><zweite-sprache>Argentinien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="772">
     <erste-sprache>标准</erste-sprache><zweite-sprache>Standards</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="773">
     <erste-sprache>呼叫</erste-sprache><zweite-sprache>Anrufen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="774">
     <erste-sprache>环境</erste-sprache><zweite-sprache>Umwelt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="774">
     <erste-sprache>环境</erste-sprache><zweite-sprache>Umwelt-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="774">
     <erste-sprache>环境</erste-sprache><zweite-sprache>Umstände</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="775">
     <erste-sprache>少</erste-sprache><zweite-sprache>wenig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="776">
     <erste-sprache>资金</erste-sprache><zweite-sprache>Mittel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="776">
     <erste-sprache>资金</erste-sprache><zweite-sprache>Finanzierung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="777">
     <erste-sprache>某事</erste-sprache><zweite-sprache>Etwas</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="777">
     <erste-sprache>某事</erste-sprache><zweite-sprache>etwas</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="778">
     <erste-sprache>示例</erste-sprache><zweite-sprache>Beispiel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="779">
     <erste-sprache>足够</erste-sprache><zweite-sprache>genug</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="779">
     <erste-sprache>足够</erste-sprache><zweite-sprache>reicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="780">
     <erste-sprache>从不</erste-sprache><zweite-sprache>niemals</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="780">
     <erste-sprache>从不</erste-sprache><zweite-sprache>nie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="781">
     <erste-sprache>放置</erste-sprache><zweite-sprache>Setzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="781">
     <erste-sprache>放置</erste-sprache><zweite-sprache>setzt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="782">
     <erste-sprache>称为</erste-sprache><zweite-sprache>genannter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="783">
     <erste-sprache>改进</erste-sprache><zweite-sprache>verbessern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="784">
     <erste-sprache>贡献</erste-sprache><zweite-sprache>Beiträge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="784">
     <erste-sprache>贡献</erste-sprache><zweite-sprache>Beitrag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="785">
     <erste-sprache>风险</erste-sprache><zweite-sprache>Risiko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="786">
     <erste-sprache>这样的</erste-sprache><zweite-sprache>solche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="786">
     <erste-sprache>这样的</erste-sprache><zweite-sprache>solchen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="787">
     <erste-sprache>直接的</erste-sprache><zweite-sprache>direkt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="788">
     <erste-sprache>独自一人</erste-sprache><zweite-sprache>allein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="788">
     <erste-sprache>独自一人</erste-sprache><zweite-sprache>alleine</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="789">
     <erste-sprache>真正的</erste-sprache><zweite-sprache>echter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="790">
     <erste-sprache>保持</erste-sprache><zweite-sprache>halten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="790">
     <erste-sprache>保持</erste-sprache><zweite-sprache>blieb</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="790">
     <erste-sprache>保持</erste-sprache><zweite-sprache>behalten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="791">
     <erste-sprache>演出</erste-sprache><zweite-sprache>zeigt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="791">
     <erste-sprache>演出</erste-sprache><zweite-sprache>zeigen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="791">
     <erste-sprache>演出</erste-sprache><zweite-sprache>Shows</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="792">
     <erste-sprache>在所有</erste-sprache><zweite-sprache>überhaupt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="793">
     <erste-sprache>直接地</erste-sprache><zweite-sprache>direkt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="794">
     <erste-sprache>挑战</erste-sprache><zweite-sprache>Herausforderungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="795">
     <erste-sprache>马德里</erste-sprache><zweite-sprache>Madrid</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="796">
     <erste-sprache>部委</erste-sprache><zweite-sprache>Ministerium</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="797">
     <erste-sprache>事情</erste-sprache><zweite-sprache>Angelegenheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="797">
     <erste-sprache>事情</erste-sprache><zweite-sprache>es ist wichtig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="798">
     <erste-sprache>维和</erste-sprache><zweite-sprache>Friedenssicherung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>美国</erste-sprache><zweite-sprache>Amerika</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>美国</erste-sprache><zweite-sprache>USA</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>美国</erste-sprache><zweite-sprache>US</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>美国</erste-sprache><zweite-sprache>amerikanischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="800">
     <erste-sprache>长期</erste-sprache><zweite-sprache>langer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="801">
     <erste-sprache>不同的</erste-sprache><zweite-sprache>anders</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="801">
     <erste-sprache>不同的</erste-sprache><zweite-sprache>anderer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="801">
     <erste-sprache>不同的</erste-sprache><zweite-sprache>verschiedene</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="802">
     <erste-sprache>食物</erste-sprache><zweite-sprache>Essen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="803">
     <erste-sprache>长的</erste-sprache><zweite-sprache>langer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="804">
     <erste-sprache>帖子</erste-sprache><zweite-sprache>posten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="805">
     <erste-sprache>土著</erste-sprache><zweite-sprache>einheimische Bevölkerung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="806">
     <erste-sprache>另一个</erste-sprache><zweite-sprache>ein weiterer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="806">
     <erste-sprache>另一个</erste-sprache><zweite-sprache>ein anderer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="807">
     <erste-sprache>咨询</erste-sprache><zweite-sprache>Beratung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="808">
     <erste-sprache>数量</erste-sprache><zweite-sprache>Menge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="809">
     <erste-sprache>艾滋病毒</erste-sprache><zweite-sprache>HIV</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>伊拉克</erste-sprache><zweite-sprache>Irak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="811">
     <erste-sprache>以色列</erste-sprache><zweite-sprache>Israel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="811">
     <erste-sprache>以色列</erste-sprache><zweite-sprache>israelisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>承诺</erste-sprache><zweite-sprache>Engagement</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>将有</erste-sprache><zweite-sprache>wird haben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="814">
     <erste-sprache>恐怖主义</erste-sprache><zweite-sprache>Terrorismus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="815">
     <erste-sprache>每</erste-sprache><zweite-sprache>pro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="816">
     <erste-sprache>晚上</erste-sprache><zweite-sprache>Abend</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>相当</erste-sprache><zweite-sprache>eher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>相当</erste-sprache><zweite-sprache>ziemlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>相当</erste-sprache><zweite-sprache>durchaus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>在后面</erste-sprache><zweite-sprache>hinter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="819">
     <erste-sprache>音乐</erste-sprache><zweite-sprache>Musik</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>慕尼黑</erste-sprache><zweite-sprache>München</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="821">
     <erste-sprache>赞成</erste-sprache><zweite-sprache>pro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="822">
     <erste-sprache>评估</erste-sprache><zweite-sprache>Bewertung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="823">
     <erste-sprache>完成</erste-sprache><zweite-sprache>erledigt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="823">
     <erste-sprache>完成</erste-sprache><zweite-sprache>fertiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="824">
     <erste-sprache>决策</erste-sprache><zweite-sprache>Entscheidungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="825">
     <erste-sprache>一千</erste-sprache><zweite-sprache>tausend</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="826">
     <erste-sprache>由于</erste-sprache><zweite-sprache>fällig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="826">
     <erste-sprache>由于</erste-sprache><zweite-sprache>aufgrund von</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="827">
     <erste-sprache>最近的</erste-sprache><zweite-sprache>jüngste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="828">
     <erste-sprache>倡议</erste-sprache><zweite-sprache>Initiativen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="828">
     <erste-sprache>倡议</erste-sprache><zweite-sprache>Initiative</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="829">
     <erste-sprache>收到</erste-sprache><zweite-sprache>erhalten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="830">
     <erste-sprache>很快</erste-sprache><zweite-sprache>bald</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="831">
     <erste-sprache>老的</erste-sprache><zweite-sprache>alten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="832">
     <erste-sprache>年轻的</erste-sprache><zweite-sprache>junge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="832">
     <erste-sprache>年轻的</erste-sprache><zweite-sprache>jungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="833">
     <erste-sprache>更喜欢</erste-sprache><zweite-sprache>zieht vor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>地方</erste-sprache><zweite-sprache>Ort</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>地方</erste-sprache><zweite-sprache>Stelle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>地方</erste-sprache><zweite-sprache>Orte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>地方</erste-sprache><zweite-sprache>Platz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="834">
+  <vokabel-paar schritt="835">
     <erste-sprache>即时的</erste-sprache><zweite-sprache>sofortiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="836">
     <erste-sprache>酋长</erste-sprache><zweite-sprache>Chef</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="836">
     <erste-sprache>酋长</erste-sprache><zweite-sprache>Chefin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="837">
     <erste-sprache>迟到</erste-sprache><zweite-sprache>spät</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="838">
     <erste-sprache>带来</erste-sprache><zweite-sprache>bringen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="838">
     <erste-sprache>带来</erste-sprache><zweite-sprache>brachte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="838">
     <erste-sprache>带来</erste-sprache><zweite-sprache>bringt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="838">
     <erste-sprache>带来</erste-sprache><zweite-sprache>gebracht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="839">
     <erste-sprache>手</erste-sprache><zweite-sprache>Hand</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="840">
     <erste-sprache>显然</erste-sprache><zweite-sprache>deutlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="841">
     <erste-sprache>找到</erste-sprache><zweite-sprache>finde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="841">
     <erste-sprache>找到</erste-sprache><zweite-sprache>finden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="842">
     <erste-sprache>头</erste-sprache><zweite-sprache>Kopf</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="843">
     <erste-sprache>常见的</erste-sprache><zweite-sprache>gemeinsam</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="843">
+  <vokabel-paar schritt="844">
     <erste-sprache>伟大的</erste-sprache><zweite-sprache>großartig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="844">
+  <vokabel-paar schritt="845">
     <erste-sprache>战略</erste-sprache><zweite-sprache>Strategie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="845">
+  <vokabel-paar schritt="846">
     <erste-sprache>小姐</erste-sprache><zweite-sprache>Miss</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="845">
+  <vokabel-paar schritt="846">
     <erste-sprache>小姐</erste-sprache><zweite-sprache>Mademoiselle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="846">
+  <vokabel-paar schritt="847">
     <erste-sprache>东部</erste-sprache><zweite-sprache>Osten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="847">
+  <vokabel-paar schritt="848">
     <erste-sprache>平等</erste-sprache><zweite-sprache>Gleichheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="847">
+  <vokabel-paar schritt="848">
     <erste-sprache>平等</erste-sprache><zweite-sprache>gleicher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>重要的</erste-sprache><zweite-sprache>bedeutende</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>重要的</erste-sprache><zweite-sprache>wichtig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="849">
+  <vokabel-paar schritt="850">
     <erste-sprache>课程</erste-sprache><zweite-sprache>Kurs</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="849">
+  <vokabel-paar schritt="850">
     <erste-sprache>课程</erste-sprache><zweite-sprache>Klassen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="849">
+  <vokabel-paar schritt="850">
     <erste-sprache>课程</erste-sprache><zweite-sprache>Unterricht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="850">
+  <vokabel-paar schritt="851">
     <erste-sprache>主要</erste-sprache><zweite-sprache>wichtigste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="851">
+  <vokabel-paar schritt="852">
     <erste-sprache>适用</erste-sprache><zweite-sprache>gilt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="852">
+  <vokabel-paar schritt="853">
     <erste-sprache>困难的</erste-sprache><zweite-sprache>schwerer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="853">
+  <vokabel-paar schritt="854">
     <erste-sprache>终于</erste-sprache><zweite-sprache>endlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="855">
     <erste-sprache>展示</erste-sprache><zweite-sprache>zeigen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="855">
     <erste-sprache>展示</erste-sprache><zweite-sprache>zeigt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="855">
+  <vokabel-paar schritt="856">
     <erste-sprache>商业</erste-sprache><zweite-sprache>Geschäft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="855">
+  <vokabel-paar schritt="856">
     <erste-sprache>商业</erste-sprache><zweite-sprache>Wirtschaft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="856">
+  <vokabel-paar schritt="857">
     <erste-sprache>短缺</erste-sprache><zweite-sprache>Mangel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="857">
+  <vokabel-paar schritt="858">
     <erste-sprache>改革</erste-sprache><zweite-sprache>Reform</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="859">
     <erste-sprache>上午</erste-sprache><zweite-sprache>morgens</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="859">
+  <vokabel-paar schritt="860">
     <erste-sprache>民主的</erste-sprache><zweite-sprache>demokratischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="860">
+  <vokabel-paar schritt="861">
     <erste-sprache>永久性的</erste-sprache><zweite-sprache>dauerhafter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="862">
     <erste-sprache>高</erste-sprache><zweite-sprache>hoher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="862">
     <erste-sprache>高</erste-sprache><zweite-sprache>hohen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="862">
     <erste-sprache>高</erste-sprache><zweite-sprache>hohe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="862">
+  <vokabel-paar schritt="863">
     <erste-sprache>社会</erste-sprache><zweite-sprache>Gesellschaft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="863">
+  <vokabel-paar schritt="864">
     <erste-sprache>无论</erste-sprache><zweite-sprache>egal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="864">
+  <vokabel-paar schritt="865">
     <erste-sprache>最后的</erste-sprache><zweite-sprache>letzte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="865">
+  <vokabel-paar schritt="866">
     <erste-sprache>强大的</erste-sprache><zweite-sprache>starke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="866">
+  <vokabel-paar schritt="867">
     <erste-sprache>定期</erste-sprache><zweite-sprache>regelmäßig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="868">
     <erste-sprache>犯罪</erste-sprache><zweite-sprache>Verbrechen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="868">
+  <vokabel-paar schritt="869">
     <erste-sprache>推广</erste-sprache><zweite-sprache>Förderung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="869">
+  <vokabel-paar schritt="870">
     <erste-sprache>规划</erste-sprache><zweite-sprache>Planung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="870">
+  <vokabel-paar schritt="871">
     <erste-sprache>按顺序</erste-sprache><zweite-sprache>in Ordnung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="871">
+  <vokabel-paar schritt="872">
     <erste-sprache>法语</erste-sprache><zweite-sprache>Französisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="872">
+  <vokabel-paar schritt="873">
     <erste-sprache>我们是</erste-sprache><zweite-sprache>wir sind</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="874">
     <erste-sprache>以上</erste-sprache><zweite-sprache>über</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="875">
     <erste-sprache>回合</erste-sprache><zweite-sprache>rund um</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="876">
     <erste-sprache>开始</erste-sprache><zweite-sprache>Anfang</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="876">
     <erste-sprache>开始</erste-sprache><zweite-sprache>Beginn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="876">
     <erste-sprache>开始</erste-sprache><zweite-sprache>beginnt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="876">
     <erste-sprache>开始</erste-sprache><zweite-sprache>beginnen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="876">
     <erste-sprache>开始</erste-sprache><zweite-sprache>begann</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="877">
     <erste-sprache>相反的</erste-sprache><zweite-sprache>gegenüber</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="877">
     <erste-sprache>相反的</erste-sprache><zweite-sprache>im Gegenteil</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="878">
     <erste-sprache>在顶部</erste-sprache><zweite-sprache>über</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="879">
     <erste-sprache>主要的</erste-sprache><zweite-sprache>Haupt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="879">
     <erste-sprache>主要的</erste-sprache><zweite-sprache>primär</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="879">
     <erste-sprache>主要的</erste-sprache><zweite-sprache>Haupt-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="880">
     <erste-sprache>西班牙语</erste-sprache><zweite-sprache>Spanisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="880">
+  <vokabel-paar schritt="881">
     <erste-sprache>交易</erste-sprache><zweite-sprache>Geschäfte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="881">
+  <vokabel-paar schritt="882">
     <erste-sprache>人民</erste-sprache><zweite-sprache>Völker</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="883">
     <erste-sprache>北方</erste-sprache><zweite-sprache>Norden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="883">
+  <vokabel-paar schritt="884">
     <erste-sprache>优先事项</erste-sprache><zweite-sprache>Priorität</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="883">
+  <vokabel-paar schritt="884">
     <erste-sprache>优先事项</erste-sprache><zweite-sprache>Prioritäten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="884">
+  <vokabel-paar schritt="885">
     <erste-sprache>就业</erste-sprache><zweite-sprache>Beschäftigung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="886">
     <erste-sprache>文化</erste-sprache><zweite-sprache>kulturell</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="886">
     <erste-sprache>文化</erste-sprache><zweite-sprache>Kultur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
+  <vokabel-paar schritt="887">
     <erste-sprache>研究</erste-sprache><zweite-sprache>Forschung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
+  <vokabel-paar schritt="887">
     <erste-sprache>研究</erste-sprache><zweite-sprache>Studie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
+  <vokabel-paar schritt="887">
     <erste-sprache>研究</erste-sprache><zweite-sprache>Studien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="887">
+  <vokabel-paar schritt="888">
     <erste-sprache>上帝</erste-sprache><zweite-sprache>Gott</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="888">
+  <vokabel-paar schritt="889">
     <erste-sprache>已知的</erste-sprache><zweite-sprache>bekannt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="889">
+  <vokabel-paar schritt="890">
     <erste-sprache>到目前为止</erste-sprache><zweite-sprache>bisher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="889">
+  <vokabel-paar schritt="890">
     <erste-sprache>到目前为止</erste-sprache><zweite-sprache>soweit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="890">
+  <vokabel-paar schritt="891">
     <erste-sprache>父母</erste-sprache><zweite-sprache>Eltern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="892">
     <erste-sprache>会有</erste-sprache><zweite-sprache>hätten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="892">
     <erste-sprache>会有</erste-sprache><zweite-sprache>hätte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="892">
     <erste-sprache>会有</erste-sprache><zweite-sprache>es wird geben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="892">
     <erste-sprache>会有</erste-sprache><zweite-sprache>es gäbe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="892">
+  <vokabel-paar schritt="893">
     <erste-sprache>几周</erste-sprache><zweite-sprache>Wochen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="894">
     <erste-sprache>第三任</erste-sprache><zweite-sprache>dritte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="894">
+  <vokabel-paar schritt="895">
     <erste-sprache>专员</erste-sprache><zweite-sprache>Kommissar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="896">
     <erste-sprache>我说</erste-sprache><zweite-sprache>ich sage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="896">
     <erste-sprache>我说</erste-sprache><zweite-sprache>ich sagte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="897">
     <erste-sprache>行政</erste-sprache><zweite-sprache>administrativer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="898">
     <erste-sprache>增长</erste-sprache><zweite-sprache>Wachstum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="899">
     <erste-sprache>合同</erste-sprache><zweite-sprache>Vertrag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="900">
     <erste-sprache>主任</erste-sprache><zweite-sprache>Direktor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="901">
     <erste-sprache>违规行为</erste-sprache><zweite-sprache>Verstöße</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="902">
     <erste-sprache>集团</erste-sprache><zweite-sprache>Gruppe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="903">
     <erste-sprache>见面</erste-sprache><zweite-sprache>treffen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="903">
     <erste-sprache>见面</erste-sprache><zweite-sprache>tagen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="904">
     <erste-sprache>眼睛</erste-sprache><zweite-sprache>Augen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="905">
     <erste-sprache>数百万</erste-sprache><zweite-sprache>Millionen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="906">
     <erste-sprache>合作伙伴</erste-sprache><zweite-sprache>Partner</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="907">
     <erste-sprache>策略</erste-sprache><zweite-sprache>Strategien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="908">
     <erste-sprache>性行为</erste-sprache><zweite-sprache>sexueller</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="909">
     <erste-sprache>手术</erste-sprache><zweite-sprache>operativer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="910">
     <erste-sprache>治疗</erste-sprache><zweite-sprache>Behandlung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="911">
     <erste-sprache>石头</erste-sprache><zweite-sprache>Stein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="912">
     <erste-sprache>减少</erste-sprache><zweite-sprache>Reduzierung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="912">
     <erste-sprache>减少</erste-sprache><zweite-sprache>reduzieren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="913">
     <erste-sprache>部长</erste-sprache><zweite-sprache>Minister</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="914">
     <erste-sprache>工具</erste-sprache><zweite-sprache>Instrumente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="915">
     <erste-sprache>先生</erste-sprache><zweite-sprache>Herr</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="916">
     <erste-sprache>政策</erste-sprache><zweite-sprache>Politik</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="916">
     <erste-sprache>政策</erste-sprache><zweite-sprache>Richtlinien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="917">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>Hilfe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="917">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>helfen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="917">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>hilft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="918">
     <erste-sprache>几个</erste-sprache><zweite-sprache>mehrere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="919">
     <erste-sprache>确定的</erste-sprache><zweite-sprache>bestimmter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="920">
     <erste-sprache>运气</erste-sprache><zweite-sprache>Glück</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="921">
     <erste-sprache>容易的</erste-sprache><zweite-sprache>leicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="922">
     <erste-sprache>没有人</erste-sprache><zweite-sprache>niemand</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="922">
     <erste-sprache>没有人</erste-sprache><zweite-sprache>keiner</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="923">
     <erste-sprache>似乎</erste-sprache><zweite-sprache>scheint</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="924">
     <erste-sprache>起初</erste-sprache><zweite-sprache>zunächst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="925">
     <erste-sprache>幸福</erste-sprache><zweite-sprache>Glück</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="926">
     <erste-sprache>主席</erste-sprache><zweite-sprache>Vorsitzender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="927">
     <erste-sprache>过去</erste-sprache><zweite-sprache>Vergangenheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="927">
     <erste-sprache>过去</erste-sprache><zweite-sprache>vorbei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="927">
     <erste-sprache>过去</erste-sprache><zweite-sprache>geht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="928">
     <erste-sprache>我感觉</erste-sprache><zweite-sprache>ich fühle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="929">
     <erste-sprache>日期</erste-sprache><zweite-sprache>Datum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="929">
     <erste-sprache>日期</erste-sprache><zweite-sprache>datiert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="930">
     <erste-sprache>负责的</erste-sprache><zweite-sprache>verantwortlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="931">
     <erste-sprache>承诺的</erste-sprache><zweite-sprache>engagiert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="932">
     <erste-sprache>参与的</erste-sprache><zweite-sprache>beteiligt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="933">
     <erste-sprache>设备</erste-sprache><zweite-sprache>Ausrüstung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="933">
     <erste-sprache>设备</erste-sprache><zweite-sprache>Gerät</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="934">
     <erste-sprache>职位</erste-sprache><zweite-sprache>Position</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="935">
     <erste-sprache>生产</erste-sprache><zweite-sprache>Produktion</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="936">
     <erste-sprache>人员</erste-sprache><zweite-sprache>Personen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="936">
     <erste-sprache>人员</erste-sprache><zweite-sprache>Personal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="936">
+  <vokabel-paar schritt="937">
     <erste-sprache>认为</erste-sprache><zweite-sprache>denken</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="937">
+  <vokabel-paar schritt="938">
     <erste-sprache>团队</erste-sprache><zweite-sprache>Team</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="937">
+  <vokabel-paar schritt="938">
     <erste-sprache>团队</erste-sprache><zweite-sprache>Mannschaft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="938">
+  <vokabel-paar schritt="939">
     <erste-sprache>古老的</erste-sprache><zweite-sprache>alte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="940">
     <erste-sprache>巴伐利亚</erste-sprache><zweite-sprache>Bayern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="941">
     <erste-sprache>一点</erste-sprache><zweite-sprache>ein Bisschen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="942">
     <erste-sprache>电影</erste-sprache><zweite-sprache>Film</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="942">
     <erste-sprache>电影</erste-sprache><zweite-sprache>Filme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="942">
+  <vokabel-paar schritt="943">
     <erste-sprache>互联网</erste-sprache><zweite-sprache>Internet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="943">
+  <vokabel-paar schritt="944">
     <erste-sprache>大声地</erste-sprache><zweite-sprache>laut</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="944">
+  <vokabel-paar schritt="945">
     <erste-sprache>阅读</erste-sprache><zweite-sprache>lesen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="945">
+  <vokabel-paar schritt="946">
     <erste-sprache>方向</erste-sprache><zweite-sprache>Richtung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="946">
+  <vokabel-paar schritt="947">
     <erste-sprache>根据</erste-sprache><zweite-sprache>laut</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="948">
     <erste-sprache>财产</erste-sprache><zweite-sprache>Eigentum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="949">
     <erste-sprache>资本</erste-sprache><zweite-sprache>Kapital</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="949">
+  <vokabel-paar schritt="950">
     <erste-sprache>首都</erste-sprache><zweite-sprache>Hauptstadt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="950">
+  <vokabel-paar schritt="951">
     <erste-sprache>你知道</erste-sprache><zweite-sprache>du kennst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="951">
+  <vokabel-paar schritt="952">
     <erste-sprache>天数</erste-sprache><zweite-sprache>Tage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="953">
     <erste-sprache>备注</erste-sprache><zweite-sprache>Notizen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="953">
+  <vokabel-paar schritt="954">
     <erste-sprache>步骤</erste-sprache><zweite-sprache>Schritte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="955">
     <erste-sprache>目标</erste-sprache><zweite-sprache>Ziele</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="955">
     <erste-sprache>目标</erste-sprache><zweite-sprache>Ziel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="955">
+  <vokabel-paar schritt="956">
     <erste-sprache>正式的</erste-sprache><zweite-sprache>offizieller</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="956">
+  <vokabel-paar schritt="957">
     <erste-sprache>追求的</erste-sprache><zweite-sprache>strebte an</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="958">
     <erste-sprache>个人</erste-sprache><zweite-sprache>Individuum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="958">
     <erste-sprache>个人</erste-sprache><zweite-sprache>Einzelpersonen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="958">
     <erste-sprache>个人</erste-sprache><zweite-sprache>Einzelperson</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="958">
+  <vokabel-paar schritt="959">
     <erste-sprache>亚洲</erste-sprache><zweite-sprache>Asien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="959">
+  <vokabel-paar schritt="960">
     <erste-sprache>相应地</erste-sprache><zweite-sprache>gemäß</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="960">
+  <vokabel-paar schritt="961">
     <erste-sprache>书籍</erste-sprache><zweite-sprache>Buch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="960">
+  <vokabel-paar schritt="961">
     <erste-sprache>书籍</erste-sprache><zweite-sprache>Bücher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="962">
     <erste-sprache>早些时候</erste-sprache><zweite-sprache>früher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="962">
+  <vokabel-paar schritt="963">
     <erste-sprache>百分比</erste-sprache><zweite-sprache>Prozent</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="964">
     <erste-sprache>词语</erste-sprache><zweite-sprache>Wort</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
+  <vokabel-paar schritt="965">
     <erste-sprache>词</erste-sprache><zweite-sprache>Wort</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="966">
     <erste-sprache>知识</erste-sprache><zweite-sprache>Kenntnis</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="966">
     <erste-sprache>知识</erste-sprache><zweite-sprache>Wissen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="967">
     <erste-sprache>渴望</erste-sprache><zweite-sprache>wünschen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="967">
     <erste-sprache>渴望</erste-sprache><zweite-sprache>Wunsch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="968">
     <erste-sprache>有能力的</erste-sprache><zweite-sprache>fähiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="969">
     <erste-sprache>先前的</erste-sprache><zweite-sprache>vorheriger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="969">
     <erste-sprache>先前的</erste-sprache><zweite-sprache>vor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="970">
     <erste-sprache>批准的</erste-sprache><zweite-sprache>genehmigter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="971">
     <erste-sprache>投资</erste-sprache><zweite-sprache>Investition</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="972">
     <erste-sprache>目的</erste-sprache><zweite-sprache>Zweck</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="972">
     <erste-sprache>目的</erste-sprache><zweite-sprache>Zwecke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="972">
+  <vokabel-paar schritt="973">
     <erste-sprache>匹配</erste-sprache><zweite-sprache>passen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="974">
     <erste-sprache>俄罗斯的</erste-sprache><zweite-sprache>russisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="974">
+  <vokabel-paar schritt="975">
     <erste-sprache>能量</erste-sprache><zweite-sprache>Energie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="976">
     <erste-sprache>女孩</erste-sprache><zweite-sprache>Mädchen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="976">
     <erste-sprache>女孩</erste-sprache><zweite-sprache>junge Frauen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="976">
+  <vokabel-paar schritt="977">
     <erste-sprache>严肃的</erste-sprache><zweite-sprache>ernster</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="978">
     <erste-sprache>区域</erste-sprache><zweite-sprache>Bereich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="978">
     <erste-sprache>区域</erste-sprache><zweite-sprache>Zonen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="978">
+  <vokabel-paar schritt="979">
     <erste-sprache>王国</erste-sprache><zweite-sprache>Königreich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="980">
     <erste-sprache>金钱</erste-sprache><zweite-sprache>Geld</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="981">
     <erste-sprache>收入</erste-sprache><zweite-sprache>Einkommen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="981">
+  <vokabel-paar schritt="982">
     <erste-sprache>我希望</erste-sprache><zweite-sprache>ich hoffe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="982">
+  <vokabel-paar schritt="983">
     <erste-sprache>自我</erste-sprache><zweite-sprache>selbst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="982">
+  <vokabel-paar schritt="983">
     <erste-sprache>自我</erste-sprache><zweite-sprache>sich selbst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="983">
+  <vokabel-paar schritt="984">
     <erste-sprache>年龄</erste-sprache><zweite-sprache>Alter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="983">
+  <vokabel-paar schritt="984">
     <erste-sprache>年龄</erste-sprache><zweite-sprache>alter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="984">
+  <vokabel-paar schritt="985">
     <erste-sprache>战略性地</erste-sprache><zweite-sprache>strategischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="986">
     <erste-sprache>提高</erste-sprache><zweite-sprache>verbessern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="987">
     <erste-sprache>理解</erste-sprache><zweite-sprache>Verständnis</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="987">
     <erste-sprache>理解</erste-sprache><zweite-sprache>verstehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="987">
     <erste-sprache>理解</erste-sprache><zweite-sprache>verstanden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="987">
     <erste-sprache>理解</erste-sprache><zweite-sprache>versteht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="987">
+  <vokabel-paar schritt="988">
     <erste-sprache>章程</erste-sprache><zweite-sprache>Charta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="988">
+  <vokabel-paar schritt="989">
     <erste-sprache>已发布</erste-sprache><zweite-sprache>ausgestellt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="989">
+  <vokabel-paar schritt="990">
     <erste-sprache>更大的</erste-sprache><zweite-sprache>größer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="990">
+  <vokabel-paar schritt="991">
     <erste-sprache>联邦</erste-sprache><zweite-sprache>Föderation</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="990">
+  <vokabel-paar schritt="991">
     <erste-sprache>联邦</erste-sprache><zweite-sprache>föderal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="991">
+  <vokabel-paar schritt="992">
     <erste-sprache>本质上</erste-sprache><zweite-sprache>wesentlicher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="992">
+  <vokabel-paar schritt="993">
     <erste-sprache>沟通</erste-sprache><zweite-sprache>Kommunikation</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="993">
+  <vokabel-paar schritt="994">
     <erste-sprache>已实施</erste-sprache><zweite-sprache>umgesetzter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="994">
+  <vokabel-paar schritt="995">
     <erste-sprache>我们开车</erste-sprache><zweite-sprache>fahren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="996">
     <erste-sprache>每个</erste-sprache><zweite-sprache>jedes</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="996">
     <erste-sprache>每个</erste-sprache><zweite-sprache>je</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="996">
     <erste-sprache>每个</erste-sprache><zweite-sprache>jede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="996">
     <erste-sprache>每个</erste-sprache><zweite-sprache>jeweils</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="996">
+  <vokabel-paar schritt="997">
     <erste-sprache>自由</erste-sprache><zweite-sprache>kostenloser</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="996">
+  <vokabel-paar schritt="997">
     <erste-sprache>自由</erste-sprache><zweite-sprache>Freiheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="997">
+  <vokabel-paar schritt="998">
     <erste-sprache>形式</erste-sprache><zweite-sprache>Form</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="999">
     <erste-sprache>说谎</erste-sprache><zweite-sprache>lügen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="1000">
     <erste-sprache>奥地利</erste-sprache><zweite-sprache>Österreich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="1001">
     <erste-sprache>文本</erste-sprache><zweite-sprache>Text</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1002">
     <erste-sprache>痛苦</erste-sprache><zweite-sprache>Schmerz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1002">
+  <vokabel-paar schritt="1003">
     <erste-sprache>潜在的</erste-sprache><zweite-sprache>Potenzial</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1004">
     <erste-sprache>专家</erste-sprache><zweite-sprache>Experten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1004">
     <erste-sprache>专家</erste-sprache><zweite-sprache>Experte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1005">
     <erste-sprache>携带</erste-sprache><zweite-sprache>trug</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1005">
     <erste-sprache>携带</erste-sprache><zweite-sprache>tragen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1005">
     <erste-sprache>携带</erste-sprache><zweite-sprache>trägt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1006">
     <erste-sprache>价值</erste-sprache><zweite-sprache>Wert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1007">
     <erste-sprache>有时</erste-sprache><zweite-sprache>manchmal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1008">
     <erste-sprache>出去</erste-sprache><zweite-sprache>raus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1008">
     <erste-sprache>出去</erste-sprache><zweite-sprache>heraus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1008">
     <erste-sprache>出去</erste-sprache><zweite-sprache>ausgehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1008">
     <erste-sprache>出去</erste-sprache><zweite-sprache>geht aus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1009">
     <erste-sprache>超级</erste-sprache><zweite-sprache>super</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1010">
     <erste-sprache>选举</erste-sprache><zweite-sprache>Wahl</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1010">
     <erste-sprache>选举</erste-sprache><zweite-sprache>Wahlen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1011">
     <erste-sprache>值得</erste-sprache><zweite-sprache>Wert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1011">
     <erste-sprache>值得</erste-sprache><zweite-sprache>wert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1011">
+  <vokabel-paar schritt="1012">
     <erste-sprache>大型</erste-sprache><zweite-sprache>großer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1011">
+  <vokabel-paar schritt="1012">
     <erste-sprache>大型</erste-sprache><zweite-sprache>große</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1013">
     <erste-sprache>大</erste-sprache><zweite-sprache>großer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1013">
+  <vokabel-paar schritt="1014">
     <erste-sprache>根本的</erste-sprache><zweite-sprache>grundlegender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1014">
+  <vokabel-paar schritt="1015">
     <erste-sprache>外国的</erste-sprache><zweite-sprache>ausländischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1016">
     <erste-sprache>委内瑞拉</erste-sprache><zweite-sprache>Venezuela</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1017">
     <erste-sprache>承担的</erste-sprache><zweite-sprache>unternommener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1017">
+  <vokabel-paar schritt="1018">
     <erste-sprache>指定的</erste-sprache><zweite-sprache>angegebener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1017">
+  <vokabel-paar schritt="1018">
     <erste-sprache>指定的</erste-sprache><zweite-sprache>ernannter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1018">
+  <vokabel-paar schritt="1019">
     <erste-sprache>日内瓦</erste-sprache><zweite-sprache>Genf</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1020">
     <erste-sprache>受影响的</erste-sprache><zweite-sprache>betroffener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1021">
     <erste-sprache>为</erste-sprache><zweite-sprache>tragen bei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1022">
     <erste-sprache>指导方针</erste-sprache><zweite-sprache>Richtlinien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1023">
     <erste-sprache>准备的</erste-sprache><zweite-sprache>vorbereiteter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
+  <vokabel-paar schritt="1024">
     <erste-sprache>怀疑</erste-sprache><zweite-sprache>Zweifel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
+  <vokabel-paar schritt="1024">
     <erste-sprache>怀疑</erste-sprache><zweite-sprache>zweifeln</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1025">
     <erste-sprache>将会是</erste-sprache><zweite-sprache>wird sein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1026">
     <erste-sprache>可能性</erste-sprache><zweite-sprache>Möglichkeiten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1026">
     <erste-sprache>可能性</erste-sprache><zweite-sprache>Möglichkeit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1027">
     <erste-sprache>提案</erste-sprache><zweite-sprache>Vorschlag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1027">
     <erste-sprache>提案</erste-sprache><zweite-sprache>Vorschläge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1028">
     <erste-sprache>峰会</erste-sprache><zweite-sprache>Gipfeltreffen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1029">
     <erste-sprache>发展</erste-sprache><zweite-sprache>Entwicklung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1029">
     <erste-sprache>发展</erste-sprache><zweite-sprache>entwickelt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1030">
     <erste-sprache>引导</erste-sprache><zweite-sprache>führt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1031">
     <erste-sprache>搜索</erste-sprache><zweite-sprache>suchen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1031">
     <erste-sprache>搜索</erste-sprache><zweite-sprache>Suche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1032">
     <erste-sprache>投票</erste-sprache><zweite-sprache>Abstimmung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1032">
     <erste-sprache>投票</erste-sprache><zweite-sprache>Stimmen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1033">
     <erste-sprache>告知</erste-sprache><zweite-sprache>informierter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1033">
+  <vokabel-paar schritt="1034">
     <erste-sprache>融资</erste-sprache><zweite-sprache>Finanzierung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1034">
+  <vokabel-paar schritt="1035">
     <erste-sprache>设施</erste-sprache><zweite-sprache>Einrichtungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1036">
     <erste-sprache>道歉</erste-sprache><zweite-sprache>Entschuldigung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1036">
+  <vokabel-paar schritt="1037">
     <erste-sprache>基本的</erste-sprache><zweite-sprache>grundlegender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1037">
+  <vokabel-paar schritt="1038">
     <erste-sprache>过程</erste-sprache><zweite-sprache>Prozesse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1039">
     <erste-sprache>结构</erste-sprache><zweite-sprache>Aufbau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1039">
+  <vokabel-paar schritt="1040">
     <erste-sprache>方面</erste-sprache><zweite-sprache>Aspekte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1041">
     <erste-sprache>意见</erste-sprache><zweite-sprache>Meinungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1041">
+  <vokabel-paar schritt="1042">
     <erste-sprache>刚果</erste-sprache><zweite-sprache>Kongo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1043">
     <erste-sprache>五十</erste-sprache><zweite-sprache>fünfzig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1043">
+  <vokabel-paar schritt="1044">
     <erste-sprache>交流</erste-sprache><zweite-sprache>Austausch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1045">
     <erste-sprache>独立的</erste-sprache><zweite-sprache>unabhängiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1046">
     <erste-sprache>全部</erste-sprache><zweite-sprache>voll</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1046">
     <erste-sprache>全部</erste-sprache><zweite-sprache>allen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1046">
     <erste-sprache>全部</erste-sprache><zweite-sprache>alle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1047">
     <erste-sprache>九月</erste-sprache><zweite-sprache>September</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1048">
     <erste-sprache>战争</erste-sprache><zweite-sprache>Krieg</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1049">
     <erste-sprache>害怕</erste-sprache><zweite-sprache>Angst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1049">
+  <vokabel-paar schritt="1050">
     <erste-sprache>位置</erste-sprache><zweite-sprache>Lage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1051">
     <erste-sprache>运行</erste-sprache><zweite-sprache>läuft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1051">
     <erste-sprache>运行</erste-sprache><zweite-sprache>laufender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1052">
     <erste-sprache>五月</erste-sprache><zweite-sprache>Mai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1053">
     <erste-sprache>何时</erste-sprache><zweite-sprache>wann</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1054">
     <erste-sprache>农村的</erste-sprache><zweite-sprache>ländlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1054">
+  <vokabel-paar schritt="1055">
     <erste-sprache>有限的</erste-sprache><zweite-sprache>begrenzter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1056">
     <erste-sprache>证据</erste-sprache><zweite-sprache>Beweise</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1057">
     <erste-sprache>质量</erste-sprache><zweite-sprache>Qualität</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1057">
+  <vokabel-paar schritt="1058">
     <erste-sprache>论坛</erste-sprache><zweite-sprache>Forum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1059">
     <erste-sprache>机会</erste-sprache><zweite-sprache>Gelegenheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1059">
     <erste-sprache>机会</erste-sprache><zweite-sprache>Chance</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1059">
+  <vokabel-paar schritt="1060">
     <erste-sprache>底部</erste-sprache><zweite-sprache>Grundlage</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1060">
+  <vokabel-paar schritt="1061">
     <erste-sprache>测量</erste-sprache><zweite-sprache>Maßnahme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1061">
+  <vokabel-paar schritt="1062">
     <erste-sprache>目前</erste-sprache><zweite-sprache>derzeit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1063">
     <erste-sprache>在……之内</erste-sprache><zweite-sprache>innerhalb</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1063">
+  <vokabel-paar schritt="1064">
     <erste-sprache>死亡</erste-sprache><zweite-sprache>Tod</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1064">
+  <vokabel-paar schritt="1065">
     <erste-sprache>旧的</erste-sprache><zweite-sprache>alte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1065">
+  <vokabel-paar schritt="1066">
     <erste-sprache>它是纯粹的</erste-sprache><zweite-sprache>rein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1066">
+  <vokabel-paar schritt="1067">
     <erste-sprache>纯粹地</erste-sprache><zweite-sprache>rein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1067">
+  <vokabel-paar schritt="1068">
     <erste-sprache>完全地</erste-sprache><zweite-sprache>völlig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1067">
+  <vokabel-paar schritt="1068">
     <erste-sprache>完全地</erste-sprache><zweite-sprache>komplett</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1068">
+  <vokabel-paar schritt="1069">
     <erste-sprache>年轻人</erste-sprache><zweite-sprache>jung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1069">
+  <vokabel-paar schritt="1070">
     <erste-sprache>转移</erste-sprache><zweite-sprache>Überweisung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
+  <vokabel-paar schritt="1071">
     <erste-sprache>信函</erste-sprache><zweite-sprache>Brief</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1072">
     <erste-sprache>权力</erste-sprache><zweite-sprache>Autorität</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1072">
     <erste-sprache>权力</erste-sprache><zweite-sprache>Macht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1071">
+  <vokabel-paar schritt="1072">
     <erste-sprache>权力</erste-sprache><zweite-sprache>Kraft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1072">
+  <vokabel-paar schritt="1073">
     <erste-sprache>真实</erste-sprache><zweite-sprache>echte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1073">
+  <vokabel-paar schritt="1074">
     <erste-sprache>事件</erste-sprache><zweite-sprache>Affäre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1075">
     <erste-sprache>保留</erste-sprache><zweite-sprache>behalten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1076">
     <erste-sprache>前进</erste-sprache><zweite-sprache>vorwärts</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1076">
     <erste-sprache>前进</erste-sprache><zweite-sprache>vorrücken</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1076">
+  <vokabel-paar schritt="1077">
     <erste-sprache>精神</erste-sprache><zweite-sprache>Geist</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1078">
     <erste-sprache>我们感到困扰</erste-sprache><zweite-sprache>wir stören uns</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1078">
+  <vokabel-paar schritt="1079">
     <erste-sprache>这困扰你吗？</erste-sprache><zweite-sprache>stört es Sie?</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1079">
+  <vokabel-paar schritt="1080">
     <erste-sprache>三月</erste-sprache><zweite-sprache>März</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1081">
     <erste-sprache>支付</erste-sprache><zweite-sprache>zahlen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1081">
     <erste-sprache>支付</erste-sprache><zweite-sprache>bezahlen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1082">
     <erste-sprache>除了</erste-sprache><zweite-sprache>ausser</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1082">
+  <vokabel-paar schritt="1083">
     <erste-sprache>不知何故</erste-sprache><zweite-sprache>irgendwie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1084">
     <erste-sprache>主要是</erste-sprache><zweite-sprache>meist</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1085">
     <erste-sprache>尽管</erste-sprache><zweite-sprache>trotz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1085">
     <erste-sprache>尽管</erste-sprache><zweite-sprache>während</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1085">
+  <vokabel-paar schritt="1086">
     <erste-sprache>忘记了</erste-sprache><zweite-sprache>vergessen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1086">
+  <vokabel-paar schritt="1087">
     <erste-sprache>各种各样的</erste-sprache><zweite-sprache>verschiedenen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1087">
+  <vokabel-paar schritt="1088">
     <erste-sprache>日益</erste-sprache><zweite-sprache>Vergößern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1089">
     <erste-sprache>不能</erste-sprache><zweite-sprache>können nicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1089">
     <erste-sprache>不能</erste-sprache><zweite-sprache>konnte nicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1090">
     <erste-sprache>休息</erste-sprache><zweite-sprache>Rest</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1090">
+  <vokabel-paar schritt="1091">
     <erste-sprache>转向</erste-sprache><zweite-sprache>wenden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1092">
     <erste-sprache>被认可的</erste-sprache><zweite-sprache>anerkannter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1092">
+  <vokabel-paar schritt="1093">
     <erste-sprache>官员</erste-sprache><zweite-sprache>Beamte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1092">
+  <vokabel-paar schritt="1093">
     <erste-sprache>官员</erste-sprache><zweite-sprache>Offiziere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1094">
     <erste-sprache>参考</erste-sprache><zweite-sprache>erwähnter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1094">
     <erste-sprache>参考</erste-sprache><zweite-sprache>Referenz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1095">
     <erste-sprache>代码</erste-sprache><zweite-sprache>Code</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1095">
+  <vokabel-paar schritt="1096">
     <erste-sprache>法国的</erste-sprache><zweite-sprache>französische</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1096">
+  <vokabel-paar schritt="1097">
     <erste-sprache>一方</erste-sprache><zweite-sprache>Partei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1098">
     <erste-sprache>领导</erste-sprache><zweite-sprache>führen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1099">
     <erste-sprache>其他的</erste-sprache><zweite-sprache>anderes</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1099">
     <erste-sprache>其他的</erste-sprache><zweite-sprache>anderer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1099">
     <erste-sprache>其他的</erste-sprache><zweite-sprache>andere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
+  <vokabel-paar schritt="1100">
     <erste-sprache>同样地</erste-sprache><zweite-sprache>ebenso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1100">
+  <vokabel-paar schritt="1101">
     <erste-sprache>购买</erste-sprache><zweite-sprache>kaufen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1101">
+  <vokabel-paar schritt="1102">
     <erste-sprache>学习</erste-sprache><zweite-sprache>lernen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1102">
+  <vokabel-paar schritt="1103">
     <erste-sprache>谈论</erste-sprache><zweite-sprache>reden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1103">
+  <vokabel-paar schritt="1104">
     <erste-sprache>双方</erste-sprache><zweite-sprache>Seiten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1105">
     <erste-sprache>第二的</erste-sprache><zweite-sprache>zweite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1106">
     <erste-sprache>党</erste-sprache><zweite-sprache>Partei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1106">
+  <vokabel-paar schritt="1107">
     <erste-sprache>买</erste-sprache><zweite-sprache>kaufen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1108">
     <erste-sprache>做它</erste-sprache><zweite-sprache>tue es</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1108">
+  <vokabel-paar schritt="1109">
     <erste-sprache>最终</erste-sprache><zweite-sprache>finaler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1108">
+  <vokabel-paar schritt="1109">
     <erste-sprache>最终</erste-sprache><zweite-sprache>schliesslich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1110">
     <erste-sprache>产品</erste-sprache><zweite-sprache>Produkt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1110">
     <erste-sprache>产品</erste-sprache><zweite-sprache>Produkte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1110">
+  <vokabel-paar schritt="1111">
     <erste-sprache>综合</erste-sprache><zweite-sprache>integrierter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1111">
+  <vokabel-paar schritt="1112">
     <erste-sprache>日本</erste-sprache><zweite-sprache>Japan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1113">
     <erste-sprache>发言</erste-sprache><zweite-sprache>sprechen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1114">
     <erste-sprache>时刻</erste-sprache><zweite-sprache>Moment</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1114">
     <erste-sprache>时刻</erste-sprache><zweite-sprache>Momente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1114">
+  <vokabel-paar schritt="1115">
     <erste-sprache>播放</erste-sprache><zweite-sprache>spielt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1115">
+  <vokabel-paar schritt="1116">
     <erste-sprache>视频</erste-sprache><zweite-sprache>Video</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1116">
+  <vokabel-paar schritt="1117">
     <erste-sprache>坏的</erste-sprache><zweite-sprache>schlecht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1117">
+  <vokabel-paar schritt="1118">
     <erste-sprache>糟糕的</erste-sprache><zweite-sprache>schlecht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1118">
+  <vokabel-paar schritt="1119">
     <erste-sprache>演习</erste-sprache><zweite-sprache>Übung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1119">
+  <vokabel-paar schritt="1120">
     <erste-sprache>剩余物</erste-sprache><zweite-sprache>Überreste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1120">
+  <vokabel-paar schritt="1121">
     <erste-sprache>非正式</erste-sprache><zweite-sprache>informeller</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1121">
+  <vokabel-paar schritt="1122">
     <erste-sprache>临时</erste-sprache><zweite-sprache>vorläufiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1122">
+  <vokabel-paar schritt="1123">
     <erste-sprache>统一</erste-sprache><zweite-sprache>Einheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1123">
+  <vokabel-paar schritt="1124">
     <erste-sprache>已进行</erste-sprache><zweite-sprache>durchgeführter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1124">
+  <vokabel-paar schritt="1125">
     <erste-sprache>悲伤</erste-sprache><zweite-sprache>Trauer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1125">
+  <vokabel-paar schritt="1126">
     <erste-sprache>声称</erste-sprache><zweite-sprache>behauptet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1126">
+  <vokabel-paar schritt="1127">
     <erste-sprache>已识别</erste-sprache><zweite-sprache>identifizierte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1127">
+  <vokabel-paar schritt="1128">
     <erste-sprache>开火</erste-sprache><zweite-sprache>Feuer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1128">
+  <vokabel-paar schritt="1129">
     <erste-sprache>行军</erste-sprache><zweite-sprache>Marsch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1129">
+  <vokabel-paar schritt="1130">
     <erste-sprache>毒品</erste-sprache><zweite-sprache>Droge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1130">
+  <vokabel-paar schritt="1131">
     <erste-sprache>八月</erste-sprache><zweite-sprache>August</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1131">
+  <vokabel-paar schritt="1132">
     <erste-sprache>相信</erste-sprache><zweite-sprache>glauben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1131">
+  <vokabel-paar schritt="1132">
     <erste-sprache>相信</erste-sprache><zweite-sprache>glaube</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1132">
+  <vokabel-paar schritt="1133">
     <erste-sprache>中间</erste-sprache><zweite-sprache>Mitte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1133">
+  <vokabel-paar schritt="1134">
     <erste-sprache>十一月</erste-sprache><zweite-sprache>November</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1134">
+  <vokabel-paar schritt="1135">
     <erste-sprache>基础设施</erste-sprache><zweite-sprache>Infrastruktur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1135">
+  <vokabel-paar schritt="1136">
     <erste-sprache>准备</erste-sprache><zweite-sprache>Vorbereitung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1136">
+  <vokabel-paar schritt="1137">
     <erste-sprache>以前</erste-sprache><zweite-sprache>ehemals</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1137">
+  <vokabel-paar schritt="1138">
     <erste-sprache>领土</erste-sprache><zweite-sprache>Territorium</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1138">
+  <vokabel-paar schritt="1139">
     <erste-sprache>变化</erste-sprache><zweite-sprache>Änderungen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1139">
+  <vokabel-paar schritt="1140">
     <erste-sprache>执法</erste-sprache><zweite-sprache>Durchsetzung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1140">
+  <vokabel-paar schritt="1141">
     <erste-sprache>军队</erste-sprache><zweite-sprache>Armee</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1141">
+  <vokabel-paar schritt="1142">
     <erste-sprache>时尚</erste-sprache><zweite-sprache>Mode</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1142">
+  <vokabel-paar schritt="1143">
     <erste-sprache>快乐</erste-sprache><zweite-sprache>Vergnügen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1143">
+  <vokabel-paar schritt="1144">
     <erste-sprache>机构的</erste-sprache><zweite-sprache>institutionell</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1144">
+  <vokabel-paar schritt="1145">
     <erste-sprache>合规</erste-sprache><zweite-sprache>Einhaltung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1145">
+  <vokabel-paar schritt="1146">
     <erste-sprache>系统</erste-sprache><zweite-sprache>System</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1145">
+  <vokabel-paar schritt="1146">
     <erste-sprache>系统</erste-sprache><zweite-sprache>Systeme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1146">
+  <vokabel-paar schritt="1147">
     <erste-sprache>四月</erste-sprache><zweite-sprache>April</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1147">
+  <vokabel-paar schritt="1148">
     <erste-sprache>尤其</erste-sprache><zweite-sprache>insbesondere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1148">
+  <vokabel-paar schritt="1149">
     <erste-sprache>空间</erste-sprache><zweite-sprache>Raum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1149">
+  <vokabel-paar schritt="1150">
     <erste-sprache>女朋友</erste-sprache><zweite-sprache>Freundin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1150">
+  <vokabel-paar schritt="1151">
     <erste-sprache>谈话</erste-sprache><zweite-sprache>spricht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1150">
+  <vokabel-paar schritt="1151">
     <erste-sprache>谈话</erste-sprache><zweite-sprache>Unterhaltung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1151">
+  <vokabel-paar schritt="1152">
     <erste-sprache>实质性的</erste-sprache><zweite-sprache>substanziell</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1152">
+  <vokabel-paar schritt="1153">
     <erste-sprache>启用</erste-sprache><zweite-sprache>ermöglichen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1153">
+  <vokabel-paar schritt="1154">
     <erste-sprache>持续的</erste-sprache><zweite-sprache>laufend</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1154">
+  <vokabel-paar schritt="1155">
     <erste-sprache>内部的</erste-sprache><zweite-sprache>intern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1155">
+  <vokabel-paar schritt="1156">
     <erste-sprache>白色</erste-sprache><zweite-sprache>weiß</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1156">
+  <vokabel-paar schritt="1157">
     <erste-sprache>已实现的</erste-sprache><zweite-sprache>erreichter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1157">
+  <vokabel-paar schritt="1158">
     <erste-sprache>拘留</erste-sprache><zweite-sprache>Haft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1158">
+  <vokabel-paar schritt="1159">
     <erste-sprache>十月</erste-sprache><zweite-sprache>Oktober</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1159">
+  <vokabel-paar schritt="1160">
     <erste-sprache>通常地</erste-sprache><zweite-sprache>gemeinsamer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1161">
     <erste-sprache>到达</erste-sprache><zweite-sprache>erreicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1161">
     <erste-sprache>到达</erste-sprache><zweite-sprache>ankommen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1161">
     <erste-sprache>到达</erste-sprache><zweite-sprache>Ankunft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1161">
     <erste-sprache>到达</erste-sprache><zweite-sprache>angekommen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1160">
+  <vokabel-paar schritt="1161">
     <erste-sprache>到达</erste-sprache><zweite-sprache>kommt an</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1161">
+  <vokabel-paar schritt="1162">
     <erste-sprache>即</erste-sprache><zweite-sprache>nämlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1162">
+  <vokabel-paar schritt="1163">
     <erste-sprache>创建</erste-sprache><zweite-sprache>schaffen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1162">
+  <vokabel-paar schritt="1163">
     <erste-sprache>创建</erste-sprache><zweite-sprache>Erstellung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1163">
+  <vokabel-paar schritt="1164">
     <erste-sprache>尝试过</erste-sprache><zweite-sprache>versucht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1164">
+  <vokabel-paar schritt="1165">
     <erste-sprache>整合</erste-sprache><zweite-sprache>Integration</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1165">
+  <vokabel-paar schritt="1166">
     <erste-sprache>低</erste-sprache><zweite-sprache>niedrig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1166">
+  <vokabel-paar schritt="1167">
     <erste-sprache>提醒</erste-sprache><zweite-sprache>sich erinnern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1168">
     <erste-sprache>记忆</erste-sprache><zweite-sprache>Erinnerung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1168">
+  <vokabel-paar schritt="1169">
     <erste-sprache>起源</erste-sprache><zweite-sprache>Ursprung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1169">
+  <vokabel-paar schritt="1170">
     <erste-sprache>出口</erste-sprache><zweite-sprache>Ausgang</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1170">
+  <vokabel-paar schritt="1171">
     <erste-sprache>积极的</erste-sprache><zweite-sprache>positiv</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1171">
+  <vokabel-paar schritt="1172">
     <erste-sprache>有效的</erste-sprache><zweite-sprache>effektiv</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1173">
     <erste-sprache>医疗</erste-sprache><zweite-sprache>medizinisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1174">
     <erste-sprache>号码</erste-sprache><zweite-sprache>Nummer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1174">
     <erste-sprache>号码</erste-sprache><zweite-sprache>Zahl</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1174">
+  <vokabel-paar schritt="1175">
     <erste-sprache>倾听</erste-sprache><zweite-sprache>hören</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1175">
+  <vokabel-paar schritt="1176">
     <erste-sprache>对人的承诺</erste-sprache><zweite-sprache>Einsatz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1176">
+  <vokabel-paar schritt="1177">
     <erste-sprache>更大</erste-sprache><zweite-sprache>grosser</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1178">
     <erste-sprache>瑞士</erste-sprache><zweite-sprache>Schweiz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1178">
+  <vokabel-paar schritt="1179">
     <erste-sprache>一块</erste-sprache><zweite-sprache>Stück</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1179">
+  <vokabel-paar schritt="1180">
     <erste-sprache>哪个</erste-sprache><zweite-sprache>welches</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1179">
+  <vokabel-paar schritt="1180">
     <erste-sprache>哪个</erste-sprache><zweite-sprache>welche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1180">
+  <vokabel-paar schritt="1181">
     <erste-sprache>赢得</erste-sprache><zweite-sprache>gewann</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1181">
+  <vokabel-paar schritt="1182">
     <erste-sprache>韩国</erste-sprache><zweite-sprache>Korea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1182">
+  <vokabel-paar schritt="1183">
     <erste-sprache>哥伦比亚</erste-sprache><zweite-sprache>Kolumbien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1183">
+  <vokabel-paar schritt="1184">
     <erste-sprache>更高</erste-sprache><zweite-sprache>höher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1184">
+  <vokabel-paar schritt="1185">
     <erste-sprache>年长的</erste-sprache><zweite-sprache>höheren Alters</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1185">
+  <vokabel-paar schritt="1186">
     <erste-sprache>阶段</erste-sprache><zweite-sprache>Bühne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1186">
+  <vokabel-paar schritt="1187">
     <erste-sprache>允许</erste-sprache><zweite-sprache>erlauben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1186">
+  <vokabel-paar schritt="1187">
     <erste-sprache>允许</erste-sprache><zweite-sprache>erlaubt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1188">
     <erste-sprache>许可</erste-sprache><zweite-sprache>erlauben</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1188">
+  <vokabel-paar schritt="1189">
     <erste-sprache>在……的帮助下</erste-sprache><zweite-sprache>mit Hilfe von</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1189">
+  <vokabel-paar schritt="1190">
     <erste-sprache>行政部门</erste-sprache><zweite-sprache>Verwaltung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1190">
+  <vokabel-paar schritt="1191">
     <erste-sprache>物质</erste-sprache><zweite-sprache>Material</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1192">
     <erste-sprache>下一个</erste-sprache><zweite-sprache>nächste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1192">
     <erste-sprache>下一个</erste-sprache><zweite-sprache>nächsten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1191">
+  <vokabel-paar schritt="1192">
     <erste-sprache>下一个</erste-sprache><zweite-sprache>nächstes</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1193">
     <erste-sprache>落下</erste-sprache><zweite-sprache>fällt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1193">
+  <vokabel-paar schritt="1194">
     <erste-sprache>高度</erste-sprache><zweite-sprache>Höhe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1194">
+  <vokabel-paar schritt="1195">
     <erste-sprache>夏天</erste-sprache><zweite-sprache>Sommer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1196">
     <erste-sprache>标题</erste-sprache><zweite-sprache>Titel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1197">
     <erste-sprache>公寓</erste-sprache><zweite-sprache>Wohnung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1198">
     <erste-sprache>修订版</erste-sprache><zweite-sprache>überarbeitete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1198">
+  <vokabel-paar schritt="1199">
     <erste-sprache>收益</erste-sprache><zweite-sprache>Nutzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1199">
+  <vokabel-paar schritt="1200">
     <erste-sprache>竞选</erste-sprache><zweite-sprache>Kompagne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1200">
+  <vokabel-paar schritt="1201">
     <erste-sprache>受欢迎的</erste-sprache><zweite-sprache>beliebt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1202">
     <erste-sprache>省份</erste-sprache><zweite-sprache>Provinz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1202">
+  <vokabel-paar schritt="1203">
     <erste-sprache>即将到来</erste-sprache><zweite-sprache>kommender</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1204">
     <erste-sprache>资产</erste-sprache><zweite-sprache>Vermögen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1204">
     <erste-sprache>资产</erste-sprache><zweite-sprache>Aktiva</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1205">
     <erste-sprache>成功</erste-sprache><zweite-sprache>traf</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1205">
     <erste-sprache>成功</erste-sprache><zweite-sprache>Erfolg</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1206">
     <erste-sprache>已实现</erste-sprache><zweite-sprache>erfüllte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1206">
+  <vokabel-paar schritt="1207">
     <erste-sprache>正在改进</erste-sprache><zweite-sprache>sich verbessernder</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1207">
+  <vokabel-paar schritt="1208">
     <erste-sprache>免费</erste-sprache><zweite-sprache>kostenlos</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1209">
     <erste-sprache>外部</erste-sprache><zweite-sprache>außerhalb</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1210">
     <erste-sprache>参与者</erste-sprache><zweite-sprache>Teilnehmer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1210">
+  <vokabel-paar schritt="1211">
     <erste-sprache>宪法</erste-sprache><zweite-sprache>Verfassung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1211">
+  <vokabel-paar schritt="1212">
     <erste-sprache>艺术</erste-sprache><zweite-sprache>Kunst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1213">
     <erste-sprache>这些担忧</erste-sprache><zweite-sprache>Sorgen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1213">
+  <vokabel-paar schritt="1214">
     <erste-sprache>语言</erste-sprache><zweite-sprache>Sprache</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1215">
     <erste-sprache>丢失</erste-sprache><zweite-sprache>verlorener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1216">
     <erste-sprache>他很聪明</erste-sprache><zweite-sprache>weise</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1217">
     <erste-sprache>以某种方式</erste-sprache><zweite-sprache>auf diese Weise</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1217">
+  <vokabel-paar schritt="1218">
     <erste-sprache>顺便说一下</erste-sprache><zweite-sprache>übrigens</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1218">
+  <vokabel-paar schritt="1219">
     <erste-sprache>内陆</erste-sprache><zweite-sprache>Innenraum</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1219">
+  <vokabel-paar schritt="1220">
     <erste-sprache>平民人口</erste-sprache><zweite-sprache>Zivilbevölkerung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1221">
     <erste-sprache>欢迎</erste-sprache><zweite-sprache>begrüßt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1221">
+  <vokabel-paar schritt="1222">
     <erste-sprache>最差的</erste-sprache><zweite-sprache>schlimmste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1222">
+  <vokabel-paar schritt="1223">
     <erste-sprache>来源</erste-sprache><zweite-sprache>Quelle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1223">
+  <vokabel-paar schritt="1224">
     <erste-sprache>利益集团</erste-sprache><zweite-sprache>Interessengruppen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1225">
     <erste-sprache>加勒比海</erste-sprache><zweite-sprache>Karibik</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1226">
     <erste-sprache>指南</erste-sprache><zweite-sprache>Leitfaden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1227">
     <erste-sprache>表格</erste-sprache><zweite-sprache>Tabelle</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1227">
     <erste-sprache>表格</erste-sprache><zweite-sprache>Tisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1227">
+  <vokabel-paar schritt="1228">
     <erste-sprache>桌子</erste-sprache><zweite-sprache>Tisch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1229">
     <erste-sprache>要素</erste-sprache><zweite-sprache>Elemente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1230">
     <erste-sprache>呼吁</erste-sprache><zweite-sprache>Anrufe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1230">
+  <vokabel-paar schritt="1231">
     <erste-sprache>称之为</erste-sprache><zweite-sprache>Anrufe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1232">
     <erste-sprache>酷刑</erste-sprache><zweite-sprache>Folter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1233">
     <erste-sprache>至少</erste-sprache><zweite-sprache>mindest-</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1233">
     <erste-sprache>至少</erste-sprache><zweite-sprache>zumindest</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1233">
     <erste-sprache>至少</erste-sprache><zweite-sprache>wenigstens</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1233">
+  <vokabel-paar schritt="1234">
     <erste-sprache>乐队</erste-sprache><zweite-sprache>Band</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1235">
     <erste-sprache>错误</erste-sprache><zweite-sprache>Fehler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1235">
     <erste-sprache>错误</erste-sprache><zweite-sprache>falscher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1236">
     <erste-sprache>出来</erste-sprache><zweite-sprache>hinaus</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1237">
     <erste-sprache>慢慢地</erste-sprache><zweite-sprache>langsam</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1238">
     <erste-sprache>米</erste-sprache><zweite-sprache>Meter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1238">
+  <vokabel-paar schritt="1239">
     <erste-sprache>你自己</erste-sprache><zweite-sprache>selber</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1240">
     <erste-sprache>玩家</erste-sprache><zweite-sprache>Spieler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1240">
+  <vokabel-paar schritt="1241">
     <erste-sprache>指标</erste-sprache><zweite-sprache>Indikatoren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1241">
+  <vokabel-paar schritt="1242">
     <erste-sprache>贫穷的</erste-sprache><zweite-sprache>armer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1243">
     <erste-sprache>债务</erste-sprache><zweite-sprache>Schulden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1244">
     <erste-sprache>有效性</erste-sprache><zweite-sprache>Effektivität</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1245">
     <erste-sprache>期限</erste-sprache><zweite-sprache>Begriff</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1246">
     <erste-sprache>任期</erste-sprache><zweite-sprache>Amtszeit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1246">
     <erste-sprache>任期</erste-sprache><zweite-sprache>Mandat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1247">
     <erste-sprache>切割</erste-sprache><zweite-sprache>schneiden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1248">
     <erste-sprache>庭院</erste-sprache><zweite-sprache>Innenhof</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1249">
     <erste-sprache>各种</erste-sprache><zweite-sprache>verschiedene</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1250">
     <erste-sprache>解释</erste-sprache><zweite-sprache>erklärte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1250">
     <erste-sprache>解释</erste-sprache><zweite-sprache>erklärt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1251">
     <erste-sprache>感觉</erste-sprache><zweite-sprache>Gefühl</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1251">
     <erste-sprache>感觉</erste-sprache><zweite-sprache>Sinn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1252">
     <erste-sprache>电视</erste-sprache><zweite-sprache>TV</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1252">
     <erste-sprache>电视</erste-sprache><zweite-sprache>Fernsehen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1253">
     <erste-sprache>到处</erste-sprache><zweite-sprache>überall</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1254">
     <erste-sprache>亲爱的</erste-sprache><zweite-sprache>liebe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1254">
     <erste-sprache>亲爱的</erste-sprache><zweite-sprache>lieber</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1254">
+  <vokabel-paar schritt="1255">
     <erste-sprache>嗯</erste-sprache><zweite-sprache>hä</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1255">
+  <vokabel-paar schritt="1256">
     <erste-sprache>外面</erste-sprache><zweite-sprache>draußen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1257">
     <erste-sprache>网络</erste-sprache><zweite-sprache>Netzwerk</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1257">
     <erste-sprache>网络</erste-sprache><zweite-sprache>Web</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1257">
     <erste-sprache>网络</erste-sprache><zweite-sprache>Netzwerke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1258">
     <erste-sprache>月份</erste-sprache><zweite-sprache>Monate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1259">
     <erste-sprache>面貌</erste-sprache><zweite-sprache>Gesicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1260">
     <erste-sprache>答案</erste-sprache><zweite-sprache>Antwort</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1261">
     <erste-sprache>伟大</erste-sprache><zweite-sprache>toller</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1262">
     <erste-sprache>比较</erste-sprache><zweite-sprache>Vergleich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1263">
     <erste-sprache>我们尝试</erste-sprache><zweite-sprache>versuchen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1264">
     <erste-sprache>脸</erste-sprache><zweite-sprache>Gesicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1264">
+  <vokabel-paar schritt="1265">
     <erste-sprache>歌曲</erste-sprache><zweite-sprache>Lied</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1265">
+  <vokabel-paar schritt="1266">
     <erste-sprache>和你一起</erste-sprache><zweite-sprache>mit dir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1267">
     <erste-sprache>我做</erste-sprache><zweite-sprache>ich tue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1268">
     <erste-sprache>次要的</erste-sprache><zweite-sprache>kleinerer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1268">
+  <vokabel-paar schritt="1269">
     <erste-sprache>某些</erste-sprache><zweite-sprache>bestimmter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1270">
     <erste-sprache>决定</erste-sprache><zweite-sprache>Entscheidung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1270">
     <erste-sprache>决定</erste-sprache><zweite-sprache>entschieden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
+  <vokabel-paar schritt="1270">
     <erste-sprache>决定</erste-sprache><zweite-sprache>entscheiden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1271">
     <erste-sprache>之前</erste-sprache><zweite-sprache>vorher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1271">
     <erste-sprache>之前</erste-sprache><zweite-sprache>vor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1271">
     <erste-sprache>之前</erste-sprache><zweite-sprache>bevor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1271">
     <erste-sprache>之前</erste-sprache><zweite-sprache>zuvor</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1270">
+  <vokabel-paar schritt="1271">
     <erste-sprache>之前</erste-sprache><zweite-sprache>ehe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1271">
+  <vokabel-paar schritt="1272">
     <erste-sprache>一月</erste-sprache><zweite-sprache>Januar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1273">
     <erste-sprache>想法</erste-sprache><zweite-sprache>Gedanken</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1273">
     <erste-sprache>想法</erste-sprache><zweite-sprache>Idee</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1273">
     <erste-sprache>想法</erste-sprache><zweite-sprache>dachte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1273">
     <erste-sprache>想法</erste-sprache><zweite-sprache>Gedanke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1272">
+  <vokabel-paar schritt="1273">
     <erste-sprache>想法</erste-sprache><zweite-sprache>Ideen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1273">
+  <vokabel-paar schritt="1274">
     <erste-sprache>接近</erste-sprache><zweite-sprache>nähe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1274">
+  <vokabel-paar schritt="1275">
     <erste-sprache>正在寻找</erste-sprache><zweite-sprache>sucht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1276">
     <erste-sprache>例如</erste-sprache><zweite-sprache>z.B.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1276">
     <erste-sprache>例如</erste-sprache><zweite-sprache>beispielsweise</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1276">
+  <vokabel-paar schritt="1277">
     <erste-sprache>国会</erste-sprache><zweite-sprache>Kongress</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1277">
+  <vokabel-paar schritt="1278">
     <erste-sprache>曾经有</erste-sprache><zweite-sprache>es gab</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1278">
+  <vokabel-paar schritt="1279">
     <erste-sprache>协会</erste-sprache><zweite-sprache>Verband</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1279">
+  <vokabel-paar schritt="1280">
     <erste-sprache>卡</erste-sprache><zweite-sprache>Karte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1280">
+  <vokabel-paar schritt="1281">
     <erste-sprache>该死的</erste-sprache><zweite-sprache>Scheiß</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1281">
+  <vokabel-paar schritt="1282">
     <erste-sprache>妓女</erste-sprache><zweite-sprache>Hure</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1282">
+  <vokabel-paar schritt="1283">
     <erste-sprache>利益</erste-sprache><zweite-sprache>Interesse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1283">
+  <vokabel-paar schritt="1284">
     <erste-sprache>准备好了</erste-sprache><zweite-sprache>bereit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1284">
+  <vokabel-paar schritt="1285">
     <erste-sprache>完成的</erste-sprache><zweite-sprache>fertiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1286">
     <erste-sprache>照片</erste-sprache><zweite-sprache>Foto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1286">
     <erste-sprache>照片</erste-sprache><zweite-sprache>Fotos</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1287">
     <erste-sprache>国王</erste-sprache><zweite-sprache>König</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1287">
+  <vokabel-paar schritt="1288">
     <erste-sprache>空气</erste-sprache><zweite-sprache>Luft</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1289">
     <erste-sprache>解决方案</erste-sprache><zweite-sprache>Lösung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1290">
     <erste-sprache>我们想要</erste-sprache><zweite-sprache>wir wollen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1290">
+  <vokabel-paar schritt="1291">
     <erste-sprache>优越的</erste-sprache><zweite-sprache>überlegen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1291">
+  <vokabel-paar schritt="1292">
     <erste-sprache>应该的</erste-sprache><zweite-sprache>mutmaßlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1293">
     <erste-sprache>公告</erste-sprache><zweite-sprache>Ankündigung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1294">
     <erste-sprache>胸部</erste-sprache><zweite-sprache>Brust</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1295">
     <erste-sprache>种类</erste-sprache><zweite-sprache>Sorte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1296">
     <erste-sprache>信息</erste-sprache><zweite-sprache>Informationen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1296">
     <erste-sprache>信息</erste-sprache><zweite-sprache>Nachricht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1297">
     <erste-sprache>地区</erste-sprache><zweite-sprache>Region</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1297">
     <erste-sprache>地区</erste-sprache><zweite-sprache>Bereich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1297">
     <erste-sprache>地区</erste-sprache><zweite-sprache>Regionen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1297">
+  <vokabel-paar schritt="1298">
     <erste-sprache>二月</erste-sprache><zweite-sprache>Februar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1299">
     <erste-sprache>受害者</erste-sprache><zweite-sprache>Opfer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1299">
+  <vokabel-paar schritt="1300">
     <erste-sprache>覆盖范围</erste-sprache><zweite-sprache>erreichen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1301">
     <erste-sprache>地面</erste-sprache><zweite-sprache>Boden</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1302">
     <erste-sprache>法国</erste-sprache><zweite-sprache>Frankreich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>足球</erste-sprache><zweite-sprache>Fussball</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1303">
+  <vokabel-paar schritt="1304">
     <erste-sprache>批评</erste-sprache><zweite-sprache>Kritik</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1305">
     <erste-sprache>更新的</erste-sprache><zweite-sprache>neuer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1306">
     <erste-sprache>适合</erste-sprache><zweite-sprache>passt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1306">
+  <vokabel-paar schritt="1307">
     <erste-sprache>突然</erste-sprache><zweite-sprache>plötzlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1308">
     <erste-sprache>对的</erste-sprache><zweite-sprache>richtiger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1309">
     <erste-sprache>星期日</erste-sprache><zweite-sprache>Sonntag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1310">
     <erste-sprache>等待</erste-sprache><zweite-sprache>warten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1310">
     <erste-sprache>等待</erste-sprache><zweite-sprache>wartet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1310">
     <erste-sprache>等待</erste-sprache><zweite-sprache>Warten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1310">
+  <vokabel-paar schritt="1311">
     <erste-sprache>嘴</erste-sprache><zweite-sprache>Mund</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1311">
+  <vokabel-paar schritt="1312">
     <erste-sprache>入口</erste-sprache><zweite-sprache>Eingang</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1312">
+  <vokabel-paar schritt="1313">
     <erste-sprache>双手</erste-sprache><zweite-sprache>Hände</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1314">
     <erste-sprache>平均的</erste-sprache><zweite-sprache>Durchschnitt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1314">
+  <vokabel-paar schritt="1315">
     <erste-sprache>脚</erste-sprache><zweite-sprache>Fuß</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1316">
     <erste-sprache>现实</erste-sprache><zweite-sprache>Realität</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1317">
     <erste-sprache>成员</erste-sprache><zweite-sprache>Mitglieder</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1317">
     <erste-sprache>成员</erste-sprache><zweite-sprache>Mitglied</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1318">
     <erste-sprache>人口</erste-sprache><zweite-sprache>Bevölkerung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1319">
     <erste-sprache>身体</erste-sprache><zweite-sprache>Körper</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1320">
     <erste-sprache>点</erste-sprache><zweite-sprache>Punkt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1321">
     <erste-sprache>在它里面</erste-sprache><zweite-sprache>darin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1321">
+  <vokabel-paar schritt="1322">
     <erste-sprache>赢</erste-sprache><zweite-sprache>gewinnen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1322">
+  <vokabel-paar schritt="1323">
     <erste-sprache>更小的</erste-sprache><zweite-sprache>kleinerer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1324">
     <erste-sprache>圆圈</erste-sprache><zweite-sprache>Kreis</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1325">
     <erste-sprache>更长的</erste-sprache><zweite-sprache>länger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1326">
     <erste-sprache>新闻</erste-sprache><zweite-sprache>Nachrichten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1326">
+  <vokabel-paar schritt="1327">
     <erste-sprache>演讲</erste-sprache><zweite-sprache>Rede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1328">
     <erste-sprache>俱乐部</erste-sprache><zweite-sprache>Verein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1329">
     <erste-sprache>家伙</erste-sprache><zweite-sprache>Typ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1330">
     <erste-sprache>和我一起</erste-sprache><zweite-sprache>mit mir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1330">
+  <vokabel-paar schritt="1331">
     <erste-sprache>海岸</erste-sprache><zweite-sprache>Küste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1332">
     <erste-sprache>每天</erste-sprache><zweite-sprache>täglich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1333">
     <erste-sprache>一般的</erste-sprache><zweite-sprache>allgemeiner</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1334">
     <erste-sprache>太阳</erste-sprache><zweite-sprache>Sonne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1335">
     <erste-sprache>州</erste-sprache><zweite-sprache>Staat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1335">
+  <vokabel-paar schritt="1336">
     <erste-sprache>轻微的</erste-sprache><zweite-sprache>Licht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1336">
+  <vokabel-paar schritt="1337">
     <erste-sprache>开放</erste-sprache><zweite-sprache>offener</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1338">
     <erste-sprache>市场</erste-sprache><zweite-sprache>Markt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1339">
     <erste-sprache>孩子们</erste-sprache><zweite-sprache>Kindern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1339">
     <erste-sprache>孩子们</erste-sprache><zweite-sprache>Kinder</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1340">
     <erste-sprache>月</erste-sprache><zweite-sprache>Monat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1341">
     <erste-sprache>政治家</erste-sprache><zweite-sprache>Politiker</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1342">
     <erste-sprache>政治的</erste-sprache><zweite-sprache>politischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1342">
+  <vokabel-paar schritt="1343">
     <erste-sprache>俄罗斯</erste-sprache><zweite-sprache>Russland</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1344">
     <erste-sprache>部分地</erste-sprache><zweite-sprache>teilweise</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1345">
     <erste-sprache>两者都不</erste-sprache><zweite-sprache>weder</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1346">
     <erste-sprache>手臂</erste-sprache><zweite-sprache>Arm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1347">
     <erste-sprache>前</erste-sprache><zweite-sprache>Ex</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1348">
     <erste-sprache>品牌</erste-sprache><zweite-sprache>Marke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1349">
     <erste-sprache>失去</erste-sprache><zweite-sprache>verlieren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1350">
     <erste-sprache>碎片</erste-sprache><zweite-sprache>Stücke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>项目</erste-sprache><zweite-sprache>Programm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>项目</erste-sprache><zweite-sprache>Artikel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>项目</erste-sprache><zweite-sprache>Projekt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>项目</erste-sprache><zweite-sprache>Projekte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>项目</erste-sprache><zweite-sprache>Programme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1352">
     <erste-sprache>意味着</erste-sprache><zweite-sprache>Bedeutung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1352">
     <erste-sprache>意味着</erste-sprache><zweite-sprache>bedeutet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1353">
     <erste-sprache>联系</erste-sprache><zweite-sprache>Verbindung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1354">
     <erste-sprache>欧洲的</erste-sprache><zweite-sprache>europäischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1354">
     <erste-sprache>欧洲的</erste-sprache><zweite-sprache>europäische</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1355">
     <erste-sprache>足球俱乐部</erste-sprache><zweite-sprache>FC</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1356">
     <erste-sprache>喜欢的</erste-sprache><zweite-sprache>gefallen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1357">
     <erste-sprache>一半</erste-sprache><zweite-sprache>Hälfte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1357">
     <erste-sprache>一半</erste-sprache><zweite-sprache>halb</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1358">
     <erste-sprache>躺下</erste-sprache><zweite-sprache>lag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1359">
     <erste-sprache>很少</erste-sprache><zweite-sprache>selten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1360">
     <erste-sprache>类似的东西</erste-sprache><zweite-sprache>sowas</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1361">
     <erste-sprache>绝对</erste-sprache><zweite-sprache>unbedingt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1362">
     <erste-sprache>在路上</erste-sprache><zweite-sprache>unterwegs</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1363">
     <erste-sprache>报纸</erste-sprache><zweite-sprache>Zeitung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1364">
     <erste-sprache>巴西</erste-sprache><zweite-sprache>Brasilien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1365">
     <erste-sprache>回答</erste-sprache><zweite-sprache>antworten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1366">
     <erste-sprache>首先</erste-sprache><zweite-sprache>zuerst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1366">
     <erste-sprache>首先</erste-sprache><zweite-sprache>ersten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1366">
     <erste-sprache>首先</erste-sprache><zweite-sprache>erster</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1366">
     <erste-sprache>首先</erste-sprache><zweite-sprache>erste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1367">
     <erste-sprache>总统</erste-sprache><zweite-sprache>Präsident</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1368">
     <erste-sprache>带走</erste-sprache><zweite-sprache>nahm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1369">
     <erste-sprache>经验</erste-sprache><zweite-sprache>Erfahrung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1370">
     <erste-sprache>斗争</erste-sprache><zweite-sprache>Kampf</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1371">
     <erste-sprache>线索</erste-sprache><zweite-sprache>Ahnung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1372">
     <erste-sprache>公民</erste-sprache><zweite-sprache>Bürger</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1373">
     <erste-sprache>我们解释</erste-sprache><zweite-sprache>erklären</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1374">
     <erste-sprache>作品</erste-sprache><zweite-sprache>funktioniert</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1375">
     <erste-sprache>度</erste-sprache><zweite-sprache>Grad</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1376">
     <erste-sprache>最伟大的</erste-sprache><zweite-sprache>grösste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1376">
     <erste-sprache>最伟大的</erste-sprache><zweite-sprache>grösster</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1377">
     <erste-sprache>几个月</erste-sprache><zweite-sprache>Monaten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1378">
     <erste-sprache>运动</erste-sprache><zweite-sprache>Sport</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1378">
     <erste-sprache>运动</erste-sprache><zweite-sprache>Bewegung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1379">
     <erste-sprache>契约</erste-sprache><zweite-sprache>tat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1380">
     <erste-sprache>正在做</erste-sprache><zweite-sprache>tat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1381">
     <erste-sprache>播出</erste-sprache><zweite-sprache>sendet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1382">
     <erste-sprache>荣誉</erste-sprache><zweite-sprache>Ehre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1383">
     <erste-sprache>西</erste-sprache><zweite-sprache>Westen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1384">
     <erste-sprache>电话</erste-sprache><zweite-sprache>Telefon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1385">
     <erste-sprache>版本</erste-sprache><zweite-sprache>Version</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1385">
     <erste-sprache>版本</erste-sprache><zweite-sprache>Ausgabe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1386">
     <erste-sprache>名单</erste-sprache><zweite-sprache>Liste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1387">
     <erste-sprache>移除</erste-sprache><zweite-sprache>entfernter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1388">
     <erste-sprache>就像</erste-sprache><zweite-sprache>genauso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1389">
     <erste-sprache>绅士们</erste-sprache><zweite-sprache>Herren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1390">
     <erste-sprache>听到</erste-sprache><zweite-sprache>hört</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1390">
     <erste-sprache>听到</erste-sprache><zweite-sprache>gehört</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1390">
     <erste-sprache>听到</erste-sprache><zweite-sprache>hören</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1391">
     <erste-sprache>周末</erste-sprache><zweite-sprache>Wochenende</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1392">
     <erste-sprache>评论</erste-sprache><zweite-sprache>Kommentare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1393">
     <erste-sprache>我们知道</erste-sprache><zweite-sprache>wir wissen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1394">
     <erste-sprache>职责</erste-sprache><zweite-sprache>Pflicht</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1395">
     <erste-sprache>中午</erste-sprache><zweite-sprache>Mittag</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1396">
     <erste-sprache>将能够</erste-sprache><zweite-sprache>wird in der Lage sein zu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1397">
     <erste-sprache>各州</erste-sprache><zweite-sprache>Staaten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1398">
     <erste-sprache>预期的</erste-sprache><zweite-sprache>erwarteter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1399">
     <erste-sprache>少数</erste-sprache><zweite-sprache>wenige</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1400">
     <erste-sprache>在它上面</erste-sprache><zweite-sprache>dran</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1401">
     <erste-sprache>第三</erste-sprache><zweite-sprache>dritten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1402">
     <erste-sprache>秋天</erste-sprache><zweite-sprache>fallen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1402">
     <erste-sprache>秋天</erste-sprache><zweite-sprache>Herbst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1403">
     <erste-sprache>与此同时</erste-sprache><zweite-sprache>inzwischen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1404">
     <erste-sprache>将不得不</erste-sprache><zweite-sprache>müsste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1405">
     <erste-sprache>迈了一步</erste-sprache><zweite-sprache>schritt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1406">
     <erste-sprache>一步</erste-sprache><zweite-sprache>Schritt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1407">
     <erste-sprache>态度</erste-sprache><zweite-sprache>Verfügung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1408">
     <erste-sprache>你将</erste-sprache><zweite-sprache>wirst</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1409">
     <erste-sprache>选择</erste-sprache><zweite-sprache>wählen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1410">
     <erste-sprache>岛屿</erste-sprache><zweite-sprache>Insel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1411">
     <erste-sprache>讨厌</erste-sprache><zweite-sprache>Hass</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1412">
     <erste-sprache>秘鲁</erste-sprache><zweite-sprache>Peru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1413">
     <erste-sprache>我认为</erste-sprache><zweite-sprache>ich denke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1414">
     <erste-sprache>衣服</erste-sprache><zweite-sprache>Kleidung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1415">
     <erste-sprache>完全</erste-sprache><zweite-sprache>total</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1416">
     <erste-sprache>边缘</erste-sprache><zweite-sprache>Rand</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1417">
     <erste-sprache>多少</erste-sprache><zweite-sprache>wie viel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1417">
     <erste-sprache>多少</erste-sprache><zweite-sprache>wieviel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1418">
     <erste-sprache>最后一个</erste-sprache><zweite-sprache>letztes</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1419">
     <erste-sprache>会做</erste-sprache><zweite-sprache>wird tun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1420">
     <erste-sprache>最终的</erste-sprache><zweite-sprache>endgültig</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1421">
     <erste-sprache>快乐的</erste-sprache><zweite-sprache>glücklich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1422">
     <erste-sprache>不可能的</erste-sprache><zweite-sprache>unmöglicher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1423">
     <erste-sprache>血</erste-sprache><zweite-sprache>Blut</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1424">
     <erste-sprache>风格</erste-sprache><zweite-sprache>Stil</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1425">
     <erste-sprache>路线</erste-sprache><zweite-sprache>Linie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1426">
     <erste-sprache>自然</erste-sprache><zweite-sprache>Natur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1427">
     <erste-sprache>危险</erste-sprache><zweite-sprache>Gefahr</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1428">
     <erste-sprache>打电话</erste-sprache><zweite-sprache>genannter</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1428">
     <erste-sprache>打电话</erste-sprache><zweite-sprache>nennen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1428">
     <erste-sprache>打电话</erste-sprache><zweite-sprache>ruft an</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1428">
     <erste-sprache>打电话</erste-sprache><zweite-sprache>anrufen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1429">
     <erste-sprache>小</erste-sprache><zweite-sprache>kleiner</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1430">
     <erste-sprache>内疚</erste-sprache><zweite-sprache>Schuld</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
+  <vokabel-paar schritt="1431">
     <erste-sprache>顶部</erste-sprache><zweite-sprache>Top</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1432">
     <erste-sprache>真相</erste-sprache><zweite-sprache>Wahrheit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1433">
     <erste-sprache>话语</erste-sprache><zweite-sprache>Worte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1434">
     <erste-sprache>公众</erste-sprache><zweite-sprache>öffentlichen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1434">
     <erste-sprache>公众</erste-sprache><zweite-sprache>öffentliche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1435">
     <erste-sprache>电影院</erste-sprache><zweite-sprache>Kino</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1436">
     <erste-sprache>我们必须</erste-sprache><zweite-sprache>wir müssen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1437">
     <erste-sprache>我做过</erste-sprache><zweite-sprache>ich tat</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1438">
     <erste-sprache>奖项</erste-sprache><zweite-sprache>Auszeichnung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1439">
     <erste-sprache>防御</erste-sprache><zweite-sprache>Verteidigung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1440">
     <erste-sprache>从现在开始</erste-sprache><zweite-sprache>von nun an</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1441">
     <erste-sprache>新鲜的</erste-sprache><zweite-sprache>frischer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1442">
     <erste-sprache>回忆</erste-sprache><zweite-sprache>sich erinnern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1443">
     <erste-sprache>记住</erste-sprache><zweite-sprache>erinnern</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>设置</erste-sprache><zweite-sprache>Satz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>设置</erste-sprache><zweite-sprache>setzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>设置</erste-sprache><zweite-sprache>setzt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>设置</erste-sprache><zweite-sprache>gesetzt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1445">
     <erste-sprache>分享</erste-sprache><zweite-sprache>teilen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1446">
     <erste-sprache>等等</erste-sprache><zweite-sprache>etc</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1446">
     <erste-sprache>等等</erste-sprache><zweite-sprache>usw</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1447">
     <erste-sprache>有限责任公司</erste-sprache><zweite-sprache>GmbH</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1448">
     <erste-sprache>听起来</erste-sprache><zweite-sprache>klingt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1449">
     <erste-sprache>简短</erste-sprache><zweite-sprache>knapp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1450">
     <erste-sprache>巴黎</erste-sprache><zweite-sprache>Paris</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1451">
     <erste-sprache>富有的</erste-sprache><zweite-sprache>reicher</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1452">
     <erste-sprache>红色</erste-sprache><zweite-sprache>rot</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1453">
     <erste-sprache>大概</erste-sprache><zweite-sprache>vermutlich</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1454">
     <erste-sprache>频道</erste-sprache><zweite-sprache>Kanal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1455">
     <erste-sprache>有趣的</erste-sprache><zweite-sprache>interessant</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1456">
     <erste-sprache>审判</erste-sprache><zweite-sprache>Urteil</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1457">
     <erste-sprache>成千上万的</erste-sprache><zweite-sprache>Tausende</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1458">
     <erste-sprache>原创的</erste-sprache><zweite-sprache>original</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1459">
     <erste-sprache>回报</erste-sprache><zweite-sprache>Rückkehrer</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
-    <erste-sprache>死亡的</erste-sprache><zweite-sprache>tot</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1460">
-    <erste-sprache>航班</erste-sprache><zweite-sprache>Flug</zweite-sprache>
+    <erste-sprache>死亡的</erste-sprache><zweite-sprache>tot</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1461">
     <erste-sprache>老板</erste-sprache><zweite-sprache>Chef</zweite-sprache>
@@ -6946,5 +6949,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="1561">
     <erste-sprache>瑞士人</erste-sprache><zweite-sprache>Schweizerisch</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1562">
+    <erste-sprache>帝国</erste-sprache><zweite-sprache>Reich</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1562">
+    <erste-sprache>帝国</erste-sprache><zweite-sprache>Imperium</zweite-sprache>
   </vokabel-paar>
 </vokabeln>
