@@ -1,0 +1,17 @@
+If you want to create new vocabulary books, consider following these principles:
+
+If your language sounds more like e.g. German and you want to make a vocabulary
+book between English and your language, then take the English-German vocabulary
+book as base for your own book and translate the english words to your language.
+
+Verbs are intentionally in first person plural and third person singular 
+(masculin), so a conversation is supported and all verbs use same forms.
+Sometimes other forms are used, too.
+
+Afterwards reorder the words.
+ - First words in the vocabulary book are same for all languages and shall
+   help a tourist with basic situations.
+ - Afterwards there are words that sound similarly between two languages.
+   this shall help to quickly get as many words as possible. 
+ - After similarly sounding words other words are placed in the order of
+   their frequency/importance
