@@ -4,9 +4,18 @@ If your language sounds more like e.g. German and you want to make a vocabulary
 book between English and your language, then take the English-German vocabulary
 book as base for your own book and translate the english words to your language.
 
-Verbs are intentionally in first person plural and third person singular 
-(masculin), so a conversation is supported and all verbs use same forms.
-Sometimes other forms are used, too.
+If you want to add several languages at once, then it would be easier to
+translate spanish words to your language and then see the translations of
+the spanish words in other languages.
+
+Verbs are intentionally in first and second persons plural (polite form) and 
+in third person singular (masculin), so a conversation is supported. All verbs 
+shall use same forms, so there is little misunderstanding about the forms to list 
+when e.g. a german or english verb is tested. However sometimes other forms are 
+used, too.
+
+The past forms of verbs use first person singular, second person singular and
+third person singular.
 
 Afterwards reorder the words.
  - First words in the vocabulary book are same for all languages and shall
