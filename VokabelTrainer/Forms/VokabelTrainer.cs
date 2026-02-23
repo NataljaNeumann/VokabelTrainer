@@ -994,7 +994,8 @@ namespace VokabelTrainer
                         }
                         catch (Exception oEx)
                         {
-                            // ignore
+                            // if no training file then set step to 1 at least
+                            m_nStep = 1;
                         }
                     }
                 }
