@@ -3299,6 +3299,9 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.de/s?k=low+carb+ngv");
                     oResult.Add(@"https://www.amazon.de/s?k=friedenspreis+des+deutschen+buchhandels+-Ansprachen+-Verleihung");
                     oResult.Add(@"https://www.youtube.com/@LadyTamara");
+                    oResult.Add(@"https://onlineuebung.de/andere-faecher/");
+                    oResult.Add(@"https://onlineuebung.de/deutsch/lernspiele-deutschunterricht/");
+                    oResult.Add(@"https://onlineuebung.de/andere-faecher/geschichtsunterricht/#lsg");
 
                     // sometimes also add the critical book
                     if (m_oRnd.Next(10) == 7)
@@ -3377,8 +3380,11 @@ namespace VokabelTrainer
                     // for language speakers that aren't muslim add visionary christian songs
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
-                        case "he":
                         case "de":
+                            oResult.Add(@"https://onlineuebung.de/franzoesisch/franzoesische-lernspiele/");
+                            goto case "he";
+
+                        case "he":
                         case "es":
                         case "en":
                         case "pt":
@@ -3553,8 +3559,10 @@ namespace VokabelTrainer
                     {
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
-                            goto case "de";
+                            goto case "fr";
                         case "de":
+                            oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
+                            goto case "fr";
                         case "fr":
                         case "es":
                         case "pt":
