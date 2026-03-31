@@ -49,6 +49,7 @@ namespace VokabelTrainer.Forms
         /// <param name="strFirstLanguage">The name of the first language</param>
         /// <param name="strSecondLanguage">The name of the second language</param>
         /// <param name="oWordPairs">New word pairs</param>
+        //===================================================================================================
         public NewWordsInCourseForm(
             string strHeading, 
             string strFirstLanguage, 
@@ -99,13 +100,13 @@ namespace VokabelTrainer.Forms
             ctlTable.Controls.Add(lblSecondLang, 1, 0);
 
             int row = 1;
-            foreach (var pair in oWordPairs)
+            foreach (var oPair in oWordPairs)
             {
                 ctlTable.RowCount++;
 
                 var lblFirst = new Label
                 {
-                    Text = pair.Key,
+                    Text = oPair.Key,
                     Font = m_oFont,
                     AutoSize = true,
                     TextAlign = ContentAlignment.MiddleRight,
@@ -114,7 +115,7 @@ namespace VokabelTrainer.Forms
                 };
                 var lblSecond = new Label
                 {
-                    Text = pair.Value,
+                    Text = oPair.Value,
                     Font = m_oFont,
                     AutoSize = true,
                     TextAlign = ContentAlignment.MiddleLeft,
@@ -191,7 +192,9 @@ namespace VokabelTrainer.Forms
         /// </summary>
         /// <param name="strName">Name of the image, without directory specifications</param>
         //===================================================================================================
-        private bool ReadyToUseImageInjection(string strImageName)
+        private bool ReadyToUseImageInjection(
+            string strImageName
+            )
         {
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
             if (System.IO.File.Exists(strImagePath))
@@ -224,7 +227,10 @@ namespace VokabelTrainer.Forms
         /// <param name="oSender">Sender object</param>
         /// <param name="oEventArgs">Event args</param>
         //===================================================================================================
-        private void ResizeImageAlongWithForm(object oSender, EventArgs oEventArgs)
+        private void ResizeImageAlongWithForm(
+            object oSender,
+            EventArgs oEventArgs
+            )
         {
             ResizeImageAndShiftElements();
         }
@@ -235,7 +241,9 @@ namespace VokabelTrainer.Forms
         /// </summary>
         /// <param name="strImagePath"></param>
         //===================================================================================================
-        private void LoadAndResizeImage(string strImagePath)
+        private void LoadAndResizeImage(
+            string strImagePath
+            )
         {
             m_oLoadedImage = Image.FromFile(strImagePath);
             ResizeImageAndShiftElements();
@@ -277,7 +285,9 @@ namespace VokabelTrainer.Forms
         /// </summary>
         /// <param name="nHeightChange">The change in height, compared to previous</param>
         //===================================================================================================
-        private void ShiftOtherElementsUpOrDown(int nHeightChange)
+        private void ShiftOtherElementsUpOrDown(
+            int nHeightChange
+            )
         {
             foreach (Control ctl in m_oOriginalPositions.Keys)
             {
@@ -294,7 +304,10 @@ namespace VokabelTrainer.Forms
         /// <param name="roMsg">The reference to processed message</param>
         /// <param name="oKeyData">Key event arguments</param>
         //===================================================================================================
-        protected override bool ProcessCmdKey(ref Message roMsg, Keys oKeyData)
+        protected override bool ProcessCmdKey(
+            ref Message roMsg,
+            Keys oKeyData
+            )
         {
             if (oKeyData == Keys.Space || oKeyData == Keys.Enter || oKeyData == Keys.Escape)
             {

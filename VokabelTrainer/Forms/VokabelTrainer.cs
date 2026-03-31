@@ -234,7 +234,10 @@ namespace VokabelTrainer
         /// <param name="dblY">y</param>
         /// <returns>Power of x to y</returns>
         //===================================================================================================
-        static double Pow(int nX, double dblY)
+        static double Pow(
+            int nX,
+            double dblY
+            )
         {
             KeyValuePair<int,double> oKey = new KeyValuePair<int,double>(nX,dblY);
             if (s_oPowResults.ContainsKey(oKey))
@@ -840,7 +843,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnPictureBox_Click(object oSender, EventArgs oArgs)
+        private void OnPictureBox_Click(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             if (!string.IsNullOrEmpty(m_strUrlForImage))
             {
@@ -957,7 +963,9 @@ namespace VokabelTrainer
         /// Load the file that has been set in m_strCurrentPath
         /// </summary>
         //===================================================================================================
-        private void LoadLanguageFile(int? nNeededStep)
+        private void LoadLanguageFile(
+            int? nNeededStep
+            )
         {
             int nTotalCountCorrectAnswers = 0;
             List<KeyValuePair<string, string>> oCurrentStep = new List<KeyValuePair<string, string>>();
@@ -1568,7 +1576,7 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void m_btnEnterVocabulary_Click(
+        private void OnEnterVocabulary_Click(
             object oSender, 
             EventArgs oArgs
             )
@@ -2083,9 +2091,10 @@ namespace VokabelTrainer
             bool bRepeat = false;
             bool bVerify = false;
             bool bMore = false;
+
             foreach (KeyValuePair<string,string> oPair in m_oTrainingResultsSecondLanguage)
             {
-                if (0 == nIndex-- )
+                if ( 0 == nIndex-- )
                 {
                     if (m_bSkipLast)
                     {
@@ -2162,28 +2171,28 @@ namespace VokabelTrainer
                         if (bVerify)
                         {
 
-                            char[] separators = { ',' };
+                            char[] aSeparators = { ',', ';' };
 
-                            Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oTypedInWords = new Dictionary<string, bool>();
                             foreach (string s in oTestDlg.m_tbxAskedTranslation.Text.Trim()
                                 .Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace("،", ",")
                                 .Replace("、", ",").Replace("，", ",")
-                                .Replace(",,", ",").Replace(",,", ",").Split(separators, 
+                                .Replace(",,", ",").Replace(",,", ",").Split(aSeparators, 
                                     StringSplitOptions.RemoveEmptyEntries))
                             {
-                                typedIn[s.Trim()] = false;
+                                oTypedInWords[s.Trim()] = false;
                             }
 
-                            Dictionary<string, bool> missing = new Dictionary<string, bool>();
-                            Dictionary<string, bool> wrong = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oMissingWords = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oWrongWords = new Dictionary<string, bool>();
 
                             foreach (string s in m_oSecondToFirst[oPair.Key].Keys)
                             {
-                                if (!typedIn.ContainsKey(s))
-                                    missing[s] = false;
+                                if (!oTypedInWords.ContainsKey(s))
+                                    oMissingWords[s] = false;
                             }
 
-                            foreach (string s in typedIn.Keys)
+                            foreach (string s in oTypedInWords.Keys)
                             {
                                 // if the typed in meaning is neither in current set of words
                                 // nor in later steps, then mark it as wrong
@@ -2191,21 +2200,21 @@ namespace VokabelTrainer
                                     (!m_oSecondToFirstCompleteCourse.ContainsKey(oPair.Key)||
                                      !m_oSecondToFirstCompleteCourse[oPair.Key].ContainsKey(s)))
                                 {
-                                    wrong[s] = false;
+                                    oWrongWords[s] = false;
                                 }
                             }
 
-                            if (missing.Count > 0 || wrong.Count > 0)
+                            if (oMissingWords.Count > 0 || oWrongWords.Count > 0)
                             {
                                 string strErrorMessage = "";
-                                if (missing.Count > 1)
+                                if (oMissingWords.Count > 1)
                                 {
                                     string strTextToSpeak = "";
 
                                     strErrorMessage = Properties.Resources.FollowingMeaningWereMissing;
                                     //errorMessage = "Folgende Bedeutungen haben gefehlt: ";
                                     bool bFirst = true;
-                                    foreach (string s in missing.Keys)
+                                    foreach (string s in oMissingWords.Keys)
                                     {
                                         if (!bFirst)
                                         {
@@ -2220,34 +2229,36 @@ namespace VokabelTrainer
                                     }
                                     strErrorMessage = strErrorMessage + ". ";
 
-                                    Speaker.Say(m_strFirstLanguage, strTextToSpeak, true, 
+                                    Speaker.Say(m_strFirstLanguage, strTextToSpeak, true,
                                         m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
-                                    if (missing.Count == 1)
+                                {
+                                    if (oMissingWords.Count == 1)
                                     {
                                         strErrorMessage = Properties.Resources.FollowingMeaningWasMissing;
                                         //errorMessage = "Folgende Bedeutung hat gefehlt: ";
-                                        foreach (string s in missing.Keys)
+                                        foreach (string s in oMissingWords.Keys)
                                         {
                                             strErrorMessage = strErrorMessage + s + ". ";
 
-                                            Speaker.Say(m_strFirstLanguage, s, true, 
+                                            Speaker.Say(m_strFirstLanguage, s, true,
                                                 m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                         }
                                     }
+                                }
 
-                                if (wrong.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
+                                if (oWrongWords.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
                                     strErrorMessage = strErrorMessage + "\r\n";
 
-                                if (wrong.Count > 1)
+                                if (oWrongWords.Count > 1)
                                 {
 
                                     strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
-                                    foreach (string s in wrong.Keys)
+                                    foreach (string s in oWrongWords.Keys)
                                     {
                                         if (!bFirst)
                                             strErrorMessage = strErrorMessage + ", ";
@@ -2262,18 +2273,20 @@ namespace VokabelTrainer
                                     strErrorMessage = strErrorMessage + ". ";
                                 }
                                 else
-                                    if (wrong.Count == 1)
+                                {
+                                    if (oWrongWords.Count == 1)
                                     {
                                         strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningWasWrong;
-                                        foreach (string s in wrong.Keys)
+                                        foreach (string s in oWrongWords.Keys)
                                         {
                                             strErrorMessage = strErrorMessage + s + ". ";
                                             if (m_oTrainingResultsFirstLanguage.ContainsKey(s))
                                                 RememberResultFirstLanguage(s, false);
                                         }
                                     }
+                                }
 
-                                if (missing.Count > 0)
+                                if (oMissingWords.Count > 0)
                                     NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake,
@@ -2656,9 +2669,10 @@ namespace VokabelTrainer
             bool bRepeat = false;
             bool bVerify = false;
             bool bMore = false;
+
             foreach (KeyValuePair<string, string> pair in m_oTrainingResultsFirstLanguage)
             {
-                if (0 == nIndex--)
+                if ( 0 == nIndex-- )
                 {
                     if (m_bSkipLast)
                     {
@@ -2733,28 +2747,28 @@ namespace VokabelTrainer
                         if (bVerify)
                         {
 
-                            char[] separators = { ',', ';' };
+                            char[] aSeparators = { ',', ';' };
 
-                            Dictionary<string, bool> typedIn = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oTypedInWords = new Dictionary<string, bool>();
                             foreach (string s in test.m_tbxAskedTranslation.Text.Trim()
                                 .Replace("?", "?,").Replace("!", "!,").Replace(";", ",").Replace("،", ",")
                                 .Replace("、", ",").Replace("，", ",")
                                 .Replace(",,", ",").Replace(",,", ",")
-                                .Split(separators, StringSplitOptions.RemoveEmptyEntries))
+                                .Split(aSeparators, StringSplitOptions.RemoveEmptyEntries))
                             {
-                                typedIn[s.Trim()] = false;
+                                oTypedInWords[s.Trim()] = false;
                             }
 
-                            Dictionary<string, bool> missing = new Dictionary<string, bool>();
-                            Dictionary<string, bool> wrong = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oMissingWords = new Dictionary<string, bool>();
+                            Dictionary<string, bool> oWrongWords = new Dictionary<string, bool>();
 
                             foreach (string s in m_oFirstToSecond[pair.Key].Keys)
                             {
-                                if (!typedIn.ContainsKey(s))
-                                    missing[s] = false;
+                                if (!oTypedInWords.ContainsKey(s))
+                                    oMissingWords[s] = false;
                             }
 
-                            foreach (string s in typedIn.Keys)
+                            foreach (string s in oTypedInWords.Keys)
                             {
                                 // if the typed in meaning is neither in current set of words
                                 // nor in later steps, then mark it as wrong
@@ -2762,19 +2776,19 @@ namespace VokabelTrainer
                                     (!m_oFirstToSecondCompleteCourse.ContainsKey(pair.Key) ||
                                      !m_oFirstToSecondCompleteCourse[pair.Key].ContainsKey(s)))
                                 {
-                                    wrong[s] = false;
+                                    oWrongWords[s] = false;
                                 }
                             }
 
-                            if (missing.Count > 0 || wrong.Count > 0)
+                            if (oMissingWords.Count > 0 || oWrongWords.Count > 0)
                             {
                                 string strErrorMessage = "";
-                                if (missing.Count > 1)
+                                if (oMissingWords.Count > 1)
                                 {
                                     string strTextToSpeak = "";
                                     strErrorMessage = Properties.Resources.FollowingMeaningsWereMissing;
                                     bool bFirst = true;
-                                    foreach (string s in missing.Keys)
+                                    foreach (string s in oMissingWords.Keys)
                                     {
                                         if (!bFirst)
                                         {
@@ -2789,35 +2803,37 @@ namespace VokabelTrainer
                                     }
                                     strErrorMessage = strErrorMessage + ". ";
 
-                                    Speaker.Say(m_strSecondLanguage, strTextToSpeak, true, 
+                                    Speaker.Say(m_strSecondLanguage, strTextToSpeak, true,
                                         m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
                                 }
                                 else
-                                    if (missing.Count == 1)
+                                {
+                                    if (oMissingWords.Count == 1)
                                     {
                                         strErrorMessage = Properties.Resources.FollowingMeaningWasMissing;
-                                        foreach (string s in missing.Keys)
+                                        foreach (string s in oMissingWords.Keys)
                                         {
                                             strErrorMessage = strErrorMessage + s + ". ";
 
 
-                                            Speaker.Say(m_strSecondLanguage, s, true, 
+                                            Speaker.Say(m_strSecondLanguage, s, true,
                                                 m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
 
 
                                         }
                                     }
+                                }
 
-                                if (wrong.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
+                                if (oWrongWords.Count > 0 && !string.IsNullOrEmpty(strErrorMessage))
                                     strErrorMessage = strErrorMessage + "\r\n";
 
-                                if (wrong.Count > 1)
+                                if (oWrongWords.Count > 1)
                                 {
 
                                     strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningsWereWrong;
                                     bool bFirst = true;
-                                    foreach (string s in wrong.Keys)
+                                    foreach (string s in oWrongWords.Keys)
                                     {
                                         if (!bFirst)
                                             strErrorMessage = strErrorMessage + ", ";
@@ -2832,19 +2848,21 @@ namespace VokabelTrainer
                                     strErrorMessage = strErrorMessage + ". ";
                                 }
                                 else
-                                    if (wrong.Count == 1)
+                                {
+                                    if (oWrongWords.Count == 1)
                                     {
                                         strErrorMessage = strErrorMessage + Properties.Resources.FollowingMeaningWasWrong;
-                                        foreach (string s in wrong.Keys)
+                                        foreach (string s in oWrongWords.Keys)
                                         {
                                             strErrorMessage = strErrorMessage + s + ". ";
                                             if (m_oTrainingResultsSecondLanguage.ContainsKey(s))
                                                 RememberResultSecondLanguage(s, false);
                                         }
                                     }
+                                }
 
 
-                                if (missing.Count > 0)
+                                if (oMissingWords.Count > 0)
                                     NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake, 
@@ -3157,7 +3175,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnShowLicence_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnShowLicence_LinkClicked(
+            object oSender,
+            LinkLabelLinkClickedEventArgs oArgs
+            )
         {
             System.Diagnostics.Process.Start("https://www.gnu.org/licenses/gpl-2.0.html");
         }
@@ -3169,7 +3190,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnShowAbout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void OnShowAbout_LinkClicked(
+            object oSender,
+            LinkLabelLinkClickedEventArgs oArgs
+            )
         {
             using (About oAboutForm = new About())
             {
@@ -3184,7 +3208,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnShowDesktopKeyboard_Click(object oSender, EventArgs oArgs)
+        private void OnShowDesktopKeyboard_Click(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             System.Diagnostics.Process.Start("osk.exe");
         }
@@ -3196,7 +3223,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void VokabelTrainer_MouseMove(object oSender, MouseEventArgs oArgs)
+        private void VokabelTrainer_MouseMove(
+            object oSender,
+            MouseEventArgs oArgs
+            )
         {
             // make randoms less deterministic, whenever possible
             if (m_oRnd != null)
@@ -3216,7 +3246,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnDownloadESpeak_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnDownloadESpeak_LinkClicked(
+            object oSender,
+            LinkLabelLinkClickedEventArgs oArgs
+            )
         {
             System.Diagnostics.Process.Start("https://espeak.sourceforge.net/");
         }
@@ -3229,7 +3262,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnUseESpeak_CheckedChanged(object oSender, EventArgs oArgs)
+        private void OnUseESpeak_CheckedChanged(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             m_tbxESpeakPath.Enabled = m_chkUseESpeak.Checked;
             m_btnSearchESpeak.Enabled = m_chkUseESpeak.Checked;
@@ -3243,7 +3279,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnSearchESpeak_Click(object oSender, EventArgs oArgs)
+        private void OnSearchESpeak_Click(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             using (System.Windows.Forms.OpenFileDialog oDlg = new OpenFileDialog())
             {
@@ -3264,7 +3303,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void VokabelTrainer_Load(object oSender, EventArgs oArgs)
+        private void VokabelTrainer_Load(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             m_lblDontLearnAquire.Visible = false;
             m_tbxESpeakPath.Text = "C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe";
@@ -3300,7 +3342,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <param name="strLanguage">Language to check</param>
         //===================================================================================================
-        private List<string> GetEasyLanguageAquireList(string strLanguage)
+        private List<string> GetEasyLanguageAquireList(
+            string strLanguage
+            )
         {
 
             List<string> oResult = new List<string>();
@@ -3932,7 +3976,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnDontLearnAquire_LinkClicked(object oSender, LinkLabelLinkClickedEventArgs oArgs)
+        private void OnDontLearnAquire_LinkClicked(
+            object oSender,
+            LinkLabelLinkClickedEventArgs oArgs
+            )
         {
             List<string> oEasyAquireList = GetEasyLanguageAquireList();
             if (oEasyAquireList != null && oEasyAquireList.Count > 0)
@@ -3948,7 +3995,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oRags">Event args</param>
         //===================================================================================================
-        private void OnOsLanguageAndKeyboardSettings_Click(object oSender, EventArgs oArgs)
+        private void OnOsLanguageAndKeyboardSettings_Click(
+            object oSender,
+            EventArgs oArgs
+            )
         {
             string strWindowsVersion = Environment.OSVersion.Version.ToString();
 
@@ -3992,7 +4042,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oEventArgs">Even args</param>
         //===================================================================================================
-        private void OnHelpRequested(object oSender, HelpEventArgs oEventArgs)
+        private void OnHelpRequested(
+            object oSender,
+            HelpEventArgs oEventArgs
+            )
         {
             System.Diagnostics.Process.Start(System.IO.Path.Combine(Application.StartupPath, "Readme.html"));
         }
@@ -4135,7 +4188,10 @@ namespace VokabelTrainer
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnButtonStatsClick(object oSender, MouseEventArgs oArgs)
+        private void OnButtonStatsClick(
+            object oSender,
+            MouseEventArgs oArgs
+            )
         {
             // Open the graphs window
             GraphsForm graphsForm = new GraphsForm(
@@ -4154,7 +4210,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterSunday(DateTime? dtmTestedDate = null)
+        static DateTime GetEasterSunday(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4188,7 +4246,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterStart(DateTime? dtmTestedDate = null)
+        static DateTime GetEasterStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4206,7 +4266,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The day of eastern sunday</returns>
         //===================================================================================================
-        static DateTime GetEasterEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetEasterEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4225,7 +4287,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start or ramadan heading</returns>
         //===================================================================================================
-        static DateTime GetRamadanStart(DateTime? dtmTestedDate = null)
+        static DateTime GetRamadanStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4267,7 +4331,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>5 days after start of ramadan header</returns>
         //===================================================================================================
-        static DateTime GetRamadanEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetRamadanEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4284,7 +4350,9 @@ namespace VokabelTrainer
         /// Gets the beginning of christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChristmasStart(DateTime? dtmTestedDate = null)
+        static DateTime GetChristmasStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4300,7 +4368,9 @@ namespace VokabelTrainer
         /// Gets the ending of christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChristmasEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetChristmasEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4317,7 +4387,9 @@ namespace VokabelTrainer
         /// Gets the beginning of orthodox christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOrthodoxChristmasStart(DateTime? dtmTestedDate = null)
+        static DateTime GetOrthodoxChristmasStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4333,7 +4405,9 @@ namespace VokabelTrainer
         /// Gets the ending of orthodox christmas header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOrthodoxChristmasEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetOrthodoxChristmasEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4350,7 +4424,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Last day of the year</returns>
         //===================================================================================================
-        static DateTime GetNewYearStart(DateTime? dtmTestedDate = null)
+        static DateTime GetNewYearStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4367,7 +4443,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Last day of the year</returns>
         //===================================================================================================
-        static DateTime GetNewYearEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetNewYearEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4385,7 +4463,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The diwali start date for current year</returns>
         //===================================================================================================
-        public static DateTime GetDiwaliStart(DateTime? dtmTestedDate = null)
+        public static DateTime GetDiwaliStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4419,7 +4499,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The diwali end date for current year</returns>
         //===================================================================================================
-        public static DateTime GetDiwaliEnd(DateTime? dtmTestedDate = null)
+        public static DateTime GetDiwaliEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4437,7 +4519,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of chinese new year header</returns>
         //===================================================================================================
-        public static DateTime GetChineseNewYearStart(DateTime? dtmTestedDate = null)
+        public static DateTime GetChineseNewYearStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4463,7 +4547,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of chinese new year header</returns>
         //===================================================================================================
-        public static DateTime GetChineseNewYearEnd(DateTime? dtmTestedDate = null)
+        public static DateTime GetChineseNewYearEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4481,7 +4567,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>Start of Hajj header</returns>
         //===================================================================================================
-        static DateTime GetHajjStart(DateTime? dtmTestedDate = null)
+        static DateTime GetHajjStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4522,7 +4610,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>End of Hajj header</returns>
         //===================================================================================================
-        static DateTime GetHajjEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetHajjEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4539,7 +4629,9 @@ namespace VokabelTrainer
         /// Gets the beginning of Halloween
         /// </summary>
         //===================================================================================================
-        static DateTime GetHalloweenStart(DateTime? dtmTestedDate = null)
+        static DateTime GetHalloweenStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4555,7 +4647,9 @@ namespace VokabelTrainer
         /// Gets the ending of Halloween header
         /// </summary>
         //===================================================================================================
-        static DateTime GetHalloweenEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetHalloweenEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4572,7 +4666,9 @@ namespace VokabelTrainer
         /// Gets the beginning of children and Buddha header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChildrenAndBuddhaStart(DateTime? dtmTestedDate = null)
+        static DateTime GetChildrenAndBuddhaStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4588,7 +4684,9 @@ namespace VokabelTrainer
         /// Gets the ending of children and Buddha header
         /// </summary>
         //===================================================================================================
-        static DateTime GetChildrenAndBuddhaEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetChildrenAndBuddhaEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4605,7 +4703,9 @@ namespace VokabelTrainer
         /// Gets the beginning of science day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetScienceStart(DateTime? dtmTestedDate = null)
+        static DateTime GetScienceStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4621,7 +4721,9 @@ namespace VokabelTrainer
         /// Gets the ending of science header
         /// </summary>
         //===================================================================================================
-        static DateTime GetScienceEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetScienceEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4637,7 +4739,9 @@ namespace VokabelTrainer
         /// Gets the beginning of philosophy header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPhilosophyStart(DateTime? dtmTestedDate = null)
+        static DateTime GetPhilosophyStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4653,7 +4757,9 @@ namespace VokabelTrainer
         /// Gets the ending of philosophy header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPhilosophyEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetPhilosophyEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4685,7 +4791,9 @@ namespace VokabelTrainer
         /// Gets the beginning of psychology header
         /// </summary>
         //===================================================================================================
-        static DateTime GetPsychologyStart(DateTime? dtmTestedDate = null)
+        static DateTime GetPsychologyStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4701,7 +4809,9 @@ namespace VokabelTrainer
         /// Gets the ending of psychology headerТ
         /// </summary>
         //===================================================================================================
-        static DateTime GetPsychologyEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetPsychologyEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4718,7 +4828,9 @@ namespace VokabelTrainer
         /// Gets the beginning of reading day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetReadingDayStart(DateTime? dtmTestedDate = null)
+        static DateTime GetReadingDayStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4734,7 +4846,9 @@ namespace VokabelTrainer
         /// Gets the ending of reading day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetReadingDayEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetReadingDayEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4750,7 +4864,9 @@ namespace VokabelTrainer
         /// Gets the beginning of valentine header
         /// </summary>
         //===================================================================================================
-        static DateTime GetValentineStart(DateTime? dtmTestedDate = null)
+        static DateTime GetValentineStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4766,7 +4882,9 @@ namespace VokabelTrainer
         /// Gets the ending of valentine header
         /// </summary>
         //===================================================================================================
-        static DateTime GetValentineEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetValentineEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4782,7 +4900,9 @@ namespace VokabelTrainer
         /// Gets the beginning of world savings day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldSavingsDayStart(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldSavingsDayStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4798,7 +4918,9 @@ namespace VokabelTrainer
         /// Gets the ending of world savings day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldSavingsDayEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldSavingsDayEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4815,7 +4937,9 @@ namespace VokabelTrainer
         /// Gets the beginning of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldDancingDayStart(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldDancingDayStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4831,7 +4955,9 @@ namespace VokabelTrainer
         /// Gets the ending of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldDancingDayEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldDancingDayEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4848,7 +4974,9 @@ namespace VokabelTrainer
         /// Gets the beginning of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldPeaceDayStart(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldPeaceDayStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4864,7 +4992,9 @@ namespace VokabelTrainer
         /// Gets the ending of world dancing day header
         /// </summary>
         //===================================================================================================
-        static DateTime GetWorldPeaceDayEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetWorldPeaceDayEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4881,7 +5011,9 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic summer gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicSummerStart(DateTime? dtmTestedDate = null)
+        static DateTime GetOlympicSummerStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4897,7 +5029,9 @@ namespace VokabelTrainer
         /// Gets the ending of olympic summer gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicSummerEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetOlympicSummerEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4914,7 +5048,9 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicWinterStart(DateTime? dtmTestedDate = null)
+        static DateTime GetOlympicWinterStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4930,7 +5066,9 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOlympicWinterEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetOlympicWinterEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4947,7 +5085,9 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerStart(DateTime? dtmTestedDate = null)
+        static DateTime GetSoccerStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4963,7 +5103,9 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetSoccerEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4979,7 +5121,9 @@ namespace VokabelTrainer
         /// Gets the beginning of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerChampionsStart(DateTime? dtmTestedDate = null)
+        static DateTime GetSoccerChampionsStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -4995,7 +5139,9 @@ namespace VokabelTrainer
         /// Gets the ending of olympic winter gammes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetSoccerChampionsEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetSoccerChampionsEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5011,7 +5157,9 @@ namespace VokabelTrainer
         /// Gets the beginning of nobel prize header
         /// </summary>
         //===================================================================================================
-        static DateTime GetNobelPrizeStart(DateTime? dtmTestedDate = null)
+        static DateTime GetNobelPrizeStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5027,7 +5175,9 @@ namespace VokabelTrainer
         /// Gets the ending of nobel prize header
         /// </summary>
         //===================================================================================================
-        static DateTime GetNobelPrizeEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetNobelPrizeEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5044,7 +5194,9 @@ namespace VokabelTrainer
         /// Gets the beginning Oscar header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOscarStart(DateTime? dtmTestedDate = null)
+        static DateTime GetOscarStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5060,7 +5212,9 @@ namespace VokabelTrainer
         /// Gets the end of Oscar header
         /// </summary>
         //===================================================================================================
-        static DateTime GetOscarEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetOscarEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5077,7 +5231,9 @@ namespace VokabelTrainer
         /// Gets the beginning Cannes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetCannesStart(DateTime? dtmTestedDate = null)
+        static DateTime GetCannesStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5093,7 +5249,9 @@ namespace VokabelTrainer
         /// Gets the end of Cannes header
         /// </summary>
         //===================================================================================================
-        static DateTime GetCannesEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetCannesEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5109,7 +5267,9 @@ namespace VokabelTrainer
         /// Gets the beginning Berlinale header
         /// </summary>
         //===================================================================================================
-        static DateTime GetBerlinaleStart(DateTime? dtmTestedDate = null)
+        static DateTime GetBerlinaleStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5125,7 +5285,9 @@ namespace VokabelTrainer
         /// Gets the end of Berlinale header
         /// </summary>
         //===================================================================================================
-        static DateTime GetBerlinaleEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetBerlinaleEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5141,7 +5303,9 @@ namespace VokabelTrainer
         /// Gets the beginning Durban header
         /// </summary>
         //===================================================================================================
-        static DateTime GetDurbanStart(DateTime? dtmTestedDate = null)
+        static DateTime GetDurbanStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5157,7 +5321,9 @@ namespace VokabelTrainer
         /// Gets the end of Durban header
         /// </summary>
         //===================================================================================================
-        static DateTime GetDurbanEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetDurbanEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5173,7 +5339,9 @@ namespace VokabelTrainer
         /// Gets the beginning of Timkat header
         /// </summary>
         //===================================================================================================
-        static DateTime GetTimkatStart(DateTime? dtmTestedDate = null)
+        static DateTime GetTimkatStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5189,7 +5357,9 @@ namespace VokabelTrainer
         /// Gets the end of Timkat header
         /// </summary>
         //===================================================================================================
-        static DateTime GetTimkatEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetTimkatEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5206,7 +5376,9 @@ namespace VokabelTrainer
         /// Gets the beginning of FESTIMA header
         /// </summary>
         //===================================================================================================
-        static DateTime GetFestimaStart(DateTime? dtmTestedDate = null)
+        static DateTime GetFestimaStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5222,7 +5394,9 @@ namespace VokabelTrainer
         /// Gets the end of FESTIMA header
         /// </summary>
         //===================================================================================================
-        static DateTime GetFestimaEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetFestimaEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5239,7 +5413,9 @@ namespace VokabelTrainer
         /// Gets the beginning of ESC header
         /// </summary>
         //===================================================================================================
-        static DateTime GetEscStart(DateTime? dtmTestedDate = null)
+        static DateTime GetEscStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5255,7 +5431,9 @@ namespace VokabelTrainer
         /// Gets the end of ESC header
         /// </summary>
         //===================================================================================================
-        static DateTime GetEscEnd(DateTime? dtmTestedDate = null)
+        static DateTime GetEscEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5272,7 +5450,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The start of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
-        public static DateTime GetRoshHashanahStart(DateTime? dtmTestedDate = null)
+        public static DateTime GetRoshHashanahStart(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)
@@ -5291,7 +5471,9 @@ namespace VokabelTrainer
         /// </summary>
         /// <returns>The end of Rosh Hashanah - Israeli new year header</returns>
         //===================================================================================================
-        public static DateTime GetRoshHashanahEnd(DateTime? dtmTestedDate = null)
+        public static DateTime GetRoshHashanahEnd(
+            DateTime? dtmTestedDate = null
+            )
         {
             // if caller didn't specify the date, then take current date
             if (!dtmTestedDate.HasValue)

@@ -92,7 +92,7 @@ namespace VokabelTrainer
             this.m_btnEnterVocabulary.BackgroundImage = null;
             this.m_btnEnterVocabulary.Name = "m_btnEnterVocabulary";
             this.m_btnEnterVocabulary.UseVisualStyleBackColor = true;
-            this.m_btnEnterVocabulary.Click += new System.EventHandler(this.m_btnEnterVocabulary_Click);
+            this.m_btnEnterVocabulary.Click += new System.EventHandler(this.OnEnterVocabulary_Click);
             // 
             // m_btnExerciseSecondToFirst
             // 
