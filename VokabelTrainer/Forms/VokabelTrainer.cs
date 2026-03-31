@@ -116,9 +116,20 @@ namespace VokabelTrainer
         SortedDictionary<string, SortedDictionary<string,bool>> m_oFirstToSecond;
         //===================================================================================================
         /// <summary>
-        /// Mapping from second language to all meanings in firs
+        /// Mapping from second language to all meanings in first
         /// </summary>
         SortedDictionary<string, SortedDictionary<string,bool>> m_oSecondToFirst;
+
+        //===================================================================================================
+        /// <summary>
+        /// Mapping from first language to all meanings in second, the complete course including later steps
+        /// </summary>
+        SortedDictionary<string, SortedDictionary<string, bool>> m_oFirstToSecondCompleteCourse;
+        //===================================================================================================
+        /// <summary>
+        /// Mapping from second language to all meanings in first, the complete course including later steps
+        /// </summary>
+        SortedDictionary<string, SortedDictionary<string, bool>> m_oSecondToFirstCompleteCourse;
 
         //===================================================================================================
         /// <summary>
@@ -960,6 +971,8 @@ namespace VokabelTrainer
                 m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
                 m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
                 m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oFirstToSecondCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oSecondToFirstCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
                 m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
                 m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
                 m_nTotalNumberOfErrorsFirstLanguage = 0;
@@ -1042,10 +1055,11 @@ namespace VokabelTrainer
                         }
                     }
 
+                    string strFirstLanguage = e.SelectSingleNode("erste-sprache").InnerText;
+                    string strSecondLanguage = e.SelectSingleNode("zweite-sprache").InnerText;
+
                     if (bContinueLoading)
                     {
-                        string strFirstLanguage = e.SelectSingleNode("erste-sprache").InnerText;
-                        string strSecondLanguage = e.SelectSingleNode("zweite-sprache").InnerText;
 
                         if (nNeededStep.HasValue && nNeededStep.Value == nStep)
                         {
@@ -1079,6 +1093,20 @@ namespace VokabelTrainer
                         if (!m_oSecondToFirst[strSecondLanguage].ContainsKey(strFirstLanguage))
                             m_oSecondToFirst[strSecondLanguage][strFirstLanguage] = false;
                     }
+
+
+                    if (!m_oFirstToSecondCompleteCourse.ContainsKey(strFirstLanguage))
+                        m_oFirstToSecondCompleteCourse[strFirstLanguage] = new SortedDictionary<string, bool>();
+
+                    if (!m_oSecondToFirstCompleteCourse.ContainsKey(strSecondLanguage))
+                        m_oSecondToFirstCompleteCourse[strSecondLanguage] = new SortedDictionary<string, bool>();
+
+
+                    if (!m_oFirstToSecondCompleteCourse[strFirstLanguage].ContainsKey(strSecondLanguage))
+                        m_oFirstToSecondCompleteCourse[strFirstLanguage][strSecondLanguage] = false;
+
+                    if (!m_oSecondToFirstCompleteCourse[strSecondLanguage].ContainsKey(strFirstLanguage))
+                        m_oSecondToFirstCompleteCourse[strSecondLanguage][strFirstLanguage] = false;
                 }
 
             }
@@ -1094,6 +1122,8 @@ namespace VokabelTrainer
                 m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
                 m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
                 m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oFirstToSecondCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                m_oSecondToFirstCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
                 m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
                 m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
                 m_nTotalNumberOfErrorsFirstLanguage = 0;
@@ -1284,6 +1314,8 @@ namespace VokabelTrainer
                     m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
                     m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
                     m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oFirstToSecondCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                    m_oSecondToFirstCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
                     m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
                     m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
                     m_nTotalNumberOfErrorsFirstLanguage = 0;
@@ -1515,6 +1547,8 @@ namespace VokabelTrainer
                         m_oTrainingResultsSecondLanguage = new SortedDictionary<string, string>();
                         m_oFirstToSecond = new SortedDictionary<string, SortedDictionary<string, bool>>();
                         m_oSecondToFirst = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oFirstToSecondCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
+                        m_oSecondToFirstCompleteCourse = new SortedDictionary<string, SortedDictionary<string, bool>>();
                         m_oCorrectAnswersFirstLanguage = new SortedDictionary<string, int>();
                         m_oCorrectSecondLanguage = new SortedDictionary<string, int>();
                         m_nTotalNumberOfErrorsFirstLanguage = 0;
@@ -2151,7 +2185,11 @@ namespace VokabelTrainer
 
                             foreach (string s in typedIn.Keys)
                             {
-                                if (!m_oSecondToFirst[oPair.Key].ContainsKey(s))
+                                // if the typed in meaning is neither in current set of words
+                                // nor in later steps, then mark it as wrong
+                                if (!m_oSecondToFirst[oPair.Key].ContainsKey(s) &&
+                                    (!m_oSecondToFirstCompleteCourse.ContainsKey(oPair.Key)||
+                                     !m_oSecondToFirstCompleteCourse[oPair.Key].ContainsKey(s)))
                                 {
                                     wrong[s] = false;
                                 }
@@ -2718,7 +2756,11 @@ namespace VokabelTrainer
 
                             foreach (string s in typedIn.Keys)
                             {
-                                if (!m_oFirstToSecond[pair.Key].ContainsKey(s))
+                                // if the typed in meaning is neither in current set of words
+                                // nor in later steps, then mark it as wrong
+                                if (!m_oFirstToSecond[pair.Key].ContainsKey(s) &&
+                                    (!m_oFirstToSecondCompleteCourse.ContainsKey(pair.Key) ||
+                                     !m_oFirstToSecondCompleteCourse[pair.Key].ContainsKey(s)))
                                 {
                                     wrong[s] = false;
                                 }
