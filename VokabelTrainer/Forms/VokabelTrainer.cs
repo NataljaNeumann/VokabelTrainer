@@ -2286,11 +2286,18 @@ namespace VokabelTrainer
                                     }
                                 }
 
+                                using (MistakesDisplayForm oForm = 
+                                    new MistakesDisplayForm(strErrorMessage, Properties.Resources.Mistake, this.RightToLeftLayout))
+                                {
+                                    oForm.ShowDialog();
+                                }
+                                /*
                                 if (oMissingWords.Count > 0)
                                     NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake,
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                */
 
 
                                 RememberResultSecondLanguage(oPair.Key, false);
@@ -2819,8 +2826,6 @@ namespace VokabelTrainer
 
                                             Speaker.Say(m_strSecondLanguage, s, true,
                                                 m_chkUseESpeak.Checked, m_tbxESpeakPath.Text);
-
-
                                         }
                                     }
                                 }
@@ -2862,11 +2867,18 @@ namespace VokabelTrainer
                                 }
 
 
+                                using (MistakesDisplayForm oForm =
+                                    new MistakesDisplayForm(strErrorMessage, Properties.Resources.Mistake, this.RightToLeftLayout))
+                                {
+                                    oForm.ShowDialog();
+                                }
+                                /*
                                 if (oMissingWords.Count > 0)
                                     NewMessageBox.Show(this, strErrorMessage, Properties.Resources.Mistake, null);
                                 else
                                     MessageBox.Show(strErrorMessage, Properties.Resources.Mistake, 
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                */
 
                                 RememberResultFirstLanguage(pair.Key, false);
 
