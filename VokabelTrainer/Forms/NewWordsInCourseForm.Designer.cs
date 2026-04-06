@@ -46,13 +46,28 @@ namespace VokabelTrainer.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewWordsInCourseForm));
+            this.m_btnOk = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // m_btnOk
+            // 
+            this.m_btnOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_btnOk.Location = new System.Drawing.Point(227, 77);
+            this.m_btnOk.Name = "m_btnOk";
+            this.m_btnOk.Size = new System.Drawing.Size(100, 37);
+            this.m_btnOk.TabIndex = 1;
+            this.m_btnOk.Text = "OK";
+            this.m_btnOk.UseVisualStyleBackColor = true;
+            this.m_btnOk.Click += new System.EventHandler(this.m_btnOk_Click);
             // 
             // NewWordsInCourseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 80);
+            this.ClientSize = new System.Drawing.Size(339, 126);
+            this.Controls.Add(this.m_btnOk);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -64,6 +79,7 @@ namespace VokabelTrainer.Forms
             this.ResumeLayout(false);
 
         }
+        private System.Windows.Forms.Button m_btnOk;
 
         #endregion
     }

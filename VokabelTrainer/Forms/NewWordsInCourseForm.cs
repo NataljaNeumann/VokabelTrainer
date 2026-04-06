@@ -99,7 +99,7 @@ namespace VokabelTrainer.Forms
             ctlTable.Controls.Add(lblFirstLang, 0, 0);
             ctlTable.Controls.Add(lblSecondLang, 1, 0);
 
-            int row = 1;
+            int nRow = 1;
             foreach (var oPair in oWordPairs)
             {
                 ctlTable.RowCount++;
@@ -123,9 +123,9 @@ namespace VokabelTrainer.Forms
                     Margin = new Padding(0, 0, 0, 5)
                 };
 
-                ctlTable.Controls.Add(lblFirst, 0, row);
-                ctlTable.Controls.Add(lblSecond, 1, row);
-                row++;
+                ctlTable.Controls.Add(lblFirst, 0, nRow);
+                ctlTable.Controls.Add(lblSecond, 1, nRow);
+                nRow++;
             }
 
             Controls.Add(ctlTable);
@@ -135,7 +135,8 @@ namespace VokabelTrainer.Forms
             ctlTable.Location = ClientRectangle.Location;
             this.MinimumSize = this.Size = new Size(
                 ctlTable.PreferredSize.Width + Width-ClientRectangle.Width,
-                ctlTable.PreferredSize.Height + Height-ClientRectangle.Height);
+                ctlTable.PreferredSize.Height + Height-ClientRectangle.Height +
+                m_btnOk.Height + (ClientRectangle.Height - m_btnOk.Bottom)*2);
             this.AutoSize = false;
             this.StartPosition = FormStartPosition.CenterParent;
 
@@ -315,6 +316,11 @@ namespace VokabelTrainer.Forms
                 return true;
             }
             return base.ProcessCmdKey(ref roMsg, oKeyData);
+        }
+
+        private void m_btnOk_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
