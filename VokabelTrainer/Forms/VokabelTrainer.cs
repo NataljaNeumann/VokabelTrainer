@@ -277,6 +277,12 @@ namespace VokabelTrainer
                         GetEasterEnd(dtmTestedDay).ToString(strDateFormat) + " Easter");
                 }
 
+                if (dtmTestedDay >= GetOrthodoxEasterStart(dtmTestedDay) && dtmTestedDay < GetOrthodoxEasterEnd(dtmTestedDay))
+                {
+                    astrEventsThatDay.Add(GetOrthodoxEasterStart(dtmTestedDay).ToString(strDateFormat) + ".." +
+                        GetOrthodoxEasterEnd(dtmTestedDay).ToString(strDateFormat) + " Orthodox Easter");
+                }
+
                 // Christmas
                 if (dtmTestedDay >= GetChristmasStart(dtmTestedDay) && dtmTestedDay < GetChristmasEnd(dtmTestedDay))
                 {
@@ -520,6 +526,15 @@ namespace VokabelTrainer
                     strStartPath + "EasterHeader.jpg",
                     Resources.CelebrationEaster,
                     SearchEngineRouter.GetSearchUrl(Resources.CelebrationEaster)));
+            }
+
+
+            if (dtmNow >= GetOrthodoxEasterStart() && dtmNow < GetOrthodoxEasterEnd())
+            {
+                oEvents.Add((
+                    strStartPath + "OrthodoxEasterHeader.jpg",
+                    Resources.CelebrationOrthodoxEaster,
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationOrthodoxEaster)));
             }
 
             // Christmas
@@ -4291,6 +4306,71 @@ namespace VokabelTrainer
             return GetEasterSunday(dtmTestedDate).AddDays(+2);
         }
 
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the orthodox easter sunday
+        /// </summary>
+        /// <param name="dtmTestedDate">The date for identification of the year</param>
+        /// <returns>The date of orthodox easter sunday in Gregorian calendar</returns>
+        //===================================================================================================
+        static DateTime GetOrthodoxEasterSunday(
+            DateTime dtmTestedDate
+            )
+        {
+            int nYear = dtmTestedDate.Year;
+            int a = nYear % 19;
+            int b = nYear % 4;
+            int c = nYear % 7;
+
+            int d = (19 * a + 15) % 30;
+            int e = (2 * b + 4 * c + 6 * d + 6) % 7;
+
+            int f = d + e;
+
+            // Julian Easter
+            int nDay, nMonth;
+            if (f <= 9)
+            {
+                nDay = 22 + f;
+                nMonth = 3; // March
+            }
+            else
+            {
+                nDay = f - 9;
+                nMonth = 4; // April
+            }
+
+            // julian date to gregorian (20th/21st century: +13 Tage)
+            return new DateTime(nYear, nMonth, nDay, 
+                new System.Globalization.JulianCalendar());
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the day of eastern for current year
+        /// </summary>
+        /// <returns>The day of eastern sunday</returns>
+        //===================================================================================================
+        static DateTime GetOrthodoxEasterStart(
+            DateTime? dtmTestedDate = null
+            )
+        {
+            return GetOrthodoxEasterSunday(dtmTestedDate ?? DateTime.Now).AddDays(-3);
+        }
+
+
+        //===================================================================================================
+        /// <summary>
+        /// Calculates the day of eastern for current year
+        /// </summary>
+        /// <returns>The day of eastern sunday</returns>
+        //===================================================================================================
+        static DateTime GetOrthodoxEasterEnd(
+            DateTime? dtmTestedDate = null
+            )
+        {
+            return GetOrthodoxEasterSunday(dtmTestedDate ?? DateTime.Now).AddDays(+2);
+        }
 
 
         //===================================================================================================

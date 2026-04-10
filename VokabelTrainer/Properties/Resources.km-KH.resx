@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>គ្រិស្តបរិស័ទទូទាំងពិភពលោកកំពុងប្រារព្ធពិធីបុណ្យ Easter</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>មហោស្រពតន្ត្រីនៅអឺរ៉ុប</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>គ្រិស្តអូស្សូដក់ កំពុង ប្រារព្ធពិធី បុណ្យណូអែល</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>គ្រិស្តអូស្សូដក់ប្រារព្ធពិធីរស់ឡើងវិញរបស់ព្រះគ្រីស្ទ</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>អូស្ការៈ ពានរង្វាន់បណ្ឌិត្យសភាភាពយន្ត</value>

@@ -163,6 +163,9 @@
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Õigeusu kristlased tähistavad jõule</value>
   </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Õigeusklikud tähistavad lihavõtteid</value>
+  </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscarid: Filmiakadeemia auhinnad</value>
   </data>

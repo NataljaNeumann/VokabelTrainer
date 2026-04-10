@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>Awọn Kristiani kaakiri agbaye n ṣe ayẹyẹ Ọjọ ajinde Kristi</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>Orin Festival ni Europe</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Àwọn Kristẹni Ọ́tọ́dọ́ọ̀sì ń ṣayẹyẹ Kérésìmesì</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Awọn Kristiani Orthodox ṣe ayẹyẹ Ọjọ ajinde Kristi</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Film Academy Awards</value>

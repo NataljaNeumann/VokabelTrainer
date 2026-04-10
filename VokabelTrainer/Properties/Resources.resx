@@ -177,6 +177,10 @@
     <value>Orthodox Christians are celebrating Christmas</value>
     <comment>Tooltip text for Orthodox Christmas</comment>
   </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Orthodox Christians are celebrating Easter</value>
+    <comment>A sentence that describes the time around orthodox Easter. It is displayed as tooltip over an image/link.</comment>
+  </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Film Academy awards</value>
     <comment>Tooltip text for Oscar</comment>

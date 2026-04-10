@@ -163,6 +163,9 @@
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>مسیحیان ارتدکس کریسمس را جشن می‌گیرند</value>
   </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>مسیحیان ارتدکس عید پاک را جشن می‌گیرند</value>
+  </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>اسکار: جوایز آکادمی فیلم</value>
   </data>

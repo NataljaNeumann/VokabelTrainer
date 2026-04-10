@@ -142,9 +142,8 @@
     <value>Bandhiga filimada Afrika ee Durban</value>
   </data>
   <data name="CelebrationEaster" xml:space="preserve">
-    <value>Masiixiyiinta adduunka oo dhan ayaa u dabaaldegaya Easter</value>
+    <value>Masiixiyiinta adduunka oo dhan ayaa u dabaaldegaan sarakicidda Masiixa</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>Bandhig Faneedka Yurub</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Masiixiyiinta Ortodokska waxay u dabaaldegayaan Christmas-ka</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Masiixiyiinta Ortodokska waxay u dabaaldegaan sarakicidda Masiixa</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Abaalmarinta Film Academy</value>

@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>世界各地的基督徒慶祝復活節</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>歐洲音樂節</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>東正教徒慶祝聖誕節</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>東正教基督徒慶祝復活節</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>奧斯卡金像獎：電影學院獎</value>

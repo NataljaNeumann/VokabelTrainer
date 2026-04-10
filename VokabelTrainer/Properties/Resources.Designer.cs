@@ -196,6 +196,15 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Orthodox Christians are celebrating Easter.
+        /// </summary>
+        internal static string CelebrationOrthodoxEaster {
+            get {
+                return ResourceManager.GetString("CelebrationOrthodoxEaster", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oscar: Film Academy awards.
         /// </summary>
         internal static string CelebrationOscar {

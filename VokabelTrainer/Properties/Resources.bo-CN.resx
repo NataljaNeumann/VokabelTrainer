@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཨིསི་ཊར་དུས་ཆེན་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>ཡུ་རོབ་ནང་གི་རོལ་དབྱངས་དུས་སྟོན།</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ཡེ་ཤུའི་འཁྲུངས་སྐར་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>ཡེ་ཤུའི་ཆོས་ལུགས་པ་ཚོས་ཨིསི་ཊར་དུས་ཆེན་སྲུང་བརྩི་ཞུ་བཞིན་ཡོད།</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>ཨོ་སི་ཀར།གློག་བརྙན་སློབ་གླིང་གི་བྱ་དགའ།</value>

@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>Người theo đạo Thiên chúa trên khắp thế giới đang đón lễ Phục sinh</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>Lễ hội âm nhạc ở Châu Âu</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Người theo đạo Thiên chúa Chính thống giáo đang đón Giáng sinh</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Kitô hữu chính thống kỷ niệm lễ Phục sinh</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Giải thưởng của Viện Hàn lâm Điện ảnh</value>

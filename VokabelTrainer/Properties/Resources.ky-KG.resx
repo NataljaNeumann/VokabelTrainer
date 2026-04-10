@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>Дүйнө жүзүндөгү христиандар Пасханы майрамдашууда</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>Европадагы музыка фестивалы</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Православ христиандары Рождество майрамын белгилешүүдө</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Православдык христиандар Пасха майрамын белгилешет</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Оскар: Киноакадемиянын сыйлыктары</value>

@@ -144,7 +144,6 @@
   <data name="CelebrationEaster" xml:space="preserve">
     <value>Cristians de tot el món celebren la Pasqua</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CelebrationEsc" xml:space="preserve">
     <value>Festival de música a Europa</value>
   </data>
@@ -162,6 +161,9 @@
   </data>
   <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Cristians ortodoxos celebren el Nadal</value>
+  </data>
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
+    <value>Els cristians ortodoxos celebren la Pasqua</value>
   </data>
   <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Premis de l'Acadèmia de Cinema</value>
