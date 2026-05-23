@@ -3576,6 +3576,8 @@ namespace VokabelTrainer
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
                         case "he":
+                            oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
+                            goto case "de";
                         case "de":
                         case "fr":
                         case "en":
@@ -3672,6 +3674,7 @@ namespace VokabelTrainer
                     {
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
+                            oResult.Add(@"https://www.youtube.com/@EchoesJerusalem/videos");
                             goto case "fr";
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
