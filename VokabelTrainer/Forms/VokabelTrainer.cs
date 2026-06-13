@@ -3576,6 +3576,7 @@ namespace VokabelTrainer
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
                         case "he":
+                            oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                             oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
                             goto case "de";
                         case "de":
@@ -3620,7 +3621,6 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
                             oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
                             oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
-                            oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                             break;
                     }
 
