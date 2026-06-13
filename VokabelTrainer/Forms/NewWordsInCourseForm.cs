@@ -318,7 +318,17 @@ namespace VokabelTrainer.Forms
             return base.ProcessCmdKey(ref roMsg, oKeyData);
         }
 
-        private void m_btnOk_Click(object sender, EventArgs e)
+        //===================================================================================================
+        /// <summary>
+        /// This is executed when user clicks on the OK button
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void m_btnOk_Click(
+            object oSender, 
+            EventArgs oEventArgs
+            )
         {
             this.Close();
         }
