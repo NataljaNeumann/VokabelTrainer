@@ -133,6 +133,41 @@ namespace VokabelTrainer
             string cultureName = System.Threading.Thread.CurrentThread.CurrentUICulture.Name;
             IslamicCountry = Array.Exists(astrIslamicCountries, code => cultureName.Contains(code));
 
+#if !DEBUG
+            string strSetCulture = Properties.Settings.Default.ChosenCulture;
+            if (!string.IsNullOrEmpty(strSetCulture))
+            {
+                try
+                {
+                    System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(strSetCulture);
+                    System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(strSetCulture);
+                }
+                catch (Exception oEx)
+                {
+                    strSetCulture = string.Empty;
+                }
+            }
+
+            if (string.IsNullOrEmpty(strSetCulture))
+            {
+                using (Forms.CultureSelectionForm oCultureDialog =
+                    new Forms.CultureSelectionForm(GetAvailableLocalizations()))
+                {
+                    if (oCultureDialog.ShowDialog() == DialogResult.OK &&
+                        !string.IsNullOrEmpty(oCultureDialog.SelectedLanguage))
+                    {
+                        Properties.Settings.Default.ChosenCulture = oCultureDialog.SelectedLanguage;
+                        Properties.Settings.Default.Save();
+
+                        System.Diagnostics.Process.Start(
+                            System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+                        return;
+                    }
+                }
+            }
+
+#endif
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VokabelTrainer());
@@ -146,7 +181,9 @@ namespace VokabelTrainer
         /// <param name="strLanguage">Language name, if possible in its native naming</param>
         /// <returns>Culture code string</returns>
         //===================================================================================================
-        public static string LanguageCodeFromName(string strLanguage)
+        public static string LanguageCodeFromName(
+            string strLanguage
+            )
         {
             string strLanguageFirstTwo = strLanguage.Length >= 2 ? strLanguage.Substring(0, 2) : strLanguage;
             string strLanguageFirstThree = strLanguage.Length >= 3 ? strLanguage.Substring(0, 3) : strLanguage;
@@ -322,6 +359,83 @@ namespace VokabelTrainer
                 "";
 
             return strSSMLLanguageToSpeak;
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Scans the application's base directory for satellite localization assemblies and
+        /// returns a dictionary of available localization cultures.
+        /// Key: culture name string suitable for `new CultureInfo(key)` (lowercase).
+        /// Value: culture native name (self-name), e.g. "Deutsch (Deutschland)".
+        /// </summary>
+        /// <returns>
+        /// Dictionary of available localizations where the key is the culture code
+        /// and the value is the culture native name.
+        /// </returns>
+        //===================================================================================================
+        public static System.Collections.Generic.SortedDictionary<string, string> GetAvailableLocalizations()
+        {
+            // dictionary to return: keys are culture codes (lowercase), values are native names
+            System.Collections.Generic.SortedDictionary<string, string> oCultureCodes =
+                new System.Collections.Generic.SortedDictionary<string, string>(
+                    System.StringComparer.InvariantCultureIgnoreCase);
+
+            // base directory of the running application
+            string strBaseDir = AppDomain.CurrentDomain.BaseDirectory;
+
+            // assembly name used to compute satellite resource file name (e.g. "VokabelTrainer.resources.dll")
+            string strAssemblyName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+            string strResourceFileName = strAssemblyName + ".resources.dll";
+
+            // get all cultures known to .NET
+            System.Globalization.CultureInfo[] aCultures =
+                System.Globalization.CultureInfo.GetCultures(System.Globalization.CultureTypes.AllCultures);
+
+            // iterate through cultures and check for corresponding satellite assembly
+            foreach (System.Globalization.CultureInfo oCulture in aCultures)
+            {
+                // safety: skip null cultures (shouldn't happen) and invariant culture (empty Name)
+                if (oCulture == null)
+                {
+                    continue;
+                }
+
+                string strCultureName = oCulture.Name; // e.g. "de-DE"
+                if (string.IsNullOrEmpty(strCultureName))
+                {
+                    // invariant culture has empty Name -> no subdirectory expected
+                    continue;
+                }
+
+                // expected directory for satellite assemblies
+                string strCultureDir = System.IO.Path.Combine(strBaseDir, strCultureName);
+
+                // if culture directory does not exist, skip
+                if (!System.IO.Directory.Exists(strCultureDir))
+                {
+                    continue;
+                }
+
+                // expected path to satellite resource assembly
+                string strResourcePath = System.IO.Path.Combine(strCultureDir, strResourceFileName);
+
+                // if resources assembly not present, skip
+                if (!System.IO.File.Exists(strResourcePath))
+                {
+                    continue;
+                }
+
+                // use the culture's native name as the display value (self-name)
+                string strNativeName = oCulture.NativeName; // e.g. "Deutsch (Deutschland)"
+
+                // add to dictionary if not already present
+                if (!oCultureCodes.ContainsKey(strCultureName))
+                {
+                    oCultureCodes.Add(strCultureName, strNativeName);
+                }
+            }
+
+            return oCultureCodes;
         }
     }
 }
