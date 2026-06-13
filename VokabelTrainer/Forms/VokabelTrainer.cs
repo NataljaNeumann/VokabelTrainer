@@ -3618,6 +3618,9 @@ namespace VokabelTrainer
                         case "yo":
                             oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
                             oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+                            oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
+                            oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
+                            oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                             break;
                     }
 
