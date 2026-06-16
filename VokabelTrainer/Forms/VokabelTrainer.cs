@@ -3623,6 +3623,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
                             oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                             oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
+                            oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                             break;
                     }
 
