@@ -3570,7 +3570,9 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/mundo");
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
                     oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
-                    
+                    oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
+
+
 
                     // for language speakers that aren't muslim add visionary christian songs
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
@@ -3578,6 +3580,7 @@ namespace VokabelTrainer
                         case "he":
                             oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                             oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
+                            oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
                             goto case "de";
                         case "de":
                         case "fr":
@@ -3621,10 +3624,9 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
                             oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
                             oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
-                            oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                             oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                             oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
-                            oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
+                            oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                             break;
                     }
 
@@ -3663,7 +3665,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=meet+the+fockers");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=50+great+short+stories");
-                    oResult.Add(@"https://www.youtube.com/@ACEamazing/videoshttps://www.youtube.com/@ACEamazing/videos"); ;
+                    oResult.Add(@"https://www.youtube.com/@ACEamazing/videos"); ;
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -3726,6 +3728,7 @@ namespace VokabelTrainer
                         case "wo":
                         case "yo":
                             oResult.Add(@"https://www.youtube.com/results?search_query=divine+harmony+choir+lyrics");
+                            oResult.Add(@"https://www.youtube.com/results?search_query=christian+reggae+lyrics");
                             break;
                     }
                 }
