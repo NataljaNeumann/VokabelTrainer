@@ -3624,6 +3624,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                             oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                             oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
+                            oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
                             break;
                     }
 
