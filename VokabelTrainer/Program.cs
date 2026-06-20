@@ -133,7 +133,6 @@ namespace VokabelTrainer
             string cultureName = System.Threading.Thread.CurrentThread.CurrentUICulture.Name;
             IslamicCountry = Array.Exists(astrIslamicCountries, code => cultureName.Contains(code));
 
-#if !DEBUG
             string strSetCulture = Properties.Settings.Default.ChosenCulture;
             if (!string.IsNullOrEmpty(strSetCulture))
             {
@@ -166,10 +165,16 @@ namespace VokabelTrainer
                 }
             }
 
-#endif
 
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            try
+            {
+                Application.SetCompatibleTextRenderingDefault(false);
+            }
+            catch (Exception oEx)
+            {
+                // ignore
+            }
             Application.Run(new VokabelTrainer());
         }
 
