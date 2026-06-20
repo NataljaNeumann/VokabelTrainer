@@ -3663,6 +3663,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=meet+the+fockers");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=50+great+short+stories");
+                    oResult.Add(@"https://www.youtube.com/@ACEamazing/videoshttps://www.youtube.com/@ACEamazing/videos"); ;
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
