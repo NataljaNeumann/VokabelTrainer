@@ -4090,6 +4090,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.news247.gr/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Ελληνική+ταινία");
                     oResult.Add(@"https://www.ert.gr/");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/@ElpisWorship/videos");
+                    }
                 }
             }
 
