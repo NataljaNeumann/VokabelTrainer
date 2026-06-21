@@ -3425,6 +3425,9 @@ namespace VokabelTrainer
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/@BibelA.I/videos");
+                        oResult.Add(@"https://www.youtube.com/@G%C3%B6ttlicheGeschichte47/videos");
+                        oResult.Add(@"https://www.youtube.com/@TheHeavensSing/videos");
+                        oResult.Add(@"https://www.youtube.com/@WiedergeborenInChristus");
                     }
 
                 }
