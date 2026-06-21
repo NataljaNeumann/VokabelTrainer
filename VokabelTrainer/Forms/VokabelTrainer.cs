@@ -3691,6 +3691,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
                             oResult.Add(@"https://www.youtube.com/@EchoesJerusalem/videos");
                             oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
+                            oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
                             goto case "fr";
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
@@ -4068,6 +4069,7 @@ namespace VokabelTrainer
                     if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en"))
                     {
                         oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
+                        oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
                     }
                 }
             }
@@ -4110,6 +4112,24 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.aajtak.in/livetv");
                 }
             }
+
+
+            // if current culture isn't swahili
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sw"))
+            {
+                // and one of the trained languages is swahili
+                if (strLanguageFirst3.Equals("Kis", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Swa", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Сва", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                        oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
+                }
+            }
+
+        
 
             return oResult;
         }
