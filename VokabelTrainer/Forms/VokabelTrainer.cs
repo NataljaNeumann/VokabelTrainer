@@ -3571,6 +3571,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
                     oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
                     oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
+                    oResult.Add(@"https://www.youtube.com/@FactoFusionES/videos");
 
 
 
@@ -3623,10 +3624,13 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
                             oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
                             oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
-                            oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
+                            if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                                oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
                             oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                             oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                             oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
+                            oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
+                            oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
                             break;
                     }
 
@@ -3686,6 +3690,7 @@ namespace VokabelTrainer
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
                             oResult.Add(@"https://www.youtube.com/@EchoesJerusalem/videos");
+                            oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
                             goto case "fr";
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
