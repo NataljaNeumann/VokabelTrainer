@@ -3619,46 +3619,12 @@ namespace VokabelTrainer
                     {
                         case "he":
                             oResult.Add(@"https://www.youtube.com/@LouvorHebraicoProf%C3%A9tico/videos");
-                            goto case "de";
-                        case "de":
-                        case "fr":
-                        case "es":
-                        case "pt":
-                        case "it":
-                        case "po":
-                        case "af":
-                        case "am":
-                        case "bg":
-                        case "bs":
-                        case "ca":
-                        case "el":
-                        case "fi":
-                        case "hi":
-                        case "zh":
-                        case "hr":
-                        case "uk":
-                        case "ru":
-                        case "hy":
-                        case "ig":
-                        case "is":
-                        case "ka":
-                        case "km":
-                        case "ko":
-                        case "lt":
-                        case "lv":
-                        case "mk":
-                        case "mn":
-                        case "ro":
-                        case "sk":
-                        case "sl":
-                        case "so":
-                        case "sr":
-                        case "sv":
-                        case "th":
-                        case "vi":
-                        case "wo":
-                        case "yo":
-                            oResult.Add(@"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual");
+                            goto default;
+                        default:
+                            if (!Program.IslamicCountry)
+                            {
+                                oResult.Add(@"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual");
+                            }
                             break;
                     }
 
