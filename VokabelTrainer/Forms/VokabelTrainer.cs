@@ -3582,55 +3582,21 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                             oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
                             oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
-                            goto case "de";
-                        case "de":
-                        case "fr":
-                        case "en":
-                        case "pt":
-                        case "it":
-                        case "po":
-                        case "af":
-                        case "am":
-                        case "bg":
-                        case "bs":
-                        case "ca":
-                        case "el":
-                        case "fi":
-                        case "hi":
-                        case "zh":
-                        case "hr":
-                        case "uk":
-                        case "ru":
-                        case "hy":
-                        case "ig":
-                        case "is":
-                        case "ka":
-                        case "km":
-                        case "ko":
-                        case "lt":
-                        case "lv":
-                        case "mk":
-                        case "mn":
-                        case "ro":
-                        case "sk":
-                        case "sl":
-                        case "so":
-                        case "sr":
-                        case "sv":
-                        case "th":
-                        case "vi":
-                        case "wo":
-                        case "yo":
-                            oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
-                            oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
-                            oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
-                            if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
-                                oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
-                            oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
-                            oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
-                            oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
-                            oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
-                            oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                            goto default;
+                        default:
+                            if (!Program.IslamicCountry)
+                            {
+                                oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
+                                oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
+                                oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+                                if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                                    oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
+                                oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
+                                oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
+                                oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
+                                oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
+                                oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                            }
                             break;
                     }
 
