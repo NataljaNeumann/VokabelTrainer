@@ -3592,6 +3592,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=divine+harmony+choir+lyrics");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=christian+reggae+lyrics");
                                 oResult.Add(@"https://www.youtube.com/@KingdomGlorySounds/videos");
+                                oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
                             }
                             break;
                     }
@@ -3874,7 +3875,10 @@ namespace VokabelTrainer
                 {
                     // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
+                    {
                         oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
+                        oResult.Add(@"https://www.youtube.com/@TulivuTunes/videos");
+                    }
                 }
             }
 
