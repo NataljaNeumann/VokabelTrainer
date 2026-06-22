@@ -3593,6 +3593,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=christian+reggae+lyrics");
                                 oResult.Add(@"https://www.youtube.com/@KingdomGlorySounds/videos");
                                 oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
+                                oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
                             }
                             break;
                     }
