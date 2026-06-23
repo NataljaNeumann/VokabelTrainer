@@ -3426,8 +3426,10 @@ namespace VokabelTrainer
                     {
                         oResult.Add(@"https://www.youtube.com/@BibelA.I/videos");
                         oResult.Add(@"https://www.youtube.com/@G%C3%B6ttlicheGeschichte47/videos");
-                        oResult.Add(@"https://www.youtube.com/@TheHeavensSing/videos");
-                        oResult.Add(@"https://www.youtube.com/@WiedergeborenInChristus");
+                        if ("ru".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                            oResult.Add(@"https://www.youtube.com/@TheHeavensSing/videos");
+                        //oResult.Add(@"https://www.youtube.com/@WiedergeborenInChristus");
+                        oResult.Add(@"https://www.youtube.com/@RuheWorship/videos");
                     }
 
                 }
@@ -3523,6 +3525,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                                 oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
                                 oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                                oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
                             }
                             break;
                     }
