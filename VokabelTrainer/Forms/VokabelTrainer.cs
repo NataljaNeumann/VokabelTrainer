@@ -3597,6 +3597,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@KingdomGlorySounds/videos");
                                 oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
                                 oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
+                                oResult.Add(@"https://www.youtube.com/@HeavensJazzMelodies/videos");
                             }
                             break;
                     }
@@ -3815,7 +3816,17 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D7%A1%D7%A8%D7%98+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%9B%D7%AA%D7%95%D7%91%D7%99%D7%95%D7%AA");
                     oResult.Add(@"https://www.radio.de/language/hebrew");
 
-                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en"))
+                    // for european learners of Herbew also add english resources
+                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("es") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("nl") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fi") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("da") ||
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sv")
+                        )
                     {
                         oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
                         oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
