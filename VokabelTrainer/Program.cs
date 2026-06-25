@@ -367,12 +367,15 @@ namespace VokabelTrainer
                 "Ма".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "mk-MK" :
                 // Norwegian  norsk
                 "No".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "no-NO" :
+                "Нор".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "no-NO" :
                 // Albanian shqiptare shqipe sq
                 "Alb".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sq-AL" :
                 "Shq".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sq-AL" :
+                "Алб".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sq-AL" :
                 // Vietnamese việt
                 "Vi".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "vi-VI" :
                 "Tiế".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "vi-VI" :
+                "Вье".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "vi-VI" :
                 // Urkrainian Українська
                 "Uk".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "uk-UA" :
                 "Ук".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "uk-UA" :
@@ -380,6 +383,7 @@ namespace VokabelTrainer
                 "ไทย".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
                 "Tha".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
                 "Tai".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
+                "Тай".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
                 // Khmer
                 "ភាសា".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "km-KH" :
                 "Khm".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "km-KH" :
