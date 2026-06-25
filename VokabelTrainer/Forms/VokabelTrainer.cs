@@ -3499,7 +3499,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.bbc.com/mundo");
                     oResult.Add(@"https://www.youtube.com/@WinxClubES");
                     oResult.Add(@"https://www.amazon.es/s?k=libro+de+psicologia");
-                    oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                     oResult.Add(@"https://www.youtube.com/@FactoFusionES/videos");
 
 
@@ -3516,6 +3515,7 @@ namespace VokabelTrainer
                             if (!Program.IslamicCountry)
                             {
                                 oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
+                                oResult.Add(@"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
                                 oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
                                 oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
                                 if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
@@ -3526,6 +3526,8 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
                                 oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
                                 oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
+                                oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
+                                oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
                             }
                             break;
                     }
@@ -3565,7 +3567,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=meet+the+fockers");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=50+great+short+stories");
-                    oResult.Add(@"https://www.youtube.com/@ACEamazing/videos"); ;
+                    oResult.Add(@"https://www.youtube.com/@ACEamazing/videos");
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -3598,6 +3600,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
                                 oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
                                 oResult.Add(@"https://www.youtube.com/@HeavensJazzMelodies/videos");
+                                oResult.Add(@"https://www.youtube.com/watch?v=n5VUXJhyaYQ");
                             }
                             break;
                     }
