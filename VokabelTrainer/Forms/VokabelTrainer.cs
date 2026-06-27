@@ -3521,12 +3521,16 @@ namespace VokabelTrainer
                                     oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
                                     oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
                                     if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                                    {
+                                        // these use a word that doesn't work in hebrew
                                         oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
+                                        oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                                        oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
+                                    }
+
                                     oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
-                                    oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                                     oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                                     oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
-                                    oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
                                     oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
                                     oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                                     oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
@@ -3648,6 +3652,7 @@ namespace VokabelTrainer
                 }
             }
 
+        
 
             // if current culture isn't russian
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ru"))
@@ -3688,6 +3693,22 @@ namespace VokabelTrainer
                 }
             }
 
+
+            // if current culture isn't ukrainian
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("uk"))
+            {
+                // and one of the trained languages is ukrainian
+                if (strLanguageFirst3.Equals("Ukr", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Укр", StringComparison.CurrentCultureIgnoreCase)
+                    )
+                {
+                    // for language speakers that aren't muslim add christian songs
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B8%D0%BA+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D0%BF%D1%81%D0%B0%D0%BB%D0%BC%D1%96%D0%B2+");
+                    }
+                }
+            }
 
 
             // if current culture isn't italian
