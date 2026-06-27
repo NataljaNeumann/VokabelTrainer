@@ -3503,33 +3503,36 @@ namespace VokabelTrainer
 
 
 
-                    // for language speakers that aren't muslim add visionary christian songs
-                    switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                    // for language speakers that aren't muslim add visionary christian songs (randomly, because too many)
+                    if (System.DateTime.Now.Second % 2 == 0)
                     {
-                        case "he":
-                            oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
-                            oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
-                            oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
-                            goto default;
-                        default:
-                            if (!Program.IslamicCountry)
-                            {
-                                oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
-                                oResult.Add(@"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
-                                oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
-                                oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
-                                if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
-                                    oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
-                                oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
-                                oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
-                                oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
-                                oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
-                                oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
-                                oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
-                                oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
-                                oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
-                            }
-                            break;
+                        switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
+                        {
+                            case "he":
+                                oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
+                                oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
+                                oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
+                                goto default;
+                            default:
+                                if (!Program.IslamicCountry)
+                                {
+                                    oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
+                                    oResult.Add(@"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
+                                    oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
+                                    oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+                                    if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                                        oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
+                                    oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
+                                    oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
+                                    oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
+                                    oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                                    oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
+                                    oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
+                                }
+                                break;
+                        }
                     }
 
                 }
