@@ -3869,20 +3869,24 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.radio.de/language/hebrew");
 
                     // for european learners of Herbew also add english/hebrew resources
-                    if (!Program.IslamicCountry && (
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("es") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("nl") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fi") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("da") ||
-                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sv")
-                        ))
+                    if (!Program.IslamicCountry)
                     {
-                        oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
-                        oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
+                        oResult.Add(@"https://www.youtube.com/results?search_query=psalm+hebrew+versions+The+Sanctuary+For+All");
+
+                        if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("es") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("nl") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fi") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("da") ||
+                            System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sv")
+                            )
+                        {
+                            oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
+                            oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
+                        }
                     }
                 }
             }
