@@ -3637,6 +3637,7 @@ namespace VokabelTrainer
                             if (!Program.IslamicCountry)
                             {
                                 oResult.Add(@"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual");
+                                oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsicas+crist%C3%A3s+em+portugu%C3%AAs+com+letra");
                             }
                             break;
                     }
@@ -3671,6 +3672,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@WinxClubRU");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D0%B8%D1%82%D1%8F%D0%B9+%D0%B8%D0%B7+%D0%BA%D1%83%D1%87%D1%83%D0%B3%D1%83%D1%80");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D1%81+%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BC");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B4%D1%83%D1%88%D0%B8");
 
                     // for language speakers that aren't muslim add christian songs
                     if (!Program.IslamicCountry)
@@ -3701,6 +3704,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=film+completo");
                     oResult.Add(@"https://www.youtube.com/@WinxClubIT");
                     oResult.Add(@"https://www.youtube.com/results?search_query=italian+music");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=Canzoni+cristiane+in+italiano+con+testo");
+                    }
                 }
             }
 
@@ -3721,6 +3729,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.chosun.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%ED%95%9C%EA%B5%AD%EC%98%81%ED%99%94");
                     oResult.Add(@"https://www.youtube.com/watch?v=u2U4Qb5uASk");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%EA%B0%80%EC%82%AC%EA%B0%80+%ED%8F%AC%ED%95%A8%EB%90%9C+%ED%95%9C%EA%B5%AD%EC%96%B4+%EC%B0%AC%EC%96%91");
+                    }
                 }
             }
 
@@ -3739,6 +3752,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www3.nhk.or.jp/news/easy/");
                     oResult.Add(@"https://www.asahi.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E6%97%A5%E6%9C%AC%E6%98%A0%E7%94%BB");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%E6%AD%8C%E8%A9%9E%E4%BB%98%E3%81%8D%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%82%AD%E3%83%AA%E3%82%B9%E3%83%88%E6%95%99%E3%81%AE%E6%AD%8C");
+                    }
                 }
             }
 
@@ -3800,6 +3818,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.radio.de/language/arabic");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9");
                     oResult.Add(@"https://www.aljazeera.net/");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%D8%A3%D8%BA%D8%A7%D9%86%D9%8A+%D9%85%D8%B3%D9%8A%D8%AD%D9%8A%D8%A9+%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9+%D9%85%D8%B9+%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A7%D8%AA");
+                    }
                 }
             }
 
@@ -3820,8 +3843,9 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D7%A1%D7%A8%D7%98+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%9B%D7%AA%D7%95%D7%91%D7%99%D7%95%D7%AA");
                     oResult.Add(@"https://www.radio.de/language/hebrew");
 
-                    // for european learners of Herbew also add english resources
-                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en") ||
+                    // for european learners of Herbew also add english/hebrew resources
+                    if (!Program.IslamicCountry && (
+                        System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("en") ||
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de") ||
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fr") ||
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pt") ||
@@ -3830,7 +3854,7 @@ namespace VokabelTrainer
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("fi") ||
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("da") ||
                         System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sv")
-                        )
+                        ))
                     {
                         oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
                         oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
@@ -3858,6 +3882,7 @@ namespace VokabelTrainer
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/@ElpisWorship/videos");
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%CE%A7%CF%81%CE%B9%CF%83%CF%84%CE%B9%CE%B1%CE%BD%CE%B9%CE%BA%CE%AC+%CF%84%CF%81%CE%B1%CE%B3%CE%BF%CF%8D%CE%B4%CE%B9%CE%B1+%CF%83%CF%84%CE%B1+%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC+%CE%BC%CE%B5+%CF%83%CF%84%CE%AF%CF%87%CE%BF%CF%85%CF%82");
                     }
                 }
             }
@@ -3879,6 +3904,11 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80+%E0%A4%AB%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE");
                     oResult.Add(@"https://www.indiatv.in/");
                     oResult.Add(@"https://www.aajtak.in/livetv");
+
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%88%E0%A4%B8%E0%A4%BE%E0%A4%88+%E0%A4%97%E0%A5%80%E0%A4%A4+(%E0%A4%AC%E0%A5%8B%E0%A4%B2+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%BE%E0%A4%A5)");
+                    }
                 }
             }
 
