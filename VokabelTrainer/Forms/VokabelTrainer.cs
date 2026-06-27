@@ -3592,6 +3592,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/@EchoesJerusalem/videos");
                             oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
                             oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
+                            oResult.Add(@"https://www.youtube.com/@WorshipofIsrael");
                             goto default;
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
