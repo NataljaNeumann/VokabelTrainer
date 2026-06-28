@@ -3415,6 +3415,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://onlineuebung.de/andere-faecher/");
                     oResult.Add(@"https://onlineuebung.de/deutsch/lernspiele-deutschunterricht/");
                     oResult.Add(@"https://onlineuebung.de/andere-faecher/geschichtsunterricht/#lsg");
+                    oResult.Add(@"https://www.youtube.com/@7cloudsGermanyOfficial/videos");
 
                     // sometimes also add the critical book
                     if (m_oRnd.Next(10) == 7)
@@ -3598,6 +3599,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://onlineuebung.de/englisch/englische-lernspiele/");
                             // for german speakers: Witch Huckla / English
                             oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+englisch");
+                            oResult.Add(@"https://www.youtube.com/@7cloudsGermanyOfficial/videos");
                             goto default;
                         default:
                             if (!Program.IslamicCountry)
