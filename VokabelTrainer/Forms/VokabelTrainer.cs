@@ -3664,25 +3664,25 @@ namespace VokabelTrainer
                     )
                 {
                     // then add resources in russian for language aquisition without explicit learning (mostly western resources, not from russia)
-                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%A4%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
                     oResult.Add(@"https://www.bbc.com/russian");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D1%82%D1%8D%D0%BD%D0%B4%D0%B0%D0%BF");
                     oResult.Add(@"https://www.golosameriki.com/");
                     oResult.Add(@"https://ru.euronews.com/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+%D1%88%D0%BE%D1%83+%D0%94%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C+c%D1%82%D1%83%D0%B4%D0%B8%D0%BE+%D0%BF%D0%BE+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8");
                     oResult.Add(@"https://news.google.com/home?hl=ru&gl=RU&ceid=RU:ru");
-                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B8%D1%82%D1%8F%D0%B9");
                     oResult.Add(@"https://www.anekdot.ru/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9C%D0%B0%D1%88%D0%B0+%D0%B8+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%9D%D1%83+%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B8");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D0%BB%D1%83%D0%B3%D0%B0+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BA%D0%B0%D0%BC%D0%B5%D0%B4%D0%B8+%D0%BA%D0%BB%D0%B0%D0%B1");
-                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
+                    //oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BD%D0%B5+%D1%80%D0%BE%D0%B4%D0%B8%D1%81%D1%8C+%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%BE%D0%B9");
                     oResult.Add(@"https://www.youtube.com/@WinxClubRU");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%BC%D0%B8%D1%82%D1%8F%D0%B9+%D0%B8%D0%B7+%D0%BA%D1%83%D1%87%D1%83%D0%B3%D1%83%D1%80");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D1%81+%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BC");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B4%D1%83%D1%88%D0%B8");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=%D0%A3%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D0%B8");
 
                     // for language speakers that aren't muslim add christian songs
                     if (!Program.IslamicCountry)
