@@ -3455,29 +3455,25 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@WinxClubFR");
                     oResult.Add(@"https://www.amazon.fr/s?k=psychologie+livre");
 
-                    // for language speakers that aren't muslim add visionary christian songs
+                    
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/franzoesisch/franzoesische-lernspiele/");
+                            // for german speakers: Witch Huckla / French
+                            oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+französisch");
+                            oResult.Add(@"https://www.amazon.de/Die-Gro%C3%9Fe-Franz%C3%B6sisch-Lernen-Box-3-CD-Hspbox/dp/B07N3P5B1N");
                             goto default;
                         default:
                             if (!Program.IslamicCountry)
                             {
+                                // for language speakers that aren't muslim add visionary christian songs
                                 oResult.Add(@"https://www.youtube.com/results?search_query=MARYLINE+ORCEL+Digne+est+l%27Agneau+%E2%80%93+Louange+et+Adoration");
                                 oResult.Add(@"https://www.youtube.com/@Bible-A.I/videos");
                                 //https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise
                                 //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             }
                             break;
-                    }
-                    
-
-                    // for german speakers: Witch Huckla / French
-                    if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("de"))
-                    {
-                        oResult.Add(@"https://www.amazon.de/s?k=hexe+huckla+französisch");
-                        oResult.Add(@"https://www.amazon.de/Die-Gro%C3%9Fe-Franz%C3%B6sisch-Lernen-Box-3-CD-Hspbox/dp/B07N3P5B1N");
                     }
                 }
             }
@@ -3610,6 +3606,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
                                 oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
                                 oResult.Add(@"https://www.youtube.com/@HeavensJazzMelodies/videos");
+                                oResult.Add(@"https://www.youtube.com/@SelahJazz26/videos");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Take+Me+Back+to+1958+Americana+50s+60s+Doo-Wop+Love+Songs+and+Vintage+Jukebox+Hits");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
                             }
@@ -3711,6 +3708,7 @@ namespace VokabelTrainer
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/results?search_query=%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B8%D0%BA+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D0%BF%D1%81%D0%B0%D0%BB%D0%BC%D1%96%D0%B2+");
+                        oResult.Add(@"https://www.youtube.com/results?search_query=%D0%92%D0%95%D0%A1%D0%95%D0%9B%D0%86+%D0%A3%D0%9A%D0%A0%D0%90%D0%87%D0%9D%D0%A1%D0%AC%D0%9A%D0%86+%D0%9F%D0%86%D0%A1%D0%9D%D0%86+"+(DateTime.Now.Year.ToString())+"+%D0%A3%D0%9A%D0%A0%D0%90%D0%87%D0%9D%D0%A1%D0%AC%D0%9A%D0%90+%D0%9C%D0%A3%D0%97%D0%98%D0%9A%D0%90+");
                     }
                 }
             }
