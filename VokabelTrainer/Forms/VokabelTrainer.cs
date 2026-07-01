@@ -3454,8 +3454,10 @@ namespace VokabelTrainer
                     oResult.Add(@"https://fr.euronews.com/");
                     oResult.Add(@"https://www.youtube.com/@WinxClubFR");
                     oResult.Add(@"https://www.amazon.fr/s?k=psychologie+livre");
+                    oResult.Add(@"https://www.youtube.com/@ChansonsdeParis-x8t/videos");
+                    oResult.Add(@"https://www.youtube.com/@ParisChanson/videos");
 
-                    
+
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
                         case "de":
