@@ -72,6 +72,12 @@
     <Compile Include="Forms\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ChineseVariantSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChineseVariantSelection.Designer.cs">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CultureSelectionForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     </Compile>
     <Compile Include="Forms\GraphsForm.Designer.cs">
       <DependentUpon>GraphsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JapaneseVariantSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JapaneseVariantSelection.Designer.cs">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MistakesDisplayForm.cs">
       <SubType>Form</SubType>
@@ -400,6 +412,9 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CultureSelectionForm.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -686,6 +701,9 @@
     <EmbeddedResource Include="Forms\GraphsForm.zh-CHT.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MistakesDisplayForm.resx">
       <DependentUpon>MistakesDisplayForm.cs</DependentUpon>
