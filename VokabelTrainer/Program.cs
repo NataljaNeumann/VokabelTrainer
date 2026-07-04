@@ -134,7 +134,8 @@ namespace VokabelTrainer
             IslamicCountry = Array.Exists(astrIslamicCountries, code => cultureName.Contains(code));
 
             string strSetCulture = Properties.Settings.Default.ChosenCulture;
-            if (!string.IsNullOrEmpty(strSetCulture))
+            if (!string.IsNullOrEmpty(strSetCulture) && 
+                !System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith(strSetCulture+"-"))
             {
                 try
                 {
