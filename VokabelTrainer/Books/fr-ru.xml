@@ -420,7 +420,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>bâtiment</erste-sprache><zweite-sprache>здание</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="95">
-    <erste-sprache>cela vous dérange-t-il ?</erste-sprache><zweite-sprache>вы не против?</zweite-sprache>
+    <erste-sprache>cela vous dérange-t-il?</erste-sprache><zweite-sprache>вы не против?</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="96">
     <erste-sprache>cela nous dérange</erste-sprache><zweite-sprache>нас это беспокоит</zweite-sprache>
@@ -1089,13 +1089,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>soyez</erste-sprache><zweite-sprache>будьте</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="266">
-    <erste-sprache>êtes</erste-sprache><zweite-sprache>-0</zweite-sprache>
+    <erste-sprache>êtes</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="266">
-    <erste-sprache>est</erste-sprache><zweite-sprache>-0</zweite-sprache>
+    <erste-sprache>est</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="266">
-    <erste-sprache>sommes</erste-sprache><zweite-sprache>-0</zweite-sprache>
+    <erste-sprache>sommes</erste-sprache><zweite-sprache>-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="267">
     <erste-sprache>toi</erste-sprache><zweite-sprache>тебя</zweite-sprache>

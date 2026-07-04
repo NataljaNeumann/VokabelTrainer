@@ -924,7 +924,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>あなたの</erste-sprache><zweite-sprache>senin</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="214">
-    <erste-sprache>その後</erste-sprache><zweite-sprache>sonrasında</zweite-sprache>
+    <erste-sprache>その後</erste-sprache><zweite-sprache>-de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="214">
     <erste-sprache>その後</erste-sprache><zweite-sprache>sonra</zweite-sprache>
@@ -1321,9 +1321,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="288">
     <erste-sprache>しない</erste-sprache><zweite-sprache>yapma</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="289">
-    <erste-sprache>その</erste-sprache><zweite-sprache>-de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="289">
     <erste-sprache>その</erste-sprache><zweite-sprache>bir</zweite-sprache>
@@ -3909,40 +3906,43 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>どの</erste-sprache><zweite-sprache>ki</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="746">
-    <erste-sprache>バンド</erste-sprache><zweite-sprache>grup</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="747">
-    <erste-sprache>アメリカ合衆国</erste-sprache><zweite-sprache>Amerika Birleşik Devletleri</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="747">
-    <erste-sprache>アメリカ合衆国</erste-sprache><zweite-sprache>ABD</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="748">
-    <erste-sprache>いくつかの</erste-sprache><zweite-sprache>bazı</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="749">
-    <erste-sprache>あなたの</erste-sprache><zweite-sprache>seninki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="749">
-    <erste-sprache>あなたの</erste-sprache><zweite-sprache>sizin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="750">
     <erste-sprache>後</erste-sprache><zweite-sprache>sonra</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="746">
+    <erste-sprache>後</erste-sprache><zweite-sprache>-de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="747">
+    <erste-sprache>再び</erste-sprache><zweite-sprache>-de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="747">
+    <erste-sprache>再び</erste-sprache><zweite-sprache>tekrar</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>また</erste-sprache><zweite-sprache>-de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>また</erste-sprache><zweite-sprache>tekrar</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>また</erste-sprache><zweite-sprache>ayrıca</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="749">
+    <erste-sprache>バンド</erste-sprache><zweite-sprache>grup</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="750">
-    <erste-sprache>後</erste-sprache><zweite-sprache>-den sonra</zweite-sprache>
+    <erste-sprache>アメリカ合衆国</erste-sprache><zweite-sprache>Amerika Birleşik Devletleri</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="750">
+    <erste-sprache>アメリカ合衆国</erste-sprache><zweite-sprache>ABD</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="751">
-    <erste-sprache>後で</erste-sprache><zweite-sprache>sonra</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="751">
-    <erste-sprache>それから</erste-sprache><zweite-sprache>sonra</zweite-sprache>
+    <erste-sprache>いくつかの</erste-sprache><zweite-sprache>bazı</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="752">
-    <erste-sprache>だった</erste-sprache><zweite-sprache>olmuş</zweite-sprache>
+    <erste-sprache>あなたの</erste-sprache><zweite-sprache>seninki</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="752">
-    <erste-sprache>だった</erste-sprache><zweite-sprache>idi</zweite-sprache>
+    <erste-sprache>あなたの</erste-sprache><zweite-sprache>sizin</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="753">
     <erste-sprache>から</erste-sprache><zweite-sprache>den</zweite-sprache>
@@ -3954,424 +3954,427 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>から</erste-sprache><zweite-sprache>-dan</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="754">
-    <erste-sprache>政党</erste-sprache><zweite-sprache>partiler</zweite-sprache>
+    <erste-sprache>後で</erste-sprache><zweite-sprache>sonra</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="754">
+    <erste-sprache>それから</erste-sprache><zweite-sprache>sonra</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="755">
-    <erste-sprache>私はやった</erste-sprache><zweite-sprache>yaptım</zweite-sprache>
+    <erste-sprache>だった</erste-sprache><zweite-sprache>olmuş</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="755">
+    <erste-sprache>だった</erste-sprache><zweite-sprache>idi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="756">
-    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldım</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="756">
-    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldın</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="756">
-    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldı</zweite-sprache>
+    <erste-sprache>政党</erste-sprache><zweite-sprache>partiler</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="757">
-    <erste-sprache>依然として</erste-sprache><zweite-sprache>hâlâ</zweite-sprache>
+    <erste-sprache>私はやった</erste-sprache><zweite-sprache>yaptım</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="758">
-    <erste-sprache>効果</erste-sprache><zweite-sprache>etki</zweite-sprache>
+    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldım</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="758">
+    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldın</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="758">
+    <erste-sprache>受け取った</erste-sprache><zweite-sprache>aldı</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="759">
-    <erste-sprache>判決</erste-sprache><zweite-sprache>hüküm</zweite-sprache>
+    <erste-sprache>依然として</erste-sprache><zweite-sprache>hâlâ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="760">
+    <erste-sprache>効果</erste-sprache><zweite-sprache>etki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="761">
+    <erste-sprache>判決</erste-sprache><zweite-sprache>hüküm</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="762">
     <erste-sprache>金額</erste-sprache><zweite-sprache>tutar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="763">
     <erste-sprache>存在する</erste-sprache><zweite-sprache>olmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="763">
     <erste-sprache>存在する</erste-sprache><zweite-sprache>mevcut olmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="763">
     <erste-sprache>存在する</erste-sprache><zweite-sprache>mevcut oluruz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="763">
     <erste-sprache>存在する</erste-sprache><zweite-sprache>mevcut olur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="764">
     <erste-sprache>いる</erste-sprache><zweite-sprache>olmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="764">
     <erste-sprache>なる</erste-sprache><zweite-sprache>olmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="765">
     <erste-sprache>なる</erste-sprache><zweite-sprache>oluruz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="765">
     <erste-sprache>なる</erste-sprache><zweite-sprache>olur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="766">
     <erste-sprache>部分</erste-sprache><zweite-sprache>parça</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="767">
     <erste-sprache>部品</erste-sprache><zweite-sprache>parçalar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="768">
     <erste-sprache>条件</erste-sprache><zweite-sprache>koşullar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="768">
     <erste-sprache>条件</erste-sprache><zweite-sprache>şartlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="769">
     <erste-sprache>事例</erste-sprache><zweite-sprache>vakalar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="770">
     <erste-sprache>でした</erste-sprache><zweite-sprache>vardı</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="770">
     <erste-sprache>到着した</erste-sprache><zweite-sprache>vardı</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="771">
     <erste-sprache>到着した</erste-sprache><zweite-sprache>varmış</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="771">
     <erste-sprache>到着した</erste-sprache><zweite-sprache>vardım</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="771">
     <erste-sprache>到着した</erste-sprache><zweite-sprache>vardın</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="772">
     <erste-sprache>道</erste-sprache><zweite-sprache>yol</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="772">
     <erste-sprache>道路</erste-sprache><zweite-sprache>yol</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="773">
     <erste-sprache>や</erste-sprache><zweite-sprache>veya</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="774">
     <erste-sprache>あなた自身</erste-sprache><zweite-sprache>kendiniz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="774">
     <erste-sprache>あなた自身</erste-sprache><zweite-sprache>kendin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="775">
     <erste-sprache>私たちはできる</erste-sprache><zweite-sprache>yapabiliriz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="776">
     <erste-sprache>得る</erste-sprache><zweite-sprache>almak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="776">
     <erste-sprache>得る</erste-sprache><zweite-sprache>alırız</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="776">
     <erste-sprache>得る</erste-sprache><zweite-sprache>alır</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="777">
     <erste-sprache>持っていたであろう</erste-sprache><zweite-sprache>olurdu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="778">
     <erste-sprache>べきだ</erste-sprache><zweite-sprache>gerekmek</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="778">
     <erste-sprache>べきだ</erste-sprache><zweite-sprache>gerekir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="779">
     <erste-sprache>べきです</erste-sprache><zweite-sprache>gerekir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="780">
     <erste-sprache>すべきだ</erste-sprache><zweite-sprache>meli</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="780">
     <erste-sprache>すべきだった</erste-sprache><zweite-sprache>meli</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="781">
     <erste-sprache>以下</erste-sprache><zweite-sprache>aşağıda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="782">
     <erste-sprache>委任</erste-sprache><zweite-sprache>yetki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="783">
     <erste-sprache>仕事</erste-sprache><zweite-sprache>iş</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="783">
     <erste-sprache>仕事</erste-sprache><zweite-sprache>işler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="784">
     <erste-sprache>セクション</erste-sprache><zweite-sprache>bölüm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="784">
     <erste-sprache>区画</erste-sprache><zweite-sprache>bölüm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="785">
     <erste-sprache>助言</erste-sprache><zweite-sprache>danışmanlık</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="785">
     <erste-sprache>助言</erste-sprache><zweite-sprache>tavsiye</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="786">
     <erste-sprache>提案</erste-sprache><zweite-sprache>teklif</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="786">
     <erste-sprache>提案</erste-sprache><zweite-sprache>öneriler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="786">
     <erste-sprache>提案</erste-sprache><zweite-sprache>teklifler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="787">
     <erste-sprache>出版した</erste-sprache><zweite-sprache>yayınladım</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="787">
     <erste-sprache>出版した</erste-sprache><zweite-sprache>yayınladın</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="787">
     <erste-sprache>出版した</erste-sprache><zweite-sprache>yayınladı</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="788">
     <erste-sprache>設立</erste-sprache><zweite-sprache>kuruluş</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="789">
     <erste-sprache>近く</erste-sprache><zweite-sprache>yakınlarda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="790">
     <erste-sprache>責任</erste-sprache><zweite-sprache>suç</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="790">
     <erste-sprache>責任</erste-sprache><zweite-sprache>sorumluluk</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="791">
     <erste-sprache>行ってしまった</erste-sprache><zweite-sprache>gitmiş</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="791">
     <erste-sprache>行った</erste-sprache><zweite-sprache>gitmiş</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="792">
     <erste-sprache>行った</erste-sprache><zweite-sprache>gittim</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="792">
     <erste-sprache>行った</erste-sprache><zweite-sprache>gittin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="792">
     <erste-sprache>行った</erste-sprache><zweite-sprache>gitti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="793">
     <erste-sprache>エリア</erste-sprache><zweite-sprache>bölge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="793">
     <erste-sprache>エリア</erste-sprache><zweite-sprache>alan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="793">
     <erste-sprache>エリア</erste-sprache><zweite-sprache>bölgeler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="794">
     <erste-sprache>フィールド</erste-sprache><zweite-sprache>alan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="794">
     <erste-sprache>分野</erste-sprache><zweite-sprache>alan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="795">
     <erste-sprache>領土</erste-sprache><zweite-sprache>bölge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="796">
     <erste-sprache>ゾーン</erste-sprache><zweite-sprache>bölgeler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="797">
     <erste-sprache>資源</erste-sprache><zweite-sprache>kaynaklar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="798">
     <erste-sprache>タスク</erste-sprache><zweite-sprache>görev</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="799">
     <erste-sprache>単語</erste-sprache><zweite-sprache>kelime</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="800">
     <erste-sprache>州</erste-sprache><zweite-sprache>il</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="800">
     <erste-sprache>州</erste-sprache><zweite-sprache>eyalet</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="800">
     <erste-sprache>州</erste-sprache><zweite-sprache>devletler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="801">
     <erste-sprache>勝った</erste-sprache><zweite-sprache>kazandım</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="801">
     <erste-sprache>勝った</erste-sprache><zweite-sprache>kazandın</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="801">
     <erste-sprache>勝った</erste-sprache><zweite-sprache>kazandı</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="802">
     <erste-sprache>理解する</erste-sprache><zweite-sprache>anlamak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="802">
     <erste-sprache>理解する</erste-sprache><zweite-sprache>anlarız</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="802">
     <erste-sprache>理解する</erste-sprache><zweite-sprache>anlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="803">
     <erste-sprache>テスト</erste-sprache><zweite-sprache>testler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="804">
     <erste-sprache>契約</erste-sprache><zweite-sprache>sözleşme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="804">
     <erste-sprache>契約</erste-sprache><zweite-sprache>ahit</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="805">
     <erste-sprache>あなたが知っている</erste-sprache><zweite-sprache>biliyorsun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="806">
     <erste-sprache>国内の</erste-sprache><zweite-sprache>yerel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="807">
     <erste-sprache>側面</erste-sprache><zweite-sprache>yönler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="808">
     <erste-sprache>合う</erste-sprache><zweite-sprache>uymak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="808">
     <erste-sprache>合う</erste-sprache><zweite-sprache>uyarız</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="808">
     <erste-sprache>合う</erste-sprache><zweite-sprache>uyar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
-    <erste-sprache>また</erste-sprache><zweite-sprache>tekrar</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="807">
-    <erste-sprache>また</erste-sprache><zweite-sprache>ayrıca</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="809">
     <erste-sprache>もっと</erste-sprache><zweite-sprache>daha fazla</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>認識した</erste-sprache><zweite-sprache>tanıdım</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>認識した</erste-sprache><zweite-sprache>tanıdın</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>認識した</erste-sprache><zweite-sprache>tanıdı</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="811">
     <erste-sprache>体</erste-sprache><zweite-sprache>bedenler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="811">
     <erste-sprache>体</erste-sprache><zweite-sprache>vücut</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>機関</erste-sprache><zweite-sprache>ajanslar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>機関</erste-sprache><zweite-sprache>komiteler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>機関</erste-sprache><zweite-sprache>kuruluşlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>機関</erste-sprache><zweite-sprache>kurumlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>組織</erste-sprache><zweite-sprache>organizasyon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>組織</erste-sprache><zweite-sprache>örgütlenme</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>組織</erste-sprache><zweite-sprache>kuruluşlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="814">
     <erste-sprache>答え</erste-sprache><zweite-sprache>cevap</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="814">
     <erste-sprache>答え</erste-sprache><zweite-sprache>cevaplar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="815">
     <erste-sprache>事実</erste-sprache><zweite-sprache>gerçekler</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="816">
     <erste-sprache>本当の</erste-sprache><zweite-sprache>doğru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>約</erste-sprache><zweite-sprache>yaklaşık</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>周りに</erste-sprache><zweite-sprache>yaklaşık</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>描いた</erste-sprache><zweite-sprache>tasvir ettim</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>描いた</erste-sprache><zweite-sprache>tasvir ettin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>描いた</erste-sprache><zweite-sprache>tasvir etti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="819">
     <erste-sprache>それぞれの</erste-sprache><zweite-sprache>her</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="819">
     <erste-sprache>各</erste-sprache><zweite-sprache>her</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>作成する</erste-sprache><zweite-sprache>oluşturmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>作成する</erste-sprache><zweite-sprache>oluştururuz</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>作成する</erste-sprache><zweite-sprache>oluşturur</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="821">
     <erste-sprache>представлять</erste-sprache><zweite-sprache>sunmak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="822">
     <erste-sprache>覚えます</erste-sprache><zweite-sprache>hatırlarsınız</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="823">
     <erste-sprache>それら</erste-sprache><zweite-sprache>şunlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="823">
     <erste-sprache>それら</erste-sprache><zweite-sprache>bunlar</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="824">
     <erste-sprache>あなたはそうでした</erste-sprache><zweite-sprache>sen oldun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="825">
     <erste-sprache>あなたは持つでしょう</erste-sprache><zweite-sprache>sen sahip olacaksın</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="826">
     <erste-sprache>中に</erste-sprache><zweite-sprache>içine</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="827">
     <erste-sprache>しかし</erste-sprache><zweite-sprache>ancak</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="828">
     <erste-sprache>オン</erste-sprache><zweite-sprache>üzerinde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="829">
     <erste-sprache>彼に</erste-sprache><zweite-sprache>ona</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="829">
     <erste-sprache>彼女に</erste-sprache><zweite-sprache>ona</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="830">
     <erste-sprache>あなたのもの</erste-sprache><zweite-sprache>seninki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="831">
     <erste-sprache>君たちの</erste-sprache><zweite-sprache>sizin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="831">
     <erste-sprache>あなたがたの</erste-sprache><zweite-sprache>sizin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="831">
     <erste-sprache>あなたたちの</erste-sprache><zweite-sprache>sizin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="832">
     <erste-sprache>より</erste-sprache><zweite-sprache>-den</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
-    <erste-sprache>オファー</erste-sprache><zweite-sprache>teklif</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="833">
-    <erste-sprache>再び</erste-sprache><zweite-sprache>tekrar</zweite-sprache>
+    <erste-sprache>オファー</erste-sprache><zweite-sprache>teklif</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="834">
     <erste-sprache>返事</erste-sprache><zweite-sprache>cevap</zweite-sprache>
@@ -7470,7 +7473,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>組織化された</erste-sprache><zweite-sprache>organize edilmiş</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1489">
-    <erste-sprache>によると</erste-sprache><zweite-sprache>-e göre</zweite-sprache>
+    <erste-sprache>によると</erste-sprache><zweite-sprache>-den sonra</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1490">
     <erste-sprache>方向</erste-sprache><zweite-sprache>yön</zweite-sprache>
