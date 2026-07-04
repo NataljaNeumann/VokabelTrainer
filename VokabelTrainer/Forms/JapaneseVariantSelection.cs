@@ -44,6 +44,11 @@ namespace VokabelTrainer.Forms
         All = 15
     }
 
+    //*******************************************************************************************************
+    /// <summary>
+    /// This form provides means for selection of a variant of Japanese language
+    /// </summary>
+    //*******************************************************************************************************
     public partial class JapaneseVariantSelection : Form
     {
         public JapaneseVariantSelection(JapaneseVariantType eVariants)

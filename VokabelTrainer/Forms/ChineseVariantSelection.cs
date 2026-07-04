@@ -47,7 +47,7 @@ namespace VokabelTrainer.Forms
 
     //*******************************************************************************************************
     /// <summary>
-    /// This form provides means for selection of a variant of chinese language
+    /// This form provides means for selection of a variant of Chinese language
     /// </summary>
     //*******************************************************************************************************
     public partial class ChineseVariantSelection : Form
