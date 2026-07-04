@@ -1374,6 +1374,22 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
+        /// Returns the language code part
+        /// </summary>
+        /// <param name="strCode">Code with or without country</param>
+        /// <returns>language part</returns>
+        //===================================================================================================
+        string LanguagePart(string strCode)
+        {
+            if (!strCode.Contains("-"))
+                return strCode;
+
+            return strCode.Substring(0, strCode.IndexOf('-'));
+
+        }
+
+        //===================================================================================================
+        /// <summary>
         /// This is executed, when user decides to create a new language file
         /// </summary>
         /// <param name="oSender">Sender object</param>
@@ -1422,8 +1438,8 @@ namespace VokabelTrainer
                             strFilePath = strTestedPath;
                         }
 
-                        strTestedPath = Path.Combine(strBaseDir, 
-                            strCode1.Substring(0, strCode1.IndexOf('-')) + "-" + strCode2.Replace("-", "") + ".xml");
+                        strTestedPath = Path.Combine(strBaseDir,
+                            LanguagePart(strCode1) + "-" + strCode2.Replace("-", "") + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
                         {
                             strFilePath = strTestedPath;
@@ -1431,7 +1447,7 @@ namespace VokabelTrainer
 
 
                         strTestedPath = Path.Combine(strBaseDir,
-                            strCode2.Substring(0, strCode1.IndexOf('-')) + "-" + strCode1.Replace("-", "") + ".xml");
+                            LanguagePart(strCode2) + "-" + strCode1.Replace("-", "") + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
                         {
                             strFilePath = strTestedPath;
@@ -1439,20 +1455,21 @@ namespace VokabelTrainer
 
 
                         strTestedPath = Path.Combine(strBaseDir,
-                            strCode1.Substring(0, strCode1.IndexOf('-')) + "-" +
-                            strCode2.Substring(0, strCode2.IndexOf('-')) + ".xml");
+                            LanguagePart(strCode1) + "-" +
+                            LanguagePart(strCode2) + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
                         {
                             strFilePath = strTestedPath;
                         }
 
                         strTestedPath = Path.Combine(strBaseDir,
-                            strCode2.Substring(0, strCode2.IndexOf('-')) + "-" +
-                            strCode1.Substring(0, strCode1.IndexOf('-')) + ".xml");
+                            LanguagePart(strCode2) + "-" +
+                            LanguagePart(strCode1) + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
                         {
                             strFilePath = strTestedPath;
                         }
+
                     }
 
                     bool bPredefined = false;
