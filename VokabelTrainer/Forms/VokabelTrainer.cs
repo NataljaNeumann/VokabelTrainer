@@ -3574,6 +3574,8 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.amazon.co.uk/s?k=meet+the+fockers");
                     oResult.Add(@"https://www.amazon.co.uk/s?k=50+great+short+stories");
                     oResult.Add(@"https://www.youtube.com/@ACEamazing/videos");
+                    oResult.Add(@"https://www.youtube.com/@Buddy1970-g4j/videos");
+                    oResult.Add(@"https://www.youtube.com/watch?v=5Fz_Pb15mTY");
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
