@@ -1543,7 +1543,7 @@ namespace VokabelTrainer
                     }
                     else
                     {
-                        m_strCurrentPath = m_dlgOpenFileDialog.FileName;
+                        //m_strCurrentPath = m_dlgOpenFileDialog.FileName;
                         m_oCurrentVocabularyDoc = new System.Xml.XmlDocument();
                         m_oCurrentVocabularyDoc.PreserveWhitespace = false;
                         m_bIsModifiableFlagForXml = oNewForm.m_chkLanguageFileModifiable.Checked;
