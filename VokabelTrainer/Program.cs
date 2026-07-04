@@ -199,12 +199,12 @@ namespace VokabelTrainer
             string strSSMLLanguageToSpeak =
                 // english
                 "En".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("en") ? strCurrentCulture : "en-US") :
+                    (strCurrentCulture.StartsWith("en") && !strCurrentCulture.Equals("en") ? strCurrentCulture : "en-US") :
                 "Ing".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "en-US" :
                 "Ан".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "en-US" :
                 // german
                 "De".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("de") ? strCurrentCulture : "de-DE") :
+                    (strCurrentCulture.StartsWith("de") && !strCurrentCulture.Equals("de") ? strCurrentCulture : "de-DE") :
                 "Ale".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
                 "All".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
                 "Ger".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
@@ -219,17 +219,17 @@ namespace VokabelTrainer
                 // spanish
                 "Sp".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "es-ES" :
                 "Es".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("es") ? strCurrentCulture : "es-ES") :
+                    (strCurrentCulture.StartsWith("es") && !strCurrentCulture.Equals("es") ? strCurrentCulture : "es-ES") :
                 "Ис".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "es-ES" :
                 // russian
                 "Rus".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ru-RU" :
                 "Рус".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("ru") ? strCurrentCulture : "ru-RU") :
+                    (strCurrentCulture.StartsWith("ru") && !strCurrentCulture.Equals("ru") ? strCurrentCulture : "ru-RU") :
                 "руc".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("ru") ? strCurrentCulture : "ru-RU") :
+                    (strCurrentCulture.StartsWith("ru") && !strCurrentCulture.Equals("ru") ? strCurrentCulture : "ru-RU") :
                 // french
                 "Fr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("fr") ? strCurrentCulture : "fr-FR") :
+                    (strCurrentCulture.StartsWith("fr") && !strCurrentCulture.Equals("fr") ? strCurrentCulture : "fr-FR") :
                 "Фр".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "fr-FR" :
                 // hindi
                 "Hi".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "hi-IN" :
@@ -243,11 +243,11 @@ namespace VokabelTrainer
                 "日本".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 // portugese
                 "Por".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("pt") ? strCurrentCulture : "pt-PT") :
+                    (strCurrentCulture.StartsWith("pt") && !strCurrentCulture.Equals("pt") ? strCurrentCulture : "pt-PT") :
                 "Пор".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "pt-PT" :
                 // Italian
                 "It".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("it") ? strCurrentCulture : "it-IT") :
+                    (strCurrentCulture.StartsWith("it") && !strCurrentCulture.Equals("it") ? strCurrentCulture : "it-IT") :
                 "Ит".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "it-IT" :
                 // korean
                 "Ko".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ko-KR" :
@@ -256,14 +256,15 @@ namespace VokabelTrainer
                 // chinese
                 "Chi".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-CN" :
                 "Ки".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "zh-CN" :
+                "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) && strCurrentCulture.Equals("zh-CHT") ? "zh-TW" :
                 "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
-                    (strCurrentCulture.StartsWith("zh") ? strCurrentCulture : "zh-CN") :
+                    (strCurrentCulture.StartsWith("zh") && !strCurrentCulture.Equals("zh-CHS") && !strCurrentCulture.Equals("zh-CHT") ? strCurrentCulture : "zh-CN") :
                 "繁體中".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW":
                 // arab
                 "Ar".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ar-SA" :
                 "Ара".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ar-SA" :
                 "عر".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
-                (strCurrentCulture.StartsWith("ar") ? strCurrentCulture : "ar-SA") :
+                (strCurrentCulture.StartsWith("ar") && !strCurrentCulture.Equals("ar") ? strCurrentCulture : "ar-SA") :
                 // hebrew
                 "He".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "he-IL" :
                 "עב".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "he-IL" :
