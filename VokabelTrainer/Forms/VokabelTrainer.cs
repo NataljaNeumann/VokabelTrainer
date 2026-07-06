@@ -3628,7 +3628,6 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
                                 oResult.Add(@"https://www.youtube.com/@HeavensJazzMelodies/videos");
                                 oResult.Add(@"https://www.youtube.com/@SelahJazz26/videos");
-                                oResult.Add(@"https://www.youtube.com/results?search_query=Take+Me+Back+to+1958+Americana+50s+60s+Doo-Wop+Love+Songs+and+Vintage+Jukebox+Hits");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
                             }
                             break;
@@ -3666,6 +3665,7 @@ namespace VokabelTrainer
                             {
                                 oResult.Add(@"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsicas+crist%C3%A3s+em+portugu%C3%AAs+com+letra");
+                                oResult.Add(@"https://www.youtube.com/@SerestaGospeldaAlma/videos");
                             }
                             break;
                     }
