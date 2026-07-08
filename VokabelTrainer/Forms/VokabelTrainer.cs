@@ -3544,12 +3544,15 @@ namespace VokabelTrainer
                                         oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                                     }
 
+                                    oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
                                     oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                                     oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                                     oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
                                     oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
                                     oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                                     oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
+                                    oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
+                                    oResult.Add(@"https://www.youtube.com/@VibrasqueFlorecen/videos");
                                 }
                                 break;
                         }
@@ -3593,6 +3596,7 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@ACEamazing/videos");
                     oResult.Add(@"https://www.youtube.com/@Buddy1970-g4j/videos");
                     oResult.Add(@"https://www.youtube.com/watch?v=5Fz_Pb15mTY");
+                    oResult.Add(@"https://www.youtube.com/results?search_query=Route+66+Roadtrip+Buddy1970");
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -3628,7 +3632,9 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@AngelicVoicesofHeaven/videos");
                                 oResult.Add(@"https://www.youtube.com/@HeavensJazzMelodies/videos");
                                 oResult.Add(@"https://www.youtube.com/@SelahJazz26/videos");
+                                oResult.Add(@"https://www.youtube.com/results?search_query=Back+to+the+Golden+Days++50s+60s+Doo-Wop+Love+Songs+Upright+Classic+Oldies");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
+                                oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69")
                             }
                             break;
                     }
@@ -3666,6 +3672,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsicas+crist%C3%A3s+em+portugu%C3%AAs+com+letra");
                                 oResult.Add(@"https://www.youtube.com/@SerestaGospeldaAlma/videos");
+                                oResult.Add(@"https://www.youtube.com/@Santu%C3%A1riodeAdora%C3%A7%C3%A3o7/videos");
                             }
                             break;
                     }
