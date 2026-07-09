@@ -3542,6 +3542,7 @@ namespace VokabelTrainer
                                         oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
                                         oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
                                         oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
+                                        oResult.Add(@"https://www.youtube.com/@purogozo/videos");
                                     }
 
                                     oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
@@ -3553,6 +3554,8 @@ namespace VokabelTrainer
                                     oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
                                     oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
                                     oResult.Add(@"https://www.youtube.com/@VibrasqueFlorecen/videos");
+                                    oResult.Add(@"https://www.youtube.com/@flowsanto");
+                                    oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
                                 }
                                 break;
                         }
