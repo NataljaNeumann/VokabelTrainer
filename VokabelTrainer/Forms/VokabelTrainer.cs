@@ -3728,6 +3728,8 @@ namespace VokabelTrainer
                         oResult.Add(@"https://www.youtube.com/@godishere8/videos");
                         oResult.Add(@"https://www.youtube.com/@%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B5%D0%9F%D0%B5%D1%81%D0%BD%D0%B829/videos");
                         oResult.Add(@"https://www.youtube.com/@Sky_Dove/videos");
+                        oResult.Add(@"https://www.youtube.com/@SMARTCHRISTIANMELODIES/videos");
+                        oResult.Add(@"https://www.youtube.com/@%D0%A1%D0%92%D0%95%D0%A2%D0%9B%D0%AB%D0%95%D0%9F%D0%95%D0%A1%D0%9D%D0%98");
                     }
                 }
             }
