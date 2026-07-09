@@ -7,7 +7,7 @@
   <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
   <erste-sprache-name>پښتو</erste-sprache-name>
   <zweite-sprache-name>العربية</zweite-sprache-name>
-  <erste-sprache-rtl>nein</erste-sprache-rtl>
+  <erste-sprache-rtl>ja</erste-sprache-rtl>
   <zweite-sprache-rtl>ja</zweite-sprache-rtl>
 
   <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->

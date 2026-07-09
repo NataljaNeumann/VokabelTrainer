@@ -8,7 +8,7 @@
   <erste-sprache-name>中文</erste-sprache-name>
   <zweite-sprache-name>עִבְרִית</zweite-sprache-name>
   <erste-sprache-rtl>nein</erste-sprache-rtl>
-  <zweite-sprache-rtl>nein</zweite-sprache-rtl>
+  <zweite-sprache-rtl>ja</zweite-sprache-rtl>
 
   <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->
   <lizenz><modifikationen>Unter Lizenzbedingungen</modifikationen>
