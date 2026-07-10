@@ -300,5 +300,9 @@ namespace VokabelTrainer.Forms
         }
         #endregion
 
+        private void m_btnOk_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+        }
     }
 }

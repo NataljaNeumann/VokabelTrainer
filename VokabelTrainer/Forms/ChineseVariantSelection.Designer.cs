@@ -47,6 +47,7 @@
             this.m_btnOk.TabIndex = 10;
             this.m_btnOk.Text = "OK";
             this.m_btnOk.UseVisualStyleBackColor = true;
+            this.m_btnOk.Click += new System.EventHandler(this.m_btnOk_Click);
             // 
             // m_rbTraditionalChineseLanguageOfTaiwan
             // 
@@ -75,11 +76,13 @@
             // m_rbChinesePeoplesRepublicOfChina
             // 
             this.m_rbChinesePeoplesRepublicOfChina.AutoSize = true;
+            this.m_rbChinesePeoplesRepublicOfChina.Checked = true;
             this.m_rbChinesePeoplesRepublicOfChina.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.m_rbChinesePeoplesRepublicOfChina.Location = new System.Drawing.Point(20, 90);
             this.m_rbChinesePeoplesRepublicOfChina.Name = "m_rbChinesePeoplesRepublicOfChina";
             this.m_rbChinesePeoplesRepublicOfChina.Size = new System.Drawing.Size(585, 29);
             this.m_rbChinesePeoplesRepublicOfChina.TabIndex = 7;
+            this.m_rbChinesePeoplesRepublicOfChina.TabStop = true;
             this.m_rbChinesePeoplesRepublicOfChina.Text = "Chinese language of peoples republic of China (Standard)";
             this.m_rbChinesePeoplesRepublicOfChina.UseVisualStyleBackColor = true;
             this.m_rbChinesePeoplesRepublicOfChina.CheckedChanged += new System.EventHandler(this.m_rbChinesePeoplesRepublicOfChina_CheckedChanged);

@@ -1421,10 +1421,10 @@ namespace VokabelTrainer
                     string strCode2 = Program.LanguageCodeFromName(oNewForm.m_tbxSecondLanguage.Text);
                     string strFilePath = null;
                     string strTestedPath;
+                    string strBaseDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Books");
 
                     if (!string.IsNullOrEmpty(strCode1) && !string.IsNullOrEmpty(strCode2))
                     {
-                        string strBaseDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Books");
 
                         strTestedPath = Path.Combine(strBaseDir, strCode1.Replace("-", "") + "-" + strCode2.Replace("-", "") + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
@@ -1448,6 +1448,22 @@ namespace VokabelTrainer
 
                         strTestedPath = Path.Combine(strBaseDir,
                             LanguagePart(strCode2) + "-" + strCode1.Replace("-", "") + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+
+                        strTestedPath = Path.Combine(strBaseDir,
+                            strCode2.Replace("-", "") + "-" + LanguagePart(strCode1) + ".xml");
+                        if (strFilePath == null && File.Exists(strTestedPath))
+                        {
+                            strFilePath = strTestedPath;
+                        }
+
+
+                        strTestedPath = Path.Combine(strBaseDir,
+                             strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + ".xml");
                         if (strFilePath == null && File.Exists(strTestedPath))
                         {
                             strFilePath = strTestedPath;
@@ -1495,6 +1511,281 @@ namespace VokabelTrainer
                                 MessageBox.Show(Resources.ExperimentalThanks, 
                                     this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 bPredefined = true;
+                            }
+                        }
+
+                        if (bPredefined)
+                        {
+                            // Handling of Japanese language variants
+                            if (LanguagePart(strCode1).Equals("ja"))
+                            {
+                                string strTemp = strCode1;
+                                strCode1 = strCode2;
+                                strCode2 = strTemp;
+                            }
+
+                            bool bSpecialJapanese = false;
+                            if (LanguagePart(strCode2).Equals("ja"))
+                            {
+                                string strFilePath1 = null;
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                     strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + "1.xml");
+                                if (strFilePath1 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath1 = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" +
+                                    LanguagePart(strCode2) + "1.xml");
+                                if (strFilePath1 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath1 = strTestedPath;
+                                }
+
+
+                                string strFilePath2 = null;
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                     strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + "2.xml");
+                                if (strFilePath2 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath2 = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" +
+                                    LanguagePart(strCode2) + "2.xml");
+                                if (strFilePath2 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath2 = strTestedPath;
+                                }
+
+
+                                string strFilePath3 = null;
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                     strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + "3.xml");
+                                if (strFilePath3 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath3 = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" +
+                                    LanguagePart(strCode2) + "3.xml");
+                                if (strFilePath3 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath3 = strTestedPath;
+                                }
+
+
+
+                                if ((strFilePath != null ? 1 : 0) +
+                                    (strFilePath1 != null ? 1 : 0) +
+                                    (strFilePath2 != null ? 1 : 0) +
+                                    (strFilePath3 != null ? 1 : 0) > 1)
+                                {
+                                    using (JapaneseVariantSelection oForm =
+                                        new JapaneseVariantSelection(
+                                            (strFilePath != null ? JapaneseVariantType.KanjiAndHiraganaAndKatakanaNormalJapaneseLanguage : JapaneseVariantType.None) |
+                                            (strFilePath1 != null ? JapaneseVariantType.JapaneseHiraganaOnly : JapaneseVariantType.None) |
+                                            (strFilePath2 != null ? JapaneseVariantType.JapaneseRomajiOnly : JapaneseVariantType.None) |
+                                            (strFilePath3 != null ? JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly : JapaneseVariantType.None)
+                                            ))
+                                    {
+                                        oForm.RightToLeft = this.RightToLeft;
+                                        oForm.RightToLeftLayout = this.RightToLeftLayout;
+
+                                        if (oForm.ShowDialog(this) == DialogResult.OK)
+                                        {
+                                            switch (oForm.Choice)
+                                            {
+                                                case JapaneseVariantType.JapaneseHiraganaOnly:
+                                                    strFilePath = strFilePath1;
+                                                    bSpecialJapanese = true;
+                                                    break;
+                                                case JapaneseVariantType.JapaneseRomajiOnly:
+                                                    strFilePath = strFilePath2;
+                                                    bSpecialJapanese = true;
+                                                    break;
+                                                case JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly:
+                                                    strFilePath = strFilePath3;
+                                                    bSpecialJapanese = true;
+                                                    break;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            // if not a special japanese, then test special chinese variants
+                            if (!bSpecialJapanese)
+                            {
+                                if (LanguagePart(strCode1).Equals("zh"))
+                                {
+                                    string strTemp = strCode1;
+                                    strCode1 = strCode2;
+                                    strCode2 = strTemp;
+                                }
+
+                                if (LanguagePart(strCode2).Equals("zh"))
+                                {
+                                    string strFilePath1 = null;
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         strCode1.Replace("-", "") + "-zhCN.xml");
+                                    if (strFilePath1 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath1 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         "zhCN-" + strCode1.Replace("-", "") + ".xml");
+                                    if (strFilePath1 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath1 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        "zhCN-" + LanguagePart(strCode1) + ".xml");
+                                    if (strFilePath1 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath1 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        LanguagePart(strCode1) + "-zhCN.xml");
+                                    if (strFilePath1 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath1 = strTestedPath;
+                                    }
+
+                                    string strFilePath2 = null;
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         strCode1.Replace("-", "") + "-zhCN1.xml");
+                                    if (strFilePath2 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath2 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        LanguagePart(strCode1) + "-zhCN1.xml");
+                                    if (strFilePath2 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath2 = strTestedPath;
+                                    }
+
+                                    string strFilePath3 = null;
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         strCode1.Replace("-", "") + "-zhTW.xml");
+                                    if (strFilePath3 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath3 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         "zhTW-" + strCode1.Replace("-", "") + ".xml");
+                                    if (strFilePath3 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath3 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        "zhTW-" + LanguagePart(strCode1) + ".xml");
+                                    if (strFilePath3 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath3 = strTestedPath;
+                                    }
+
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        LanguagePart(strCode1) + "-zhTW.xml");
+                                    if (strFilePath3 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath3 = strTestedPath;
+                                    }
+
+                                    string strFilePath4 = null;
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         strCode1.Replace("-", "") + "-zhTW1.xml");
+                                    if (strFilePath4 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath4 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        LanguagePart(strCode1) + "-zhTW1.xml");
+                                    if (strFilePath4 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath4 = strTestedPath;
+                                    }
+
+                                    string strFilePath5 = null;
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                         strCode1.Replace("-", "") + "-zhTW2.xml");
+                                    if (strFilePath5 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath5 = strTestedPath;
+                                    }
+
+                                    strTestedPath = Path.Combine(strBaseDir,
+                                        LanguagePart(strCode1) + "-zhTW2.xml");
+                                    if (strFilePath5 == null && File.Exists(strTestedPath))
+                                    {
+                                        strFilePath5 = strTestedPath;
+                                    }
+
+
+
+                                    if ((strFilePath != null ? 1 : 0) +
+                                        (strFilePath1 != null ? 1 : 0) +
+                                        (strFilePath2 != null ? 1 : 0) +
+                                        (strFilePath3 != null ? 1 : 0) +
+                                        (strFilePath4 != null ? 1 : 0) +
+                                        (strFilePath5 != null ? 1 : 0) > 1)
+                                    {
+                                        using (ChineseVariantSelection oForm =
+                                            new ChineseVariantSelection(
+                                                (strFilePath1 != null ? ChineseVariantType.ChinesePeoplesRepublicOfChina : ChineseVariantType.None) |
+                                                (strFilePath2 != null ? ChineseVariantType.ChineseOfPeoplesRepublicOfChinaPinyinWriting : ChineseVariantType.None) |
+                                                (strFilePath3 != null ? ChineseVariantType.TraditionalChineseLanguageOfTaiwan : ChineseVariantType.None) |
+                                                (strFilePath4 != null ? ChineseVariantType.ChineseOfTaiwanPinyinWriting : ChineseVariantType.None) |
+                                                (strFilePath5 != null ? ChineseVariantType.ZhuyinFuhaoWritingOfTaiwan : ChineseVariantType.None)
+                                                ))
+                                        {
+                                            oForm.RightToLeft = this.RightToLeft;
+                                            oForm.RightToLeftLayout = this.RightToLeftLayout;
+
+                                            if (oForm.ShowDialog(this) == DialogResult.OK)
+                                            {
+                                                switch (oForm.Choice)
+                                                {
+                                                    case ChineseVariantType.ChinesePeoplesRepublicOfChina:
+                                                        strFilePath = strFilePath1;
+                                                        break;
+                                                    case ChineseVariantType.ChineseOfPeoplesRepublicOfChinaPinyinWriting:
+                                                        strFilePath = strFilePath2;
+                                                        break;
+                                                    case ChineseVariantType.TraditionalChineseLanguageOfTaiwan:
+                                                        strFilePath = strFilePath3;
+                                                        break;
+                                                    case ChineseVariantType.ChineseOfTaiwanPinyinWriting:
+                                                        strFilePath = strFilePath4;
+                                                        break;
+                                                    case ChineseVariantType.ZhuyinFuhaoWritingOfTaiwan:
+                                                        strFilePath = strFilePath5;
+                                                        break;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
 
@@ -3638,7 +3929,7 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@SelahJazz26/videos");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Back+to+the+Golden+Days++50s+60s+Doo-Wop+Love+Songs+Upright+Classic+Oldies");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
-                                oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69")
+                                oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69");
                             }
                             break;
                     }
@@ -3730,6 +4021,7 @@ namespace VokabelTrainer
                         oResult.Add(@"https://www.youtube.com/@Sky_Dove/videos");
                         oResult.Add(@"https://www.youtube.com/@SMARTCHRISTIANMELODIES/videos");
                         oResult.Add(@"https://www.youtube.com/@%D0%A1%D0%92%D0%95%D0%A2%D0%9B%D0%AB%D0%95%D0%9F%D0%95%D0%A1%D0%9D%D0%98");
+                        oResult.Add(@"https://www.youtube.com/@Grace_Music28/videos");
                     }
                 }
             }
