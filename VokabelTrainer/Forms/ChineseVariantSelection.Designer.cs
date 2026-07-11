@@ -76,7 +76,6 @@
             // m_rbChinesePeoplesRepublicOfChina
             // 
             this.m_rbChinesePeoplesRepublicOfChina.AutoSize = true;
-            this.m_rbChinesePeoplesRepublicOfChina.Checked = true;
             this.m_rbChinesePeoplesRepublicOfChina.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.m_rbChinesePeoplesRepublicOfChina.Location = new System.Drawing.Point(20, 90);
             this.m_rbChinesePeoplesRepublicOfChina.Name = "m_rbChinesePeoplesRepublicOfChina";

@@ -88,7 +88,7 @@ namespace VokabelTrainer.Forms
                     (eVariants & ChineseVariantType.ZhuyinFuhaoWritingOfTaiwan) != ChineseVariantType.None;
 
             if (m_rbChinesePeoplesRepublicOfChina.Enabled)
-                m_rbZhuyinFuhaoWritingOfTaiwan.Checked = true;
+                m_rbChinesePeoplesRepublicOfChina.Checked = true;
             else if (m_rbTraditionalChineseLanguageOfTaiwan.Enabled)
                 m_rbTraditionalChineseLanguageOfTaiwan.Checked = true;
             else if (m_rbZhuyinFuhaoWritingOfTaiwan.Enabled)

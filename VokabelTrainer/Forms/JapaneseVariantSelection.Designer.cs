@@ -45,7 +45,6 @@
             // m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage
             // 
             resources.ApplyResources(this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage, "m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage");
-            this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Checked = true;
             this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Name = "m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage";
             this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.TabStop = true;
             this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.UseVisualStyleBackColor = true;
