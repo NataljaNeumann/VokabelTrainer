@@ -3858,6 +3858,7 @@ namespace VokabelTrainer
                                     // good sound but no lyrics and a still image at the moment
                                     // oResult.Add(@"https://www.youtube.com/@jonahkingoficial/videos");
                                     // oResult.Add(@"https://www.youtube.com/@ALABANZAREGGAE/videos);
+                                    // oResult.Add(@"https://www.youtube.com/@AlmaAndinaenAdoraci%C3%B3nk7y/videos");
 
                                     // country
                                     oResult.Add(@"https://www.youtube.com/@RadioGuitarraRustica97/videos");
@@ -3871,6 +3872,9 @@ namespace VokabelTrainer
 
                                     // pop, miscellaneous
                                     oResult.Add(@"https://www.youtube.com/@Pitbulllatin/videos");
+
+                                    // Got talent style
+                                    // https://www.youtube.com/@VocesRotas-YT
                                 }
                                 break;
                         }
