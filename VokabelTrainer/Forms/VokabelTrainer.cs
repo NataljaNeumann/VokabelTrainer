@@ -3780,6 +3780,20 @@ namespace VokabelTrainer
                                 // for language speakers that aren't muslim add visionary christian songs
                                 oResult.Add(@"https://www.youtube.com/results?search_query=MARYLINE+ORCEL+Digne+est+l%27Agneau+%E2%80%93+Louange+et+Adoration");
                                 oResult.Add(@"https://www.youtube.com/@Bible-A.I/videos");
+                                oResult.Add(@"https://www.youtube.com/@Rozoart");
+                                oResult.Add(@"https://www.youtube.com/@agencepourleciel/videos");
+                                oResult.Add(@"https://www.youtube.com/@VoiesDuCiel/videos");
+                                //https://www.youtube.com/@ChristSoulMusic
+                                //https://www.youtube.com/@KompaGospel-Vibes
+                                //https://www.youtube.com/@MusicforPeace-w3c
+                                //https://www.youtube.com/@VwaLafwa
+                                //https://www.youtube.com/@LesBrebisDuChrist
+                                //https://www.youtube.com/@VibeC%C3%A9leste-y7h
+                                //https://www.youtube.com/@Adoriva-c9r
+                                //https://www.youtube.com/@HarmonieDuciel-k7f
+                                //https://www.youtube.com/@ZionRootwaveTV
+                                //https://www.youtube.com/@ZionSoundsOfficiel
+                                //https://www.youtube.com/@FrReggae-2
                                 //https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise
                                 //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             }
@@ -3869,6 +3883,7 @@ namespace VokabelTrainer
                                     oResult.Add(@"https://www.youtube.com/@ReggaedeSi%C3%B3n/videos");
                                     oResult.Add(@"https://www.youtube.com/@LionofZionRecords/videos");
                                     oResult.Add(@"https://www.youtube.com/@ReggaeCristianodeFuego/videos");
+                                    oResult.Add(@"https://www.youtube.com/@ReggaeQueSanaGospel");
 
                                     // pop, miscellaneous
                                     oResult.Add(@"https://www.youtube.com/@Pitbulllatin/videos");
@@ -3931,6 +3946,12 @@ namespace VokabelTrainer
                     // for language speakers that aren't muslim add visionary christian songs with lyrics
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
+                        case "ig":
+                            oResult.Add(@"https://www.youtube.com/@ChisomigboWorship");
+                            goto default;
+                        case "yo":
+                            oResult.Add(@"https://www.youtube.com/@RroyalHeritage/videos");
+                            goto default;
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
                             oResult.Add(@"https://www.youtube.com/@EchoesJerusalem/videos");
@@ -3949,6 +3970,7 @@ namespace VokabelTrainer
                             if (!Program.IslamicCountry)
                             {
                                 oResult.Add(@"https://www.youtube.com/results?search_query=divine+harmony+choir+lyrics");
+                                oResult.Add(@"https://www.youtube.com/@angelicpsalms1");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=christian+reggae+lyrics");
                                 oResult.Add(@"https://www.youtube.com/@KingdomGlorySounds/videos");
                                 oResult.Add(@"https://www.youtube.com/@Prayercoffeejazz-o5p");
@@ -3958,6 +3980,12 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Back+to+the+Golden+Days++50s+60s+Doo-Wop+Love+Songs+Upright+Classic+Oldies");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
                                 oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69");
+                                oResult.Add(@"https://www.youtube.com/@CountryLoveStories-o1d/videos");
+                                
+                                // https://www.youtube.com/@ZIONBEATS-j1t/videos
+                                // https://www.youtube.com/@REGGAEPRAISEHUB
+                                // https://www.youtube.com/@ScriptureHarmonies
+                                // https://www.youtube.com/@ROOTREGGAEPARADISE
                             }
                             break;
                     }
@@ -4322,7 +4350,19 @@ namespace VokabelTrainer
                 }
             }
 
-        
+            // if current culture isn't Yoruba
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("yo"))
+            {
+                // and one of the trained languages is Yoruba
+                if (strLanguageFirst3.Equals("Yor", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        oResult.Add(@"https://www.youtube.com/@RroyalHeritage/videos");
+                    }
+                }
+            }
 
             return oResult;
         }
