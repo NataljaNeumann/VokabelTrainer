@@ -3816,6 +3816,7 @@ namespace VokabelTrainer
                         switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                         {
                             case "he":
+                                // israel-related
                                 oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
                                 oResult.Add(@"https://www.youtube.com/@AsuNombre_com/videos");
                                 oResult.Add(@"https://www.youtube.com/@EcosdeAdoraci%C3%B3n-k3c");
@@ -3823,10 +3824,11 @@ namespace VokabelTrainer
                             default:
                                 if (!Program.IslamicCountry)
                                 {
+                                    // visionary celestial
                                     oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
                                     oResult.Add(@"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
                                     oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
-                                    oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+
                                     if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                                     {
                                         // these use a word that doesn't work in hebrew
@@ -3836,17 +3838,39 @@ namespace VokabelTrainer
                                         oResult.Add(@"https://www.youtube.com/@purogozo/videos");
                                     }
 
+                                    // Cumbia
                                     oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
                                     oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                                     oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
-                                    oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
-                                    oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
+                                    oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
+                                    oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+
+                                    // Calm music
                                     oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
                                     oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
-                                    oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
                                     oResult.Add(@"https://www.youtube.com/@VibrasqueFlorecen/videos");
+
+                                    // Jazz
                                     oResult.Add(@"https://www.youtube.com/@flowsanto");
-                                    oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
+                                    oResult.Add(@"https://www.youtube.com/@selahjazzes/videos");
+
+                                    // good sound but no lyrics and a still image at the moment
+                                    // oResult.Add(@"https://www.youtube.com/@jonahkingoficial/videos");
+                                    // oResult.Add(@"https://www.youtube.com/@ALABANZAREGGAE/videos);
+
+                                    // country
+                                    oResult.Add(@"https://www.youtube.com/@RadioGuitarraRustica97/videos");
+                                    oResult.Add(@"https://www.youtube.com/@alientto.musical/videos");
+
+                                    // reggae
+                                    oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
+                                    oResult.Add(@"https://www.youtube.com/@ReggaedeSi%C3%B3n/videos");
+                                    oResult.Add(@"https://www.youtube.com/@LionofZionRecords/videos");
+                                    oResult.Add(@"https://www.youtube.com/@ReggaeCristianodeFuego/videos");
+
+                                    // pop, miscellaneous
+                                    oResult.Add(@"https://www.youtube.com/@Pitbulllatin/videos");
                                 }
                                 break;
                         }
