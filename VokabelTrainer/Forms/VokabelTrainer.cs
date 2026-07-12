@@ -3799,6 +3799,11 @@ namespace VokabelTrainer
                                 //https://www.youtube.com/@louangeelevee/videos
                                 //https://www.youtube.com/@ChantDivinOfficiel
                                 //https://www.youtube.com/@ECHODEGLOIRE4/videos
+                                //https://www.youtube.com/@Chantsdelouangeetdadoration
+                                //https://www.youtube.com/@coeurdadoration-y3n/videos
+                                //https://www.youtube.com/@TheRudypierre/videos
+                                //https://www.youtube.com/@RhythmInTheWord
+                                //https://www.youtube.com/@AmbientPianoWorship-Fran%C3%A7ais
                                 //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             }
                             break;
@@ -3833,6 +3838,17 @@ namespace VokabelTrainer
                     {
                         switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                         {
+                            case "ig":
+                            case "am":
+                            case "af":
+                            case "rw":
+                            case "sw":
+                            case "ti":
+                            case "yo":
+                                // good sound but no lyrics and a still image at the moment
+                                oResult.Add(@"https://www.youtube.com/@jonahkingoficial/videos");
+                                goto default;
+
                             case "he":
                                 // israel-related
                                 oResult.Add(@"https://www.youtube.com/@AdonaiMusic40/videos");
@@ -3952,9 +3968,20 @@ namespace VokabelTrainer
                     {
                         case "ig":
                             oResult.Add(@"https://www.youtube.com/@ChisomigboWorship");
-                            goto default;
+                            goto case "sw";
                         case "yo":
                             oResult.Add(@"https://www.youtube.com/@RroyalHeritage/videos");
+                            goto case "sw";
+                        case "am":
+                        case "af":
+                        case "rw":
+                        case "sw":
+                        case "ti":
+                            // Church-like gospel
+                            oResult.Add("https://www.youtube.com/@SoulfulRhythmReggae/videos");
+                            // African style
+                            oResult.Add("https://www.youtube.com/@UbuntuAncestralChoir/videos");
+                            oResult.Add("https://www.youtube.com/@REGGAEREVIVALGOSPEL/videos");
                             goto default;
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
