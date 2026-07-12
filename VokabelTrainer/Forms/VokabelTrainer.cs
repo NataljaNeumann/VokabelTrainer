@@ -3781,8 +3781,10 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=MARYLINE+ORCEL+Digne+est+l%27Agneau+%E2%80%93+Louange+et+Adoration");
                                 oResult.Add(@"https://www.youtube.com/@Bible-A.I/videos");
                                 oResult.Add(@"https://www.youtube.com/@Rozoart");
-                                oResult.Add(@"https://www.youtube.com/@agencepourleciel/videos");
                                 oResult.Add(@"https://www.youtube.com/@VoiesDuCiel/videos");
+                                //oResult.Add(@"https://www.youtube.com/@agencepourleciel/videos");
+                                oResult.Add(@"https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise");
+                                oResult.Add(@"https://www.youtube.com/@gracedivinebeni/videos");
                                 //https://www.youtube.com/@ChristSoulMusic
                                 //https://www.youtube.com/@KompaGospel-Vibes
                                 //https://www.youtube.com/@MusicforPeace-w3c
@@ -3794,7 +3796,9 @@ namespace VokabelTrainer
                                 //https://www.youtube.com/@ZionRootwaveTV
                                 //https://www.youtube.com/@ZionSoundsOfficiel
                                 //https://www.youtube.com/@FrReggae-2
-                                //https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise
+                                //https://www.youtube.com/@louangeelevee/videos
+                                //https://www.youtube.com/@ChantDivinOfficiel
+                                //https://www.youtube.com/@ECHODEGLOIRE4/videos
                                 //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             }
                             break;
