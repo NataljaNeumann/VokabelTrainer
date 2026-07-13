@@ -3768,6 +3768,18 @@ namespace VokabelTrainer
 
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
                     {
+                        case "ig":
+                        case "am":
+                        case "af":
+                        case "rw":
+                        case "sw":
+                        case "ti":
+                        case "yo":
+                            // african style
+                            oResult.Add(@"https://www.youtube.com/@universalworshipmusic");
+                            oResult.Add(@"https://www.youtube.com/@DieuMeRel%C3%A8ve/videos");
+                            oResult.Add(@"https://www.youtube.com/@AfroHarmonie/videos");
+                            goto default;
                         case "de":
                             oResult.Add(@"https://onlineuebung.de/franzoesisch/franzoesische-lernspiele/");
                             // for german speakers: Witch Huckla / French
@@ -3785,6 +3797,9 @@ namespace VokabelTrainer
                                 //oResult.Add(@"https://www.youtube.com/@agencepourleciel/videos");
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Agence+pour+le+ciel+fran%C3%A7aise");
                                 oResult.Add(@"https://www.youtube.com/@gracedivinebeni/videos");
+                                oResult.Add(@"https://www.youtube.com/@Chansonschr%C3%A9tienneslibres/videos");
+                                oResult.Add(@"https://www.youtube.com/@ShadayahGospelMinistry/videos");
+                                oResult.Add(@"https://www.youtube.com/@FLAMMEDIVINEGOSPEL/videos");
                                 //https://www.youtube.com/@ChristSoulMusic
                                 //https://www.youtube.com/@KompaGospel-Vibes
                                 //https://www.youtube.com/@MusicforPeace-w3c
@@ -3804,6 +3819,13 @@ namespace VokabelTrainer
                                 //https://www.youtube.com/@TheRudypierre/videos
                                 //https://www.youtube.com/@RhythmInTheWord
                                 //https://www.youtube.com/@AmbientPianoWorship-Fran%C3%A7ais
+                                //https://www.youtube.com/@AutelDeladoration/videos
+                                //https://www.youtube.com/watch?v=vlVn_zdtL44
+                                //https://www.youtube.com/@Fr%C3%A9quenceC%C3%A9leste-777
+                                //https://www.youtube.com/@Stone2-j6f/videos
+                                //https://www.youtube.com/@EmWorship-b4n/videos
+                                //https://www.youtube.com/@%C3%89lioraMika%C3%ABl/videos
+                                //https://www.youtube.com/@RiseofLightStudiosFR/videos
                                 //https://www.youtube.com/results?search_query=DANS+LE+CIEL+AVEC+JESUS.+Du+ciel+bient%C3%B4t.+Jesus+va+faire+son+apparition.+Es+tu+prets%3F+HOSANA+BENI+SOIT+L%27ETERNEL.+UN+GRAND+JOUR+DANS+LE+CIEL.+Ce+que+sa+bouche+a+dit%2C+Sa+main+I%E2%80%99accomplira+Alleluia%21+Alleluia%21+Car+iI+est+notre+Dieu.+JESUS+ROIS+DES+ROIS
                             }
                             break;
@@ -3844,9 +3866,15 @@ namespace VokabelTrainer
                             case "rw":
                             case "sw":
                             case "ti":
+                            case "wo":
                             case "yo":
                                 // good sound but no lyrics and a still image at the moment
                                 oResult.Add(@"https://www.youtube.com/@jonahkingoficial/videos");
+                                // african style
+                                oResult.Add(@"https://www.youtube.com/@ReggaedeSi%C3%B3n/videos");
+                                // good sound and video but no lyrics, still give it a chance
+                                oResult.Add(@"https://www.youtube.com/@ReggaeCristianodeFuego/videos");
+
                                 goto default;
 
                             case "he":
@@ -3873,7 +3901,7 @@ namespace VokabelTrainer
                                     }
 
                                     // Cumbia
-                                    oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
+                                    // oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
                                     oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                                     oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                                     oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
@@ -3900,9 +3928,7 @@ namespace VokabelTrainer
 
                                     // reggae
                                     oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
-                                    oResult.Add(@"https://www.youtube.com/@ReggaedeSi%C3%B3n/videos");
                                     oResult.Add(@"https://www.youtube.com/@LionofZionRecords/videos");
-                                    oResult.Add(@"https://www.youtube.com/@ReggaeCristianodeFuego/videos");
                                     oResult.Add(@"https://www.youtube.com/@ReggaeQueSanaGospel");
 
                                     // pop, miscellaneous
@@ -3977,11 +4003,13 @@ namespace VokabelTrainer
                         case "rw":
                         case "sw":
                         case "ti":
+                        case "wo":
                             // Church-like gospel
                             oResult.Add("https://www.youtube.com/@SoulfulRhythmReggae/videos");
                             // African style
                             oResult.Add("https://www.youtube.com/@UbuntuAncestralChoir/videos");
                             oResult.Add("https://www.youtube.com/@REGGAEREVIVALGOSPEL/videos");
+                            oResult.Add("https://www.youtube.com/@DailySoulBloom/videos");
                             goto default;
                         case "he":
                             oResult.Add(@"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics");
@@ -4012,11 +4040,13 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/results?search_query=Golden+Oldies+Memories+1950s+Americana+Doo-Wop+Love+Song+%7C+Back+to+the+Golden+Days");
                                 oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69");
                                 oResult.Add(@"https://www.youtube.com/@CountryLoveStories-o1d/videos");
-                                
+                                oResult.Add(@"https://www.youtube.com/@ZionEchoCovers/videos");
+
                                 // https://www.youtube.com/@ZIONBEATS-j1t/videos
                                 // https://www.youtube.com/@REGGAEPRAISEHUB
                                 // https://www.youtube.com/@ScriptureHarmonies
                                 // https://www.youtube.com/@ROOTREGGAEPARADISE
+                                // https://www.youtube.com/@JahGuideMyWay/videos
                             }
                             break;
                     }
@@ -4307,6 +4337,7 @@ namespace VokabelTrainer
                             oResult.Add(@"https://www.youtube.com/results?search_query=timeless+hebrew+tunes");
                             oResult.Add(@"https://www.youtube.com/@JerusalemVoicesofWorship/videos");
                             oResult.Add(@"https://www.youtube.com/@AmetsOfZion/videos");
+                            oResult.Add(@"https://www.youtube.com/@FrecuenciaYeshuaa");
                         }
                     }
                 }
