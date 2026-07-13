@@ -1581,18 +1581,37 @@ namespace VokabelTrainer
                                 }
 
 
+                                string strFilePath4 = null;
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                     strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + "3.xml");
+                                if (strFilePath4 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath4 = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" +
+                                    LanguagePart(strCode2) + "4.xml");
+                                if (strFilePath4 == null && File.Exists(strTestedPath))
+                                {
+                                    strFilePath4 = strTestedPath;
+                                }
+
 
                                 if ((strFilePath != null ? 1 : 0) +
                                     (strFilePath1 != null ? 1 : 0) +
                                     (strFilePath2 != null ? 1 : 0) +
-                                    (strFilePath3 != null ? 1 : 0) > 1)
+                                    (strFilePath3 != null ? 1 : 0) +
+                                    (strFilePath != null ? 1 : 0) > 1)
                                 {
                                     using (JapaneseVariantSelection oForm =
                                         new JapaneseVariantSelection(
                                             (strFilePath != null ? JapaneseVariantType.KanjiAndHiraganaAndKatakanaNormalJapaneseLanguage : JapaneseVariantType.None) |
                                             (strFilePath1 != null ? JapaneseVariantType.JapaneseHiraganaOnly : JapaneseVariantType.None) |
                                             (strFilePath2 != null ? JapaneseVariantType.JapaneseRomajiOnly : JapaneseVariantType.None) |
-                                            (strFilePath3 != null ? JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly : JapaneseVariantType.None)
+                                            (strFilePath3 != null ? JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly : JapaneseVariantType.None) |
+                                            (strFilePath4 != null ? JapaneseVariantType.JapaneseLatinRomaji : JapaneseVariantType.None)
                                             ))
                                     {
                                         oForm.RightToLeft = this.RightToLeft;
@@ -1612,6 +1631,10 @@ namespace VokabelTrainer
                                                     break;
                                                 case JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly:
                                                     strFilePath = strFilePath3;
+                                                    bSpecialJapanese = true;
+                                                    break;
+                                                case JapaneseVariantType.JapaneseLatinRomaji:
+                                                    strFilePath = strFilePath4;
                                                     bSpecialJapanese = true;
                                                     break;
                                             }

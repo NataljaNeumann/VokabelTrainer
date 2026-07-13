@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_lblJapaneseVariant.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -205,40 +205,40 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_rbJapaneseRomajiOnly.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_rbJapaneseRomajiOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 168</value>
-  </data>
-  <data name="m_rbJapaneseRomajiOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 29</value>
-  </data>
-  <data name="m_rbJapaneseRomajiOnly.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="m_rbJapaneseRomajiOnly.Text" xml:space="preserve">
-    <value>Romaji</value>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiOnly.Name" xml:space="preserve">
-    <value>m_rbJapaneseRomajiOnly</value>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 168</value>
   </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiOnly.Type" xml:space="preserve">
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 29</value>
+  </data>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Text" xml:space="preserve">
+    <value>Rōmaji with special lettters</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Name" xml:space="preserve">
+    <value>m_rbJapaneseRomajiWithLatinAndOtherLetters</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiOnly.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiOnly.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="m_btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="m_btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>679, 212</value>
+    <value>679, 233</value>
   </data>
   <data name="m_btnOk.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 38</value>
@@ -259,7 +259,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_btnOk.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="m_rbJapaneseKatakanaAndHiragadaOnly.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -268,7 +268,7 @@
     <value>NoControl</value>
   </data>
   <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 203</value>
+    <value>29, 238</value>
   </data>
   <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 29</value>
@@ -289,6 +289,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 203</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 29</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Text" xml:space="preserve">
+    <value>Romaji with only latin letters</value>
+  </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Name" xml:space="preserve">
+    <value>m_rbRomajiUsingLatinLettersOnly</value>
+  </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -298,7 +328,7 @@
     <value>12, 25</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>827, 277</value>
+    <value>827, 298</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>

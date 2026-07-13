@@ -32,9 +32,10 @@
             this.m_lblJapaneseVariant = new System.Windows.Forms.Label();
             this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage = new System.Windows.Forms.RadioButton();
             this.m_rbJapaneseHiraganaOnly = new System.Windows.Forms.RadioButton();
-            this.m_rbJapaneseRomajiOnly = new System.Windows.Forms.RadioButton();
+            this.m_rbJapaneseRomajiWithLatinAndOtherLetters = new System.Windows.Forms.RadioButton();
             this.m_btnOk = new System.Windows.Forms.Button();
             this.m_rbJapaneseKatakanaAndHiragadaOnly = new System.Windows.Forms.RadioButton();
+            this.m_rbRomajiUsingLatinLettersOnly = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // m_lblJapaneseVariant
@@ -57,12 +58,12 @@
             this.m_rbJapaneseHiraganaOnly.UseVisualStyleBackColor = true;
             this.m_rbJapaneseHiraganaOnly.CheckedChanged += new System.EventHandler(this.m_rbJapaneseHiraganaOnly_CheckedChanged);
             // 
-            // m_rbJapaneseRomajiOnly
+            // m_rbJapaneseRomajiWithLatinAndOtherLetters
             // 
-            resources.ApplyResources(this.m_rbJapaneseRomajiOnly, "m_rbJapaneseRomajiOnly");
-            this.m_rbJapaneseRomajiOnly.Name = "m_rbJapaneseRomajiOnly";
-            this.m_rbJapaneseRomajiOnly.UseVisualStyleBackColor = true;
-            this.m_rbJapaneseRomajiOnly.CheckedChanged += new System.EventHandler(this.m_rbJapaneseRomajiOnly_CheckedChanged);
+            resources.ApplyResources(this.m_rbJapaneseRomajiWithLatinAndOtherLetters, "m_rbJapaneseRomajiWithLatinAndOtherLetters");
+            this.m_rbJapaneseRomajiWithLatinAndOtherLetters.Name = "m_rbJapaneseRomajiWithLatinAndOtherLetters";
+            this.m_rbJapaneseRomajiWithLatinAndOtherLetters.UseVisualStyleBackColor = true;
+            this.m_rbJapaneseRomajiWithLatinAndOtherLetters.CheckedChanged += new System.EventHandler(this.m_rbJapaneseRomajiOnly_CheckedChanged);
             // 
             // m_btnOk
             // 
@@ -78,14 +79,22 @@
             this.m_rbJapaneseKatakanaAndHiragadaOnly.UseVisualStyleBackColor = true;
             this.m_rbJapaneseKatakanaAndHiragadaOnly.CheckedChanged += new System.EventHandler(this.m_rbJapaneseKatakanaAndHiragadaOnly_CheckedChanged);
             // 
+            // m_rbRomajiUsingLatinLettersOnly
+            // 
+            resources.ApplyResources(this.m_rbRomajiUsingLatinLettersOnly, "m_rbRomajiUsingLatinLettersOnly");
+            this.m_rbRomajiUsingLatinLettersOnly.Name = "m_rbRomajiUsingLatinLettersOnly";
+            this.m_rbRomajiUsingLatinLettersOnly.UseVisualStyleBackColor = true;
+            this.m_rbRomajiUsingLatinLettersOnly.CheckedChanged += new System.EventHandler(this.m_rbRomajiUsingLatinLettersOnly_CheckedChanged);
+            // 
             // JapaneseVariantSelection
             // 
             this.AcceptButton = this.m_btnOk;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.m_rbRomajiUsingLatinLettersOnly);
             this.Controls.Add(this.m_rbJapaneseKatakanaAndHiragadaOnly);
             this.Controls.Add(this.m_btnOk);
-            this.Controls.Add(this.m_rbJapaneseRomajiOnly);
+            this.Controls.Add(this.m_rbJapaneseRomajiWithLatinAndOtherLetters);
             this.Controls.Add(this.m_rbJapaneseHiraganaOnly);
             this.Controls.Add(this.m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage);
             this.Controls.Add(this.m_lblJapaneseVariant);
@@ -103,8 +112,9 @@
         private System.Windows.Forms.Label m_lblJapaneseVariant;
         private System.Windows.Forms.RadioButton m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage;
         private System.Windows.Forms.RadioButton m_rbJapaneseHiraganaOnly;
-        private System.Windows.Forms.RadioButton m_rbJapaneseRomajiOnly;
+        private System.Windows.Forms.RadioButton m_rbJapaneseRomajiWithLatinAndOtherLetters;
         private System.Windows.Forms.Button m_btnOk;
         private System.Windows.Forms.RadioButton m_rbJapaneseKatakanaAndHiragadaOnly;
+        private System.Windows.Forms.RadioButton m_rbRomajiUsingLatinLettersOnly;
     }
 }

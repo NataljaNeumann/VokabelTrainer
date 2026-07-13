@@ -40,8 +40,9 @@ namespace VokabelTrainer.Forms
         KanjiAndHiraganaAndKatakanaNormalJapaneseLanguage = 1,
         JapaneseHiraganaOnly = 2,
         JapaneseRomajiOnly = 4,
-        JapaneseKatakanaAndHiragadaOnly = 8,
-        All = 15
+        JapaneseLatinRomaji = 8,
+        JapaneseKatakanaAndHiragadaOnly = 16,
+        All = 31
     }
 
     //*******************************************************************************************************
@@ -67,10 +68,14 @@ namespace VokabelTrainer.Forms
                     (eVariants & JapaneseVariantType.JapaneseHiraganaOnly) != JapaneseVariantType.None;
 
 
-            m_rbJapaneseRomajiOnly.Visible =
-                m_rbJapaneseRomajiOnly.Enabled =
+            m_rbJapaneseRomajiWithLatinAndOtherLetters.Visible =
+                m_rbJapaneseRomajiWithLatinAndOtherLetters.Enabled =
                     (eVariants & JapaneseVariantType.JapaneseRomajiOnly) != JapaneseVariantType.None;
 
+
+            m_rbRomajiUsingLatinLettersOnly.Visible =
+                m_rbRomajiUsingLatinLettersOnly.Enabled =
+                    (eVariants & JapaneseVariantType.JapaneseLatinRomaji) != JapaneseVariantType.None;
 
             m_rbJapaneseKatakanaAndHiragadaOnly.Visible =
                 m_rbJapaneseKatakanaAndHiragadaOnly.Enabled =
@@ -83,8 +88,10 @@ namespace VokabelTrainer.Forms
                 m_rbJapaneseKatakanaAndHiragadaOnly.Checked = true;
             else if (m_rbJapaneseHiraganaOnly.Enabled)
                 m_rbJapaneseHiraganaOnly.Checked = true;
-            else if (m_rbJapaneseRomajiOnly.Enabled)
-                m_rbJapaneseRomajiOnly.Checked = true;
+            else if (m_rbRomajiUsingLatinLettersOnly.Enabled)
+                m_rbRomajiUsingLatinLettersOnly.Checked = true;
+            else if (m_rbJapaneseRomajiWithLatinAndOtherLetters.Enabled)
+                m_rbJapaneseRomajiWithLatinAndOtherLetters.Checked = true;
             else
                 throw new InvalidEnumArgumentException(nameof(eVariants));
 
@@ -277,6 +284,11 @@ namespace VokabelTrainer.Forms
         private void m_btnOk_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
+        }
+
+        private void m_rbRomajiUsingLatinLettersOnly_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
