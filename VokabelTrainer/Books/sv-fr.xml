@@ -869,6 +869,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="199">
     <erste-sprache>få</erste-sprache><zweite-sprache>obtenir</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="199">
+    <erste-sprache>få</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="200">
     <erste-sprache>program</erste-sprache><zweite-sprache>programme</zweite-sprache>
   </vokabel-paar>
@@ -3822,7 +3825,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>befordran</erste-sprache><zweite-sprache>promotion</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="865">
-    <erste-sprache>/prezɛnˈteːrə(n)/</erste-sprache><zweite-sprache>présenter</zweite-sprache>
+    <erste-sprache>presentera</erste-sprache><zweite-sprache>présenter</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="866">
     <erste-sprache>investering</erste-sprache><zweite-sprache>investissement</zweite-sprache>
@@ -4332,529 +4335,526 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>vid</erste-sprache><zweite-sprache>au</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="977">
-    <erste-sprache>summa</erste-sprache><zweite-sprache>somme</zweite-sprache>
+    <erste-sprache>kraft</erste-sprache><zweite-sprache>force</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="978">
-    <erste-sprache>ordförande</erste-sprache><zweite-sprache>chef</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="979">
-    <erste-sprache>ungefär</erste-sprache><zweite-sprache>environ</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="980">
-    <erste-sprache>människor</erste-sprache><zweite-sprache>gens</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="980">
-    <erste-sprache>människor</erste-sprache><zweite-sprache>les gens</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="981">
-    <erste-sprache>anfaller</erste-sprache><zweite-sprache>attaquons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="981">
-    <erste-sprache>anfaller</erste-sprache><zweite-sprache>attaquez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="982">
-    <erste-sprache>honom</erste-sprache><zweite-sprache>lui</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="983">
-    <erste-sprache>säger</erste-sprache><zweite-sprache>disons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="983">
-    <erste-sprache>säger</erste-sprache><zweite-sprache>dites</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="983">
-    <erste-sprache>säger</erste-sprache><zweite-sprache>dit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="984">
-    <erste-sprache>sagd</erste-sprache><zweite-sprache>dit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="985">
-    <erste-sprache>utkast</erste-sprache><zweite-sprache>projets</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="986">
-    <erste-sprache>kan</erste-sprache><zweite-sprache>est capable de</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="986">
-    <erste-sprache>kan</erste-sprache><zweite-sprache>peut</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="986">
-    <erste-sprache>kan</erste-sprache><zweite-sprache>pouvons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="986">
-    <erste-sprache>kan</erste-sprache><zweite-sprache>pouvez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="987">
-    <erste-sprache>organ</erste-sprache><zweite-sprache>comités</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="988">
-    <erste-sprache>bolag</erste-sprache><zweite-sprache>société anonyme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="989">
-    <erste-sprache>olika</erste-sprache><zweite-sprache>divers</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="989">
-    <erste-sprache>olika</erste-sprache><zweite-sprache>différentes</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="990">
-    <erste-sprache>plikt</erste-sprache><zweite-sprache>devoir</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="990">
-    <erste-sprache>böra</erste-sprache><zweite-sprache>devoir</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="991">
-    <erste-sprache>bör</erste-sprache><zweite-sprache>devriez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="991">
-    <erste-sprache>bör</erste-sprache><zweite-sprache>devrait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="991">
-    <erste-sprache>bör</erste-sprache><zweite-sprache>devons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="991">
-    <erste-sprache>bör</erste-sprache><zweite-sprache>devez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="991">
-    <erste-sprache>bör</erste-sprache><zweite-sprache>doit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="992">
-    <erste-sprache>var tvungen att</erste-sprache><zweite-sprache>a dû</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="993">
-    <erste-sprache>handling</erste-sprache><zweite-sprache>acte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="994">
-    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laissons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="994">
-    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laissez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="994">
-    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laisse</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="995">
-    <erste-sprache>poserade</erste-sprache><zweite-sprache>ai posé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="995">
-    <erste-sprache>poserade</erste-sprache><zweite-sprache>as posé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="996">
-    <erste-sprache>skuld</erste-sprache><zweite-sprache>dette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="996">
-    <erste-sprache>skuld</erste-sprache><zweite-sprache>faute</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="996">
-    <erste-sprache>skuld</erste-sprache><zweite-sprache>culpabilité</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="997">
-    <erste-sprache>arbete</erste-sprache><zweite-sprache>travail</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="998">
-    <erste-sprache>ljus</erste-sprache><zweite-sprache>lumière</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="999">
-    <erste-sprache>jag ska</erste-sprache><zweite-sprache>j'vais</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1000">
-    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aidons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1000">
-    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aidez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1000">
-    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aide</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1001">
-    <erste-sprache>skulle</erste-sprache><zweite-sprache>serions</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1002">
-    <erste-sprache>punkt</erste-sprache><zweite-sprache>point</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1003">
-    <erste-sprache>delar</erste-sprache><zweite-sprache>partageons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1003">
-    <erste-sprache>delar</erste-sprache><zweite-sprache>partagez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1003">
-    <erste-sprache>delar</erste-sprache><zweite-sprache>partage</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1004">
-    <erste-sprache>till och med</erste-sprache><zweite-sprache>même</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1004">
-    <erste-sprache>ens</erste-sprache><zweite-sprache>même</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1005">
-    <erste-sprache>den här</erste-sprache><zweite-sprache>ce</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1005">
-    <erste-sprache>den här</erste-sprache><zweite-sprache>cette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1005">
-    <erste-sprache>den här</erste-sprache><zweite-sprache>à ce</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1006">
-    <erste-sprache>lägger</erste-sprache><zweite-sprache>mettons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1006">
-    <erste-sprache>lägger</erste-sprache><zweite-sprache>mettez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1006">
-    <erste-sprache>lägger</erste-sprache><zweite-sprache>met</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1007">
-    <erste-sprache>lämna kvar</erste-sprache><zweite-sprache>laisser</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1008">
-    <erste-sprache>leder</erste-sprache><zweite-sprache>menons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1008">
-    <erste-sprache>leder</erste-sprache><zweite-sprache>menez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1008">
-    <erste-sprache>leder</erste-sprache><zweite-sprache>mène</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1009">
-    <erste-sprache>inga</erste-sprache><zweite-sprache>aucun</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1010">
-    <erste-sprache>kallade</erste-sprache><zweite-sprache>ai appelé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1010">
-    <erste-sprache>kallade</erste-sprache><zweite-sprache>as appelé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1010">
-    <erste-sprache>kallade</erste-sprache><zweite-sprache>a appelé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1011">
-    <erste-sprache>stannar</erste-sprache><zweite-sprache>restons</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1011">
-    <erste-sprache>stannar</erste-sprache><zweite-sprache>restez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1012">
-    <erste-sprache>mängd</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1013">
-    <erste-sprache>mellan</erste-sprache><zweite-sprache>entre</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1014">
-    <erste-sprache>lev</erste-sprache><zweite-sprache>vis</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1014">
-    <erste-sprache>lev</erste-sprache><zweite-sprache>vivez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1015">
-    <erste-sprache>fond</erste-sprache><zweite-sprache>fonds</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1016">
-    <erste-sprache>de har gjort</erste-sprache><zweite-sprache>ils ont fait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1016">
-    <erste-sprache>de har gjort</erste-sprache><zweite-sprache>elles ont fait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1017">
-    <erste-sprache>bara</erste-sprache><zweite-sprache>juste</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1017">
-    <erste-sprache>bara</erste-sprache><zweite-sprache>seulement</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1017">
-    <erste-sprache>bara</erste-sprache><zweite-sprache>simplement</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1018">
-    <erste-sprache>just</erste-sprache><zweite-sprache>juste</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1019">
-    <erste-sprache>henne</erste-sprache><zweite-sprache>la</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1019">
-    <erste-sprache>henne</erste-sprache><zweite-sprache>lui</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1020">
-    <erste-sprache>anlände</erste-sprache><zweite-sprache>suis arrivé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1020">
-    <erste-sprache>anlände</erste-sprache><zweite-sprache>es arrivé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1021">
-    <erste-sprache>kände igen</erste-sprache><zweite-sprache>ai reconnu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1021">
-    <erste-sprache>kände igen</erste-sprache><zweite-sprache>as reconnu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1021">
-    <erste-sprache>kände igen</erste-sprache><zweite-sprache>a reconnu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1022">
-    <erste-sprache>nämnde</erste-sprache><zweite-sprache>ai mentionné</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1022">
-    <erste-sprache>nämnde</erste-sprache><zweite-sprache>as mentionné</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1022">
-    <erste-sprache>nämnde</erste-sprache><zweite-sprache>a mentionné</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1023">
-    <erste-sprache>nästa</erste-sprache><zweite-sprache>suivant</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1024">
-    <erste-sprache>stod</erste-sprache><zweite-sprache>suis resté</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1024">
-    <erste-sprache>stod</erste-sprache><zweite-sprache>es resté</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1024">
-    <erste-sprache>stod</erste-sprache><zweite-sprache>est resté</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1025">
-    <erste-sprache>aktier</erste-sprache><zweite-sprache>actions</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1026">
-    <erste-sprache>leda</erste-sprache><zweite-sprache>mener</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1027">
-    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>ai satisfait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1027">
-    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>as satisfait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1027">
-    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>a satisfait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1028">
-    <erste-sprache>kort sagt</erste-sprache><zweite-sprache>bref</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1029">
-    <erste-sprache>du har gått</erste-sprache><zweite-sprache>tu es allé</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1029">
-    <erste-sprache>du har gått</erste-sprache><zweite-sprache>tu es allée</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1030">
-    <erste-sprache>ni har gått</erste-sprache><zweite-sprache>vous êtes allés</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1031">
-    <erste-sprache>de har gått</erste-sprache><zweite-sprache>ils sont allés</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1031">
-    <erste-sprache>de har gått</erste-sprache><zweite-sprache>elles sont allées</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1032">
-    <erste-sprache>morgon</erste-sprache><zweite-sprache>matin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1033">
-    <erste-sprache>genom att</erste-sprache><zweite-sprache>en</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1034">
-    <erste-sprache>steg</erste-sprache><zweite-sprache>pas</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1034">
-    <erste-sprache>steg</erste-sprache><zweite-sprache>étapes</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1035">
-    <erste-sprache>till er</erste-sprache><zweite-sprache>à vous</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1036">
-    <erste-sprache>publikt aktiebolag</erste-sprache><zweite-sprache>société anonyme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1037">
-    <erste-sprache>tillsammans</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1037">
-    <erste-sprache>set</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1038">
-    <erste-sprache>skruv</erste-sprache><zweite-sprache>vis</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1039">
-    <erste-sprache>enkelt</erste-sprache><zweite-sprache>simplement</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1040">
-    <erste-sprache>följande</erste-sprache><zweite-sprache>suivant</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1041">
-    <erste-sprache>dem</erste-sprache><zweite-sprache>eux</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1042">
-    <erste-sprache>vara</erste-sprache><zweite-sprache>être</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1043">
-    <erste-sprache>din</erste-sprache><zweite-sprache>le tien</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1043">
-    <erste-sprache>din</erste-sprache><zweite-sprache>ton</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1043">
-    <erste-sprache>din</erste-sprache><zweite-sprache>ta</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1044">
-    <erste-sprache>dig</erste-sprache><zweite-sprache>toi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1044">
-    <erste-sprache>dig</erste-sprache><zweite-sprache>à toi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1045">
-    <erste-sprache>dina</erste-sprache><zweite-sprache>tes</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1046">
-    <erste-sprache>mer</erste-sprache><zweite-sprache>plus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1047">
-    <erste-sprache>över</erste-sprache><zweite-sprache>fini</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1047">
-    <erste-sprache>över</erste-sprache><zweite-sprache>au-dessus de</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1047">
-    <erste-sprache>över</erste-sprache><zweite-sprache>plus de</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1048">
-    <erste-sprache>avslutad</erste-sprache><zweite-sprache>fini</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1049">
-    <erste-sprache>mer än</erste-sprache><zweite-sprache>plus de</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1050">
-    <erste-sprache>förenad</erste-sprache><zweite-sprache>uni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1051">
-    <erste-sprache>förenade</erste-sprache><zweite-sprache>ai uni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1051">
-    <erste-sprache>förenade</erste-sprache><zweite-sprache>as uni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1051">
-    <erste-sprache>förenade</erste-sprache><zweite-sprache>a uni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1051">
-    <erste-sprache>förenade</erste-sprache><zweite-sprache>unis</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1052">
-    <erste-sprache>när</erste-sprache><zweite-sprache>quand</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1052">
-    <erste-sprache>när</erste-sprache><zweite-sprache>lorsque</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1053">
-    <erste-sprache>mygga</erste-sprache><zweite-sprache>moustique</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1054">
-    <erste-sprache>nationer</erste-sprache><zweite-sprache>nations</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1055">
-    <erste-sprache>kan vara</erste-sprache><zweite-sprache>peut être</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1056">
-    <erste-sprache>där</erste-sprache><zweite-sprache>y</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1056">
-    <erste-sprache>där</erste-sprache><zweite-sprache>là</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1056">
-    <erste-sprache>där</erste-sprache><zweite-sprache>il y a</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1057">
-    <erste-sprache>det finns</erste-sprache><zweite-sprache>il y a</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1058">
-    <erste-sprache>njuta</erste-sprache><zweite-sprache>apprécier</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1059">
-    <erste-sprache>njuter</erste-sprache><zweite-sprache>apprécions</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1059">
-    <erste-sprache>njuter</erste-sprache><zweite-sprache>appréciez</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1059">
-    <erste-sprache>njuter</erste-sprache><zweite-sprache>apprécie</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1060">
-    <erste-sprache>ifall</erste-sprache><zweite-sprache>au cas où</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1061">
-    <erste-sprache>eller snarare</erste-sprache><zweite-sprache>ou plutôt</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1062">
-    <erste-sprache>deras</erste-sprache><zweite-sprache>leur</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1062">
-    <erste-sprache>deras</erste-sprache><zweite-sprache>leurs</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1063">
-    <erste-sprache>varit</erste-sprache><zweite-sprache>été</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1063">
-    <erste-sprache>sommar</erste-sprache><zweite-sprache>été</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1064">
-    <erste-sprache>kan göras</erste-sprache><zweite-sprache>peut être fait</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1065">
-    <erste-sprache>gånger</erste-sprache><zweite-sprache>fois</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1066">
-    <erste-sprache>låt oss inte</erste-sprache><zweite-sprache>ne pas</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1067">
-    <erste-sprache>hit</erste-sprache><zweite-sprache>vers ici</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1068">
-    <erste-sprache>andra</erste-sprache><zweite-sprache>autres</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1068">
-    <erste-sprache>andra</erste-sprache><zweite-sprache>deuxième</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1068">
-    <erste-sprache>andra</erste-sprache><zweite-sprache>second</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1069">
-    <erste-sprache>annan</erste-sprache><zweite-sprache>autre</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1070">
-    <erste-sprache>råd</erste-sprache><zweite-sprache>conseil</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1070">
-    <erste-sprache>rådgivning</erste-sprache><zweite-sprache>conseil</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1070">
-    <erste-sprache>styrelse</erste-sprache><zweite-sprache>conseil</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1071">
-    <erste-sprache>de här</erste-sprache><zweite-sprache>ces</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1072">
-    <erste-sprache>rättigheter</erste-sprache><zweite-sprache>droits</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1073">
-    <erste-sprache>länder</erste-sprache><zweite-sprache>pays</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1073">
-    <erste-sprache>land</erste-sprache><zweite-sprache>pays</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1074">
-    <erste-sprache>land</erste-sprache><zweite-sprache>terre</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1075">
-    <erste-sprache>jord</erste-sprache><zweite-sprache>terre</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1076">
-    <erste-sprache>konstig</erste-sprache><zweite-sprache>étrange</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1077">
-    <erste-sprache>kunna</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="977">
     <erste-sprache>kraft</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="978">
     <erste-sprache>makt</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="978">
+    <erste-sprache>kunna</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="979">
+    <erste-sprache>summa</erste-sprache><zweite-sprache>somme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="980">
+    <erste-sprache>ordförande</erste-sprache><zweite-sprache>chef</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="981">
+    <erste-sprache>ungefär</erste-sprache><zweite-sprache>environ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="982">
+    <erste-sprache>människor</erste-sprache><zweite-sprache>gens</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="982">
+    <erste-sprache>människor</erste-sprache><zweite-sprache>les gens</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="983">
+    <erste-sprache>anfaller</erste-sprache><zweite-sprache>attaquons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="983">
+    <erste-sprache>anfaller</erste-sprache><zweite-sprache>attaquez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="984">
+    <erste-sprache>honom</erste-sprache><zweite-sprache>lui</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="985">
+    <erste-sprache>säger</erste-sprache><zweite-sprache>disons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="985">
+    <erste-sprache>säger</erste-sprache><zweite-sprache>dites</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="985">
+    <erste-sprache>säger</erste-sprache><zweite-sprache>dit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="986">
+    <erste-sprache>sagd</erste-sprache><zweite-sprache>dit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="987">
+    <erste-sprache>utkast</erste-sprache><zweite-sprache>projets</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="988">
+    <erste-sprache>kan</erste-sprache><zweite-sprache>est capable de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="988">
+    <erste-sprache>kan</erste-sprache><zweite-sprache>peut</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="988">
+    <erste-sprache>kan</erste-sprache><zweite-sprache>pouvons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="988">
+    <erste-sprache>kan</erste-sprache><zweite-sprache>pouvez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="989">
+    <erste-sprache>organ</erste-sprache><zweite-sprache>comités</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="990">
+    <erste-sprache>bolag</erste-sprache><zweite-sprache>société anonyme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="991">
+    <erste-sprache>olika</erste-sprache><zweite-sprache>divers</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="991">
+    <erste-sprache>olika</erste-sprache><zweite-sprache>différentes</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="992">
+    <erste-sprache>plikt</erste-sprache><zweite-sprache>devoir</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="992">
+    <erste-sprache>böra</erste-sprache><zweite-sprache>devoir</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="993">
+    <erste-sprache>bör</erste-sprache><zweite-sprache>devriez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="993">
+    <erste-sprache>bör</erste-sprache><zweite-sprache>devrait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="993">
+    <erste-sprache>bör</erste-sprache><zweite-sprache>devons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="993">
+    <erste-sprache>bör</erste-sprache><zweite-sprache>devez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="993">
+    <erste-sprache>bör</erste-sprache><zweite-sprache>doit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="994">
+    <erste-sprache>var tvungen att</erste-sprache><zweite-sprache>a dû</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="995">
+    <erste-sprache>handling</erste-sprache><zweite-sprache>acte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="996">
+    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laissons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="996">
+    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laissez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="996">
+    <erste-sprache>lämnar kvar</erste-sprache><zweite-sprache>laisse</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="997">
+    <erste-sprache>poserade</erste-sprache><zweite-sprache>ai posé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="997">
+    <erste-sprache>poserade</erste-sprache><zweite-sprache>as posé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="998">
+    <erste-sprache>skuld</erste-sprache><zweite-sprache>dette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="998">
+    <erste-sprache>skuld</erste-sprache><zweite-sprache>faute</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="998">
+    <erste-sprache>skuld</erste-sprache><zweite-sprache>culpabilité</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="999">
+    <erste-sprache>arbete</erste-sprache><zweite-sprache>travail</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1000">
+    <erste-sprache>ljus</erste-sprache><zweite-sprache>lumière</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1001">
+    <erste-sprache>jag ska</erste-sprache><zweite-sprache>j'vais</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1002">
+    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aidons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1002">
+    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aidez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1002">
+    <erste-sprache>hjälper</erste-sprache><zweite-sprache>aide</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1003">
+    <erste-sprache>skulle</erste-sprache><zweite-sprache>serions</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1004">
+    <erste-sprache>punkt</erste-sprache><zweite-sprache>point</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1005">
+    <erste-sprache>delar</erste-sprache><zweite-sprache>partageons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1005">
+    <erste-sprache>delar</erste-sprache><zweite-sprache>partagez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1005">
+    <erste-sprache>delar</erste-sprache><zweite-sprache>partage</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1006">
+    <erste-sprache>till och med</erste-sprache><zweite-sprache>même</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1006">
+    <erste-sprache>ens</erste-sprache><zweite-sprache>même</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1007">
+    <erste-sprache>den här</erste-sprache><zweite-sprache>ce</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1007">
+    <erste-sprache>den här</erste-sprache><zweite-sprache>cette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1007">
+    <erste-sprache>den här</erste-sprache><zweite-sprache>à ce</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1008">
+    <erste-sprache>lägger</erste-sprache><zweite-sprache>mettons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1008">
+    <erste-sprache>lägger</erste-sprache><zweite-sprache>mettez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1008">
+    <erste-sprache>lägger</erste-sprache><zweite-sprache>met</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1009">
+    <erste-sprache>lämna kvar</erste-sprache><zweite-sprache>laisser</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>leder</erste-sprache><zweite-sprache>menons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>leder</erste-sprache><zweite-sprache>menez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>leder</erste-sprache><zweite-sprache>mène</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1011">
+    <erste-sprache>inga</erste-sprache><zweite-sprache>aucun</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1012">
+    <erste-sprache>kallade</erste-sprache><zweite-sprache>ai appelé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1012">
+    <erste-sprache>kallade</erste-sprache><zweite-sprache>as appelé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1012">
+    <erste-sprache>kallade</erste-sprache><zweite-sprache>a appelé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1013">
+    <erste-sprache>stannar</erste-sprache><zweite-sprache>restons</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1013">
+    <erste-sprache>stannar</erste-sprache><zweite-sprache>restez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1014">
+    <erste-sprache>mängd</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1015">
+    <erste-sprache>mellan</erste-sprache><zweite-sprache>entre</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1016">
+    <erste-sprache>lev</erste-sprache><zweite-sprache>vis</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1016">
+    <erste-sprache>lev</erste-sprache><zweite-sprache>vivez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1017">
+    <erste-sprache>fond</erste-sprache><zweite-sprache>fonds</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1018">
+    <erste-sprache>de har gjort</erste-sprache><zweite-sprache>ils ont fait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1018">
+    <erste-sprache>de har gjort</erste-sprache><zweite-sprache>elles ont fait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1019">
+    <erste-sprache>bara</erste-sprache><zweite-sprache>juste</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1019">
+    <erste-sprache>bara</erste-sprache><zweite-sprache>seulement</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1019">
+    <erste-sprache>bara</erste-sprache><zweite-sprache>simplement</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1020">
+    <erste-sprache>just</erste-sprache><zweite-sprache>juste</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1021">
+    <erste-sprache>henne</erste-sprache><zweite-sprache>la</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1021">
+    <erste-sprache>henne</erste-sprache><zweite-sprache>lui</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1022">
+    <erste-sprache>anlände</erste-sprache><zweite-sprache>suis arrivé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1022">
+    <erste-sprache>anlände</erste-sprache><zweite-sprache>es arrivé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1023">
+    <erste-sprache>kände igen</erste-sprache><zweite-sprache>ai reconnu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1023">
+    <erste-sprache>kände igen</erste-sprache><zweite-sprache>as reconnu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1023">
+    <erste-sprache>kände igen</erste-sprache><zweite-sprache>a reconnu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1024">
+    <erste-sprache>nämnde</erste-sprache><zweite-sprache>ai mentionné</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1024">
+    <erste-sprache>nämnde</erste-sprache><zweite-sprache>as mentionné</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1024">
+    <erste-sprache>nämnde</erste-sprache><zweite-sprache>a mentionné</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1025">
+    <erste-sprache>nästa</erste-sprache><zweite-sprache>suivant</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1026">
+    <erste-sprache>stod</erste-sprache><zweite-sprache>suis resté</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1026">
+    <erste-sprache>stod</erste-sprache><zweite-sprache>es resté</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1026">
+    <erste-sprache>stod</erste-sprache><zweite-sprache>est resté</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1027">
+    <erste-sprache>aktier</erste-sprache><zweite-sprache>actions</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1028">
+    <erste-sprache>leda</erste-sprache><zweite-sprache>mener</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1029">
+    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>ai satisfait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1029">
+    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>as satisfait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1029">
+    <erste-sprache>uppfyllde</erste-sprache><zweite-sprache>a satisfait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1030">
+    <erste-sprache>kort sagt</erste-sprache><zweite-sprache>bref</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1031">
+    <erste-sprache>du har gått</erste-sprache><zweite-sprache>tu es allé</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1031">
+    <erste-sprache>du har gått</erste-sprache><zweite-sprache>tu es allée</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1032">
+    <erste-sprache>ni har gått</erste-sprache><zweite-sprache>vous êtes allés</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1033">
+    <erste-sprache>de har gått</erste-sprache><zweite-sprache>ils sont allés</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1033">
+    <erste-sprache>de har gått</erste-sprache><zweite-sprache>elles sont allées</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1034">
+    <erste-sprache>morgon</erste-sprache><zweite-sprache>matin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1035">
+    <erste-sprache>genom att</erste-sprache><zweite-sprache>en</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1036">
+    <erste-sprache>steg</erste-sprache><zweite-sprache>pas</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1036">
+    <erste-sprache>steg</erste-sprache><zweite-sprache>étapes</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1037">
+    <erste-sprache>till er</erste-sprache><zweite-sprache>à vous</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1038">
+    <erste-sprache>publikt aktiebolag</erste-sprache><zweite-sprache>société anonyme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1039">
+    <erste-sprache>tillsammans</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1039">
+    <erste-sprache>set</erste-sprache><zweite-sprache>ensemble</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1040">
+    <erste-sprache>skruv</erste-sprache><zweite-sprache>vis</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1041">
+    <erste-sprache>enkelt</erste-sprache><zweite-sprache>simplement</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1042">
+    <erste-sprache>följande</erste-sprache><zweite-sprache>suivant</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1043">
+    <erste-sprache>dem</erste-sprache><zweite-sprache>eux</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1044">
+    <erste-sprache>vara</erste-sprache><zweite-sprache>être</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1045">
+    <erste-sprache>din</erste-sprache><zweite-sprache>le tien</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1045">
+    <erste-sprache>din</erste-sprache><zweite-sprache>ton</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1045">
+    <erste-sprache>din</erste-sprache><zweite-sprache>ta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1046">
+    <erste-sprache>dig</erste-sprache><zweite-sprache>toi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1046">
+    <erste-sprache>dig</erste-sprache><zweite-sprache>à toi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1047">
+    <erste-sprache>dina</erste-sprache><zweite-sprache>tes</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1048">
+    <erste-sprache>mer</erste-sprache><zweite-sprache>plus</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1049">
+    <erste-sprache>över</erste-sprache><zweite-sprache>fini</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1049">
+    <erste-sprache>över</erste-sprache><zweite-sprache>au-dessus de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1049">
+    <erste-sprache>över</erste-sprache><zweite-sprache>plus de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1050">
+    <erste-sprache>avslutad</erste-sprache><zweite-sprache>fini</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1051">
+    <erste-sprache>mer än</erste-sprache><zweite-sprache>plus de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1052">
+    <erste-sprache>förenad</erste-sprache><zweite-sprache>uni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1053">
+    <erste-sprache>förenade</erste-sprache><zweite-sprache>ai uni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1053">
+    <erste-sprache>förenade</erste-sprache><zweite-sprache>as uni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1053">
+    <erste-sprache>förenade</erste-sprache><zweite-sprache>a uni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1053">
+    <erste-sprache>förenade</erste-sprache><zweite-sprache>unis</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1054">
+    <erste-sprache>när</erste-sprache><zweite-sprache>quand</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1054">
+    <erste-sprache>när</erste-sprache><zweite-sprache>lorsque</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1055">
+    <erste-sprache>mygga</erste-sprache><zweite-sprache>moustique</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1056">
+    <erste-sprache>nationer</erste-sprache><zweite-sprache>nations</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1057">
+    <erste-sprache>kan vara</erste-sprache><zweite-sprache>peut être</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1058">
+    <erste-sprache>där</erste-sprache><zweite-sprache>y</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1058">
+    <erste-sprache>där</erste-sprache><zweite-sprache>là</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1058">
+    <erste-sprache>där</erste-sprache><zweite-sprache>il y a</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1059">
+    <erste-sprache>det finns</erste-sprache><zweite-sprache>il y a</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1060">
+    <erste-sprache>njuta</erste-sprache><zweite-sprache>apprécier</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1061">
+    <erste-sprache>njuter</erste-sprache><zweite-sprache>apprécions</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1061">
+    <erste-sprache>njuter</erste-sprache><zweite-sprache>appréciez</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1061">
+    <erste-sprache>njuter</erste-sprache><zweite-sprache>apprécie</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1062">
+    <erste-sprache>ifall</erste-sprache><zweite-sprache>au cas où</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1063">
+    <erste-sprache>eller snarare</erste-sprache><zweite-sprache>ou plutôt</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1064">
+    <erste-sprache>deras</erste-sprache><zweite-sprache>leur</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1064">
+    <erste-sprache>deras</erste-sprache><zweite-sprache>leurs</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1065">
+    <erste-sprache>varit</erste-sprache><zweite-sprache>été</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1065">
+    <erste-sprache>sommar</erste-sprache><zweite-sprache>été</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1066">
+    <erste-sprache>kan göras</erste-sprache><zweite-sprache>peut être fait</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1067">
+    <erste-sprache>gånger</erste-sprache><zweite-sprache>fois</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1068">
+    <erste-sprache>låt oss inte</erste-sprache><zweite-sprache>ne pas</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1069">
+    <erste-sprache>hit</erste-sprache><zweite-sprache>vers ici</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1070">
+    <erste-sprache>andra</erste-sprache><zweite-sprache>autres</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1070">
+    <erste-sprache>andra</erste-sprache><zweite-sprache>deuxième</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1070">
+    <erste-sprache>andra</erste-sprache><zweite-sprache>second</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1071">
+    <erste-sprache>annan</erste-sprache><zweite-sprache>autre</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1072">
+    <erste-sprache>råd</erste-sprache><zweite-sprache>conseil</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1072">
+    <erste-sprache>rådgivning</erste-sprache><zweite-sprache>conseil</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1072">
+    <erste-sprache>styrelse</erste-sprache><zweite-sprache>conseil</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1073">
+    <erste-sprache>de här</erste-sprache><zweite-sprache>ces</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1074">
+    <erste-sprache>rättigheter</erste-sprache><zweite-sprache>droits</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1075">
+    <erste-sprache>länder</erste-sprache><zweite-sprache>pays</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1075">
+    <erste-sprache>land</erste-sprache><zweite-sprache>pays</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1076">
+    <erste-sprache>land</erste-sprache><zweite-sprache>terre</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="1077">
-    <erste-sprache>/ˈmoːɣə(n)/</erste-sprache><zweite-sprache>pouvoir</zweite-sprache>
+    <erste-sprache>jord</erste-sprache><zweite-sprache>terre</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1078">
-    <erste-sprache>kraft</erste-sprache><zweite-sprache>force</zweite-sprache>
+    <erste-sprache>konstig</erste-sprache><zweite-sprache>étrange</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1079">
     <erste-sprache>inklusive</erste-sprache><zweite-sprache>y compris</zweite-sprache>

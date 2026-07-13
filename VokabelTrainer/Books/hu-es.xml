@@ -3489,6 +3489,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>menjünk</erste-sprache><zweite-sprache>vamos a</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="831">
+    <erste-sprache>szabad</erste-sprache><zweite-sprache>poder</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="831">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>podemos</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="831">
@@ -3565,9 +3568,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="844">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>poder</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="844">
-    <erste-sprache>/smɲɛt/</erste-sprache><zweite-sprache>poder</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="845">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>saber</zweite-sprache>
@@ -7149,7 +7149,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>Bajorország</erste-sprache><zweite-sprache>Baviera</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1726">
-    <erste-sprache>/ˈpr̝ɛtstavɪt/</erste-sprache><zweite-sprache>presentar</zweite-sprache>
+    <erste-sprache>bemutatni</erste-sprache><zweite-sprache>presentar</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1726">
     <erste-sprache>benyújtani</erste-sprache><zweite-sprache>presentar</zweite-sprache>

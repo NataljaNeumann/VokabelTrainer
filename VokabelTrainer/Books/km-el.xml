@@ -3590,9 +3590,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="641">
     <erste-sprache>ខ្ញុំ​អាច</erste-sprache><zweite-sprache>μπορώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>/boleh/</erste-sprache><zweite-sprache>μπορώ</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="642">
     <erste-sprache>យើងអាច</erste-sprache><zweite-sprache>μπορούμε</zweite-sprache>
   </vokabel-paar>
@@ -6534,6 +6531,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>បង្ហាញ</erste-sprache><zweite-sprache>δείχνει</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1161">
+    <erste-sprache>បង្ហាញ</erste-sprache><zweite-sprache>παρουσιάζω</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1161">
     <erste-sprache>បង្ហាញ</erste-sprache><zweite-sprache>παρουσιάζουμε</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1161">
@@ -7131,2472 +7131,2469 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ទិសដៅ</erste-sprache><zweite-sprache>κατεύθυνση</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1284">
-    <erste-sprache>/məɲad͡ʒikan/</erste-sprache><zweite-sprache>παρουσιάζω</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1285">
     <erste-sprache>អាន</erste-sprache><zweite-sprache>διαβάζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1284">
     <erste-sprache>អាន</erste-sprache><zweite-sprache>διαβάζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1284">
     <erste-sprache>អាន</erste-sprache><zweite-sprache>διαβάζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1284">
     <erste-sprache>អាន</erste-sprache><zweite-sprache>διαβάζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>ទ្រព្យសម្បត្តិ</erste-sprache><zweite-sprache>ενεργητικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>ទ្រព្យសម្បត្តិ</erste-sprache><zweite-sprache>περιουσία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1285">
     <erste-sprache>ទ្រព្យសម្បត្តិ</erste-sprache><zweite-sprache>ιδιοκτησία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1287">
+  <vokabel-paar schritt="1286">
     <erste-sprache>ទ្រព្យ</erste-sprache><zweite-sprache>ενεργητικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1287">
     <erste-sprache>រដ្ឋនីតិរដ្ឋ</erste-sprache><zweite-sprache>κράτος δικαίου</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1288">
     <erste-sprache>មូលធន</erste-sprache><zweite-sprache>κεφάλαιο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1290">
+  <vokabel-paar schritt="1289">
     <erste-sprache>រាជធានី</erste-sprache><zweite-sprache>πρωτεύουσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1291">
+  <vokabel-paar schritt="1290">
     <erste-sprache>អ្នកដឹង</erste-sprache><zweite-sprache>ξέρεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>សម្រួល</erste-sprache><zweite-sprache>διευκολύνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>សម្រួល</erste-sprache><zweite-sprache>διευκολύνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>សម្រួល</erste-sprache><zweite-sprache>διευκολύνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1291">
     <erste-sprache>សម្រួល</erste-sprache><zweite-sprache>διευκολύνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1292">
     <erste-sprache>ជំហាន</erste-sprache><zweite-sprache>βήμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1292">
     <erste-sprache>ជំហាន</erste-sprache><zweite-sprache>βήματα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1293">
     <erste-sprache>កណ្តាល</erste-sprache><zweite-sprache>κεντρικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1294">
     <erste-sprache>ងងឹត</erste-sprache><zweite-sprache>σκοτεινός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1295">
     <erste-sprache>ភ្លឺ</erste-sprache><zweite-sprache>φωτεινός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1297">
+  <vokabel-paar schritt="1296">
     <erste-sprache>ផ្លូវការ</erste-sprache><zweite-sprache>επίσημος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>បានតម្រង់</erste-sprache><zweite-sprache>στόχευσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>បានតម្រង់</erste-sprache><zweite-sprache>στόχευσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1297">
     <erste-sprache>បានតម្រង់</erste-sprache><zweite-sprache>στόχευσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1299">
+  <vokabel-paar schritt="1298">
     <erste-sprache>មុននេះ</erste-sprache><zweite-sprache>νωρίτερα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1299">
     <erste-sprache>ភាគរយ</erste-sprache><zweite-sprache>τοις εκατό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1300">
     <erste-sprache>ពាក្យ</erste-sprache><zweite-sprache>λέξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1300">
     <erste-sprache>ពាក្យ</erste-sprache><zweite-sprache>λέξεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>ប្រាថ្នា</erste-sprache><zweite-sprache>εύχομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>ប្រាថ្នា</erste-sprache><zweite-sprache>ευχόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>ប្រាថ្នា</erste-sprache><zweite-sprache>εύχεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1301">
     <erste-sprache>ប្រាថ្នា</erste-sprache><zweite-sprache>εύχεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1303">
+  <vokabel-paar schritt="1302">
     <erste-sprache>ដែលបានគាំទ្រ</erste-sprache><zweite-sprache>υποστηριγμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1303">
     <erste-sprache>បានគាំទ្រ</erste-sprache><zweite-sprache>υποστήριξα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1303">
     <erste-sprache>បានគាំទ្រ</erste-sprache><zweite-sprache>υποστήριξες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1303">
     <erste-sprache>បានគាំទ្រ</erste-sprache><zweite-sprache>υποστήριξε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1304">
     <erste-sprache>បានអនុម័ត</erste-sprache><zweite-sprache>ενέκρινα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1304">
     <erste-sprache>បានអនុម័ត</erste-sprache><zweite-sprache>ενέκρινες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1304">
     <erste-sprache>បានអនុម័ត</erste-sprache><zweite-sprache>ενέκρινε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1306">
+  <vokabel-paar schritt="1305">
     <erste-sprache>ការវិនិយោគ</erste-sprache><zweite-sprache>επένδυση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1306">
     <erste-sprache>គោលបំណង</erste-sprache><zweite-sprache>σκοπός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1306">
     <erste-sprache>គោលបំណង</erste-sprache><zweite-sprache>σκοποί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1307">
     <erste-sprache>អ្នកនិពន្ធ</erste-sprache><zweite-sprache>συγγραφέας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1308">
     <erste-sprache>យូរ</erste-sprache><zweite-sprache>πολύ καιρό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1310">
+  <vokabel-paar schritt="1309">
     <erste-sprache>ជនជាតិរុស្ស៊ី</erste-sprache><zweite-sprache>Ρώσος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1311">
+  <vokabel-paar schritt="1310">
     <erste-sprache>ថាមពល</erste-sprache><zweite-sprache>ενέργεια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1312">
+  <vokabel-paar schritt="1311">
     <erste-sprache>ស្ត្រីវ័យក្មេង</erste-sprache><zweite-sprache>νεαρές γυναίκες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>នាំមក</erste-sprache><zweite-sprache>φέρνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>នាំមក</erste-sprache><zweite-sprache>φέρνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>នាំមក</erste-sprache><zweite-sprache>φέρνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1312">
     <erste-sprache>នាំមក</erste-sprache><zweite-sprache>φέρνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1314">
+  <vokabel-paar schritt="1313">
     <erste-sprache>ធ្ងន់ធ្ងរ</erste-sprache><zweite-sprache>σοβαρός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1314">
     <erste-sprache>យ៉ាងធ្ងន់ធ្ងរ</erste-sprache><zweite-sprache>σοβαρά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1315">
     <erste-sprache>ព្រះរាជាណាចក្រ</erste-sprache><zweite-sprache>βασίλειο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1316">
     <erste-sprache>ផែនការនានា</erste-sprache><zweite-sprache>σχέδια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>រៀបចំផែនការ</erste-sprache><zweite-sprache>σχεδιάζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>រៀបចំផែនការ</erste-sprache><zweite-sprache>σχεδιάζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>រៀបចំផែនការ</erste-sprache><zweite-sprache>σχεδιάζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1317">
     <erste-sprache>រៀបចំផែនការ</erste-sprache><zweite-sprache>σχεδιάζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1318">
     <erste-sprache>ចំណូល</erste-sprache><zweite-sprache>κύκλος εργασιών</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1318">
     <erste-sprache>ចំណូល</erste-sprache><zweite-sprache>εισόδημα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1318">
     <erste-sprache>ចំណូល</erste-sprache><zweite-sprache>έσοδα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1319">
     <erste-sprache>ការបង្ហោះ</erste-sprache><zweite-sprache>αναρτήσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1321">
+  <vokabel-paar schritt="1320">
     <erste-sprache>អាយុ</erste-sprache><zweite-sprache>ηλικία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1322">
+  <vokabel-paar schritt="1321">
     <erste-sprache>ធម្មនុញ្ញ</erste-sprache><zweite-sprache>καταστατικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1322">
     <erste-sprache>វិភាគ</erste-sprache><zweite-sprache>ανάλυση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1323">
     <erste-sprache>ធំជាង</erste-sprache><zweite-sprache>μεγαλύτερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1323">
     <erste-sprache>ចាស់ជាង</erste-sprache><zweite-sprache>μεγαλύτερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1324">
     <erste-sprache>សហព័ន្ធ</erste-sprache><zweite-sprache>ομοσπονδιακός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1324">
     <erste-sprache>សហព័ន្ធ</erste-sprache><zweite-sprache>ομοσπονδία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1326">
+  <vokabel-paar schritt="1325">
     <erste-sprache>ស្លឹក</erste-sprache><zweite-sprache>φύλλα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>ទុកចោល</erste-sprache><zweite-sprache>αφήνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>ទុកចោល</erste-sprache><zweite-sprache>αφήνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>ទុកចោល</erste-sprache><zweite-sprache>αφήνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1326">
     <erste-sprache>ទុកចោល</erste-sprache><zweite-sprache>αφήνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1327">
     <erste-sprache>ការទំនាក់ទំនង</erste-sprache><zweite-sprache>επικοινωνία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1327">
     <erste-sprache>ការទំនាក់ទំនង</erste-sprache><zweite-sprache>επικοινωνίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1328">
     <erste-sprache>គំនិត</erste-sprache><zweite-sprache>ιδέα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1328">
     <erste-sprache>គំនិត</erste-sprache><zweite-sprache>ιδέες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1328">
     <erste-sprache>គំនិត</erste-sprache><zweite-sprache>σκέψη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1330">
+  <vokabel-paar schritt="1329">
     <erste-sprache>រឹងមាំ</erste-sprache><zweite-sprache>σταθερός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1330">
     <erste-sprache>កើតឡើង</erste-sprache><zweite-sprache>συμβαίνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1330">
     <erste-sprache>កើតឡើង</erste-sprache><zweite-sprache>συμβαίνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>ដេកចុះ</erste-sprache><zweite-sprache>ξαπλώνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>ដេកចុះ</erste-sprache><zweite-sprache>ξαπλώνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>ដេកចុះ</erste-sprache><zweite-sprache>ξαπλώνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1331">
     <erste-sprache>ដេកចុះ</erste-sprache><zweite-sprache>ξαπλώνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>កុហក</erste-sprache><zweite-sprache>ψεύδομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>កុហក</erste-sprache><zweite-sprache>ψευδόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>កុហក</erste-sprache><zweite-sprache>ψεύδεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1332">
     <erste-sprache>កុហក</erste-sprache><zweite-sprache>ψεύδεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1333">
     <erste-sprache>ឥតគិតថ្លៃ</erste-sprache><zweite-sprache>δωρεάν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1335">
+  <vokabel-paar schritt="1334">
     <erste-sprache>សេរី</erste-sprache><zweite-sprache>ελεύθερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1336">
+  <vokabel-paar schritt="1335">
     <erste-sprache>ជានិច្ច</erste-sprache><zweite-sprache>πάντα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1336">
     <erste-sprache>ស្មើនឹង</erste-sprache><zweite-sprache>ισούται με</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1337">
     <erste-sprache>ស្មើ</erste-sprache><zweite-sprache>ίσος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>προστατεύω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>προστατεύουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>προστατεύετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>προστατεύει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>υπερασπίζομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>υπερασπιζόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>υπερασπίζεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1338">
     <erste-sprache>ការពារ</erste-sprache><zweite-sprache>υπερασπίζεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1339">
     <erste-sprache>ការព្រមព្រៀង</erste-sprache><zweite-sprache>ρυθμίσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1339">
     <erste-sprache>ឌីល</erste-sprache><zweite-sprache>ρυθμίσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1340">
     <erste-sprache>យុគ</erste-sprache><zweite-sprache>εποχή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1340">
     <erste-sprache>សម័យ</erste-sprache><zweite-sprache>εποχή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1342">
+  <vokabel-paar schritt="1341">
     <erste-sprache>ការឈឺចាប់</erste-sprache><zweite-sprache>πόνος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1342">
     <erste-sprache>ជនជាតិអង់គ្លេស</erste-sprache><zweite-sprache>άγγλος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1343">
     <erste-sprache>សក្តានុពល</erste-sprache><zweite-sprache>δυναμικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1343">
     <erste-sprache>សក្តានុពល</erste-sprache><zweite-sprache>δυνητικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1344">
     <erste-sprache>បានដឹក</erste-sprache><zweite-sprache>μετέφερα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1344">
     <erste-sprache>បានដឹក</erste-sprache><zweite-sprache>μετέφερες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1344">
     <erste-sprache>បានដឹក</erste-sprache><zweite-sprache>μετέφερε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>ជម្រើស</erste-sprache><zweite-sprache>επιλογή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>ពេលខ្លះ</erste-sprache><zweite-sprache>μερικές φορές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>ដែលបានរំពឹង</erste-sprache><zweite-sprache>αναμενόμενος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1348">
     <erste-sprache>បរទេស</erste-sprache><zweite-sprache>ξένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>បានបញ្ជាក់</erste-sprache><zweite-sprache>δήλωσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>បានបញ្ជាក់</erste-sprache><zweite-sprache>δήλωσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>បានបញ្ជាក់</erste-sprache><zweite-sprache>δήλωσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>ក្រុមហ៊ុនភាគហ៊ុនសាធារណៈ</erste-sprache><zweite-sprache>Α.Ε.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>ក្រុមហ៊ុនភាគហ៊ុនសាធារណៈ</erste-sprache><zweite-sprache>ανώνυμη εταιρεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1351">
     <erste-sprache>សាជីវកម្ម</erste-sprache><zweite-sprache>ανώνυμη εταιρεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>សង្គ្រាម</erste-sprache><zweite-sprache>πόλεμος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1353">
     <erste-sprache>ដែលរងផលប៉ះពាល់</erste-sprache><zweite-sprache>επηρεασμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>បានប៉ះពាល់</erste-sprache><zweite-sprache>επηρέασα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>បានប៉ះពាល់</erste-sprache><zweite-sprache>επηρέασες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>បានប៉ះពាល់</erste-sprache><zweite-sprache>επηρέασε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>រួមចំណែក</erste-sprache><zweite-sprache>συμβάλλω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>រួមចំណែក</erste-sprache><zweite-sprache>συμβάλλουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>រួមចំណែក</erste-sprache><zweite-sprache>συμβάλλετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>រួមចំណែក</erste-sprache><zweite-sprache>συμβάλλει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1356">
     <erste-sprache>គោលការណ៍ណែនាំ</erste-sprache><zweite-sprache>κατευθυντήριες γραμμές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>ការសង្ស័យ</erste-sprache><zweite-sprache>αμφιβολία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>ការសង្ស័យ</erste-sprache><zweite-sprache>αμφιβολίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>αμφιβάλλω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>αμφιβάλλουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>αμφιβάλλετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>αμφιβάλλει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>υποψιάζομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>υποψιαζόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>υποψιάζεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>សង្ស័យ</erste-sprache><zweite-sprache>υποψιάζεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>ឱកាស</erste-sprache><zweite-sprache>ευκαιρίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>ឱកាស</erste-sprache><zweite-sprache>ευκαιρία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>លេង</erste-sprache><zweite-sprache>παίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>លេង</erste-sprache><zweite-sprache>παίζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>លេង</erste-sprache><zweite-sprache>παίζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>លេង</erste-sprache><zweite-sprache>παίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1361">
     <erste-sprache>កំពូល</erste-sprache><zweite-sprache>κορυφή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1361">
     <erste-sprache>ផ្នែកខាងលើ</erste-sprache><zweite-sprache>κορυφή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1362">
     <erste-sprache>សំណ</erste-sprache><zweite-sprache>μόλυβδος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>αναζητώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>αναζητούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>αναζητάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>αναζητά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>ψάχνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>ψάχνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>ψάχνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>ស្វែងរក</erste-sprache><zweite-sprache>ψάχνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1364">
     <erste-sprache>ការបោះឆ្នោត</erste-sprache><zweite-sprache>εκλογές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1364">
     <erste-sprache>ការបោះឆ្នោត</erste-sprache><zweite-sprache>ψήφος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1365">
     <erste-sprache>ដែលបានជូនដំណឹង</erste-sprache><zweite-sprache>ενημερωμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>បានជូនដំណឹង</erste-sprache><zweite-sprache>ενημέρωσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>បានជូនដំណឹង</erste-sprache><zweite-sprache>ενημέρωσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>បានជូនដំណឹង</erste-sprache><zweite-sprache>ενημέρωσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1367">
     <erste-sprache>ជនជាតិអ៊ីស្រាអែល</erste-sprache><zweite-sprache>Ισραηλινός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1368">
     <erste-sprache>សម្ភារៈបរិក្ខារ</erste-sprache><zweite-sprache>εγκαταστάσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>ហាសិប</erste-sprache><zweite-sprache>πενήντα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1370">
     <erste-sprache>ឯករាជ្យ</erste-sprache><zweite-sprache>ανεξάρτητος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>ការភ័យខ្លាច</erste-sprache><zweite-sprache>φόβος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1372">
     <erste-sprache>ជោគជ័យ</erste-sprache><zweite-sprache>επιτυχία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1372">
     <erste-sprache>ជោគជ័យ</erste-sprache><zweite-sprache>επιτυχημένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>រត់</erste-sprache><zweite-sprache>τρέχω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>រត់</erste-sprache><zweite-sprache>τρέχουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>រត់</erste-sprache><zweite-sprache>τρέχετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>រត់</erste-sprache><zweite-sprache>τρέχει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1374">
     <erste-sprache>ពេញ</erste-sprache><zweite-sprache>γεμάτος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1375">
     <erste-sprache>បានកើតឡើង</erste-sprache><zweite-sprache>συνέβη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1376">
     <erste-sprache>ដែលបានកំណត់</erste-sprache><zweite-sprache>περιορισμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>បានកំណត់</erste-sprache><zweite-sprache>περιόρισα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>បានកំណត់</erste-sprache><zweite-sprache>περιόρισες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>បានកំណត់</erste-sprache><zweite-sprache>περιόρισε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>ភស្តុតាង</erste-sprache><zweite-sprache>αποδεικτικά στοιχεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>ភស្តុតាង</erste-sprache><zweite-sprache>απόδειξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1379">
     <erste-sprache>គុណភាព</erste-sprache><zweite-sprache>ποιότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1380">
     <erste-sprache>វេទិកា</erste-sprache><zweite-sprache>φόρουμ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>លើសពីនេះ</erste-sprache><zweite-sprache>επιπλέον</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1382">
     <erste-sprache>ជារួម</erste-sprache><zweite-sprache>συνολικά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1383">
     <erste-sprache>ពិត</erste-sprache><zweite-sprache>αληθινός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>ណែនាំ</erste-sprache><zweite-sprache>συνιστώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>ណែនាំ</erste-sprache><zweite-sprache>συνιστούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>ណែនាំ</erste-sprache><zweite-sprache>συνιστάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>ណែនាំ</erste-sprache><zweite-sprache>συνιστά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>ការផ្ទេរប្រាក់</erste-sprache><zweite-sprache>τραπεζική μεταφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1386">
     <erste-sprache>លិខិត</erste-sprache><zweite-sprache>επιστολή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1387">
     <erste-sprache>អំណាច</erste-sprache><zweite-sprache>εξουσία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1388">
     <erste-sprache>ការចរចា</erste-sprache><zweite-sprache>διαπραγματεύσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1389">
     <erste-sprache>បំណងប្រាថ្នា</erste-sprache><zweite-sprache>επιθυμία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1389">
     <erste-sprache>ក្តីប្រាថ្នា</erste-sprache><zweite-sprache>επιθυμία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>កម្មករ</erste-sprache><zweite-sprache>εργαζόμενοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>រក្សា</erste-sprache><zweite-sprache>διατηρώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>រក្សា</erste-sprache><zweite-sprache>διατηρούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>រក្សា</erste-sprache><zweite-sprache>διατηρείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>រក្សា</erste-sprache><zweite-sprache>διατηρεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1392">
     <erste-sprache>ទៅមុខ</erste-sprache><zweite-sprache>προς τα εμπρός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1393">
     <erste-sprache>ចិត្ត</erste-sprache><zweite-sprache>νους</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1394">
     <erste-sprache>លើកលែង</erste-sprache><zweite-sprache>εκτός από</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>មីនា</erste-sprache><zweite-sprache>Μάρτιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1396">
     <erste-sprache>កន្លងទៅ</erste-sprache><zweite-sprache>παρελθών</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1397">
     <erste-sprache>ដោយរបៀបណាមួយ</erste-sprache><zweite-sprache>με κάποιο τρόπο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>ដែលត្រូវបានភ្លេច</erste-sprache><zweite-sprache>ξεχασμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>អត្ថប្រយោជន៍</erste-sprache><zweite-sprache>όφελος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>អត្ថប្រយោជន៍</erste-sprache><zweite-sprache>οφέλη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1400">
     <erste-sprache>ការកើនឡើង</erste-sprache><zweite-sprache>αύξηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>ការកើនឡើងនានា</erste-sprache><zweite-sprache>αυξήσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>អ្វីដែលនៅសល់</erste-sprache><zweite-sprache>υπόλοιπο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>បត់</erste-sprache><zweite-sprache>στρέφω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>បត់</erste-sprache><zweite-sprache>στρέφουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>បត់</erste-sprache><zweite-sprache>στρέφετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>បត់</erste-sprache><zweite-sprache>στρέφει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1404">
     <erste-sprache>ដែលបានទទួលស្គាល់</erste-sprache><zweite-sprache>αναγνωρισμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1405">
     <erste-sprache>អង្គភាព</erste-sprache><zweite-sprache>οντότητες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1406">
     <erste-sprache>មន្ត្រី</erste-sprache><zweite-sprache>αξιωματούχοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1407">
     <erste-sprache>ส่วนของเจ้าของ</erste-sprache><zweite-sprache>ίδια κεφάλαια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>បានសំដៅ</erste-sprache><zweite-sprache>αναφέρθηκα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>បានសំដៅ</erste-sprache><zweite-sprache>αναφέρθηκες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>បានសំដៅ</erste-sprache><zweite-sprache>αναφέρθηκε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>មុខងារ</erste-sprache><zweite-sprache>λειτουργία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>មុខងារ</erste-sprache><zweite-sprache>λειτουργίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1410">
     <erste-sprache>តម្លៃខាងក្នុង</erste-sprache><zweite-sprache>εγγενής αξία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1411">
     <erste-sprache>កូដ</erste-sprache><zweite-sprache>κώδικας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>វិបត្តិ</erste-sprache><zweite-sprache>κρίση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>សាលក្រម</erste-sprache><zweite-sprache>κρίση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>ប្រាក់ចំណេញ</erste-sprache><zweite-sprache>κέρδος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1414">
     <erste-sprache>ផ្ទុយទៅវិញ</erste-sprache><zweite-sprache>εναντίον</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1414">
     <erste-sprache>ទល់នឹង</erste-sprache><zweite-sprache>εναντίον</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>ចំហៀងៗ</erste-sprache><zweite-sprache>πλευρές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>ទិញ</erste-sprache><zweite-sprache>αγοράζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>ទិញ</erste-sprache><zweite-sprache>αγοράζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>ទិញ</erste-sprache><zweite-sprache>αγοράζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>ទិញ</erste-sprache><zweite-sprache>αγοράζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>រៀន</erste-sprache><zweite-sprache>μαθαίνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>រៀន</erste-sprache><zweite-sprache>μαθαίνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>រៀន</erste-sprache><zweite-sprache>μαθαίνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>រៀន</erste-sprache><zweite-sprache>μαθαίνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1418">
     <erste-sprache>ការបាត់បង់</erste-sprache><zweite-sprache>ζημία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1418">
     <erste-sprache>ការបាត់បង់</erste-sprache><zweite-sprache>απώλεια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1419">
     <erste-sprache>ធ្វើវា</erste-sprache><zweite-sprache>κάν’ το</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1420">
     <erste-sprache>ការតភ្ជាប់</erste-sprache><zweite-sprache>σύνδεση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>បទពិសោធន៍</erste-sprache><zweite-sprache>εμπειρία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>មរណភាព</erste-sprache><zweite-sprache>θάνατος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1423">
     <erste-sprache>ផលិតផល</erste-sprache><zweite-sprache>προϊόν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1423">
     <erste-sprache>ផលិតផល</erste-sprache><zweite-sprache>προϊόντα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1424">
     <erste-sprache>បញ្ញាសិប្បនិម្មិត</erste-sprache><zweite-sprache>τεχνητή νοημοσύνη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>ដែលបានបញ្ចូលគ្នា</erste-sprache><zweite-sprache>ενσωματωμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1426">
     <erste-sprache>ពហុភាគី</erste-sprache><zweite-sprache>πολυμερής</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>បានគិត</erste-sprache><zweite-sprache>σκέφτηκα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>បានគិត</erste-sprache><zweite-sprache>σκέφτηκες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>បានគិត</erste-sprache><zweite-sprache>σκέφτηκε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1428">
     <erste-sprache>ទ្រឹស្តីល្បែង</erste-sprache><zweite-sprache>θεωρία παιγνίων</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
+  <vokabel-paar schritt="1429">
     <erste-sprache>ខ្សោយ</erste-sprache><zweite-sprache>αδύναμος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>លំហាត់</erste-sprache><zweite-sprache>άσκηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>សំណល់</erste-sprache><zweite-sprache>λείψανα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>ក្រៅផ្លូវការ</erste-sprache><zweite-sprache>άτυπος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1433">
     <erste-sprache>សហការ</erste-sprache><zweite-sprache>συνεργατικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1434">
     <erste-sprache>បណ្ដោះអាសន្ន</erste-sprache><zweite-sprache>προσωρινός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>ទុក្ខព្រួយ</erste-sprache><zweite-sprache>λύπη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>អះអាង</erste-sprache><zweite-sprache>ισχυρίζομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>អះអាង</erste-sprache><zweite-sprache>ισχυριζόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>អះអាង</erste-sprache><zweite-sprache>ισχυρίζεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>អះអាង</erste-sprache><zweite-sprache>ισχυρίζεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1437">
     <erste-sprache>ក្លែងបន្លំ</erste-sprache><zweite-sprache>δόλιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1438">
     <erste-sprache>ដែលបានកំណត់អត្តសញ្ញាណ</erste-sprache><zweite-sprache>ταυτοποιημένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>បានកំណត់អត្តសញ្ញាណ</erste-sprache><zweite-sprache>ταυτοποίησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>បានកំណត់អត្តសញ្ញាណ</erste-sprache><zweite-sprache>ταυτοποίησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>បានកំណត់អត្តសញ្ញាណ</erste-sprache><zweite-sprache>ταυτοποίησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1440">
     <erste-sprache>ភ្លើង</erste-sprache><zweite-sprache>φωτιά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1441">
     <erste-sprache>ក្បួនដង្ហែ</erste-sprache><zweite-sprache>πορεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>ជនសង្ស័យ</erste-sprache><zweite-sprache>ύποπτος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>សន្និដ្ឋាន</erste-sprache><zweite-sprache>υποθέτω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>សន្និដ្ឋាន</erste-sprache><zweite-sprache>υποθέτουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>សន្និដ្ឋាន</erste-sprache><zweite-sprache>υποθέτετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>សន្និដ្ឋាន</erste-sprache><zweite-sprache>υποθέτει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1444">
     <erste-sprache>គ្រឿងញៀន</erste-sprache><zweite-sprache>ναρκωτικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>ចូលរួម</erste-sprache><zweite-sprache>συμμετέχω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>ចូលរួម</erste-sprache><zweite-sprache>συμμετέχουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>ចូលរួម</erste-sprache><zweite-sprache>συμμετέχετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>ចូលរួម</erste-sprache><zweite-sprache>συμμετέχει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1446">
     <erste-sprache>សីហា</erste-sprache><zweite-sprache>Αύγουστος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1447">
     <erste-sprache>កណ្ដាល</erste-sprache><zweite-sprache>μέση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1448">
     <erste-sprache>ខែវិច្ឆិកា</erste-sprache><zweite-sprache>Νοέμβριος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1449">
     <erste-sprache>ឆ្កួតហើយ</erste-sprache><zweite-sprache>γαμώτο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1449">
     <erste-sprache>ឆ្កួតមែន</erste-sprache><zweite-sprache>γαμώτο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1450">
     <erste-sprache>ហេដ្ឋារចនាសម្ព័ន្ធ</erste-sprache><zweite-sprache>υποδομή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>ការរៀបចំ</erste-sprache><zweite-sprache>προετοιμασία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1452">
     <erste-sprache>ទំនុកចិត្ត</erste-sprache><zweite-sprache>εμπιστοσύνη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1453">
     <erste-sprache>ព្រៃ</erste-sprache><zweite-sprache>δάση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>មន្ត្រីយោធា</erste-sprache><zweite-sprache>αξιωματικοί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1455">
     <erste-sprache>មេសា</erste-sprache><zweite-sprache>Απρίλιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1456">
     <erste-sprache>លំហ</erste-sprache><zweite-sprache>χώρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>អភិបាលកិច្ច</erste-sprache><zweite-sprache>διακυβέρνηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1458">
     <erste-sprache>ចម្បង</erste-sprache><zweite-sprache>πρωταρχικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1460">
+  <vokabel-paar schritt="1459">
     <erste-sprache>ជាចម្បង</erste-sprache><zweite-sprache>κυρίως</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>សួរ</erste-sprache><zweite-sprache>ρωτώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>សួរ</erste-sprache><zweite-sprache>ρωτάμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>សួរ</erste-sprache><zweite-sprache>ρωτάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>សួរ</erste-sprache><zweite-sprache>ρωτά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1461">
     <erste-sprache>រស់</erste-sprache><zweite-sprache>ζήσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>សូមរស់</erste-sprache><zweite-sprache>ζήστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1463">
     <erste-sprache>ដើម្បី</erste-sprache><zweite-sprache>για να</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>គួរឱ្យរំភើប</erste-sprache><zweite-sprache>συναρπαστικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1466">
+  <vokabel-paar schritt="1465">
     <erste-sprache>វិទ្យាស្ថាន</erste-sprache><zweite-sprache>ίδρυμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1467">
+  <vokabel-paar schritt="1466">
     <erste-sprache>ការឃុំខ្លួន</erste-sprache><zweite-sprache>κράτηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1467">
     <erste-sprache>មិថុនា</erste-sprache><zweite-sprache>Ιούνιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>នោះគឺ</erste-sprache><zweite-sprache>δηλαδή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1469">
     <erste-sprache>ការស្វែងរក</erste-sprache><zweite-sprache>αναζήτηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>ព្យាយាម</erste-sprache><zweite-sprache>προσπαθώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>ព្យាយាម</erste-sprache><zweite-sprache>προσπαθούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>ព្យាយាម</erste-sprache><zweite-sprache>προσπαθείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>ព្យាយាម</erste-sprache><zweite-sprache>προσπαθεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1472">
+  <vokabel-paar schritt="1471">
     <erste-sprache>ដែលបានទៅដល់</erste-sprache><zweite-sprache>φτασμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>បានទៅដល់</erste-sprache><zweite-sprache>έφτασα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>បានទៅដល់</erste-sprache><zweite-sprache>έφτασες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>បានទៅដល់</erste-sprache><zweite-sprache>έφτασε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>បានមកដល់</erste-sprache><zweite-sprache>έφτασα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>បានមកដល់</erste-sprache><zweite-sprache>έφτασες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>បានមកដល់</erste-sprache><zweite-sprache>έφτασε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ចែករំលែក</erste-sprache><zweite-sprache>μοιράζομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ចែករំលែក</erste-sprache><zweite-sprache>μοιραζόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ចែករំលែក</erste-sprache><zweite-sprache>μοιράζεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ចែករំលែក</erste-sprache><zweite-sprache>μοιράζεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1476">
+  <vokabel-paar schritt="1475">
     <erste-sprache>សមាហរណកម្ម</erste-sprache><zweite-sprache>ένταξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1477">
+  <vokabel-paar schritt="1476">
     <erste-sprache>កាលពីមុន</erste-sprache><zweite-sprache>κάποτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1478">
+  <vokabel-paar schritt="1477">
     <erste-sprache>ទាប</erste-sprache><zweite-sprache>χαμηλός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1479">
+  <vokabel-paar schritt="1478">
     <erste-sprache>ការប្រយុទ្ធ</erste-sprache><zweite-sprache>μάχη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>ការចងចាំ</erste-sprache><zweite-sprache>μνήμη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1481">
+  <vokabel-paar schritt="1480">
     <erste-sprache>ច្រកចេញ</erste-sprache><zweite-sprache>έξοδος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1482">
+  <vokabel-paar schritt="1481">
     <erste-sprache>វិជ្ជមាន</erste-sprache><zweite-sprache>θετικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1482">
     <erste-sprache>យ៉ាងវិជ្ជមាន</erste-sprache><zweite-sprache>θετικά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1483">
     <erste-sprache>យ៉ាងមានប្រសិទ្ធភាព</erste-sprache><zweite-sprache>αποτελεσματικά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>វេជ្ជសាស្ត្រ</erste-sprache><zweite-sprache>ιατρικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>ដៃ</erste-sprache><zweite-sprache>βραχίονας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>ដៃ</erste-sprache><zweite-sprache>χέρι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>ដៃ</erste-sprache><zweite-sprache>χέρια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>ក្នុងករណីដែល</erste-sprache><zweite-sprache>σε περίπτωση που</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1488">
+  <vokabel-paar schritt="1487">
     <erste-sprache>លេខ</erste-sprache><zweite-sprache>νούμερο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1489">
+  <vokabel-paar schritt="1488">
     <erste-sprache>មួយដុំ</erste-sprache><zweite-sprache>κομμάτι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1490">
+  <vokabel-paar schritt="1489">
     <erste-sprache>លទ្ធភាព</erste-sprache><zweite-sprache>δυνατότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>ស្វីស</erste-sprache><zweite-sprache>Ελβετία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>ស្វីស</erste-sprache><zweite-sprache>ελβετικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>εννοώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>εννοούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>εννοείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>εννοεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>σημαίνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>មានន័យថា</erste-sprache><zweite-sprache>σημαίνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1493">
+  <vokabel-paar schritt="1492">
     <erste-sprache>ក្នុងពេលតែមួយ</erste-sprache><zweite-sprache>ταυτόχρονα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>ឈ្នះ</erste-sprache><zweite-sprache>κερδίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>ឈ្នះ</erste-sprache><zweite-sprache>κερδίζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>ឈ្នះ</erste-sprache><zweite-sprache>κερδίζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>ឈ្នះ</erste-sprache><zweite-sprache>κερδίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>ដែលបានឈ្នះ</erste-sprache><zweite-sprache>κερδισμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>ដែលបានរកបាន</erste-sprache><zweite-sprache>κερδισμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>បានឈ្នះ</erste-sprache><zweite-sprache>κέρδισα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>បានឈ្នះ</erste-sprache><zweite-sprache>κέρδισες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>បានឈ្នះ</erste-sprache><zweite-sprache>κέρδισε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>បានរកបាន</erste-sprache><zweite-sprache>κέρδισα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>បានរកបាន</erste-sprache><zweite-sprache>κέρδισες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>បានរកបាន</erste-sprache><zweite-sprache>κέρδισε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>បាននាំមក</erste-sprache><zweite-sprache>έφερα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>បាននាំមក</erste-sprache><zweite-sprache>έφερες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>បាននាំមក</erste-sprache><zweite-sprache>έφερε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1498">
     <erste-sprache>ខ្ពស់ជាង</erste-sprache><zweite-sprache>ψηλότερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>យល់</erste-sprache><zweite-sprache>κατανοώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>យល់</erste-sprache><zweite-sprache>κατανοούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>យល់</erste-sprache><zweite-sprache>κατανοείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>យល់</erste-sprache><zweite-sprache>κατανοεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1501">
+  <vokabel-paar schritt="1500">
     <erste-sprache>ឆាក</erste-sprache><zweite-sprache>σκηνή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>កាត់បន្ថយ</erste-sprache><zweite-sprache>μειώνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>កាត់បន្ថយ</erste-sprache><zweite-sprache>μειώνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>កាត់បន្ថយ</erste-sprache><zweite-sprache>μειώνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>កាត់បន្ថយ</erste-sprache><zweite-sprache>μειώνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>ដោយប្រើ</erste-sprache><zweite-sprache>χρησιμοποιώντας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>សម្ភារៈ</erste-sprache><zweite-sprache>υλικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>សម្ភារៈ</erste-sprache><zweite-sprache>υλικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1505">
+  <vokabel-paar schritt="1504">
     <erste-sprache>មុខ</erste-sprache><zweite-sprache>πρόσωπο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1505">
     <erste-sprache>អាផាតមិន</erste-sprache><zweite-sprache>διαμέρισμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1507">
+  <vokabel-paar schritt="1506">
     <erste-sprache>កម្ពស់</erste-sprache><zweite-sprache>ύψος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1508">
+  <vokabel-paar schritt="1507">
     <erste-sprache>ចំនួន</erste-sprache><zweite-sprache>αριθμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1509">
+  <vokabel-paar schritt="1508">
     <erste-sprache>រដូវក្តៅ</erste-sprache><zweite-sprache>καλοκαίρι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1510">
+  <vokabel-paar schritt="1509">
     <erste-sprache>ដប់</erste-sprache><zweite-sprache>δέκα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1510">
     <erste-sprache>ចំណងជើង</erste-sprache><zweite-sprache>τίτλος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>ដែលបានកែប្រែ</erste-sprache><zweite-sprache>αναθεωρημένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1513">
+  <vokabel-paar schritt="1512">
     <erste-sprache>យុទ្ធនាការ</erste-sprache><zweite-sprache>εκστρατεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>ខេត្ត</erste-sprache><zweite-sprache>επαρχία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>បានជួប</erste-sprache><zweite-sprache>συνάντησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>បានជួប</erste-sprache><zweite-sprache>συνάντησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>បានជួប</erste-sprache><zweite-sprache>συνάντησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>បានបំពេញ</erste-sprache><zweite-sprache>ικανοποίησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>បានបំពេញ</erste-sprache><zweite-sprache>ικανοποίησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>បានបំពេញ</erste-sprache><zweite-sprache>ικανοποίησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>បានធ្វើឱ្យពេញចិត្ត</erste-sprache><zweite-sprache>ικανοποίησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>បានធ្វើឱ្យពេញចិត្ត</erste-sprache><zweite-sprache>ικανοποίησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>បានធ្វើឱ្យពេញចិត្ត</erste-sprache><zweite-sprache>ικανοποίησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1517">
     <erste-sprache>កំពុងប្រសើរឡើង</erste-sprache><zweite-sprache>βελτιούμενος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1519">
+  <vokabel-paar schritt="1518">
     <erste-sprache>កំហូច</erste-sprache><zweite-sprache>ελάττωμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1520">
+  <vokabel-paar schritt="1519">
     <erste-sprache>កាលៈទេសៈ</erste-sprache><zweite-sprache>περιστάσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1521">
+  <vokabel-paar schritt="1520">
     <erste-sprache>ឥណ្ឌា</erste-sprache><zweite-sprache>Ινδία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1521">
     <erste-sprache>អ្នកចូលរួម</erste-sprache><zweite-sprache>συμμετέχοντες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>រដ្ឋធម្មនុញ្ញ</erste-sprache><zweite-sprache>σύνταγμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>និយាយអ៊ីចឹង</erste-sprache><zweite-sprache>παρεμπιπτόντως</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1525">
+  <vokabel-paar schritt="1524">
     <erste-sprache>បានឃើញ</erste-sprache><zweite-sprache>είδε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1526">
+  <vokabel-paar schritt="1525">
     <erste-sprache>ដែលបានបាត់បង់</erste-sprache><zweite-sprache>χαμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>បានបាត់បង់</erste-sprache><zweite-sprache>έχασα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>បានបាត់បង់</erste-sprache><zweite-sprache>έχασες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>បានបាត់បង់</erste-sprache><zweite-sprache>έχασε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>បានស្វាគមន៍</erste-sprache><zweite-sprache>καλωσόρισα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>បានស្វាគមន៍</erste-sprache><zweite-sprache>καλωσόρισες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>បានស្វាគមន៍</erste-sprache><zweite-sprache>καλωσόρισε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1529">
+  <vokabel-paar schritt="1528">
     <erste-sprache>ប្រភព</erste-sprache><zweite-sprache>πηγή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>ស្នាក់នៅ</erste-sprache><zweite-sprache>μένω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>ស្នាក់នៅ</erste-sprache><zweite-sprache>μένουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>ស្នាក់នៅ</erste-sprache><zweite-sprache>μείνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>ស្នាក់នៅ</erste-sprache><zweite-sprache>μένει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1530">
     <erste-sprache>អ្នកមានផលប្រយោជន៍ពាក់ព័ន្ធ</erste-sprache><zweite-sprache>ενδιαφερόμενα μέρη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>ការ៉ាប៊ីន</erste-sprache><zweite-sprache>Καραϊβική</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1533">
+  <vokabel-paar schritt="1532">
     <erste-sprache>ការាប៊ីន</erste-sprache><zweite-sprache>καραϊβικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1533">
     <erste-sprache>ជនជាតិការាប៊ីន</erste-sprache><zweite-sprache>Καραϊβικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1535">
+  <vokabel-paar schritt="1534">
     <erste-sprache>ការណែនាំ</erste-sprache><zweite-sprache>καθοδήγηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1535">
     <erste-sprache>តុ</erste-sprache><zweite-sprache>τραπέζι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>តារាង</erste-sprache><zweite-sprache>πίνακας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1537">
     <erste-sprache>ការហៅទូរស័ព្ទ</erste-sprache><zweite-sprache>κλήσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>ការធ្វើទារុណកម្ម</erste-sprache><zweite-sprache>βασανισμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1539">
     <erste-sprache>ធ្វើទារុណកម្ម</erste-sprache><zweite-sprache>βασανίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1539">
     <erste-sprache>ធ្វើទារុណកម្ម</erste-sprache><zweite-sprache>βασανίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1541">
+  <vokabel-paar schritt="1540">
     <erste-sprache>ក្រុមតន្ត្រី</erste-sprache><zweite-sprache>μπάντα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1541">
     <erste-sprache>អ្នកលេង</erste-sprache><zweite-sprache>παίκτης</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1541">
     <erste-sprache>អ្នកលេង</erste-sprache><zweite-sprache>παίκτες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1543">
+  <vokabel-paar schritt="1542">
     <erste-sprache>យឺតៗ</erste-sprache><zweite-sprache>αργά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1544">
+  <vokabel-paar schritt="1543">
     <erste-sprache>សូចនាករ</erste-sprache><zweite-sprache>δείκτες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>ស្រឡាញ់</erste-sprache><zweite-sprache>αγαπώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>ស្រឡាញ់</erste-sprache><zweite-sprache>αγαπάμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>ស្រឡាញ់</erste-sprache><zweite-sprache>αγαπάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>ស្រឡាញ់</erste-sprache><zweite-sprache>αγαπά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1546">
+  <vokabel-paar schritt="1545">
     <erste-sprache>ក្រីក្រ</erste-sprache><zweite-sprache>φτωχός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1546">
     <erste-sprache>បំណុល</erste-sprache><zweite-sprache>χρέος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1547">
     <erste-sprache>ប្រសិទ្ធភាព</erste-sprache><zweite-sprache>αποτελεσματικότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>ឮ</erste-sprache><zweite-sprache>ακούω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>ឮ</erste-sprache><zweite-sprache>ακούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>ឮ</erste-sprache><zweite-sprache>ακούτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>ឮ</erste-sprache><zweite-sprache>ακούει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>លឺ</erste-sprache><zweite-sprache>ακούει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1551">
+  <vokabel-paar schritt="1550">
     <erste-sprache>ពាក្យបច្ចេកទេស</erste-sprache><zweite-sprache>όρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>ទីធ្លាខាងក្នុង</erste-sprache><zweite-sprache>αυλή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1552">
     <erste-sprache>គ្រប់ទីកន្លែង</erste-sprache><zweite-sprache>παντού</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>អារម្មណ៍</erste-sprache><zweite-sprache>αίσθηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1555">
+  <vokabel-paar schritt="1554">
     <erste-sprache>មេឌៀ</erste-sprache><zweite-sprache>μέσα ενημέρωσης</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1556">
+  <vokabel-paar schritt="1555">
     <erste-sprache>រដូវ</erste-sprache><zweite-sprache>σεζόν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1557">
+  <vokabel-paar schritt="1556">
     <erste-sprache>ទូរទស្សន៍</erste-sprache><zweite-sprache>τηλεόραση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>បានពន្យល់</erste-sprache><zweite-sprache>εξήγησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>បានពន្យល់</erste-sprache><zweite-sprache>εξήγησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>បានពន្យល់</erste-sprache><zweite-sprache>εξήγησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1558">
     <erste-sprache>ជាទីស្រឡាញ់</erste-sprache><zweite-sprache>αγαπητός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1558">
     <erste-sprache>ជាទីស្រឡាញ់</erste-sprache><zweite-sprache>αγαπητή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1559">
     <erste-sprache>អ៊ឺ</erste-sprache><zweite-sprache>εεε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>បណ្តាញ</erste-sprache><zweite-sprache>δίκτυο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>បណ្តាញ</erste-sprache><zweite-sprache>δίκτυα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>រដ្ឋ</erste-sprache><zweite-sprache>κράτος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>រដ្ឋ</erste-sprache><zweite-sprache>πολιτεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>រដ្ឋ</erste-sprache><zweite-sprache>κράτη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1563">
+  <vokabel-paar schritt="1562">
     <erste-sprache>រដ្ឋនានា</erste-sprache><zweite-sprache>κράτη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>ខែ</erste-sprache><zweite-sprache>μήνας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>ខែ</erste-sprache><zweite-sprache>μήνες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1564">
     <erste-sprache>ផ្លូវដែក</erste-sprache><zweite-sprache>σιδηρόδρομος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>ឆ្លើយ</erste-sprache><zweite-sprache>απαντώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>ឆ្លើយ</erste-sprache><zweite-sprache>απαντάμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>ឆ្លើយ</erste-sprache><zweite-sprache>απαντάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>ឆ្លើយ</erste-sprache><zweite-sprache>απαντά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>ពាក់</erste-sprache><zweite-sprache>φοράω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>ពាក់</erste-sprache><zweite-sprache>φοράμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>ពាក់</erste-sprache><zweite-sprache>φοράτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>ពាក់</erste-sprache><zweite-sprache>φοράει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1567">
     <erste-sprache>ជាមួយអ្នក</erste-sprache><zweite-sprache>μαζί σου</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>តូចតាច</erste-sprache><zweite-sprache>δευτερεύων</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>សារ</erste-sprache><zweite-sprache>μήνυμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>បេះដូង</erste-sprache><zweite-sprache>καρδιά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1572">
+  <vokabel-paar schritt="1571">
     <erste-sprache>មករា</erste-sprache><zweite-sprache>Ιανουάριος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1573">
+  <vokabel-paar schritt="1572">
     <erste-sprache>សភា</erste-sprache><zweite-sprache>Κογκρέσο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>រង់ចាំ</erste-sprache><zweite-sprache>περιμένω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>រង់ចាំ</erste-sprache><zweite-sprache>περιμένουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>រង់ចាំ</erste-sprache><zweite-sprache>περιμένετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>រង់ចាំ</erste-sprache><zweite-sprache>περιμένει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1575">
+  <vokabel-paar schritt="1574">
     <erste-sprache>ឆ្កួតអើយ</erste-sprache><zweite-sprache>ανάθεμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>បោះពុម្ព</erste-sprache><zweite-sprache>εκτυπώνω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>បោះពុម្ព</erste-sprache><zweite-sprache>εκτυπώνουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>បោះពុម្ព</erste-sprache><zweite-sprache>εκτυπώνετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>បោះពុម្ព</erste-sprache><zweite-sprache>εκτυπώνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>ខ្យល់</erste-sprache><zweite-sprache>αέρας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1577">
     <erste-sprache>ចំណាប់អារម្មណ៍</erste-sprache><zweite-sprache>ενδιαφέρον</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1579">
+  <vokabel-paar schritt="1578">
     <erste-sprache>ស្តេច</erste-sprache><zweite-sprache>βασιλιάς</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>រូបថត</erste-sprache><zweite-sprache>φωτογραφία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>រូបថត</erste-sprache><zweite-sprache>φωτογραφίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1580">
     <erste-sprache>ដំណោះស្រាយ</erste-sprache><zweite-sprache>λύση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1581">
     <erste-sprache>សំឡេង</erste-sprache><zweite-sprache>ήχοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1581">
     <erste-sprache>សំឡេង</erste-sprache><zweite-sprache>φωνή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1583">
+  <vokabel-paar schritt="1582">
     <erste-sprache>ខុស</erste-sprache><zweite-sprache>λανθασμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>លើស</erste-sprache><zweite-sprache>πέρα από</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>លើស</erste-sprache><zweite-sprache>ανώτερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>បានសន្មត</erste-sprache><zweite-sprache>υπέθεσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>បានសន្មត</erste-sprache><zweite-sprache>υπέθεσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>បានសន្មត</erste-sprache><zweite-sprache>υπέθεσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>ទ្រូង</erste-sprache><zweite-sprache>στήθος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1587">
+  <vokabel-paar schritt="1586">
     <erste-sprache>ផ្លូវឆ្លង</erste-sprache><zweite-sprache>πέρασμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>វត្តមាន</erste-sprache><zweite-sprache>παρουσία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>ពាក់កណ្តាល</erste-sprache><zweite-sprache>μισός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1590">
+  <vokabel-paar schritt="1589">
     <erste-sprache>ខ្មៅ</erste-sprache><zweite-sprache>μαύρο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>ការរិះគន់</erste-sprache><zweite-sprache>κριτική</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1592">
+  <vokabel-paar schritt="1591">
     <erste-sprache>បាល់ទាត់</erste-sprache><zweite-sprache>ποδόσφαιρο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>ព័ត៌មាន</erste-sprache><zweite-sprache>πληροφορία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>ព័ត៌មាន</erste-sprache><zweite-sprache>πληροφορίες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>ព័ត៌មាន</erste-sprache><zweite-sprache>νέα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1593">
     <erste-sprache>ត្រឹមត្រូវ</erste-sprache><zweite-sprache>σωστός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1594">
     <erste-sprache>ថ្ងៃអាទិត្យ</erste-sprache><zweite-sprache>Κυριακή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1595">
     <erste-sprache>ថ្មីជាង</erste-sprache><zweite-sprache>νεότερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1596">
     <erste-sprache>រលត់</erste-sprache><zweite-sprache>σβήνει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1598">
+  <vokabel-paar schritt="1597">
     <erste-sprache>មាត់</erste-sprache><zweite-sprache>στόμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1598">
     <erste-sprache>ជើង</erste-sprache><zweite-sprache>πόδια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1598">
     <erste-sprache>ជើង</erste-sprache><zweite-sprache>πόδι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1599">
     <erste-sprache>សារព័ត៌មាន</erste-sprache><zweite-sprache>Τύπος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>ភាពជាក់ស្តែង</erste-sprache><zweite-sprache>πραγματικότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1602">
+  <vokabel-paar schritt="1601">
     <erste-sprache>រាងកាយ</erste-sprache><zweite-sprache>σώμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1603">
+  <vokabel-paar schritt="1602">
     <erste-sprache>អង្គ</erste-sprache><zweite-sprache>όργανο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1603">
     <erste-sprache>រង្វង់</erste-sprache><zweite-sprache>κύκλος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1605">
+  <vokabel-paar schritt="1604">
     <erste-sprache>វែងជាង</erste-sprache><zweite-sprache>μακρύτερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1605">
     <erste-sprache>ចំណុច</erste-sprache><zweite-sprache>σημείο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1605">
     <erste-sprache>ចំណុច</erste-sprache><zweite-sprache>σημεία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1607">
+  <vokabel-paar schritt="1606">
     <erste-sprache>តូចជាង</erste-sprache><zweite-sprache>μικρότερος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1607">
     <erste-sprache>សុន្ទរកថា</erste-sprache><zweite-sprache>ομιλία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1609">
+  <vokabel-paar schritt="1608">
     <erste-sprache>ជាមួយខ្ញុំ</erste-sprache><zweite-sprache>μαζί μου</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>រស់នៅ</erste-sprache><zweite-sprache>ζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>រស់នៅ</erste-sprache><zweite-sprache>ζούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>រស់នៅ</erste-sprache><zweite-sprache>ζείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>រស់នៅ</erste-sprache><zweite-sprache>ζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1610">
     <erste-sprache>រាល់ថ្ងៃ</erste-sprache><zweite-sprache>καθημερινά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1611">
     <erste-sprache>ព្រះអាទិត្យ</erste-sprache><zweite-sprache>ήλιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1612">
     <erste-sprache>ពន្លឺ</erste-sprache><zweite-sprache>φως</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1614">
+  <vokabel-paar schritt="1613">
     <erste-sprache>នៅពេលនេះ</erste-sprache><zweite-sprache>εν τω μεταξύ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1615">
+  <vokabel-paar schritt="1614">
     <erste-sprache>ខាងស្តាំ</erste-sprache><zweite-sprache>δεξιός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1616">
+  <vokabel-paar schritt="1615">
     <erste-sprache>ពេញចិត្ត</erste-sprache><zweite-sprache>ικανοποιημένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1617">
+  <vokabel-paar schritt="1616">
     <erste-sprache>ស្រាល</erste-sprache><zweite-sprache>ελαφρύς</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1618">
+  <vokabel-paar schritt="1617">
     <erste-sprache>ដោយផ្នែក</erste-sprache><zweite-sprache>μερικώς</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>បំណែក</erste-sprache><zweite-sprache>κομμάτια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1620">
+  <vokabel-paar schritt="1619">
     <erste-sprache>គ្រប់</erste-sprache><zweite-sprache>αρκεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>ក្លឹបបាល់ទាត់</erste-sprache><zweite-sprache>ΦΚ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1622">
+  <vokabel-paar schritt="1621">
     <erste-sprache>ពាក់កណ្ដាល</erste-sprache><zweite-sprache>μισό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1622">
     <erste-sprache>ដេក</erste-sprache><zweite-sprache>κείτονταν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1624">
+  <vokabel-paar schritt="1623">
     <erste-sprache>កាសែត</erste-sprache><zweite-sprache>εφημερίδα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1624">
     <erste-sprache>សិស្ស</erste-sprache><zweite-sprache>μαθητές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1624">
     <erste-sprache>សិស្ស</erste-sprache><zweite-sprache>φοιτητές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1626">
+  <vokabel-paar schritt="1625">
     <erste-sprache>អ្វីម្យ៉ាងបែបនោះ</erste-sprache><zweite-sprache>κάτι τέτοιο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1627">
+  <vokabel-paar schritt="1626">
     <erste-sprache>ជនជាតិអឺរ៉ុប</erste-sprache><zweite-sprache>Ευρωπαίος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1627">
     <erste-sprache>តម្រុយ</erste-sprache><zweite-sprache>ένδειξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1629">
+  <vokabel-paar schritt="1628">
     <erste-sprache>អង្សា</erste-sprache><zweite-sprache>βαθμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1629">
     <erste-sprache>កីឡា</erste-sprache><zweite-sprache>αθλητισμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ពន្យល់</erste-sprache><zweite-sprache>εξηγώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ពន្យល់</erste-sprache><zweite-sprache>εξηγούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ពន្យល់</erste-sprache><zweite-sprache>εξηγείτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ពន្យល់</erste-sprache><zweite-sprache>εξηγεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>បានធ្វើសកម្មភាព</erste-sprache><zweite-sprache>έπραξα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>បានធ្វើសកម្មភាព</erste-sprache><zweite-sprache>έπραξες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>បានធ្វើសកម្មភាព</erste-sprache><zweite-sprache>έπραξε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1632">
     <erste-sprache>អស្ចារ្យបំផុត</erste-sprache><zweite-sprache>μέγιστος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>ថ្នាក់រៀន</erste-sprache><zweite-sprache>μαθήματα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1634">
     <erste-sprache>ផ្សាយ</erste-sprache><zweite-sprache>μεταδίδει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1635">
     <erste-sprache>កំណែ</erste-sprache><zweite-sprache>έκδοση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1635">
     <erste-sprache>ការបោះពុម្ព</erste-sprache><zweite-sprache>έκδοση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1637">
+  <vokabel-paar schritt="1636">
     <erste-sprache>ខាងលិច</erste-sprache><zweite-sprache>δύση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>បុរសជាន់ខ្ពស់</erste-sprache><zweite-sprache>κύριοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1638">
     <erste-sprache>ដូចជា</erste-sprache><zweite-sprache>ακριβώς όπως</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1640">
+  <vokabel-paar schritt="1639">
     <erste-sprache>បញ្ជី</erste-sprache><zweite-sprache>λίστα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1641">
+  <vokabel-paar schritt="1640">
     <erste-sprache>សម្ពាធ</erste-sprache><zweite-sprache>πίεση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>ចុងសប្តាហ៍</erste-sprache><zweite-sprache>Σαββατοκύριακο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>បានដកចេញ</erste-sprache><zweite-sprache>αφαίρεσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>បានដកចេញ</erste-sprache><zweite-sprache>αφαίρεσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>បានដកចេញ</erste-sprache><zweite-sprache>αφαίρεσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1643">
     <erste-sprache>ដែលបាត់</erste-sprache><zweite-sprache>ελλιπής</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1645">
+  <vokabel-paar schritt="1644">
     <erste-sprache>មតិយោបល់</erste-sprache><zweite-sprache>σχόλια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1645">
     <erste-sprache>ថ្ងៃត្រង់</erste-sprache><zweite-sprache>μεσημέρι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1646">
     <erste-sprache>នឹងអាច</erste-sprache><zweite-sprache>θα μπορέσει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>ជៀសវាង</erste-sprache><zweite-sprache>αποφεύγω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>ជៀសវាង</erste-sprache><zweite-sprache>αποφεύγουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>ជៀសវាង</erste-sprache><zweite-sprache>αποφεύγετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>ជៀសវាង</erste-sprache><zweite-sprache>αποφεύγει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>រដូវស្លឹកឈើជ្រុះ</erste-sprache><zweite-sprache>φθινόπωρο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>ភាពអាចរកបាន</erste-sprache><zweite-sprache>διαθεσιμότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1650">
     <erste-sprache>អតិថិជន</erste-sprache><zweite-sprache>πελάτες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>ការគាំទ្រ</erste-sprache><zweite-sprache>υποστήριξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1652">
     <erste-sprache>យើងនឹងត្រូវ</erste-sprache><zweite-sprache>θα έπρεπε να</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1652">
     <erste-sprache>អ្នកនឹងត្រូវ</erste-sprache><zweite-sprache>θα έπρεπε να</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκινώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκινάμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκινάτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>ចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκινά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>ជ្រើសរើស</erste-sprache><zweite-sprache>επιλέγω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>ជ្រើសរើស</erste-sprache><zweite-sprache>επιλέγουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>ជ្រើសរើស</erste-sprache><zweite-sprache>επιλέγετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>ជ្រើសរើស</erste-sprache><zweite-sprache>επιλέγει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1655">
     <erste-sprache>សម្លៀកបំពាក់</erste-sprache><zweite-sprache>ρούχα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1657">
+  <vokabel-paar schritt="1656">
     <erste-sprache>ផ្ទុយ</erste-sprache><zweite-sprache>αντίθετος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1658">
+  <vokabel-paar schritt="1657">
     <erste-sprache>ការស្អប់</erste-sprache><zweite-sprache>μίσος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>ឈាម</erste-sprache><zweite-sprache>αίμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1659">
     <erste-sprache>គែម</erste-sprache><zweite-sprache>άκρη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1660">
     <erste-sprache>សុខសប្បាយ</erste-sprache><zweite-sprache>ευτυχισμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>មិនអាចទៅរួច</erste-sprache><zweite-sprache>αδύνατος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1663">
+  <vokabel-paar schritt="1662">
     <erste-sprache>រចនាប័ទ្ម</erste-sprache><zweite-sprache>στυλ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1664">
+  <vokabel-paar schritt="1663">
     <erste-sprache>អារម្មណ៍ខុស</erste-sprache><zweite-sprache>ενοχή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1665">
+  <vokabel-paar schritt="1664">
     <erste-sprache>នៅលីវ</erste-sprache><zweite-sprache>ανύπαντρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>ការផ្តល់ជូន</erste-sprache><zweite-sprache>προσφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>ការផ្គត់ផ្គង់</erste-sprache><zweite-sprache>προσφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
+  <vokabel-paar schritt="1666">
     <erste-sprache>ដែលនៅសល់</erste-sprache><zweite-sprache>παραμείνας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>បាននៅសល់</erste-sprache><zweite-sprache>παρέμεινα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>បាននៅសល់</erste-sprache><zweite-sprache>παρέμεινες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>បាននៅសល់</erste-sprache><zweite-sprache>παρέμεινε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1669">
+  <vokabel-paar schritt="1668">
     <erste-sprache>តូច</erste-sprache><zweite-sprache>μικρός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1669">
     <erste-sprache>រង្វាន់</erste-sprache><zweite-sprache>βραβείο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1670">
     <erste-sprache>រោងកុន</erste-sprache><zweite-sprache>κινηματογράφος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>ឧស្សាហកម្ម</erste-sprache><zweite-sprache>βιομηχανία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>ព្រួយ</erste-sprache><zweite-sprache>λυπημένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1673">
     <erste-sprache>ចាប់ពីឥឡូវនេះទៅ</erste-sprache><zweite-sprache>από τώρα και στο εξής</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>ម៉ូដែល</erste-sprache><zweite-sprache>μοντέλο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1675">
     <erste-sprache>ស្រស់</erste-sprache><zweite-sprache>φρέσκος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>ជាដើម</erste-sprache><zweite-sprache>και ούτω καθεξής</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>ជាដើម</erste-sprache><zweite-sprache>κλπ.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1677">
     <erste-sprache>ហេយ</erste-sprache><zweite-sprache>έι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>ក្រុមហ៊ុនមានកំណត់</erste-sprache><zweite-sprache>ΕΠΕ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>ក្រុមហ៊ុនមានកំណត់</erste-sprache><zweite-sprache>εταιρεία περιορισμένης ευθύνης</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1679">
     <erste-sprache>បញ្ជា</erste-sprache><zweite-sprache>διαταγή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>សណ្តាប់ធ្នាប់</erste-sprache><zweite-sprache>τάξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1681">
     <erste-sprache>ក្រហម</erste-sprache><zweite-sprache>κόκκινος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>ស្តាប់ទៅ</erste-sprache><zweite-sprache>ακούγομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>ស្តាប់ទៅ</erste-sprache><zweite-sprache>ακουγόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>ស្តាប់ទៅ</erste-sprache><zweite-sprache>ακούγεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>ស្តាប់ទៅ</erste-sprache><zweite-sprache>ακούγεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>អ្នកត្រឡប់មកវិញ</erste-sprache><zweite-sprache>επιστρέφοντες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1684">
     <erste-sprache>បដិវត្តន៍</erste-sprache><zweite-sprache>επανάσταση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>រាប់ពាន់</erste-sprache><zweite-sprache>χιλιάδες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1686">
     <erste-sprache>សន្លឹកឆ្នោត</erste-sprache><zweite-sprache>ψήφοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1687">
     <erste-sprache>ការរង់ចាំ</erste-sprache><zweite-sprache>αναμονή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>សង្គមប៊ួរហ្ស្វា</erste-sprache><zweite-sprache>αστική κοινωνία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1689">
     <erste-sprache>សង្គមស៊ីវិល</erste-sprache><zweite-sprache>κοινωνία των πολιτών</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>ស្លាប់</erste-sprache><zweite-sprache>νεκρός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>បានចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκίνησα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>បានចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκίνησες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>បានចាប់ផ្តើម</erste-sprache><zweite-sprache>ξεκίνησε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>ចៅហ្វាយ</erste-sprache><zweite-sprache>αφεντικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>ប៊ូស</erste-sprache><zweite-sprache>αφεντικό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>ដុល្លារ</erste-sprache><zweite-sprache>δολάρια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>មូល</erste-sprache><zweite-sprache>στρογγυλός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>មូល</erste-sprache><zweite-sprache>στρογγυλές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1695">
     <erste-sprache>ជុំ</erste-sprache><zweite-sprache>γύρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>សម្តីឥតបានការ</erste-sprache><zweite-sprache>χάλια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>អន់</erste-sprache><zweite-sprache>χάλια</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1697">
     <erste-sprache>គ្រូ</erste-sprache><zweite-sprache>δάσκαλος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1698">
     <erste-sprache>ដែលបានបោះពុម្ព</erste-sprache><zweite-sprache>δημοσιευμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>បានបោះពុម្ព</erste-sprache><zweite-sprache>δημοσίευσα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>បានបោះពុម្ព</erste-sprache><zweite-sprache>δημοσίευσες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>បានបោះពុម្ព</erste-sprache><zweite-sprache>δημοσίευσε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1700">
     <erste-sprache>ដែលបានជ្រើសរើស</erste-sprache><zweite-sprache>εκλεγμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>បានជ្រើសរើស</erste-sprache><zweite-sprache>εκλέχτηκα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>បានជ្រើសរើស</erste-sprache><zweite-sprache>εκλέχτηκες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>បានជ្រើសរើស</erste-sprache><zweite-sprache>εκλέχτηκε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1702">
     <erste-sprache>ដែលបានអភិវឌ្ឍ</erste-sprache><zweite-sprache>αναπτυγμένος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>បានអភិវឌ្ឍ</erste-sprache><zweite-sprache>ανέπτυξα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>បានអភិវឌ្ឍ</erste-sprache><zweite-sprache>ανέπτυξες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>បានអភិវឌ្ឍ</erste-sprache><zweite-sprache>ανέπτυξε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1704">
     <erste-sprache>ស្រដៀងគ្នា</erste-sprache><zweite-sprache>παρόμοιος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>មន្ទីរពេទ្យ</erste-sprache><zweite-sprache>νοσοκομείο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>ព្រលឹង</erste-sprache><zweite-sprache>ψυχή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1707">
     <erste-sprache>ដែលឆ្លងកាត់</erste-sprache><zweite-sprache>περαστικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1708">
     <erste-sprache>ពន្ធនាគារ</erste-sprache><zweite-sprache>φυλακή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1709">
     <erste-sprache>ថ្ងៃសុក្រ</erste-sprache><zweite-sprache>Παρασκευή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>សម្រេចចិត្ត</erste-sprache><zweite-sprache>αποφασίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>សម្រេចចិត្ត</erste-sprache><zweite-sprache>αποφασίζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>សម្រេចចិត្ត</erste-sprache><zweite-sprache>αποφασίζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>សម្រេចចិត្ត</erste-sprache><zweite-sprache>αποφασίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>គូរ</erste-sprache><zweite-sprache>ζωγραφίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>គូរ</erste-sprache><zweite-sprache>ζωγραφίζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>គូរ</erste-sprache><zweite-sprache>ζωγραφίζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>គូរ</erste-sprache><zweite-sprache>ζωγραφίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>ដាក់ឈ្មោះ</erste-sprache><zweite-sprache>ονομάζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>ដាក់ឈ្មោះ</erste-sprache><zweite-sprache>ονομάζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>ដាក់ឈ្មោះ</erste-sprache><zweite-sprache>ονομάζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>ដាក់ឈ្មោះ</erste-sprache><zweite-sprache>ονομάζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1713">
     <erste-sprache>អ្នកឃើញ</erste-sprache><zweite-sprache>βλέπεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>វិជ្ជាជីវៈ</erste-sprache><zweite-sprache>επαγγελματικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>ការវាយប្រហារ</erste-sprache><zweite-sprache>επίθεση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>វាយ</erste-sprache><zweite-sprache>επίθεση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>វាយ</erste-sprache><zweite-sprache>χτυπώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>វាយ</erste-sprache><zweite-sprache>χτυπά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>រកឃើញម្តងទៀត</erste-sprache><zweite-sprache>βρίσκει ξανά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>របប</erste-sprache><zweite-sprache>καθεστώς</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>ឈានទៅមុខ</erste-sprache><zweite-sprache>προχωρώ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>ឈានទៅមុខ</erste-sprache><zweite-sprache>προχωρούμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>ឈានទៅមុខ</erste-sprache><zweite-sprache>προχωράτε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>ឈានទៅមុខ</erste-sprache><zweite-sprache>προχωρά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>វាយប្រហារ</erste-sprache><zweite-sprache>επιτίθεμαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>វាយប្រហារ</erste-sprache><zweite-sprache>επιτιθέμεθα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>វាយប្រហារ</erste-sprache><zweite-sprache>επιτίθεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>វាយប្រហារ</erste-sprache><zweite-sprache>επιτίθεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>ទ្វារ</erste-sprache><zweite-sprache>πόρτα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1722">
     <erste-sprache>ផែនដី</erste-sprache><zweite-sprache>Γη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1723">
     <erste-sprache>មាស</erste-sprache><zweite-sprache>χρυσός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1724">
     <erste-sprache>កំពុងដំណើរការ</erste-sprache><zweite-sprache>πάει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>អាពាហ៍ពិពាហ៍</erste-sprache><zweite-sprache>γάμος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>ពិធីរៀបការ</erste-sprache><zweite-sprache>γάμος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1726">
     <erste-sprache>ចលនា</erste-sprache><zweite-sprache>κίνηση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1727">
     <erste-sprache>ជនភៀសខ្លួន</erste-sprache><zweite-sprache>πρόσφυγες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1728">
     <erste-sprache>សាកលវិទ្យាល័យ</erste-sprache><zweite-sprache>πανεπιστήμιο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1729">
     <erste-sprache>ជ័យជម្នះ</erste-sprache><zweite-sprache>νίκη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>បានលេង</erste-sprache><zweite-sprache>έπαιξα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>បានលេង</erste-sprache><zweite-sprache>έπαιξες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>បានលេង</erste-sprache><zweite-sprache>έπαιξε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>ប្រព្រឹត្ត</erste-sprache><zweite-sprache>συμπεριφέρομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>ប្រព្រឹត្ត</erste-sprache><zweite-sprache>συμπεριφερόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>ប្រព្រឹត្ត</erste-sprache><zweite-sprache>συμπεριφέρεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>ប្រព្រឹត្ត</erste-sprache><zweite-sprache>συμπεριφέρεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>អង្គុយ</erste-sprache><zweite-sprache>κάθομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>អង្គុយ</erste-sprache><zweite-sprache>καθόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>អង្គុយ</erste-sprache><zweite-sprache>καθίστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>អង្គុយ</erste-sprache><zweite-sprache>κάθεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1733">
     <erste-sprache>មានបទពិសោធន៍</erste-sprache><zweite-sprache>έμπειρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>ដោយស្មោះត្រង់</erste-sprache><zweite-sprache>ειλικρινά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>គុយបា</erste-sprache><zweite-sprache>Κούβα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>សុបិន</erste-sprache><zweite-sprache>όνειρο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1737">
     <erste-sprache>យប់ៗ</erste-sprache><zweite-sprache>νύχτες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1738">
     <erste-sprache>ការដឹកជញ្ជូន</erste-sprache><zweite-sprache>μεταφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1739">
     <erste-sprache>អ្នកប្រើប្រាស់</erste-sprache><zweite-sprache>χρήστες</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1740">
     <erste-sprache>សង្កាត់</erste-sprache><zweite-sprache>quartiere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1741">
     <erste-sprache>យ៉ាងសកម្ម</erste-sprache><zweite-sprache>ενεργά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>នៅពីក្រោយ</erste-sprache><zweite-sprache>πίσω από</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>វេជ្ជបណ្ឌិត</erste-sprache><zweite-sprache>γιατρός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1744">
     <erste-sprache>លា</erste-sprache><zweite-sprache>γάιδαρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>វិទ្យុ</erste-sprache><zweite-sprache>ραδιόφωνο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>ទំនាក់ទំនង</erste-sprache><zweite-sprache>σχέσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>ទំនាក់ទំនង</erste-sprache><zweite-sprache>σχέση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1747">
     <erste-sprache>ដែលបានមកដល់</erste-sprache><zweite-sprache>αφικθείς</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1748">
     <erste-sprache>អាជីព</erste-sprache><zweite-sprache>καριέρα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1749">
     <erste-sprache>ពណ៌</erste-sprache><zweite-sprache>χρώμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1750">
     <erste-sprache>ព្រះរាជក្រឹត្យ</erste-sprache><zweite-sprache>διάταγμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1751">
     <erste-sprache>ថ្ងៃច័ន្ទ</erste-sprache><zweite-sprache>Δευτέρα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>សុភនិច្ឆ័យ</erste-sprache><zweite-sprache>κοινή λογική</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>កំណត់ហេតុប្រជុំ</erste-sprache><zweite-sprache>πρακτικά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1754">
     <erste-sprache>គួរឱ្យខ្លាច</erste-sprache><zweite-sprache>τρομερός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1755">
     <erste-sprache>ការប្រកួត</erste-sprache><zweite-sprache>διαγωνισμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1756">
     <erste-sprache>គូស្នេហ៍</erste-sprache><zweite-sprache>ζευγάρι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1757">
     <erste-sprache>ឆ្កួត</erste-sprache><zweite-sprache>τρελός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>ភាពខុសគ្នា</erste-sprache><zweite-sprache>διαφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>ភាពខុស</erste-sprache><zweite-sprache>διαφορά</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1759">
     <erste-sprache>ចៅក្រម</erste-sprache><zweite-sprache>κριτής</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1760">
     <erste-sprache>ពិធីបើក</erste-sprache><zweite-sprache>άνοιγμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1761">
     <erste-sprache>ជាតិពូជ</erste-sprache><zweite-sprache>φυλή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1762">
     <erste-sprache>បម្រើ</erste-sprache><zweite-sprache>εξυπηρετεί</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1763">
     <erste-sprache>ទំហំ</erste-sprache><zweite-sprache>μέγεθος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>ភូមិ</erste-sprache><zweite-sprache>χωριό</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1765">
     <erste-sprache>កំពុងទៅ</erste-sprache><zweite-sprache>πήγαινε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1766">
     <erste-sprache>ទម្ងន់</erste-sprache><zweite-sprache>βάρος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>ទៅសួរសុខទុក្ខ</erste-sprache><zweite-sprache>επισκέπτομαι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>ទៅសួរសុខទុក្ខ</erste-sprache><zweite-sprache>επισκεπτόμαστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>ទៅសួរសុខទុក្ខ</erste-sprache><zweite-sprache>επισκέπτεστε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>ទៅសួរសុខទុក្ខ</erste-sprache><zweite-sprache>επισκέπτεται</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>ជនជាតិអាមេរិក</erste-sprache><zweite-sprache>Αμερικανός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1769">
     <erste-sprache>និយាយដោយសង្ខេប</erste-sprache><zweite-sprache>εν ολίγοις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1770">
     <erste-sprache>សញ្ញា</erste-sprache><zweite-sprache>σημάδι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>មេឃ</erste-sprache><zweite-sprache>ουρανός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1772">
     <erste-sprache>នឹងនិយាយ</erste-sprache><zweite-sprache>θα έλεγε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1773">
     <erste-sprache>ជនជាតិស្វីស</erste-sprache><zweite-sprache>Ελβετός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1774">
     <erste-sprache>ការញុះញង់ឱ្យស្អប់ខ្ពើម</erste-sprache><zweite-sprache>υποκίνηση μίσους</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>សមត្ថភាពខ្លួនឯង</erste-sprache><zweite-sprache>αυτοαποτελεσματικότητα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1776">
     <erste-sprache>វាសនា</erste-sprache><zweite-sprache>μοίρα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1777">
     <erste-sprache>ឆ្លងបក្ស</erste-sprache><zweite-sprache>διακομματικός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1778">
     <erste-sprache>សញ្ញាប័ណ្ណបំណុល</erste-sprache><zweite-sprache>ομόλογα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>ការចែករំលែកឡាន</erste-sprache><zweite-sprache>κοινή χρήση αυτοκινήτου</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1780">
     <erste-sprache>សម្ព័ន្ធ</erste-sprache><zweite-sprache>συνασπισμός</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1781">
     <erste-sprache>ចក្រភព</erste-sprache><zweite-sprache>αυτοκρατορία</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1782">
     <erste-sprache>គ្មានគាត់</erste-sprache><zweite-sprache>χωρίς αυτόν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1783">
     <erste-sprache>គ្មាននាង</erste-sprache><zweite-sprache>χωρίς αυτήν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1784">
     <erste-sprache>គ្មានខ្ញុំ</erste-sprache><zweite-sprache>χωρίς εμένα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>ជាមួយគាត់</erste-sprache><zweite-sprache>με αυτόν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1786">
     <erste-sprache>ជាមួយនាង</erste-sprache><zweite-sprache>με αυτήν</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>កម្រងសំណួរ</erste-sprache><zweite-sprache>κουίζ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1788">
     <erste-sprache>អ្នកគ្រប់គ្រង</erste-sprache><zweite-sprache>ηγεμόνας</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1789">
     <erste-sprache>អាវ</erste-sprache><zweite-sprache>πουκάμισο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1790">
     <erste-sprache>សំឡេងរំខាន</erste-sprache><zweite-sprache>ήχος</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1791">
     <erste-sprache>ផ្សារហ៊ុន</erste-sprache><zweite-sprache>χρηματιστήριο</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>ភាគហ៊ុន</erste-sprache><zweite-sprache>μετοχές</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1793">
     <erste-sprache>ចំណុចគ្មានការត្រឡប់</erste-sprache><zweite-sprache>σημείο χωρίς επιστροφή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>កម្រាល</erste-sprache><zweite-sprache>πάτωμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1795">
     <erste-sprache>ការក្លែងបន្លំ</erste-sprache><zweite-sprache>απάτη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1796">
     <erste-sprache>ការបោកប្រាស់</erste-sprache><zweite-sprache>κομπίνα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1797">
     <erste-sprache>បន្ទះក្នុងស្បែកជើង</erste-sprache><zweite-sprache>πάτοι</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1798">
     <erste-sprache>ប្រាក់បញ្ញើ</erste-sprache><zweite-sprache>καταθέσεις</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1799">
     <erste-sprache>អក្សរ</erste-sprache><zweite-sprache>γράμμα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1800">
     <erste-sprache>និមិត្តសញ្ញានៃទ្រព្យសម្បត្តិ</erste-sprache><zweite-sprache>σύμβολο πλούτου</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ហៅ</erste-sprache><zweite-sprache>φωνάζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ហៅ</erste-sprache><zweite-sprache>φωνάζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ហៅ</erste-sprache><zweite-sprache>φωνάζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ហៅ</erste-sprache><zweite-sprache>φωνάζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>សង្កត់ធ្ងន់</erste-sprache><zweite-sprache>τονίζω</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>សង្កត់ធ្ងន់</erste-sprache><zweite-sprache>τονίζουμε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>សង្កត់ធ្ងន់</erste-sprache><zweite-sprache>τονίζετε</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>សង្កត់ធ្ងន់</erste-sprache><zweite-sprache>τονίζει</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>ជួបជុំ</erste-sprache><zweite-sprache>σύναξη</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1804">
     <erste-sprache>ដោយខ្លួនឯង</erste-sprache><zweite-sprache>μόνος του</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1805">
     <erste-sprache>នៅលើ</erste-sprache><zweite-sprache>στην κορυφή</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>ស្តាត</erste-sprache><zweite-sprache>ξεκίνημα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1807">
     <erste-sprache>ដំណឹង</erste-sprache><zweite-sprache>ενημέρωση</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1808">
     <erste-sprache>ដល់ឥឡូវ</erste-sprache><zweite-sprache>μέχρι τώρα</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>វិនាទី</erste-sprache><zweite-sprache>δευτερόλεπτο</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

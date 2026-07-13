@@ -3417,6 +3417,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>สภาพ</erste-sprache><zweite-sprache>stato</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="630">
+    <erste-sprache>ได้รับอนุญาต</erste-sprache><zweite-sprache>potere</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="630">
     <erste-sprache>ได้รับอนุญาต</erste-sprache><zweite-sprache>possiamo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="630">
@@ -3538,9 +3541,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="648">
     <erste-sprache>อำนาจ</erste-sprache><zweite-sprache>potere</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="648">
-    <erste-sprache>/ɗɨək˧˨ʔ fep˧˦/</erste-sprache><zweite-sprache>potere</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="649">
     <erste-sprache>อำนาจ</erste-sprache><zweite-sprache>autorità</zweite-sprache>
@@ -7197,9 +7197,18 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ทีม</erste-sprache><zweite-sprache>squadra</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1343">
-    <erste-sprache>/ʈiɲ˨˩ ɓaj˨˩/</erste-sprache><zweite-sprache>presentare</zweite-sprache>
+    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presentare</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1343">
+    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presentiamo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1343">
+    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presentate</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1343">
+    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presenta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1344">
     <erste-sprache>ส่ง</erste-sprache><zweite-sprache>presentare</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1344">
@@ -7212,2526 +7221,2517 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ส่ง</erste-sprache><zweite-sprache>presenta</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1345">
-    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presentiamo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1345">
-    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presentate</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1345">
-    <erste-sprache>นำเสนอ</erste-sprache><zweite-sprache>presenta</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1346">
     <erste-sprache>อ่าน</erste-sprache><zweite-sprache>leggere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>อ่าน</erste-sprache><zweite-sprache>leggiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>อ่าน</erste-sprache><zweite-sprache>leggete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1345">
     <erste-sprache>อ่าน</erste-sprache><zweite-sprache>legge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>กฎหมาย</erste-sprache><zweite-sprache>legge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1346">
     <erste-sprache>กฎหมาย</erste-sprache><zweite-sprache>leggi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1347">
     <erste-sprache>เก่า</erste-sprache><zweite-sprache>vecchio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1348">
     <erste-sprache>ทรัพย์สิน</erste-sprache><zweite-sprache>patrimonio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1348">
     <erste-sprache>ทรัพย์สิน</erste-sprache><zweite-sprache>proprietà</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1349">
     <erste-sprache>รัฐนิติธรรม</erste-sprache><zweite-sprache>Stato di diritto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>ทุน</erste-sprache><zweite-sprache>capitale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1350">
     <erste-sprache>เมืองหลวง</erste-sprache><zweite-sprache>capitale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1351">
     <erste-sprache>คุณรู้</erste-sprache><zweite-sprache>sai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>อำนวยความสะดวก</erste-sprache><zweite-sprache>facilitare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>อำนวยความสะดวก</erste-sprache><zweite-sprache>facilitiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>อำนวยความสะดวก</erste-sprache><zweite-sprache>facilitate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1352">
     <erste-sprache>อำนวยความสะดวก</erste-sprache><zweite-sprache>facilita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1353">
     <erste-sprache>กลาง</erste-sprache><zweite-sprache>centrale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1354">
     <erste-sprache>โหดร้าย</erste-sprache><zweite-sprache>crudele</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1355">
     <erste-sprache>มืด</erste-sprache><zweite-sprache>scuro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1356">
     <erste-sprache>น่ารัก</erste-sprache><zweite-sprache>incantevole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>เป้าหมาย</erste-sprache><zweite-sprache>obiettivi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1357">
     <erste-sprache>เป้าหมาย</erste-sprache><zweite-sprache>obiettivo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1358">
     <erste-sprache>เป็นทางการ</erste-sprache><zweite-sprache>ufficiale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1359">
     <erste-sprache>ที่มุ่งเป้า</erste-sprache><zweite-sprache>mirato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>เล็งแล้ว</erste-sprache><zweite-sprache>mirai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>เล็งแล้ว</erste-sprache><zweite-sprache>mirasti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1360">
     <erste-sprache>เล็งแล้ว</erste-sprache><zweite-sprache>mirò</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1361">
     <erste-sprache>ส่วนบุคคล</erste-sprache><zweite-sprache>individuale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1362">
     <erste-sprache>เอเชีย</erste-sprache><zweite-sprache>Asia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>หนังสือ</erste-sprache><zweite-sprache>libro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1363">
     <erste-sprache>หนังสือ</erste-sprache><zweite-sprache>libri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1364">
     <erste-sprache>เปอร์เซ็นต์</erste-sprache><zweite-sprache>percentuale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1365">
     <erste-sprache>คำ</erste-sprache><zweite-sprache>parola</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>ก่อตัว</erste-sprache><zweite-sprache>formare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>ก่อตัว</erste-sprache><zweite-sprache>formiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>ก่อตัว</erste-sprache><zweite-sprache>formate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1366">
     <erste-sprache>ก่อตัว</erste-sprache><zweite-sprache>forma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1367">
     <erste-sprache>รูปแบบ</erste-sprache><zweite-sprache>forma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1368">
     <erste-sprache>ความรู้</erste-sprache><zweite-sprache>conoscenza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>ปรารถนา</erste-sprache><zweite-sprache>desiderare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>ปรารถนา</erste-sprache><zweite-sprache>desideriamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>ปรารถนา</erste-sprache><zweite-sprache>desiderate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1369">
     <erste-sprache>ปรารถนา</erste-sprache><zweite-sprache>desidera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1370">
     <erste-sprache>ที่ได้รับการสนับสนุน</erste-sprache><zweite-sprache>supportato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>สนับสนุนแล้ว</erste-sprache><zweite-sprache>ho supportato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>สนับสนุนแล้ว</erste-sprache><zweite-sprache>hai supportato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1371">
     <erste-sprache>สนับสนุนแล้ว</erste-sprache><zweite-sprache>ha supportato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1372">
     <erste-sprache>ที่อนุมัติแล้ว</erste-sprache><zweite-sprache>approvato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1373">
     <erste-sprache>การลงทุน</erste-sprache><zweite-sprache>investimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1374">
     <erste-sprache>จุดประสงค์</erste-sprache><zweite-sprache>scopo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1374">
     <erste-sprache>จุดประสงค์</erste-sprache><zweite-sprache>scopi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1375">
     <erste-sprache>ผู้เขียน</erste-sprache><zweite-sprache>autore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1376">
     <erste-sprache>นาน</erste-sprache><zweite-sprache>molto tempo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>ตรงกัน</erste-sprache><zweite-sprache>partita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>พอดี</erste-sprache><zweite-sprache>partita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1377">
     <erste-sprache>เข้ากัน</erste-sprache><zweite-sprache>partita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>พอดี</erste-sprache><zweite-sprache>adattarsi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>พอดี</erste-sprache><zweite-sprache>ci adattiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>พอดี</erste-sprache><zweite-sprache>vi adattate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1378">
     <erste-sprache>พอดี</erste-sprache><zweite-sprache>si adatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1379">
     <erste-sprache>พลังงาน</erste-sprache><zweite-sprache>energia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1380">
     <erste-sprache>ผู้หญิงสาว</erste-sprache><zweite-sprache>giovani donne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>มีอยู่</erste-sprache><zweite-sprache>esistere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>มีอยู่</erste-sprache><zweite-sprache>esistiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>มีอยู่</erste-sprache><zweite-sprache>esistete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1381">
     <erste-sprache>มีอยู่</erste-sprache><zweite-sprache>esiste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1382">
     <erste-sprache>อย่างจริงจัง</erste-sprache><zweite-sprache>seriamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1383">
     <erste-sprache>อาณาจักร</erste-sprache><zweite-sprache>regno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1384">
     <erste-sprache>แผนต่างๆ</erste-sprache><zweite-sprache>piani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>วางแผน</erste-sprache><zweite-sprache>pianificare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>วางแผน</erste-sprache><zweite-sprache>pianifichiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1385">
     <erste-sprache>วางแผน</erste-sprache><zweite-sprache>pianifica</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1386">
     <erste-sprache>ฉันหวังว่า</erste-sprache><zweite-sprache>spero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1387">
     <erste-sprache>เชิงยุทธศาสตร์</erste-sprache><zweite-sprache>strategico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1388">
     <erste-sprache>ความเข้าใจ</erste-sprache><zweite-sprache>comprensione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1389">
     <erste-sprache>ที่ออกแล้ว</erste-sprache><zweite-sprache>emesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>ออกแล้ว</erste-sprache><zweite-sprache>ho emesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>ออกแล้ว</erste-sprache><zweite-sprache>hai emesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1390">
     <erste-sprache>ออกแล้ว</erste-sprache><zweite-sprache>ha emesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1391">
     <erste-sprache>การวิเคราะห์</erste-sprache><zweite-sprache>analisi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1392">
     <erste-sprache>ใหญ่กว่า</erste-sprache><zweite-sprache>più grande</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1392">
     <erste-sprache>ใหญ่กว่า</erste-sprache><zweite-sprache>maggiore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1393">
     <erste-sprache>สหพันธรัฐ</erste-sprache><zweite-sprache>federale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1393">
     <erste-sprache>สหพันธรัฐ</erste-sprache><zweite-sprache>federazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1394">
     <erste-sprache>ใบไม้</erste-sprache><zweite-sprache>foglie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>ข้อเสนอ</erste-sprache><zweite-sprache>offerta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>ข้อเสนอ</erste-sprache><zweite-sprache>proposta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1395">
     <erste-sprache>ข้อเสนอ</erste-sprache><zweite-sprache>proposte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1396">
     <erste-sprache>อุปทาน</erste-sprache><zweite-sprache>offerta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1397">
     <erste-sprache>ที่นำไปใช้แล้ว</erste-sprache><zweite-sprache>implementato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>นำไปใช้แล้ว</erste-sprache><zweite-sprache>ho implementato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>นำไปใช้แล้ว</erste-sprache><zweite-sprache>hai implementato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1398">
     <erste-sprache>นำไปใช้แล้ว</erste-sprache><zweite-sprache>ha implementato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>ความคิด</erste-sprache><zweite-sprache>idea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>ความคิด</erste-sprache><zweite-sprache>idee</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1399">
     <erste-sprache>ความคิด</erste-sprache><zweite-sprache>pensiero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1400">
     <erste-sprache>มั่นคง</erste-sprache><zweite-sprache>saldo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>นอนลง</erste-sprache><zweite-sprache>sdraiarsi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>นอนลง</erste-sprache><zweite-sprache>ci sdraiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>นอนลง</erste-sprache><zweite-sprache>vi sdraiate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1401">
     <erste-sprache>นอนลง</erste-sprache><zweite-sprache>si sdraia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>โกหก</erste-sprache><zweite-sprache>mentire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>โกหก</erste-sprache><zweite-sprache>mentiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>โกหก</erste-sprache><zweite-sprache>mentite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1402">
     <erste-sprache>โกหก</erste-sprache><zweite-sprache>mente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1403">
     <erste-sprache>จิตใจ</erste-sprache><zweite-sprache>mente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1404">
     <erste-sprache>ฟรี</erste-sprache><zweite-sprache>gratuito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1405">
     <erste-sprache>จนกว่า</erste-sprache><zweite-sprache>finché</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1406">
     <erste-sprache>เท่ากับ</erste-sprache><zweite-sprache>equivale a</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1407">
     <erste-sprache>เท่าเทียม</erste-sprache><zweite-sprache>uguale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>proteggere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>proteggiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>protegge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>difendere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>difendiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>difendete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1408">
     <erste-sprache>ปกป้อง</erste-sprache><zweite-sprache>difende</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>ความเจ็บปวด</erste-sprache><zweite-sprache>dolore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1409">
     <erste-sprache>ความโศกเศร้า</erste-sprache><zweite-sprache>dolore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1410">
     <erste-sprache>อังกฤษ</erste-sprache><zweite-sprache>inglese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1410">
     <erste-sprache>ชาวอังกฤษ</erste-sprache><zweite-sprache>inglese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1411">
     <erste-sprache>ไกล</erste-sprache><zweite-sprache>lontano</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1411">
     <erste-sprache>ไกล</erste-sprache><zweite-sprache>distante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>ศักยภาพ</erste-sprache><zweite-sprache>potenziale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1412">
     <erste-sprache>ที่เป็นไปได้</erste-sprache><zweite-sprache>potenziale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>ผู้เชี่ยวชาญ</erste-sprache><zweite-sprache>esperto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1413">
     <erste-sprache>ผู้เชี่ยวชาญ</erste-sprache><zweite-sprache>esperti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1414">
     <erste-sprache>มีประสบการณ์</erste-sprache><zweite-sprache>esperto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>ถือแล้ว</erste-sprache><zweite-sprache>ho portato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>ถือแล้ว</erste-sprache><zweite-sprache>hai portato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1415">
     <erste-sprache>ถือแล้ว</erste-sprache><zweite-sprache>ha portato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1416">
     <erste-sprache>การเลือก</erste-sprache><zweite-sprache>scelta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1417">
     <erste-sprache>บางครั้ง</erste-sprache><zweite-sprache>a volte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1418">
     <erste-sprache>สุดยอด</erste-sprache><zweite-sprache>super</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1419">
     <erste-sprache>คุณค่า</erste-sprache><zweite-sprache>valore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1420">
     <erste-sprache>ที่คาดหวัง</erste-sprache><zweite-sprache>atteso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>คาดหวังแล้ว</erste-sprache><zweite-sprache>attesi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>คาดหวังแล้ว</erste-sprache><zweite-sprache>attendesti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1421">
     <erste-sprache>คาดหวังแล้ว</erste-sprache><zweite-sprache>attese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>พื้นฐาน</erste-sprache><zweite-sprache>basico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>พื้นฐาน</erste-sprache><zweite-sprache>fondamento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1422">
     <erste-sprache>พื้นฐาน</erste-sprache><zweite-sprache>fondamentale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1423">
     <erste-sprache>ต่างประเทศ</erste-sprache><zweite-sprache>straniero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1424">
     <erste-sprache>ที่ได้ดำเนินการ</erste-sprache><zweite-sprache>intrapreso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>ได้ดำเนินการ</erste-sprache><zweite-sprache>intrapresi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>ได้ดำเนินการ</erste-sprache><zweite-sprache>intraprendesti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1425">
     <erste-sprache>ได้ดำเนินการ</erste-sprache><zweite-sprache>intraprese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1426">
     <erste-sprache>ที่ระบุไว้</erste-sprache><zweite-sprache>indicato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1426">
     <erste-sprache>ที่ระบุไว้</erste-sprache><zweite-sprache>dichiarato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>ho indicato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>hai indicato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>ha indicato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>ho dichiarato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>hai dichiarato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1427">
     <erste-sprache>ระบุไว้แล้ว</erste-sprache><zweite-sprache>ha dichiarato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1428">
     <erste-sprache>สงคราม</erste-sprache><zweite-sprache>guerra</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
+  <vokabel-paar schritt="1429">
     <erste-sprache>ที่ได้รับผลกระทบ</erste-sprache><zweite-sprache>colpito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>ส่งผลกระทบแล้ว</erste-sprache><zweite-sprache>ho colpito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>ส่งผลกระทบแล้ว</erste-sprache><zweite-sprache>hai colpito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1431">
+  <vokabel-paar schritt="1430">
     <erste-sprache>ส่งผลกระทบแล้ว</erste-sprache><zweite-sprache>ha colpito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>มีส่วนร่วม</erste-sprache><zweite-sprache>contribuire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>มีส่วนร่วม</erste-sprache><zweite-sprache>contribuiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>มีส่วนร่วม</erste-sprache><zweite-sprache>contribuite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1431">
     <erste-sprache>มีส่วนร่วม</erste-sprache><zweite-sprache>contribuisce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>เตรียมแล้ว</erste-sprache><zweite-sprache>ho preparato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>เตรียมแล้ว</erste-sprache><zweite-sprache>hai preparato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1432">
     <erste-sprache>เตรียมแล้ว</erste-sprache><zweite-sprache>ha preparato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1433">
     <erste-sprache>ความสงสัย</erste-sprache><zweite-sprache>dubbio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1433">
     <erste-sprache>ความสงสัย</erste-sprache><zweite-sprache>dubbi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1434">
     <erste-sprache>โอกาส</erste-sprache><zweite-sprache>opportunità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giocai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giocasti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giocò</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giocare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giochiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>giocate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1435">
     <erste-sprache>เล่น</erste-sprache><zweite-sprache>gioca</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1436">
     <erste-sprache>การประชุมสุดยอด</erste-sprache><zweite-sprache>vertice</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1437">
     <erste-sprache>เพื่อนๆ</erste-sprache><zweite-sprache>amici</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1438">
     <erste-sprache>เพียงหนึ่งเดียว</erste-sprache><zweite-sprache>unico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1438">
     <erste-sprache>มีเอกลักษณ์</erste-sprache><zweite-sprache>unico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1439">
     <erste-sprache>อย่างเป็นกลาง</erste-sprache><zweite-sprache>obiettivamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1440">
     <erste-sprache>การลงคะแนนเสียง</erste-sprache><zweite-sprache>voto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1441">
     <erste-sprache>ที่ได้รับแจ้ง</erste-sprache><zweite-sprache>informato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>แจ้งแล้ว</erste-sprache><zweite-sprache>ho informato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>แจ้งแล้ว</erste-sprache><zweite-sprache>hai informato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1442">
     <erste-sprache>แจ้งแล้ว</erste-sprache><zweite-sprache>ha informato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1443">
     <erste-sprache>สิ่งอำนวยความสะดวก</erste-sprache><zweite-sprache>strutture</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1444">
     <erste-sprache>แง่มุม</erste-sprache><zweite-sprache>aspetti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1445">
     <erste-sprache>มากมาย</erste-sprache><zweite-sprache>numerose</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1446">
     <erste-sprache>ห้าสิบ</erste-sprache><zweite-sprache>cinquanta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1447">
     <erste-sprache>ความกลัว</erste-sprache><zweite-sprache>paura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1448">
     <erste-sprache>พฤษภาคม</erste-sprache><zweite-sprache>maggio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1449">
     <erste-sprache>กันยายน</erste-sprache><zweite-sprache>settembre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1450">
     <erste-sprache>ความสำเร็จ</erste-sprache><zweite-sprache>successo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>วิ่ง</erste-sprache><zweite-sprache>correre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>วิ่ง</erste-sprache><zweite-sprache>corriamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1451">
     <erste-sprache>วิ่ง</erste-sprache><zweite-sprache>corre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1452">
     <erste-sprache>เกิดขึ้นแล้ว</erste-sprache><zweite-sprache>accadde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1453">
     <erste-sprache>ที่ถูกจำกัด</erste-sprache><zweite-sprache>limitato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>จำกัดแล้ว</erste-sprache><zweite-sprache>ho limitato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>จำกัดแล้ว</erste-sprache><zweite-sprache>hai limitato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1454">
     <erste-sprache>จำกัดแล้ว</erste-sprache><zweite-sprache>ha limitato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1455">
     <erste-sprache>ภูมิอากาศ</erste-sprache><zweite-sprache>clima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1456">
     <erste-sprache>หลักฐาน</erste-sprache><zweite-sprache>prove</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1456">
     <erste-sprache>หลักฐาน</erste-sprache><zweite-sprache>prova</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>ลอง</erste-sprache><zweite-sprache>provare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>ลอง</erste-sprache><zweite-sprache>proviamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>ลอง</erste-sprache><zweite-sprache>provate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1457">
     <erste-sprache>ลอง</erste-sprache><zweite-sprache>prova</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1458">
     <erste-sprache>คุณภาพ</erste-sprache><zweite-sprache>qualità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1460">
+  <vokabel-paar schritt="1459">
     <erste-sprache>มูลค่าตลาด</erste-sprache><zweite-sprache>capitalizzazione di mercato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>ใกล้</erste-sprache><zweite-sprache>vicino a</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1460">
     <erste-sprache>ใกล้</erste-sprache><zweite-sprache>vicino</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1461">
     <erste-sprache>ในปัจจุบัน</erste-sprache><zweite-sprache>attualmente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>คาบเรียน</erste-sprache><zweite-sprache>classe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1462">
     <erste-sprache>คาบเรียน</erste-sprache><zweite-sprache>lezioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1463">
     <erste-sprache>ภายใน</erste-sprache><zweite-sprache>interno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1463">
     <erste-sprache>ภายใน</erste-sprache><zweite-sprache>entro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1464">
     <erste-sprache>ยิ่งไปกว่านั้น</erste-sprache><zweite-sprache>inoltre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1466">
+  <vokabel-paar schritt="1465">
     <erste-sprache>โดยรวม</erste-sprache><zweite-sprache>complessivamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1467">
+  <vokabel-paar schritt="1466">
     <erste-sprache>บริสุทธิ์</erste-sprache><zweite-sprache>puro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1467">
     <erste-sprache>บ่อย</erste-sprache><zweite-sprache>spesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>แนะนำ</erste-sprache><zweite-sprache>raccomandare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>แนะนำ</erste-sprache><zweite-sprache>raccomandiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1468">
     <erste-sprache>แนะนำ</erste-sprache><zweite-sprache>raccomanda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1469">
     <erste-sprache>การโอนเงิน</erste-sprache><zweite-sprache>bonifico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>จดหมาย</erste-sprache><zweite-sprache>lettera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1470">
     <erste-sprache>ตัวอักษร</erste-sprache><zweite-sprache>lettera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1472">
+  <vokabel-paar schritt="1471">
     <erste-sprache>ข้อผูกมัด</erste-sprache><zweite-sprache>impegni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1472">
     <erste-sprache>การเจรจา</erste-sprache><zweite-sprache>negoziati</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1473">
     <erste-sprache>คนงาน</erste-sprache><zweite-sprache>lavoratori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1474">
     <erste-sprache>ไปข้างหน้า</erste-sprache><zweite-sprache>avanti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1476">
+  <vokabel-paar schritt="1475">
     <erste-sprache>ยกเว้น</erste-sprache><zweite-sprache>tranne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1477">
+  <vokabel-paar schritt="1476">
     <erste-sprache>มีนาคม</erste-sprache><zweite-sprache>marzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1478">
+  <vokabel-paar schritt="1477">
     <erste-sprache>อย่างไรสักอย่าง</erste-sprache><zweite-sprache>in qualche modo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1479">
+  <vokabel-paar schritt="1478">
     <erste-sprache>ที่ถูกลืม</erste-sprache><zweite-sprache>dimenticato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>ลืมแล้ว</erste-sprache><zweite-sprache>ho dimenticato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>ลืมแล้ว</erste-sprache><zweite-sprache>hai dimenticato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1480">
+  <vokabel-paar schritt="1479">
     <erste-sprache>ลืมแล้ว</erste-sprache><zweite-sprache>ha dimenticato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1481">
+  <vokabel-paar schritt="1480">
     <erste-sprache>ประโยชน์</erste-sprache><zweite-sprache>beneficio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1481">
+  <vokabel-paar schritt="1480">
     <erste-sprache>ประโยชน์</erste-sprache><zweite-sprache>benefici</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1482">
+  <vokabel-paar schritt="1481">
     <erste-sprache>การเพิ่มขึ้นต่างๆ</erste-sprache><zweite-sprache>aumenti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1482">
     <erste-sprache>ส่วนที่เหลือ</erste-sprache><zweite-sprache>resto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1483">
     <erste-sprache>การพักผ่อน</erste-sprache><zweite-sprache>riposo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>เลี้ยว</erste-sprache><zweite-sprache>girare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>เลี้ยว</erste-sprache><zweite-sprache>giriamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>เลี้ยว</erste-sprache><zweite-sprache>girate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1484">
     <erste-sprache>เลี้ยว</erste-sprache><zweite-sprache>gira</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1485">
     <erste-sprache>ที่ได้รับการยอมรับ</erste-sprache><zweite-sprache>riconosciuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>ยอมรับแล้ว</erste-sprache><zweite-sprache>ho riconosciuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>ยอมรับแล้ว</erste-sprache><zweite-sprache>hai riconosciuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1486">
     <erste-sprache>ยอมรับแล้ว</erste-sprache><zweite-sprache>ha riconosciuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1488">
+  <vokabel-paar schritt="1487">
     <erste-sprache>เจ้าหน้าที่</erste-sprache><zweite-sprache>funzionari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1489">
+  <vokabel-paar schritt="1488">
     <erste-sprache>ส่วนของผู้ถือหุ้น</erste-sprache><zweite-sprache>patrimonio netto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1490">
+  <vokabel-paar schritt="1489">
     <erste-sprache>ที่กล่าวถึง</erste-sprache><zweite-sprache>menzionato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>กล่าวถึงแล้ว</erste-sprache><zweite-sprache>ho menzionato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>กล่าวถึงแล้ว</erste-sprache><zweite-sprache>hai menzionato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1490">
     <erste-sprache>กล่าวถึงแล้ว</erste-sprache><zweite-sprache>ha menzionato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1491">
     <erste-sprache>ที่ถูกกล่าวถึง</erste-sprache><zweite-sprache>riferito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1493">
+  <vokabel-paar schritt="1492">
     <erste-sprache>มูลค่าภายใน</erste-sprache><zweite-sprache>valore intrinseco</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1493">
     <erste-sprache>รหัส</erste-sprache><zweite-sprache>codice</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1494">
     <erste-sprache>วิกฤต</erste-sprache><zweite-sprache>crisi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1495">
     <erste-sprache>กำไร</erste-sprache><zweite-sprache>profitto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1496">
     <erste-sprache>เช่นกัน</erste-sprache><zweite-sprache>allo stesso modo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1497">
     <erste-sprache>ความเห็น</erste-sprache><zweite-sprache>opinione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1498">
     <erste-sprache>พรรค</erste-sprache><zweite-sprache>partito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1499">
     <erste-sprache>ด้านต่าง ๆ</erste-sprache><zweite-sprache>lati</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1501">
+  <vokabel-paar schritt="1500">
     <erste-sprache>โดยที่</erste-sprache><zweite-sprache>per cui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>ซื้อ</erste-sprache><zweite-sprache>comprare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>ซื้อ</erste-sprache><zweite-sprache>compriamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>ซื้อ</erste-sprache><zweite-sprache>comprate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1501">
     <erste-sprache>ซื้อ</erste-sprache><zweite-sprache>compra</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>เรียน</erste-sprache><zweite-sprache>imparare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>เรียน</erste-sprache><zweite-sprache>impariamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>เรียน</erste-sprache><zweite-sprache>imparate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1502">
     <erste-sprache>เรียน</erste-sprache><zweite-sprache>impara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>ความสูญเสีย</erste-sprache><zweite-sprache>perdita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1503">
     <erste-sprache>การสูญเสีย</erste-sprache><zweite-sprache>perdita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1505">
+  <vokabel-paar schritt="1504">
     <erste-sprache>ทำมัน</erste-sprache><zweite-sprache>fallo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1505">
     <erste-sprache>ประสบการณ์</erste-sprache><zweite-sprache>esperienza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1507">
+  <vokabel-paar schritt="1506">
     <erste-sprache>ความตาย</erste-sprache><zweite-sprache>morte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1508">
+  <vokabel-paar schritt="1507">
     <erste-sprache>ซอฟต์แวร์</erste-sprache><zweite-sprache>software</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1509">
+  <vokabel-paar schritt="1508">
     <erste-sprache>แน่ใจ</erste-sprache><zweite-sprache>sicuro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1510">
+  <vokabel-paar schritt="1509">
     <erste-sprache>ปัญญาประดิษฐ์</erste-sprache><zweite-sprache>intelligenza artificiale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1510">
     <erste-sprache>ที่บูรณาการแล้ว</erste-sprache><zweite-sprache>integrato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>บูรณาการแล้ว</erste-sprache><zweite-sprache>ho integrato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>บูรณาการแล้ว</erste-sprache><zweite-sprache>hai integrato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1511">
     <erste-sprache>บูรณาการแล้ว</erste-sprache><zweite-sprache>ha integrato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1513">
+  <vokabel-paar schritt="1512">
     <erste-sprache>พหุภาคี</erste-sprache><zweite-sprache>multilaterale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>คิดแล้ว</erste-sprache><zweite-sprache>pensai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>คิดแล้ว</erste-sprache><zweite-sprache>pensasti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1513">
     <erste-sprache>คิดแล้ว</erste-sprache><zweite-sprache>pensò</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1514">
     <erste-sprache>ทฤษฎีเกม</erste-sprache><zweite-sprache>teoria dei giochi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>อ่อน</erste-sprache><zweite-sprache>debole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1515">
     <erste-sprache>อ่อนแอ</erste-sprache><zweite-sprache>debole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1516">
     <erste-sprache>แบบฝึกหัด</erste-sprache><zweite-sprache>esercizio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1517">
     <erste-sprache>ซาก</erste-sprache><zweite-sprache>resti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1519">
+  <vokabel-paar schritt="1518">
     <erste-sprache>ไม่เป็นทางการ</erste-sprache><zweite-sprache>informale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1520">
+  <vokabel-paar schritt="1519">
     <erste-sprache>ชั่วคราว</erste-sprache><zweite-sprache>provvisorio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1521">
+  <vokabel-paar schritt="1520">
     <erste-sprache>หน่วย</erste-sprache><zweite-sprache>unità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1521">
     <erste-sprache>ที่ดำเนินการแล้ว</erste-sprache><zweite-sprache>condotto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>อ้าง</erste-sprache><zweite-sprache>affermare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>อ้าง</erste-sprache><zweite-sprache>affermiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>อ้าง</erste-sprache><zweite-sprache>affermate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1522">
     <erste-sprache>อ้าง</erste-sprache><zweite-sprache>afferma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>ยืนยัน</erste-sprache><zweite-sprache>affermare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>ยืนยัน</erste-sprache><zweite-sprache>affermiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>ยืนยัน</erste-sprache><zweite-sprache>affermate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1523">
     <erste-sprache>ยืนยัน</erste-sprache><zweite-sprache>afferma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1525">
+  <vokabel-paar schritt="1524">
     <erste-sprache>ฉ้อโกง</erste-sprache><zweite-sprache>fraudolento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1526">
+  <vokabel-paar schritt="1525">
     <erste-sprache>ที่ระบุแล้ว</erste-sprache><zweite-sprache>identificato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>ระบุแล้ว</erste-sprache><zweite-sprache>ho identificato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>ระบุแล้ว</erste-sprache><zweite-sprache>hai identificato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1526">
     <erste-sprache>ระบุแล้ว</erste-sprache><zweite-sprache>ha identificato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1527">
     <erste-sprache>การอ้างอิง</erste-sprache><zweite-sprache>riferimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1529">
+  <vokabel-paar schritt="1528">
     <erste-sprache>การเดินขบวน</erste-sprache><zweite-sprache>marcia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>สันนิษฐาน</erste-sprache><zweite-sprache>supporre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>สันนิษฐาน</erste-sprache><zweite-sprache>supponiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>สันนิษฐาน</erste-sprache><zweite-sprache>supponete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1529">
     <erste-sprache>สันนิษฐาน</erste-sprache><zweite-sprache>suppone</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1530">
     <erste-sprache>ยาเสพติด</erste-sprache><zweite-sprache>droga</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>เข้าร่วม</erste-sprache><zweite-sprache>partecipare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>เข้าร่วม</erste-sprache><zweite-sprache>partecipiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>เข้าร่วม</erste-sprache><zweite-sprache>partecipate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1531">
     <erste-sprache>เข้าร่วม</erste-sprache><zweite-sprache>partecipa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1533">
+  <vokabel-paar schritt="1532">
     <erste-sprache>สิงหาคม</erste-sprache><zweite-sprache>agosto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1533">
     <erste-sprache>ตรงกลาง</erste-sprache><zweite-sprache>mezzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1533">
     <erste-sprache>ครึ่ง</erste-sprache><zweite-sprache>mezzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1535">
+  <vokabel-paar schritt="1534">
     <erste-sprache>ครึ่ง</erste-sprache><zweite-sprache>metà</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1535">
     <erste-sprache>พฤศจิกายน</erste-sprache><zweite-sprache>novembre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>เชี่ย</erste-sprache><zweite-sprache>merda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>ไร้สาระ</erste-sprache><zweite-sprache>merda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1536">
     <erste-sprache>บ้าเอ๊ย</erste-sprache><zweite-sprache>merda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1537">
     <erste-sprache>โครงสร้างพื้นฐาน</erste-sprache><zweite-sprache>infrastruttura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1538">
     <erste-sprache>การเตรียม</erste-sprache><zweite-sprache>preparazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1539">
     <erste-sprache>ดินแดน</erste-sprache><zweite-sprache>territorio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1541">
+  <vokabel-paar schritt="1540">
     <erste-sprache>การบังคับใช้</erste-sprache><zweite-sprache>applicazione della legge</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1541">
     <erste-sprache>ความมั่นใจ</erste-sprache><zweite-sprache>fiducia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1543">
+  <vokabel-paar schritt="1542">
     <erste-sprache>แฟชั่น</erste-sprache><zweite-sprache>moda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1544">
+  <vokabel-paar schritt="1543">
     <erste-sprache>ป่า</erste-sprache><zweite-sprache>boschi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1544">
     <erste-sprache>เชิงสถาบัน</erste-sprache><zweite-sprache>istituzionale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1546">
+  <vokabel-paar schritt="1545">
     <erste-sprache>เมษายน</erste-sprache><zweite-sprache>aprile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1546">
     <erste-sprache>ธรรมาภิบาล</erste-sprache><zweite-sprache>governance</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1547">
     <erste-sprache>ความหวัง</erste-sprache><zweite-sprache>speranza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1548">
     <erste-sprache>เป็นสาระสำคัญ</erste-sprache><zweite-sprache>sostanziale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1549">
     <erste-sprache>อัฟกานิสถาน</erste-sprache><zweite-sprache>Afghanistan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1551">
+  <vokabel-paar schritt="1550">
     <erste-sprache>เป็นหลัก</erste-sprache><zweite-sprache>principalmente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>ถาม</erste-sprache><zweite-sprache>chiedere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>ถาม</erste-sprache><zweite-sprache>chiediamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>ถาม</erste-sprache><zweite-sprache>chiedete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1551">
     <erste-sprache>ถาม</erste-sprache><zweite-sprache>chiede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1552">
     <erste-sprache>จงมีชีวิต</erste-sprache><zweite-sprache>vivi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1552">
     <erste-sprache>จงมีชีวิต</erste-sprache><zweite-sprache>vivete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>มีชีวิต</erste-sprache><zweite-sprache>vivere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>มีชีวิต</erste-sprache><zweite-sprache>viviamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>มีชีวิต</erste-sprache><zweite-sprache>vivete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1553">
     <erste-sprache>มีชีวิต</erste-sprache><zweite-sprache>vive</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1555">
+  <vokabel-paar schritt="1554">
     <erste-sprache>น่าตื่นเต้น</erste-sprache><zweite-sprache>eccitante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1556">
+  <vokabel-paar schritt="1555">
     <erste-sprache>สงบ</erste-sprache><zweite-sprache>pacifico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1557">
+  <vokabel-paar schritt="1556">
     <erste-sprache>สถาบัน</erste-sprache><zweite-sprache>istituto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1557">
     <erste-sprache>กรกฎาคม</erste-sprache><zweite-sprache>luglio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1558">
     <erste-sprache>มิถุนายน</erste-sprache><zweite-sprache>giugno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1559">
     <erste-sprache>กล่าวคือ</erste-sprache><zweite-sprache>vale a dire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>สร้าง</erste-sprache><zweite-sprache>creare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>สร้าง</erste-sprache><zweite-sprache>creiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>สร้าง</erste-sprache><zweite-sprache>create</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1560">
     <erste-sprache>สร้าง</erste-sprache><zweite-sprache>crea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>แบ่งปัน</erste-sprache><zweite-sprache>condividere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>แบ่งปัน</erste-sprache><zweite-sprache>condividiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>แบ่งปัน</erste-sprache><zweite-sprache>condividete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1561">
     <erste-sprache>แบ่งปัน</erste-sprache><zweite-sprache>condivide</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1563">
+  <vokabel-paar schritt="1562">
     <erste-sprache>การบูรณาการ</erste-sprache><zweite-sprache>integrazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1563">
     <erste-sprache>ทางศาล</erste-sprache><zweite-sprache>giudiziario</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1564">
     <erste-sprache>ครั้งหนึ่ง</erste-sprache><zweite-sprache>un tempo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1565">
     <erste-sprache>ต่ำ</erste-sprache><zweite-sprache>basso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>การต่อสู้</erste-sprache><zweite-sprache>combattimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1566">
     <erste-sprache>การต่อสู้</erste-sprache><zweite-sprache>lotta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1567">
     <erste-sprache>ความทรงจำ</erste-sprache><zweite-sprache>memoria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>นึกออก</erste-sprache><zweite-sprache>ricordare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>นึกออก</erste-sprache><zweite-sprache>ricordiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1568">
     <erste-sprache>นึกออก</erste-sprache><zweite-sprache>ricorda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>นึกถึง</erste-sprache><zweite-sprache>ricordare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>นึกถึง</erste-sprache><zweite-sprache>ricordiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>นึกถึง</erste-sprache><zweite-sprache>ricordate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1569">
     <erste-sprache>นึกถึง</erste-sprache><zweite-sprache>ricorda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>จำ</erste-sprache><zweite-sprache>ricordare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>จำ</erste-sprache><zweite-sprache>ricordiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>จำ</erste-sprache><zweite-sprache>ricordate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1570">
     <erste-sprache>จำ</erste-sprache><zweite-sprache>ricorda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1572">
+  <vokabel-paar schritt="1571">
     <erste-sprache>ทางออก</erste-sprache><zweite-sprache>uscita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1573">
+  <vokabel-paar schritt="1572">
     <erste-sprache>ต้นกำเนิด</erste-sprache><zweite-sprache>origine</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1573">
     <erste-sprache>เชิงบวก</erste-sprache><zweite-sprache>positivo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1575">
+  <vokabel-paar schritt="1574">
     <erste-sprache>ในเชิงบวก</erste-sprache><zweite-sprache>positivamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1575">
     <erste-sprache>อย่างมีประสิทธิภาพ</erste-sprache><zweite-sprache>efficacemente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1576">
     <erste-sprache>ทางการแพทย์</erste-sprache><zweite-sprache>medico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1577">
     <erste-sprache>มือ</erste-sprache><zweite-sprache>mano</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1577">
     <erste-sprache>มือ</erste-sprache><zweite-sprache>mani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1579">
+  <vokabel-paar schritt="1578">
     <erste-sprache>เผื่อว่า</erste-sprache><zweite-sprache>nel caso in cui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>หมายเลข</erste-sprache><zweite-sprache>numero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1579">
     <erste-sprache>จำนวน</erste-sprache><zweite-sprache>numero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1580">
     <erste-sprache>ชิ้น</erste-sprache><zweite-sprache>pezzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1580">
     <erste-sprache>ชิ้น</erste-sprache><zweite-sprache>pezzi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1581">
     <erste-sprache>ความเป็นไปได้</erste-sprache><zweite-sprache>possibilità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1583">
+  <vokabel-paar schritt="1582">
     <erste-sprache>สวิตเซอร์แลนด์</erste-sprache><zweite-sprache>Svizzera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>หมายถึง</erste-sprache><zweite-sprache>volere dire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>หมายถึง</erste-sprache><zweite-sprache>vogliamo dire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>หมายถึง</erste-sprache><zweite-sprache>vuole dire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>หมายถึง</erste-sprache><zweite-sprache>significare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1583">
     <erste-sprache>หมายถึง</erste-sprache><zweite-sprache>significa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1584">
     <erste-sprache>พร้อมกัน</erste-sprache><zweite-sprache>simultaneamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>ชนะ</erste-sprache><zweite-sprache>vincere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>ชนะ</erste-sprache><zweite-sprache>vinciamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>ชนะ</erste-sprache><zweite-sprache>vince</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1585">
     <erste-sprache>ชนะ</erste-sprache><zweite-sprache>vincete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1587">
+  <vokabel-paar schritt="1586">
     <erste-sprache>ที่ชนะแล้ว</erste-sprache><zweite-sprache>vinto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>ชนะแล้ว</erste-sprache><zweite-sprache>vinsi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>ชนะแล้ว</erste-sprache><zweite-sprache>vincesti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1587">
     <erste-sprache>ชนะแล้ว</erste-sprache><zweite-sprache>vinse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1588">
     <erste-sprache>สูงกว่า</erste-sprache><zweite-sprache>più alto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1590">
+  <vokabel-paar schritt="1589">
     <erste-sprache>เวที</erste-sprache><zweite-sprache>palcoscenico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>ลด</erste-sprache><zweite-sprache>ridurre</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>ลด</erste-sprache><zweite-sprache>riduciamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>ลด</erste-sprache><zweite-sprache>riducete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1590">
     <erste-sprache>ลด</erste-sprache><zweite-sprache>riduce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1592">
+  <vokabel-paar schritt="1591">
     <erste-sprache>การบริหาร</erste-sprache><zweite-sprache>amministrazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>วัสดุ</erste-sprache><zweite-sprache>materiale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1592">
     <erste-sprache>ทางวัตถุ</erste-sprache><zweite-sprache>materiale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1593">
     <erste-sprache>ใบหน้า</erste-sprache><zweite-sprache>viso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1594">
     <erste-sprache>อพาร์ตเมนต์</erste-sprache><zweite-sprache>appartamento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1595">
     <erste-sprache>ความสูง</erste-sprache><zweite-sprache>altezza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1596">
     <erste-sprache>ฤดูร้อน</erste-sprache><zweite-sprache>estate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1598">
+  <vokabel-paar schritt="1597">
     <erste-sprache>สิบ</erste-sprache><zweite-sprache>dieci</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1598">
     <erste-sprache>ชื่อเรื่อง</erste-sprache><zweite-sprache>titolo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1599">
     <erste-sprache>ที่แก้ไขแล้ว</erste-sprache><zweite-sprache>rivisto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>แก้ไขแล้ว</erste-sprache><zweite-sprache>ho rivisto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>แก้ไขแล้ว</erste-sprache><zweite-sprache>hai rivisto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1600">
     <erste-sprache>แก้ไขแล้ว</erste-sprache><zweite-sprache>ha rivisto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1602">
+  <vokabel-paar schritt="1601">
     <erste-sprache>จังหวัด</erste-sprache><zweite-sprache>provincia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1603">
+  <vokabel-paar schritt="1602">
     <erste-sprache>เป็นที่นิยม</erste-sprache><zweite-sprache>popolare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1603">
     <erste-sprache>กำลังดีขึ้น</erste-sprache><zweite-sprache>migliorante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1605">
+  <vokabel-paar schritt="1604">
     <erste-sprache>ข้อบกพร่อง</erste-sprache><zweite-sprache>difetto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1605">
     <erste-sprache>เศรษฐกิจ</erste-sprache><zweite-sprache>economia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1607">
+  <vokabel-paar schritt="1606">
     <erste-sprache>เงินเฟ้อ</erste-sprache><zweite-sprache>inflazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1607">
     <erste-sprache>ภูมิภาค</erste-sprache><zweite-sprache>regione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1607">
     <erste-sprache>ภูมิภาค</erste-sprache><zweite-sprache>regioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1609">
+  <vokabel-paar schritt="1608">
     <erste-sprache>ศูนย์ต่างๆ</erste-sprache><zweite-sprache>centri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1609">
     <erste-sprache>สถานการณ์ต่าง ๆ</erste-sprache><zweite-sprache>situazioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1610">
     <erste-sprache>ผู้เข้าร่วม</erste-sprache><zweite-sprache>partecipanti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1611">
     <erste-sprache>ศิลปะ</erste-sprache><zweite-sprache>arte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1612">
     <erste-sprache>อย่างน้อย</erste-sprache><zweite-sprache>almeno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1614">
+  <vokabel-paar schritt="1613">
     <erste-sprache>ว่าแต่</erste-sprache><zweite-sprache>a proposito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1615">
+  <vokabel-paar schritt="1614">
     <erste-sprache>พนักงาน</erste-sprache><zweite-sprache>dipendente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1616">
+  <vokabel-paar schritt="1615">
     <erste-sprache>ภาษา</erste-sprache><zweite-sprache>linguaggio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1617">
+  <vokabel-paar schritt="1616">
     <erste-sprache>แบบนี้</erste-sprache><zweite-sprache>in questo modo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1618">
+  <vokabel-paar schritt="1617">
     <erste-sprache>ที่สูญหาย</erste-sprache><zweite-sprache>perso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>ทำหายแล้ว</erste-sprache><zweite-sprache>persi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>ทำหายแล้ว</erste-sprache><zweite-sprache>perdesti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1619">
+  <vokabel-paar schritt="1618">
     <erste-sprache>ทำหายแล้ว</erste-sprache><zweite-sprache>perse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1620">
+  <vokabel-paar schritt="1619">
     <erste-sprache>ตลอด</erste-sprache><zweite-sprache>in tutto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>ต้อนรับแล้ว</erste-sprache><zweite-sprache>ho dato il benvenuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>ต้อนรับแล้ว</erste-sprache><zweite-sprache>hai dato il benvenuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1621">
+  <vokabel-paar schritt="1620">
     <erste-sprache>ต้อนรับแล้ว</erste-sprache><zweite-sprache>ha dato il benvenuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1622">
+  <vokabel-paar schritt="1621">
     <erste-sprache>แหล่งที่มา</erste-sprache><zweite-sprache>fonte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1622">
     <erste-sprache>ผู้มีส่วนได้ส่วนเสีย</erste-sprache><zweite-sprache>portatori di interesse</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1624">
+  <vokabel-paar schritt="1623">
     <erste-sprache>โต๊ะ</erste-sprache><zweite-sprache>tavolo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1624">
     <erste-sprache>ตาราง</erste-sprache><zweite-sprache>tabella</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1626">
+  <vokabel-paar schritt="1625">
     <erste-sprache>องค์ประกอบ</erste-sprache><zweite-sprache>elementi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1627">
+  <vokabel-paar schritt="1626">
     <erste-sprache>วงดนตรี</erste-sprache><zweite-sprache>banda</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1627">
     <erste-sprache>ความผิดพลาด</erste-sprache><zweite-sprache>colpa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1627">
     <erste-sprache>ความผิดพลาด</erste-sprache><zweite-sprache>errore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1629">
+  <vokabel-paar schritt="1628">
     <erste-sprache>ความผิด</erste-sprache><zweite-sprache>colpa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1629">
     <erste-sprache>ผู้เล่น</erste-sprache><zweite-sprache>giocatore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1629">
     <erste-sprache>ผู้เล่น</erste-sprache><zweite-sprache>giocatori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1630">
     <erste-sprache>ตัวคุณเอง</erste-sprache><zweite-sprache>te stesso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1631">
     <erste-sprache>ช้า ๆ</erste-sprache><zweite-sprache>lentamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1632">
     <erste-sprache>ตัวชี้วัด</erste-sprache><zweite-sprache>indicatori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>รัก</erste-sprache><zweite-sprache>amare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>รัก</erste-sprache><zweite-sprache>amiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1633">
     <erste-sprache>รัก</erste-sprache><zweite-sprache>ama</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1634">
     <erste-sprache>ยากจน</erste-sprache><zweite-sprache>povero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1635">
     <erste-sprache>หนี้</erste-sprache><zweite-sprache>debito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1637">
+  <vokabel-paar schritt="1636">
     <erste-sprache>ประสิทธิผล</erste-sprache><zweite-sprache>efficacia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>ได้ยิน</erste-sprache><zweite-sprache>sente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>ได้ยิน</erste-sprache><zweite-sprache>sentire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>ได้ยิน</erste-sprache><zweite-sprache>sentiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1637">
     <erste-sprache>ได้ยิน</erste-sprache><zweite-sprache>sentite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1638">
     <erste-sprache>ศัพท์</erste-sprache><zweite-sprache>termine</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1640">
+  <vokabel-paar schritt="1639">
     <erste-sprache>ลานภายใน</erste-sprache><zweite-sprache>cortile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1641">
+  <vokabel-paar schritt="1640">
     <erste-sprache>ทุกที่</erste-sprache><zweite-sprache>ovunque</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>สื่อ</erste-sprache><zweite-sprache>media</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>โดยเฉลี่ย</erste-sprache><zweite-sprache>media</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1641">
     <erste-sprache>งั้น ๆ</erste-sprache><zweite-sprache>media</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1642">
     <erste-sprache>หือ</erste-sprache><zweite-sprache>eh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1643">
     <erste-sprache>เครือข่าย</erste-sprache><zweite-sprache>rete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1643">
     <erste-sprache>เครือข่าย</erste-sprache><zweite-sprache>reti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1645">
+  <vokabel-paar schritt="1644">
     <erste-sprache>การเปรียบเทียบ</erste-sprache><zweite-sprache>confronto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1645">
     <erste-sprache>เดือน</erste-sprache><zweite-sprache>mese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1645">
     <erste-sprache>เดือน</erste-sprache><zweite-sprache>mesi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1646">
     <erste-sprache>หลายเดือน</erste-sprache><zweite-sprache>mesi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1647">
     <erste-sprache>ทางรถไฟ</erste-sprache><zweite-sprache>ferrovia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>ตอบ</erste-sprache><zweite-sprache>rispondere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>ตอบ</erste-sprache><zweite-sprache>rispondiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>ตอบ</erste-sprache><zweite-sprache>rispondete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1648">
     <erste-sprache>ตอบ</erste-sprache><zweite-sprache>risponde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>สวม</erste-sprache><zweite-sprache>indossare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>สวม</erste-sprache><zweite-sprache>indossiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>สวม</erste-sprache><zweite-sprache>indossate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1649">
     <erste-sprache>สวม</erste-sprache><zweite-sprache>indossa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1650">
     <erste-sprache>กับคุณ</erste-sprache><zweite-sprache>con te</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>มาถึง</erste-sprache><zweite-sprache>arrivare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>มาถึง</erste-sprache><zweite-sprache>arriviamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>มาถึง</erste-sprache><zweite-sprache>arrivate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1651">
     <erste-sprache>มาถึง</erste-sprache><zweite-sprache>arriva</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1652">
     <erste-sprache>ตัวอย่างเช่น</erste-sprache><zweite-sprache>per esempio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1653">
     <erste-sprache>หัวใจ</erste-sprache><zweite-sprache>cuore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1654">
     <erste-sprache>มกราคม</erste-sprache><zweite-sprache>gennaio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1655">
     <erste-sprache>ใกล้ ๆ</erste-sprache><zweite-sprache>nelle vicinanze</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1657">
+  <vokabel-paar schritt="1656">
     <erste-sprache>รัฐสภา</erste-sprache><zweite-sprache>Congresso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1658">
+  <vokabel-paar schritt="1657">
     <erste-sprache>เคยมี</erste-sprache><zweite-sprache>c'era</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>รอ</erste-sprache><zweite-sprache>aspettare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>รอ</erste-sprache><zweite-sprache>aspettiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>รอ</erste-sprache><zweite-sprache>aspettate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1658">
     <erste-sprache>รอ</erste-sprache><zweite-sprache>aspetta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1659">
     <erste-sprache>การสร้าง</erste-sprache><zweite-sprache>creazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1660">
     <erste-sprache>บ้าจริง</erste-sprache><zweite-sprache>accidenti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>พิมพ์</erste-sprache><zweite-sprache>stampare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>พิมพ์</erste-sprache><zweite-sprache>stampiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>พิมพ์</erste-sprache><zweite-sprache>stampate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1661">
     <erste-sprache>พิมพ์</erste-sprache><zweite-sprache>stampa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1663">
+  <vokabel-paar schritt="1662">
     <erste-sprache>สื่อมวลชน</erste-sprache><zweite-sprache>stampa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1664">
+  <vokabel-paar schritt="1663">
     <erste-sprache>วัฒนธรรม</erste-sprache><zweite-sprache>cultura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1665">
+  <vokabel-paar schritt="1664">
     <erste-sprache>กษัตริย์</erste-sprache><zweite-sprache>re</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1665">
     <erste-sprache>รูปถ่าย</erste-sprache><zweite-sprache>foto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
+  <vokabel-paar schritt="1666">
     <erste-sprache>แถว</erste-sprache><zweite-sprache>fila</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1667">
     <erste-sprache>วิธีแก้ปัญหา</erste-sprache><zweite-sprache>soluzione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1669">
+  <vokabel-paar schritt="1668">
     <erste-sprache>ผิด</erste-sprache><zweite-sprache>sbagliato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1669">
     <erste-sprache>บ่อย ๆ</erste-sprache><zweite-sprache>frequentemente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1670">
     <erste-sprache>ที่สมมติไว้</erste-sprache><zweite-sprache>supposto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>สมมติแล้ว</erste-sprache><zweite-sprache>ho supposto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>สมมติแล้ว</erste-sprache><zweite-sprache>hai supposto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>สมมติแล้ว</erste-sprache><zweite-sprache>ha supposto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>เหนือกว่า</erste-sprache><zweite-sprache>superiore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1673">
     <erste-sprache>หน้าอก</erste-sprache><zweite-sprache>seno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>ทางผ่าน</erste-sprache><zweite-sprache>passaggio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1675">
     <erste-sprache>การปรากฏตัว</erste-sprache><zweite-sprache>presenza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>สีดำ</erste-sprache><zweite-sprache>nero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1677">
     <erste-sprache>คำวิจารณ์</erste-sprache><zweite-sprache>critica</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>พื้นดิน</erste-sprache><zweite-sprache>terreno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1679">
     <erste-sprache>วันอาทิตย์</erste-sprache><zweite-sprache>domenica</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>ใหม่กว่า</erste-sprache><zweite-sprache>più recente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1681">
     <erste-sprache>ที่รออยู่</erste-sprache><zweite-sprache>in attesa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>ทันใดนั้น</erste-sprache><zweite-sprache>improvvisamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>ดับ</erste-sprache><zweite-sprache>si spegne</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1684">
     <erste-sprache>ทางเข้า</erste-sprache><zweite-sprache>ingresso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>เท้า</erste-sprache><zweite-sprache>piedi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>เท้า</erste-sprache><zweite-sprache>piede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1686">
     <erste-sprache>ความเป็นจริง</erste-sprache><zweite-sprache>realtà</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1687">
     <erste-sprache>วงกลม</erste-sprache><zweite-sprache>cerchio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>ในนั้น</erste-sprache><zweite-sprache>in esso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1689">
     <erste-sprache>ยาวกว่า</erste-sprache><zweite-sprache>più lungo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>ข่าว</erste-sprache><zweite-sprache>notizie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>จุด</erste-sprache><zweite-sprache>punto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>จุด</erste-sprache><zweite-sprache>punti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>เล็กกว่า</erste-sprache><zweite-sprache>più piccolo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>สุนทรพจน์</erste-sprache><zweite-sprache>discorso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>เขียนแล้ว</erste-sprache><zweite-sprache>ho scritto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>เขียนแล้ว</erste-sprache><zweite-sprache>hai scritto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>เขียนแล้ว</erste-sprache><zweite-sprache>ha scritto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1695">
     <erste-sprache>ทุกวัน</erste-sprache><zweite-sprache>quotidianamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>ดวงอาทิตย์</erste-sprache><zweite-sprache>sole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1697">
     <erste-sprache>แสง</erste-sprache><zweite-sprache>luce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1698">
     <erste-sprache>ตลาด</erste-sprache><zweite-sprache>mercato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>ระหว่างนั้น</erste-sprache><zweite-sprache>nel frattempo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1700">
     <erste-sprache>ขวา</erste-sprache><zweite-sprache>destro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>พอใจ</erste-sprache><zweite-sprache>soddisfatto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1702">
     <erste-sprache>เบา</erste-sprache><zweite-sprache>leggero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>บางส่วน</erste-sprache><zweite-sprache>parzialmente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1704">
     <erste-sprache>แขน</erste-sprache><zweite-sprache>braccio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>แบรนด์</erste-sprache><zweite-sprache>marchio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>สูญเสีย</erste-sprache><zweite-sprache>perdere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>สูญเสีย</erste-sprache><zweite-sprache>perdiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>สูญเสีย</erste-sprache><zweite-sprache>perdete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>สูญเสีย</erste-sprache><zweite-sprache>perde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1707">
     <erste-sprache>พอ</erste-sprache><zweite-sprache>basta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1708">
     <erste-sprache>สโมสรฟุตบอล</erste-sprache><zweite-sprache>FC</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1709">
     <erste-sprache>นอนอยู่</erste-sprache><zweite-sprache>giaceva</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>หนังสือพิมพ์</erste-sprache><zweite-sprache>giornale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>ระหว่างเดินทาง</erste-sprache><zweite-sprache>in movimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>นักเรียน</erste-sprache><zweite-sprache>alunni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>นักเรียน</erste-sprache><zweite-sprache>studenti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1713">
     <erste-sprache>หายาก</erste-sprache><zweite-sprache>raro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>อะไรทำนองนั้น</erste-sprache><zweite-sprache>qualcosa del genere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>โดยการ</erste-sprache><zweite-sprache>nel</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>โดยผ่าน</erste-sprache><zweite-sprache>mediante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>พลเมือง</erste-sprache><zweite-sprache>cittadino</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>พลเมือง</erste-sprache><zweite-sprache>cittadini</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>เบาะแส</erste-sprache><zweite-sprache>indizio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>กีฬา</erste-sprache><zweite-sprache>sport</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>กระทำแล้ว</erste-sprache><zweite-sprache>ho agito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>กระทำแล้ว</erste-sprache><zweite-sprache>hai agito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>กระทำแล้ว</erste-sprache><zweite-sprache>ha agito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>ยิ่งใหญ่ที่สุด</erste-sprache><zweite-sprache>massimo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1722">
     <erste-sprache>ออกอากาศ</erste-sprache><zweite-sprache>trasmette</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1723">
     <erste-sprache>เกียรติ</erste-sprache><zweite-sprache>onore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1724">
     <erste-sprache>เวอร์ชัน</erste-sprache><zweite-sprache>versione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>ทิศตะวันตก</erste-sprache><zweite-sprache>ovest</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1726">
     <erste-sprache>สุภาพบุรุษ</erste-sprache><zweite-sprache>gentiluomini</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1727">
     <erste-sprache>เหมือนกับ</erste-sprache><zweite-sprache>proprio come</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1728">
     <erste-sprache>ความกดดัน</erste-sprache><zweite-sprache>pressione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1729">
     <erste-sprache>วันหยุดสุดสัปดาห์</erste-sprache><zweite-sprache>fine settimana</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>ลบออกแล้ว</erste-sprache><zweite-sprache>ho rimosso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>ลบออกแล้ว</erste-sprache><zweite-sprache>hai rimosso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>ลบออกแล้ว</erste-sprache><zweite-sprache>ha rimosso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>ที่ขาดหาย</erste-sprache><zweite-sprache>mancante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>เที่ยง</erste-sprache><zweite-sprache>mezzogiorno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1733">
     <erste-sprache>จะสามารถ</erste-sprache><zweite-sprache>potrà</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>หลีกเลี่ยง</erste-sprache><zweite-sprache>evitare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>หลีกเลี่ยง</erste-sprache><zweite-sprache>evitiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>หลีกเลี่ยง</erste-sprache><zweite-sprache>evitate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>หลีกเลี่ยง</erste-sprache><zweite-sprache>evita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>ฤดูใบไม้ร่วง</erste-sprache><zweite-sprache>autunno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>ใบไม้ร่วง</erste-sprache><zweite-sprache>autunno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>ความพร้อมใช้งาน</erste-sprache><zweite-sprache>disponibilità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1737">
     <erste-sprache>ลูกค้า</erste-sprache><zweite-sprache>clienti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1738">
     <erste-sprache>เรื่องนั้น</erste-sprache><zweite-sprache>su di esso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1739">
     <erste-sprache>รัฐต่าง ๆ</erste-sprache><zweite-sprache>stati</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1740">
     <erste-sprache>การสนับสนุน</erste-sprache><zweite-sprache>supporto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1741">
     <erste-sprache>คุณคงต้อง</erste-sprache><zweite-sprache>dovrebbero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>เริ่ม</erste-sprache><zweite-sprache>iniziare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>เริ่ม</erste-sprache><zweite-sprache>iniziamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>เริ่ม</erste-sprache><zweite-sprache>iniziate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>เริ่ม</erste-sprache><zweite-sprache>inizia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>เลือก</erste-sprache><zweite-sprache>scegliere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>เลือก</erste-sprache><zweite-sprache>scegliamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>เลือก</erste-sprache><zweite-sprache>scegliete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>เลือก</erste-sprache><zweite-sprache>sceglie</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1744">
     <erste-sprache>ที่ตกลงมา</erste-sprache><zweite-sprache>caduto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>เสื้อผ้า</erste-sprache><zweite-sprache>vestiti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>ความเกลียดชัง</erste-sprache><zweite-sprache>odio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1747">
     <erste-sprache>ฉันคิดว่า</erste-sprache><zweite-sprache>penso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1748">
     <erste-sprache>เลือด</erste-sprache><zweite-sprache>sangue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1749">
     <erste-sprache>ขอบ</erste-sprache><zweite-sprache>bordo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1750">
     <erste-sprache>มีความสุข</erste-sprache><zweite-sprache>felice</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1751">
     <erste-sprache>เป็นไปไม่ได้</erste-sprache><zweite-sprache>impossibile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>สไตล์</erste-sprache><zweite-sprache>stile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>โสด</erste-sprache><zweite-sprache>celibe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1754">
     <erste-sprache>เส้น</erste-sprache><zweite-sprache>linea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1755">
     <erste-sprache>ความจริง</erste-sprache><zweite-sprache>verità</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1756">
     <erste-sprache>คำพูด</erste-sprache><zweite-sprache>parole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1757">
     <erste-sprache>เล็ก</erste-sprache><zweite-sprache>piccolo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>รางวัล</erste-sprache><zweite-sprache>premio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1759">
     <erste-sprache>โรงภาพยนตร์</erste-sprache><zweite-sprache>cinema</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1760">
     <erste-sprache>เศร้า</erste-sprache><zweite-sprache>triste</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1761">
     <erste-sprache>เกิน</erste-sprache><zweite-sprache>oltre a</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1762">
     <erste-sprache>ตั้งแต่นี้เป็นต้นไป</erste-sprache><zweite-sprache>da ora in poi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1763">
     <erste-sprache>เสียงข้างมาก</erste-sprache><zweite-sprache>maggioranza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>แบบจำลอง</erste-sprache><zweite-sprache>modello</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1765">
     <erste-sprache>สด</erste-sprache><zweite-sprache>fresco</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1766">
     <erste-sprache>และอื่นๆ</erste-sprache><zweite-sprache>eccetera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>เฮ้</erste-sprache><zweite-sprache>ehi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>บริษัทจำกัด</erste-sprache><zweite-sprache>SRL</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>บริษัทจำกัด</erste-sprache><zweite-sprache>società a responsabilità limitata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1769">
     <erste-sprache>สีแดง</erste-sprache><zweite-sprache>rosso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1770">
     <erste-sprache>ชุด</erste-sprache><zweite-sprache>set</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>คงจะ</erste-sprache><zweite-sprache>presumibilmente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1772">
     <erste-sprache>รวย</erste-sprache><zweite-sprache>ricco</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1773">
     <erste-sprache>คำตัดสิน</erste-sprache><zweite-sprache>giudizio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1774">
     <erste-sprache>ผู้กลับมา</erste-sprache><zweite-sprache>ritornanti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>การปฏิวัติ</erste-sprache><zweite-sprache>rivoluzione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1776">
     <erste-sprache>หลายพัน</erste-sprache><zweite-sprache>migliaia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1777">
     <erste-sprache>คะแนนเสียง</erste-sprache><zweite-sprache>voti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1778">
     <erste-sprache>การรอ</erste-sprache><zweite-sprache>attesa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>สังคมชนชั้นกระฎุมพี</erste-sprache><zweite-sprache>società borghese</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1780">
     <erste-sprache>ภาคประชาสังคม</erste-sprache><zweite-sprache>società civile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1781">
     <erste-sprache>น่าสนใจ</erste-sprache><zweite-sprache>interessante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1782">
     <erste-sprache>ดั้งเดิม</erste-sprache><zweite-sprache>originale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1783">
     <erste-sprache>สัญญา</erste-sprache><zweite-sprache>contratto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1784">
     <erste-sprache>ตาย</erste-sprache><zweite-sprache>morto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>เริ่มแล้ว</erste-sprache><zweite-sprache>ho iniziato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>เริ่มแล้ว</erste-sprache><zweite-sprache>hai iniziato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>เริ่มแล้ว</erste-sprache><zweite-sprache>ha iniziato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1786">
     <erste-sprache>ดีใจ</erste-sprache><zweite-sprache>contento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>กลม</erste-sprache><zweite-sprache>rotondo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>กลม</erste-sprache><zweite-sprache>rotonde</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1788">
     <erste-sprache>รอบ</erste-sprache><zweite-sprache>giro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1789">
     <erste-sprache>ครู</erste-sprache><zweite-sprache>insegnante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1790">
     <erste-sprache>ที่เผยแพร่แล้ว</erste-sprache><zweite-sprache>pubblicato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1791">
     <erste-sprache>ที่ได้รับเลือก</erste-sprache><zweite-sprache>eletto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>พัฒนาแล้ว</erste-sprache><zweite-sprache>sviluppai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>พัฒนาแล้ว</erste-sprache><zweite-sprache>sviluppasti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>พัฒนาแล้ว</erste-sprache><zweite-sprache>sviluppò</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1793">
     <erste-sprache>ที่ได้รับแต่งตั้ง</erste-sprache><zweite-sprache>designato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>คล้าย</erste-sprache><zweite-sprache>simile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1795">
     <erste-sprache>โรงพยาบาล</erste-sprache><zweite-sprache>ospedale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1796">
     <erste-sprache>วิญญาณ</erste-sprache><zweite-sprache>anima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1797">
     <erste-sprache>ที่ผ่านไป</erste-sprache><zweite-sprache>passante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1798">
     <erste-sprache>ปรมาจารย์</erste-sprache><zweite-sprache>maestro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1799">
     <erste-sprache>คุก</erste-sprache><zweite-sprache>prigione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1800">
     <erste-sprache>วันศุกร์</erste-sprache><zweite-sprache>venerdì</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ตัดสินใจ</erste-sprache><zweite-sprache>decidere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ตัดสินใจ</erste-sprache><zweite-sprache>decidiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>ตัดสินใจ</erste-sprache><zweite-sprache>decide</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>วาด</erste-sprache><zweite-sprache>disegnare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>วาด</erste-sprache><zweite-sprache>disegniamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>วาด</erste-sprache><zweite-sprache>disegnate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>วาด</erste-sprache><zweite-sprache>disegna</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconoscere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconosciamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconoscete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconosce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconobbi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconoscesti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>จำได้</erste-sprache><zweite-sprache>riconobbe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1804">
     <erste-sprache>ศรัทธา</erste-sprache><zweite-sprache>fede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1805">
     <erste-sprache>ชาติ</erste-sprache><zweite-sprache>nazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>คุณเห็น</erste-sprache><zweite-sprache>tu vedi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1807">
     <erste-sprache>มืออาชีพ</erste-sprache><zweite-sprache>professionale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1808">
     <erste-sprache>อย่างมืออาชีพ</erste-sprache><zweite-sprache>professionalmente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>การโจมตี</erste-sprache><zweite-sprache>attacco</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>đánh</erste-sprache><zweite-sprache>attacco</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1811">
+  <vokabel-paar schritt="1810">
     <erste-sprache>พบอีกครั้ง</erste-sprache><zweite-sprache>trova di nuovo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1811">
     <erste-sprache>ระบอบ</erste-sprache><zweite-sprache>regime</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1812">
     <erste-sprache>ทอง</erste-sprache><zweite-sprache>oro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1813">
     <erste-sprache>การแต่งงาน</erste-sprache><zweite-sprache>matrimonio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1815">
+  <vokabel-paar schritt="1814">
     <erste-sprache>การเคลื่อนไหว</erste-sprache><zweite-sprache>movimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1816">
+  <vokabel-paar schritt="1815">
     <erste-sprache>ผู้ลี้ภัย</erste-sprache><zweite-sprache>rifugiati</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1817">
+  <vokabel-paar schritt="1816">
     <erste-sprache>ฝ่ายขวา</erste-sprache><zweite-sprache>destra</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1818">
+  <vokabel-paar schritt="1817">
     <erste-sprache>มหาวิทยาลัย</erste-sprache><zweite-sprache>università</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1819">
+  <vokabel-paar schritt="1818">
     <erste-sprache>ชัยชนะ</erste-sprache><zweite-sprache>vittoria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1819">
     <erste-sprache>ประพฤติ</erste-sprache><zweite-sprache>comportarsi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1819">
     <erste-sprache>ประพฤติ</erste-sprache><zweite-sprache>ci comportiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1819">
     <erste-sprache>ประพฤติ</erste-sprache><zweite-sprache>vi comportate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1819">
     <erste-sprache>ประพฤติ</erste-sprache><zweite-sprache>si comporta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1820">
     <erste-sprache>นั่ง</erste-sprache><zweite-sprache>sedersi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1820">
     <erste-sprache>นั่ง</erste-sprache><zweite-sprache>sediamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1820">
     <erste-sprache>นั่ง</erste-sprache><zweite-sprache>sedete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1820">
     <erste-sprache>นั่ง</erste-sprache><zweite-sprache>siede</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1822">
+  <vokabel-paar schritt="1821">
     <erste-sprache>หาได้แล้ว</erste-sprache><zweite-sprache>guadagnai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1822">
+  <vokabel-paar schritt="1821">
     <erste-sprache>หาได้แล้ว</erste-sprache><zweite-sprache>guadagnasti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1822">
+  <vokabel-paar schritt="1821">
     <erste-sprache>หาได้แล้ว</erste-sprache><zweite-sprache>guadagnò</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1823">
+  <vokabel-paar schritt="1822">
     <erste-sprache>อย่างซื่อสัตย์</erste-sprache><zweite-sprache>onestamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1824">
+  <vokabel-paar schritt="1823">
     <erste-sprache>สุภาพสตรี</erste-sprache><zweite-sprache>signora</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1824">
+  <vokabel-paar schritt="1823">
     <erste-sprache>คุณนาย</erste-sprache><zweite-sprache>signora</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1825">
+  <vokabel-paar schritt="1824">
     <erste-sprache>การทดสอบ</erste-sprache><zweite-sprache>test</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1826">
+  <vokabel-paar schritt="1825">
     <erste-sprache>ผู้ใช้</erste-sprache><zweite-sprache>utenti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1827">
+  <vokabel-paar schritt="1826">
     <erste-sprache>ละแวกบ้าน</erste-sprache><zweite-sprache>quartiere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1828">
+  <vokabel-paar schritt="1827">
     <erste-sprache>สกรู</erste-sprache><zweite-sprache>vite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1829">
+  <vokabel-paar schritt="1828">
     <erste-sprache>ทางกายภาพ</erste-sprache><zweite-sprache>fisico</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1830">
+  <vokabel-paar schritt="1829">
     <erste-sprache>สัตว์</erste-sprache><zweite-sprache>animali</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1830">
+  <vokabel-paar schritt="1829">
     <erste-sprache>สัตว์</erste-sprache><zweite-sprache>bestiole</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1831">
+  <vokabel-paar schritt="1830">
     <erste-sprache>ข้างหลัง</erste-sprache><zweite-sprache>dietro a</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1832">
+  <vokabel-paar schritt="1831">
     <erste-sprache>แพทย์</erste-sprache><zweite-sprache>dottore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1833">
+  <vokabel-paar schritt="1832">
     <erste-sprache>สมบูรณ์แบบ</erste-sprache><zweite-sprache>perfetto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1834">
+  <vokabel-paar schritt="1833">
     <erste-sprache>บั้นท้าย</erste-sprache><zweite-sprache>natiche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1835">
+  <vokabel-paar schritt="1834">
     <erste-sprache>ลา</erste-sprache><zweite-sprache>asino</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1836">
+  <vokabel-paar schritt="1835">
     <erste-sprache>ฉบับ</erste-sprache><zweite-sprache>edizione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1837">
+  <vokabel-paar schritt="1836">
     <erste-sprache>การเลือกตั้ง</erste-sprache><zweite-sprache>elezioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1838">
+  <vokabel-paar schritt="1837">
     <erste-sprache>ความสัมพันธ์</erste-sprache><zweite-sprache>relazioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1838">
+  <vokabel-paar schritt="1837">
     <erste-sprache>ความสัมพันธ์</erste-sprache><zweite-sprache>relazione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1839">
+  <vokabel-paar schritt="1838">
     <erste-sprache>คุ้มค่า</erste-sprache><zweite-sprache>vale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1840">
+  <vokabel-paar schritt="1839">
     <erste-sprache>ที่มาถึงแล้ว</erste-sprache><zweite-sprache>arrivato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1841">
+  <vokabel-paar schritt="1840">
     <erste-sprache>มาถึงแล้ว</erste-sprache><zweite-sprache>sono arrivato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1841">
+  <vokabel-paar schritt="1840">
     <erste-sprache>มาถึงแล้ว</erste-sprache><zweite-sprache>sei arrivato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1841">
+  <vokabel-paar schritt="1840">
     <erste-sprache>มาถึงแล้ว</erste-sprache><zweite-sprache>è arrivato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1842">
+  <vokabel-paar schritt="1841">
     <erste-sprache>อาชีพ</erste-sprache><zweite-sprache>carriera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1843">
+  <vokabel-paar schritt="1842">
     <erste-sprache>สี</erste-sprache><zweite-sprache>colore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1844">
+  <vokabel-paar schritt="1843">
     <erste-sprache>พระราชกฤษฎีกา</erste-sprache><zweite-sprache>decreto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1845">
+  <vokabel-paar schritt="1844">
     <erste-sprache>ระยะเวลา</erste-sprache><zweite-sprache>durata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1846">
+  <vokabel-paar schritt="1845">
     <erste-sprache>วันจันทร์</erste-sprache><zweite-sprache>lunedì</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1847">
+  <vokabel-paar schritt="1846">
     <erste-sprache>เขาว่า</erste-sprache><zweite-sprache>si dice</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1848">
+  <vokabel-paar schritt="1847">
     <erste-sprache>สามัญสำนึก</erste-sprache><zweite-sprache>buon senso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1849">
+  <vokabel-paar schritt="1848">
     <erste-sprache>รายงานการประชุม</erste-sprache><zweite-sprache>verbali</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1850">
+  <vokabel-paar schritt="1849">
     <erste-sprache>น่ากลัว</erste-sprache><zweite-sprache>terribile</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1851">
+  <vokabel-paar schritt="1850">
     <erste-sprache>บ้า</erste-sprache><zweite-sprache>pazzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1852">
+  <vokabel-paar schritt="1851">
     <erste-sprache>ความแตกต่าง</erste-sprache><zweite-sprache>differenza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1852">
+  <vokabel-paar schritt="1851">
     <erste-sprache>ส่วนต่าง</erste-sprache><zweite-sprache>differenza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1853">
+  <vokabel-paar schritt="1852">
     <erste-sprache>ผู้พิพากษา</erste-sprache><zweite-sprache>giudice</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1854">
+  <vokabel-paar schritt="1853">
     <erste-sprache>การจัดการ</erste-sprache><zweite-sprache>gestione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1855">
+  <vokabel-paar schritt="1854">
     <erste-sprache>ปกติ</erste-sprache><zweite-sprache>normale</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1856">
+  <vokabel-paar schritt="1855">
     <erste-sprache>พิธีเปิด</erste-sprache><zweite-sprache>apertura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1857">
+  <vokabel-paar schritt="1856">
     <erste-sprache>เชื้อชาติ</erste-sprache><zweite-sprache>razza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1858">
+  <vokabel-paar schritt="1857">
     <erste-sprache>ขนาด</erste-sprache><zweite-sprache>dimensione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1859">
+  <vokabel-paar schritt="1858">
     <erste-sprache>หมู่บ้าน</erste-sprache><zweite-sprache>villaggio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1860">
+  <vokabel-paar schritt="1859">
     <erste-sprache>น้ำหนัก</erste-sprache><zweite-sprache>peso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1861">
+  <vokabel-paar schritt="1860">
     <erste-sprache>ประสบความสำเร็จ</erste-sprache><zweite-sprache>riuscito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1862">
+  <vokabel-paar schritt="1861">
     <erste-sprache>กล่าวโดยสรุป</erste-sprache><zweite-sprache>in breve</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1863">
+  <vokabel-paar schritt="1862">
     <erste-sprache>สัญลักษณ์</erste-sprache><zweite-sprache>segno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1864">
+  <vokabel-paar schritt="1863">
     <erste-sprache>จะพูด</erste-sprache><zweite-sprache>direbbe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1865">
+  <vokabel-paar schritt="1864">
     <erste-sprache>สวิส</erste-sprache><zweite-sprache>svizzero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1865">
+  <vokabel-paar schritt="1864">
     <erste-sprache>ชาวสวิส</erste-sprache><zweite-sprache>svizzero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1866">
+  <vokabel-paar schritt="1865">
     <erste-sprache>การปลุกระดมความเกลียดชัง</erste-sprache><zweite-sprache>istigazione all'odio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1867">
+  <vokabel-paar schritt="1866">
     <erste-sprache>เผด็จการนิยม</erste-sprache><zweite-sprache>autoritario</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1868">
+  <vokabel-paar schritt="1867">
     <erste-sprache>เผด็จการเบ็ดเสร็จ</erste-sprache><zweite-sprache>totalitario</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1869">
+  <vokabel-paar schritt="1868">
     <erste-sprache>การรับรู้ความสามารถตนเอง</erste-sprache><zweite-sprache>auto-efficacia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1870">
+  <vokabel-paar schritt="1869">
     <erste-sprache>โชคชะตา</erste-sprache><zweite-sprache>destino</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1871">
+  <vokabel-paar schritt="1870">
     <erste-sprache>สองพรรค</erste-sprache><zweite-sprache>bipartisan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1872">
+  <vokabel-paar schritt="1871">
     <erste-sprache>พันธบัตร</erste-sprache><zweite-sprache>obbligazioni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1873">
+  <vokabel-paar schritt="1872">
     <erste-sprache>แนวร่วม</erste-sprache><zweite-sprache>coalizione</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1874">
+  <vokabel-paar schritt="1873">
     <erste-sprache>จักรวรรดิ</erste-sprache><zweite-sprache>impero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1875">
+  <vokabel-paar schritt="1874">
     <erste-sprache>ไม่มีเขา</erste-sprache><zweite-sprache>senza di lui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1876">
+  <vokabel-paar schritt="1875">
     <erste-sprache>ไม่มีเธอ</erste-sprache><zweite-sprache>senza di lei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1877">
+  <vokabel-paar schritt="1876">
     <erste-sprache>ไม่มีฉัน</erste-sprache><zweite-sprache>senza di me</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1878">
+  <vokabel-paar schritt="1877">
     <erste-sprache>ผู้ปกครอง</erste-sprache><zweite-sprache>governante</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1879">
+  <vokabel-paar schritt="1878">
     <erste-sprache>เสื้อเชิ้ต</erste-sprache><zweite-sprache>camicia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1880">
+  <vokabel-paar schritt="1879">
     <erste-sprache>เสียงรบกวน</erste-sprache><zweite-sprache>rumore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1881">
+  <vokabel-paar schritt="1880">
     <erste-sprache>ตลาดหลักทรัพย์</erste-sprache><zweite-sprache>borsa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1882">
+  <vokabel-paar schritt="1881">
     <erste-sprache>จุดที่ไม่อาจหวนกลับ</erste-sprache><zweite-sprache>punto di non ritorno</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1883">
+  <vokabel-paar schritt="1882">
     <erste-sprache>พื้น</erste-sprache><zweite-sprache>pavimento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1884">
+  <vokabel-paar schritt="1883">
     <erste-sprache>การฉ้อโกง</erste-sprache><zweite-sprache>frode</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1885">
+  <vokabel-paar schritt="1884">
     <erste-sprache>การหลอกลวง</erste-sprache><zweite-sprache>truffa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1886">
+  <vokabel-paar schritt="1885">
     <erste-sprache>นักโทษ</erste-sprache><zweite-sprache>detenuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1886">
+  <vokabel-paar schritt="1885">
     <erste-sprache>นักโทษ</erste-sprache><zweite-sprache>galeotto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1887">
+  <vokabel-paar schritt="1886">
     <erste-sprache>แผ่นรองรองเท้า</erste-sprache><zweite-sprache>solette</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1888">
+  <vokabel-paar schritt="1887">
     <erste-sprache>เงินฝาก</erste-sprache><zweite-sprache>depositi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1889">
+  <vokabel-paar schritt="1888">
     <erste-sprache>บัญชีผู้ใช้</erste-sprache><zweite-sprache>account</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1890">
+  <vokabel-paar schritt="1889">
     <erste-sprache>สัญลักษณ์แห่งความมั่งคั่ง</erste-sprache><zweite-sprache>simbolo di ricchezza</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1890">
     <erste-sprache>เน้น</erste-sprache><zweite-sprache>sottolineare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1890">
     <erste-sprache>เน้น</erste-sprache><zweite-sprache>sottolineiamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1890">
     <erste-sprache>เน้น</erste-sprache><zweite-sprache>sottolineate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1890">
     <erste-sprache>เน้น</erste-sprache><zweite-sprache>sottolinea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1891">
     <erste-sprache>เติบโต</erste-sprache><zweite-sprache>crescere</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1891">
     <erste-sprache>เติบโต</erste-sprache><zweite-sprache>cresciamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1891">
     <erste-sprache>เติบโต</erste-sprache><zweite-sprache>crescete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1891">
     <erste-sprache>เติบโต</erste-sprache><zweite-sprache>cresce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1893">
+  <vokabel-paar schritt="1892">
     <erste-sprache>ตี</erste-sprache><zweite-sprache>colpire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1893">
+  <vokabel-paar schritt="1892">
     <erste-sprache>ตี</erste-sprache><zweite-sprache>colpisce</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1894">
+  <vokabel-paar schritt="1893">
     <erste-sprache>ยอดขาย</erste-sprache><zweite-sprache>fatturato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1894">
+  <vokabel-paar schritt="1893">
     <erste-sprache>ยอดขาย</erste-sprache><zweite-sprache>vendite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1895">
+  <vokabel-paar schritt="1894">
     <erste-sprache>อีกด้วย</erste-sprache><zweite-sprache>e anche</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1896">
+  <vokabel-paar schritt="1895">
     <erste-sprache>ห่วย</erste-sprache><zweite-sprache>brutto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1897">
+  <vokabel-paar schritt="1896">
     <erste-sprache>แทบจะ</erste-sprache><zweite-sprache>praticamente</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1898">
+  <vokabel-paar schritt="1897">
     <erste-sprache>แต่ก็</erste-sprache><zweite-sprache>anche se</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1899">
+  <vokabel-paar schritt="1898">
     <erste-sprache>ด้วยตัวเอง</erste-sprache><zweite-sprache>da solo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1900">
+  <vokabel-paar schritt="1899">
     <erste-sprache>ฯลฯ</erste-sprache><zweite-sprache>ecc.</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1901">
+  <vokabel-paar schritt="1900">
     <erste-sprache>แจ้ง</erste-sprache><zweite-sprache>avviso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1902">
+  <vokabel-paar schritt="1901">
     <erste-sprache>ช่างเถอะ</erste-sprache><zweite-sprache>vabbè</zweite-sprache>
   </vokabel-paar>
 </vokabeln>
