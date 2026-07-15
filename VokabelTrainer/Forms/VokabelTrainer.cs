@@ -3918,22 +3918,25 @@ namespace VokabelTrainer
                                     {
                                         // these use a word that doesn't work in hebrew
                                         oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
-                                        oResult.Add(@"https://www.youtube.com/channel/UCGsqBM-CKRFE545L1Pir3fQ/videos");
+                                        oResult.Add(@"https://www.youtube.com/@SALMOSDEGRATITUDOFICIAL/videos");
                                         oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                                         oResult.Add(@"https://www.youtube.com/@purogozo/videos");
+                                        oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
                                     }
 
                                     // Cumbia
-                                    // oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CumbiaCristianaMix88/videos");
                                     oResult.Add(@"https://www.youtube.com/@musicacumbiamix/videos");
                                     oResult.Add(@"https://www.youtube.com/@ElevaTuFe-n8c/videos");
                                     oResult.Add(@"https://www.youtube.com/@AbrazoEncancion/videos");
-                                    oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
                                     oResult.Add(@"https://www.youtube.com/@Melod%C3%ADasParaCristo9/videos");
+                                    oResult.Add(@"https://www.youtube.com/@Ritmodefe-g7v/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CumbiaLatinoBeats/videos");
+                                    oResult.Add(@"https://www.youtube.com/@seanconner104/videos");
 
                                     // Calm music
                                     oResult.Add(@"https://www.youtube.com/@CancionesqueSanan/videos");
-                                    oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
+                                    //oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
                                     oResult.Add(@"https://www.youtube.com/@VibrasqueFlorecen/videos");
 
                                     // Jazz
@@ -3947,7 +3950,8 @@ namespace VokabelTrainer
 
                                     // country
                                     oResult.Add(@"https://www.youtube.com/@RadioGuitarraRustica97/videos");
-                                    oResult.Add(@"https://www.youtube.com/@alientto.musical/videos");
+                                    //oResult.Add(@"https://www.youtube.com/@alientto.musical/videos");
+                                    oResult.Add(@"https://www.youtube.com/@CountryCristianos/videos");
 
                                     // reggae
                                     oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
@@ -3956,6 +3960,9 @@ namespace VokabelTrainer
 
                                     // pop, miscellaneous
                                     oResult.Add(@"https://www.youtube.com/@Pitbulllatin/videos");
+                                    oResult.Add(@"https://www.youtube.com/@RemixLatinoDJ");
+                                    //oResult.Add(@"https://www.youtube.com/@MujeresFelicesMF");
+                                    //oResult.Add(@"https://www.youtube.com/@evamiraluz/videos");
 
                                     // Got talent style
                                     // https://www.youtube.com/@VocesRotas-YT
@@ -4064,6 +4071,8 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@ChristianTechnoMusic69");
                                 oResult.Add(@"https://www.youtube.com/@CountryLoveStories-o1d/videos");
                                 oResult.Add(@"https://www.youtube.com/@ZionEchoCovers/videos");
+                                //oResult.Add(@"https://www.youtube.com/@IrieRayne-l8d/videos");
+                                //oResult.Add(@"https://www.youtube.com/@ROOTREGGAEPARADISE/videos");
 
                                 // https://www.youtube.com/@ZIONBEATS-j1t/videos
                                 // https://www.youtube.com/@REGGAEPRAISEHUB
