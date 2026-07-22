@@ -60,12 +60,15 @@ namespace VokabelTrainer.Forms
         /// <param name="eVariants">Available variants, must not be None</param>
         /// <exception cref="InvalidEnumArgumentException">In case there are no variants</exception>
         //===================================================================================================
-        public ChineseVariantSelection(ChineseVariantType eVariants)
+        public ChineseVariantSelection(ChineseVariantType eVariants, Font oFont)
         {
             if (eVariants == ChineseVariantType.None)
                 throw new InvalidEnumArgumentException(nameof(eVariants));
 
             InitializeComponent();
+
+            // change the font to the main font of the application
+            Font = oFont;
 
             m_rbChinesePeoplesRepublicOfChina.Visible =
                 m_rbChinesePeoplesRepublicOfChina.Enabled =

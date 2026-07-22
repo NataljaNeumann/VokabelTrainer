@@ -52,12 +52,15 @@ namespace VokabelTrainer.Forms
     //*******************************************************************************************************
     public partial class JapaneseVariantSelection : Form
     {
-        public JapaneseVariantSelection(JapaneseVariantType eVariants)
+        public JapaneseVariantSelection(JapaneseVariantType eVariants, Font oFont)
         {
             if (eVariants == JapaneseVariantType.None)
                 throw new InvalidEnumArgumentException(nameof(eVariants));
 
             InitializeComponent();
+
+            // change the font to the main font of the application
+            Font = oFont;
 
             m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Visible =
                 m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Enabled =
