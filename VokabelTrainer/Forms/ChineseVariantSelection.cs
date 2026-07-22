@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics.Eventing.Reader;
-// VokabelTrainer v1.6
+// VokabelTrainer v1.7
 // Copyright (C) 2026 NataljaNeumann@gmx.de
 //
 // This program is free software; you can redistribute it and/or
