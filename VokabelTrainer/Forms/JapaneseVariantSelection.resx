@@ -160,13 +160,13 @@
     <value>29, 98</value>
   </data>
   <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 29</value>
+    <value>543, 29</value>
   </data>
   <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Text" xml:space="preserve">
-    <value>Kanji + Hiragana + Katakana (Standard)</value>
+    <value>Kanji + Hiragana + Katakana (Standard, most difficult)</value>
   </data>
   <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Name" xml:space="preserve">
     <value>m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage</value>
@@ -184,16 +184,16 @@
     <value>True</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 133</value>
+    <value>29, 168</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 29</value>
+    <value>167, 29</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.Text" xml:space="preserve">
-    <value>Hiragana</value>
+    <value>Only Hiragana</value>
   </data>
   <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Name" xml:space="preserve">
     <value>m_rbJapaneseHiraganaOnly</value>
@@ -211,7 +211,7 @@
     <value>True</value>
   </data>
   <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 168</value>
+    <value>29, 203</value>
   </data>
   <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 29</value>
@@ -268,7 +268,7 @@
     <value>NoControl</value>
   </data>
   <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 238</value>
+    <value>29, 133</value>
   </data>
   <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 29</value>
@@ -298,16 +298,16 @@
     <value>NoControl</value>
   </data>
   <data name="m_rbRomajiUsingLatinLettersOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 203</value>
+    <value>29, 238</value>
   </data>
   <data name="m_rbRomajiUsingLatinLettersOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 29</value>
+    <value>386, 29</value>
   </data>
   <data name="m_rbRomajiUsingLatinLettersOnly.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="m_rbRomajiUsingLatinLettersOnly.Text" xml:space="preserve">
-    <value>Romaji with only latin letters</value>
+    <value>Romaji with only latin letters (easiest)</value>
   </data>
   <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Name" xml:space="preserve">
     <value>m_rbRomajiUsingLatinLettersOnly</value>
