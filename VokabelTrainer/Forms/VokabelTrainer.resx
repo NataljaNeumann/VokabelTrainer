@@ -528,7 +528,7 @@
 </value>
   </data>
   <data name="m_btnStats.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
+    <value>Segoe UI Symbol, 11.25pt</value>
   </data>
   <data name="m_btnMostIntensiveSecondToFirst.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
