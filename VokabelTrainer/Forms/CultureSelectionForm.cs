@@ -103,6 +103,17 @@ namespace VokabelTrainer.Forms
                     {
                         found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, uiCulture.TwoLetterISOLanguageName, StringComparison.OrdinalIgnoreCase));
                     }
+
+                    if (found.Key == null && uiCulture.Name.Equals("zh-TW"))
+                    {
+                        found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHT", StringComparison.OrdinalIgnoreCase));
+                    }
+
+                    if (found.Key == null && uiCulture.TwoLetterISOLanguageName.Equals("zh"))
+                    {
+                        found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHS", StringComparison.OrdinalIgnoreCase));
+                    }
+
                 }
 
                 if (found.Key != null)

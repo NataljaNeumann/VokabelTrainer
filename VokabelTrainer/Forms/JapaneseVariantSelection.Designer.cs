@@ -102,6 +102,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "JapaneseVariantSelection";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.ResumeLayout(false);
             this.PerformLayout();
 
