@@ -412,12 +412,543 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.af.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.am-ET.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ar.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.az.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.be.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.bg.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.bo-CN.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.bs-Latn-BA.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ca.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.cs.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.da.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.de.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.el.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.es.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.et.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.fa.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.fi.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.fr.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.he.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.hi.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.hu.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.hy.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.id.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ig-NG.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.is.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.it.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ja.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ka.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.kk.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.km-KH.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ko.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ku-Arab-IQ.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ky-KG.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.lt.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.lv.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.mk.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.mn-MN.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ms.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.nl.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.no.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.pa-Arab-PK.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.pa-IN.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.pl.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ps-AF.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.pt.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ChineseVariantSelection.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ro.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ru.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.rw-RW.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.sa.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.sk.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.sl.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.so-SO.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.sr.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.sv.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.tg-Cyrl-TJ.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.th.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ti-ER.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ti-ET.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.tr.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.uk.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.uz.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.vi.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.wo-SN.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.yo-NG.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.zh-CHS.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.zh-CHT.resx">
+      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>	  
+    <EmbeddedResource Include="Forms\CultureSelectionForm.af.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.am-ET.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ar.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.az.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.be.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.bg.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.bo-CN.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.bs-Latn-BA.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ca.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.cs.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.da.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.de.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.el.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.es.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.et.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.fa.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.fi.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.fr.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.he.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.hi.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.hu.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.hy.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.id.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ig-NG.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.is.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.it.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ja.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ka.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.kk.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.km-KH.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ko.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ku-Arab-IQ.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ky-KG.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.lt.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.lv.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.mk.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.mn-MN.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ms.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.nl.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.no.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.pa-Arab-PK.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.pa-IN.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.pl.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ps-AF.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.pt.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CultureSelectionForm.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ro.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ru.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.rw-RW.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.sa.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.sk.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.sl.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.so-SO.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.sr.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.sv.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.tg-Cyrl-TJ.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.th.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ti-ER.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ti-ET.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.tr.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.uk.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.uz.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.vi.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.wo-SN.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.yo-NG.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.zh-CHS.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CultureSelectionForm.zh-CHT.resx">
+      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>	  
+	  
     <EmbeddedResource Include="Forms\GraphsForm.af.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -702,8 +1233,273 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.af.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.am-ET.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ar.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.az.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.be.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.bg.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.bo-CN.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.bs-Latn-BA.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ca.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.cs.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.da.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.de.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.el.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.es.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.et.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.fa.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.fi.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.fr.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.he.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.hi.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.hu.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.hy.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.id.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ig-NG.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.is.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.it.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ja.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ka.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.kk.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.km-KH.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ko.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ku-Arab-IQ.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ky-KG.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.lt.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.lv.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.mk.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.mn-MN.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ms.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.nl.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.no.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.pa-Arab-PK.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.pa-IN.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.pl.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ps-AF.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.pt.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\JapaneseVariantSelection.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ro.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ru.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.rw-RW.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.sa.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.sk.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.sl.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.so-SO.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.sr.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.sv.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.tg-Cyrl-TJ.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.th.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ti-ER.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ti-ET.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.tr.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.uk.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.uz.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.vi.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.wo-SN.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.yo-NG.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.zh-CHS.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.zh-CHT.resx">
+      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MistakesDisplayForm.resx">
       <DependentUpon>MistakesDisplayForm.cs</DependentUpon>
