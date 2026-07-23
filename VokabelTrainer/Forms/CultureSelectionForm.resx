@@ -123,23 +123,26 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_labelSelectLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_labelSelectLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+    <value>22, 16</value>
+  </data>
+  <data name="m_labelSelectLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="m_labelSelectLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 38</value>
+    <value>627, 103</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_labelSelectLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Please select one of available languages</value>
+    <value>Please select one of available GUI languages. Choose a language that is different from the language that you want to learn, because some program logic assumes that the GUI language is not the one that you want to learn.</value>
   </data>
   <data name="m_labelSelectLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;m_labelSelectLanguage.Name" xml:space="preserve">
     <value>m_labelSelectLanguage</value>
@@ -154,13 +157,16 @@
     <value>3</value>
   </data>
   <data name="m_cbLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="m_cbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 60</value>
+    <value>26, 132</value>
+  </data>
+  <data name="m_cbLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="m_cbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 24</value>
+    <value>618, 39</value>
   </data>
   <data name="m_cbLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -181,13 +187,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="m_btnCancel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>247, 98</value>
+    <value>453, 181</value>
+  </data>
+  <data name="m_btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 27</value>
+    <value>196, 50</value>
   </data>
   <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -211,13 +220,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="m_btnOk.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 98</value>
+    <value>245, 181</value>
+  </data>
+  <data name="m_btnOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
   <data name="m_btnOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 27</value>
+    <value>196, 50</value>
   </data>
   <data name="m_btnOk.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -241,10 +253,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>11, 24</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>366, 137</value>
+    <value>671, 253</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -344,8 +359,11 @@
         AMZAAABgDAQAAMZAAABgDAQAAMb8HzZtObb8HnpGAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Language</value>
+    <value>Culture of the GUI</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CultureSelectionForm</value>

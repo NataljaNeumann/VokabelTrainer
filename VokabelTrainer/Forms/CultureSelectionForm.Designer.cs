@@ -69,14 +69,14 @@ namespace VokabelTrainer.Forms
             this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.m_btnCancel.Name = "m_btnCancel";
             this.m_btnCancel.UseVisualStyleBackColor = true;
-            this.m_btnCancel.Click += new System.EventHandler(this.m_btnCancel_Click);
+            this.m_btnCancel.Click += new System.EventHandler(this.OnCancel_Click);
             // 
             // m_btnOk
             // 
             resources.ApplyResources(this.m_btnOk, "m_btnOk");
             this.m_btnOk.Name = "m_btnOk";
             this.m_btnOk.UseVisualStyleBackColor = true;
-            this.m_btnOk.Click += new System.EventHandler(this.m_btnOk_Click);
+            this.m_btnOk.Click += new System.EventHandler(this.OnOk_Click);
             // 
             // CultureSelectionForm
             // 
