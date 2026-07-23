@@ -1612,7 +1612,7 @@ namespace VokabelTrainer
                                             (strFilePath2 != null ? JapaneseVariantType.JapaneseRomajiOnly : JapaneseVariantType.None) |
                                             (strFilePath3 != null ? JapaneseVariantType.JapaneseKatakanaAndHiragadaOnly : JapaneseVariantType.None) |
                                             (strFilePath4 != null ? JapaneseVariantType.JapaneseLatinRomaji : JapaneseVariantType.None)
-                                            , this.Font
+                                            , this.m_btnExerciseFirstToSecond.Font
                                             ))
                                     {
                                         oForm.RightToLeft = this.RightToLeft;
@@ -1781,7 +1781,7 @@ namespace VokabelTrainer
                                                 (strFilePath3 != null ? ChineseVariantType.TraditionalChineseLanguageOfTaiwan : ChineseVariantType.None) |
                                                 (strFilePath4 != null ? ChineseVariantType.ChineseOfTaiwanPinyinWriting : ChineseVariantType.None) |
                                                 (strFilePath5 != null ? ChineseVariantType.ZhuyinFuhaoWritingOfTaiwan : ChineseVariantType.None)
-                                                , this.Font
+                                                , this.m_btnExerciseFirstToSecond.Font
                                                 ))
                                         {
                                             oForm.RightToLeft = this.RightToLeft;
