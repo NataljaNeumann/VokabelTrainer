@@ -255,6 +255,9 @@ namespace VokabelTrainer
                 "Ja".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ja-JP" :
                 "Яп".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 "日本".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
+                "ひら".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
+                "Rōm".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
+                "Roo".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 // portugese
                 "Por".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("pt") && !strCurrentCulture.Equals("pt") ? strCurrentCulture : "pt-PT") :
@@ -270,10 +273,13 @@ namespace VokabelTrainer
                 // chinese
                 "Chi".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-CN" :
                 "Ки".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "zh-CN" :
+                "Zhō".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-CN" :
                 "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) && strCurrentCulture.Equals("zh-CHT") ? "zh-TW" :
                 "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("zh") && !strCurrentCulture.Equals("zh-CHS") && !strCurrentCulture.Equals("zh-CHT") ? strCurrentCulture : "zh-CN") :
                 "繁體中".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW":
+                "Tái".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW" :
+                "ㄓㄨˋ".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW" :
                 // arab
                 "Ar".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ar-SA" :
                 "Ара".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ar-SA" :

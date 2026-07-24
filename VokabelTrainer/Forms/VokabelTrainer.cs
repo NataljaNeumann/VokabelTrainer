@@ -3693,6 +3693,32 @@ namespace VokabelTrainer
         {
             List<string> oResult = GetEasyLanguageAquireList(m_strFirstLanguage);
             oResult.AddRange(GetEasyLanguageAquireList(m_strSecondLanguage));
+
+            List<string> oFiltered = new List<string>();
+            foreach (string s in oResult)
+            {
+                if ((string.IsNullOrEmpty(Properties.Settings.Default.LastUsedLink1) ||
+                     !s.Equals(Properties.Settings.Default.LastUsedLink1)) &&
+                     (string.IsNullOrEmpty(Properties.Settings.Default.LastUsedLink2) || oResult.Count < 4 ||
+                     !s.Equals(Properties.Settings.Default.LastUsedLink2)) &&
+                     (string.IsNullOrEmpty(Properties.Settings.Default.LastUsedLink3) || oResult.Count < 5 ||
+                     !s.Equals(Properties.Settings.Default.LastUsedLink3)) &&
+                     (string.IsNullOrEmpty(Properties.Settings.Default.LastUsedLink4) || oResult.Count < 6 ||
+                     !s.Equals(Properties.Settings.Default.LastUsedLink4)) &&
+                     (string.IsNullOrEmpty(Properties.Settings.Default.LastUsedLink5) || oResult.Count < 7 ||
+                     !s.Equals(Properties.Settings.Default.LastUsedLink5))
+                     )
+                {
+                    oFiltered.Add(s);
+                }
+            }
+
+            // set the filtered result, only if there are at least two elements left
+            if (oFiltered.Count >= 2)
+                oResult = oFiltered;
+
+            Properties.Settings.Default.Save();
+
             return oResult;
         }
 
@@ -4279,7 +4305,10 @@ namespace VokabelTrainer
                 // and one of the trained languages is Japanese
                 if (strLanguageFirst2.Equals("Ja", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst2.Equals("Яп", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageFirst2.Equals("日本", StringComparison.CurrentCultureIgnoreCase)
+                    strLanguageFirst2.Equals("日本", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst2.Equals("ひら", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Rōm", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Roo", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
                     // then add resources in japanese for language aquisition without explicit learning
@@ -4302,7 +4331,10 @@ namespace VokabelTrainer
                 // and one of the trained languages is chinese
                 if (strLanguageFirst2.Equals("Ch", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst2.Equals("Ки", StringComparison.CurrentCultureIgnoreCase) ||
-                    strLanguageFirst2.Equals("中文", StringComparison.CurrentCultureIgnoreCase)
+                    strLanguageFirst2.Equals("中文", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Zhō", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Tái", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("ㄓㄨˋ", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
                     // then add resources in chinese for language aquisition without explicit learning
@@ -4535,7 +4567,17 @@ namespace VokabelTrainer
             List<string> oEasyAquireList = GetEasyLanguageAquireList();
             if (oEasyAquireList != null && oEasyAquireList.Count > 0)
             {
-                System.Diagnostics.Process.Start(oEasyAquireList[m_oRnd.Next(oEasyAquireList.Count)]);
+                // decide, which URL to open
+                string strUrl = oEasyAquireList[m_oRnd.Next(oEasyAquireList.Count)];
+                // actualize the last used links
+                Properties.Settings.Default.LastUsedLink5 = Properties.Settings.Default.LastUsedLink4;
+                Properties.Settings.Default.LastUsedLink4 = Properties.Settings.Default.LastUsedLink3;
+                Properties.Settings.Default.LastUsedLink3 = Properties.Settings.Default.LastUsedLink2;
+                Properties.Settings.Default.LastUsedLink2 = Properties.Settings.Default.LastUsedLink1;
+                Properties.Settings.Default.LastUsedLink1 = strUrl;
+                Properties.Settings.Default.Save();
+                // open the link
+                System.Diagnostics.Process.Start(strUrl);
             }
         }
 
