@@ -148,7 +148,9 @@ namespace VokabelTrainer
                 }
             }
 
-            if (string.IsNullOrEmpty(strSetCulture))
+            if (string.IsNullOrEmpty(strSetCulture) 
+                || Properties.Settings.Default.StartsSinceCultureChange == 1
+                || Properties.Settings.Default.StartsSinceCultureChange == 20)
             {
                 using (Forms.CultureSelectionForm oCultureDialog =
                     new Forms.CultureSelectionForm(GetAvailableLocalizations()))
@@ -156,7 +158,10 @@ namespace VokabelTrainer
                     if (oCultureDialog.ShowDialog() == DialogResult.OK &&
                         !string.IsNullOrEmpty(oCultureDialog.SelectedLanguage))
                     {
+                        if (string.IsNullOrEmpty(strSetCulture) || !strSetCulture.Equals(oCultureDialog.SelectedLanguage))
+                        {
                         Properties.Settings.Default.ChosenCulture = oCultureDialog.SelectedLanguage;
+                            Properties.Settings.Default.StartsSinceCultureChange = 0;
                         Properties.Settings.Default.Save();
 
                         System.Diagnostics.Process.Start(
@@ -164,6 +169,14 @@ namespace VokabelTrainer
                         return;
                     }
                 }
+                }
+            }
+
+            // continue counting for asking another time
+            if (Properties.Settings.Default.StartsSinceCultureChange < 20)
+            {
+                Properties.Settings.Default.StartsSinceCultureChange++;
+                Properties.Settings.Default.Save();
             }
 
 

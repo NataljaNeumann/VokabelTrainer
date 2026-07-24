@@ -34,5 +34,77 @@ namespace VokabelTrainer.Properties {
                 this["ChosenCulture"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public long StartsSinceCultureChange {
+            get {
+                return ((long)(this["StartsSinceCultureChange"]));
+            }
+            set {
+                this["StartsSinceCultureChange"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUsedLink1 {
+            get {
+                return ((string)(this["LastUsedLink1"]));
+            }
+            set {
+                this["LastUsedLink1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUsedLink2 {
+            get {
+                return ((string)(this["LastUsedLink2"]));
+            }
+            set {
+                this["LastUsedLink2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUsedLink3 {
+            get {
+                return ((string)(this["LastUsedLink3"]));
+            }
+            set {
+                this["LastUsedLink3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUsedLink4 {
+            get {
+                return ((string)(this["LastUsedLink4"]));
+            }
+            set {
+                this["LastUsedLink4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUsedLink5 {
+            get {
+                return ((string)(this["LastUsedLink5"]));
+            }
+            set {
+                this["LastUsedLink5"] = value;
+            }
+        }
     }
 }
