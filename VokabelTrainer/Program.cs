@@ -92,7 +92,7 @@ namespace VokabelTrainer
             // "sa-IN";
             // "sk-SK";
             // "sl-SL";
-            // "sr-Cyrl-RS"; // TODO: need a fix
+            // "sr"; 
             // "sv-SE";
             // "tg-Cyrl-TJ";
             // "th-TH";
@@ -106,6 +106,7 @@ namespace VokabelTrainer
             // "ga-IE";
             // "ku-Arab-IQ";
             // "ti-ER";
+            // "ti-ET";
             // "am-ET";
             // "ig-NG";
             // "yo-NG";
@@ -160,15 +161,15 @@ namespace VokabelTrainer
                     {
                         if (string.IsNullOrEmpty(strSetCulture) || !strSetCulture.Equals(oCultureDialog.SelectedLanguage))
                         {
-                        Properties.Settings.Default.ChosenCulture = oCultureDialog.SelectedLanguage;
+                            Properties.Settings.Default.ChosenCulture = oCultureDialog.SelectedLanguage;
                             Properties.Settings.Default.StartsSinceCultureChange = 0;
-                        Properties.Settings.Default.Save();
+                            Properties.Settings.Default.Save();
 
-                        System.Diagnostics.Process.Start(
-                            System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
-                        return;
+                            System.Diagnostics.Process.Start(
+                                System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+                            return;
+                        }
                     }
-                }
                 }
             }
 
@@ -484,6 +485,10 @@ namespace VokabelTrainer
                 if (string.IsNullOrEmpty(strCultureName))
                 {
                     // invariant culture has empty Name -> no subdirectory expected
+                    if (!oCultureCodes.ContainsKey("en"))
+                    {
+                        oCultureCodes.Add("en", "English");
+                    }
                     continue;
                 }
 
@@ -511,7 +516,8 @@ namespace VokabelTrainer
                 // add to dictionary if not already present
                 if (!oCultureCodes.ContainsKey(strCultureName))
                 {
-                    oCultureCodes.Add(strCultureName, strNativeName);
+                    oCultureCodes.Add(strCultureName, 
+                        char.ToUpper(strNativeName[0], oCulture) + strNativeName.Substring(1));
                 }
             }
 
