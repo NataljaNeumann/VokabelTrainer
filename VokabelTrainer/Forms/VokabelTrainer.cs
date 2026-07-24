@@ -3794,6 +3794,7 @@ namespace VokabelTrainer
                         if ("en".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                             oResult.Add(@"https://www.youtube.com/@LivingbreadNetMusic/videos");
                         oResult.Add(@"https://www.youtube.com/@BlossomWaltzAffair");
+                        //oResult.Add(@"https://www.ballermann-radio.de/");
                     }
 
                 }
@@ -4308,6 +4309,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("日本", StringComparison.CurrentCultureIgnoreCase) ||
                     strLanguageFirst2.Equals("ひら", StringComparison.CurrentCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Rōm", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Rôm", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Roo", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {

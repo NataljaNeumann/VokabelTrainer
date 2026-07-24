@@ -257,6 +257,7 @@ namespace VokabelTrainer
                 "日本".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 "ひら".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 "Rōm".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
+                "Rôm".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 "Roo".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
                 // portugese
                 "Por".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
