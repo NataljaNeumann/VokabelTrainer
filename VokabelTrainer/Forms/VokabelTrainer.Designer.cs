@@ -76,50 +76,35 @@ namespace VokabelTrainer
             // 
             // m_btnLoadLanguageFile
             // 
-            this.m_btnLoadLanguageFile.AccessibleDescription = null;
-            this.m_btnLoadLanguageFile.AccessibleName = null;
             resources.ApplyResources(this.m_btnLoadLanguageFile, "m_btnLoadLanguageFile");
-            this.m_btnLoadLanguageFile.BackgroundImage = null;
             this.m_btnLoadLanguageFile.Name = "m_btnLoadLanguageFile";
             this.m_btnLoadLanguageFile.UseVisualStyleBackColor = true;
             this.m_btnLoadLanguageFile.Click += new System.EventHandler(this.OnLoadLanguageFileClick);
             // 
             // m_btnEnterVocabulary
             // 
-            this.m_btnEnterVocabulary.AccessibleDescription = null;
-            this.m_btnEnterVocabulary.AccessibleName = null;
             resources.ApplyResources(this.m_btnEnterVocabulary, "m_btnEnterVocabulary");
-            this.m_btnEnterVocabulary.BackgroundImage = null;
             this.m_btnEnterVocabulary.Name = "m_btnEnterVocabulary";
             this.m_btnEnterVocabulary.UseVisualStyleBackColor = true;
             this.m_btnEnterVocabulary.Click += new System.EventHandler(this.OnEnterVocabulary_Click);
             // 
             // m_btnExerciseSecondToFirst
             // 
-            this.m_btnExerciseSecondToFirst.AccessibleDescription = null;
-            this.m_btnExerciseSecondToFirst.AccessibleName = null;
             resources.ApplyResources(this.m_btnExerciseSecondToFirst, "m_btnExerciseSecondToFirst");
-            this.m_btnExerciseSecondToFirst.BackgroundImage = null;
             this.m_btnExerciseSecondToFirst.Name = "m_btnExerciseSecondToFirst";
             this.m_btnExerciseSecondToFirst.UseVisualStyleBackColor = true;
             this.m_btnExerciseSecondToFirst.Click += new System.EventHandler(this.OnExerciseSecondToFirstClick);
             // 
             // m_btnExerciseFirstToSecond
             // 
-            this.m_btnExerciseFirstToSecond.AccessibleDescription = null;
-            this.m_btnExerciseFirstToSecond.AccessibleName = null;
             resources.ApplyResources(this.m_btnExerciseFirstToSecond, "m_btnExerciseFirstToSecond");
-            this.m_btnExerciseFirstToSecond.BackgroundImage = null;
             this.m_btnExerciseFirstToSecond.Name = "m_btnExerciseFirstToSecond";
             this.m_btnExerciseFirstToSecond.UseVisualStyleBackColor = true;
             this.m_btnExerciseFirstToSecond.Click += new System.EventHandler(this.OnExerciseFirstToSecondClick);
             // 
             // m_btnNewLanguageFile
             // 
-            this.m_btnNewLanguageFile.AccessibleDescription = null;
-            this.m_btnNewLanguageFile.AccessibleName = null;
             resources.ApplyResources(this.m_btnNewLanguageFile, "m_btnNewLanguageFile");
-            this.m_btnNewLanguageFile.BackgroundImage = null;
             this.m_btnNewLanguageFile.Name = "m_btnNewLanguageFile";
             this.m_btnNewLanguageFile.UseVisualStyleBackColor = true;
             this.m_btnNewLanguageFile.Click += new System.EventHandler(this.OnNewLanguageClick);
@@ -131,48 +116,34 @@ namespace VokabelTrainer
             // 
             // m_btnIntensiveSecondToFirst
             // 
-            this.m_btnIntensiveSecondToFirst.AccessibleDescription = null;
-            this.m_btnIntensiveSecondToFirst.AccessibleName = null;
             resources.ApplyResources(this.m_btnIntensiveSecondToFirst, "m_btnIntensiveSecondToFirst");
-            this.m_btnIntensiveSecondToFirst.BackgroundImage = null;
             this.m_btnIntensiveSecondToFirst.Name = "m_btnIntensiveSecondToFirst";
             this.m_btnIntensiveSecondToFirst.UseVisualStyleBackColor = true;
             this.m_btnIntensiveSecondToFirst.Click += new System.EventHandler(this.OnIntensiveSecondToFirstClick);
             // 
             // m_btnIntensiveFirstToSecond
             // 
-            this.m_btnIntensiveFirstToSecond.AccessibleDescription = null;
-            this.m_btnIntensiveFirstToSecond.AccessibleName = null;
             resources.ApplyResources(this.m_btnIntensiveFirstToSecond, "m_btnIntensiveFirstToSecond");
-            this.m_btnIntensiveFirstToSecond.BackgroundImage = null;
             this.m_btnIntensiveFirstToSecond.Name = "m_btnIntensiveFirstToSecond";
             this.m_btnIntensiveFirstToSecond.UseVisualStyleBackColor = true;
             this.m_btnIntensiveFirstToSecond.Click += new System.EventHandler(this.OnIntensiveFirstToSecondClick);
             // 
             // m_btnMostIntensiveSecondToFirst
             // 
-            this.m_btnMostIntensiveSecondToFirst.AccessibleDescription = null;
-            this.m_btnMostIntensiveSecondToFirst.AccessibleName = null;
             resources.ApplyResources(this.m_btnMostIntensiveSecondToFirst, "m_btnMostIntensiveSecondToFirst");
-            this.m_btnMostIntensiveSecondToFirst.BackgroundImage = null;
             this.m_btnMostIntensiveSecondToFirst.Name = "m_btnMostIntensiveSecondToFirst";
             this.m_btnMostIntensiveSecondToFirst.UseVisualStyleBackColor = true;
             this.m_btnMostIntensiveSecondToFirst.Click += new System.EventHandler(this.OnMostIntensiveSecondToFirstClick);
             // 
             // m_btnMostIntensiveFirstToSecond
             // 
-            this.m_btnMostIntensiveFirstToSecond.AccessibleDescription = null;
-            this.m_btnMostIntensiveFirstToSecond.AccessibleName = null;
             resources.ApplyResources(this.m_btnMostIntensiveFirstToSecond, "m_btnMostIntensiveFirstToSecond");
-            this.m_btnMostIntensiveFirstToSecond.BackgroundImage = null;
             this.m_btnMostIntensiveFirstToSecond.Name = "m_btnMostIntensiveFirstToSecond";
             this.m_btnMostIntensiveFirstToSecond.UseVisualStyleBackColor = true;
             this.m_btnMostIntensiveFirstToSecond.Click += new System.EventHandler(this.OnMostIntensiveFirstToSecondClick);
             // 
             // m_lblShowLicense
             // 
-            this.m_lblShowLicense.AccessibleDescription = null;
-            this.m_lblShowLicense.AccessibleName = null;
             resources.ApplyResources(this.m_lblShowLicense, "m_lblShowLicense");
             this.m_lblShowLicense.Name = "m_lblShowLicense";
             this.m_lblShowLicense.TabStop = true;
@@ -180,8 +151,6 @@ namespace VokabelTrainer
             // 
             // m_lblShowAbout
             // 
-            this.m_lblShowAbout.AccessibleDescription = null;
-            this.m_lblShowAbout.AccessibleName = null;
             resources.ApplyResources(this.m_lblShowAbout, "m_lblShowAbout");
             this.m_lblShowAbout.Name = "m_lblShowAbout";
             this.m_lblShowAbout.TabStop = true;
@@ -189,27 +158,19 @@ namespace VokabelTrainer
             // 
             // m_btnShowDesktopKeyboard
             // 
-            this.m_btnShowDesktopKeyboard.AccessibleDescription = null;
-            this.m_btnShowDesktopKeyboard.AccessibleName = null;
             resources.ApplyResources(this.m_btnShowDesktopKeyboard, "m_btnShowDesktopKeyboard");
-            this.m_btnShowDesktopKeyboard.BackgroundImage = null;
             this.m_btnShowDesktopKeyboard.Name = "m_btnShowDesktopKeyboard";
             this.m_btnShowDesktopKeyboard.UseVisualStyleBackColor = true;
             this.m_btnShowDesktopKeyboard.Click += new System.EventHandler(this.OnShowDesktopKeyboard_Click);
             // 
             // m_lblReader
             // 
-            this.m_lblReader.AccessibleDescription = null;
-            this.m_lblReader.AccessibleName = null;
             resources.ApplyResources(this.m_lblReader, "m_lblReader");
             this.m_lblReader.Name = "m_lblReader";
             // 
             // m_cbxReader
             // 
-            this.m_cbxReader.AccessibleDescription = null;
-            this.m_cbxReader.AccessibleName = null;
             resources.ApplyResources(this.m_cbxReader, "m_cbxReader");
-            this.m_cbxReader.BackgroundImage = null;
             this.m_cbxReader.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbxReader.FormattingEnabled = true;
             this.m_cbxReader.Items.AddRange(new object[] {
@@ -222,8 +183,6 @@ namespace VokabelTrainer
             // 
             // m_lblDownloadESpeak
             // 
-            this.m_lblDownloadESpeak.AccessibleDescription = null;
-            this.m_lblDownloadESpeak.AccessibleName = null;
             resources.ApplyResources(this.m_lblDownloadESpeak, "m_lblDownloadESpeak");
             this.m_lblDownloadESpeak.Name = "m_lblDownloadESpeak";
             this.m_lblDownloadESpeak.TabStop = true;
@@ -231,37 +190,25 @@ namespace VokabelTrainer
             // 
             // m_chkUseESpeak
             // 
-            this.m_chkUseESpeak.AccessibleDescription = null;
-            this.m_chkUseESpeak.AccessibleName = null;
             resources.ApplyResources(this.m_chkUseESpeak, "m_chkUseESpeak");
-            this.m_chkUseESpeak.BackgroundImage = null;
             this.m_chkUseESpeak.Name = "m_chkUseESpeak";
             this.m_chkUseESpeak.UseVisualStyleBackColor = true;
             this.m_chkUseESpeak.CheckedChanged += new System.EventHandler(this.OnUseESpeak_CheckedChanged);
             // 
             // m_tbxESpeakPath
             // 
-            this.m_tbxESpeakPath.AccessibleDescription = null;
-            this.m_tbxESpeakPath.AccessibleName = null;
             resources.ApplyResources(this.m_tbxESpeakPath, "m_tbxESpeakPath");
-            this.m_tbxESpeakPath.BackgroundImage = null;
             this.m_tbxESpeakPath.Name = "m_tbxESpeakPath";
             // 
             // m_btnSearchESpeak
             // 
-            this.m_btnSearchESpeak.AccessibleDescription = null;
-            this.m_btnSearchESpeak.AccessibleName = null;
             resources.ApplyResources(this.m_btnSearchESpeak, "m_btnSearchESpeak");
-            this.m_btnSearchESpeak.BackgroundImage = null;
-            this.m_btnSearchESpeak.Font = null;
             this.m_btnSearchESpeak.Name = "m_btnSearchESpeak";
             this.m_btnSearchESpeak.UseVisualStyleBackColor = true;
             this.m_btnSearchESpeak.Click += new System.EventHandler(this.OnSearchESpeak_Click);
             // 
             // m_lblDontLearnAquire
             // 
-            this.m_lblDontLearnAquire.AccessibleDescription = null;
-            this.m_lblDontLearnAquire.AccessibleName = null;
             resources.ApplyResources(this.m_lblDontLearnAquire, "m_lblDontLearnAquire");
             this.m_lblDontLearnAquire.Name = "m_lblDontLearnAquire";
             this.m_lblDontLearnAquire.TabStop = true;
@@ -269,10 +216,7 @@ namespace VokabelTrainer
             // 
             // m_btnOsLanguageAndKeyboardSettings
             // 
-            this.m_btnOsLanguageAndKeyboardSettings.AccessibleDescription = null;
-            this.m_btnOsLanguageAndKeyboardSettings.AccessibleName = null;
             resources.ApplyResources(this.m_btnOsLanguageAndKeyboardSettings, "m_btnOsLanguageAndKeyboardSettings");
-            this.m_btnOsLanguageAndKeyboardSettings.BackgroundImage = null;
             this.m_btnOsLanguageAndKeyboardSettings.FlatAppearance.BorderSize = 0;
             this.m_btnOsLanguageAndKeyboardSettings.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.m_btnOsLanguageAndKeyboardSettings.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
@@ -283,10 +227,7 @@ namespace VokabelTrainer
             // 
             // m_btnStats
             // 
-            this.m_btnStats.AccessibleDescription = null;
-            this.m_btnStats.AccessibleName = null;
             resources.ApplyResources(this.m_btnStats, "m_btnStats");
-            this.m_btnStats.BackgroundImage = null;
             this.m_btnStats.FlatAppearance.BorderSize = 0;
             this.m_btnStats.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.m_btnStats.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
@@ -297,11 +238,8 @@ namespace VokabelTrainer
             // 
             // VokabelTrainer
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
             this.Controls.Add(this.m_btnStats);
             this.Controls.Add(this.m_btnOsLanguageAndKeyboardSettings);
             this.Controls.Add(this.m_lblDontLearnAquire);
@@ -328,8 +266,8 @@ namespace VokabelTrainer
             this.Name = "VokabelTrainer";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Load += new System.EventHandler(this.VokabelTrainer_Load);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
             this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.OnHelpRequested);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.VokabelTrainer_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
