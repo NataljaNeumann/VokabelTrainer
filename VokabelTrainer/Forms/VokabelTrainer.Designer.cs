@@ -212,7 +212,7 @@ namespace VokabelTrainer
             resources.ApplyResources(this.m_lblDontLearnAquire, "m_lblDontLearnAquire");
             this.m_lblDontLearnAquire.Name = "m_lblDontLearnAquire";
             this.m_lblDontLearnAquire.TabStop = true;
-            this.m_lblDontLearnAquire.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnDontLearnAquire_LinkClicked);
+            this.m_lblDontLearnAquire.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnDontLearnAcquire_LinkClicked);
             // 
             // m_btnOsLanguageAndKeyboardSettings
             // 

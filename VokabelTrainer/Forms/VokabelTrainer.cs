@@ -932,7 +932,7 @@ namespace VokabelTrainer
                 m_btnMostIntensiveSecondToFirst.Enabled = m_nTotalNumberOfErrorsSecondLanguage > 0;
                 m_btnMostIntensiveFirstToSecond.Enabled = m_nTotalNumberOfErrorsFirstLanguage > 0;
 
-                List<string> oEasyLearn = GetEasyLanguageAquireList();
+                List<string> oEasyLearn = GetEasyLanguageAcquireList();
                 if (oEasyLearn != null && oEasyLearn.Count > 0)
                 {
                     m_lblDontLearnAquire.Enabled = true;
@@ -3689,10 +3689,10 @@ namespace VokabelTrainer
         /// This is executed when the form is loaded. It tests, if some links can be provided for user
         /// </summary>
         //===================================================================================================
-        private List<string> GetEasyLanguageAquireList()
+        private List<string> GetEasyLanguageAcquireList()
         {
-            List<string> oResult = GetEasyLanguageAquireList(m_strFirstLanguage);
-            oResult.AddRange(GetEasyLanguageAquireList(m_strSecondLanguage));
+            List<string> oResult = GetEasyLanguageAcquireList(m_strFirstLanguage);
+            oResult.AddRange(GetEasyLanguageAcquireList(m_strSecondLanguage));
 
             List<string> oFiltered = new List<string>();
             foreach (string s in oResult)
@@ -3728,7 +3728,7 @@ namespace VokabelTrainer
         /// </summary>
         /// <param name="strLanguage">Language to check</param>
         //===================================================================================================
-        private List<string> GetEasyLanguageAquireList(
+        private List<string> GetEasyLanguageAcquireList(
             string strLanguage
             )
         {
@@ -3748,7 +3748,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Ger", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add german resources for language aquisition without explicit learning
+                    // then add german resources for language acquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/@Der_Postillon");
                     oResult.Add(@"https://www.youtube.com/results?search_query=ganzer+film+deutsch");
                     oResult.Add(@"https://www.kraehseite.de/");
@@ -3808,7 +3808,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Фр", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add french resources for language aquisition without explicit learning
+                    // then add french resources for language acquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/results?search_query=Film+complet+en+fran%C3%A7ais");
                     oResult.Add(@"https://www.youtube.com/@CinemaCinemas");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Satire+fran%C3%A7aise");
@@ -3899,7 +3899,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Sp", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add spanish resources for language aquisition without explicit learning
+                    // then add spanish resources for language acquisition without explicit learning
                     oResult.Add(@"https://emisoras.com.mx/");
                     oResult.Add(@"https://www.amazon.com/-/es/mejores-3000-chistes-espa%C3%B1ol-Spanish/dp/B0B6XRZF2R");
                     oResult.Add(@"https://www.youtube.com/results?search_query=pel%C3%ADcula+en+espa%C3%B1ol");
@@ -3946,17 +3946,18 @@ namespace VokabelTrainer
                                     // visionary celestial
                                     oResult.Add(@"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
                                     oResult.Add(@"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
-                                    oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
 
                                     if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                                     {
                                         // these use a word that doesn't work in hebrew
+                                        oResult.Add(@"https://www.youtube.com/@HimnosAngelicalesdelCielo/videos");
                                         oResult.Add(@"https://www.youtube.com/@SALMOSVIVIENTESYT/videos");
                                         oResult.Add(@"https://www.youtube.com/@SALMOSDEGRATITUDOFICIAL/videos");
                                         oResult.Add(@"https://www.youtube.com/@CumbiadeBendicion/videos");
                                         oResult.Add(@"https://www.youtube.com/@purogozo/videos");
                                         oResult.Add(@"https://www.youtube.com/@CumbiasdeVictoria/videos");
                                         oResult.Add(@"https://www.youtube.com/results?search_query=Hermosa+Canci%C3%B3n+Cristiana+COMO+LA+NI%C3%91A+DE+TUS+OJOS+Nos+Recuerda+Cu%C3%A1n+Amados+Somos+por+Dios");
+                                        oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
                                     }
 
                                     // Cumbia
@@ -3975,6 +3976,7 @@ namespace VokabelTrainer
                                     //oResult.Add(@"https://www.youtube.com/@LuzWorship-r7i/videos");
                                     oResult.Add(@"https://www.youtube.com/@VibrasqueFlorecen/videos");
                                     oResult.Add(@"https://www.youtube.com/@EnergiaDivinamusic/videos");
+                                    oResult.Add(@"https://www.youtube.com/@auracanaloficial/videos");
 
                                     // Jazz
                                     oResult.Add(@"https://www.youtube.com/@flowsanto");
@@ -3996,7 +3998,6 @@ namespace VokabelTrainer
                                     //https://www.youtube.com/@MomentosconDioss2/videos
 
                                     // reggae
-                                    oResult.Add(@"https://www.youtube.com/@Acorde%C3%B3nCelestial/videos");
                                     oResult.Add(@"https://www.youtube.com/@LionofZionRecords/videos");
                                     oResult.Add(@"https://www.youtube.com/@ReggaeQueSanaGospel");
 
@@ -4027,7 +4028,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("In", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add english resources for language aquisition without explicit learning
+                    // then add english resources for language acquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/results?search_query=English+movie");
                     oResult.Add(@"https://www.bbc.com");
                     oResult.Add(@"https://www.cnn.com");
@@ -4053,7 +4054,6 @@ namespace VokabelTrainer
                     oResult.Add(@"https://www.youtube.com/@ACEamazing/videos");
                     oResult.Add(@"https://www.youtube.com/@Buddy1970-g4j/videos");
                     oResult.Add(@"https://www.youtube.com/watch?v=5Fz_Pb15mTY");
-                    oResult.Add(@"https://www.youtube.com/results?search_query=Route+66+Roadtrip+Buddy1970");
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -4119,6 +4119,8 @@ namespace VokabelTrainer
                                 oResult.Add(@"https://www.youtube.com/@CountryLoveStories-o1d/videos");
                                 oResult.Add(@"https://www.youtube.com/@ZionEchoCovers/videos");
                                 oResult.Add(@"https://www.youtube.com/@SonidodelAltisimo/videos");
+                                oResult.Add(@"https://www.youtube.com/@TheOutlawStrings/videos");
+
                                 //oResult.Add(@"https://www.youtube.com/@JesusOfSpritulSong/videos");
                                 
                                 //oResult.Add(@"https://www.youtube.com/@IrieRayne-l8d/videos");
@@ -4145,7 +4147,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Пор", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add Portugese resources for language aquisition without explicit learning
+                    // then add Portugese resources for language acquisition without explicit learning
                     oResult.Add(@"https://www.youtube.com/results?search_query=filme+em+portugu%C3%AAs");
                     oResult.Add(@"https://www.bbc.com/portuguese");
                     oResult.Add(@"https://www.dn.pt/");
@@ -4187,7 +4189,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Рус", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in russian for language aquisition without explicit learning (mostly western resources, not from russia)
+                    // then add resources in russian for language acquisition without explicit learning (mostly western resources, not from russia)
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B+%D0%BD%D0%B0+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5");
                     oResult.Add(@"https://www.bbc.com/russian");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D1%81%D1%82%D1%8D%D0%BD%D0%B4%D0%B0%D0%BF");
@@ -4257,7 +4259,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Ит", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in italian for language aquisition without explicit learning 
+                    // then add resources in italian for language acquisition without explicit learning 
                     oResult.Add(@"https://www.radio.de/language/italian");
                     oResult.Add(@"https://www.corriere.it/");
                     oResult.Add(@"https://www.ansa.it/");
@@ -4284,7 +4286,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("한국", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in korean for language aquisition without explicit learning
+                    // then add resources in korean for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/korean");
                     oResult.Add(@"https://www.donga.com/");
                     oResult.Add(@"https://www.joongang.co.kr/");
@@ -4313,7 +4315,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Roo", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add resources in japanese for language aquisition without explicit learning
+                    // then add resources in japanese for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/japanese");
                     oResult.Add(@"https://www3.nhk.or.jp/news/easy/");
                     oResult.Add(@"https://www.asahi.com/");
@@ -4339,7 +4341,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("ㄓㄨˋ", StringComparison.InvariantCultureIgnoreCase)
                     )
                 {
-                    // then add resources in chinese for language aquisition without explicit learning
+                    // then add resources in chinese for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/zhongwen/simp");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E5%AD%97%E5%B9%95%E4%BB%98%E3%81%8D%E3%81%AE%E4%B8%AD%E5%9B%BD%E6%98%A0%E7%94%BB");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%89%E5%AD%97%E5%B9%95");
@@ -4365,7 +4367,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Tu", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in turkish for language aquisition without explicit learning
+                    // then add resources in turkish for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/turkce");
                     oResult.Add(@"https://www.radio.de/language/turkish");
                     oResult.Add(@"https://www.youtube.com/results?search_query=Türkçe+Dublaj+Film");
@@ -4382,7 +4384,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("عر", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in arabic for language aquisition without explicit learning
+                    // then add resources in arabic for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/arabic");
                     oResult.Add(@"https://www.radio.de/language/arabic");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9");
@@ -4405,7 +4407,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("עִ", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in hebrew for language aquisition without explicit learning
+                    // then add resources in hebrew for language acquisition without explicit learning
                     oResult.Add(@"https://hebrewnews.com/");
                     oResult.Add(@"https://www.haaretz.co.il/");
                     oResult.Add(@"https://www.calcalist.co.il");
@@ -4450,7 +4452,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("Ελ", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in greek for language aquisition without explicit learning
+                    // then add resources in greek for language acquisition without explicit learning
                     oResult.Add(@"https://live24.gr/");
                     oResult.Add(@"https://www.cnn.gr/");
                     oResult.Add(@"https://www.news247.gr/");
@@ -4476,7 +4478,7 @@ namespace VokabelTrainer
                     strLanguageFirst2.Equals("भा", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in hindi for language aquisition without explicit learning
+                    // then add resources in hindi for language acquisition without explicit learning
                     oResult.Add(@"https://www.bbc.com/hindi");
                     oResult.Add(@"https://www.radioindia.in/");
                     oResult.Add(@"https://www.youtube.com/results?search_query=%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80+%E0%A4%AB%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE");
@@ -4509,7 +4511,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Пол", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
+                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/@piesniduchowe/videos");
@@ -4528,7 +4530,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Сва", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
+                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/@rbgospel_ca/videos");
@@ -4543,7 +4545,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Yoruba
                 if (strLanguageFirst3.Equals("Yor", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    // then add resources in swahili for language aquisition without explicit learning for non-islamic countries
+                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         oResult.Add(@"https://www.youtube.com/@RroyalHeritage/videos");
@@ -4556,21 +4558,21 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// This is executed when user clicks on easy language aquisition button
+        /// This is executed when user clicks on easy language acquisition button
         /// </summary>
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
         //===================================================================================================
-        private void OnDontLearnAquire_LinkClicked(
+        private void OnDontLearnAcquire_LinkClicked(
             object oSender,
             LinkLabelLinkClickedEventArgs oArgs
             )
         {
-            List<string> oEasyAquireList = GetEasyLanguageAquireList();
-            if (oEasyAquireList != null && oEasyAquireList.Count > 0)
+            List<string> oEasyAcquireList = GetEasyLanguageAcquireList();
+            if (oEasyAcquireList != null && oEasyAcquireList.Count > 0)
             {
                 // decide, which URL to open
-                string strUrl = oEasyAquireList[m_oRnd.Next(oEasyAquireList.Count)];
+                string strUrl = oEasyAcquireList[m_oRnd.Next(oEasyAcquireList.Count)];
                 // actualize the last used links
                 Properties.Settings.Default.LastUsedLink5 = Properties.Settings.Default.LastUsedLink4;
                 Properties.Settings.Default.LastUsedLink4 = Properties.Settings.Default.LastUsedLink3;
