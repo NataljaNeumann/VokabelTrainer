@@ -903,7 +903,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>בְּ</erste-sprache><zweite-sprache>で</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="210">
-    <erste-sprache>בְּ</erste-sprache><zweite-sprache>中に・中で</zweite-sprache>
+    <erste-sprache>בְּ</erste-sprache><zweite-sprache>中に</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="210">
+    <erste-sprache>בְּ</erste-sprache><zweite-sprache>中で</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="211">
     <erste-sprache>בְּ־</erste-sprache><zweite-sprache>で</zweite-sprache>
@@ -3867,28 +3870,28 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>הַשְׁפָּעוֹת</erste-sprache><zweite-sprache>影響</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="743">
+    <erste-sprache>בִּפְנִים</erste-sprache><zweite-sprache>中で</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="744">
     <erste-sprache>וְגַם</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="744">
     <erste-sprache>וְגַם</erste-sprache><zweite-sprache>-も</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="745">
     <erste-sprache>עָלָיו</erste-sprache><zweite-sprache>その上に</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="745">
     <erste-sprache>עָלָיו</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="746">
     <erste-sprache>לָזֶה</erste-sprache><zweite-sprache>これに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="746">
     <erste-sprache>לָזֶה</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
-    <erste-sprache>שֶׁל כֻּלָּם</erste-sprache><zweite-sprache>すべての</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="747">
-    <erste-sprache>עוֹבְרִים</erste-sprache><zweite-sprache>通ります</zweite-sprache>
+    <erste-sprache>שֶׁל כֻּלָּם</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="748">
     <erste-sprache>מִן</erste-sprache><zweite-sprache>から</zweite-sprache>
@@ -3897,448 +3900,448 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>מִן</erste-sprache><zweite-sprache>より</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="749">
-    <erste-sprache>עוֹקְבִים</erste-sprache><zweite-sprache>従います</zweite-sprache>
+    <erste-sprache>עוֹבְרִים</erste-sprache><zweite-sprache>通ります</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="750">
+    <erste-sprache>עוֹקְבִים</erste-sprache><zweite-sprache>従います</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="751">
     <erste-sprache>שׁוֹמְעִים</erste-sprache><zweite-sprache>聞きます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="752">
     <erste-sprache>נְסִבּוֹת</erste-sprache><zweite-sprache>状況</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="752">
     <erste-sprache>מַצָּבִים</erste-sprache><zweite-sprache>状況</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="753">
     <erste-sprache>עוֹשִׂים</erste-sprache><zweite-sprache>作ります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="754">
     <erste-sprache>הֶבְּטִים</erste-sprache><zweite-sprache>側面</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="755">
     <erste-sprache>מַשְׁמָעוּתִי</erste-sprache><zweite-sprache>重要な</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="756">
     <erste-sprache>מְעַט</erste-sprache><zweite-sprache>少数の</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="756">
     <erste-sprache>מְעַט</erste-sprache><zweite-sprache>わずかな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="757">
     <erste-sprache>מִיקוּם</erste-sprache><zweite-sprache>場所</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="757">
     <erste-sprache>מִיקוּם</erste-sprache><zweite-sprache>位置</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="758">
     <erste-sprache>מְקוֹמוֹת</erste-sprache><zweite-sprache>場所</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="759">
     <erste-sprache>מִקְרִים</erste-sprache><zweite-sprache>事例</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="760">
     <erste-sprache>לוֹקְחִים</erste-sprache><zweite-sprache>取る</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="760">
     <erste-sprache>לוֹקְחִים</erste-sprache><zweite-sprache>取ります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="761">
     <erste-sprache>לוֹקֵחַ</erste-sprache><zweite-sprache>取る</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="762">
     <erste-sprache>קִבֵּל</erste-sprache><zweite-sprache>得た</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="763">
     <erste-sprache>חֲבָרוֹת</erste-sprache><zweite-sprache>企業</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="764">
     <erste-sprache>נוֹשְׂאִים</erste-sprache><zweite-sprache>運びます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="765">
     <erste-sprache>הִשַּׂגְתִּי</erste-sprache><zweite-sprache>達成した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="765">
     <erste-sprache>הִשַּׂגְתִּי</erste-sprache><zweite-sprache>手に入れた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="765">
     <erste-sprache>הִשַּׂגְתִּי</erste-sprache><zweite-sprache>得た</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>תֵּאַרְתִּי</erste-sprache><zweite-sprache>描写した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="766">
     <erste-sprache>תֵּאַרְתִּי</erste-sprache><zweite-sprache>描いた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>תֵּאַר</erste-sprache><zweite-sprache>描写した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="767">
     <erste-sprache>תֵּאַר</erste-sprache><zweite-sprache>描いた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="768">
     <erste-sprache>עוֹלִים</erste-sprache><zweite-sprache>かかる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="768">
     <erste-sprache>עוֹלֶה</erste-sprache><zweite-sprache>かかる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="769">
     <erste-sprache>עוֹלֶה</erste-sprache><zweite-sprache>増える</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="770">
     <erste-sprache>גָּדֵל</erste-sprache><zweite-sprache>増える</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="770">
     <erste-sprache>גָּדֵל</erste-sprache><zweite-sprache>成長する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="771">
     <erste-sprache>דִּיּוּנִים</erste-sprache><zweite-sprache>討論</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="772">
     <erste-sprache>מוֹנְעִים</erste-sprache><zweite-sprache>防ぎます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="773">
     <erste-sprache>שִׁעוּרִים</erste-sprache><zweite-sprache>授業</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="774">
     <erste-sprache>לִקְרוֹא</erste-sprache><zweite-sprache>呼ぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="774">
     <erste-sprache>לִקְרוֹא</erste-sprache><zweite-sprache>読む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="775">
     <erste-sprache>קוֹרְאִים</erste-sprache><zweite-sprache>呼ぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="775">
     <erste-sprache>קוֹרְאִים</erste-sprache><zweite-sprache>呼びます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="775">
     <erste-sprache>קוֹרְאִים</erste-sprache><zweite-sprache>読む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="775">
     <erste-sprache>קוֹרְאִים</erste-sprache><zweite-sprache>読みます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="776">
     <erste-sprache>רְכוּשׁ</erste-sprache><zweite-sprache>財産</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="777">
     <erste-sprache>מִלִּים</erste-sprache><zweite-sprache>言葉</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="778">
     <erste-sprache>מַשְׁאִירִים</erste-sprache><zweite-sprache>残します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="779">
     <erste-sprache>מַטָּרָה</erste-sprache><zweite-sprache>目的</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="780">
     <erste-sprache>לֹא לִהְיוֹת יָכוֹל</erste-sprache><zweite-sprache>できない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="780">
     <erste-sprache>לֹא יָכוֹל</erste-sprache><zweite-sprache>できない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="781">
     <erste-sprache>מַעֲשֶׂה</erste-sprache><zweite-sprache>行為</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="781">
     <erste-sprache>מַעֲשִׂים</erste-sprache><zweite-sprache>行為</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="782">
     <erste-sprache>לְהִישָּׁאֵר</erste-sprache><zweite-sprache>残る</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="783">
     <erste-sprache>לְהִשָּׁאֵר</erste-sprache><zweite-sprache>留まる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="784">
     <erste-sprache>מְפַקְפְּקִים</erste-sprache><zweite-sprache>疑います</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="785">
     <erste-sprache>חוֹשְׁדִים</erste-sprache><zweite-sprache>疑います</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="786">
     <erste-sprache>חוֹלְקִים</erste-sprache><zweite-sprache>共有します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="787">
     <erste-sprache>טֵלֵפוֹן</erste-sprache><zweite-sprache>フォン</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="788">
     <erste-sprache>תְּשׁוּבָה</erste-sprache><zweite-sprache>返事</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="789">
     <erste-sprache>לוֹבְשִׁים</erste-sprache><zweite-sprache>着ます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="790">
     <erste-sprache>לְמָשָׁל</erste-sprache><zweite-sprache>たとえば</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="791">
     <erste-sprache>עִנְיָנִים</erste-sprache><zweite-sprache>事柄</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="792">
     <erste-sprache>בְּעָיָה</erste-sprache><zweite-sprache>問題</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="792">
     <erste-sprache>בְּעָיוֹת</erste-sprache><zweite-sprache>問題</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="793">
     <erste-sprache>יוֹשְׁבִים</erste-sprache><zweite-sprache>座ります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="794">
     <erste-sprache>שֶׁלְּךָ</erste-sprache><zweite-sprache>あなたのもの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="794">
     <erste-sprache>שֶׁלְּךָ</erste-sprache><zweite-sprache>君の</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="794">
     <erste-sprache>שֶׁלְּךָ</erste-sprache><zweite-sprache>あなたの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="795">
     <erste-sprache>לִכְלוֹל</erste-sprache><zweite-sprache>含む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="795">
     <erste-sprache>כּוֹלְלִים</erste-sprache><zweite-sprache>含む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="796">
     <erste-sprache>כּוֹלְלִים</erste-sprache><zweite-sprache>含みます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="797">
     <erste-sprache>מַכִּירִים</erste-sprache><zweite-sprache>知っています</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="798">
     <erste-sprache>יוֹדְעִים</erste-sprache><zweite-sprache>知っています</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>לְקַוּוֹת</erste-sprache><zweite-sprache>望む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>מְקַוֶּה</erste-sprache><zweite-sprache>望む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>לִרְצוֹת</erste-sprache><zweite-sprache>望む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>רוֹצִים</erste-sprache><zweite-sprache>望む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="799">
     <erste-sprache>רוֹצֶה</erste-sprache><zweite-sprache>望む</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="800">
     <erste-sprache>רוֹצִים</erste-sprache><zweite-sprache>望みます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="801">
     <erste-sprache>אֲנַחְנוּ צְרִיכִים</erste-sprache><zweite-sprache>すべきだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="801">
     <erste-sprache>אֲנַחְנוּ צְרִיכִים</erste-sprache><zweite-sprache>べきだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="802">
     <erste-sprache>לְהִצְטָרֵךְ</erste-sprache><zweite-sprache>しなければならない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="802">
     <erste-sprache>לְהִצְטָרֵךְ</erste-sprache><zweite-sprache>必要とする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="803">
     <erste-sprache>לְאַחַר מִכֵּן</erste-sprache><zweite-sprache>その後</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="804">
     <erste-sprache>חוֹזְרִים</erste-sprache><zweite-sprache>戻ります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="805">
     <erste-sprache>עוֹזְרִים</erste-sprache><zweite-sprache>助けます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="806">
     <erste-sprache>בִּקַּשְׁתִּי</erste-sprache><zweite-sprache>要請した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="807">
     <erste-sprache>מְסַפְּחִים</erste-sprache><zweite-sprache>併合します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="808">
     <erste-sprache>מְצָרְפִים</erste-sprache><zweite-sprache>添付します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="809">
     <erste-sprache>מְבַצְּעִים</erste-sprache><zweite-sprache>引き受けます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>קָרָאתִי בְּשֵׁם</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>קָרָאתָ בְּשֵׁם</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>קָרָא בְּשֵׁם</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>קָרָאתִי</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="810">
     <erste-sprache>קָרָא</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="811">
     <erste-sprache>קָרָאתִי</erste-sprache><zweite-sprache>叫んだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="812">
     <erste-sprache>קָרָא</erste-sprache><zweite-sprache>叫んだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>סִפַּרְתִּי</erste-sprache><zweite-sprache>話した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="813">
     <erste-sprache>סִפַּרְתִּי</erste-sprache><zweite-sprache>語った</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="814">
     <erste-sprache>סִפֵּר</erste-sprache><zweite-sprache>話した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="814">
     <erste-sprache>סִפֵּר</erste-sprache><zweite-sprache>語った</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="815">
     <erste-sprache>מַרְאִים</erste-sprache><zweite-sprache>見せます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="816">
     <erste-sprache>מוֹבִילִים</erste-sprache><zweite-sprache>導きます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="817">
     <erste-sprache>אַמִּתִּי</erste-sprache><zweite-sprache>本当の</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>לִשְׁמוֹר</erste-sprache><zweite-sprache>保つ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="818">
     <erste-sprache>שׁוֹמֵר</erste-sprache><zweite-sprache>保つ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="819">
     <erste-sprache>הִכַּרְתִּי</erste-sprache><zweite-sprache>認めた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="819">
     <erste-sprache>הִכַּרְתִּי</erste-sprache><zweite-sprache>認識した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>הִכִּיר</erste-sprache><zweite-sprache>認めた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="820">
     <erste-sprache>הִכִּיר</erste-sprache><zweite-sprache>認識した</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="821">
     <erste-sprache>מַנְדָּט</erste-sprache><zweite-sprache>権限</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="822">
     <erste-sprache>מֻמְחִים</erste-sprache><zweite-sprache>専門家</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="823">
     <erste-sprache>מַפְחִיתִים</erste-sprache><zweite-sprache>減らします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="824">
     <erste-sprache>גְּדֵלִים</erste-sprache><zweite-sprache>成長する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="824">
     <erste-sprache>גְּדֵלִים</erste-sprache><zweite-sprache>成長します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="825">
     <erste-sprache>מַדְגִּישִׁים</erste-sprache><zweite-sprache>強調します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="826">
     <erste-sprache>בּוֹדְקִים</erste-sprache><zweite-sprache>テストします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="827">
     <erste-sprache>לְסַפֵּק</erste-sprache><zweite-sprache>提供する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="827">
     <erste-sprache>מְסַפֵּק</erste-sprache><zweite-sprache>提供する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="828">
     <erste-sprache>מַמְשִׁיכִים</erste-sprache><zweite-sprache>続けます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="829">
     <erste-sprache>מַמְשִׁיךְ</erste-sprache><zweite-sprache>継続中の</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="830">
     <erste-sprache>מְקַשְּׁרִים</erste-sprache><zweite-sprache>関連づけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="831">
     <erste-sprache>מַרְשִׁים</erste-sprache><zweite-sprache>許可します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="832">
     <erste-sprache>מַצִּיגִים</erste-sprache><zweite-sprache>紹介します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="833">
     <erste-sprache>לְאַחֵל</erste-sprache><zweite-sprache>願う</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="833">
     <erste-sprache>מְאַחֵל</erste-sprache><zweite-sprache>願う</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>לִשְׁכַּב</erste-sprache><zweite-sprache>横になる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="834">
     <erste-sprache>שׁוֹכֵב</erste-sprache><zweite-sprache>横になる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="834">
+  <vokabel-paar schritt="835">
     <erste-sprache>מַרְכִּיבִים</erste-sprache><zweite-sprache>形成します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="836">
     <erste-sprache>בְּעַצְמְךָ</erste-sprache><zweite-sprache>自分で</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="837">
     <erste-sprache>מַסְבִּירִים</erste-sprache><zweite-sprache>説明します</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="838">
     <erste-sprache>נִשְׁמָעִים</erste-sprache><zweite-sprache>聞こえます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="839">
     <erste-sprache>לִטְעוֹן</erste-sprache><zweite-sprache>主張する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="839">
     <erste-sprache>טוֹעֵן</erste-sprache><zweite-sprache>主張する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="840">
     <erste-sprache>הַהִיא</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="840">
     <erste-sprache>הַהוּא</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="841">
     <erste-sprache>זֹאת</erste-sprache><zweite-sprache>この</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="842">
     <erste-sprache>אַתֶּן הֱיִיתֶן</erste-sprache><zweite-sprache>あなたたちはそうであったことがあります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="843">
     <erste-sprache>אֲנִי אֶעֱשֶׂה</erste-sprache><zweite-sprache>私は作るでしょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="843">
     <erste-sprache>אֲנִי אֶעֱשֶׂה</erste-sprache><zweite-sprache>私はします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="843">
+  <vokabel-paar schritt="844">
     <erste-sprache>פְּנִימָה</erste-sprache><zweite-sprache>中へ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="844">
+  <vokabel-paar schritt="845">
     <erste-sprache>אֶל</erste-sprache><zweite-sprache>に</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="845">
+  <vokabel-paar schritt="846">
     <erste-sprache>אוּלָם</erste-sprache><zweite-sprache>しかし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="846">
+  <vokabel-paar schritt="847">
     <erste-sprache>עַצְמִי</erste-sprache><zweite-sprache>自己</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="847">
+  <vokabel-paar schritt="848">
     <erste-sprache>אוֹתָהּ</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="847">
+  <vokabel-paar schritt="848">
     <erste-sprache>אוֹתָהּ</erste-sprache><zweite-sprache>彼女を</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>אוֹתוֹ דָּבָר</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>אוֹתָן</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>זְהָה</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
+  <vokabel-paar schritt="849">
     <erste-sprache>זְהוֹת</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="848">
-    <erste-sprache>זֶהֶה</erste-sprache><zweite-sprache>同じ</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="849">
-    <erste-sprache>בִּפְנִים</erste-sprache><zweite-sprache>中で</zweite-sprache>
+    <erste-sprache>זֶהֶה</erste-sprache><zweite-sprache>同じ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="850">
     <erste-sprache>נִהְיֶה</erste-sprache><zweite-sprache>なる</zweite-sprache>
@@ -6573,7 +6576,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>בִּיצוּעִי</erste-sprache><zweite-sprache>執行の</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1333">
-    <erste-sprache>בֵּין־</erste-sprache><zweite-sprache>相互-</zweite-sprache>
+    <erste-sprache>בֵּין־</erste-sprache><zweite-sprache>相互</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1334">
     <erste-sprache>תִּיאוּם</erste-sprache><zweite-sprache>調整</zweite-sprache>

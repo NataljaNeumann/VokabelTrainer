@@ -330,16 +330,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>中で</erste-sprache><zweite-sprache>в</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="63">
-    <erste-sprache>中に・中で</erste-sprache><zweite-sprache>в</zweite-sprache>
+    <erste-sprache>中に</erste-sprache><zweite-sprache>в</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="63">
     <erste-sprache>中へ</erste-sprache><zweite-sprache>в</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="63">
     <erste-sprache>に</erste-sprache><zweite-sprache>в</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="63">
-    <erste-sprache>中に</erste-sprache><zweite-sprache>в</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="64">
     <erste-sprache>川</erste-sprache><zweite-sprache>река</zweite-sprache>
@@ -5922,7 +5919,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>執行の</erste-sprache><zweite-sprache>исполнительный</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1242">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>меж-</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>меж-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1243">
     <erste-sprache>調整</erste-sprache><zweite-sprache>координация</zweite-sprache>

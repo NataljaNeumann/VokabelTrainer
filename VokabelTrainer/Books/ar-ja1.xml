@@ -399,6 +399,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>لَا</erste-sprache><zweite-sprache>しないで</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="81">
+    <erste-sprache>لَا</erste-sprache><zweite-sprache>-ない</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="81">
     <erste-sprache>لَا</erste-sprache><zweite-sprache>ない</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="81">
@@ -501,7 +504,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>أَوَدُّ</erste-sprache><zweite-sprache>わたしはしたい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="108">
-    <erste-sprache>أَوَدُّ</erste-sprache><zweite-sprache>たい</zweite-sprache>
+    <erste-sprache>أَوَدُّ</erste-sprache><zweite-sprache>-たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="109">
     <erste-sprache>رِحْلَةٌ جَوِّيَّةٌ</erste-sprache><zweite-sprache>ふらいと</zweite-sprache>
@@ -912,7 +915,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>فِي</erste-sprache><zweite-sprache>なかで</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="208">
-    <erste-sprache>فِي</erste-sprache><zweite-sprache>なかに・なかで</zweite-sprache>
+    <erste-sprache>فِي</erste-sprache><zweite-sprache>なかに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="209">
     <erste-sprache>كَانَ</erste-sprache><zweite-sprache>だった</zweite-sprache>
@@ -4251,7 +4254,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>إِلَى دَاخِلِ</erste-sprache><zweite-sprache>なかに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="830">
-    <erste-sprache>وَلَا</erste-sprache><zweite-sprache>もない</zweite-sprache>
+    <erste-sprache>وَلَا</erste-sprache><zweite-sprache>-もない</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="831">
     <erste-sprache>وَاحِد</erste-sprache><zweite-sprache>ひとつ</zweite-sprache>
@@ -4350,967 +4353,967 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>اِثْنَان</erste-sprache><zweite-sprache>ふたつ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="848">
-    <erste-sprache>ضِدَّ</erste-sprache><zweite-sprache>たい</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="849">
     <erste-sprache>اِجْتِمَاعٌ</erste-sprache><zweite-sprache>そうかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="849">
+  <vokabel-paar schritt="848">
     <erste-sprache>اِجْتِمَاعٌ</erste-sprache><zweite-sprache>あつまり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="850">
+  <vokabel-paar schritt="849">
     <erste-sprache>يَقُودُ</erste-sprache><zweite-sprache>うんてんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="850">
+  <vokabel-paar schritt="849">
     <erste-sprache>يَقُودُ</erste-sprache><zweite-sprache>みちびく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="851">
+  <vokabel-paar schritt="850">
     <erste-sprache>مِنَ الْجَمِيعِ</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="852">
+  <vokabel-paar schritt="851">
     <erste-sprache>نَخْلُقُ</erste-sprache><zweite-sprache>さくせいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="852">
+  <vokabel-paar schritt="851">
     <erste-sprache>يَخْلُقُ</erste-sprache><zweite-sprache>さくせいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="853">
+  <vokabel-paar schritt="852">
     <erste-sprache>فِي الدَّاخِلِ</erste-sprache><zweite-sprache>なかで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="853">
     <erste-sprache>لَا يَزَال</erste-sprache><zweite-sprache>いぜんとして</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="855">
+  <vokabel-paar schritt="854">
     <erste-sprache>هٰذِهِ</erste-sprache><zweite-sprache>この</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="856">
+  <vokabel-paar schritt="855">
     <erste-sprache>بَعْدَ ذٰلِكَ</erste-sprache><zweite-sprache>あとで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="856">
+  <vokabel-paar schritt="855">
     <erste-sprache>بَعْدَ ذٰلِكَ</erste-sprache><zweite-sprache>そのご</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="857">
+  <vokabel-paar schritt="856">
     <erste-sprache>طَلَبَاتٌ</erste-sprache><zweite-sprache>ようせい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>نَضَعُ</erste-sprache><zweite-sprache>おく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>يَضَعُ</erste-sprache><zweite-sprache>おく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="859">
+  <vokabel-paar schritt="858">
     <erste-sprache>ذَهَبْتُ</erste-sprache><zweite-sprache>わたしはいきました</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="860">
+  <vokabel-paar schritt="859">
     <erste-sprache>ذَهَبَ</erste-sprache><zweite-sprache>いってしまった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="860">
     <erste-sprache>جَدْوَل</erste-sprache><zweite-sprache>ひょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="862">
+  <vokabel-paar schritt="861">
     <erste-sprache>الوِلَايَاتُ المُتَّحِدَةُ الأَمْرِيكِيَّة</erste-sprache><zweite-sprache>あめりか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="862">
+  <vokabel-paar schritt="861">
     <erste-sprache>الوِلَايَاتُ المُتَّحِدَةُ الأَمْرِيكِيَّة</erste-sprache><zweite-sprache>べいこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="863">
+  <vokabel-paar schritt="862">
     <erste-sprache>إِرَادَة</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="864">
+  <vokabel-paar schritt="863">
     <erste-sprache>نَسْتَخْدِمُ</erste-sprache><zweite-sprache>つかう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="864">
+  <vokabel-paar schritt="863">
     <erste-sprache>يَسْتَخْدِمُ</erste-sprache><zweite-sprache>つかう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="865">
+  <vokabel-paar schritt="864">
     <erste-sprache>بَعْضٌ</erste-sprache><zweite-sprache>ある</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="866">
+  <vokabel-paar schritt="865">
     <erste-sprache>زِيَادَةٌ</erste-sprache><zweite-sprache>ぞうか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="866">
+  <vokabel-paar schritt="865">
     <erste-sprache>زِيَادَات</erste-sprache><zweite-sprache>ぞうか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="866">
     <erste-sprache>طَلَبَ</erste-sprache><zweite-sprache>ようきゅうした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="866">
     <erste-sprache>طَلَبَ</erste-sprache><zweite-sprache>ようせいした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="868">
+  <vokabel-paar schritt="867">
     <erste-sprache>مَوَاضِيع</erste-sprache><zweite-sprache>とぴっく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="869">
+  <vokabel-paar schritt="868">
     <erste-sprache>مُنَاسِب</erste-sprache><zweite-sprache>てきせつな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="870">
+  <vokabel-paar schritt="869">
     <erste-sprache>كَلِمَات</erste-sprache><zweite-sprache>ことば</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="871">
+  <vokabel-paar schritt="870">
     <erste-sprache>بَحْثٌ</erste-sprache><zweite-sprache>けんさく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="872">
+  <vokabel-paar schritt="871">
     <erste-sprache>وَظَائِفُ</erste-sprache><zweite-sprache>しごと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="872">
+  <vokabel-paar schritt="871">
     <erste-sprache>عَمَل</erste-sprache><zweite-sprache>しごと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>عَمَل</erste-sprache><zweite-sprache>うごく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="873">
     <erste-sprache>بَحْث</erste-sprache><zweite-sprache>けんさくする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="873">
     <erste-sprache>بَحْث</erste-sprache><zweite-sprache>さがす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="874">
     <erste-sprache>أَنْ يَبْحَثَ عَنْ</erste-sprache><zweite-sprache>さがす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="874">
     <erste-sprache>نَبْحَثُ عَنْ</erste-sprache><zweite-sprache>さがす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="874">
     <erste-sprache>يَبْحَثُ عَنْ</erste-sprache><zweite-sprache>さがす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="875">
     <erste-sprache>العَمَل</erste-sprache><zweite-sprache>こうどうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>تَأْثِيرٌ</erste-sprache><zweite-sprache>えいきょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="877">
     <erste-sprache>عُرُوض</erste-sprache><zweite-sprache>しょー</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="877">
     <erste-sprache>عُرُوض</erste-sprache><zweite-sprache>こうえん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="878">
     <erste-sprache>بَعْض</erste-sprache><zweite-sprache>いくつかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="878">
     <erste-sprache>بَعْض</erste-sprache><zweite-sprache>いくつか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="880">
+  <vokabel-paar schritt="879">
     <erste-sprache>نَعْرِفُ</erste-sprache><zweite-sprache>わたしたちはしっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="881">
+  <vokabel-paar schritt="880">
     <erste-sprache>مَوْقِعٌ</erste-sprache><zweite-sprache>ばしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="881">
+  <vokabel-paar schritt="880">
     <erste-sprache>مَوْقِعٌ</erste-sprache><zweite-sprache>いち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="881">
     <erste-sprache>أَمَاكِنُ</erste-sprache><zweite-sprache>ばしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="883">
+  <vokabel-paar schritt="882">
     <erste-sprache>بِشَأْنِ</erste-sprache><zweite-sprache>-にかんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="884">
+  <vokabel-paar schritt="883">
     <erste-sprache>فَوْقَهُ</erste-sprache><zweite-sprache>そのうえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>وَكَمَان</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>الَّذِي</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>إِلَى ذٰلِكَ</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
-    <erste-sprache>الَّذِي</erste-sprache><zweite-sprache>するひと</zweite-sprache>
+  <vokabel-paar schritt="885">
+    <erste-sprache>الَّذِي</erste-sprache><zweite-sprache>-するひと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="887">
+  <vokabel-paar schritt="886">
     <erste-sprache>لَجْنَةٌ</erste-sprache><zweite-sprache>いいんかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="888">
+  <vokabel-paar schritt="887">
     <erste-sprache>سُلْطَةٌ</erste-sprache><zweite-sprache>けんりょく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="889">
+  <vokabel-paar schritt="888">
     <erste-sprache>حُبّ</erste-sprache><zweite-sprache>あいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="890">
+  <vokabel-paar schritt="889">
     <erste-sprache>نُحِبُّ</erste-sprache><zweite-sprache>あいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="890">
     <erste-sprache>يُحِبُّ</erste-sprache><zweite-sprache>あいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="892">
+  <vokabel-paar schritt="891">
     <erste-sprache>إِجَابَات</erste-sprache><zweite-sprache>こたえ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="892">
     <erste-sprache>بِالكَاد</erste-sprache><zweite-sprache>ほとんど</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="894">
+  <vokabel-paar schritt="893">
     <erste-sprache>اِخْتِبَار</erste-sprache><zweite-sprache>てすと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="894">
     <erste-sprache>خَاصّ</erste-sprache><zweite-sprache>してきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="894">
     <erste-sprache>خَاصّ</erste-sprache><zweite-sprache>とくべつな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="895">
     <erste-sprache>وُجُود</erste-sprache><zweite-sprache>そんざいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="895">
     <erste-sprache>نَكُونُ مَوْجُودِينَ</erste-sprache><zweite-sprache>そんざいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="896">
     <erste-sprache>ذَكَرْتُ</erste-sprache><zweite-sprache>のべた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="897">
     <erste-sprache>ذَكَرْتَ</erste-sprache><zweite-sprache>のべた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>ذَكَرَ</erste-sprache><zweite-sprache>のべた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="899">
     <erste-sprache>رُبَّمَا</erste-sprache><zweite-sprache>たぶん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="900">
     <erste-sprache>مَبِيعَاتٌ</erste-sprache><zweite-sprache>はんばいすう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="900">
     <erste-sprache>مَبِيعَاتٌ</erste-sprache><zweite-sprache>うりあげ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="901">
     <erste-sprache>حَضْرَتُكُمْ ذَهَبْتُمْ</erste-sprache><zweite-sprache>あなたがたはいきました</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="902">
     <erste-sprache>وَاحِدَة</erste-sprache><zweite-sprache>ひとつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>أَنْتُنَّ كُنْتُنَّ</erste-sprache><zweite-sprache>あなたたちはそうであったことがあります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="904">
     <erste-sprache>مِنَ الـ</erste-sprache><zweite-sprache>から</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="905">
     <erste-sprache>وَمَعَ ذٰلِكَ</erste-sprache><zweite-sprache>しかし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="906">
     <erste-sprache>أَنَا نَفْسِي</erste-sprache><zweite-sprache>じぶんじしん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>نَفْسُ الشَّيْءِ</erste-sprache><zweite-sprache>おなじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>نَفْسُهُنَّ</erste-sprache><zweite-sprache>おなじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>مُمَاثِلٌ</erste-sprache><zweite-sprache>おなじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="908">
     <erste-sprache>لَاحِقًا</erste-sprache><zweite-sprache>あとで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>طَبِيبٌ</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>حَجَر</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="910">
     <erste-sprache>آثَارٌ</erste-sprache><zweite-sprache>えいきょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="911">
     <erste-sprache>عِدَّة</erste-sprache><zweite-sprache>いくつか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="912">
     <erste-sprache>اِخْتِبَارَات</erste-sprache><zweite-sprache>てすと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>خَاصٌّ</erste-sprache><zweite-sprache>してきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="914">
     <erste-sprache>لَهُمْ</erste-sprache><zweite-sprache>かれらに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="915">
     <erste-sprache>أَوْ</erste-sprache><zweite-sprache>または</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="915">
     <erste-sprache>أَوْ</erste-sprache><zweite-sprache>あるいは</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="916">
     <erste-sprache>مِنْ تَأْلِيفِ</erste-sprache><zweite-sprache>-による</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="917">
     <erste-sprache>كُنْ</erste-sprache><zweite-sprache>-でいろ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="918">
     <erste-sprache>كُونُوا</erste-sprache><zweite-sprache>-でいてください</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="919">
     <erste-sprache>أَنْ يَكُونَ</erste-sprache><zweite-sprache>である</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="919">
     <erste-sprache>أَنْ يَكُونَ</erste-sprache><zweite-sprache>いる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>ـكَ</erste-sprache><zweite-sprache>きみの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>ـكَ</erste-sprache><zweite-sprache>あなたの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>ـكُمْ</erste-sprache><zweite-sprache>きみたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>ـكُمْ</erste-sprache><zweite-sprache>あなたの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>ـكُمْ</erste-sprache><zweite-sprache>あなたがたの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>ـكُمْ</erste-sprache><zweite-sprache>あなたたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="922">
     <erste-sprache>أَيْسَر</erste-sprache><zweite-sprache>ひだりの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="923">
     <erste-sprache>لِذَٰلِكَ</erste-sprache><zweite-sprache>だから</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="923">
     <erste-sprache>إِذًا</erste-sprache><zweite-sprache>だから</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>ذٰلِكَ</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>تِلْكَ</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>تِلْكَ الْوَاحِدَة</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>ذٰلِكَ الْوَاحِد</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>ذٰلِكَ الشَّيْء</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>عِنْدَ</erste-sprache><zweite-sprache>-のそばで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>عِنْدَ</erste-sprache><zweite-sprache>-のいえで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>عِنْدَ</erste-sprache><zweite-sprache>-んちで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="926">
     <erste-sprache>بَعْدَ</erste-sprache><zweite-sprache>-のあとに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="927">
     <erste-sprache>مُوَحَّد</erste-sprache><zweite-sprache>とういつされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="927">
     <erste-sprache>مُوَحَّدُونَ</erste-sprache><zweite-sprache>とういつされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="928">
     <erste-sprache>وَحَّدْتُ</erste-sprache><zweite-sprache>とういつした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="928">
     <erste-sprache>وَحَّدْتَ</erste-sprache><zweite-sprache>とういつした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="928">
     <erste-sprache>وَحَّدَ</erste-sprache><zweite-sprache>とういつした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>فَقَطْ</erste-sprache><zweite-sprache>だけ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>فَقَطْ</erste-sprache><zweite-sprache>ただ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>فَقَطْ</erste-sprache><zweite-sprache>たった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>فَقَطْ</erste-sprache><zweite-sprache>のみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="930">
     <erste-sprache>مَتَى</erste-sprache><zweite-sprache>いつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="931">
     <erste-sprache>عِنْدَمَا</erste-sprache><zweite-sprache>とき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="932">
     <erste-sprache>بَعُوضَةٌ</erste-sprache><zweite-sprache>か</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="932">
     <erste-sprache>إِمَّا</erste-sprache><zweite-sprache>か</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>أَفْضَلُ</erste-sprache><zweite-sprache>よりよい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>أَفْضَلُ</erste-sprache><zweite-sprache>まし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="934">
     <erste-sprache>عِنْدَ ٱلْـ</erste-sprache><zweite-sprache>-で</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="936">
+  <vokabel-paar schritt="935">
     <erste-sprache>المَرْء</erste-sprache><zweite-sprache>ひとは</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="937">
+  <vokabel-paar schritt="936">
     <erste-sprache>لِهٰذَا</erste-sprache><zweite-sprache>これに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="938">
+  <vokabel-paar schritt="937">
     <erste-sprache>يُمْكِنُ أَنْ يَكُونَ</erste-sprache><zweite-sprache>ありうる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="938">
     <erste-sprache>اِسْتِمْتَاع بِ</erste-sprache><zweite-sprache>たのしむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="938">
     <erste-sprache>نَسْتَمْتِعُ بِ</erste-sprache><zweite-sprache>たのしむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="938">
     <erste-sprache>يَسْتَمْتِعُ بِ</erste-sprache><zweite-sprache>たのしむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="939">
     <erste-sprache>كَـ</erste-sprache><zweite-sprache>として</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>لِوَاحِدَة</erste-sprache><zweite-sprache>ひとつに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>لِوَاحِد</erste-sprache><zweite-sprache>ひとつに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="942">
+  <vokabel-paar schritt="941">
     <erste-sprache>إِلَى الـ</erste-sprache><zweite-sprache>その-へ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="943">
+  <vokabel-paar schritt="942">
     <erste-sprache>تَمَّ</erste-sprache><zweite-sprache>されている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="943">
+  <vokabel-paar schritt="942">
     <erste-sprache>تَمَّ</erste-sprache><zweite-sprache>された</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="944">
+  <vokabel-paar schritt="943">
     <erste-sprache>نَعَم</erste-sprache><zweite-sprache>はい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="944">
+  <vokabel-paar schritt="943">
     <erste-sprache>نَعَم</erste-sprache><zweite-sprache>うん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="945">
+  <vokabel-paar schritt="944">
     <erste-sprache>حَظٌّ</erste-sprache><zweite-sprache>うん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="946">
+  <vokabel-paar schritt="945">
     <erste-sprache>أَكْثَرُ</erste-sprache><zweite-sprache>もっと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="946">
     <erste-sprache>أَكْثَرُ مِنْ</erste-sprache><zweite-sprache>いじょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>قَبْلَ</erste-sprache><zweite-sprache>-のまえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="949">
+  <vokabel-paar schritt="948">
     <erste-sprache>أَمَامَ</erste-sprache><zweite-sprache>まえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="950">
+  <vokabel-paar schritt="949">
     <erste-sprache>سَوْفَ تَكُونُونَ</erste-sprache><zweite-sprache>するでしょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="951">
+  <vokabel-paar schritt="950">
     <erste-sprache>دَوْلِيّ</erste-sprache><zweite-sprache>こくさいてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>يُمْكِنُ أَنْ يُفْعَلَ</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>قَادِرٌ عَلَى</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>يَسْتَطِيعُ</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>أَنْ يَسْتَطِيعَ</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>نَسْتَطِيعُ</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="953">
+  <vokabel-paar schritt="952">
     <erste-sprache>أَزْمِنَة</erste-sprache><zweite-sprache>じだい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="953">
+  <vokabel-paar schritt="952">
     <erste-sprache>عَصْرٌ</erste-sprache><zweite-sprache>じだい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>إِلَى هُنَا</erste-sprache><zweite-sprache>ここへ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="955">
+  <vokabel-paar schritt="954">
     <erste-sprache>آخَرُونَ</erste-sprache><zweite-sprache>ほかのひとたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="955">
+  <vokabel-paar schritt="954">
     <erste-sprache>الآخَرُونَ</erste-sprache><zweite-sprache>ほかのひとたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="956">
+  <vokabel-paar schritt="955">
     <erste-sprache>آخَر</erste-sprache><zweite-sprache>べつの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="956">
+  <vokabel-paar schritt="955">
     <erste-sprache>آخَر</erste-sprache><zweite-sprache>ほかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="956">
     <erste-sprache>يَنْبَغِي أَنْ</erste-sprache><zweite-sprache>すべきだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="956">
     <erste-sprache>يَنْبَغِي أَنْ</erste-sprache><zweite-sprache>べきだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="956">
     <erste-sprache>يَنْبَغِي أَنْ</erste-sprache><zweite-sprache>べきです</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="958">
+  <vokabel-paar schritt="957">
     <erste-sprache>ـهُمْ</erste-sprache><zweite-sprache>かれらの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="959">
+  <vokabel-paar schritt="958">
     <erste-sprache>نَصِيحَة</erste-sprache><zweite-sprache>じょげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="959">
+  <vokabel-paar schritt="958">
     <erste-sprache>اِسْتِشَارَة</erste-sprache><zweite-sprache>じょげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="960">
+  <vokabel-paar schritt="959">
     <erste-sprache>الآنَ</erste-sprache><zweite-sprache>いま</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="960">
     <erste-sprache>تَنْمِيَةٌ</erste-sprache><zweite-sprache>はってん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="962">
+  <vokabel-paar schritt="961">
     <erste-sprache>هٰؤُلَاءِ</erste-sprache><zweite-sprache>これら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="962">
     <erste-sprache>حُقُوقٌ</erste-sprache><zweite-sprache>けんり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
+  <vokabel-paar schritt="963">
     <erste-sprache>بِدُونِ أَنْ</erste-sprache><zweite-sprache>なく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="964">
     <erste-sprache>غَرِيب</erste-sprache><zweite-sprache>へんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="965">
     <erste-sprache>تَقْرِيرٌ</erste-sprache><zweite-sprache>ほうこくしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="965">
     <erste-sprache>تَقَارِيرُ</erste-sprache><zweite-sprache>ほうこくしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="966">
     <erste-sprache>كُلُّهُمْ</erste-sprache><zweite-sprache>すべて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="966">
     <erste-sprache>كُلُّهَا</erste-sprache><zweite-sprache>すべて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="966">
     <erste-sprache>كُلُّ شَيْءٍ</erste-sprache><zweite-sprache>すべて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>كُلُّهُنَّ</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>الجَمِيعُ</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>يَا شَبَابُ</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="968">
     <erste-sprache>اِلْتِزَامٌ</erste-sprache><zweite-sprache>こみっとめんと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="968">
     <erste-sprache>اِلْتِزَامٌ</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="969">
     <erste-sprache>اِلْتِزَامَاتٌ</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="969">
     <erste-sprache>وَاجِبٌ</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="970">
     <erste-sprache>قَرَارٌ</erste-sprache><zweite-sprache>けつぎ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="970">
     <erste-sprache>قَرَارَاتٌ</erste-sprache><zweite-sprache>けつぎ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="972">
+  <vokabel-paar schritt="971">
     <erste-sprache>تَسْتَطِيعُونَ</erste-sprache><zweite-sprache>できます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>بِمَا فِي ذٰلِكَ</erste-sprache><zweite-sprache>ふくめて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="974">
+  <vokabel-paar schritt="973">
     <erste-sprache>تَحْت</erste-sprache><zweite-sprache>したに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="974">
+  <vokabel-paar schritt="973">
     <erste-sprache>تَحْتَ</erste-sprache><zweite-sprache>したに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="974">
     <erste-sprache>أَثَر</erste-sprache><zweite-sprache>さくひん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="976">
+  <vokabel-paar schritt="975">
     <erste-sprache>مِن</erste-sprache><zweite-sprache>より</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="976">
     <erste-sprache>عَامٌّ</erste-sprache><zweite-sprache>いっぱんてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="978">
+  <vokabel-paar schritt="977">
     <erste-sprache>جِنِرَالٌ</erste-sprache><zweite-sprache>しょうぐん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="978">
     <erste-sprache>دَعْم</erste-sprache><zweite-sprache>しえん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="978">
     <erste-sprache>دَعْم</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>مُسَاعَدَةٌ</erste-sprache><zweite-sprache>しえん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>مُسَاعَدَةٌ</erste-sprache><zweite-sprache>たすけ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="981">
+  <vokabel-paar schritt="980">
     <erste-sprache>نَدْعَمُ</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="981">
+  <vokabel-paar schritt="980">
     <erste-sprache>يَدْعَمُ</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="982">
+  <vokabel-paar schritt="981">
     <erste-sprache>تَدْعَمُونَ</erste-sprache><zweite-sprache>しじします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="983">
+  <vokabel-paar schritt="982">
     <erste-sprache>هُنَّ</erste-sprache><zweite-sprache>かのじょたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="984">
+  <vokabel-paar schritt="983">
     <erste-sprache>كَانَ لَدَيْهِ</erste-sprache><zweite-sprache>もっていた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="984">
     <erste-sprache>يُعْطِي</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="984">
     <erste-sprache>إِعْطَاء</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="984">
     <erste-sprache>نُعْطِي</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="985">
     <erste-sprache>نَمُوذَجٌ</erste-sprache><zweite-sprache>もでる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="987">
+  <vokabel-paar schritt="986">
     <erste-sprache>ضِدَّ</erste-sprache><zweite-sprache>-にはんたいして</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="987">
+  <vokabel-paar schritt="986">
     <erste-sprache>ضِدّ</erste-sprache><zweite-sprache>-にはんたいして</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="988">
+  <vokabel-paar schritt="987">
     <erste-sprache>سِكْرِتِير</erste-sprache><zweite-sprache>ひしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="989">
+  <vokabel-paar schritt="988">
     <erste-sprache>تَنْفِيذٌ</erste-sprache><zweite-sprache>じっし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="990">
+  <vokabel-paar schritt="989">
     <erste-sprache>مُسْتَمِرّ</erste-sprache><zweite-sprache>つづけられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="990">
+  <vokabel-paar schritt="989">
     <erste-sprache>مُسْتَمِرّ</erste-sprache><zweite-sprache>しんこうちゅうの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="991">
+  <vokabel-paar schritt="990">
     <erste-sprache>مُسْتَمِرٌّ</erste-sprache><zweite-sprache>けいぞくちゅうの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="991">
+  <vokabel-paar schritt="990">
     <erste-sprache>مُسْتَمِرٌّ</erste-sprache><zweite-sprache>しんこうちゅうの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="992">
+  <vokabel-paar schritt="991">
     <erste-sprache>لَا هٰذَا وَلَا ذَاكَ</erste-sprache><zweite-sprache>どちらでもない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="993">
+  <vokabel-paar schritt="992">
     <erste-sprache>أُولٰئِكَ</erste-sprache><zweite-sprache>あれら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="993">
+  <vokabel-paar schritt="992">
     <erste-sprache>أُولٰئِكَ</erste-sprache><zweite-sprache>あのひとたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="994">
+  <vokabel-paar schritt="993">
     <erste-sprache>لِأُولٰئِكَ</erste-sprache><zweite-sprache>あれらに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="994">
     <erste-sprache>هٰذَا كُلُّ شَيْء</erste-sprache><zweite-sprache>それでおわり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="996">
+  <vokabel-paar schritt="995">
     <erste-sprache>لَيْسَ لَدَيَّ أَيُّ</erste-sprache><zweite-sprache>わたしにはない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="997">
+  <vokabel-paar schritt="996">
     <erste-sprache>لَيْسَ عِنْدِي</erste-sprache><zweite-sprache>なにももっていない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>حُكُومَةٌ</erste-sprache><zweite-sprache>せいふ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>الحُكُومَاتُ</erste-sprache><zweite-sprache>せいふ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>شَجَرَة</erste-sprache><zweite-sprache>き</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>كَامِل</erste-sprache><zweite-sprache>ぜんたいの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>كَامِل</erste-sprache><zweite-sprache>かんぜんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1000">
     <erste-sprache>إِجْمَالِيّ</erste-sprache><zweite-sprache>ぜんたいの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1002">
+  <vokabel-paar schritt="1001">
     <erste-sprache>بَلْ</erste-sprache><zweite-sprache>ではなく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>جَيِّدًا</erste-sprache><zweite-sprache>よく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>جَيِّدًا</erste-sprache><zweite-sprache>うまく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>المُحَافَظَة عَلَى</erste-sprache><zweite-sprache>いじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>نُحَافِظُ عَلَى</erste-sprache><zweite-sprache>いじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>يُحَافِظُ عَلَى</erste-sprache><zweite-sprache>いじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>تُحَافِظُونَ عَلَى</erste-sprache><zweite-sprache>いじします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1005">
     <erste-sprache>أَلْعَابٌ</erste-sprache><zweite-sprache>げーむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1005">
     <erste-sprache>لُعْبَةٌ</erste-sprache><zweite-sprache>げーむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1006">
     <erste-sprache>فَتَيَاتٌ</erste-sprache><zweite-sprache>おんなのこたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>لَكَ</erste-sprache><zweite-sprache>あなたに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>لَكَ</erste-sprache><zweite-sprache>あなたのもの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>عَبْرَ</erste-sprache><zweite-sprache>よこぎって</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>عَبْرَ</erste-sprache><zweite-sprache>をとおして</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>عَبْرَ</erste-sprache><zweite-sprache>をとおって</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>عَبْرَ</erste-sprache><zweite-sprache>けいゆで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>مِنْ خِلَال</erste-sprache><zweite-sprache>をつうじて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1011">
+  <vokabel-paar schritt="1010">
     <erste-sprache>بِبَسَاطَة</erste-sprache><zweite-sprache>たんじゅんに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>تَطْبِيقٌ</erste-sprache><zweite-sprache>あぷり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>تَطْبِيقٌ</erste-sprache><zweite-sprache>あぷりけーしょん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>تَطْبِيقٌ</erste-sprache><zweite-sprache>てきよう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1013">
+  <vokabel-paar schritt="1012">
     <erste-sprache>أَيُّ شَيْءٍ</erste-sprache><zweite-sprache>なんでも</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1014">
+  <vokabel-paar schritt="1013">
     <erste-sprache>شَيْءٌ مَا</erste-sprache><zweite-sprache>なにか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>تَحْسِين</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>نُحَسِّنُ</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>يُحَسِّنُ</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>نُحَسِّنُ</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>يُحَسِّنُ</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>حَسَّنَ</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1015">
     <erste-sprache>بِسَبَبِ</erste-sprache><zweite-sprache>-のために</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1017">
+  <vokabel-paar schritt="1016">
     <erste-sprache>ئەگەر ... ئەوا</erste-sprache><zweite-sprache>なら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1018">
+  <vokabel-paar schritt="1017">
     <erste-sprache>جُمْهُورِيَّةٌ</erste-sprache><zweite-sprache>きょうわこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>بِمَا أَنَّ</erste-sprache><zweite-sprache>なので</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1019">
     <erste-sprache>مُنْذُ</erste-sprache><zweite-sprache>いらい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>السَّيِّدُ</erste-sprache><zweite-sprache>さん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>ثَلَاثَة</erste-sprache><zweite-sprache>さん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1021">
     <erste-sprache>ثَلَاثَة</erste-sprache><zweite-sprache>みっつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
-    <erste-sprache>مِثْلَ</erste-sprache><zweite-sprache>のように</zweite-sprache>
+  <vokabel-paar schritt="1022">
+    <erste-sprache>مِثْلَ</erste-sprache><zweite-sprache>-のように</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1023">
     <erste-sprache>رَغْبَة</erste-sprache><zweite-sprache>ねがい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1024">
     <erste-sprache>بَلَدٌ</erste-sprache><zweite-sprache>くに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1025">
     <erste-sprache>الرِّيفُ</erste-sprache><zweite-sprache>いなか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1026">
     <erste-sprache>مُوسِيقَى الكَانْتْرِي</erste-sprache><zweite-sprache>かんとりーおんがく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1027">
     <erste-sprache>أَمْن</erste-sprache><zweite-sprache>あんぜんほしょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>بَيْنَمَا</erste-sprache><zweite-sprache>あいだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>بَيْنَمَا</erste-sprache><zweite-sprache>いっぽうで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>بَيْنَمَا</erste-sprache><zweite-sprache>ながら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1029">
     <erste-sprache>النَّاسُ</erste-sprache><zweite-sprache>ひとびと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1029">
     <erste-sprache>أَشْخَاصٌ</erste-sprache><zweite-sprache>ひとびと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1031">
+  <vokabel-paar schritt="1030">
     <erste-sprache>إِذَا</erste-sprache><zweite-sprache>もし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>مُنَظَّمَاتٌ</erste-sprache><zweite-sprache>そしき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1032">
+  <vokabel-paar schritt="1031">
     <erste-sprache>مُنَظَّمَةٌ</erste-sprache><zweite-sprache>そしき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1033">
+  <vokabel-paar schritt="1032">
     <erste-sprache>مُنَظَّمَةٌ</erste-sprache><zweite-sprache>そしきか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1034">
+  <vokabel-paar schritt="1033">
     <erste-sprache>قَادِر</erste-sprache><zweite-sprache>ゆうのうな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1034">
     <erste-sprache>كُنْتُ أَسْتَطِيعُ</erste-sprache><zweite-sprache>できた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1034">
     <erste-sprache>كُنْتَ تَسْتَطِيعُ</erste-sprache><zweite-sprache>できた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1035">
+  <vokabel-paar schritt="1034">
     <erste-sprache>كَانَ يَسْتَطِيعُ</erste-sprache><zweite-sprache>できた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1036">
+  <vokabel-paar schritt="1035">
     <erste-sprache>أَخْذ</erste-sprache><zweite-sprache>とること</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1036">
+  <vokabel-paar schritt="1035">
     <erste-sprache>أَخْذ</erste-sprache><zweite-sprache>とる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1037">
+  <vokabel-paar schritt="1036">
     <erste-sprache>نَأْخُذُ</erste-sprache><zweite-sprache>とる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1037">
+  <vokabel-paar schritt="1036">
     <erste-sprache>يَأْخُذُ</erste-sprache><zweite-sprache>とる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>طَبْخ</erste-sprache><zweite-sprache>りょうりする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>نَطْبُخُ</erste-sprache><zweite-sprache>りょうりする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1038">
+  <vokabel-paar schritt="1037">
     <erste-sprache>يَطْبُخُ</erste-sprache><zweite-sprache>りょうりする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1039">
+  <vokabel-paar schritt="1038">
     <erste-sprache>تَطْبُخُونَ</erste-sprache><zweite-sprache>りょうりします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1039">
     <erste-sprache>مُنَاقَشَة</erste-sprache><zweite-sprache>ぎろんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1039">
     <erste-sprache>نُنَاقِشُ</erste-sprache><zweite-sprache>ぎろんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1040">
+  <vokabel-paar schritt="1039">
     <erste-sprache>يُنَاقِشُ</erste-sprache><zweite-sprache>ぎろんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1041">
+  <vokabel-paar schritt="1040">
     <erste-sprache>تُنَاقِشُونَ</erste-sprache><zweite-sprache>ぎろんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>تَوَلِّي</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>نَتَوَلَّى</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>يَتَوَلَّى</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>تَنَفِيذ</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>نُنَفِّذُ</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1042">
+  <vokabel-paar schritt="1041">
     <erste-sprache>يُنَفِّذُ</erste-sprache><zweite-sprache>ひきうける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1043">
+  <vokabel-paar schritt="1042">
     <erste-sprache>نُنَفِّذُ</erste-sprache><zweite-sprache>じっしする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>يُنَفِّذُ</erste-sprache><zweite-sprache>じっしする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>تَنْفِيذ</erste-sprache><zweite-sprache>じっしする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>مُنَفِّذ</erste-sprache><zweite-sprache>じっしする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>تَتَوَلَّوْنَ</erste-sprache><zweite-sprache>ひきうけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>تُنَفِّذُونَ</erste-sprache><zweite-sprache>ひきうけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1046">
     <erste-sprache>تُنَفِّذُونَ</erste-sprache><zweite-sprache>じっしします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1047">
     <erste-sprache>لَا شَيْءَ</erste-sprache><zweite-sprache>なにもない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1049">
+  <vokabel-paar schritt="1048">
     <erste-sprache>مُسَوَّدَاتٌ</erste-sprache><zweite-sprache>したがき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1049">
     <erste-sprache>مُخَطَّطَاتٌ تَفْصِيلِيَّةٌ</erste-sprache><zweite-sprache>せっけいず</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1050">
     <erste-sprache>مَشَارِيعُ</erste-sprache><zweite-sprache>ぷろじぇくと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
+  <vokabel-paar schritt="1050">
     <erste-sprache>مَشْرُوعٌ</erste-sprache><zweite-sprache>ぷろじぇくと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>لَكَانَ</erste-sprache><zweite-sprache>だろう</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1051">
+    <erste-sprache>لَكَانَ</erste-sprache><zweite-sprache>-だろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1052">
     <erste-sprache>لَكُنَّا</erste-sprache><zweite-sprache>だろう</zweite-sprache>
@@ -7158,7 +7161,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>أَصْلِيّ</erste-sprache><zweite-sprache>どくそうてきな</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1462">
-    <erste-sprache>نِيَابَةً عَنْ</erste-sprache><zweite-sprache>をだいひょうして</zweite-sprache>
+    <erste-sprache>نِيَابَةً عَنْ</erste-sprache><zweite-sprache>-をだいひょうして</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1463">
     <erste-sprache>كَمِّيَّة</erste-sprache><zweite-sprache>りょう</zweite-sprache>
@@ -8637,7 +8640,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>عِيشُوا</erste-sprache><zweite-sprache>いきてください</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1826">
-    <erste-sprache>لِكَيْ</erste-sprache><zweite-sprache>するために</zweite-sprache>
+    <erste-sprache>لِكَيْ</erste-sprache><zweite-sprache>-するために</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1827">
     <erste-sprache>مُنْجَز</erste-sprache><zweite-sprache>たっせいされた</zweite-sprache>
@@ -9945,201 +9948,204 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>عِرْقٌ</erste-sprache><zweite-sprache>じんしゅ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2159">
-    <erste-sprache>كَانَ ذَاهِبًا</erste-sprache><zweite-sprache>いっていた</zweite-sprache>
+    <erste-sprache>ضِدَّ</erste-sprache><zweite-sprache>たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2160">
-    <erste-sprache>وَزْن</erste-sprache><zweite-sprache>じゅうりょう</zweite-sprache>
+    <erste-sprache>كَانَ ذَاهِبًا</erste-sprache><zweite-sprache>いっていた</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2161">
-    <erste-sprache>تَزُورُونَ</erste-sprache><zweite-sprache>ほうもんします</zweite-sprache>
+    <erste-sprache>وَزْن</erste-sprache><zweite-sprache>じゅうりょう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2162">
-    <erste-sprache>نَاجِح</erste-sprache><zweite-sprache>せいこうした</zweite-sprache>
+    <erste-sprache>تَزُورُونَ</erste-sprache><zweite-sprache>ほうもんします</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2163">
-    <erste-sprache>بِاخْتِصَارٍ</erste-sprache><zweite-sprache>ようするに</zweite-sprache>
+    <erste-sprache>نَاجِح</erste-sprache><zweite-sprache>せいこうした</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2164">
-    <erste-sprache>عَلَامَة</erste-sprache><zweite-sprache>しるし</zweite-sprache>
+    <erste-sprache>بِاخْتِصَارٍ</erste-sprache><zweite-sprache>ようするに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2165">
-    <erste-sprache>كَانَ ضَرُورِيًّا</erste-sprache><zweite-sprache>ひつようだった</zweite-sprache>
+    <erste-sprache>عَلَامَة</erste-sprache><zweite-sprache>しるし</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2166">
-    <erste-sprache>لَقَالَ</erste-sprache><zweite-sprache>いうだろう</zweite-sprache>
+    <erste-sprache>كَانَ ضَرُورِيًّا</erste-sprache><zweite-sprache>ひつようだった</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2167">
-    <erste-sprache>تَحْرِيضٌ عَلَى الكَرَاهِيَّة</erste-sprache><zweite-sprache>ぞうおせんどう</zweite-sprache>
+    <erste-sprache>لَقَالَ</erste-sprache><zweite-sprache>いうだろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2168">
-    <erste-sprache>كُلٌّ</erste-sprache><zweite-sprache>それぞれの</zweite-sprache>
+    <erste-sprache>تَحْرِيضٌ عَلَى الكَرَاهِيَّة</erste-sprache><zweite-sprache>ぞうおせんどう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2169">
-    <erste-sprache>اِسْتِبْدَادِيّ</erste-sprache><zweite-sprache>けんいしゅぎてきな</zweite-sprache>
+    <erste-sprache>كُلٌّ</erste-sprache><zweite-sprache>それぞれの</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2170">
-    <erste-sprache>شُمُولِيّ</erste-sprache><zweite-sprache>ぜんたいしゅぎてきな</zweite-sprache>
+    <erste-sprache>اِسْتِبْدَادِيّ</erste-sprache><zweite-sprache>けんいしゅぎてきな</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2171">
-    <erste-sprache>قَدَر</erste-sprache><zweite-sprache>うんめい</zweite-sprache>
+    <erste-sprache>شُمُولِيّ</erste-sprache><zweite-sprache>ぜんたいしゅぎてきな</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2172">
-    <erste-sprache>مُشْتَرَكٌ بَيْنَ الحِزْبَيْنِ</erste-sprache><zweite-sprache>ちょうとうはの</zweite-sprache>
+    <erste-sprache>قَدَر</erste-sprache><zweite-sprache>うんめい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2173">
-    <erste-sprache>سَنَدَاتٌ</erste-sprache><zweite-sprache>さいけん</zweite-sprache>
+    <erste-sprache>مُشْتَرَكٌ بَيْنَ الحِزْبَيْنِ</erste-sprache><zweite-sprache>ちょうとうはの</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2174">
-    <erste-sprache>مُشَارَكَةُ السَّيَّارَاتِ</erste-sprache><zweite-sprache>かーしぇありんぐ</zweite-sprache>
+    <erste-sprache>سَنَدَاتٌ</erste-sprache><zweite-sprache>さいけん</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2175">
-    <erste-sprache>اِئْتِلَافٌ</erste-sprache><zweite-sprache>れんりつ</zweite-sprache>
+    <erste-sprache>مُشَارَكَةُ السَّيَّارَاتِ</erste-sprache><zweite-sprache>かーしぇありんぐ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2176">
-    <erste-sprache>إِمْبِرَاطُورِيَّةٌ</erste-sprache><zweite-sprache>ていこく</zweite-sprache>
+    <erste-sprache>اِئْتِلَافٌ</erste-sprache><zweite-sprache>れんりつ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2177">
-    <erste-sprache>صَاحِبَةٌ</erste-sprache><zweite-sprache>しんゆう</zweite-sprache>
+    <erste-sprache>إِمْبِرَاطُورِيَّةٌ</erste-sprache><zweite-sprache>ていこく</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2178">
-    <erste-sprache>بِدُونِهَا</erste-sprache><zweite-sprache>かのじょぬきで</zweite-sprache>
+    <erste-sprache>صَاحِبَةٌ</erste-sprache><zweite-sprache>しんゆう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2179">
-    <erste-sprache>بِدُونِي</erste-sprache><zweite-sprache>わたしぬきで</zweite-sprache>
+    <erste-sprache>بِدُونِهَا</erste-sprache><zweite-sprache>かのじょぬきで</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2180">
-    <erste-sprache>زِفَافٌ</erste-sprache><zweite-sprache>けっこんしき</zweite-sprache>
+    <erste-sprache>بِدُونِي</erste-sprache><zweite-sprache>わたしぬきで</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2181">
-    <erste-sprache>يُمْكِنُ</erste-sprache><zweite-sprache>かも</zweite-sprache>
+    <erste-sprache>زِفَافٌ</erste-sprache><zweite-sprache>けっこんしき</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2182">
-    <erste-sprache>اِخْتِبَارٌ قَصِيرٌ</erste-sprache><zweite-sprache>くいず</zweite-sprache>
+    <erste-sprache>يُمْكِنُ</erste-sprache><zweite-sprache>かも</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2183">
-    <erste-sprache>حَاكِمٌ</erste-sprache><zweite-sprache>しはいしゃ</zweite-sprache>
+    <erste-sprache>اِخْتِبَارٌ قَصِيرٌ</erste-sprache><zweite-sprache>くいず</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2184">
-    <erste-sprache>قَمِيص</erste-sprache><zweite-sprache>しゃつ</zweite-sprache>
+    <erste-sprache>حَاكِمٌ</erste-sprache><zweite-sprache>しはいしゃ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2185">
-    <erste-sprache>بُورْصَة</erste-sprache><zweite-sprache>しょうけんとりひきじょ</zweite-sprache>
+    <erste-sprache>قَمِيص</erste-sprache><zweite-sprache>しゃつ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2186">
-    <erste-sprache>أَسْهُم</erste-sprache><zweite-sprache>かぶ</zweite-sprache>
+    <erste-sprache>بُورْصَة</erste-sprache><zweite-sprache>しょうけんとりひきじょ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2187">
-    <erste-sprache>نُقْطَة اللَّاعَوْدَة</erste-sprache><zweite-sprache>ひきかえせないちてん</zweite-sprache>
+    <erste-sprache>أَسْهُم</erste-sprache><zweite-sprache>かぶ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2188">
-    <erste-sprache>أَرْضِيَّة</erste-sprache><zweite-sprache>ゆか</zweite-sprache>
+    <erste-sprache>نُقْطَة اللَّاعَوْدَة</erste-sprache><zweite-sprache>ひきかえせないちてん</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2189">
-    <erste-sprache>اِحْتِيَال</erste-sprache><zweite-sprache>さぎ</zweite-sprache>
+    <erste-sprache>أَرْضِيَّة</erste-sprache><zweite-sprache>ゆか</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2190">
-    <erste-sprache>نَصْب</erste-sprache><zweite-sprache>いかさま</zweite-sprache>
+    <erste-sprache>اِحْتِيَال</erste-sprache><zweite-sprache>さぎ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2191">
-    <erste-sprache>مَحْكُوم</erste-sprache><zweite-sprache>じゅけいしゃ</zweite-sprache>
+    <erste-sprache>نَصْب</erste-sprache><zweite-sprache>いかさま</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2192">
-    <erste-sprache>وَدَائِع</erste-sprache><zweite-sprache>よきん</zweite-sprache>
+    <erste-sprache>مَحْكُوم</erste-sprache><zweite-sprache>じゅけいしゃ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2193">
+    <erste-sprache>وَدَائِع</erste-sprache><zweite-sprache>よきん</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="2194">
     <erste-sprache>حَرْف</erste-sprache><zweite-sprache>もじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2194">
+  <vokabel-paar schritt="2195">
     <erste-sprache>دُعَاء</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2194">
+  <vokabel-paar schritt="2195">
     <erste-sprache>نَدْعُو</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2194">
+  <vokabel-paar schritt="2195">
     <erste-sprache>يَدْعُو</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2195">
+  <vokabel-paar schritt="2196">
     <erste-sprache>نُمُوّ</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2195">
+  <vokabel-paar schritt="2196">
     <erste-sprache>نَنْمُو</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2195">
+  <vokabel-paar schritt="2196">
     <erste-sprache>يَنْمُو</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2196">
+  <vokabel-paar schritt="2197">
     <erste-sprache>تَنْمُونَ</erste-sprache><zweite-sprache>せいちょうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2197">
+  <vokabel-paar schritt="2198">
     <erste-sprache>بَعِيد</erste-sprache><zweite-sprache>とおい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2198">
+  <vokabel-paar schritt="2199">
     <erste-sprache>تَعَرَّفْتُ</erste-sprache><zweite-sprache>にんしきした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2198">
+  <vokabel-paar schritt="2199">
     <erste-sprache>تَعَرَّفْتَ</erste-sprache><zweite-sprache>にんしきした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2198">
+  <vokabel-paar schritt="2199">
     <erste-sprache>تَعَرَّفَ</erste-sprache><zweite-sprache>にんしきした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2199">
+  <vokabel-paar schritt="2200">
     <erste-sprache>ضَرْب</erste-sprache><zweite-sprache>うつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2199">
+  <vokabel-paar schritt="2200">
     <erste-sprache>يَضْرِبُ</erste-sprache><zweite-sprache>うつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2200">
+  <vokabel-paar schritt="2201">
     <erste-sprache>بِالضَّبْط</erste-sprache><zweite-sprache>せいかくに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2201">
+  <vokabel-paar schritt="2202">
     <erste-sprache>مُلَاحَظَاتٌ</erste-sprache><zweite-sprache>めも</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2202">
+  <vokabel-paar schritt="2203">
     <erste-sprache>شُرَكَاءُ</erste-sprache><zweite-sprache>ぱーとなー</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2203">
+  <vokabel-paar schritt="2204">
     <erste-sprache>بِالأَحْرَى</erste-sprache><zweite-sprache>むしろ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2204">
+  <vokabel-paar schritt="2205">
     <erste-sprache>بَيْعٌ</erste-sprache><zweite-sprache>はんばい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2205">
+  <vokabel-paar schritt="2206">
     <erste-sprache>عَلَى أَيِّ حَالٍ</erste-sprache><zweite-sprache>とにかく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2205">
+  <vokabel-paar schritt="2206">
     <erste-sprache>عَلَى أَيِّ حَالٍ</erste-sprache><zweite-sprache>まあ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2206">
+  <vokabel-paar schritt="2207">
     <erste-sprache>إِسْبَانِيَا</erste-sprache><zweite-sprache>すぺいん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2207">
+  <vokabel-paar schritt="2208">
     <erste-sprache>حَأَعْمَلُ</erste-sprache><zweite-sprache>するつもり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2208">
+  <vokabel-paar schritt="2209">
     <erste-sprache>بُنْيَةٌ تَحْتِيَّةٌ</erste-sprache><zweite-sprache>いんふら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2209">
+  <vokabel-paar schritt="2210">
     <erste-sprache>نَهْجٌ</erste-sprache><zweite-sprache>あぷろーち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2210">
+  <vokabel-paar schritt="2211">
     <erste-sprache>رَدِيءٌ</erste-sprache><zweite-sprache>だめな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2211">
+  <vokabel-paar schritt="2212">
     <erste-sprache>الشُّرْطَةُ</erste-sprache><zweite-sprache>ぽり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2212">
+  <vokabel-paar schritt="2213">
     <erste-sprache>فَحْصٌ</erste-sprache><zweite-sprache>ちぇっく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2213">
+  <vokabel-paar schritt="2214">
     <erste-sprache>تَفَاهُمَاتٌ</erste-sprache><zweite-sprache>もうしあわせ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2214">
+  <vokabel-paar schritt="2215">
     <erste-sprache>حَيَوَانَات صَغِيرَة</erste-sprache><zweite-sprache>いきものたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2215">
+  <vokabel-paar schritt="2216">
     <erste-sprache>تَنْبِيهٌ</erste-sprache><zweite-sprache>じぜんれんらく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2216">
+  <vokabel-paar schritt="2217">
     <erste-sprache>ثَانِيَةٌ</erste-sprache><zweite-sprache>びょう</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

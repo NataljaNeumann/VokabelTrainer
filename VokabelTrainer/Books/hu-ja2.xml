@@ -366,6 +366,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>nem</erste-sprache><zweite-sprache>hi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="75">
+    <erste-sprache>nem</erste-sprache><zweite-sprache>-nai</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="75">
     <erste-sprache>nem</erste-sprache><zweite-sprache>nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="75">
@@ -474,7 +477,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>szeretnék</erste-sprache><zweite-sprache>watashi wa shitai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="102">
-    <erste-sprache>szeretnék</erste-sprache><zweite-sprache>tai</zweite-sprache>
+    <erste-sprache>szeretnék</erste-sprache><zweite-sprache>-tai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="103">
     <erste-sprache>repülés</erste-sprache><zweite-sprache>furaito</zweite-sprache>
@@ -798,7 +801,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>dolog</erste-sprache><zweite-sprache>koto</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
-    <erste-sprache>hogy</erste-sprache><zweite-sprache>suru koto de</zweite-sprache>
+    <erste-sprache>hogy</erste-sprache><zweite-sprache>-suru koto de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
     <erste-sprache>hogy</erste-sprache><zweite-sprache>to iu jōken de</zweite-sprache>
@@ -813,7 +816,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>hogy</erste-sprache><zweite-sprache>ka dō ka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
-    <erste-sprache>hogy</erste-sprache><zweite-sprache>suru tame ni</zweite-sprache>
+    <erste-sprache>hogy</erste-sprache><zweite-sprache>-suru tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="185">
     <erste-sprache>talán</erste-sprache><zweite-sprache>tabun</zweite-sprache>
@@ -1125,13 +1128,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>segg</erste-sprache><zweite-sprache>ketsu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="254">
-    <erste-sprache>nál</erste-sprache><zweite-sprache>no soba de</zweite-sprache>
+    <erste-sprache>nál</erste-sprache><zweite-sprache>-no soba de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="254">
-    <erste-sprache>nál</erste-sprache><zweite-sprache>no ie de</zweite-sprache>
+    <erste-sprache>nál</erste-sprache><zweite-sprache>-no ie de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="254">
-    <erste-sprache>nál</erste-sprache><zweite-sprache>nchi de</zweite-sprache>
+    <erste-sprache>nál</erste-sprache><zweite-sprache>-nchi de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="255">
     <erste-sprache>mikor</erste-sprache><zweite-sprache>itsu</zweite-sprache>
@@ -1710,7 +1713,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>kb.</erste-sprache><zweite-sprache>daitai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="375">
-    <erste-sprache>azért</erste-sprache><zweite-sprache>kedo</zweite-sprache>
+    <erste-sprache>azért</erste-sprache><zweite-sprache>-kedo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="375">
     <erste-sprache>azért</erste-sprache><zweite-sprache>sono tame ni</zweite-sprache>
@@ -3087,7 +3090,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>de</erste-sprache><zweite-sprache>demo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="617">
-    <erste-sprache>az</erste-sprache><zweite-sprache>de</zweite-sprache>
+    <erste-sprache>az</erste-sprache><zweite-sprache>-de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="617">
     <erste-sprache>az</erste-sprache><zweite-sprache>kara</zweite-sprache>
@@ -3135,7 +3138,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ben</erste-sprache><zweite-sprache>naka de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="621">
-    <erste-sprache>ben</erste-sprache><zweite-sprache>naka ni・naka de</zweite-sprache>
+    <erste-sprache>ben</erste-sprache><zweite-sprache>naka ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="622">
     <erste-sprache>–ban</erste-sprache><zweite-sprache>de</zweite-sprache>
@@ -3150,7 +3153,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>sem</erste-sprache><zweite-sprache>dochira demo nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="623">
-    <erste-sprache>sem</erste-sprache><zweite-sprache>mo nai</zweite-sprache>
+    <erste-sprache>sem</erste-sprache><zweite-sprache>-mo nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="624">
     <erste-sprache>év</erste-sprache><zweite-sprache>toshi</zweite-sprache>
@@ -3180,7 +3183,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>önmaga</erste-sprache><zweite-sprache>jiko</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="627">
-    <erste-sprache>túl</erste-sprache><zweite-sprache>no mukō ni</zweite-sprache>
+    <erste-sprache>túl</erste-sprache><zweite-sprache>-no mukō ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="627">
     <erste-sprache>túl</erste-sprache><zweite-sprache>amari ni mo</zweite-sprache>
@@ -3288,979 +3291,982 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>megérkezik</erste-sprache><zweite-sprache>tōchaku shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="647">
-    <erste-sprache>ellen</erste-sprache><zweite-sprache>ni hantai shite</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="647">
-    <erste-sprache>ellen</erste-sprache><zweite-sprache>tai</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="648">
     <erste-sprache>iszik</erste-sprache><zweite-sprache>nomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="649">
+  <vokabel-paar schritt="648">
     <erste-sprache>nőni</erste-sprache><zweite-sprache>seichō suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="649">
+  <vokabel-paar schritt="648">
     <erste-sprache>növünk</erste-sprache><zweite-sprache>seichō suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="650">
+  <vokabel-paar schritt="649">
     <erste-sprache>vezetni</erste-sprache><zweite-sprache>unten suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="650">
+  <vokabel-paar schritt="649">
     <erste-sprache>vezetni</erste-sprache><zweite-sprache>michibiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>unten shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>unten suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>michibikimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>michibiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="652">
+  <vokabel-paar schritt="651">
     <erste-sprache>vég</erste-sprache><zweite-sprache>shūryō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="653">
+  <vokabel-paar schritt="652">
     <erste-sprache>egyesület</erste-sprache><zweite-sprache>kyōkai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="654">
+  <vokabel-paar schritt="653">
     <erste-sprache>esni</erste-sprache><zweite-sprache>ochiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="654">
+  <vokabel-paar schritt="653">
     <erste-sprache>esünk</erste-sprache><zweite-sprache>ochiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="655">
+  <vokabel-paar schritt="654">
     <erste-sprache>kik</erste-sprache><zweite-sprache>dare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="656">
+  <vokabel-paar schritt="655">
     <erste-sprache>cucc</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="656">
+  <vokabel-paar schritt="655">
     <erste-sprache>dolgok</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="656">
+  <vokabel-paar schritt="655">
     <erste-sprache>cuccok</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="657">
-    <erste-sprache>azzal</erste-sprache><zweite-sprache>suru koto de</zweite-sprache>
+  <vokabel-paar schritt="656">
+    <erste-sprache>azzal</erste-sprache><zweite-sprache>-suru koto de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="658">
+  <vokabel-paar schritt="657">
     <erste-sprache>feltéve</erste-sprache><zweite-sprache>to iu jōken de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="658">
     <erste-sprache>valószínűleg</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="658">
     <erste-sprache>feltehetően</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="660">
+  <vokabel-paar schritt="659">
     <erste-sprache>televízió</erste-sprache><zweite-sprache>terebi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="661">
+  <vokabel-paar schritt="660">
     <erste-sprache>összesen</erste-sprache><zweite-sprache>gōkei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="662">
+  <vokabel-paar schritt="661">
     <erste-sprache>tól/től</erste-sprache><zweite-sprache>kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="662">
-    <erste-sprache>mert</erste-sprache><zweite-sprache>kara</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="662">
+  <vokabel-paar schritt="661">
     <erste-sprache>-ból</erste-sprache><zweite-sprache>kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="662">
+  <vokabel-paar schritt="661">
     <erste-sprache>-ből</erste-sprache><zweite-sprache>kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="663">
+  <vokabel-paar schritt="662">
     <erste-sprache>hatások</erste-sprache><zweite-sprache>eikyō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="664">
+  <vokabel-paar schritt="663">
     <erste-sprache>találkoztam</erste-sprache><zweite-sprache>atta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="664">
+  <vokabel-paar schritt="663">
     <erste-sprache>találkoztál</erste-sprache><zweite-sprache>atta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="664">
+  <vokabel-paar schritt="663">
     <erste-sprache>találkozott</erste-sprache><zweite-sprache>atta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="665">
+  <vokabel-paar schritt="664">
     <erste-sprache>előző</erste-sprache><zweite-sprache>mae no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="665">
+  <vokabel-paar schritt="664">
     <erste-sprache>előző</erste-sprache><zweite-sprache>izen no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="666">
+  <vokabel-paar schritt="665">
     <erste-sprache>még</erste-sprache><zweite-sprache>mada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="667">
+  <vokabel-paar schritt="666">
     <erste-sprache>szó</erste-sprache><zweite-sprache>tango</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="668">
+  <vokabel-paar schritt="667">
     <erste-sprache>fölött</erste-sprache><zweite-sprache>ue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="669">
+  <vokabel-paar schritt="668">
     <erste-sprache>úr</erste-sprache><zweite-sprache>san</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="670">
+  <vokabel-paar schritt="669">
     <erste-sprache>jön</erste-sprache><zweite-sprache>kimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="671">
+  <vokabel-paar schritt="670">
     <erste-sprache>használt</erste-sprache><zweite-sprache>tsukawareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="671">
     <erste-sprache>szabály</erste-sprache><zweite-sprache>kitei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="673">
+  <vokabel-paar schritt="672">
     <erste-sprache>gyors</erste-sprache><zweite-sprache>hayai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="674">
+  <vokabel-paar schritt="673">
     <erste-sprache>felelősség</erste-sprache><zweite-sprache>sekinin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="675">
+  <vokabel-paar schritt="674">
     <erste-sprache>vita</erste-sprache><zweite-sprache>giron</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="676">
+  <vokabel-paar schritt="675">
     <erste-sprache>él</erste-sprache><zweite-sprache>ikimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="677">
+  <vokabel-paar schritt="676">
     <erste-sprache>több</erste-sprache><zweite-sprache>motto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="677">
+  <vokabel-paar schritt="676">
     <erste-sprache>több</erste-sprache><zweite-sprache>ikutsuka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="678">
+  <vokabel-paar schritt="677">
     <erste-sprache>követni</erste-sprache><zweite-sprache>shitagau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="678">
+  <vokabel-paar schritt="677">
     <erste-sprache>követünk</erste-sprache><zweite-sprache>shitagau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="679">
+  <vokabel-paar schritt="678">
     <erste-sprache>körülbelül</erste-sprache><zweite-sprache>yaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="679">
+  <vokabel-paar schritt="678">
     <erste-sprache>körülbelül</erste-sprache><zweite-sprache>oyoso</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="679">
     <erste-sprache>úgy kb.</erste-sprache><zweite-sprache>daitai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="680">
     <erste-sprache>normális</erste-sprache><zweite-sprache>futsū no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="682">
+  <vokabel-paar schritt="681">
     <erste-sprache>igen</erste-sprache><zweite-sprache>hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="683">
+  <vokabel-paar schritt="682">
     <erste-sprache>egyesültek</erste-sprache><zweite-sprache>tōitsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="683">
     <erste-sprache>kelleni</erste-sprache><zweite-sprache>shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="683">
     <erste-sprache>kell</erste-sprache><zweite-sprache>shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="685">
+  <vokabel-paar schritt="684">
     <erste-sprache>kell</erste-sprache><zweite-sprache>shinakereba narimasen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>tud</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>tud</erste-sprache><zweite-sprache>dekimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>tud</erste-sprache><zweite-sprache>shitte imasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>tud</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>ismerni</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>ismerünk</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="688">
+  <vokabel-paar schritt="687">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="689">
+  <vokabel-paar schritt="688">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>watashitachi wa dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="689">
+  <vokabel-paar schritt="688">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="689">
     <erste-sprache>kértem</erste-sprache><zweite-sprache>yōsei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="691">
+  <vokabel-paar schritt="690">
     <erste-sprache>kértél</erste-sprache><zweite-sprache>yōsei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="691">
     <erste-sprache>kért</erste-sprache><zweite-sprache>yōkyū sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="691">
     <erste-sprache>kért</erste-sprache><zweite-sprache>yōsei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="691">
     <erste-sprache>kért</erste-sprache><zweite-sprache>yōsei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>kapott</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>kapott</erste-sprache><zweite-sprache>uketorareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="694">
+  <vokabel-paar schritt="693">
     <erste-sprache>kezelt</erste-sprache><zweite-sprache>taisho sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="695">
+  <vokabel-paar schritt="694">
     <erste-sprache>talált</erste-sprache><zweite-sprache>mitsukerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="696">
+  <vokabel-paar schritt="695">
     <erste-sprache>hisz</erste-sprache><zweite-sprache>shinjimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="697">
+  <vokabel-paar schritt="696">
     <erste-sprache>célzott</erste-sprache><zweite-sprache>nerawareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="698">
+  <vokabel-paar schritt="697">
     <erste-sprache>maradni</erste-sprache><zweite-sprache>nokoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="698">
+  <vokabel-paar schritt="697">
     <erste-sprache>maradni</erste-sprache><zweite-sprache>todomaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>marad</erste-sprache><zweite-sprache>nokorimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>marad</erste-sprache><zweite-sprache>nokoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>marad</erste-sprache><zweite-sprache>todomarimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>marad</erste-sprache><zweite-sprache>todomaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="700">
+  <vokabel-paar schritt="699">
     <erste-sprache>kezd</erste-sprache><zweite-sprache>hajimemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="701">
+  <vokabel-paar schritt="700">
     <erste-sprache>egyezmény</erste-sprache><zweite-sprache>jōyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="702">
+  <vokabel-paar schritt="701">
     <erste-sprache>játszott</erste-sprache><zweite-sprache>purei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="703">
+  <vokabel-paar schritt="702">
     <erste-sprache>eleinte</erste-sprache><zweite-sprache>saisho wa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="703">
     <erste-sprache>javít</erste-sprache><zweite-sprache>kaizen shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="705">
+  <vokabel-paar schritt="704">
     <erste-sprache>biztosítani</erste-sprache><zweite-sprache>kakuho suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="705">
+  <vokabel-paar schritt="704">
     <erste-sprache>biztosítani</erste-sprache><zweite-sprache>teikyō suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="706">
+  <vokabel-paar schritt="705">
     <erste-sprache>benyújtott</erste-sprache><zweite-sprache>teishutsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="707">
+  <vokabel-paar schritt="706">
     <erste-sprache>telefonálni</erste-sprache><zweite-sprache>denwa suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="707">
+  <vokabel-paar schritt="706">
     <erste-sprache>telefonálunk</erste-sprache><zweite-sprache>denwa suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="708">
+  <vokabel-paar schritt="707">
     <erste-sprache>ajánlott</erste-sprache><zweite-sprache>susumerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="709">
+  <vokabel-paar schritt="708">
     <erste-sprache>végrehajtott</erste-sprache><zweite-sprache>jisshi sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="709">
+  <vokabel-paar schritt="708">
     <erste-sprache>végrehajtott</erste-sprache><zweite-sprache>jisshi shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>végrehajtottam</erste-sprache><zweite-sprache>jisshi shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>végrehajtottál</erste-sprache><zweite-sprache>jisshi shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>megvalósítottam</erste-sprache><zweite-sprache>jisshi shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>megvalósítottál</erste-sprache><zweite-sprache>jisshi shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="711">
+  <vokabel-paar schritt="710">
     <erste-sprache>csökkenteni</erste-sprache><zweite-sprache>herasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="711">
+  <vokabel-paar schritt="710">
     <erste-sprache>csökkentünk</erste-sprache><zweite-sprache>herasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="712">
+  <vokabel-paar schritt="711">
     <erste-sprache>megalapított</erste-sprache><zweite-sprache>kakuritsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="713">
+  <vokabel-paar schritt="712">
     <erste-sprache>előmozdít</erste-sprache><zweite-sprache>sokushin shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="713">
     <erste-sprache>jelentett</erste-sprache><zweite-sprache>hōkoku sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="715">
+  <vokabel-paar schritt="714">
     <erste-sprache>én csinálni fogok</erste-sprache><zweite-sprache>watashi wa tsukuru deshō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="716">
+  <vokabel-paar schritt="715">
     <erste-sprache>mondtam</erste-sprache><zweite-sprache>watashi wa itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="716">
+  <vokabel-paar schritt="715">
     <erste-sprache>mondtam</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="717">
+  <vokabel-paar schritt="716">
     <erste-sprache>Ön csinált</erste-sprache><zweite-sprache>anatagata wa tsukurimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="718">
+  <vokabel-paar schritt="717">
     <erste-sprache>vagyunk</erste-sprache><zweite-sprache>desu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="719">
+  <vokabel-paar schritt="718">
     <erste-sprache>egyes</erste-sprache><zweite-sprache>aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="719">
+  <vokabel-paar schritt="718">
     <erste-sprache>vannak</erste-sprache><zweite-sprache>aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
-    <erste-sprache>mert</erste-sprache><zweite-sprache>to iu no mo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="719">
     <erste-sprache>ez</erste-sprache><zweite-sprache>are</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="719">
     <erste-sprache>ez</erste-sprache><zweite-sprache>kore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="720">
     <erste-sprache>az az एक</erste-sprache><zweite-sprache>are</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="720">
     <erste-sprache>az az egy</erste-sprache><zweite-sprache>are</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="721">
     <erste-sprache>belül</erste-sprache><zweite-sprache>naka de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="721">
     <erste-sprache>belül</erste-sprache><zweite-sprache>inai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="724">
+  <vokabel-paar schritt="722">
     <erste-sprache>pozíció</erste-sprache><zweite-sprache>ichi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="725">
+  <vokabel-paar schritt="723">
     <erste-sprache>én magam</erste-sprache><zweite-sprache>jibun jishin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="726">
+  <vokabel-paar schritt="724">
     <erste-sprache>önmagának</erste-sprache><zweite-sprache>sore jitai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="727">
+  <vokabel-paar schritt="725">
     <erste-sprache>baleset</erste-sprache><zweite-sprache>jiko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="728">
+  <vokabel-paar schritt="726">
     <erste-sprache>meg még</erste-sprache><zweite-sprache>sore ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="728">
+  <vokabel-paar schritt="726">
     <erste-sprache>azon</erste-sprache><zweite-sprache>sore ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="728">
+  <vokabel-paar schritt="726">
     <erste-sprache>ahhoz</erste-sprache><zweite-sprache>sore ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="729">
+  <vokabel-paar schritt="727">
     <erste-sprache>miatt</erste-sprache><zweite-sprache>no tame ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="730">
+  <vokabel-paar schritt="727">
+    <erste-sprache>miatt</erste-sprache><zweite-sprache>-no tame ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="728">
     <erste-sprache>érteni</erste-sprache><zweite-sprache>ito suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="730">
+  <vokabel-paar schritt="728">
     <erste-sprache>érteni</erste-sprache><zweite-sprache>rikai suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="729">
     <erste-sprache>értünk</erste-sprache><zweite-sprache>ito suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="732">
+  <vokabel-paar schritt="730">
     <erste-sprache>még mindig</erste-sprache><zweite-sprache>izen toshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="732">
+  <vokabel-paar schritt="730">
     <erste-sprache>még mindig</erste-sprache><zweite-sprache>mada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="731">
     <erste-sprache>viselnek</erste-sprache><zweite-sprache>kimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="732">
     <erste-sprache>rendelkezés</erste-sprache><zweite-sprache>kitei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="732">
     <erste-sprache>rendelkezések</erste-sprache><zweite-sprache>kitei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="733">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>ikutsuka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="733">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>ikutsuka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="733">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>nanraka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="734">
     <erste-sprache>meg lehet csinálni</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="735">
     <erste-sprache>megszereztem</erste-sprache><zweite-sprache>te ni ireta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="735">
     <erste-sprache>megszereztem</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="736">
     <erste-sprache>megszereztél</erste-sprache><zweite-sprache>te ni ireta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="736">
     <erste-sprache>megszereztél</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="737">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>te ni irerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="737">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>te ni ireta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="737">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>erareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="737">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="738">
     <erste-sprache>javítanak</erste-sprache><zweite-sprache>kaizen shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>mondtál</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>mondott</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>elment</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>mentem</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>mentél</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="739">
     <erste-sprache>ment</erste-sprache><zweite-sprache>itta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="740">
     <erste-sprache>mondott</erste-sprache><zweite-sprache>iwareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="741">
     <erste-sprache>elment</erste-sprache><zweite-sprache>itte shimatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="741">
     <erste-sprache>elment</erste-sprache><zweite-sprache>satta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="742">
     <erste-sprache>ment</erste-sprache><zweite-sprache>itte ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="743">
     <erste-sprache>értjük</erste-sprache><zweite-sprache>rikai suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="743">
     <erste-sprache>érti</erste-sprache><zweite-sprache>rikai suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="744">
     <erste-sprache>bármilyen</erste-sprache><zweite-sprache>nanraka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="744">
     <erste-sprache>bármilyen</erste-sprache><zweite-sprache>nanika no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="747">
+  <vokabel-paar schritt="745">
     <erste-sprache>őket</erste-sprache><zweite-sprache>karera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="746">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>ka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="746">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>matawa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="746">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>aruiwa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="747">
     <erste-sprache>szúnyog</erste-sprache><zweite-sprache>ka</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>légy</erste-sprache><zweite-sprache>-de iro</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="749">
+    <erste-sprache>legyenek</erste-sprache><zweite-sprache>-de ite kudasai</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="750">
-    <erste-sprache>légy</erste-sprache><zweite-sprache>de iro</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="751">
-    <erste-sprache>legyenek</erste-sprache><zweite-sprache>de ite kudasai</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="752">
     <erste-sprache>lenni</erste-sprache><zweite-sprache>de aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="751">
     <erste-sprache>ti</erste-sprache><zweite-sprache>anata-tachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="751">
     <erste-sprache>ti</erste-sprache><zweite-sprache>kimitachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="751">
     <erste-sprache>ti</erste-sprache><zweite-sprache>anatatachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="752">
     <erste-sprache>a ti</erste-sprache><zweite-sprache>kimitachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="753">
     <erste-sprache>bal</erste-sprache><zweite-sprache>hidari no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="754">
     <erste-sprache>tehát</erste-sprache><zweite-sprache>dakara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="754">
     <erste-sprache>így hát</erste-sprache><zweite-sprache>dakara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="755">
     <erste-sprache>ennyire</erste-sprache><zweite-sprache>sonnani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="755">
     <erste-sprache>ennyire sok</erste-sprache><zweite-sprache>sonnani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="756">
     <erste-sprache>ne</erste-sprache><zweite-sprache>shinaide</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="756">
     <erste-sprache>ne</erste-sprache><zweite-sprache>shinaide okō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
-    <erste-sprache>után</erste-sprache><zweite-sprache>no ato ni</zweite-sprache>
+  <vokabel-paar schritt="757">
+    <erste-sprache>után</erste-sprache><zweite-sprache>-no ato ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="758">
     <erste-sprache>csak</erste-sprache><zweite-sprache>dake</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="758">
     <erste-sprache>csak</erste-sprache><zweite-sprache>tada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="758">
     <erste-sprache>csak</erste-sprache><zweite-sprache>sō iu mono da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="758">
     <erste-sprache>csak</erste-sprache><zweite-sprache>nomi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="759">
     <erste-sprache>amikor</erste-sprache><zweite-sprache>toki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="760">
     <erste-sprache>fogok</erste-sprache><zweite-sprache>suru yotei da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="760">
     <erste-sprache>fogok</erste-sprache><zweite-sprache>suru tsumori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="761">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>yori yoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="761">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>mashi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="761">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>migi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="762">
     <erste-sprache>nemzetek</erste-sprache><zweite-sprache>kuniguni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="762">
     <erste-sprache>országok</erste-sprache><zweite-sprache>kuniguni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="763">
     <erste-sprache>az ember</erste-sprache><zweite-sprache>hito wa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="764">
     <erste-sprache>ezt a</erste-sprache><zweite-sprache>kono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="764">
     <erste-sprache>ez a</erste-sprache><zweite-sprache>kono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="765">
     <erste-sprache>ennek</erste-sprache><zweite-sprache>kore ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="766">
     <erste-sprache>lehet</erste-sprache><zweite-sprache>ariuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="767">
     <erste-sprache>élveznek</erste-sprache><zweite-sprache>tanoshimimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="768">
     <erste-sprache>mint</erste-sprache><zweite-sprache>toshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="768">
     <erste-sprache>mint</erste-sprache><zweite-sprache>chōdo - no yō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
-    <erste-sprache>mint</erste-sprache><zweite-sprache>no yō ni</zweite-sprache>
+  <vokabel-paar schritt="768">
+    <erste-sprache>mint</erste-sprache><zweite-sprache>-no yō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="768">
     <erste-sprache>mint</erste-sprache><zweite-sprache>yori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="769">
     <erste-sprache>pont úgy</erste-sprache><zweite-sprache>chōdo - no yō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="770">
     <erste-sprache>egynek</erste-sprache><zweite-sprache>hitotsu ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="771">
     <erste-sprache>lettek</erste-sprache><zweite-sprache>sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="772">
     <erste-sprache>ezt hívják</erste-sprache><zweite-sprache>sore wa to yobareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="773">
     <erste-sprache>bizottság</erste-sprache><zweite-sprache>iinkai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="773">
     <erste-sprache>szervek</erste-sprache><zweite-sprache>iinkai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="774">
     <erste-sprache>ott</erste-sprache><zweite-sprache>soko ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="774">
     <erste-sprache>ott</erste-sprache><zweite-sprache>asoko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="775">
     <erste-sprache>ja</erste-sprache><zweite-sprache>ē</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="775">
     <erste-sprache>ja</erste-sprache><zweite-sprache>un</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="776">
     <erste-sprache>szerencse</erste-sprache><zweite-sprache>un</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="777">
     <erste-sprache>aztán</erste-sprache><zweite-sprache>sore kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="778">
     <erste-sprache>több mint</erste-sprache><zweite-sprache>ijō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
-    <erste-sprache>előtt</erste-sprache><zweite-sprache>no mae ni</zweite-sprache>
+  <vokabel-paar schritt="779">
+    <erste-sprache>előtt</erste-sprache><zweite-sprache>-no mae ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="779">
     <erste-sprache>előtt</erste-sprache><zweite-sprache>mae ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="780">
     <erste-sprache>fogunk</erste-sprache><zweite-sprache>watashitachi wa suru yotei da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="780">
     <erste-sprache>fogunk</erste-sprache><zweite-sprache>suru darō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="781">
     <erste-sprache>fog</erste-sprache><zweite-sprache>suru darō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>akarat</erste-sprache><zweite-sprache>ishi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>orvos</erste-sprache><zweite-sprache>ishi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>kő</erste-sprache><zweite-sprache>ishi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="783">
     <erste-sprache>fognak</erste-sprache><zweite-sprache>suru deshō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="784">
     <erste-sprache>nemzetközi</erste-sprache><zweite-sprache>kokusai-teki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="785">
     <erste-sprache>itt</erste-sprache><zweite-sprache>koko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="786">
     <erste-sprache>ide</erste-sprache><zweite-sprache>koko e</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="787">
     <erste-sprache>is</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
-    <erste-sprache>is</erste-sprache><zweite-sprache>mo</zweite-sprache>
+  <vokabel-paar schritt="787">
+    <erste-sprache>is</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="788">
     <erste-sprache>még egyszer</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="788">
     <erste-sprache>megint</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
-    <erste-sprache>mind</erste-sprache><zweite-sprache>mo</zweite-sprache>
+  <vokabel-paar schritt="789">
+    <erste-sprache>mind</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="790">
     <erste-sprache>mások</erste-sprache><zweite-sprache>hoka no hitotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="790">
     <erste-sprache>mások</erste-sprache><zweite-sprache>hoka no mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="791">
     <erste-sprache>másik</erste-sprache><zweite-sprache>betsu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="791">
     <erste-sprache>másik</erste-sprache><zweite-sprache>hoka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="792">
     <erste-sprache>USA</erste-sprache><zweite-sprache>Amerika</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="792">
     <erste-sprache>USA</erste-sprache><zweite-sprache>Beikoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="792">
     <erste-sprache>USA</erste-sprache><zweite-sprache>Amerika Gasshūkoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="793">
     <erste-sprache>Egyesült Államok</erste-sprache><zweite-sprache>Amerika Gasshūkoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="794">
     <erste-sprache>tanács</erste-sprache><zweite-sprache>hyōgikai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="794">
     <erste-sprache>tanács</erste-sprache><zweite-sprache>jogen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="795">
     <erste-sprache>tanácsadás</erste-sprache><zweite-sprache>jogen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="796">
     <erste-sprache>most</erste-sprache><zweite-sprache>ima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="797">
     <erste-sprache>ezek</erste-sprache><zweite-sprache>korera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="798">
     <erste-sprache>jogok</erste-sprache><zweite-sprache>kenri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="799">
     <erste-sprache>furcsa</erste-sprache><zweite-sprache>hen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="800">
     <erste-sprache>jelentés</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="800">
     <erste-sprache>jelentés</erste-sprache><zweite-sprache>hōkokusho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="801">
     <erste-sprache>értelem</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="801">
     <erste-sprache>érzék</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="802">
     <erste-sprache>jelentések</erste-sprache><zweite-sprache>hōkokusho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>minden</erste-sprache><zweite-sprache>subete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>minden</erste-sprache><zweite-sprache>subete no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>minden</erste-sprache><zweite-sprache>minna</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>minden</erste-sprache><zweite-sprache>sorezore no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>minden</erste-sprache><zweite-sprache>kaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="804">
     <erste-sprache>mind közül</erste-sprache><zweite-sprache>subete no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="805">
     <erste-sprache>mindenki</erste-sprache><zweite-sprache>minna</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="805">
     <erste-sprache>srácok</erste-sprache><zweite-sprache>minna</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="806">
     <erste-sprache>írni</erste-sprache><zweite-sprache>kaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="806">
     <erste-sprache>írunk</erste-sprache><zweite-sprache>kaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="806">
     <erste-sprache>ír</erste-sprache><zweite-sprache>kaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="807">
     <erste-sprache>kötelezettség</erste-sprache><zweite-sprache>gimu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="807">
     <erste-sprache>kötelezettségek</erste-sprache><zweite-sprache>gimu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="807">
     <erste-sprache>kötelesség</erste-sprache><zweite-sprache>gimu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="808">
     <erste-sprache>határozat</erste-sprache><zweite-sprache>ketsugi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="808">
     <erste-sprache>határozatok</erste-sprache><zweite-sprache>ketsugi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="809">
     <erste-sprache>beleértve</erste-sprache><zweite-sprache>fukumete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="810">
     <erste-sprache>alatt</erste-sprache><zweite-sprache>shita ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
-    <erste-sprache>alatt</erste-sprache><zweite-sprache>no aida</zweite-sprache>
+  <vokabel-paar schritt="810">
+    <erste-sprache>alatt</erste-sprache><zweite-sprache>-no aida</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
-    <erste-sprache>alatt</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
+  <vokabel-paar schritt="810">
+    <erste-sprache>alatt</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="811">
     <erste-sprache>között</erste-sprache><zweite-sprache>no aida de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
-    <erste-sprache>között</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
+  <vokabel-paar schritt="811">
+    <erste-sprache>között</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="812">
     <erste-sprache>munka</erste-sprache><zweite-sprache>shigoto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="812">
     <erste-sprache>munka</erste-sprache><zweite-sprache>rōdō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="813">
     <erste-sprache>munkák</erste-sprache><zweite-sprache>shigoto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="814">
     <erste-sprache>mű</erste-sprache><zweite-sprache>sakuhin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="815">
     <erste-sprache>dolgoznak</erste-sprache><zweite-sprache>hatarakimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="816">
     <erste-sprache>általános</erste-sprache><zweite-sprache>ippanteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="816">
     <erste-sprache>általános</erste-sprache><zweite-sprache>ippan no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="817">
     <erste-sprache>tábornok</erste-sprache><zweite-sprache>shōgun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="818">
     <erste-sprache>támogatni</erste-sprache><zweite-sprache>shiji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="818">
     <erste-sprache>támogatunk</erste-sprache><zweite-sprache>shiji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="818">
     <erste-sprache>támogat</erste-sprache><zweite-sprache>shiji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="819">
     <erste-sprache>támogatnak</erste-sprache><zweite-sprache>shiji shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="820">
     <erste-sprache>körül</erste-sprache><zweite-sprache>ni tsuite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
-    <erste-sprache>körül</erste-sprache><zweite-sprache>no mawari ni</zweite-sprache>
+  <vokabel-paar schritt="820">
+    <erste-sprache>körül</erste-sprache><zweite-sprache>-no mawari ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="821">
     <erste-sprache>ők</erste-sprache><zweite-sprache>kanojo-tachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="821">
     <erste-sprache>ők</erste-sprache><zweite-sprache>karera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="822">
     <erste-sprache>nemzeti</erste-sprache><zweite-sprache>kokka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>ad</erste-sprache><zweite-sprache>ataemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>ad</erste-sprache><zweite-sprache>ataeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="824">
     <erste-sprache>adni</erste-sprache><zweite-sprache>ataeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="824">
     <erste-sprache>adunk</erste-sprache><zweite-sprache>ataeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="825">
     <erste-sprache>figura</erste-sprache><zweite-sprache>zukei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="826">
+    <erste-sprache>ellen</erste-sprache><zweite-sprache>-ni hantai shite</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="826">
+    <erste-sprache>ellen</erste-sprache><zweite-sprache>tai</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="827">
     <erste-sprache>végrehajtás</erste-sprache><zweite-sprache>shikkō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="827">
     <erste-sprache>végrehajtás</erste-sprache><zweite-sprache>jisshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="828">
     <erste-sprache>készítettem</erste-sprache><zweite-sprache>tsukutta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="828">
     <erste-sprache>készítettél</erste-sprache><zweite-sprache>tsukutta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="828">
     <erste-sprache>készített</erste-sprache><zweite-sprache>tsukutta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="829">
     <erste-sprache>sok</erste-sprache><zweite-sprache>ōku no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="829">
     <erste-sprache>sok</erste-sprache><zweite-sprache>takusan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="830">
     <erste-sprache>sokan</erste-sprache><zweite-sprache>ōku no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="831">
     <erste-sprache>folyamatban lévő</erste-sprache><zweite-sprache>shinkōchū no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="832">
     <erste-sprache>azoknak</erste-sprache><zweite-sprache>arera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="834">
+  <vokabel-paar schritt="833">
     <erste-sprache>ennyi</erste-sprache><zweite-sprache>sore de owari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="834">
     <erste-sprache>nincs</erste-sprache><zweite-sprache>watashi ni wa nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="834">
     <erste-sprache>nincs</erste-sprache><zweite-sprache>nani mo motte inai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="835">
     <erste-sprache>kormány</erste-sprache><zweite-sprache>seifu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="835">
     <erste-sprache>kormányok</erste-sprache><zweite-sprache>seifu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="836">
     <erste-sprache>fa</erste-sprache><zweite-sprache>ki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="837">
     <erste-sprache>egész</erste-sprache><zweite-sprache>zentai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="837">
     <erste-sprache>egész</erste-sprache><zweite-sprache>kanzen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="838">
     <erste-sprache>teljes</erste-sprache><zweite-sprache>zentai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="838">
     <erste-sprache>teljes</erste-sprache><zweite-sprache>kanzen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="839">
     <erste-sprache>tevékenységek</erste-sprache><zweite-sprache>katsudō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="839">
     <erste-sprache>tevékenység</erste-sprache><zweite-sprache>katsudō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="840">
     <erste-sprache>hanem</erste-sprache><zweite-sprache>de wa naku</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="841">
+    <erste-sprache>mert</erste-sprache><zweite-sprache>-kara</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="841">
+    <erste-sprache>mert</erste-sprache><zweite-sprache>to iu no mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="842">
     <erste-sprache>fenntartani</erste-sprache><zweite-sprache>iji suru</zweite-sprache>
@@ -4305,7 +4311,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>valami</erste-sprache><zweite-sprache>nanika</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="851">
-    <erste-sprache>aki</erste-sprache><zweite-sprache>suru hito</zweite-sprache>
+    <erste-sprache>aki</erste-sprache><zweite-sprache>-suru hito</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="852">
     <erste-sprache>találkozás</erste-sprache><zweite-sprache>deai</zweite-sprache>
@@ -4550,200 +4556,200 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="896">
     <erste-sprache>volnánk</erste-sprache><zweite-sprache>darō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>darō</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="897">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>aru darō</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="897">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>karera wa motte ita darō</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="898">
-    <erste-sprache>lesz</erste-sprache><zweite-sprache>aru darō</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="899">
     <erste-sprache>erőfeszítések</erste-sprache><zweite-sprache>doryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="897">
     <erste-sprache>erőfeszítés</erste-sprache><zweite-sprache>doryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="898">
     <erste-sprache>fényképezőgép</erste-sprache><zweite-sprache>kamera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="899">
     <erste-sprache>gyerekek</erste-sprache><zweite-sprache>kodomotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="900">
     <erste-sprache>haladás</erste-sprache><zweite-sprache>shinpo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="900">
     <erste-sprache>haladások</erste-sprache><zweite-sprache>shinpo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="901">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>shōsū no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="901">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>wazuka na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="901">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>sukoshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>egy kicsit</erste-sprache><zweite-sprache>sukoshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>kicsit</erste-sprache><zweite-sprache>sukoshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>egy kis</erste-sprache><zweite-sprache>sukoshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="903">
     <erste-sprache>ajándék</erste-sprache><zweite-sprache>okurimono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="904">
     <erste-sprache>öröm</erste-sprache><zweite-sprache>tanoshimi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="904">
     <erste-sprache>öröm</erste-sprache><zweite-sprache>yorokobi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="905">
     <erste-sprache>látogatás</erste-sprache><zweite-sprache>hōmon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="906">
     <erste-sprache>melléklet</erste-sprache><zweite-sprache>tenpu fairu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>remélni</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>remélünk</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>remél</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>akarni</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>akarunk</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>akar</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="908">
     <erste-sprache>remél</erste-sprache><zweite-sprache>nozomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="909">
     <erste-sprache>akarunk</erste-sprache><zweite-sprache>watashitachi wa hoshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="910">
     <erste-sprache>akarnak</erste-sprache><zweite-sprache>nozomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="911">
     <erste-sprache>javasolni</erste-sprache><zweite-sprache>teian suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="911">
     <erste-sprache>javasolunk</erste-sprache><zweite-sprache>teian suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="911">
     <erste-sprache>javasol</erste-sprache><zweite-sprache>teian suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="912">
     <erste-sprache>javasol</erste-sprache><zweite-sprache>teian shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="913">
     <erste-sprache>javasolnak</erste-sprache><zweite-sprache>teian shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>megoldani</erste-sprache><zweite-sprache>kaiketsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>megoldunk</erste-sprache><zweite-sprache>kaiketsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>megold</erste-sprache><zweite-sprache>kaiketsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="915">
     <erste-sprache>megold</erste-sprache><zweite-sprache>kaiketsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="916">
     <erste-sprache>élet</erste-sprache><zweite-sprache>seimei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="916">
     <erste-sprache>élet</erste-sprache><zweite-sprache>seikatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="917">
     <erste-sprache>nyilatkozat</erste-sprache><zweite-sprache>sengen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="917">
     <erste-sprache>nyilatkozat</erste-sprache><zweite-sprache>seimei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="918">
     <erste-sprache>nyilatkozatok</erste-sprache><zweite-sprache>seimei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="919">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>yurusareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="919">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>yurusaremasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="919">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>jiyū na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="920">
     <erste-sprache>erőforrások</erste-sprache><zweite-sprache>shigen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="920">
     <erste-sprache>erőforrás</erste-sprache><zweite-sprache>shigen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="921">
     <erste-sprache>csupán</erste-sprache><zweite-sprache>tatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="922">
     <erste-sprache>igazságos</erste-sprache><zweite-sprache>kōsei na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="923">
     <erste-sprache>Németország</erste-sprache><zweite-sprache>Doitsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="924">
     <erste-sprache>másoknak</erste-sprache><zweite-sprache>hoka no hitotachi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="925">
     <erste-sprache>regionális</erste-sprache><zweite-sprache>chiikiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="926">
     <erste-sprache>központi bank</erste-sprache><zweite-sprache>chūō ginkō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="927">
     <erste-sprache>aljas</erste-sprache><zweite-sprache>ijiwaru na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="928">
     <erste-sprache>undorító</erste-sprache><zweite-sprache>iya na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="929">
     <erste-sprache>a mi</erste-sprache><zweite-sprache>watashitachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="930">
     <erste-sprache>csoport</erste-sprache><zweite-sprache>gurūpu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="930">
     <erste-sprache>csoportok</erste-sprache><zweite-sprache>gurūpu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="931">
     <erste-sprache>rendelés</erste-sprache><zweite-sprache>chūmon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="932">
     <erste-sprache>neki</erste-sprache><zweite-sprache>kare ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="932">
     <erste-sprache>neki</erste-sprache><zweite-sprache>kanojo ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="933">
     <erste-sprache>őt</erste-sprache><zweite-sprache>kare o</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="933">
     <erste-sprache>őt</erste-sprache><zweite-sprache>kanojo o</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="934">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>aru darō</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="934">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>-darō</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="934">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>karera wa motte ita darō</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="935">
+    <erste-sprache>lesz</erste-sprache><zweite-sprache>aru darō</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="936">
     <erste-sprache>segítség</erste-sprache><zweite-sprache>shien</zweite-sprache>
@@ -4995,7 +5001,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>párt</erste-sprache><zweite-sprache>seitō</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="991">
-    <erste-sprache>által</erste-sprache><zweite-sprache>ni yotte</zweite-sprache>
+    <erste-sprache>által</erste-sprache><zweite-sprache>-ni yotte</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="992">
     <erste-sprache>jogi</erste-sprache><zweite-sprache>hōteki na</zweite-sprache>
@@ -5487,7 +5493,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>mindenkinek</erste-sprache><zweite-sprache>subete ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1100">
-    <erste-sprache>bár</erste-sprache><zweite-sprache>keredomo</zweite-sprache>
+    <erste-sprache>bár</erste-sprache><zweite-sprache>-keredomo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1101">
     <erste-sprache>meg van csinálva</erste-sprache><zweite-sprache>sarete iru</zweite-sprache>
@@ -5604,7 +5610,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>faj</erste-sprache><zweite-sprache>shu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1121">
-    <erste-sprache>alapuló</erste-sprache><zweite-sprache>ni motozuku</zweite-sprache>
+    <erste-sprache>alapuló</erste-sprache><zweite-sprache>-ni motozuku</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1122">
     <erste-sprache>konfliktus</erste-sprache><zweite-sprache>funsō</zweite-sprache>
@@ -5907,7 +5913,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>feltételek</erste-sprache><zweite-sprache>jōken</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1192">
-    <erste-sprache>érintő</erste-sprache><zweite-sprache>ni kansuru</zweite-sprache>
+    <erste-sprache>érintő</erste-sprache><zweite-sprache>-ni kansuru</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1193">
     <erste-sprache>kevesebb</erste-sprache><zweite-sprache>yori sukunai</zweite-sprache>
@@ -6627,7 +6633,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>megerősítés</erste-sprache><zweite-sprache>kyōka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1347">
-    <erste-sprache>nevében</erste-sprache><zweite-sprache>o daihyō shite</zweite-sprache>
+    <erste-sprache>nevében</erste-sprache><zweite-sprache>-o daihyō shite</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1348">
     <erste-sprache>mennyiség</erste-sprache><zweite-sprache>ryō</zweite-sprache>
@@ -6666,7 +6672,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>találkozik</erste-sprache><zweite-sprache>aimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1355">
-    <erste-sprache>mögött</erste-sprache><zweite-sprache>no ushiro ni</zweite-sprache>
+    <erste-sprache>mögött</erste-sprache><zweite-sprache>-no ushiro ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1356">
     <erste-sprache>este</erste-sprache><zweite-sprache>yūgata</zweite-sprache>
@@ -6732,7 +6738,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>kezdeményezések</erste-sprache><zweite-sprache>torikumi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1370">
-    <erste-sprache>miután</erste-sprache><zweite-sprache>ta ato de</zweite-sprache>
+    <erste-sprache>miután</erste-sprache><zweite-sprache>-ta ato de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1371">
     <erste-sprache>azonnali</erste-sprache><zweite-sprache>sokuji no</zweite-sprache>
@@ -7545,7 +7551,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>vitt</erste-sprache><zweite-sprache>hakonda</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1560">
-    <erste-sprache>mielőtt</erste-sprache><zweite-sprache>suru mae ni</zweite-sprache>
+    <erste-sprache>mielőtt</erste-sprache><zweite-sprache>-suru mae ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1561">
     <erste-sprache>választás</erste-sprache><zweite-sprache>sentaku</zweite-sprache>
@@ -7929,7 +7935,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>elme</erste-sprache><zweite-sprache>seishin</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1640">
-    <erste-sprache>annak ellenére</erste-sprache><zweite-sprache>ni mo kakawarazu</zweite-sprache>
+    <erste-sprache>annak ellenére</erste-sprache><zweite-sprache>-ni mo kakawarazu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1641">
     <erste-sprache>március</erste-sprache><zweite-sprache>sangatsu</zweite-sprache>
@@ -8439,7 +8445,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>melyek</erste-sprache><zweite-sprache>dore</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1757">
-    <erste-sprache>amely</erste-sprache><zweite-sprache>suru mono</zweite-sprache>
+    <erste-sprache>amely</erste-sprache><zweite-sprache>-suru mono</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1758">
     <erste-sprache>klub</erste-sprache><zweite-sprache>kurabu</zweite-sprache>

@@ -366,6 +366,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>tidak</erste-sprache><zweite-sprache>hi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="76">
+    <erste-sprache>tidak</erste-sprache><zweite-sprache>-nai</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="76">
     <erste-sprache>tidak</erste-sprache><zweite-sprache>nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="76">
@@ -792,10 +795,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>di</erste-sprache><zweite-sprache>de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
-    <erste-sprache>di</erste-sprache><zweite-sprache>no soba de</zweite-sprache>
+    <erste-sprache>di</erste-sprache><zweite-sprache>-no soba de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
-    <erste-sprache>di</erste-sprache><zweite-sprache>naka ni・naka de</zweite-sprache>
+    <erste-sprache>di</erste-sprache><zweite-sprache>-de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="184">
+    <erste-sprache>di</erste-sprache><zweite-sprache>naka ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="184">
+    <erste-sprache>di</erste-sprache><zweite-sprache>naka de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
     <erste-sprache>di</erste-sprache><zweite-sprache>ue ni</zweite-sprache>
@@ -975,7 +984,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>proses-proses</erste-sprache><zweite-sprache>purosesu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="217">
-    <erste-sprache>melalui</erste-sprache><zweite-sprache>ni yotte</zweite-sprache>
+    <erste-sprache>melalui</erste-sprache><zweite-sprache>-ni yotte</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="217">
     <erste-sprache>melalui</erste-sprache><zweite-sprache>o tōshite</zweite-sprache>
@@ -999,10 +1008,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>tahun-tahun</erste-sprache><zweite-sprache>toshi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="219">
-    <erste-sprache>maupun</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>maupun</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="219">
-    <erste-sprache>baik</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>baik</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="220">
     <erste-sprache>cara</erste-sprache><zweite-sprache>hōhō</zweite-sprache>
@@ -1338,10 +1347,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>delapan</erste-sprache><zweite-sprache>yattsu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="295">
-    <erste-sprache>karena</erste-sprache><zweite-sprache>kara</zweite-sprache>
+    <erste-sprache>karena</erste-sprache><zweite-sprache>-kara</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="295">
     <erste-sprache>karena</erste-sprache><zweite-sprache>no tame ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="295">
+    <erste-sprache>karena</erste-sprache><zweite-sprache>-no tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="295">
     <erste-sprache>karena</erste-sprache><zweite-sprache>nanode</zweite-sprache>
@@ -2538,7 +2550,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>kemanusiaan</erste-sprache><zweite-sprache>jindōteki na</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="544">
-    <erste-sprache>berdasarkan</erste-sprache><zweite-sprache>ni motozuku</zweite-sprache>
+    <erste-sprache>berdasarkan</erste-sprache><zweite-sprache>-ni motozuku</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="545">
     <erste-sprache>diajukan</erste-sprache><zweite-sprache>teishutsu sareta</zweite-sprache>
@@ -2922,10 +2934,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>itu</erste-sprache><zweite-sprache>sono</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="632">
-    <erste-sprache>dengan</erste-sprache><zweite-sprache>suru koto de</zweite-sprache>
+    <erste-sprache>dengan</erste-sprache><zweite-sprache>-suru koto de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="633">
-    <erste-sprache>juga tidak</erste-sprache><zweite-sprache>mo nai</zweite-sprache>
+    <erste-sprache>juga tidak</erste-sprache><zweite-sprache>-mo nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="634">
     <erste-sprache>dirinya sendiri</erste-sprache><zweite-sprache>jibun jishin</zweite-sprache>
@@ -2961,7 +2973,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>untuk</erste-sprache><zweite-sprache>no tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="639">
-    <erste-sprache>untuk</erste-sprache><zweite-sprache>suru tame ni</zweite-sprache>
+    <erste-sprache>untuk</erste-sprache><zweite-sprache>-suru tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="640">
     <erste-sprache>urusan</erste-sprache><zweite-sprache>kotogara</zweite-sprache>
@@ -3306,7 +3318,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>apa pun</erste-sprache><zweite-sprache>nanika no</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="709">
-    <erste-sprache>tapi</erste-sprache><zweite-sprache>kedo</zweite-sprache>
+    <erste-sprache>tapi</erste-sprache><zweite-sprache>-kedo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="709">
     <erste-sprache>tapi</erste-sprache><zweite-sprache>demo</zweite-sprache>
@@ -3315,10 +3327,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>sebelum</erste-sprache><zweite-sprache>izen ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="710">
-    <erste-sprache>sebelum</erste-sprache><zweite-sprache>suru mae ni</zweite-sprache>
+    <erste-sprache>sebelum</erste-sprache><zweite-sprache>-suru mae ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="710">
-    <erste-sprache>sebelum</erste-sprache><zweite-sprache>no mae ni</zweite-sprache>
+    <erste-sprache>sebelum</erste-sprache><zweite-sprache>-no mae ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="711">
     <erste-sprache>bangsa-bangsa</erste-sprache><zweite-sprache>kuniguni</zweite-sprache>
@@ -3327,13 +3339,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>bangsa-bangsa</erste-sprache><zweite-sprache>shominzoku</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="712">
-    <erste-sprache>oleh</erste-sprache><zweite-sprache>ni yoru</zweite-sprache>
+    <erste-sprache>oleh</erste-sprache><zweite-sprache>-ni yoru</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="713">
-    <erste-sprache>jadilah</erste-sprache><zweite-sprache>de iro</zweite-sprache>
+    <erste-sprache>jadilah</erste-sprache><zweite-sprache>-de iro</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="713">
-    <erste-sprache>jadilah</erste-sprache><zweite-sprache>de ite kudasai</zweite-sprache>
+    <erste-sprache>jadilah</erste-sprache><zweite-sprache>-de ite kudasai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="714">
     <erste-sprache>jadi</erste-sprache><zweite-sprache>dakara</zweite-sprache>
@@ -3351,10 +3363,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>sebanyak itu</erste-sprache><zweite-sprache>sore dake</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="717">
-    <erste-sprache>di rumah</erste-sprache><zweite-sprache>no ie de</zweite-sprache>
+    <erste-sprache>di rumah</erste-sprache><zweite-sprache>-no ie de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="717">
-    <erste-sprache>di rumah</erste-sprache><zweite-sprache>nchi de</zweite-sprache>
+    <erste-sprache>di rumah</erste-sprache><zweite-sprache>-nchi de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="718">
     <erste-sprache>jangan</erste-sprache><zweite-sprache>shinaide</zweite-sprache>
@@ -3363,10 +3375,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>jangan</erste-sprache><zweite-sprache>shinaide okō</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="719">
-    <erste-sprache>setelah</erste-sprache><zweite-sprache>no ato ni</zweite-sprache>
+    <erste-sprache>setelah</erste-sprache><zweite-sprache>-no ato ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="719">
-    <erste-sprache>setelah</erste-sprache><zweite-sprache>ta ato de</zweite-sprache>
+    <erste-sprache>setelah</erste-sprache><zweite-sprache>-ta ato de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="720">
     <erste-sprache>bersatu</erste-sprache><zweite-sprache>tōitsu sareta</zweite-sprache>
@@ -3396,10 +3408,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>sekitar</erste-sprache><zweite-sprache>yaku</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="726">
-    <erste-sprache>sekitar</erste-sprache><zweite-sprache>no mawari ni</zweite-sprache>
+    <erste-sprache>sekitar</erste-sprache><zweite-sprache>-no mawari ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="727">
-    <erste-sprache>di sekitar</erste-sprache><zweite-sprache>no mawari ni</zweite-sprache>
+    <erste-sprache>di sekitar</erste-sprache><zweite-sprache>-no mawari ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="728">
     <erste-sprache>orang</erste-sprache><zweite-sprache>hito</zweite-sprache>
@@ -3477,1294 +3489,1294 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>akan</erste-sprache><zweite-sprache>suru deshō</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="743">
-    <erste-sprache>akan menjadi</erste-sprache><zweite-sprache>darō</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="744">
     <erste-sprache>internasional</erste-sprache><zweite-sprache>kokusai-teki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>zaman-zaman</erste-sprache><zweite-sprache>jidai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>era</erste-sprache><zweite-sprache>jidai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>zaman</erste-sprache><zweite-sprache>jidai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="745">
     <erste-sprache>di sini</erste-sprache><zweite-sprache>koko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="747">
+  <vokabel-paar schritt="746">
     <erste-sprache>ke sini</erste-sprache><zweite-sprache>koko e</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>juga</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>lagi</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="748">
     <erste-sprache>lagi</erste-sprache><zweite-sprache>futatabi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="750">
+  <vokabel-paar schritt="749">
     <erste-sprache>orang lain</erste-sprache><zweite-sprache>hoka no hitotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="750">
+  <vokabel-paar schritt="749">
     <erste-sprache>orang lain</erste-sprache><zweite-sprache>hoka no hitotachi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="750">
     <erste-sprache>lain</erste-sprache><zweite-sprache>betsu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="750">
     <erste-sprache>lain</erste-sprache><zweite-sprache>hoka no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>seharusnya</erste-sprache><zweite-sprache>beki da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>seharusnya</erste-sprache><zweite-sprache>beki desu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>dewan</erste-sprache><zweite-sprache>rijikai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>dewan</erste-sprache><zweite-sprache>hyōgikai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>nasihat</erste-sprache><zweite-sprache>jogen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>konsultasi</erste-sprache><zweite-sprache>jogen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>konsultasi</erste-sprache><zweite-sprache>kyōgi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>sekarang</erste-sprache><zweite-sprache>ima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="756">
     <erste-sprache>perkembangan</erste-sprache><zweite-sprache>hatten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>hak-hak</erste-sprache><zweite-sprache>kenri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>barang</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>benda</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>benda-benda</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>barang-barang</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="759">
     <erste-sprache>aneh</erste-sprache><zweite-sprache>hen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>resolusi</erste-sprache><zweite-sprache>ketsugi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>resolusi-resolusi</erste-sprache><zweite-sprache>ketsugi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>termasuk</erste-sprache><zweite-sprache>fukumete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>termasuk</erste-sprache><zweite-sprache>fukumareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>terkandung</erste-sprache><zweite-sprache>fukumarete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>terkandung</erste-sprache><zweite-sprache>fukumareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="763">
     <erste-sprache>pekerjaan</erste-sprache><zweite-sprache>shigoto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>karya</erste-sprache><zweite-sprache>sakuhin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>bekerja</erste-sprache><zweite-sprache>hataraite iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>bekerja</erste-sprache><zweite-sprache>hataraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>bekerja</erste-sprache><zweite-sprache>hatarakimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>daripada</erste-sprache><zweite-sprache>yori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>umum</erste-sprache><zweite-sprache>ippanteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>umum</erste-sprache><zweite-sprache>ippan no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>jenderal</erste-sprache><zweite-sprache>shōgun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>majelis</erste-sprache><zweite-sprache>sōkai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>mendukung</erste-sprache><zweite-sprache>sansei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>mendukung</erste-sprache><zweite-sprache>shiji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>mendukung</erste-sprache><zweite-sprache>shiji shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>mendukung</erste-sprache><zweite-sprache>shiji shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="771">
     <erste-sprache>tentang</erste-sprache><zweite-sprache>ni tsuite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="772">
     <erste-sprache>punya</erste-sprache><zweite-sprache>motte ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>memberi</erste-sprache><zweite-sprache>ataeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>memberi</erste-sprache><zweite-sprache>ataemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>memberi</erste-sprache><zweite-sprache>ataeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>menghabiskan</erste-sprache><zweite-sprache>sugoshita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>figur</erste-sprache><zweite-sprache>zukei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
-    <erste-sprache>melawan</erste-sprache><zweite-sprache>ni hantai shite</zweite-sprache>
+  <vokabel-paar schritt="776">
+    <erste-sprache>melawan</erste-sprache><zweite-sprache>-ni hantai shite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>melawan</erste-sprache><zweite-sprache>tai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
-    <erste-sprache>ingin</erste-sprache><zweite-sprache>tai</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="777">
     <erste-sprache>konvensi</erste-sprache><zweite-sprache>jōyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="777">
     <erste-sprache>perjanjian</erste-sprache><zweite-sprache>jōyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="778">
     <erste-sprache>perjanjian</erste-sprache><zweite-sprache>gōi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="778">
     <erste-sprache>perjanjian</erste-sprache><zweite-sprache>kyōtei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="778">
     <erste-sprache>perjanjian</erste-sprache><zweite-sprache>meiyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="779">
     <erste-sprache>kesepakatan</erste-sprache><zweite-sprache>torikime</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="779">
     <erste-sprache>kesepakatan</erste-sprache><zweite-sprache>gōi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="780">
     <erste-sprache>sekretaris</erste-sprache><zweite-sprache>hisho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="781">
     <erste-sprache>penerapan</erste-sprache><zweite-sprache>saiyō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="781">
     <erste-sprache>penerapan</erste-sprache><zweite-sprache>tekiyō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="781">
     <erste-sprache>penerapan</erste-sprache><zweite-sprache>jisshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>membuat</erste-sprache><zweite-sprache>tsukuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>membuat</erste-sprache><zweite-sprache>tsukurimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="782">
     <erste-sprache>membuat</erste-sprache><zweite-sprache>tsukutta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="783">
     <erste-sprache>banyak</erste-sprache><zweite-sprache>ōku no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="783">
     <erste-sprache>banyak</erste-sprache><zweite-sprache>takusan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="783">
     <erste-sprache>banyak</erste-sprache><zweite-sprache>tasū no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="784">
     <erste-sprache>sedang berlangsung</erste-sprache><zweite-sprache>shinkōchū no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="785">
     <erste-sprache>kepada mereka itu</erste-sprache><zweite-sprache>arera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="786">
     <erste-sprache>itu saja</erste-sprache><zweite-sprache>sore de owari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="787">
     <erste-sprache>pemerintah</erste-sprache><zweite-sprache>seifu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="788">
     <erste-sprache>pohon</erste-sprache><zweite-sprache>ki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="789">
     <erste-sprache>seluruh</erste-sprache><zweite-sprache>zentai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="789">
     <erste-sprache>total</erste-sprache><zweite-sprache>zentai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="790">
     <erste-sprache>melainkan</erste-sprache><zweite-sprache>de wa naku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="791">
     <erste-sprache>dengan baik</erste-sprache><zweite-sprache>yoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="791">
     <erste-sprache>dengan baik</erste-sprache><zweite-sprache>umaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="792">
     <erste-sprache>sebab</erste-sprache><zweite-sprache>to iu no mo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="793">
     <erste-sprache>mempertahankan</erste-sprache><zweite-sprache>iji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="793">
     <erste-sprache>mempertahankan</erste-sprache><zweite-sprache>iji shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="793">
     <erste-sprache>mempertahankan</erste-sprache><zweite-sprache>hoji shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="794">
     <erste-sprache>permainan</erste-sprache><zweite-sprache>gēmu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="795">
     <erste-sprache>gadis-gadis</erste-sprache><zweite-sprache>onnanoko-tachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="796">
     <erste-sprache>agar</erste-sprache><zweite-sprache>yō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="797">
     <erste-sprache>melintasi</erste-sprache><zweite-sprache>yokogitte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="797">
     <erste-sprache>melintasi</erste-sprache><zweite-sprache>o tōtte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="798">
     <erste-sprache>secara sederhana</erste-sprache><zweite-sprache>tanjun ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="799">
     <erste-sprache>aplikasi</erste-sprache><zweite-sprache>apuri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="799">
     <erste-sprache>aplikasi</erste-sprache><zweite-sprache>apurikēshon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="800">
     <erste-sprache>apa saja</erste-sprache><zweite-sprache>nandemo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="800">
     <erste-sprache>apa aja</erste-sprache><zweite-sprache>nandemo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="801">
     <erste-sprache>sesuatu</erste-sprache><zweite-sprache>nanika</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
-    <erste-sprache>yang</erste-sprache><zweite-sprache>suru hito</zweite-sprache>
+  <vokabel-paar schritt="802">
+    <erste-sprache>yang</erste-sprache><zweite-sprache>-suru hito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="802">
     <erste-sprache>yang</erste-sprache><zweite-sprache>sono hito no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
-    <erste-sprache>yang</erste-sprache><zweite-sprache>suru mono</zweite-sprache>
+  <vokabel-paar schritt="802">
+    <erste-sprache>yang</erste-sprache><zweite-sprache>-suru mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>yang ...-nya</erste-sprache><zweite-sprache>sono hito no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="803">
     <erste-sprache>yang ...-nya</erste-sprache><zweite-sprache>sono hitotachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="804">
     <erste-sprache>pertemuan</erste-sprache><zweite-sprache>deai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="804">
     <erste-sprache>pertemuan</erste-sprache><zweite-sprache>machiawase</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="805">
     <erste-sprache>membutuhkan</erste-sprache><zweite-sprache>hitsuyō to suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="805">
     <erste-sprache>membutuhkan</erste-sprache><zweite-sprache>hitsuyō to shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="806">
     <erste-sprache>kalau begitu</erste-sprache><zweite-sprache>nara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="807">
     <erste-sprache>republik</erste-sprache><zweite-sprache>kyōwakoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="808">
     <erste-sprache>sejak</erste-sprache><zweite-sprache>irai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
-    <erste-sprache>seperti</erste-sprache><zweite-sprache>no yō ni</zweite-sprache>
+  <vokabel-paar schritt="809">
+    <erste-sprache>seperti</erste-sprache><zweite-sprache>-no yō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="810">
     <erste-sprache>langkah-langkah</erste-sprache><zweite-sprache>taisaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="810">
     <erste-sprache>langkah-langkah</erste-sprache><zweite-sprache>tejun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="811">
     <erste-sprache>prosedur</erste-sprache><zweite-sprache>tetsuzuki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="811">
     <erste-sprache>prosedur</erste-sprache><zweite-sprache>tejun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="812">
     <erste-sprache>keinginan</erste-sprache><zweite-sprache>ganbō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="812">
     <erste-sprache>keinginan</erste-sprache><zweite-sprache>negai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="813">
     <erste-sprache>pedesaan</erste-sprache><zweite-sprache>inaka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="813">
     <erste-sprache>pedesaan</erste-sprache><zweite-sprache>nōson no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="814">
     <erste-sprache>musik country</erste-sprache><zweite-sprache>kantorī ongaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="815">
     <erste-sprache>keamanan</erste-sprache><zweite-sprache>anzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="815">
     <erste-sprache>keamanan</erste-sprache><zweite-sprache>anzen hoshō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="816">
     <erste-sprache>layanan</erste-sprache><zweite-sprache>sābisu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="817">
     <erste-sprache>sementara</erste-sprache><zweite-sprache>aida</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="817">
     <erste-sprache>sementara</erste-sprache><zweite-sprache>nagara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="817">
     <erste-sprache>sementara</erste-sprache><zweite-sprache>zanteiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="818">
     <erste-sprache>pintar</erste-sprache><zweite-sprache>kashikoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="818">
     <erste-sprache>bijaksana</erste-sprache><zweite-sprache>kashikoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="819">
     <erste-sprache>orang-orang</erste-sprache><zweite-sprache>hitobito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="820">
     <erste-sprache>jika</erste-sprache><zweite-sprache>moshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="821">
     <erste-sprache>tempat</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="821">
     <erste-sprache>tempat</erste-sprache><zweite-sprache>tokoro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="821">
     <erste-sprache>tempat</erste-sprache><zweite-sprache>kasho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="822">
     <erste-sprache>lokasi</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="822">
     <erste-sprache>tempat-tempat</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>mengambil</erste-sprache><zweite-sprache>toru koto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>mengambil</erste-sprache><zweite-sprache>totta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>mengambil</erste-sprache><zweite-sprache>toru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="823">
     <erste-sprache>mengambil</erste-sprache><zweite-sprache>torimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="824">
     <erste-sprache>memasak</erste-sprache><zweite-sprache>ryōri suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="824">
     <erste-sprache>memasak</erste-sprache><zweite-sprache>ryōri shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="825">
     <erste-sprache>mendiskusikan</erste-sprache><zweite-sprache>giron suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="825">
     <erste-sprache>mendiskusikan</erste-sprache><zweite-sprache>giron shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="826">
     <erste-sprache>menguji</erste-sprache><zweite-sprache>tesuto suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="826">
     <erste-sprache>menguji</erste-sprache><zweite-sprache>tesuto shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="827">
     <erste-sprache>kerja sama</erste-sprache><zweite-sprache>kyōryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="828">
     <erste-sprache>tidak ada apa-apa</erste-sprache><zweite-sprache>nani mo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="828">
     <erste-sprache>tidak ada apa-apa</erste-sprache><zweite-sprache>nanimo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="829">
     <erste-sprache>tidak ada</erste-sprache><zweite-sprache>nani mo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="829">
     <erste-sprache>tidak ada</erste-sprache><zweite-sprache>dono mo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="830">
     <erste-sprache>draf</erste-sprache><zweite-sprache>shitagaki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="831">
     <erste-sprache>cetak biru</erste-sprache><zweite-sprache>sekkeizu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="834">
+  <vokabel-paar schritt="832">
     <erste-sprache>anak-anak</erste-sprache><zweite-sprache>kodomotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="833">
     <erste-sprache>kemajuan</erste-sprache><zweite-sprache>shinpo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="833">
     <erste-sprache>kemajuan-kemajuan</erste-sprache><zweite-sprache>shinpo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="834">
     <erste-sprache>hadiah</erste-sprache><zweite-sprache>okurimono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="835">
     <erste-sprache>kegembiraan</erste-sprache><zweite-sprache>yorokobi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="836">
     <erste-sprache>mengusulkan</erste-sprache><zweite-sprache>teian suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="836">
     <erste-sprache>mengusulkan</erste-sprache><zweite-sprache>teian shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="836">
     <erste-sprache>mengusulkan</erste-sprache><zweite-sprache>teian shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="837">
     <erste-sprache>menyelesaikan</erste-sprache><zweite-sprache>kaiketsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="837">
     <erste-sprache>menyelesaikan</erste-sprache><zweite-sprache>kaiketsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="837">
     <erste-sprache>menyelesaikan</erste-sprache><zweite-sprache>oeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="838">
     <erste-sprache>mengakhiri</erste-sprache><zweite-sprache>oeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="838">
     <erste-sprache>mengakhiri</erste-sprache><zweite-sprache>oemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="838">
     <erste-sprache>mengakhiri</erste-sprache><zweite-sprache>oeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="839">
     <erste-sprache>boleh</erste-sprache><zweite-sprache>yurusareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="839">
     <erste-sprache>boleh</erste-sprache><zweite-sprache>yurusaremasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="840">
     <erste-sprache>sumber daya</erste-sprache><zweite-sprache>shigen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="843">
+  <vokabel-paar schritt="841">
     <erste-sprache>adil</erste-sprache><zweite-sprache>kōsei na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="844">
+  <vokabel-paar schritt="842">
     <erste-sprache>Jerman</erste-sprache><zweite-sprache>Doitsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="844">
+  <vokabel-paar schritt="842">
     <erste-sprache>Jerman</erste-sprache><zweite-sprache>doitsu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="845">
+  <vokabel-paar schritt="843">
     <erste-sprache>regional</erste-sprache><zweite-sprache>chiikiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="846">
-    <erste-sprache>antara</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
+  <vokabel-paar schritt="844">
+    <erste-sprache>antara</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="844">
+    <erste-sprache>selama</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="845">
+    <erste-sprache>selama</erste-sprache><zweite-sprache>-no aida</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="846">
-    <erste-sprache>selama</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="847">
-    <erste-sprache>selama</erste-sprache><zweite-sprache>no aida</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="848">
     <erste-sprache>yang lain</erste-sprache><zweite-sprache>hoka no mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="849">
+  <vokabel-paar schritt="847">
     <erste-sprache>bank sentral</erste-sprache><zweite-sprache>chūō ginkō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="850">
+  <vokabel-paar schritt="848">
     <erste-sprache>biasa saja</erste-sprache><zweite-sprache>mā mā</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="851">
+  <vokabel-paar schritt="849">
     <erste-sprache>jahat</erste-sprache><zweite-sprache>ijiwaru na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="852">
+  <vokabel-paar schritt="850">
     <erste-sprache>menjijikkan</erste-sprache><zweite-sprache>iya na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="853">
+  <vokabel-paar schritt="851">
     <erste-sprache>milik kami</erste-sprache><zweite-sprache>watashitachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="852">
     <erste-sprache>mungkin</erste-sprache><zweite-sprache>tabun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="852">
     <erste-sprache>mungkin</erste-sprache><zweite-sprache>kamoshirenai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="852">
     <erste-sprache>mungkin</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="854">
+  <vokabel-paar schritt="852">
     <erste-sprache>mungkin</erste-sprache><zweite-sprache>kanō na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="855">
+  <vokabel-paar schritt="853">
     <erste-sprache>barangkali</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="856">
+  <vokabel-paar schritt="854">
     <erste-sprache>kelompok</erste-sprache><zweite-sprache>gurūpu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="857">
+  <vokabel-paar schritt="855">
+    <erste-sprache>akan menjadi</erste-sprache><zweite-sprache>-darō</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="856">
     <erste-sprache>penggunaan</erste-sprache><zweite-sprache>shiyō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="857">
+  <vokabel-paar schritt="856">
     <erste-sprache>ayo</erste-sprache><zweite-sprache>shiyō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>menggunakan</erste-sprache><zweite-sprache>tsukatte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>menggunakan</erste-sprache><zweite-sprache>tsukau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>menggunakan</erste-sprache><zweite-sprache>tsukaimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="858">
+  <vokabel-paar schritt="857">
     <erste-sprache>menggunakan</erste-sprache><zweite-sprache>tsukatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="859">
+  <vokabel-paar schritt="858">
     <erste-sprache>memastikan</erste-sprache><zweite-sprache>kakuho suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="859">
+  <vokabel-paar schritt="858">
     <erste-sprache>memastikan</erste-sprache><zweite-sprache>kakuho shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="860">
+  <vokabel-paar schritt="859">
     <erste-sprache>dengan demikian</erste-sprache><zweite-sprache>sore ni yotte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="860">
     <erste-sprache>ekonomi</erste-sprache><zweite-sprache>keizai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="861">
+  <vokabel-paar schritt="860">
     <erste-sprache>ekonomi</erste-sprache><zweite-sprache>keizai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="862">
+  <vokabel-paar schritt="861">
     <erste-sprache>hemat</erste-sprache><zweite-sprache>keizaiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="863">
+  <vokabel-paar schritt="862">
     <erste-sprache>telepon</erste-sprache><zweite-sprache>denwa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="863">
+  <vokabel-paar schritt="862">
     <erste-sprache>telepon</erste-sprache><zweite-sprache>fon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="864">
+  <vokabel-paar schritt="863">
     <erste-sprache>panggilan</erste-sprache><zweite-sprache>denwa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="865">
+  <vokabel-paar schritt="864">
     <erste-sprache>buah</erste-sprache><zweite-sprache>kudamono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="866">
+  <vokabel-paar schritt="865">
     <erste-sprache>lebih lanjut</erste-sprache><zweite-sprache>sarani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="866">
+  <vokabel-paar schritt="865">
     <erste-sprache>selain itu</erste-sprache><zweite-sprache>sarani</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="866">
     <erste-sprache>harus</erste-sprache><zweite-sprache>shinakereba naranakatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="866">
     <erste-sprache>harus</erste-sprache><zweite-sprache>shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="867">
+  <vokabel-paar schritt="866">
     <erste-sprache>harus</erste-sprache><zweite-sprache>shinakereba narimasen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="868">
+  <vokabel-paar schritt="867">
     <erste-sprache>artikel</erste-sprache><zweite-sprache>kiji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="869">
+  <vokabel-paar schritt="868">
     <erste-sprache>sosial</erste-sprache><zweite-sprache>shakaiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="870">
+  <vokabel-paar schritt="869">
     <erste-sprache>harap ingat</erste-sprache><zweite-sprache>oboete oite kudasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="871">
+  <vokabel-paar schritt="870">
     <erste-sprache>kantor</erste-sprache><zweite-sprache>ofisu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="871">
+  <vokabel-paar schritt="870">
     <erste-sprache>kantor-kantor</erste-sprache><zweite-sprache>ofisu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="872">
+  <vokabel-paar schritt="871">
     <erste-sprache>khusus</erste-sprache><zweite-sprache>tokubetsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="873">
+  <vokabel-paar schritt="872">
     <erste-sprache>pengguna</erste-sprache><zweite-sprache>yūzā</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="874">
+  <vokabel-paar schritt="873">
     <erste-sprache>pesta</erste-sprache><zweite-sprache>pātī</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="875">
+  <vokabel-paar schritt="874">
     <erste-sprache>baru saja</erste-sprache><zweite-sprache>tatta ima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="876">
+  <vokabel-paar schritt="875">
     <erste-sprache>baru</erste-sprache><zweite-sprache>atarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="877">
+  <vokabel-paar schritt="876">
     <erste-sprache>saya mau</erste-sprache><zweite-sprache>watashi wa hoshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="878">
+  <vokabel-paar schritt="877">
     <erste-sprache>relevan</erste-sprache><zweite-sprache>kanren no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="878">
     <erste-sprache>berkembang</erste-sprache><zweite-sprache>hatten tojō no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="879">
+  <vokabel-paar schritt="878">
     <erste-sprache>berkembang</erste-sprache><zweite-sprache>kaihatsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="880">
+  <vokabel-paar schritt="879">
     <erste-sprache>asalkan</erste-sprache><zweite-sprache>to iu jōken de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="881">
+  <vokabel-paar schritt="880">
     <erste-sprache>bukan</erste-sprache><zweite-sprache>de wa nakatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="882">
+  <vokabel-paar schritt="881">
     <erste-sprache>lima</erste-sprache><zweite-sprache>go</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="883">
+  <vokabel-paar schritt="882">
     <erste-sprache>keputusan</erste-sprache><zweite-sprache>kettei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="884">
+  <vokabel-paar schritt="883">
     <erste-sprache>Desember</erste-sprache><zweite-sprache>jūnigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="885">
+  <vokabel-paar schritt="884">
     <erste-sprache>benar-benar</erste-sprache><zweite-sprache>hontō ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="886">
+  <vokabel-paar schritt="885">
     <erste-sprache>putih</erste-sprache><zweite-sprache>shiroi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="887">
+  <vokabel-paar schritt="886">
     <erste-sprache>publik</erste-sprache><zweite-sprache>kōkyō no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="888">
+  <vokabel-paar schritt="887">
     <erste-sprache>diadopsi</erste-sprache><zweite-sprache>saiyō sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="889">
+  <vokabel-paar schritt="888">
     <erste-sprache>mengadopsi</erste-sprache><zweite-sprache>saiyō shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="890">
+  <vokabel-paar schritt="889">
     <erste-sprache>staf</erste-sprache><zweite-sprache>shokuin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="890">
     <erste-sprache>wilayah</erste-sprache><zweite-sprache>chiiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="890">
     <erste-sprache>wilayah</erste-sprache><zweite-sprache>eria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
+  <vokabel-paar schritt="890">
     <erste-sprache>wilayah</erste-sprache><zweite-sprache>ryōdo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="892">
+  <vokabel-paar schritt="891">
     <erste-sprache>daerah</erste-sprache><zweite-sprache>eria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="893">
+  <vokabel-paar schritt="892">
     <erste-sprache>kesehatan</erste-sprache><zweite-sprache>kenkō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="894">
+  <vokabel-paar schritt="893">
     <erste-sprache>diadakan</erste-sprache><zweite-sprache>kaisai sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="894">
     <erste-sprache>mengadakan</erste-sprache><zweite-sprache>kaisai shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="895">
     <erste-sprache>tingkat</erste-sprache><zweite-sprache>reberu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="896">
     <erste-sprache>sedangkan</erste-sprache><zweite-sprache>ippō de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
-    <erste-sprache>mengenai</erste-sprache><zweite-sprache>ni kansuru</zweite-sprache>
+  <vokabel-paar schritt="897">
+    <erste-sprache>mengenai</erste-sprache><zweite-sprache>-ni kansuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="897">
     <erste-sprache>mengenai</erste-sprache><zweite-sprache>ni kanshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>pendidikan</erste-sprache><zweite-sprache>kyōiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="898">
     <erste-sprache>pendidikan</erste-sprache><zweite-sprache>shokugyō kunren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="899">
     <erste-sprache>akan memiliki</erste-sprache><zweite-sprache>motte iru darō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="899">
     <erste-sprache>akan memiliki</erste-sprache><zweite-sprache>karera wa motte ita darō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="900">
     <erste-sprache>perlindungan</erste-sprache><zweite-sprache>hogo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="901">
     <erste-sprache>para pihak</erste-sprache><zweite-sprache>tōjisha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="902">
     <erste-sprache>partai-partai</erste-sprache><zweite-sprache>seitō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="902">
     <erste-sprache>partai</erste-sprache><zweite-sprache>seitō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>hukum</erste-sprache><zweite-sprache>hōritsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="903">
     <erste-sprache>hukum</erste-sprache><zweite-sprache>hōteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="904">
     <erste-sprache>politik</erste-sprache><zweite-sprache>seijiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="905">
     <erste-sprache>serta</erste-sprache><zweite-sprache>oyobi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="906">
     <erste-sprache>melanjutkan</erste-sprache><zweite-sprache>tsuzukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="906">
     <erste-sprache>melanjutkan</erste-sprache><zweite-sprache>tsuzukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="906">
     <erste-sprache>melanjutkan</erste-sprache><zweite-sprache>tsuzuketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>berdiri</erste-sprache><zweite-sprache>tatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>berdiri</erste-sprache><zweite-sprache>tachimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="907">
     <erste-sprache>berdiri</erste-sprache><zweite-sprache>tatte ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="908">
     <erste-sprache>kesesuaian</erste-sprache><zweite-sprache>tekigō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="909">
     <erste-sprache>kapasitas</erste-sprache><zweite-sprache>nōryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="910">
     <erste-sprache>berikut</erste-sprache><zweite-sprache>tsugi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="910">
     <erste-sprache>mendatang</erste-sprache><zweite-sprache>tsugi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="910">
     <erste-sprache>berikutnya</erste-sprache><zweite-sprache>tsugi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="911">
     <erste-sprache>latihan</erste-sprache><zweite-sprache>renshū</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="911">
     <erste-sprache>latihan</erste-sprache><zweite-sprache>torēningu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="912">
     <erste-sprache>pelatihan</erste-sprache><zweite-sprache>kenshū</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>rasa hormat</erste-sprache><zweite-sprache>sonchō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="914">
     <erste-sprache>tidak pernah</erste-sprache><zweite-sprache>kesshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="915">
     <erste-sprache>jam tangan</erste-sprache><zweite-sprache>udedokei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="916">
     <erste-sprache>di antara</erste-sprache><zweite-sprache>no aida de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="917">
     <erste-sprache>rekomendasi</erste-sprache><zweite-sprache>suishō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="917">
     <erste-sprache>rekomendasi</erste-sprache><zweite-sprache>suishō jikō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="918">
     <erste-sprache>dunia</erste-sprache><zweite-sprache>sekai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="919">
     <erste-sprache>efektif</erste-sprache><zweite-sprache>kōkateki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>penting</erste-sprache><zweite-sprache>jūyō da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>penting</erste-sprache><zweite-sprache>fukaketsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="920">
     <erste-sprache>penting</erste-sprache><zweite-sprache>jūyō na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="921">
     <erste-sprache>signifikan</erste-sprache><zweite-sprache>jūyō na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="922">
     <erste-sprache>rute</erste-sprache><zweite-sprache>keiro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="923">
     <erste-sprache>sama sekali tidak</erste-sprache><zweite-sprache>zenzen nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>didirikan</erste-sprache><zweite-sprache>setsuritsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="924">
     <erste-sprache>didirikan</erste-sprache><zweite-sprache>kakuritsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>mendirikan</erste-sprache><zweite-sprache>setsuritsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>mendirikan</erste-sprache><zweite-sprache>kakuritsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>mendirikan</erste-sprache><zweite-sprache>kakuritsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="925">
     <erste-sprache>mendirikan</erste-sprache><zweite-sprache>kakuritsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="926">
     <erste-sprache>peran</erste-sprache><zweite-sprache>yakuwari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="927">
     <erste-sprache>mendapat</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="927">
     <erste-sprache>memperoleh</erste-sprache><zweite-sprache>eta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="928">
     <erste-sprache>memperoleh</erste-sprache><zweite-sprache>te ni ireta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>berpikir</erste-sprache><zweite-sprache>kangaeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>berpikir</erste-sprache><zweite-sprache>kangaemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="929">
     <erste-sprache>berpikir</erste-sprache><zweite-sprache>kangaeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="930">
     <erste-sprache>yang sama</erste-sprache><zweite-sprache>onaji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="930">
     <erste-sprache>hal yang sama</erste-sprache><zweite-sprache>onaji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="931">
+  <vokabel-paar schritt="930">
     <erste-sprache>sama</erste-sprache><zweite-sprache>onaji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="931">
     <erste-sprache>terkait</erste-sprache><zweite-sprache>kanrenzukerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="932">
     <erste-sprache>mengaitkan</erste-sprache><zweite-sprache>kanrenzuketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>pusat-pusat</erste-sprache><zweite-sprache>sentā</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="934">
+  <vokabel-paar schritt="933">
     <erste-sprache>pusat</erste-sprache><zweite-sprache>sentā</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="935">
+  <vokabel-paar schritt="934">
     <erste-sprache>pusat</erste-sprache><zweite-sprache>chūshin no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="936">
+  <vokabel-paar schritt="935">
     <erste-sprache>alami</erste-sprache><zweite-sprache>shizen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="937">
+  <vokabel-paar schritt="936">
     <erste-sprache>secara alami</erste-sprache><zweite-sprache>shizen ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="938">
+  <vokabel-paar schritt="937">
     <erste-sprache>jenis kelamin</erste-sprache><zweite-sprache>jendā</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="939">
+  <vokabel-paar schritt="938">
     <erste-sprache>kekerasan</erste-sprache><zweite-sprache>bōryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="939">
     <erste-sprache>saat ini</erste-sprache><zweite-sprache>genzai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="940">
+  <vokabel-paar schritt="939">
     <erste-sprache>saat ini</erste-sprache><zweite-sprache>genzai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="941">
+  <vokabel-paar schritt="940">
     <erste-sprache>pandangan</erste-sprache><zweite-sprache>kenkai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="942">
+  <vokabel-paar schritt="941">
     <erste-sprache>pemandangan</erste-sprache><zweite-sprache>nagame</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="943">
+  <vokabel-paar schritt="942">
     <erste-sprache>enam</erste-sprache><zweite-sprache>roku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="944">
+  <vokabel-paar schritt="943">
     <erste-sprache>butir</erste-sprache><zweite-sprache>kōmoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="945">
+  <vokabel-paar schritt="944">
     <erste-sprache>teknis</erste-sprache><zweite-sprache>gijutsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="946">
+  <vokabel-paar schritt="945">
     <erste-sprache>anggaran</erste-sprache><zweite-sprache>yosan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="946">
     <erste-sprache>sesuai</erste-sprache><zweite-sprache>tekisetsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="946">
     <erste-sprache>memadai</erste-sprache><zweite-sprache>tekisetsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="948">
+  <vokabel-paar schritt="947">
     <erste-sprache>ukuran</erste-sprache><zweite-sprache>saizu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="949">
+  <vokabel-paar schritt="948">
     <erste-sprache>penangkalan</erste-sprache><zweite-sprache>yokushi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="950">
+  <vokabel-paar schritt="949">
     <erste-sprache>nuklir</erste-sprache><zweite-sprache>kaku no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="951">
+  <vokabel-paar schritt="950">
     <erste-sprache>panjang</erste-sprache><zweite-sprache>nagai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>bagian</erste-sprache><zweite-sprache>bubun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="952">
+  <vokabel-paar schritt="951">
     <erste-sprache>bagian</erste-sprache><zweite-sprache>sekushon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="953">
+  <vokabel-paar schritt="952">
     <erste-sprache>bagian-bagian</erste-sprache><zweite-sprache>bubun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>segera</erste-sprache><zweite-sprache>sugu ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>segera</erste-sprache><zweite-sprache>mamonaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="955">
+  <vokabel-paar schritt="954">
     <erste-sprache>dengan cepat</erste-sprache><zweite-sprache>sugu ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="956">
+  <vokabel-paar schritt="955">
     <erste-sprache>tidak seorang pun</erste-sprache><zweite-sprache>dono mo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="957">
+  <vokabel-paar schritt="956">
     <erste-sprache>orang Afrika</erste-sprache><zweite-sprache>afurikajin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="958">
+  <vokabel-paar schritt="957">
     <erste-sprache>nanti</erste-sprache><zweite-sprache>ato de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="959">
+  <vokabel-paar schritt="958">
     <erste-sprache>juta</erste-sprache><zweite-sprache>hyakuman</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="960">
+  <vokabel-paar schritt="959">
     <erste-sprache>sebenarnya</erste-sprache><zweite-sprache>jitsu wa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="960">
     <erste-sprache>hampir</erste-sprache><zweite-sprache>hotondo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="961">
+  <vokabel-paar schritt="960">
     <erste-sprache>hampir</erste-sprache><zweite-sprache>hobo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="962">
+  <vokabel-paar schritt="961">
     <erste-sprache>hampir tidak</erste-sprache><zweite-sprache>karōjite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="962">
+  <vokabel-paar schritt="961">
     <erste-sprache>hampir tidak</erste-sprache><zweite-sprache>hotondo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="962">
     <erste-sprache>di sebelah kanan</erste-sprache><zweite-sprache>migi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
+  <vokabel-paar schritt="963">
     <erste-sprache>sangat</erste-sprache><zweite-sprache>totemo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="965">
+  <vokabel-paar schritt="964">
     <erste-sprache>tenaga kerja</erste-sprache><zweite-sprache>rōdō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="966">
+  <vokabel-paar schritt="965">
     <erste-sprache>punyaku</erste-sprache><zweite-sprache>watashi no mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="967">
+  <vokabel-paar schritt="966">
     <erste-sprache>orang Jerman</erste-sprache><zweite-sprache>doitsujin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>ketentuan</erste-sprache><zweite-sprache>kitei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="968">
+  <vokabel-paar schritt="967">
     <erste-sprache>aturan</erste-sprache><zweite-sprache>kitei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="969">
+  <vokabel-paar schritt="968">
     <erste-sprache>aturan</erste-sprache><zweite-sprache>kisoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="969">
     <erste-sprache>kasus-kasus</erste-sprache><zweite-sprache>jirei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="970">
+  <vokabel-paar schritt="969">
     <erste-sprache>kasus</erste-sprache><zweite-sprache>jirei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="970">
     <erste-sprache>pertimbangan</erste-sprache><zweite-sprache>kentō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="971">
+  <vokabel-paar schritt="970">
     <erste-sprache>peninjauan</erste-sprache><zweite-sprache>kentō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="972">
+  <vokabel-paar schritt="971">
     <erste-sprache>akhir</erste-sprache><zweite-sprache>shūryō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="973">
+  <vokabel-paar schritt="972">
     <erste-sprache>penutup</erste-sprache><zweite-sprache>owari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="974">
+  <vokabel-paar schritt="973">
     <erste-sprache>diberikan</erste-sprache><zweite-sprache>ataerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="974">
     <erste-sprache>tentu</erste-sprache><zweite-sprache>tashika ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="975">
+  <vokabel-paar schritt="974">
     <erste-sprache>memang</erste-sprache><zweite-sprache>tashika ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="976">
+  <vokabel-paar schritt="975">
     <erste-sprache>pengadilan</erste-sprache><zweite-sprache>saibansho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="977">
+  <vokabel-paar schritt="976">
     <erste-sprache>masing-masing</erste-sprache><zweite-sprache>sorezore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="978">
+  <vokabel-paar schritt="977">
     <erste-sprache>digunakan</erste-sprache><zweite-sprache>tsukawareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="979">
+  <vokabel-paar schritt="978">
     <erste-sprache>kerangka kerja</erste-sprache><zweite-sprache>wakugumi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="980">
+  <vokabel-paar schritt="979">
     <erste-sprache>lokal</erste-sprache><zweite-sprache>chiiki no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="981">
+  <vokabel-paar schritt="980">
     <erste-sprache>khawatir</erste-sprache><zweite-sprache>shinpai shite iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="982">
+  <vokabel-paar schritt="981">
     <erste-sprache>perdagangan</erste-sprache><zweite-sprache>bōeki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="983">
+  <vokabel-paar schritt="982">
     <erste-sprache>tersedia</erste-sprache><zweite-sprache>riyō kanō na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="984">
+  <vokabel-paar schritt="983">
     <erste-sprache>dana</erste-sprache><zweite-sprache>kikin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="984">
+  <vokabel-paar schritt="983">
     <erste-sprache>dana</erste-sprache><zweite-sprache>shikin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="984">
     <erste-sprache>kebetulan</erste-sprache><zweite-sprache>gūzen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="985">
+  <vokabel-paar schritt="984">
     <erste-sprache>kebetulan</erste-sprache><zweite-sprache>gūzen ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="986">
+  <vokabel-paar schritt="985">
     <erste-sprache>tonggak penting</erste-sprache><zweite-sprache>fushime</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="987">
+  <vokabel-paar schritt="986">
     <erste-sprache>terkenal</erste-sprache><zweite-sprache>yūmei na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="988">
+  <vokabel-paar schritt="987">
     <erste-sprache>tidak diketahui</erste-sprache><zweite-sprache>michi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="989">
+  <vokabel-paar schritt="988">
     <erste-sprache>iblis</erste-sprache><zweite-sprache>akuma</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="990">
+  <vokabel-paar schritt="989">
     <erste-sprache>penjaminan</erste-sprache><zweite-sprache>kakuho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="991">
+  <vokabel-paar schritt="990">
     <erste-sprache>hidup yang memuaskan</erste-sprache><zweite-sprache>jūjitsu shita jinsei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="992">
+  <vokabel-paar schritt="991">
     <erste-sprache>kecelakaan</erste-sprache><zweite-sprache>jiko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="992">
+  <vokabel-paar schritt="991">
     <erste-sprache>diri sendiri</erste-sprache><zweite-sprache>jiko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="993">
+  <vokabel-paar schritt="992">
     <erste-sprache>tersisa</erste-sprache><zweite-sprache>nokotta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="993">
+  <vokabel-paar schritt="992">
     <erste-sprache>tetap tinggal</erste-sprache><zweite-sprache>nokotta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="994">
+  <vokabel-paar schritt="993">
     <erste-sprache>represi</erste-sprache><zweite-sprache>dan'atsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="994">
     <erste-sprache>Oktober</erste-sprache><zweite-sprache>jūgatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="996">
-    <erste-sprache>walaupun</erste-sprache><zweite-sprache>keredomo</zweite-sprache>
+  <vokabel-paar schritt="995">
+    <erste-sprache>walaupun</erste-sprache><zweite-sprache>-keredomo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="997">
+  <vokabel-paar schritt="996">
     <erste-sprache>sudah dilakukan</erste-sprache><zweite-sprache>sarete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>tujuh</erste-sprache><zweite-sprache>nana</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>indah</erste-sprache><zweite-sprache>utsukushii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>indah sekali</erste-sprache><zweite-sprache>subarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>hebat</erste-sprache><zweite-sprache>subarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>keren</erste-sprache><zweite-sprache>subarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1000">
     <erste-sprache>hebat</erste-sprache><zweite-sprache>sugoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1002">
+  <vokabel-paar schritt="1001">
     <erste-sprache>wow</erste-sprache><zweite-sprache>sugoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>membantu</erste-sprache><zweite-sprache>tasukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>membantu</erste-sprache><zweite-sprache>tasukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>Eropa</erste-sprache><zweite-sprache>yōroppa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>Eropa</erste-sprache><zweite-sprache>yōroppa no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>mencatat</erste-sprache><zweite-sprache>shirushita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1005">
     <erste-sprache>sekretariat</erste-sprache><zweite-sprache>jimukyoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1006">
     <erste-sprache>alamat</erste-sprache><zweite-sprache>jūsho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>kepentingan</erste-sprache><zweite-sprache>jūyōsei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>makna</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>arti</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>indra</erste-sprache><zweite-sprache>imi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>mempertimbangkan</erste-sprache><zweite-sprache>kōryo suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>mempertimbangkan</erste-sprache><zweite-sprache>kōryo shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>mempertimbangkan</erste-sprache><zweite-sprache>kōryo shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1011">
+  <vokabel-paar schritt="1010">
     <erste-sprache>dipertimbangkan</erste-sprache><zweite-sprache>kōryo sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>jenis</erste-sprache><zweite-sprache>shurui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1012">
+  <vokabel-paar schritt="1011">
     <erste-sprache>jenis</erste-sprache><zweite-sprache>taipu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1013">
+  <vokabel-paar schritt="1012">
     <erste-sprache>spesies</erste-sprache><zweite-sprache>shu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1014">
+  <vokabel-paar schritt="1013">
     <erste-sprache>cepat</erste-sprache><zweite-sprache>hayai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1014">
+  <vokabel-paar schritt="1013">
     <erste-sprache>awal</erste-sprache><zweite-sprache>hayai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>awal</erste-sprache><zweite-sprache>hajimari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1015">
+  <vokabel-paar schritt="1014">
     <erste-sprache>awal</erste-sprache><zweite-sprache>sōki no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1015">
     <erste-sprache>mendorong</erste-sprache><zweite-sprache>sokushin suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1016">
+  <vokabel-paar schritt="1015">
     <erste-sprache>mendorong</erste-sprache><zweite-sprache>sokushin shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1017">
+  <vokabel-paar schritt="1016">
     <erste-sprache>konflik</erste-sprache><zweite-sprache>funsō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1018">
+  <vokabel-paar schritt="1017">
     <erste-sprache>mengajukan</erste-sprache><zweite-sprache>teishutsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1019">
+  <vokabel-paar schritt="1018">
     <erste-sprache>delegasi</erste-sprache><zweite-sprache>daihyōdan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1020">
+  <vokabel-paar schritt="1019">
     <erste-sprache>anak</erste-sprache><zweite-sprache>kodomo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1021">
+  <vokabel-paar schritt="1020">
     <erste-sprache>seseorang</erste-sprache><zweite-sprache>dareka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1022">
+  <vokabel-paar schritt="1021">
     <erste-sprache>diinginkan</erste-sprache><zweite-sprache>nozomareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1023">
+  <vokabel-paar schritt="1022">
     <erste-sprache>dicari</erste-sprache><zweite-sprache>shimei tehai sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1024">
+  <vokabel-paar schritt="1023">
     <erste-sprache>serikat</erste-sprache><zweite-sprache>rengō</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1025">
+  <vokabel-paar schritt="1024">
     <erste-sprache>kami bisa</erste-sprache><zweite-sprache>watashitachi wa dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1026">
+  <vokabel-paar schritt="1025">
     <erste-sprache>partisipasi</erste-sprache><zweite-sprache>sanka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1027">
+  <vokabel-paar schritt="1026">
     <erste-sprache>perangkat</erste-sprache><zweite-sprache>debaisu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1028">
+  <vokabel-paar schritt="1027">
     <erste-sprache>suci</erste-sprache><zweite-sprache>seinaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1029">
+  <vokabel-paar schritt="1028">
     <erste-sprache>dokumen</erste-sprache><zweite-sprache>bunsho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1030">
+  <vokabel-paar schritt="1029">
     <erste-sprache>sisi</erste-sprache><zweite-sprache>gawa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1030">
+    <erste-sprache>ingin</erste-sprache><zweite-sprache>-tai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1031">
     <erste-sprache>dengan senang hati</erste-sprache><zweite-sprache>yorokonde</zweite-sprache>
@@ -5577,7 +5589,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>penguatan</erste-sprache><zweite-sprache>kyōka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1226">
-    <erste-sprache>atas nama</erste-sprache><zweite-sprache>o daihyō shite</zweite-sprache>
+    <erste-sprache>atas nama</erste-sprache><zweite-sprache>-o daihyō shite</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1227">
     <erste-sprache>HIV</erste-sprache><zweite-sprache>eichi ai bui</zweite-sprache>
@@ -5589,7 +5601,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>per</erste-sprache><zweite-sprache>goto ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1230">
-    <erste-sprache>di belakang</erste-sprache><zweite-sprache>no ushiro ni</zweite-sprache>
+    <erste-sprache>di belakang</erste-sprache><zweite-sprache>-no ushiro ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1231">
     <erste-sprache>musik</erste-sprache><zweite-sprache>ongaku</zweite-sprache>
@@ -6465,7 +6477,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>menyerahkan</erste-sprache><zweite-sprache>teishutsu shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1454">
-    <erste-sprache>meskipun</erste-sprache><zweite-sprache>ni mo kakawarazu</zweite-sprache>
+    <erste-sprache>meskipun</erste-sprache><zweite-sprache>-ni mo kakawarazu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1455">
     <erste-sprache>Maret</erste-sprache><zweite-sprache>sangatsu</zweite-sprache>
@@ -7446,7 +7458,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>kinerja</erste-sprache><zweite-sprache>seinō</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1732">
-    <erste-sprache>melampaui</erste-sprache><zweite-sprache>no mukō ni</zweite-sprache>
+    <erste-sprache>melampaui</erste-sprache><zweite-sprache>-no mukō ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1733">
     <erste-sprache>pertahanan</erste-sprache><zweite-sprache>bōei</zweite-sprache>

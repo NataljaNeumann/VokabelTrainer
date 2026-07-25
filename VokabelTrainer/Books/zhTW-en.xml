@@ -807,7 +807,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>誰</erste-sprache><zweite-sprache>who</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="195">
-    <erste-sprache>的人</erste-sprache><zweite-sprache>who</zweite-sprache>
+    <erste-sprache>-的人</erste-sprache><zweite-sprache>who</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="196">
     <erste-sprache>到達</erste-sprache><zweite-sprache>arrival</zweite-sprache>
@@ -838,9 +838,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="204">
     <erste-sprache>蛤？</erste-sprache><zweite-sprache>huh</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="205">
-    <erste-sprache>TV</erste-sprache><zweite-sprache>TV</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="205">
     <erste-sprache>電視機</erste-sprache><zweite-sprache>TV</zweite-sprache>
@@ -4095,7 +4092,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>德國</erste-sprache><zweite-sprache>Germany</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="858">
-    <erste-sprache>/feɪ̯˥/</erste-sprache><zweite-sprache>non</zweite-sprache>
+    <erste-sprache>非</erste-sprache><zweite-sprache>non</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="859">
     <erste-sprache>區域性的</erste-sprache><zweite-sprache>regional</zweite-sprache>
@@ -5424,7 +5421,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>執行的</erste-sprache><zweite-sprache>executive</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1156">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>inter-</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>inter-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1157">
     <erste-sprache>協調</erste-sprache><zweite-sprache>coordination</zweite-sprache>
@@ -5706,7 +5703,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>馬德里</erste-sprache><zweite-sprache>Madrid</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1222">
-    <erste-sprache>noun; singular; ministry government department</erste-sprache><zweite-sprache>ministry</zweite-sprache>
+    <erste-sprache>部會</erste-sprache><zweite-sprache>ministry</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1223">
     <erste-sprache>維和</erste-sprache><zweite-sprache>peacekeeping</zweite-sprache>

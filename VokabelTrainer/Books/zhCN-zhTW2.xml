@@ -651,7 +651,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>谁</erste-sprache><zweite-sprache>ㄕㄟˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="186">
-    <erste-sprache>谁</erste-sprache><zweite-sprache>ㄉㄜ˙ ㄖㄣˊ</zweite-sprache>
+    <erste-sprache>谁</erste-sprache><zweite-sprache>-ㄉㄜ˙ ㄖㄣˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="187">
     <erste-sprache>到达</erste-sprache><zweite-sprache>ㄉㄠˋ ㄉㄚˊ</zweite-sprache>
@@ -879,7 +879,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>一个</erste-sprache><zweite-sprache>ㄧˊ ˙ㄍㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="232">
-    <erste-sprache>非</erste-sprache><zweite-sprache>particle/prefix; negation; ‘non-/not’</zweite-sprache>
+    <erste-sprache>非</erste-sprache><zweite-sprache>ㄈㄟ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="233">
     <erste-sprache>太</erste-sprache><zweite-sprache>ㄊㄞˋ</zweite-sprache>
@@ -6687,243 +6687,246 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>您去过</erste-sprache><zweite-sprache>ㄋㄧㄣˊ ㄧˇ ㄐㄧㄥ ㄑㄩˋ ㄌㄜ˙</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1910">
-    <erste-sprache>土著的</erste-sprache><zweite-sprache>ㄩㄢˊ ㄓㄨˋ ㄇㄧㄣˊ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>部</erste-sprache><zweite-sprache>ㄅㄨˋ ㄏㄨㄟˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1911">
-    <erste-sprache>艾滋病毒</erste-sprache><zweite-sprache>ㄖㄣˊ ㄌㄟˋ ㄇㄧㄢˇ ㄧˋ ㄑㄩㄝ ㄈㄚˊ ㄅㄧㄥˋ ㄉㄨˊ</zweite-sprache>
+    <erste-sprache>土著的</erste-sprache><zweite-sprache>ㄩㄢˊ ㄓㄨˋ ㄇㄧㄣˊ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1912">
-    <erste-sprache>宁可</erste-sprache><zweite-sprache>ㄈㄢˇ ㄦˊ</zweite-sprache>
+    <erste-sprache>艾滋病毒</erste-sprache><zweite-sprache>ㄖㄣˊ ㄌㄟˋ ㄇㄧㄢˇ ㄧˋ ㄑㄩㄝ ㄈㄚˊ ㄅㄧㄥˋ ㄉㄨˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1913">
-    <erste-sprache>示例</erste-sprache><zweite-sprache>ㄌㄧˋ ˙ㄗ</zweite-sprache>
+    <erste-sprache>宁可</erste-sprache><zweite-sprache>ㄈㄢˇ ㄦˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1914">
-    <erste-sprache>应付的</erste-sprache><zweite-sprache>ㄉㄠˋ ㄑㄧ ㄧㄥˋ ㄈㄨˋ ㄉㄜ˙</zweite-sprache>
+    <erste-sprache>示例</erste-sprache><zweite-sprache>ㄌㄧˋ ˙ㄗ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1915">
-    <erste-sprache>被报告的</erste-sprache><zweite-sprache>ㄧˇ ㄊㄨㄥ ㄅㄠˋ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>应付的</erste-sprache><zweite-sprache>ㄉㄠˋ ㄑㄧ ㄧㄥˋ ㄈㄨˋ ㄉㄜ˙</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1916">
-    <erste-sprache>报告了</erste-sprache><zweite-sprache>ㄊㄨㄥ ㄅㄠˋ ˙ㄌㄜ</zweite-sprache>
+    <erste-sprache>被报告的</erste-sprache><zweite-sprache>ㄧˇ ㄊㄨㄥ ㄅㄠˋ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1917">
-    <erste-sprache>最后</erste-sprache><zweite-sprache>ㄓㄨㄥ ㄩˊ</zweite-sprache>
+    <erste-sprache>报告了</erste-sprache><zweite-sprache>ㄊㄨㄥ ㄅㄠˋ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1918">
-    <erste-sprache>市盈率</erste-sprache><zweite-sprache>ㄅㄣˇ ㄧˋ ㄅㄧˇ</zweite-sprache>
+    <erste-sprache>最后</erste-sprache><zweite-sprache>ㄓㄨㄥ ㄩˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1919">
-    <erste-sprache>无论</erste-sprache><zweite-sprache>ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ</zweite-sprache>
+    <erste-sprache>市盈率</erste-sprache><zweite-sprache>ㄅㄣˇ ㄧˋ ㄅㄧˇ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1920">
-    <erste-sprache>周围</erste-sprache><zweite-sprache>ㄗㄞˋ ㄓㄡ ㄨㄟˊ</zweite-sprache>
+    <erste-sprache>无论</erste-sprache><zweite-sprache>ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1921">
-    <erste-sprache>建议了</erste-sprache><zweite-sprache>ㄊㄨㄟ ㄐㄧㄢˋ ˙ㄌㄜ</zweite-sprache>
+    <erste-sprache>周围</erste-sprache><zweite-sprache>ㄗㄞˋ ㄓㄡ ㄨㄟˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1922">
-    <erste-sprache>舱室</erste-sprache><zweite-sprache>ㄑㄩ ㄉㄨㄢˋ</zweite-sprache>
+    <erste-sprache>建议了</erste-sprache><zweite-sprache>ㄊㄨㄟ ㄐㄧㄢˋ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1923">
-    <erste-sprache>部队</erste-sprache><zweite-sprache>ㄨˇ ㄓㄨㄤ ㄅㄨˋ ㄉㄨㄟˋ</zweite-sprache>
+    <erste-sprache>舱室</erste-sprache><zweite-sprache>ㄑㄩ ㄉㄨㄢˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1924">
-    <erste-sprache>互联网</erste-sprache><zweite-sprache>ㄨㄤˇ ㄐㄧˋ ㄨㄤˇ ㄌㄨˋ</zweite-sprache>
+    <erste-sprache>部队</erste-sprache><zweite-sprache>ㄨˇ ㄓㄨㄤ ㄅㄨˋ ㄉㄨㄟˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1925">
-    <erste-sprache>呈现</erste-sprache><zweite-sprache>ㄐㄧㄝˋ ㄕㄠˋ</zweite-sprache>
+    <erste-sprache>互联网</erste-sprache><zweite-sprache>ㄨㄤˇ ㄐㄧˋ ㄨㄤˇ ㄌㄨˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1926">
-    <erste-sprache>知识</erste-sprache><zweite-sprache>ㄓ ㄕˋ</zweite-sprache>
+    <erste-sprache>呈现</erste-sprache><zweite-sprache>ㄐㄧㄝˋ ㄕㄠˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1927">
-    <erste-sprache>批准的</erste-sprache><zweite-sprache>ㄏㄜˊ ㄓㄨㄣˇ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>知识</erste-sprache><zweite-sprache>ㄓ ㄕˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1928">
-    <erste-sprache>批准了</erste-sprache><zweite-sprache>ㄏㄜˊ ㄓㄨㄣˇ ˙ㄌㄜ</zweite-sprache>
+    <erste-sprache>批准的</erste-sprache><zweite-sprache>ㄏㄜˊ ㄓㄨㄣˇ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1929">
-    <erste-sprache>帖子</erste-sprache><zweite-sprache>ㄊㄧㄝ ㄨㄣˊ</zweite-sprache>
+    <erste-sprache>批准了</erste-sprache><zweite-sprache>ㄏㄜˊ ㄓㄨㄣˇ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1930">
-    <erste-sprache>叶子</erste-sprache><zweite-sprache>ㄧㄝˋ ㄗ˙</zweite-sprache>
+    <erste-sprache>帖子</erste-sprache><zweite-sprache>ㄊㄧㄝ ㄨㄣˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1931">
-    <erste-sprache>牢固</erste-sprache><zweite-sprache>ㄐㄧㄢ ㄍㄨˋ ㄉㄜ˙</zweite-sprache>
+    <erste-sprache>叶子</erste-sprache><zweite-sprache>ㄧㄝˋ ㄗ˙</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1932">
-    <erste-sprache>始终</erste-sprache><zweite-sprache>ㄗㄨㄥˇ ㄕˋ</zweite-sprache>
+    <erste-sprache>牢固</erste-sprache><zweite-sprache>ㄐㄧㄢ ㄍㄨˋ ㄉㄜ˙</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1933">
-    <erste-sprache>说明了</erste-sprache><zweite-sprache>ㄔㄣˊ ㄕㄨˋ ˙ㄌㄜ</zweite-sprache>
+    <erste-sprache>始终</erste-sprache><zweite-sprache>ㄗㄨㄥˇ ㄕˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1934">
-    <erste-sprache>知情的</erste-sprache><zweite-sprache>ㄧˇ ㄅㄟˋ ㄍㄠˋ ㄓ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>说明了</erste-sprache><zweite-sprache>ㄔㄣˊ ㄕㄨˋ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1935">
-    <erste-sprache>形式</erste-sprache><zweite-sprache>ㄒㄧㄥˊ ㄕˋ</zweite-sprache>
+    <erste-sprache>知情的</erste-sprache><zweite-sprache>ㄧˇ ㄅㄟˋ ㄍㄠˋ ㄓ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1936">
-    <erste-sprache>害怕</erste-sprache><zweite-sprache>ㄎㄨㄥˇ ㄐㄩˋ</zweite-sprache>
+    <erste-sprache>形式</erste-sprache><zweite-sprache>ㄒㄧㄥˊ ㄕˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1937">
-    <erste-sprache>质量</erste-sprache><zweite-sprache>ㄆㄧㄣˇ ㄓˋ</zweite-sprache>
+    <erste-sprache>害怕</erste-sprache><zweite-sprache>ㄎㄨㄥˇ ㄐㄩˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1938">
-    <erste-sprache>靠近</erste-sprache><zweite-sprache>ㄐㄧㄣˋ ㄉㄜ˙</zweite-sprache>
+    <erste-sprache>质量</erste-sprache><zweite-sprache>ㄆㄧㄣˇ ㄓˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1939">
-    <erste-sprache>不知何故</erste-sprache><zweite-sprache>ㄅㄨˋ ㄓ ㄗㄣˇ ˙ㄇㄜ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>靠近</erste-sprache><zweite-sprache>ㄐㄧㄣˋ ㄉㄜ˙</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1940">
-    <erste-sprache>携带</erste-sprache><zweite-sprache>ㄅㄢ ㄩㄣˋ</zweite-sprache>
+    <erste-sprache>不知何故</erste-sprache><zweite-sprache>ㄅㄨˋ ㄓ ㄗㄣˇ ˙ㄇㄜ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1941">
-    <erste-sprache>转</erste-sprache><zweite-sprache>ㄓㄨㄢˇ ㄉㄨㄥˋ</zweite-sprache>
+    <erste-sprache>携带</erste-sprache><zweite-sprache>ㄅㄢ ㄩㄣˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1942">
-    <erste-sprache>反之</erste-sprache><zweite-sprache>ㄉㄨㄟˋ ㄘˇ ㄈㄢˇ ㄉㄨㄟˋ</zweite-sprache>
+    <erste-sprache>转</erste-sprache><zweite-sprache>ㄓㄨㄢˇ ㄉㄨㄥˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1943">
-    <erste-sprache>博弈论</erste-sprache><zweite-sprache>ㄙㄞˋ ㄐㄩˊ ㄌㄧˇ ㄌㄨㄣˋ</zweite-sprache>
+    <erste-sprache>反之</erste-sprache><zweite-sprache>ㄉㄨㄟˋ ㄘˇ ㄈㄢˇ ㄉㄨㄟˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1944">
-    <erste-sprache>时刻</erste-sprache><zweite-sprache>ㄆㄧㄢˋ ㄎㄜˋ</zweite-sprache>
+    <erste-sprache>博弈论</erste-sprache><zweite-sprache>ㄙㄞˋ ㄐㄩˊ ㄌㄧˇ ㄌㄨㄣˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1945">
-    <erste-sprache>视频</erste-sprache><zweite-sprache>ㄧㄥˇ ㄆㄧㄢˋ</zweite-sprache>
+    <erste-sprache>时刻</erste-sprache><zweite-sprache>ㄆㄧㄢˋ ㄎㄜˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1946">
-    <erste-sprache>残骸</erste-sprache><zweite-sprache>ㄧˊ ㄏㄞˊ</zweite-sprache>
+    <erste-sprache>视频</erste-sprache><zweite-sprache>ㄧㄥˇ ㄆㄧㄢˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1947">
-    <erste-sprache>已识别的</erste-sprache><zweite-sprache>ㄧˇ ㄅㄧㄢˋ ㄕˊ ˙ㄉㄜ</zweite-sprache>
+    <erste-sprache>残骸</erste-sprache><zweite-sprache>ㄧˊ ㄏㄞˊ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1948">
+    <erste-sprache>已识别的</erste-sprache><zweite-sprache>ㄧˇ ㄅㄧㄢˋ ㄕˊ ˙ㄉㄜ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1949">
     <erste-sprache>识别了</erste-sprache><zweite-sprache>ㄅㄧㄢˋ ㄕˊ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1949">
+  <vokabel-paar schritt="1950">
     <erste-sprache>糟糕</erste-sprache><zweite-sprache>ㄎㄠˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1949">
+  <vokabel-paar schritt="1950">
     <erste-sprache>糟糕</erste-sprache><zweite-sprache>ㄍㄢˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1950">
+  <vokabel-paar schritt="1951">
     <erste-sprache>变化</erste-sprache><zweite-sprache>ㄅㄧㄢˋ ㄍㄥ ㄕˋ ㄒㄧㄤˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1951">
+  <vokabel-paar schritt="1952">
     <erste-sprache>住</erste-sprache><zweite-sprache>ㄏㄨㄛˊ ㄒㄧㄚˋ ㄑㄩˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1952">
+  <vokabel-paar schritt="1953">
     <erste-sprache>请住</erste-sprache><zweite-sprache>ㄑㄧㄥˇ ㄏㄨㄛˊ ㄒㄧㄚˋ ㄑㄩˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1953">
+  <vokabel-paar schritt="1954">
     <erste-sprache>即</erste-sprache><zweite-sprache>ㄧㄝˇ ㄐㄧㄡˋ ㄕˋ ㄕㄨㄛ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1954">
+  <vokabel-paar schritt="1955">
     <erste-sprache>面貌</erste-sprache><zweite-sprache>ㄌㄧㄢˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1955">
+  <vokabel-paar schritt="1956">
     <erste-sprache>十</erste-sprache><zweite-sprache>ㄕˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1956">
+  <vokabel-paar schritt="1957">
     <erste-sprache>收益</erste-sprache><zweite-sprache>ㄧˋ ㄔㄨˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1957">
+  <vokabel-paar schritt="1958">
     <erste-sprache>省份</erste-sprache><zweite-sprache>ㄕㄥˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1958">
+  <vokabel-paar schritt="1959">
     <erste-sprache>丢失的</erste-sprache><zweite-sprache>ㄧˊ ㄕ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1959">
+  <vokabel-paar schritt="1960">
     <erste-sprache>米</erste-sprache><zweite-sprache>ㄍㄨㄥ ㄔˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1960">
+  <vokabel-paar schritt="1961">
     <erste-sprache>意思是</erste-sprache><zweite-sprache>ㄒㄧㄤˇ ㄅㄧㄠˇ ㄉㄚˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1961">
+  <vokabel-paar schritt="1962">
     <erste-sprache>嗯</erste-sprache><zweite-sprache>ㄏㄚˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1962">
+  <vokabel-paar schritt="1963">
     <erste-sprache>月份</erste-sprache><zweite-sprache>ㄕㄨˋ ˙ㄍㄜ ㄩㄝˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1963">
+  <vokabel-paar schritt="1964">
     <erste-sprache>次要的</erste-sprache><zweite-sprache>ㄑㄧㄥ ㄨㄟˊ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1964">
+  <vokabel-paar schritt="1965">
     <erste-sprache>心</erste-sprache><zweite-sprache>ㄒㄧㄣ ㄗㄤˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1965">
+  <vokabel-paar schritt="1966">
     <erste-sprache>有过</erste-sprache><zweite-sprache>ㄘㄥˊ ㄐㄧㄥ ㄧㄡˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1966">
+  <vokabel-paar schritt="1967">
     <erste-sprache>卡</erste-sprache><zweite-sprache>ㄎㄚˇ ㄆㄧㄢˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1967">
+  <vokabel-paar schritt="1968">
     <erste-sprache>以为</erste-sprache><zweite-sprache>ㄐㄧㄚˇ ㄉㄧㄥˋ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1968">
+  <vokabel-paar schritt="1969">
     <erste-sprache>以下</erste-sprache><zweite-sprache>ㄗㄞˋ ㄒㄧㄚˋ ㄈㄤ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1969">
+  <vokabel-paar schritt="1970">
     <erste-sprache>黑色</erste-sprache><zweite-sprache>ㄏㄟ ㄙㄜˋ ㄉㄜ˙</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1970">
+  <vokabel-paar schritt="1971">
     <erste-sprache>月</erste-sprache><zweite-sprache>ㄩㄝˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1971">
+  <vokabel-paar schritt="1972">
     <erste-sprache>性</erste-sprache><zweite-sprache>ㄒㄧㄥˋ ㄒㄧㄥˊ ㄨㄟˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1972">
+  <vokabel-paar schritt="1973">
     <erste-sprache>伙计们</erste-sprache><zweite-sprache>ㄉㄚˋ ㄐㄧㄚ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1973">
+  <vokabel-paar schritt="1974">
     <erste-sprache>有限责任公司</erste-sprache><zweite-sprache>ㄧㄡˇ ㄒㄧㄢˋ ㄗㄜˊ ㄖㄣˋ ㄍㄨㄥ ㄙ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1974">
+  <vokabel-paar schritt="1975">
     <erste-sprache>审判</erste-sprache><zweite-sprache>ㄆㄢˋ ㄐㄩㄝˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1975">
+  <vokabel-paar schritt="1976">
     <erste-sprache>成千上万的</erste-sprache><zweite-sprache>ㄕㄨˋ ㄑㄧㄢ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1976">
+  <vokabel-paar schritt="1977">
     <erste-sprache>死亡的</erste-sprache><zweite-sprache>ㄙˇ ㄑㄩˋ ㄉㄜ˙</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1977">
+  <vokabel-paar schritt="1978">
     <erste-sprache>狗屎</erste-sprache><zweite-sprache>ㄆㄧˋ ㄏㄨㄚˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1978">
+  <vokabel-paar schritt="1979">
     <erste-sprache>发达的</erste-sprache><zweite-sprache>ㄧˇ ㄎㄞ ㄈㄚ ˙ㄉㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1979">
+  <vokabel-paar schritt="1980">
     <erste-sprache>发展了</erste-sprache><zweite-sprache>ㄎㄞ ㄈㄚ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1980">
+  <vokabel-paar schritt="1981">
     <erste-sprache>识别</erste-sprache><zweite-sprache>ㄖㄣˋ ㄔㄨ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1981">
+  <vokabel-paar schritt="1982">
     <erste-sprache>右翼</erste-sprache><zweite-sprache>ㄧㄡˋ ㄧˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1982">
+  <vokabel-paar schritt="1983">
     <erste-sprache>驴</erste-sprache><zweite-sprache>ㄌㄩˊ ㄗ˙</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1983">
+  <vokabel-paar schritt="1984">
     <erste-sprache>夫妇</erste-sprache><zweite-sprache>ㄑㄧㄥˊ ㄌㄩˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1984">
+  <vokabel-paar schritt="1985">
     <erste-sprache>不可返回点</erste-sprache><zweite-sprache>ㄅㄨˋ ㄍㄨㄟ ㄉㄧㄢˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1985">
+  <vokabel-paar schritt="1986">
     <erste-sprache>罪犯</erste-sprache><zweite-sprache>ㄕㄡˋ ㄒㄧㄥˊ ㄖㄣˊ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1986">
+  <vokabel-paar schritt="1987">
     <erste-sprache>犯人</erste-sprache><zweite-sprache>ㄑㄧㄡˊ ㄈㄢˋ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1987">
+  <vokabel-paar schritt="1988">
     <erste-sprache>啥都行</erste-sprache><zweite-sprache>ㄕㄣˊ ㄇㄜ˙ ㄉㄡ ㄎㄜˇ ㄧˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1988">
+  <vokabel-paar schritt="1989">
     <erste-sprache>通知</erste-sprache><zweite-sprache>ㄕˋ ㄒㄧㄢ ㄊㄧˊ ㄒㄧㄥˇ</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

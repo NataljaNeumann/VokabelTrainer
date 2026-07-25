@@ -339,6 +339,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>व्यंजन</erste-sprache><zweite-sprache>りょうり</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="76">
+    <erste-sprache>नहीं</erste-sprache><zweite-sprache>-ない</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="76">
     <erste-sprache>नहीं</erste-sprache><zweite-sprache>ない</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="76">
@@ -870,16 +873,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>में</erste-sprache><zweite-sprache>で</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="209">
-    <erste-sprache>में</erste-sprache><zweite-sprache>なかに・なかで</zweite-sprache>
+    <erste-sprache>में</erste-sprache><zweite-sprache>なかに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="209">
     <erste-sprache>में</erste-sprache><zweite-sprache>なかへ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="209">
     <erste-sprache>में</erste-sprache><zweite-sprache>に</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="209">
-    <erste-sprache>में</erste-sprache><zweite-sprache>なかに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="210">
     <erste-sprache>हाँ</erste-sprache><zweite-sprache>はい</zweite-sprache>
@@ -939,7 +939,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>होता</erste-sprache><zweite-sprache>あるだろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="221">
-    <erste-sprache>होता</erste-sprache><zweite-sprache>だろう</zweite-sprache>
+    <erste-sprache>होता</erste-sprache><zweite-sprache>-だろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="222">
     <erste-sprache>लेख</erste-sprache><zweite-sprache>きじ</zweite-sprache>
@@ -3318,7 +3318,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>वे स्वयं</erste-sprache><zweite-sprache>かれらじしん</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="715">
-    <erste-sprache>न ही</erste-sprache><zweite-sprache>もない</zweite-sprache>
+    <erste-sprache>न ही</erste-sprache><zweite-sprache>-もない</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="716">
     <erste-sprache>बहुत ज़्यादा</erste-sprache><zweite-sprache>あまりにも</zweite-sprache>
@@ -3498,7 +3498,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>होगा</erste-sprache><zweite-sprache>だろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="748">
-    <erste-sprache>होंगे</erste-sprache><zweite-sprache>だろう</zweite-sprache>
+    <erste-sprache>इलाका</erste-sprache><zweite-sprache>えりあ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>इलाके</erste-sprache><zweite-sprache>えりあ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="749">
     <erste-sprache>से</erste-sprache><zweite-sprache>から</zweite-sprache>
@@ -3510,385 +3513,382 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>से</erste-sprache><zweite-sprache>より</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="750">
-    <erste-sprache>इलाका</erste-sprache><zweite-sprache>えりあ</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="750">
-    <erste-sprache>इलाके</erste-sprache><zweite-sprache>えりあ</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="751">
     <erste-sprache>विभाग</erste-sprache><zweite-sprache>ぶもん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>श्री</erste-sprache><zweite-sprache>さん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>प्राधिकरण</erste-sprache><zweite-sprache>きかん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>प्राधिकरण</erste-sprache><zweite-sprache>とうきょく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>अवधि</erste-sprache><zweite-sprache>きかん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>फिर से</erste-sprache><zweite-sprache>ふたたび</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>फिर से</erste-sprache><zweite-sprache>また</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>यहाँ तक कि</erste-sprache><zweite-sprache>さえ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="756">
     <erste-sprache>सावधान</erste-sprache><zweite-sprache>ちゅうい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>मामले</erste-sprache><zweite-sprache>ことがら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>मामले</erste-sprache><zweite-sprache>じれい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>समस्या</erste-sprache><zweite-sprache>もんだい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>समस्याएँ</erste-sprache><zweite-sprache>もんだい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="759">
     <erste-sprache>के ऊपर</erste-sprache><zweite-sprache>うえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>परिस्थितियाँ</erste-sprache><zweite-sprache>じょうきょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>स्थितियाँ</erste-sprache><zweite-sprache>じょうきょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>बढ़ता है</erste-sprache><zweite-sprache>ふえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>बढ़ता है</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>बढ़ते हैं</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>बढ़ते हैं</erste-sprache><zweite-sprache>せいちょうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="763">
     <erste-sprache>रास्ता</erste-sprache><zweite-sprache>みち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>होता है</erste-sprache><zweite-sprache>おこる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>मुश्किल से</erste-sprache><zweite-sprache>かろうじて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>मुश्किल से</erste-sprache><zweite-sprache>ほとんど</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>सब कुछ</erste-sprache><zweite-sprache>すべて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>हर</erste-sprache><zweite-sprache>それぞれの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>हर</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>सबका</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>लेते हैं</erste-sprache><zweite-sprache>とる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>लेते हैं</erste-sprache><zweite-sprache>とります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>लेता है</erste-sprache><zweite-sprache>とる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="771">
     <erste-sprache>आशा करते हैं</erste-sprache><zweite-sprache>のぞみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="772">
     <erste-sprache>चाहते हैं</erste-sprache><zweite-sprache>のぞみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>निर्माण</erste-sprache><zweite-sprache>こうちく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>निर्माण</erste-sprache><zweite-sprache>けんせつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>निर्माण</erste-sprache><zweite-sprache>さくせい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>खाते</erste-sprache><zweite-sprache>アカウント</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>बयान</erste-sprache><zweite-sprache>せいめい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>सुधारना</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>सुधारते हैं</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>सुधारता है</erste-sprache><zweite-sprache>かいぜんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="777">
     <erste-sprache>सुधारते हैं</erste-sprache><zweite-sprache>かいぜんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="778">
     <erste-sprache>तेज़</erste-sprache><zweite-sprache>はやい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="779">
     <erste-sprache>तुरंत</erste-sprache><zweite-sprache>すぐに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="780">
     <erste-sprache>अधिकार</erste-sprache><zweite-sprache>けんり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="781">
     <erste-sprache>कर्म</erste-sprache><zweite-sprache>こうい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="781">
     <erste-sprache>कृपा</erste-sprache><zweite-sprache>こうい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="782">
     <erste-sprache>चुनौतियाँ</erste-sprache><zweite-sprache>かだい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="783">
     <erste-sprache>और भी</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="783">
     <erste-sprache>और भी</erste-sprache><zweite-sprache>-も</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="784">
     <erste-sprache>रोकते हैं</erste-sprache><zweite-sprache>ふせぎます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="785">
     <erste-sprache>प्रत्येक</erste-sprache><zweite-sprache>それぞれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="786">
     <erste-sprache>लिखते हैं</erste-sprache><zweite-sprache>かきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="787">
     <erste-sprache>पढ़ते हैं</erste-sprache><zweite-sprache>よみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="788">
     <erste-sprache>मैं ख़ुद</erste-sprache><zweite-sprache>じぶんじしん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="789">
     <erste-sprache>दुर्घटना</erste-sprache><zweite-sprache>じこ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="790">
     <erste-sprache>दृष्टिकोण</erste-sprache><zweite-sprache>あぷろーち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="790">
     <erste-sprache>दृष्टिकोण</erste-sprache><zweite-sprache>けんかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="790">
     <erste-sprache>दृष्टिकोण</erste-sprache><zweite-sprache>みかた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="791">
     <erste-sprache>जगह</erste-sprache><zweite-sprache>ばしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="791">
     <erste-sprache>जगह</erste-sprache><zweite-sprache>ところ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="792">
     <erste-sprache>जीतते हैं</erste-sprache><zweite-sprache>かちます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="793">
     <erste-sprache>सुनते हैं</erste-sprache><zweite-sprache>ききます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="794">
     <erste-sprache>जीते हैं</erste-sprache><zweite-sprache>いきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="795">
     <erste-sprache>राष्ट्र</erste-sprache><zweite-sprache>こっか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="795">
     <erste-sprache>राष्ट्र</erste-sprache><zweite-sprache>くにぐに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="796">
     <erste-sprache>प्रांत</erste-sprache><zweite-sprache>しゅう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="796">
     <erste-sprache>सप्ताह</erste-sprache><zweite-sprache>しゅう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="796">
     <erste-sprache>हफ़्ते</erste-sprache><zweite-sprache>しゅう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>खोते हैं</erste-sprache><zweite-sprache>うしないます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="798">
     <erste-sprache>गिरते हैं</erste-sprache><zweite-sprache>おちます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="799">
     <erste-sprache>ज़रूर</erste-sprache><zweite-sprache>たしかに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="800">
     <erste-sprache>कुमारी</erste-sprache><zweite-sprache>おじょうさん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="801">
     <erste-sprache>दिखाते हैं</erste-sprache><zweite-sprache>みせます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>फिट होना</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>फिट होते हैं</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>फिट होता है</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>मिलना</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>मिलते हैं</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>मिलता है</erste-sprache><zweite-sprache>あう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="803">
     <erste-sprache>फिट होते हैं</erste-sprache><zweite-sprache>あいます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="804">
     <erste-sprache>मिलते हैं</erste-sprache><zweite-sprache>あいます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="805">
     <erste-sprache>बिक्री</erste-sprache><zweite-sprache>はんばいすう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="805">
     <erste-sprache>बिक्री</erste-sprache><zweite-sprache>うりあげ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="805">
     <erste-sprache>बिक्री</erste-sprache><zweite-sprache>はんばい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="806">
     <erste-sprache>वापस आते हैं</erste-sprache><zweite-sprache>もどります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="807">
     <erste-sprache>वापस जाते हैं</erste-sprache><zweite-sprache>もどります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="808">
     <erste-sprache>लौटते हैं</erste-sprache><zweite-sprache>もどります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="809">
     <erste-sprache>समझाते हैं</erste-sprache><zweite-sprache>せつめいします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="810">
     <erste-sprache>लगते हैं</erste-sprache><zweite-sprache>きこえます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="811">
     <erste-sprache>लगता है</erste-sprache><zweite-sprache>みえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="812">
     <erste-sprache>आनंद लेते हैं</erste-sprache><zweite-sprache>たのしみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="813">
     <erste-sprache>काम करते हैं</erste-sprache><zweite-sprache>はたらきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="814">
     <erste-sprache>कार्य हाथ में लेते हैं</erste-sprache><zweite-sprache>ひきうけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="815">
     <erste-sprache>मालिक हैं</erste-sprache><zweite-sprache>しょゆうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="816">
     <erste-sprache>कार्य करते हैं</erste-sprache><zweite-sprache>こうどうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="817">
     <erste-sprache>संचालित करते हैं</erste-sprache><zweite-sprache>じっしします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="818">
     <erste-sprache>लागू करते हैं</erste-sprache><zweite-sprache>じっしします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="819">
     <erste-sprache>कुछ नहीं</erste-sprache><zweite-sprache>なにもない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="821">
+  <vokabel-paar schritt="820">
     <erste-sprache>मौजूद हैं</erste-sprache><zweite-sprache>そんざいします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="822">
+  <vokabel-paar schritt="821">
     <erste-sprache>समझौता</erste-sprache><zweite-sprache>ごうい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="822">
     <erste-sprache>बाहर जाता है</erste-sprache><zweite-sprache>でかける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="823">
+  <vokabel-paar schritt="822">
     <erste-sprache>बाहर जाना</erste-sprache><zweite-sprache>でかける</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="824">
+  <vokabel-paar schritt="823">
     <erste-sprache>दावा करते हैं</erste-sprache><zweite-sprache>しゅちょうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="824">
     <erste-sprache>कहना चाहते हैं</erste-sprache><zweite-sprache>いとします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="826">
+  <vokabel-paar schritt="825">
     <erste-sprache>माँगा</erste-sprache><zweite-sprache>ようきゅうした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="827">
+  <vokabel-paar schritt="826">
     <erste-sprache>शुरू करते हैं</erste-sprache><zweite-sprache>はじめます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="828">
+  <vokabel-paar schritt="827">
     <erste-sprache>ज़ोर देते हैं</erste-sprache><zweite-sprache>きょうちょうします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="829">
+  <vokabel-paar schritt="828">
     <erste-sprache>ज़रूरत होती है</erste-sprache><zweite-sprache>ひつようとします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="830">
+  <vokabel-paar schritt="829">
     <erste-sprache>उनके पास होता</erste-sprache><zweite-sprache>かれらはもっていただろう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="831">
+  <vokabel-paar schritt="830">
     <erste-sprache>बढ़ावा देते हैं</erste-sprache><zweite-sprache>そくしんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="832">
+  <vokabel-paar schritt="831">
     <erste-sprache>सहायता करते हैं</erste-sprache><zweite-sprache>たすけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="833">
+  <vokabel-paar schritt="832">
     <erste-sprache>मदद करते हैं</erste-sprache><zweite-sprache>たすけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="834">
+  <vokabel-paar schritt="833">
     <erste-sprache>जमा करते हैं</erste-sprache><zweite-sprache>ていしゅつします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="835">
+  <vokabel-paar schritt="834">
     <erste-sprache>कोशिश करते हैं</erste-sprache><zweite-sprache>こころみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="836">
+  <vokabel-paar schritt="835">
     <erste-sprache>संबंधित करते हैं</erste-sprache><zweite-sprache>かんれんづけます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="837">
+  <vokabel-paar schritt="836">
     <erste-sprache>सार्वजनिक लिमिटेड कंपनी</erste-sprache><zweite-sprache>かぶしきがいしゃ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="838">
+  <vokabel-paar schritt="837">
     <erste-sprache>मैं करूँगा</erste-sprache><zweite-sprache>わたしはします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="838">
     <erste-sprache>पहुँचते हैं</erste-sprache><zweite-sprache>とうちゃくする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="839">
+  <vokabel-paar schritt="838">
     <erste-sprache>पहुँचते हैं</erste-sprache><zweite-sprache>とうちゃくします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="840">
+  <vokabel-paar schritt="839">
     <erste-sprache>पहुँचता है</erste-sprache><zweite-sprache>とうちゃくする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="840">
     <erste-sprache>थोड़ा</erste-sprache><zweite-sprache>すこし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="841">
+  <vokabel-paar schritt="840">
     <erste-sprache>थोड़ा</erste-sprache><zweite-sprache>わずかな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="841">
     <erste-sprache>कई</erste-sprache><zweite-sprache>おおくの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="842">
+  <vokabel-paar schritt="841">
     <erste-sprache>कई</erste-sprache><zweite-sprache>いくつか</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="842">
+    <erste-sprache>होंगे</erste-sprache><zweite-sprache>だろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="843">
     <erste-sprache>पुनः</erste-sprache><zweite-sprache>ふたたび</zweite-sprache>
@@ -4440,7 +4440,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>कुछ भी</erste-sprache><zweite-sprache>なんでも</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="958">
-    <erste-sprache>जो</erste-sprache><zweite-sprache>するひと</zweite-sprache>
+    <erste-sprache>जो</erste-sprache><zweite-sprache>-するひと</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="958">
     <erste-sprache>जो</erste-sprache><zweite-sprache>それら</zweite-sprache>
@@ -4467,7 +4467,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>जैसे</erste-sprache><zweite-sprache>たとえば</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="964">
-    <erste-sprache>जैसे</erste-sprache><zweite-sprache>のように</zweite-sprache>
+    <erste-sprache>जैसे</erste-sprache><zweite-sprache>-のように</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="965">
     <erste-sprache>उदाहरण के लिए</erste-sprache><zweite-sprache>たとえば</zweite-sprache>
@@ -5490,10 +5490,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>पूर्ण</erste-sprache><zweite-sprache>かんぜんな</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1192">
-    <erste-sprache>चाहूँगा</erste-sprache><zweite-sprache>たい</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1192">
-    <erste-sprache>विरुद्ध</erste-sprache><zweite-sprache>たい</zweite-sprache>
+    <erste-sprache>चाहूँगा</erste-sprache><zweite-sprache>-たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1193">
     <erste-sprache>अतिरिक्त</erste-sprache><zweite-sprache>ついかの</zweite-sprache>
@@ -6513,7 +6510,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>मज़बूती</erste-sprache><zweite-sprache>きょうか</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1449">
-    <erste-sprache>की ओर से</erste-sprache><zweite-sprache>をだいひょうして</zweite-sprache>
+    <erste-sprache>की ओर से</erste-sprache><zweite-sprache>-をだいひょうして</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1450">
     <erste-sprache>राशि</erste-sprache><zweite-sprache>きんがく</zweite-sprache>
@@ -7863,7 +7860,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>जीइए</erste-sprache><zweite-sprache>いきてください</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1791">
-    <erste-sprache>करने के लिए</erste-sprache><zweite-sprache>するために</zweite-sprache>
+    <erste-sprache>करने के लिए</erste-sprache><zweite-sprache>-するために</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1792">
     <erste-sprache>प्राप्त</erste-sprache><zweite-sprache>たっせいされた</zweite-sprache>
@@ -8934,216 +8931,219 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>गाँव</erste-sprache><zweite-sprache>むら</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2095">
-    <erste-sprache>जा रहा था</erste-sprache><zweite-sprache>いっていた</zweite-sprache>
+    <erste-sprache>विरुद्ध</erste-sprache><zweite-sprache>たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="2096">
+    <erste-sprache>जा रहा था</erste-sprache><zweite-sprache>いっていた</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="2097">
     <erste-sprache>वज़न</erste-sprache><zweite-sprache>じゅうりょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2097">
+  <vokabel-paar schritt="2098">
     <erste-sprache>भेंट करना</erste-sprache><zweite-sprache>ほうもんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2097">
+  <vokabel-paar schritt="2098">
     <erste-sprache>भेंट करते हैं</erste-sprache><zweite-sprache>ほうもんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2097">
+  <vokabel-paar schritt="2098">
     <erste-sprache>भेंट करता है</erste-sprache><zweite-sprache>ほうもんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2098">
+  <vokabel-paar schritt="2099">
     <erste-sprache>भेंट करते हैं</erste-sprache><zweite-sprache>ほうもんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2099">
+  <vokabel-paar schritt="2100">
     <erste-sprache>चिह्न</erste-sprache><zweite-sprache>しるし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2100">
+  <vokabel-paar schritt="2101">
     <erste-sprache>आकाश</erste-sprache><zweite-sprache>そら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2101">
+  <vokabel-paar schritt="2102">
     <erste-sprache>आवश्यक था</erste-sprache><zweite-sprache>ひつようだった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2102">
+  <vokabel-paar schritt="2103">
     <erste-sprache>कहेगा</erste-sprache><zweite-sprache>いうだろう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2103">
+  <vokabel-paar schritt="2104">
     <erste-sprache>स्विस</erste-sprache><zweite-sprache>すいすの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2103">
+  <vokabel-paar schritt="2104">
     <erste-sprache>स्विस</erste-sprache><zweite-sprache>すいすじん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2104">
+  <vokabel-paar schritt="2105">
     <erste-sprache>घृणा के लिए उकसाना</erste-sprache><zweite-sprache>ぞうおせんどう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2105">
+  <vokabel-paar schritt="2106">
     <erste-sprache>सत्तावादी</erste-sprache><zweite-sprache>けんいしゅぎてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2106">
+  <vokabel-paar schritt="2107">
     <erste-sprache>स्व-प्रभावकारिता</erste-sprache><zweite-sprache>じここうりょくかん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2107">
+  <vokabel-paar schritt="2108">
     <erste-sprache>द्विदलीय</erste-sprache><zweite-sprache>ちょうとうはの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2108">
+  <vokabel-paar schritt="2109">
     <erste-sprache>बॉन्ड</erste-sprache><zweite-sprache>さいけん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2109">
+  <vokabel-paar schritt="2110">
     <erste-sprache>गठबंधन</erste-sprache><zweite-sprache>れんりつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2110">
+  <vokabel-paar schritt="2111">
     <erste-sprache>साम्राज्य</erste-sprache><zweite-sprache>ていこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2111">
+  <vokabel-paar schritt="2112">
     <erste-sprache>यार</erste-sprache><zweite-sprache>なかま</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2112">
+  <vokabel-paar schritt="2113">
     <erste-sprache>पक्की सहेली</erste-sprache><zweite-sprache>しんゆう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2113">
+  <vokabel-paar schritt="2114">
     <erste-sprache>सुप्रभात</erste-sprache><zweite-sprache>おはよう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2114">
+  <vokabel-paar schritt="2115">
     <erste-sprache>कर्ज़</erste-sprache><zweite-sprache>しゃっきん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2115">
+  <vokabel-paar schritt="2116">
     <erste-sprache>उसके बिना</erste-sprache><zweite-sprache>かれぬきで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2115">
+  <vokabel-paar schritt="2116">
     <erste-sprache>उसके बिना</erste-sprache><zweite-sprache>かのじょぬきで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2116">
+  <vokabel-paar schritt="2117">
     <erste-sprache>मेरे बिना</erste-sprache><zweite-sprache>わたしぬきで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2117">
+  <vokabel-paar schritt="2118">
     <erste-sprache>शादी</erste-sprache><zweite-sprache>けっこんしき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2118">
+  <vokabel-paar schritt="2119">
     <erste-sprache>कमीज़</erste-sprache><zweite-sprache>しゃつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2119">
+  <vokabel-paar schritt="2120">
     <erste-sprache>शेयर बाज़ार</erste-sprache><zweite-sprache>しょうけんとりひきじょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2120">
+  <vokabel-paar schritt="2121">
     <erste-sprache>शेयर</erste-sprache><zweite-sprache>かぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2121">
+  <vokabel-paar schritt="2122">
     <erste-sprache>वापसी न होने का बिंदु</erste-sprache><zweite-sprache>ひきかえせないちてん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2122">
+  <vokabel-paar schritt="2123">
     <erste-sprache>फ़र्श</erste-sprache><zweite-sprache>ゆか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2123">
+  <vokabel-paar schritt="2124">
     <erste-sprache>आपूर्ति</erste-sprache><zweite-sprache>きょうきゅう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2124">
+  <vokabel-paar schritt="2125">
     <erste-sprache>धोखाधड़ी</erste-sprache><zweite-sprache>さぎ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2125">
+  <vokabel-paar schritt="2126">
     <erste-sprache>क़ैदी</erste-sprache><zweite-sprache>しゅうじん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2126">
+  <vokabel-paar schritt="2127">
     <erste-sprache>जूते के तलवे</erste-sprache><zweite-sprache>なかじき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2127">
+  <vokabel-paar schritt="2128">
     <erste-sprache>जमा राशियाँ</erste-sprache><zweite-sprache>よきん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2128">
+  <vokabel-paar schritt="2129">
     <erste-sprache>अक्षर</erste-sprache><zweite-sprache>もじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2129">
+  <vokabel-paar schritt="2130">
     <erste-sprache>धन का प्रतीक</erste-sprache><zweite-sprache>とみのしょうちょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2130">
+  <vokabel-paar schritt="2131">
     <erste-sprache>पालन-पोषण करना</erste-sprache><zweite-sprache>やしなう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2130">
+  <vokabel-paar schritt="2131">
     <erste-sprache>पालन-पोषण करते हैं</erste-sprache><zweite-sprache>やしなう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2130">
+  <vokabel-paar schritt="2131">
     <erste-sprache>पालन-पोषण करता है</erste-sprache><zweite-sprache>やしなう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2131">
+  <vokabel-paar schritt="2132">
     <erste-sprache>पालन-पोषण करते हैं</erste-sprache><zweite-sprache>やしないます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2132">
+  <vokabel-paar schritt="2133">
     <erste-sprache>बुलाना</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2132">
+  <vokabel-paar schritt="2133">
     <erste-sprache>बुलाते हैं</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2132">
+  <vokabel-paar schritt="2133">
     <erste-sprache>बुलाता है</erste-sprache><zweite-sprache>よぶ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2133">
+  <vokabel-paar schritt="2134">
     <erste-sprache>बुलाते हैं</erste-sprache><zweite-sprache>よびます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2134">
+  <vokabel-paar schritt="2135">
     <erste-sprache>शून्य</erste-sprache><zweite-sprache>ぜろ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2135">
+  <vokabel-paar schritt="2136">
     <erste-sprache>सूची</erste-sprache><zweite-sprache>りすと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2136">
+  <vokabel-paar schritt="2137">
     <erste-sprache>भारत</erste-sprache><zweite-sprache>いんど</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2137">
+  <vokabel-paar schritt="2138">
     <erste-sprache>मारना</erste-sprache><zweite-sprache>うつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2137">
+  <vokabel-paar schritt="2138">
     <erste-sprache>मारता है</erste-sprache><zweite-sprache>うつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2138">
+  <vokabel-paar schritt="2139">
     <erste-sprache>साझेदार</erste-sprache><zweite-sprache>ぱーとなー</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2139">
+  <vokabel-paar schritt="2140">
     <erste-sprache>वैसे भी</erste-sprache><zweite-sprache>とにかく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2140">
+  <vokabel-paar schritt="2141">
     <erste-sprache>उतना</erste-sprache><zweite-sprache>それだけ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2141">
+  <vokabel-paar schritt="2142">
     <erste-sprache>अनुप्रयोग</erste-sprache><zweite-sprache>あぷりけーしょん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2142">
+  <vokabel-paar schritt="2143">
     <erste-sprache>प्रयोग</erste-sprache><zweite-sprache>てきよう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2143">
+  <vokabel-paar schritt="2144">
     <erste-sprache>बुनियादी ढाँचा</erste-sprache><zweite-sprache>いんふら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2144">
+  <vokabel-paar schritt="2145">
     <erste-sprache>मिलना-जुलना</erste-sprache><zweite-sprache>あつまり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2145">
+  <vokabel-paar schritt="2146">
     <erste-sprache>घटिया</erste-sprache><zweite-sprache>だめな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2146">
+  <vokabel-paar schritt="2147">
     <erste-sprache>पुलिसवाले</erste-sprache><zweite-sprache>ぽり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2147">
+  <vokabel-paar schritt="2148">
     <erste-sprache>पहले ही</erste-sprache><zweite-sprache>もう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2148">
+  <vokabel-paar schritt="2149">
     <erste-sprache>अपने दम पर</erste-sprache><zweite-sprache>ひとりで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2149">
+  <vokabel-paar schritt="2150">
     <erste-sprache>स्टार्ट</erste-sprache><zweite-sprache>すたーと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2150">
+  <vokabel-paar schritt="2151">
     <erste-sprache>आपसी समझौते</erste-sprache><zweite-sprache>もうしあわせ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2151">
+  <vokabel-paar schritt="2152">
     <erste-sprache>जवाब</erste-sprache><zweite-sprache>へんじ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2152">
+  <vokabel-paar schritt="2153">
     <erste-sprache>छोटे जानवर</erste-sprache><zweite-sprache>いきものたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2153">
+  <vokabel-paar schritt="2154">
     <erste-sprache>गाँड</erste-sprache><zweite-sprache>けつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2154">
+  <vokabel-paar schritt="2155">
     <erste-sprache>खैर</erste-sprache><zweite-sprache>まあ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2155">
+  <vokabel-paar schritt="2156">
     <erste-sprache>पहले से सूचना</erste-sprache><zweite-sprache>じぜんれんらく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="2156">
+  <vokabel-paar schritt="2157">
     <erste-sprache>सेकंड</erste-sprache><zweite-sprache>びょう</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

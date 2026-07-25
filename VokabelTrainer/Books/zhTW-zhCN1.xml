@@ -303,7 +303,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>別</erste-sprache><zweite-sprache>bù</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="79">
-    <erste-sprache>noun; singular; ministry government department</erste-sprache><zweite-sprache>bù</zweite-sprache>
+    <erste-sprache>部會</erste-sprache><zweite-sprache>bù</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="80">
     <erste-sprache>廣場</erste-sprache><zweite-sprache>guǎngchǎng</zweite-sprache>
@@ -660,7 +660,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>誰</erste-sprache><zweite-sprache>shéi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="188">
-    <erste-sprache>的人</erste-sprache><zweite-sprache>shéi</zweite-sprache>
+    <erste-sprache>-的人</erste-sprache><zweite-sprache>shéi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="189">
     <erste-sprache>到達</erste-sprache><zweite-sprache>dàodá</zweite-sprache>
@@ -891,7 +891,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>一個</erste-sprache><zweite-sprache>yí ge</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="232">
-    <erste-sprache>/feɪ̯˥/</erste-sprache><zweite-sprache>fēi</zweite-sprache>
+    <erste-sprache>非</erste-sprache><zweite-sprache>fēi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="233">
     <erste-sprache>太</erste-sprache><zweite-sprache>tài</zweite-sprache>
@@ -3525,13 +3525,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>媒體</erste-sprache><zweite-sprache>méitǐ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="967">
-    <erste-sprache>TV</erste-sprache><zweite-sprache>diànshì</zweite-sprache>
+    <erste-sprache>電視機</erste-sprache><zweite-sprache>diànshì</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="967">
     <erste-sprache>電視</erste-sprache><zweite-sprache>diànshì</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="967">
-    <erste-sprache>電視機</erste-sprache><zweite-sprache>diànshì</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="968">
     <erste-sprache>維護</erste-sprache><zweite-sprache>wéihù</zweite-sprache>
@@ -6630,7 +6627,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>日</erste-sprache><zweite-sprache>rì</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1896">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>xiānghù</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>xiānghù</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1897">
     <erste-sprache>你已經去了</erste-sprache><zweite-sprache>nǐ qù guò</zweite-sprache>

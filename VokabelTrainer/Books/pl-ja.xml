@@ -3876,7 +3876,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>w</erste-sprache><zweite-sprache>中で</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="795">
-    <erste-sprache>w</erste-sprache><zweite-sprache>中に・中で</zweite-sprache>
+    <erste-sprache>w</erste-sprache><zweite-sprache>中に</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="796">
     <erste-sprache>ten</erste-sprache><zweite-sprache>この</zweite-sprache>
@@ -4008,16 +4008,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>odpowiednio</erste-sprache><zweite-sprache>それぞれ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="824">
-    <erste-sprache>ludzie</erste-sprache><zweite-sprache>みんな</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="824">
-    <erste-sprache>ludzie</erste-sprache><zweite-sprache>人々</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="825">
     <erste-sprache>od</erste-sprache><zweite-sprache>から</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="825">
+  <vokabel-paar schritt="824">
     <erste-sprache>od</erste-sprache><zweite-sprache>以来</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="825">
+    <erste-sprache>ludzie</erste-sprache><zweite-sprache>みんな</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="825">
+    <erste-sprache>ludzie</erste-sprache><zweite-sprache>人々</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="826">
     <erste-sprache>po prostu</erste-sprache><zweite-sprache>ただ</zweite-sprache>
@@ -6351,7 +6351,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>reportaż</erste-sprache><zweite-sprache>報道</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1327">
-    <erste-sprache>między-</erste-sprache><zweite-sprache>相互-</zweite-sprache>
+    <erste-sprache>między-</erste-sprache><zweite-sprache>相互</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1328">
     <erste-sprache>koordynacja</erste-sprache><zweite-sprache>調整</zweite-sprache>

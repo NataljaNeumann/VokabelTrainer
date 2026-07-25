@@ -3252,70 +3252,67 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>に</erste-sprache><zweite-sprache>में</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="714">
-    <erste-sprache>中に・中で</erste-sprache><zweite-sprache>में</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="714">
     <erste-sprache>中で</erste-sprache><zweite-sprache>में</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="714">
-    <erste-sprache>で</erste-sprache><zweite-sprache>में</zweite-sprache>
+    <erste-sprache>中で</erste-sprache><zweite-sprache>अंदर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="715">
     <erste-sprache>中に</erste-sprache><zweite-sprache>में</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="715">
-    <erste-sprache>で</erste-sprache><zweite-sprache>पर</zweite-sprache>
+    <erste-sprache>で</erste-sprache><zweite-sprache>में</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="716">
-    <erste-sprache>-も ない</erste-sprache><zweite-sprache>न ही</zweite-sprache>
+    <erste-sprache>で</erste-sprache><zweite-sprache>पर</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="717">
-    <erste-sprache>です</erste-sprache><zweite-sprache>हैं</zweite-sprache>
+    <erste-sprache>-も ない</erste-sprache><zweite-sprache>न ही</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="718">
-    <erste-sprache>非</erste-sprache><zweite-sprache>/ɡɛːɾ/</zweite-sprache>
+    <erste-sprache>です</erste-sprache><zweite-sprache>हैं</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="719">
+    <erste-sprache>非</erste-sprache><zweite-sprache>/ɡɛːɾ/</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="720">
     <erste-sprache>あまりにも</erste-sprache><zweite-sprache>बहुत ज़्यादा</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="721">
     <erste-sprache>上に</erste-sprache><zweite-sprache>पर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="721">
     <erste-sprache>上に</erste-sprache><zweite-sprache>के ऊपर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="722">
     <erste-sprache>一つを</erste-sprache><zweite-sprache>एक को</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="722">
     <erste-sprache>一つに</erste-sprache><zweite-sprache>एक को</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="723">
     <erste-sprache>それ</erste-sprache><zweite-sprache>यह</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="723">
     <erste-sprache>それは</erste-sprache><zweite-sprache>यह</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="723">
     <erste-sprache>これ</erste-sprache><zweite-sprache>यह</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="723">
     <erste-sprache>この</erste-sprache><zweite-sprache>यह</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="724">
     <erste-sprache>差</erste-sprache><zweite-sprache>अंतर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="724">
     <erste-sprache>違い</erste-sprache><zweite-sprache>अंतर</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="724">
+  <vokabel-paar schritt="725">
     <erste-sprache>のために</erste-sprache><zweite-sprache>के लिए</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="725">
-    <erste-sprache>こと</erste-sprache><zweite-sprache>बात</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="726">
-    <erste-sprache>中で</erste-sprache><zweite-sprache>अंदर</zweite-sprache>
+    <erste-sprache>こと</erste-sprache><zweite-sprache>बात</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="727">
     <erste-sprache>貯蓄</erste-sprache><zweite-sprache>बचत</zweite-sprache>
@@ -5835,7 +5832,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>執行の</erste-sprache><zweite-sprache>कार्यकारी</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1299">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>अंतर-</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>अंतर-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1300">
     <erste-sprache>調整</erste-sprache><zweite-sprache>समन्वय</zweite-sprache>

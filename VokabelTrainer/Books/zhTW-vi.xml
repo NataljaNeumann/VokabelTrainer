@@ -339,7 +339,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>兩者都不</erste-sprache><zweite-sprache>không</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="82">
-    <erste-sprache>/feɪ̯˥/</erste-sprache><zweite-sprache>không</zweite-sprache>
+    <erste-sprache>非</erste-sprache><zweite-sprache>không</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="82">
     <erste-sprache>沒有</erste-sprache><zweite-sprache>không</zweite-sprache>
@@ -864,7 +864,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>蛤？</erste-sprache><zweite-sprache>hả</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="227">
-    <erste-sprache>TV</erste-sprache><zweite-sprache>TV</zweite-sprache>
+    <erste-sprache>電視機</erste-sprache><zweite-sprache>ti vi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="227">
+    <erste-sprache>電視機</erste-sprache><zweite-sprache>TV</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="228">
     <erste-sprache>空氣</erste-sprache><zweite-sprache>không khí</zweite-sprache>
@@ -4380,7 +4383,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>某件事</erste-sprache><zweite-sprache>điều gì đó</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1050">
-    <erste-sprache>的人</erste-sprache><zweite-sprache>người mà</zweite-sprache>
+    <erste-sprache>-的人</erste-sprache><zweite-sprache>người mà</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1051">
     <erste-sprache>見面</erste-sprache><zweite-sprache>gặp gỡ</zweite-sprache>
@@ -5241,7 +5244,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>執行的</erste-sprache><zweite-sprache>điều hành</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1284">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>liên-</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>liên-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1285">
     <erste-sprache>協調</erste-sprache><zweite-sprache>sự phối hợp</zweite-sprache>
@@ -5502,7 +5505,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>挑戰</erste-sprache><zweite-sprache>thách thức</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1357">
-    <erste-sprache>noun; singular; ministry government department</erste-sprache><zweite-sprache>bộ</zweite-sprache>
+    <erste-sprache>部會</erste-sprache><zweite-sprache>bộ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1357">
     <erste-sprache>套</erste-sprache><zweite-sprache>bộ</zweite-sprache>
@@ -6564,744 +6567,741 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>賽季</erste-sprache><zweite-sprache>mùa</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1670">
-    <erste-sprache>電視機</erste-sprache><zweite-sprache>ti vi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1671">
     <erste-sprache>解釋</erste-sprache><zweite-sprache>giải thích</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1671">
     <erste-sprache>解釋了</erste-sprache><zweite-sprache>đã giải thích</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1672">
     <erste-sprache>網絡</erste-sprache><zweite-sprache>mạng lưới</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1673">
     <erste-sprache>州</erste-sprache><zweite-sprache>bang</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1674">
     <erste-sprache>答案</erste-sprache><zweite-sprache>câu trả lời</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1675">
     <erste-sprache>比較</erste-sprache><zweite-sprache>so sánh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1676">
     <erste-sprache>十二月</erste-sprache><zweite-sprache>tháng mười hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1677">
     <erste-sprache>臉</erste-sprache><zweite-sprache>gương mặt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1678">
     <erste-sprache>鐵路</erste-sprache><zweite-sprache>đường sắt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1679">
     <erste-sprache>穿</erste-sprache><zweite-sprache>mặc</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1680">
     <erste-sprache>極好的</erste-sprache><zweite-sprache>tuyệt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1681">
     <erste-sprache>跟你</erste-sprache><zweite-sprache>với bạn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1682">
     <erste-sprache>記得</erste-sprache><zweite-sprache>nhớ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>輕微的</erste-sprache><zweite-sprache>nhỏ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1683">
     <erste-sprache>小的</erste-sprache><zweite-sprache>nhỏ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1684">
     <erste-sprache>訊息</erste-sprache><zweite-sprache>tin nhắn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1685">
     <erste-sprache>心臟</erste-sprache><zweite-sprache>tim</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1686">
     <erste-sprache>一月</erste-sprache><zweite-sprache>tháng Một</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1687">
     <erste-sprache>曾經有</erste-sprache><zweite-sprache>đã có</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>等待</erste-sprache><zweite-sprache>sự chờ đợi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1688">
     <erste-sprache>等待</erste-sprache><zweite-sprache>chờ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1689">
     <erste-sprache>卡片</erste-sprache><zweite-sprache>thẻ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1690">
     <erste-sprache>列印</erste-sprache><zweite-sprache>in</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1691">
     <erste-sprache>興趣</erste-sprache><zweite-sprache>sự quan tâm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1692">
     <erste-sprache>國王</erste-sprache><zweite-sprache>vua</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1693">
     <erste-sprache>照片</erste-sprache><zweite-sprache>ảnh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1694">
     <erste-sprache>排</erste-sprache><zweite-sprache>hàng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1695">
     <erste-sprache>解決方案</erste-sprache><zweite-sprache>giải pháp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1696">
     <erste-sprache>已完成的</erste-sprache><zweite-sprache>hoàn thành</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1697">
     <erste-sprache>完成了</erste-sprache><zweite-sprache>đã hoàn thành</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1698">
     <erste-sprache>我們想要</erste-sprache><zweite-sprache>chúng tôi muốn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1699">
     <erste-sprache>假定了</erste-sprache><zweite-sprache>đã cho rằng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1700">
     <erste-sprache>優越的</erste-sprache><zweite-sprache>vượt trội</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1701">
     <erste-sprache>胸部</erste-sprache><zweite-sprache>ngực</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1702">
     <erste-sprache>在場</erste-sprache><zweite-sprache>sự hiện diện</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1703">
     <erste-sprache>一半的</erste-sprache><zweite-sprache>nửa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1704">
     <erste-sprache>黑色的</erste-sprache><zweite-sprache>đen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1705">
     <erste-sprache>商業</erste-sprache><zweite-sprache>kinh doanh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1706">
     <erste-sprache>批評</erste-sprache><zweite-sprache>sự chỉ trích</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1707">
     <erste-sprache>二月</erste-sprache><zweite-sprache>tháng hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1708">
     <erste-sprache>地面</erste-sprache><zweite-sprache>mặt đất</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1709">
     <erste-sprache>受害者</erste-sprache><zweite-sprache>nạn nhân</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1710">
     <erste-sprache>較新的</erste-sprache><zweite-sprache>mới hơn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1711">
     <erste-sprache>等待的</erste-sprache><zweite-sprache>đang chờ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1712">
     <erste-sprache>突然</erste-sprache><zweite-sprache>đột nhiên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1713">
     <erste-sprache>嘴</erste-sprache><zweite-sprache>miệng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1714">
     <erste-sprache>平均的</erste-sprache><zweite-sprache>trung bình</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>腳</erste-sprache><zweite-sprache>chân</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1715">
     <erste-sprache>腳</erste-sprache><zweite-sprache>bàn chân</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1716">
     <erste-sprache>新聞界</erste-sprache><zweite-sprache>báo chí</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1717">
     <erste-sprache>更長的</erste-sprache><zweite-sprache>dài hơn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1718">
     <erste-sprache>更小的</erste-sprache><zweite-sprache>nhỏ hơn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1719">
     <erste-sprache>演講</erste-sprache><zweite-sprache>bài phát biểu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1720">
     <erste-sprache>寫了</erste-sprache><zweite-sprache>đã viết</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>跟我</erste-sprache><zweite-sprache>với tôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1721">
     <erste-sprache>和我一起</erste-sprache><zweite-sprache>với tôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1722">
     <erste-sprache>每天</erste-sprache><zweite-sprache>hằng ngày</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1723">
     <erste-sprache>太陽</erste-sprache><zweite-sprache>mặt trời</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1724">
     <erste-sprache>月</erste-sprache><zweite-sprache>tháng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1725">
     <erste-sprache>擺了姿勢</erste-sprache><zweite-sprache>đã tạo dáng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1726">
     <erste-sprache>滿意的</erste-sprache><zweite-sprache>hài lòng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1727">
     <erste-sprache>使人滿意了</erste-sprache><zweite-sprache>đã làm hài lòng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1728">
     <erste-sprache>輕的</erste-sprache><zweite-sprache>nhẹ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1729">
     <erste-sprache>部分地</erste-sprache><zweite-sprache>một phần</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1730">
     <erste-sprache>手臂</erste-sprache><zweite-sprache>cánh tay</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1731">
     <erste-sprache>品牌</erste-sprache><zweite-sprache>thương hiệu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1732">
     <erste-sprache>失去</erste-sprache><zweite-sprache>mất</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1733">
     <erste-sprache>先前</erste-sprache><zweite-sprache>trước đó</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1734">
     <erste-sprache>聯繫</erste-sprache><zweite-sprache>kết nối</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1735">
     <erste-sprache>一半</erste-sprache><zweite-sprache>một nửa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1736">
     <erste-sprache>躺著</erste-sprache><zweite-sprache>nằm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1737">
     <erste-sprache>報紙</erste-sprache><zweite-sprache>báo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1738">
     <erste-sprache>在路上</erste-sprache><zweite-sprache>đang di chuyển</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1739">
     <erste-sprache>罕見的</erste-sprache><zweite-sprache>hiếm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1740">
     <erste-sprache>類似的東西</erste-sprache><zweite-sprache>kiểu như thế</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1741">
     <erste-sprache>歐洲人</erste-sprache><zweite-sprache>người châu Âu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1742">
     <erste-sprache>線索</erste-sprache><zweite-sprache>manh mối</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1743">
     <erste-sprache>度</erste-sprache><zweite-sprache>độ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1744">
     <erste-sprache>幾個月</erste-sprache><zweite-sprache>vài tháng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>運動</erste-sprache><zweite-sprache>chuyển động</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1745">
     <erste-sprache>運動</erste-sprache><zweite-sprache>thể thao</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1746">
     <erste-sprache>正在做</erste-sprache><zweite-sprache>đang làm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1747">
     <erste-sprache>行動了</erste-sprache><zweite-sprache>đã hành động</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1748">
     <erste-sprache>電視</erste-sprache><zweite-sprache>truyền hình</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1749">
     <erste-sprache>西</erste-sprache><zweite-sprache>phía tây</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1750">
     <erste-sprache>紳士們</erste-sprache><zweite-sprache>quý ông</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1751">
     <erste-sprache>就像</erste-sprache><zweite-sprache>giống như</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1752">
     <erste-sprache>壓力</erste-sprache><zweite-sprache>áp lực</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1753">
     <erste-sprache>週末</erste-sprache><zweite-sprache>cuối tuần</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1754">
     <erste-sprache>移除了</erste-sprache><zweite-sprache>đã loại bỏ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1755">
     <erste-sprache>我們知道</erste-sprache><zweite-sprache>chúng tôi biết</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1756">
     <erste-sprache>雙倍的</erste-sprache><zweite-sprache>gấp đôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1757">
     <erste-sprache>中午</erste-sprache><zweite-sprache>buổi trưa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1758">
     <erste-sprache>將能夠</erste-sprache><zweite-sprache>sẽ có thể</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1759">
     <erste-sprache>避免</erste-sprache><zweite-sprache>tránh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1760">
     <erste-sprache>秋天</erste-sprache><zweite-sprache>mùa thu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1761">
     <erste-sprache>可用性</erste-sprache><zweite-sprache>tính sẵn có</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1762">
     <erste-sprache>在那上面</erste-sprache><zweite-sprache>về việc đó</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1763">
     <erste-sprache>一步</erste-sprache><zweite-sprache>bước</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1764">
     <erste-sprache>我們將不得不</erste-sprache><zweite-sprache>chúng ta sẽ phải</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1765">
     <erste-sprache>您將不得不</erste-sprache><zweite-sprache>bạn sẽ phải</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1766">
     <erste-sprache>預期的</erste-sprache><zweite-sprache>được mong đợi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1767">
     <erste-sprache>預期了</erste-sprache><zweite-sprache>đã mong đợi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>已跌落的</erste-sprache><zweite-sprache>đã ngã</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1768">
     <erste-sprache>跌落了</erste-sprache><zweite-sprache>đã ngã</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1769">
     <erste-sprache>衣服</erste-sprache><zweite-sprache>quần áo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1770">
     <erste-sprache>相反的</erste-sprache><zweite-sprache>trái ngược</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1771">
     <erste-sprache>我認為</erste-sprache><zweite-sprache>tôi nghĩ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1772">
     <erste-sprache>血</erste-sprache><zweite-sprache>máu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1773">
     <erste-sprache>邊緣</erste-sprache><zweite-sprache>rìa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1774">
     <erste-sprache>多麼</erste-sprache><zweite-sprache>đến mức nào</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1775">
     <erste-sprache>內疚</erste-sprache><zweite-sprache>cảm giác tội lỗi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1776">
     <erste-sprache>單身的</erste-sprache><zweite-sprache>độc thân</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1777">
     <erste-sprache>線</erste-sprache><zweite-sprache>đường thẳng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1778">
     <erste-sprache>自然</erste-sprache><zweite-sprache>thiên nhiên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1779">
     <erste-sprache>頂部</erste-sprache><zweite-sprache>phần trên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1780">
     <erste-sprache>獎項</erste-sprache><zweite-sprache>giải thưởng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1781">
     <erste-sprache>電影院</erste-sprache><zweite-sprache>rạp chiếu phim</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1782">
     <erste-sprache>行業</erste-sprache><zweite-sprache>ngành công nghiệp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1783">
     <erste-sprache>我們必須</erste-sprache><zweite-sprache>chúng tôi phải</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1784">
     <erste-sprache>悲傷的</erste-sprache><zweite-sprache>buồn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1785">
     <erste-sprache>在 之外</erste-sprache><zweite-sprache>vượt quá</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1786">
     <erste-sprache>防禦</erste-sprache><zweite-sprache>phòng thủ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1787">
     <erste-sprache>從現在開始</erste-sprache><zweite-sprache>từ bây giờ trở đi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1788">
     <erste-sprache>新鮮的</erste-sprache><zweite-sprache>tươi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1789">
     <erste-sprache>秩序</erste-sprache><zweite-sprache>trật tự</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1790">
     <erste-sprache>紅色的</erste-sprache><zweite-sprache>đỏ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1791">
     <erste-sprache>星期六</erste-sprache><zweite-sprache>thứ bảy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1792">
     <erste-sprache>句子</erste-sprache><zweite-sprache>câu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1793">
     <erste-sprache>集合</erste-sprache><zweite-sprache>tập hợp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1794">
     <erste-sprache>聽起來</erste-sprache><zweite-sprache>nghe có vẻ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1795">
     <erste-sprache>富有的</erste-sprache><zweite-sprache>giàu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1796">
     <erste-sprache>頻道</erste-sprache><zweite-sprache>kênh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1797">
     <erste-sprache>回歸者</erste-sprache><zweite-sprache>người trở về</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1798">
     <erste-sprache>選票</erste-sprache><zweite-sprache>phiếu bầu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1799">
     <erste-sprache>公民社會</erste-sprache><zweite-sprache>xã hội dân sự</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1800">
     <erste-sprache>原創的</erste-sprache><zweite-sprache>nguyên bản</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1801">
     <erste-sprache>死去的</erste-sprache><zweite-sprache>đã chết</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1802">
     <erste-sprache>開始了</erste-sprache><zweite-sprache>đã bắt đầu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1803">
     <erste-sprache>老闆</erste-sprache><zweite-sprache>sếp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1804">
     <erste-sprache>美元</erste-sprache><zweite-sprache>đô la</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1805">
     <erste-sprache>結尾</erste-sprache><zweite-sprache>phần kết</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1806">
     <erste-sprache>圓的</erste-sprache><zweite-sprache>tròn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1807">
     <erste-sprache>輪</erste-sprache><zweite-sprache>vòng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1808">
     <erste-sprache>系列</erste-sprache><zweite-sprache>loạt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1809">
     <erste-sprache>屁話</erste-sprache><zweite-sprache>nhảm nhí</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1811">
+  <vokabel-paar schritt="1810">
     <erste-sprache>老師</erste-sprache><zweite-sprache>giáo viên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1811">
     <erste-sprache>出版了</erste-sprache><zweite-sprache>đã xuất bản</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1812">
     <erste-sprache>當選的</erste-sprache><zweite-sprache>được bầu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1813">
     <erste-sprache>當選了</erste-sprache><zweite-sprache>đã được bầu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1815">
+  <vokabel-paar schritt="1814">
     <erste-sprache>開發了</erste-sprache><zweite-sprache>đã phát triển</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1816">
+  <vokabel-paar schritt="1815">
     <erste-sprache>指定的</erste-sprache><zweite-sprache>được chỉ định</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1817">
+  <vokabel-paar schritt="1816">
     <erste-sprache>路過的</erste-sprache><zweite-sprache>đi ngang qua</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1818">
+  <vokabel-paar schritt="1817">
     <erste-sprache>大師</erste-sprache><zweite-sprache>bậc thầy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1819">
+  <vokabel-paar schritt="1818">
     <erste-sprache>監獄</erste-sprache><zweite-sprache>nhà tù</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1819">
     <erste-sprache>無論如何</erste-sprache><zweite-sprache>dù sao đi nữa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1820">
     <erste-sprache>畫</erste-sprache><zweite-sprache>vẽ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1822">
+  <vokabel-paar schritt="1821">
     <erste-sprache>命名</erste-sprache><zweite-sprache>đặt tên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1823">
+  <vokabel-paar schritt="1822">
     <erste-sprache>你看見</erste-sprache><zweite-sprache>bạn thấy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1824">
+  <vokabel-paar schritt="1823">
     <erste-sprache>攻擊</erste-sprache><zweite-sprache>tấn công</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1825">
+  <vokabel-paar schritt="1824">
     <erste-sprache>政權</erste-sprache><zweite-sprache>chế độ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1826">
+  <vokabel-paar schritt="1825">
     <erste-sprache>門</erste-sprache><zweite-sprache>cửa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1827">
+  <vokabel-paar schritt="1826">
     <erste-sprache>地球</erste-sprache><zweite-sprache>Trái Đất</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1828">
+  <vokabel-paar schritt="1827">
     <erste-sprache>黃金</erste-sprache><zweite-sprache>vàng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1829">
+  <vokabel-paar schritt="1828">
     <erste-sprache>難民</erste-sprache><zweite-sprache>người tị nạn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1830">
+  <vokabel-paar schritt="1829">
     <erste-sprache>右翼</erste-sprache><zweite-sprache>cánh hữu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1831">
+  <vokabel-paar schritt="1830">
     <erste-sprache>大學</erste-sprache><zweite-sprache>đại học</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1832">
+  <vokabel-paar schritt="1831">
     <erste-sprache>表現</erste-sprache><zweite-sprache>cư xử</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1833">
+  <vokabel-paar schritt="1832">
     <erste-sprache>坐</erste-sprache><zweite-sprache>ngồi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1834">
+  <vokabel-paar schritt="1833">
     <erste-sprache>賺了</erste-sprache><zweite-sprache>đã kiếm được</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1835">
+  <vokabel-paar schritt="1834">
     <erste-sprache>夢想</erste-sprache><zweite-sprache>giấc mơ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1836">
+  <vokabel-paar schritt="1835">
     <erste-sprache>女士</erste-sprache><zweite-sprache>quý bà</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1837">
+  <vokabel-paar schritt="1836">
     <erste-sprache>聖地牙哥</erste-sprache><zweite-sprache>Santiago</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1838">
+  <vokabel-paar schritt="1837">
     <erste-sprache>運輸</erste-sprache><zweite-sprache>vận chuyển</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1839">
+  <vokabel-paar schritt="1838">
     <erste-sprache>使用者</erste-sprache><zweite-sprache>người dùng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1840">
+  <vokabel-paar schritt="1839">
     <erste-sprache>鄰里</erste-sprache><zweite-sprache>khu phố</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1841">
+  <vokabel-paar schritt="1840">
     <erste-sprache>螺絲釘</erste-sprache><zweite-sprache>ốc vít</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1842">
+  <vokabel-paar schritt="1841">
     <erste-sprache>獨特的</erste-sprache><zweite-sprache>độc đáo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1843">
+  <vokabel-paar schritt="1842">
     <erste-sprache>醫生</erste-sprache><zweite-sprache>bác sĩ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1844">
+  <vokabel-paar schritt="1843">
     <erste-sprache>完美的</erste-sprache><zweite-sprache>hoàn hảo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1845">
+  <vokabel-paar schritt="1844">
     <erste-sprache>臀部</erste-sprache><zweite-sprache>mông</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1846">
+  <vokabel-paar schritt="1845">
     <erste-sprache>驢子</erste-sprache><zweite-sprache>lừa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1847">
+  <vokabel-paar schritt="1846">
     <erste-sprache>收音機</erste-sprache><zweite-sprache>ra-đi-ô</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1848">
+  <vokabel-paar schritt="1847">
     <erste-sprache>值得</erste-sprache><zweite-sprache>đáng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1849">
+  <vokabel-paar schritt="1848">
     <erste-sprache>職業生涯</erste-sprache><zweite-sprache>sự nghiệp</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1850">
+  <vokabel-paar schritt="1849">
     <erste-sprache>顏色</erste-sprache><zweite-sprache>màu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1851">
+  <vokabel-paar schritt="1850">
     <erste-sprache>法令</erste-sprache><zweite-sprache>sắc lệnh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1852">
+  <vokabel-paar schritt="1851">
     <erste-sprache>星期一</erste-sprache><zweite-sprache>thứ Hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1853">
+  <vokabel-paar schritt="1852">
     <erste-sprache>蒙特婁</erste-sprache><zweite-sprache>Montréal</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1854">
+  <vokabel-paar schritt="1853">
     <erste-sprache>據說</erste-sprache><zweite-sprache>người ta nói</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1855">
+  <vokabel-paar schritt="1854">
     <erste-sprache>常識</erste-sprache><zweite-sprache>lẽ thường</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1856">
+  <vokabel-paar schritt="1855">
     <erste-sprache>瘋狂的</erste-sprache><zweite-sprache>điên</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1857">
+  <vokabel-paar schritt="1856">
     <erste-sprache>差異</erste-sprache><zweite-sprache>sự khác biệt</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1858">
+  <vokabel-paar schritt="1857">
     <erste-sprache>差距</erste-sprache><zweite-sprache>độ chênh lệch</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1859">
+  <vokabel-paar schritt="1858">
     <erste-sprache>法官</erste-sprache><zweite-sprache>thẩm phán</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1860">
+  <vokabel-paar schritt="1859">
     <erste-sprache>端上</erste-sprache><zweite-sprache>phục vụ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1861">
+  <vokabel-paar schritt="1860">
     <erste-sprache>大小</erste-sprache><zweite-sprache>kích thước</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1862">
+  <vokabel-paar schritt="1861">
     <erste-sprache>村莊</erste-sprache><zweite-sprache>làng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1863">
+  <vokabel-paar schritt="1862">
     <erste-sprache>對</erste-sprache><zweite-sprache>đấu với</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1864">
+  <vokabel-paar schritt="1863">
     <erste-sprache>標誌</erste-sprache><zweite-sprache>dấu hiệu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1865">
+  <vokabel-paar schritt="1864">
     <erste-sprache>天空</erste-sprache><zweite-sprache>bầu trời</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1866">
+  <vokabel-paar schritt="1865">
     <erste-sprache>會說</erste-sprache><zweite-sprache>sẽ nói</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1867">
+  <vokabel-paar schritt="1866">
     <erste-sprache>瑞士人</erste-sprache><zweite-sprache>người Thụy Sĩ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1868">
+  <vokabel-paar schritt="1867">
     <erste-sprache>威權主義的</erste-sprache><zweite-sprache>độc đoán</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1869">
+  <vokabel-paar schritt="1868">
     <erste-sprache>極權主義的</erste-sprache><zweite-sprache>toàn trị</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1870">
+  <vokabel-paar schritt="1869">
     <erste-sprache>自我效能感</erste-sprache><zweite-sprache>tự hiệu quả</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1871">
+  <vokabel-paar schritt="1870">
     <erste-sprache>命運</erste-sprache><zweite-sprache>số phận</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1872">
+  <vokabel-paar schritt="1871">
     <erste-sprache>跨黨派的</erste-sprache><zweite-sprache>lưỡng đảng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1873">
+  <vokabel-paar schritt="1872">
     <erste-sprache>共享汽車</erste-sprache><zweite-sprache>chia sẻ xe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1874">
+  <vokabel-paar schritt="1873">
     <erste-sprache>沒有他</erste-sprache><zweite-sprache>không có anh ấy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1875">
+  <vokabel-paar schritt="1874">
     <erste-sprache>沒有她</erste-sprache><zweite-sprache>không có cô ấy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1876">
+  <vokabel-paar schritt="1875">
     <erste-sprache>沒有我</erste-sprache><zweite-sprache>không có tôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1877">
+  <vokabel-paar schritt="1876">
     <erste-sprache>和她一起</erste-sprache><zweite-sprache>với cô ấy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1878">
+  <vokabel-paar schritt="1877">
     <erste-sprache>婚禮</erste-sprache><zweite-sprache>đám cưới</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1879">
+  <vokabel-paar schritt="1878">
     <erste-sprache>可能吧</erste-sprache><zweite-sprache>chắc là</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1880">
+  <vokabel-paar schritt="1879">
     <erste-sprache>統治者</erste-sprache><zweite-sprache>người cai trị</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1881">
+  <vokabel-paar schritt="1880">
     <erste-sprache>襯衫</erste-sprache><zweite-sprache>áo sơ mi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1882">
+  <vokabel-paar schritt="1881">
     <erste-sprache>不歸點</erste-sprache><zweite-sprache>điểm không thể quay lại</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1883">
+  <vokabel-paar schritt="1882">
     <erste-sprache>供給</erste-sprache><zweite-sprache>nguồn cung</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1884">
+  <vokabel-paar schritt="1883">
     <erste-sprache>騙局</erste-sprache><zweite-sprache>trò lừa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1885">
+  <vokabel-paar schritt="1884">
     <erste-sprache>囚犯</erste-sprache><zweite-sprache>thằng tù</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1886">
+  <vokabel-paar schritt="1885">
     <erste-sprache>鞋墊</erste-sprache><zweite-sprache>miếng lót giày</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1887">
+  <vokabel-paar schritt="1886">
     <erste-sprache>存款</erste-sprache><zweite-sprache>tiền gửi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1888">
+  <vokabel-paar schritt="1887">
     <erste-sprache>字母</erste-sprache><zweite-sprache>chữ cái</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1889">
+  <vokabel-paar schritt="1888">
     <erste-sprache>財富的象徵</erste-sprache><zweite-sprache>biểu tượng của sự giàu có</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1890">
+  <vokabel-paar schritt="1889">
     <erste-sprache>顯示</erste-sprache><zweite-sprache>cho thấy</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1890">
     <erste-sprache>扶養</erste-sprache><zweite-sprache>nuôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1891">
     <erste-sprache>叫</erste-sprache><zweite-sprache>gọi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1893">
+  <vokabel-paar schritt="1892">
     <erste-sprache>強調</erste-sprache><zweite-sprache>nhấn mạnh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1894">
+  <vokabel-paar schritt="1893">
     <erste-sprache>認出來了</erste-sprache><zweite-sprache>đã nhận ra</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1895">
+  <vokabel-paar schritt="1894">
     <erste-sprache>打</erste-sprache><zweite-sprache>đánh</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1896">
+  <vokabel-paar schritt="1895">
     <erste-sprache>我要</erste-sprache><zweite-sprache>tớ sẽ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1897">
+  <vokabel-paar schritt="1896">
     <erste-sprache>差不多</erste-sprache><zweite-sprache>hầu như</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1897">
+  <vokabel-paar schritt="1896">
     <erste-sprache>差不多</erste-sprache><zweite-sprache>tầm</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1898">
+  <vokabel-paar schritt="1897">
     <erste-sprache>什麼都可以</erste-sprache><zweite-sprache>gì cũng được</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1899">
+  <vokabel-paar schritt="1898">
     <erste-sprache>一帶</erste-sprache><zweite-sprache>khu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1900">
+  <vokabel-paar schritt="1899">
     <erste-sprache>條子</erste-sprache><zweite-sprache>công an</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1901">
+  <vokabel-paar schritt="1900">
     <erste-sprache>注意</erste-sprache><zweite-sprache>coi chừng</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1902">
+  <vokabel-paar schritt="1901">
     <erste-sprache>一開始</erste-sprache><zweite-sprache>ban đầu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1903">
+  <vokabel-paar schritt="1902">
     <erste-sprache>實際上</erste-sprache><zweite-sprache>thật ra</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1904">
+  <vokabel-paar schritt="1903">
     <erste-sprache>事先提醒</erste-sprache><zweite-sprache>báo tin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1905">
+  <vokabel-paar schritt="1904">
     <erste-sprache>獎</erste-sprache><zweite-sprache>giải</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1906">
+  <vokabel-paar schritt="1905">
     <erste-sprache>反正</erste-sprache><zweite-sprache>thôi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1907">
+  <vokabel-paar schritt="1906">
     <erste-sprache>小動物</erste-sprache><zweite-sprache>con vật</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1908">
+  <vokabel-paar schritt="1907">
     <erste-sprache>屁股</erste-sprache><zweite-sprache>đít</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1909">
+  <vokabel-paar schritt="1908">
     <erste-sprache>秒鐘</erste-sprache><zweite-sprache>giây</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

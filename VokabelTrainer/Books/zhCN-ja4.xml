@@ -264,7 +264,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>和</erste-sprache><zweite-sprache>sore de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="61">
-    <erste-sprache>和</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>和</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="62">
     <erste-sprache>看到</erste-sprache><zweite-sprache>mita</zweite-sprache>
@@ -340,6 +340,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="78">
     <erste-sprache>不</erste-sprache><zweite-sprache>shinaide</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="78">
+    <erste-sprache>不</erste-sprache><zweite-sprache>-nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="78">
     <erste-sprache>不</erste-sprache><zweite-sprache>nai</zweite-sprache>
@@ -729,7 +732,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>谁</erste-sprache><zweite-sprache>dare</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="183">
-    <erste-sprache>谁</erste-sprache><zweite-sprache>suru hito</zweite-sprache>
+    <erste-sprache>谁</erste-sprache><zweite-sprache>-suru hito</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="184">
     <erste-sprache>到达</erste-sprache><zweite-sprache>touchaku</zweite-sprache>
@@ -956,9 +959,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="235">
     <erste-sprache>对</erste-sprache><zweite-sprache>tai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="235">
-    <erste-sprache>想要</erste-sprache><zweite-sprache>tai</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="236">
     <erste-sprache>叫</erste-sprache><zweite-sprache>yobu</zweite-sprache>
   </vokabel-paar>
@@ -996,19 +996,22 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>在</erste-sprache><zweite-sprache>de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
-    <erste-sprache>在</erste-sprache><zweite-sprache>no soba de</zweite-sprache>
+    <erste-sprache>在</erste-sprache><zweite-sprache>-no soba de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
-    <erste-sprache>在</erste-sprache><zweite-sprache>no ie de</zweite-sprache>
+    <erste-sprache>在</erste-sprache><zweite-sprache>-no ie de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
-    <erste-sprache>在</erste-sprache><zweite-sprache>nchi de</zweite-sprache>
+    <erste-sprache>在</erste-sprache><zweite-sprache>-nchi de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="242">
+    <erste-sprache>在</erste-sprache><zweite-sprache>-de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
     <erste-sprache>在</erste-sprache><zweite-sprache>naka de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
-    <erste-sprache>在</erste-sprache><zweite-sprache>naka ninaka de</zweite-sprache>
+    <erste-sprache>在</erste-sprache><zweite-sprache>naka ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="242">
     <erste-sprache>在</erste-sprache><zweite-sprache>aru</zweite-sprache>
@@ -1263,7 +1266,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>附加</erste-sprache><zweite-sprache>tsuika</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="290">
-    <erste-sprache>代表</erste-sprache><zweite-sprache>o daihyou shite</zweite-sprache>
+    <erste-sprache>代表</erste-sprache><zweite-sprache>-o daihyou shite</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="290">
     <erste-sprache>代表</erste-sprache><zweite-sprache>daihyousha</zweite-sprache>
@@ -2142,7 +2145,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>镇压</erste-sprache><zweite-sprache>dan'atsu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="489">
-    <erste-sprache>虽然</erste-sprache><zweite-sprache>keredomo</zweite-sprache>
+    <erste-sprache>虽然</erste-sprache><zweite-sprache>-keredomo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="489">
     <erste-sprache>虽然</erste-sprache><zweite-sprache>tashika ni</zweite-sprache>
@@ -2208,10 +2211,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>要求了</erste-sprache><zweite-sprache>youkyuu shita</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="502">
-    <erste-sprache>通过</erste-sprache><zweite-sprache>suru koto de</zweite-sprache>
+    <erste-sprache>通过</erste-sprache><zweite-sprache>-suru koto de</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="502">
-    <erste-sprache>通过</erste-sprache><zweite-sprache>ni yotte</zweite-sprache>
+    <erste-sprache>通过</erste-sprache><zweite-sprache>-ni yotte</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="502">
     <erste-sprache>通过</erste-sprache><zweite-sprache>o tooshite</zweite-sprache>
@@ -2298,7 +2301,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>两者</erste-sprache><zweite-sprache>ryouhou</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="519">
-    <erste-sprache>两者</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>两者</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="519">
     <erste-sprache>两者</erste-sprache><zweite-sprache>ryouhou ni</zweite-sprache>
@@ -4146,7 +4149,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>进入</erste-sprache><zweite-sprache>hairimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="973">
-    <erste-sprache>也不</erste-sprache><zweite-sprache>mo nai</zweite-sprache>
+    <erste-sprache>也不</erste-sprache><zweite-sprache>-mo nai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="974">
     <erste-sprache>年</erste-sprache><zweite-sprache>toshi</zweite-sprache>
@@ -4164,7 +4167,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>为了</erste-sprache><zweite-sprache>no tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="976">
-    <erste-sprache>为了</erste-sprache><zweite-sprache>suru tame ni</zweite-sprache>
+    <erste-sprache>为了</erste-sprache><zweite-sprache>-suru tame ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="977">
     <erste-sprache>太</erste-sprache><zweite-sprache>amari ni mo</zweite-sprache>
@@ -4215,13 +4218,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>打开</erste-sprache><zweite-sprache>akemasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="985">
-    <erste-sprache>既</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>既</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="985">
-    <erste-sprache>又</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>又</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="985">
-    <erste-sprache>都</erste-sprache><zweite-sprache>mo</zweite-sprache>
+    <erste-sprache>都</erste-sprache><zweite-sprache>-mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="986">
     <erste-sprache>看</erste-sprache><zweite-sprache>miru</zweite-sprache>
@@ -4263,106 +4266,106 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>考虑</erste-sprache><zweite-sprache>kouryo shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="993">
-    <erste-sprache>想要</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="993">
-    <erste-sprache>想要</erste-sprache><zweite-sprache>nozomimasu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="994">
     <erste-sprache>关注</erste-sprache><zweite-sprache>shouten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="994">
     <erste-sprache>在里面</erste-sprache><zweite-sprache>sono naka ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="995">
+  <vokabel-paar schritt="994">
     <erste-sprache>在里面</erste-sprache><zweite-sprache>naka de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="996">
+  <vokabel-paar schritt="995">
     <erste-sprache>某些</erste-sprache><zweite-sprache>aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="997">
+  <vokabel-paar schritt="996">
     <erste-sprache>那一个</erste-sprache><zweite-sprache>are</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="997">
+  <vokabel-paar schritt="996">
     <erste-sprache>那个</erste-sprache><zweite-sprache>are</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>给你</erste-sprache><zweite-sprache>hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>给你</erste-sprache><zweite-sprache>douzo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="998">
+  <vokabel-paar schritt="997">
     <erste-sprache>给你</erste-sprache><zweite-sprache>anata ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>是的</erste-sprache><zweite-sprache>hai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>是的</erste-sprache><zweite-sprache>ee</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="999">
+  <vokabel-paar schritt="998">
     <erste-sprache>是的</erste-sprache><zweite-sprache>un</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
-    <erste-sprache>之后</erste-sprache><zweite-sprache>no ato ni</zweite-sprache>
+  <vokabel-paar schritt="999">
+    <erste-sprache>之后</erste-sprache><zweite-sprache>-no ato ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
-    <erste-sprache>之后</erste-sprache><zweite-sprache>ta ato de</zweite-sprache>
+  <vokabel-paar schritt="999">
+    <erste-sprache>之后</erste-sprache><zweite-sprache>-ta ato de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1000">
+  <vokabel-paar schritt="999">
     <erste-sprache>之后</erste-sprache><zweite-sprache>sono go</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1000">
     <erste-sprache>什么也没有</erste-sprache><zweite-sprache>nani mo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1001">
+  <vokabel-paar schritt="1000">
     <erste-sprache>什么也没有</erste-sprache><zweite-sprache>nanimo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1002">
+  <vokabel-paar schritt="1001">
     <erste-sprache>仅限</erste-sprache><zweite-sprache>nomi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>仅仅</erste-sprache><zweite-sprache>sou iu mono da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>仅仅</erste-sprache><zweite-sprache>tatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1003">
+  <vokabel-paar schritt="1002">
     <erste-sprache>仅仅</erste-sprache><zweite-sprache>tada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1004">
+  <vokabel-paar schritt="1003">
     <erste-sprache>下面</erste-sprache><zweite-sprache>shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>持续时间</erste-sprache><zweite-sprache>kikan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1005">
+  <vokabel-paar schritt="1004">
     <erste-sprache>时期</erste-sprache><zweite-sprache>kikan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1006">
+  <vokabel-paar schritt="1005">
     <erste-sprache>设施</erste-sprache><zweite-sprache>shisetsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1006">
     <erste-sprache>从</erste-sprache><zweite-sprache>kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1007">
-    <erste-sprache>因为</erste-sprache><zweite-sprache>kara</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1007">
+  <vokabel-paar schritt="1006">
     <erste-sprache>来自</erste-sprache><zweite-sprache>kara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>人们</erste-sprache><zweite-sprache>hitobito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1008">
+  <vokabel-paar schritt="1007">
     <erste-sprache>人们</erste-sprache><zweite-sprache>hito wa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1009">
+  <vokabel-paar schritt="1008">
     <erste-sprache>融资</erste-sprache><zweite-sprache>shikin choutatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1010">
+  <vokabel-paar schritt="1009">
     <erste-sprache>路径</erste-sprache><zweite-sprache>michi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>想要</erste-sprache><zweite-sprache>-tai</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>想要</erste-sprache><zweite-sprache>nozomu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1010">
+    <erste-sprache>想要</erste-sprache><zweite-sprache>nozomimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1011">
     <erste-sprache>听见</erste-sprache><zweite-sprache>kiku</zweite-sprache>
@@ -4478,6 +4481,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="1036">
     <erste-sprache>由于</erste-sprache><zweite-sprache>no tame ni</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="1036">
+    <erste-sprache>由于</erste-sprache><zweite-sprache>-no tame ni</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="1037">
     <erste-sprache>在上面</erste-sprache><zweite-sprache>sono ue ni</zweite-sprache>
   </vokabel-paar>
@@ -4500,379 +4506,382 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>运气</erste-sprache><zweite-sprache>un</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1042">
-    <erste-sprache>因为</erste-sprache><zweite-sprache>to iu no mo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1043">
     <erste-sprache>步骤</erste-sprache><zweite-sprache>tejun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>谁的</erste-sprache><zweite-sprache>sono hito no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>谁的</erste-sprache><zweite-sprache>sono hitotachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1044">
+  <vokabel-paar schritt="1043">
     <erste-sprache>谁的</erste-sprache><zweite-sprache>dare no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>认识</erste-sprache><zweite-sprache>shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1045">
+  <vokabel-paar schritt="1044">
     <erste-sprache>认识</erste-sprache><zweite-sprache>shitte imasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>然而</erste-sprache><zweite-sprache>shikashi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1046">
+  <vokabel-paar schritt="1045">
     <erste-sprache>然而</erste-sprache><zweite-sprache>sore ni mo kakawarazu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1046">
     <erste-sprache>他们</erste-sprache><zweite-sprache>karera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1047">
+  <vokabel-paar schritt="1046">
     <erste-sprache>他们</erste-sprache><zweite-sprache>karera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1047">
     <erste-sprache>它本身</erste-sprache><zweite-sprache>sore jitai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1048">
+  <vokabel-paar schritt="1047">
     <erste-sprache>自身</erste-sprache><zweite-sprache>sore jitai</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="1048">
+    <erste-sprache>由</erste-sprache><zweite-sprache>-ni yoru</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="1049">
-    <erste-sprache>由</erste-sprache><zweite-sprache>ni yoru</zweite-sprache>
+    <erste-sprache>做</erste-sprache><zweite-sprache>-de iro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
-    <erste-sprache>做</erste-sprache><zweite-sprache>de iro</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1049">
     <erste-sprache>做</erste-sprache><zweite-sprache>tsukuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1050">
+  <vokabel-paar schritt="1049">
     <erste-sprache>做</erste-sprache><zweite-sprache>tsukurimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1051">
-    <erste-sprache>请成为</erste-sprache><zweite-sprache>de ite kudasai</zweite-sprache>
+  <vokabel-paar schritt="1050">
+    <erste-sprache>请成为</erste-sprache><zweite-sprache>-de ite kudasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>你的</erste-sprache><zweite-sprache>anata no mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>你的</erste-sprache><zweite-sprache>kimi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1052">
+  <vokabel-paar schritt="1051">
     <erste-sprache>你的</erste-sprache><zweite-sprache>anata no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1052">
     <erste-sprache>您的</erste-sprache><zweite-sprache>anata no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1053">
+  <vokabel-paar schritt="1052">
     <erste-sprache>您的</erste-sprache><zweite-sprache>anata-gata no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1054">
+  <vokabel-paar schritt="1053">
     <erste-sprache>你们</erste-sprache><zweite-sprache>anata-tachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1054">
+  <vokabel-paar schritt="1053">
     <erste-sprache>你们</erste-sprache><zweite-sprache>anata-tachi o</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1054">
     <erste-sprache>你们的</erste-sprache><zweite-sprache>kimitachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1055">
+  <vokabel-paar schritt="1054">
     <erste-sprache>你们的</erste-sprache><zweite-sprache>anatatachi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1056">
+  <vokabel-paar schritt="1055">
     <erste-sprache>所以</erste-sprache><zweite-sprache>dakara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1057">
+  <vokabel-paar schritt="1056">
     <erste-sprache>曾经是</erste-sprache><zweite-sprache>ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1057">
     <erste-sprache>还</erste-sprache><zweite-sprache>mada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1058">
+  <vokabel-paar schritt="1057">
     <erste-sprache>仍然</erste-sprache><zweite-sprache>mada</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1059">
+  <vokabel-paar schritt="1058">
     <erste-sprache>仍然</erste-sprache><zweite-sprache>izen toshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1060">
+  <vokabel-paar schritt="1059">
     <erste-sprache>联合的</erste-sprache><zweite-sprache>touitsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1061">
+  <vokabel-paar schritt="1060">
     <erste-sprache>什么时候</erste-sprache><zweite-sprache>itsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>我将</erste-sprache><zweite-sprache>suru yotei da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1062">
+  <vokabel-paar schritt="1061">
     <erste-sprache>我将</erste-sprache><zweite-sprache>suru tsumori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1063">
+  <vokabel-paar schritt="1062">
     <erste-sprache>蚊子</erste-sprache><zweite-sprache>ka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1063">
+  <vokabel-paar schritt="1062">
     <erste-sprache>要么</erste-sprache><zweite-sprache>ka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1064">
+  <vokabel-paar schritt="1063">
     <erste-sprache>可以是</erste-sprache><zweite-sprache>ariuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1065">
+  <vokabel-paar schritt="1064">
     <erste-sprache>如</erste-sprache><zweite-sprache>toshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1066">
+  <vokabel-paar schritt="1065">
     <erste-sprache>给一个</erste-sprache><zweite-sprache>hitotsu ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1067">
+  <vokabel-paar schritt="1066">
     <erste-sprache>被</erste-sprache><zweite-sprache>sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1068">
+  <vokabel-paar schritt="1067">
     <erste-sprache>这叫作</erste-sprache><zweite-sprache>sore wa to yobareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1069">
+  <vokabel-paar schritt="1068">
     <erste-sprache>超过</erste-sprache><zweite-sprache>ijou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
+  <vokabel-paar schritt="1069">
     <erste-sprache>之前</erste-sprache><zweite-sprache>izen ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1070">
-    <erste-sprache>之前</erste-sprache><zweite-sprache>suru mae ni</zweite-sprache>
+  <vokabel-paar schritt="1069">
+    <erste-sprache>之前</erste-sprache><zweite-sprache>-suru mae ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1069">
+    <erste-sprache>之前</erste-sprache><zweite-sprache>-no mae ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1070">
-    <erste-sprache>之前</erste-sprache><zweite-sprache>no mae ni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1071">
     <erste-sprache>在前面</erste-sprache><zweite-sprache>mae ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1072">
+  <vokabel-paar schritt="1071">
     <erste-sprache>将</erste-sprache><zweite-sprache>suru darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1072">
+  <vokabel-paar schritt="1071">
     <erste-sprache>将</erste-sprache><zweite-sprache>suru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1073">
+  <vokabel-paar schritt="1072">
     <erste-sprache>国际的</erste-sprache><zweite-sprache>kokusaiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>可以做到</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>能够</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>能</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1074">
+  <vokabel-paar schritt="1073">
     <erste-sprache>可以</erste-sprache><zweite-sprache>dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1074">
     <erste-sprache>可以</erste-sprache><zweite-sprache>dekimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1074">
     <erste-sprache>可以</erste-sprache><zweite-sprache>yurusareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1075">
+  <vokabel-paar schritt="1074">
     <erste-sprache>可以</erste-sprache><zweite-sprache>yurusaremasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1076">
+  <vokabel-paar schritt="1075">
     <erste-sprache>我们不要</erste-sprache><zweite-sprache>shinaide okou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1076">
     <erste-sprache>也</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1076">
     <erste-sprache>再</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1077">
+  <vokabel-paar schritt="1076">
     <erste-sprache>再次</erste-sprache><zweite-sprache>mata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1078">
+  <vokabel-paar schritt="1077">
     <erste-sprache>再次</erste-sprache><zweite-sprache>futatabi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1079">
+  <vokabel-paar schritt="1078">
     <erste-sprache>其他人</erste-sprache><zweite-sprache>hoka no hitotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1079">
+  <vokabel-paar schritt="1078">
     <erste-sprache>其他人</erste-sprache><zweite-sprache>hoka no hitotachi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>美国</erste-sprache><zweite-sprache>Amerika Gasshuukoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>美国</erste-sprache><zweite-sprache>Amerika</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>美国</erste-sprache><zweite-sprache>amerika</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>美国</erste-sprache><zweite-sprache>amerika gasshuukoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1080">
+  <vokabel-paar schritt="1079">
     <erste-sprache>美国</erste-sprache><zweite-sprache>beikoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>应该</erste-sprache><zweite-sprache>subeki da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>应该</erste-sprache><zweite-sprache>subeki datta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>应该</erste-sprache><zweite-sprache>beki da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1081">
+  <vokabel-paar schritt="1080">
     <erste-sprache>应该</erste-sprache><zweite-sprache>beki desu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1082">
+  <vokabel-paar schritt="1081">
     <erste-sprache>他们的</erste-sprache><zweite-sprache>karera no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1083">
+  <vokabel-paar schritt="1082">
     <erste-sprache>现在</erste-sprache><zweite-sprache>ima</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>变成</erste-sprache><zweite-sprache>natta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>成为</erste-sprache><zweite-sprache>natta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1084">
+  <vokabel-paar schritt="1083">
     <erste-sprache>变成了</erste-sprache><zweite-sprache>natta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1085">
+  <vokabel-paar schritt="1084">
     <erste-sprache>成为</erste-sprache><zweite-sprache>naru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1085">
+  <vokabel-paar schritt="1084">
     <erste-sprache>成为</erste-sprache><zweite-sprache>narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1086">
+  <vokabel-paar schritt="1085">
     <erste-sprache>东西</erste-sprache><zweite-sprache>mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1087">
+  <vokabel-paar schritt="1086">
     <erste-sprache>一</erste-sprache><zweite-sprache>ichi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1087">
+  <vokabel-paar schritt="1086">
     <erste-sprache>位置</erste-sprache><zweite-sprache>ichi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1088">
+  <vokabel-paar schritt="1087">
     <erste-sprache>位置</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1088">
     <erste-sprache>地方</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1088">
     <erste-sprache>地方</erste-sprache><zweite-sprache>tokoro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1089">
+  <vokabel-paar schritt="1088">
     <erste-sprache>地方</erste-sprache><zweite-sprache>kasho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1090">
+  <vokabel-paar schritt="1089">
     <erste-sprache>地点</erste-sprache><zweite-sprache>basho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1091">
+  <vokabel-paar schritt="1090">
     <erste-sprache>奇怪的</erste-sprache><zweite-sprache>hen na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1092">
+  <vokabel-paar schritt="1091">
     <erste-sprache>报告</erste-sprache><zweite-sprache>houkokusho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1093">
+  <vokabel-paar schritt="1092">
     <erste-sprache>义务</erste-sprache><zweite-sprache>gimu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1094">
+  <vokabel-paar schritt="1093">
     <erste-sprache>比</erste-sprache><zweite-sprache>yori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1095">
+  <vokabel-paar schritt="1094">
     <erste-sprache>一般</erste-sprache><zweite-sprache>ippanteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1096">
+  <vokabel-paar schritt="1095">
     <erste-sprache>将军</erste-sprache><zweite-sprache>shougun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>支持</erste-sprache><zweite-sprache>shien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>支持</erste-sprache><zweite-sprache>shiji suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1097">
+  <vokabel-paar schritt="1096">
     <erste-sprache>支持</erste-sprache><zweite-sprache>shiji shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1098">
+  <vokabel-paar schritt="1097">
     <erste-sprache>协助</erste-sprache><zweite-sprache>shien</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
+  <vokabel-paar schritt="1098">
     <erste-sprache>关于</erste-sprache><zweite-sprache>ni tsuite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
-    <erste-sprache>关于</erste-sprache><zweite-sprache>ni kansuru</zweite-sprache>
+  <vokabel-paar schritt="1098">
+    <erste-sprache>关于</erste-sprache><zweite-sprache>-ni kansuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1099">
+  <vokabel-paar schritt="1098">
     <erste-sprache>关于</erste-sprache><zweite-sprache>ni kanshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1100">
+  <vokabel-paar schritt="1099">
     <erste-sprache>她们</erste-sprache><zweite-sprache>kanojo-tachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1101">
+  <vokabel-paar schritt="1100">
     <erste-sprache>给予</erste-sprache><zweite-sprache>ataeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1101">
+  <vokabel-paar schritt="1100">
     <erste-sprache>给予</erste-sprache><zweite-sprache>ataemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1102">
-    <erste-sprache>反对</erste-sprache><zweite-sprache>ni hantai shite</zweite-sprache>
+  <vokabel-paar schritt="1101">
+    <erste-sprache>反对</erste-sprache><zweite-sprache>-ni hantai shite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1103">
+  <vokabel-paar schritt="1102">
     <erste-sprache>公约</erste-sprache><zweite-sprache>jouyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1103">
+  <vokabel-paar schritt="1102">
     <erste-sprache>条约</erste-sprache><zweite-sprache>jouyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>实施</erste-sprache><zweite-sprache>jisshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>实施</erste-sprache><zweite-sprache>jisshi suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1104">
+  <vokabel-paar schritt="1103">
     <erste-sprache>实施</erste-sprache><zweite-sprache>jisshi shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>进行</erste-sprache><zweite-sprache>jisshi suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1105">
+  <vokabel-paar schritt="1104">
     <erste-sprache>进行</erste-sprache><zweite-sprache>jisshi shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1106">
+  <vokabel-paar schritt="1105">
     <erste-sprache>实施的</erste-sprache><zweite-sprache>jisshi suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1106">
     <erste-sprache>很多</erste-sprache><zweite-sprache>sore dake</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1106">
     <erste-sprache>很多</erste-sprache><zweite-sprache>sore kurai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1107">
+  <vokabel-paar schritt="1106">
     <erste-sprache>很多</erste-sprache><zweite-sprache>takusan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1108">
+  <vokabel-paar schritt="1107">
     <erste-sprache>两者都不</erste-sprache><zweite-sprache>dochira demo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1108">
     <erste-sprache>那些</erste-sprache><zweite-sprache>arera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1109">
+  <vokabel-paar schritt="1108">
     <erste-sprache>那些</erste-sprache><zweite-sprache>ano hitotachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1110">
+  <vokabel-paar schritt="1109">
     <erste-sprache>对那些</erste-sprache><zweite-sprache>arera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1111">
+  <vokabel-paar schritt="1110">
     <erste-sprache>就是这样</erste-sprache><zweite-sprache>sore de owari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1111">
     <erste-sprache>我没有</erste-sprache><zweite-sprache>watashi ni wa nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1112">
+  <vokabel-paar schritt="1111">
     <erste-sprache>我没有</erste-sprache><zweite-sprache>nani mo motte inai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1113">
+  <vokabel-paar schritt="1112">
     <erste-sprache>而是</erste-sprache><zweite-sprache>de wa naku</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1113">
+    <erste-sprache>因为</erste-sprache><zweite-sprache>-kara</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1113">
+    <erste-sprache>因为</erste-sprache><zweite-sprache>to iu no mo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1114">
     <erste-sprache>维持</erste-sprache><zweite-sprache>iji suru</zweite-sprache>
@@ -4953,7 +4962,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>自从</erste-sprache><zweite-sprache>irai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1130">
-    <erste-sprache>像</erste-sprache><zweite-sprache>no you ni</zweite-sprache>
+    <erste-sprache>像</erste-sprache><zweite-sprache>-no you ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1131">
     <erste-sprache>愿望</erste-sprache><zweite-sprache>negai</zweite-sprache>
@@ -5030,9 +5039,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="1144">
     <erste-sprache>会</erste-sprache><zweite-sprache>darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1144">
-    <erste-sprache>会是</erste-sprache><zweite-sprache>darou</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1145">
     <erste-sprache>努力</erste-sprache><zweite-sprache>doryoku</zweite-sprache>
   </vokabel-paar>
@@ -5094,10 +5100,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>是否</erste-sprache><zweite-sprache>ka dou ka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1157">
-    <erste-sprache>之间</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
+    <erste-sprache>之间</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1157">
-    <erste-sprache>在 期间</erste-sprache><zweite-sprache>no aida ni</zweite-sprache>
+    <erste-sprache>在 期间</erste-sprache><zweite-sprache>-no aida ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1158">
     <erste-sprache>许多</erste-sprache><zweite-sprache>ooku no</zweite-sprache>
@@ -5130,2832 +5136,2835 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>给他</erste-sprache><zweite-sprache>kare ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1167">
+    <erste-sprache>会是</erste-sprache><zweite-sprache>-darou</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1168">
     <erste-sprache>确保</erste-sprache><zweite-sprache>kakuho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1168">
     <erste-sprache>确保</erste-sprache><zweite-sprache>kakuho suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1167">
+  <vokabel-paar schritt="1168">
     <erste-sprache>确保</erste-sprache><zweite-sprache>kakuho shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1168">
+  <vokabel-paar schritt="1169">
     <erste-sprache>流程</erste-sprache><zweite-sprache>purosesu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1168">
+  <vokabel-paar schritt="1169">
     <erste-sprache>过程</erste-sprache><zweite-sprache>purosesu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1169">
+  <vokabel-paar schritt="1170">
     <erste-sprache>从而</erste-sprache><zweite-sprache>sore ni yotte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1169">
+  <vokabel-paar schritt="1170">
     <erste-sprache>由此</erste-sprache><zweite-sprache>sore ni yotte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1170">
+  <vokabel-paar schritt="1171">
     <erste-sprache>节约的</erste-sprache><zweite-sprache>keizaiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1171">
+  <vokabel-paar schritt="1172">
     <erste-sprache>水果</erste-sprache><zweite-sprache>kudamono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1173">
     <erste-sprache>必须</erste-sprache><zweite-sprache>shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1172">
+  <vokabel-paar schritt="1173">
     <erste-sprache>必须</erste-sprache><zweite-sprache>shinakereba narimasen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1174">
     <erste-sprache>应当</erste-sprache><zweite-sprache>shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1173">
+  <vokabel-paar schritt="1174">
     <erste-sprache>应当</erste-sprache><zweite-sprache>shinakereba narimasen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1174">
+  <vokabel-paar schritt="1175">
     <erste-sprache>文章</erste-sprache><zweite-sprache>kiji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1175">
+  <vokabel-paar schritt="1176">
     <erste-sprache>请记住</erste-sprache><zweite-sprache>oboete oite kudasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1176">
+  <vokabel-paar schritt="1177">
     <erste-sprache>办公室</erste-sprache><zweite-sprache>ofisu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1178">
     <erste-sprache>聚会</erste-sprache><zweite-sprache>atsumari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1177">
+  <vokabel-paar schritt="1178">
     <erste-sprache>聚会</erste-sprache><zweite-sprache>paatii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1178">
+  <vokabel-paar schritt="1179">
     <erste-sprache>新的</erste-sprache><zweite-sprache>atarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1179">
+  <vokabel-paar schritt="1180">
     <erste-sprache>不是</erste-sprache><zweite-sprache>de wa nakatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1180">
+  <vokabel-paar schritt="1181">
     <erste-sprache>系列</erste-sprache><zweite-sprache>shiriizu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1181">
+  <vokabel-paar schritt="1182">
     <erste-sprache>十二月</erste-sprache><zweite-sprache>juunigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1182">
+  <vokabel-paar schritt="1183">
     <erste-sprache>白色的</erste-sprache><zweite-sprache>shiroi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1183">
+  <vokabel-paar schritt="1184">
     <erste-sprache>人</erste-sprache><zweite-sprache>ningen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1183">
+  <vokabel-paar schritt="1184">
     <erste-sprache>人</erste-sprache><zweite-sprache>hito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1184">
+  <vokabel-paar schritt="1185">
     <erste-sprache>可能</erste-sprache><zweite-sprache>kamoshirenai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1184">
+  <vokabel-paar schritt="1185">
     <erste-sprache>可能</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1185">
+  <vokabel-paar schritt="1186">
     <erste-sprache>或许</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1185">
+  <vokabel-paar schritt="1186">
     <erste-sprache>大概</erste-sprache><zweite-sprache>osoraku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1186">
+  <vokabel-paar schritt="1187">
     <erste-sprache>举行的</erste-sprache><zweite-sprache>kaisai sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1187">
+  <vokabel-paar schritt="1188">
     <erste-sprache>保持了</erste-sprache><zweite-sprache>hoji shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1188">
+  <vokabel-paar schritt="1189">
     <erste-sprache>级别</erste-sprache><zweite-sprache>reberu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1189">
-    <erste-sprache>期间</erste-sprache><zweite-sprache>no aida</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1190">
-    <erste-sprache>而</erste-sprache><zweite-sprache>ippou de</zweite-sprache>
+    <erste-sprache>期间</erste-sprache><zweite-sprache>-no aida</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1191">
+    <erste-sprache>而</erste-sprache><zweite-sprache>ippou de</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1192">
     <erste-sprache>给你们</erste-sprache><zweite-sprache>anata-tachi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1193">
     <erste-sprache>会有</erste-sprache><zweite-sprache>aru darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1193">
     <erste-sprache>会有</erste-sprache><zweite-sprache>motte iru darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1192">
+  <vokabel-paar schritt="1193">
     <erste-sprache>会有</erste-sprache><zweite-sprache>karera wa motte ita darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1193">
+  <vokabel-paar schritt="1194">
     <erste-sprache>各方</erste-sprache><zweite-sprache>toujisha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1194">
+  <vokabel-paar schritt="1195">
     <erste-sprache>政治的</erste-sprache><zweite-sprache>seijiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1195">
+  <vokabel-paar schritt="1196">
     <erste-sprache>屏幕</erste-sprache><zweite-sprache>disupurei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1196">
+  <vokabel-paar schritt="1197">
     <erste-sprache>以及</erste-sprache><zweite-sprache>oyobi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1198">
     <erste-sprache>继续</erste-sprache><zweite-sprache>tsuzukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1197">
+  <vokabel-paar schritt="1198">
     <erste-sprache>继续</erste-sprache><zweite-sprache>tsuzukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1198">
+  <vokabel-paar schritt="1199">
     <erste-sprache>和平</erste-sprache><zweite-sprache>heiwa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1199">
+  <vokabel-paar schritt="1200">
     <erste-sprache>柏林</erste-sprache><zweite-sprache>Berurin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1200">
+  <vokabel-paar schritt="1201">
     <erste-sprache>为此</erste-sprache><zweite-sprache>sono tame ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1202">
     <erste-sprache>社区</erste-sprache><zweite-sprache>komyuniti</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1202">
     <erste-sprache>社区</erste-sprache><zweite-sprache>jichitai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1201">
+  <vokabel-paar schritt="1202">
     <erste-sprache>社区</erste-sprache><zweite-sprache>kyoudoutai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1202">
+  <vokabel-paar schritt="1203">
     <erste-sprache>符合</erste-sprache><zweite-sprache>tekigou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1203">
+  <vokabel-paar schritt="1204">
     <erste-sprache>能力</erste-sprache><zweite-sprache>nouryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1204">
+  <vokabel-paar schritt="1205">
     <erste-sprache>议程</erste-sprache><zweite-sprache>gidai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1206">
     <erste-sprache>培训</erste-sprache><zweite-sprache>kenshuu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1205">
+  <vokabel-paar schritt="1206">
     <erste-sprache>培训</erste-sprache><zweite-sprache>shokugyou kunren</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1206">
+  <vokabel-paar schritt="1207">
     <erste-sprache>训练</erste-sprache><zweite-sprache>toreeningu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1207">
+  <vokabel-paar schritt="1208">
     <erste-sprache>钟</erste-sprache><zweite-sprache>tokei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1208">
+  <vokabel-paar schritt="1209">
     <erste-sprache>从不</erste-sprache><zweite-sprache>kesshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1209">
+  <vokabel-paar schritt="1210">
     <erste-sprache>手表</erste-sprache><zweite-sprache>udedokei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1210">
+  <vokabel-paar schritt="1211">
     <erste-sprache>在 之中</erste-sprache><zweite-sprache>no aida de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1211">
+  <vokabel-paar schritt="1212">
     <erste-sprache>热门作品</erste-sprache><zweite-sprache>hitto-saku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1213">
     <erste-sprache>方式</erste-sprache><zweite-sprache>houhou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1212">
+  <vokabel-paar schritt="1213">
     <erste-sprache>方法</erste-sprache><zweite-sprache>houhou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1213">
+  <vokabel-paar schritt="1214">
     <erste-sprache>方法</erste-sprache><zweite-sprache>apuroochi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1214">
+  <vokabel-paar schritt="1215">
     <erste-sprache>已建立的</erste-sprache><zweite-sprache>kakuritsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1215">
+  <vokabel-paar schritt="1216">
     <erste-sprache>建立了</erste-sprache><zweite-sprache>kakuritsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1217">
     <erste-sprache>认为</erste-sprache><zweite-sprache>kangaeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1216">
+  <vokabel-paar schritt="1217">
     <erste-sprache>认为</erste-sprache><zweite-sprache>kangaemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1217">
+  <vokabel-paar schritt="1218">
     <erste-sprache>关联了</erste-sprache><zweite-sprache>kanrenzuketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1218">
+  <vokabel-paar schritt="1219">
     <erste-sprache>中心</erste-sprache><zweite-sprache>sentaa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1219">
+  <vokabel-paar schritt="1220">
     <erste-sprache>暴力</erste-sprache><zweite-sprache>bouryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1220">
+  <vokabel-paar schritt="1221">
     <erste-sprache>景色</erste-sprache><zweite-sprache>nagame</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1221">
+  <vokabel-paar schritt="1222">
     <erste-sprache>电池</erste-sprache><zweite-sprache>batterii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1222">
+  <vokabel-paar schritt="1223">
     <erste-sprache>六</erste-sprache><zweite-sprache>roku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1223">
+  <vokabel-paar schritt="1224">
     <erste-sprache>全球</erste-sprache><zweite-sprache>sekai-teki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1224">
+  <vokabel-paar schritt="1225">
     <erste-sprache>三个</erste-sprache><zweite-sprache>mittsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1225">
+  <vokabel-paar schritt="1226">
     <erste-sprache>技术性的</erste-sprache><zweite-sprache>gijutsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1226">
+  <vokabel-paar schritt="1227">
     <erste-sprache>适当的</erste-sprache><zweite-sprache>tekisetsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1227">
+  <vokabel-paar schritt="1228">
     <erste-sprache>坏的</erste-sprache><zweite-sprache>warui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1228">
+  <vokabel-paar schritt="1229">
     <erste-sprache>更坏的</erste-sprache><zweite-sprache>yori warui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1230">
     <erste-sprache>放</erste-sprache><zweite-sprache>oku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1229">
+  <vokabel-paar schritt="1230">
     <erste-sprache>放</erste-sprache><zweite-sprache>okimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1230">
+  <vokabel-paar schritt="1231">
     <erste-sprache>威慑</erste-sprache><zweite-sprache>yokushi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1231">
+  <vokabel-paar schritt="1232">
     <erste-sprache>董事会</erste-sprache><zweite-sprache>rijikai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1232">
+  <vokabel-paar schritt="1233">
     <erste-sprache>长的</erste-sprache><zweite-sprache>nagai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1233">
+  <vokabel-paar schritt="1234">
     <erste-sprache>部分</erste-sprache><zweite-sprache>bubun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1235">
     <erste-sprache>没有一个</erste-sprache><zweite-sprache>dono mo nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1234">
+  <vokabel-paar schritt="1235">
     <erste-sprache>没有一个</erste-sprache><zweite-sprache>dono mo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1235">
+  <vokabel-paar schritt="1236">
     <erste-sprache>案例</erste-sprache><zweite-sprache>jirei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1237">
     <erste-sprache>返回</erste-sprache><zweite-sprache>modotte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1237">
     <erste-sprache>返回</erste-sprache><zweite-sprache>modoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1236">
+  <vokabel-paar schritt="1237">
     <erste-sprache>返回</erste-sprache><zweite-sprache>modorimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1238">
     <erste-sprache>回来</erste-sprache><zweite-sprache>modoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1237">
+  <vokabel-paar schritt="1238">
     <erste-sprache>回来</erste-sprache><zweite-sprache>modorimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1238">
+  <vokabel-paar schritt="1239">
     <erste-sprache>百万</erste-sprache><zweite-sprache>hyakuman</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1240">
     <erste-sprache>其中</erste-sprache><zweite-sprache>sono uchi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
+  <vokabel-paar schritt="1240">
     <erste-sprache>其中</erste-sprache><zweite-sprache>sorera</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1239">
-    <erste-sprache>其中</erste-sprache><zweite-sprache>suru mono</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1240">
-    <erste-sprache>右边</erste-sprache><zweite-sprache>migi ni</zweite-sprache>
+    <erste-sprache>其中</erste-sprache><zweite-sprache>-suru mono</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1241">
+    <erste-sprache>右边</erste-sprache><zweite-sprache>migi ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1242">
     <erste-sprache>我可以</erste-sprache><zweite-sprache>watashi wa dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1243">
     <erste-sprache>结束了</erste-sprache><zweite-sprache>owatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1242">
+  <vokabel-paar schritt="1243">
     <erste-sprache>结束了</erste-sprache><zweite-sprache>oeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1243">
+  <vokabel-paar schritt="1244">
     <erste-sprache>完成了</erste-sprache><zweite-sprache>oeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1244">
+  <vokabel-paar schritt="1245">
     <erste-sprache>结束的</erste-sprache><zweite-sprache>oerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1245">
+  <vokabel-paar schritt="1246">
     <erste-sprache>给定的</erste-sprache><zweite-sprache>ataerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1247">
     <erste-sprache>来</erste-sprache><zweite-sprache>kuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1246">
+  <vokabel-paar schritt="1247">
     <erste-sprache>来</erste-sprache><zweite-sprache>kimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1248">
     <erste-sprache>穿</erste-sprache><zweite-sprache>kiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1247">
+  <vokabel-paar schritt="1248">
     <erste-sprache>穿</erste-sprache><zweite-sprache>kimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1249">
     <erste-sprache>切</erste-sprache><zweite-sprache>kiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1248">
+  <vokabel-paar schritt="1249">
     <erste-sprache>切</erste-sprache><zweite-sprache>kirimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1249">
+  <vokabel-paar schritt="1250">
     <erste-sprache>法院</erste-sprache><zweite-sprache>saibansho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1251">
     <erste-sprache>各自</erste-sprache><zweite-sprache>sorezore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1250">
+  <vokabel-paar schritt="1251">
     <erste-sprache>分别</erste-sprache><zweite-sprache>sorezore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1252">
     <erste-sprache>框架</erste-sprache><zweite-sprache>wakugumi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1251">
+  <vokabel-paar schritt="1252">
     <erste-sprache>框架</erste-sprache><zweite-sprache>fureemuwaaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1252">
+  <vokabel-paar schritt="1253">
     <erste-sprache>担心的</erste-sprache><zweite-sprache>shinpai shite iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1253">
+  <vokabel-paar schritt="1254">
     <erste-sprache>贸易</erste-sprache><zweite-sprache>boueki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1254">
+  <vokabel-paar schritt="1255">
     <erste-sprache>网站</erste-sprache><zweite-sprache>webusaito</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1255">
+  <vokabel-paar schritt="1256">
     <erste-sprache>预约</erste-sprache><zweite-sprache>yakusoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1256">
+  <vokabel-paar schritt="1257">
     <erste-sprache>无意地</erste-sprache><zweite-sprache>ito sezu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1257">
+  <vokabel-paar schritt="1258">
     <erste-sprache>十月</erste-sprache><zweite-sprache>juugatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1258">
+  <vokabel-paar schritt="1259">
     <erste-sprache>全部</erste-sprache><zweite-sprache>subete ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1259">
+  <vokabel-paar schritt="1260">
     <erste-sprache>做完了</erste-sprache><zweite-sprache>sarete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1260">
+  <vokabel-paar schritt="1261">
     <erste-sprache>七</erste-sprache><zweite-sprache>nana</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1261">
+  <vokabel-paar schritt="1262">
     <erste-sprache>美丽的</erste-sprache><zweite-sprache>utsukushii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1263">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>tasuke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1263">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>tasukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1262">
+  <vokabel-paar schritt="1263">
     <erste-sprache>帮助</erste-sprache><zweite-sprache>tasukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1263">
+  <vokabel-paar schritt="1264">
     <erste-sprache>帮忙</erste-sprache><zweite-sprache>tasuke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1264">
+  <vokabel-paar schritt="1265">
     <erste-sprache>欧洲的</erste-sprache><zweite-sprache>yooroppa no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1265">
+  <vokabel-paar schritt="1266">
     <erste-sprache>被提议的</erste-sprache><zweite-sprache>teian sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1266">
+  <vokabel-paar schritt="1267">
     <erste-sprache>八</erste-sprache><zweite-sprache>hachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1267">
+  <vokabel-paar schritt="1268">
     <erste-sprache>友好的</erste-sprache><zweite-sprache>shinsetsu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1268">
+  <vokabel-paar schritt="1269">
     <erste-sprache>物种</erste-sprache><zweite-sprache>shu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1269">
-    <erste-sprache>基于</erste-sprache><zweite-sprache>ni motozuku</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1270">
-    <erste-sprache>促进</erste-sprache><zweite-sprache>youi ni suru</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1270">
-    <erste-sprache>促进</erste-sprache><zweite-sprache>youi ni shimasu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1270">
-    <erste-sprache>促进</erste-sprache><zweite-sprache>sokushin suru</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1270">
-    <erste-sprache>促进</erste-sprache><zweite-sprache>sokushin shimasu</zweite-sprache>
+    <erste-sprache>基于</erste-sprache><zweite-sprache>-ni motozuku</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1271">
-    <erste-sprache>提交的</erste-sprache><zweite-sprache>teishutsu sareta</zweite-sprache>
+    <erste-sprache>促进</erste-sprache><zweite-sprache>youi ni suru</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1271">
+    <erste-sprache>促进</erste-sprache><zweite-sprache>youi ni shimasu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1271">
+    <erste-sprache>促进</erste-sprache><zweite-sprache>sokushin suru</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1271">
+    <erste-sprache>促进</erste-sprache><zweite-sprache>sokushin shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1272">
-    <erste-sprache>有人</erste-sprache><zweite-sprache>dareka</zweite-sprache>
+    <erste-sprache>提交的</erste-sprache><zweite-sprache>teishutsu sareta</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1273">
-    <erste-sprache>想要的</erste-sprache><zweite-sprache>nozomareta</zweite-sprache>
+    <erste-sprache>有人</erste-sprache><zweite-sprache>dareka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1274">
+    <erste-sprache>想要的</erste-sprache><zweite-sprache>nozomareta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1275">
     <erste-sprache>被通缉的</erste-sprache><zweite-sprache>shimei tehai sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1276">
     <erste-sprache>联盟</erste-sprache><zweite-sprache>renritsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1275">
+  <vokabel-paar schritt="1276">
     <erste-sprache>联盟</erste-sprache><zweite-sprache>rengou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1276">
+  <vokabel-paar schritt="1277">
     <erste-sprache>我们可以</erste-sprache><zweite-sprache>watashitachi wa dekiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1277">
+  <vokabel-paar schritt="1278">
     <erste-sprache>可持续的</erste-sprache><zweite-sprache>jizoku kanou na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1278">
+  <vokabel-paar schritt="1279">
     <erste-sprache>神圣的</erste-sprache><zweite-sprache>seinaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1279">
+  <vokabel-paar schritt="1280">
     <erste-sprache>文件</erste-sprache><zweite-sprache>bunsho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1280">
+  <vokabel-paar schritt="1281">
     <erste-sprache>侧面</erste-sprache><zweite-sprache>gawa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1281">
+  <vokabel-paar schritt="1282">
     <erste-sprache>会拥有</erste-sprache><zweite-sprache>motte ita darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1282">
+  <vokabel-paar schritt="1283">
     <erste-sprache>字段</erste-sprache><zweite-sprache>fiirudo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1283">
+  <vokabel-paar schritt="1284">
     <erste-sprache>田地</erste-sprache><zweite-sprache>hatake</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1284">
+  <vokabel-paar schritt="1285">
     <erste-sprache>我们将</erste-sprache><zweite-sprache>watashitachi wa suru yotei da</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1285">
+  <vokabel-paar schritt="1286">
     <erste-sprache>甚至</erste-sprache><zweite-sprache>sae</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1286">
+  <vokabel-paar schritt="1287">
     <erste-sprache>直的</erste-sprache><zweite-sprache>massugu na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1287">
+  <vokabel-paar schritt="1288">
     <erste-sprache>未来的</erste-sprache><zweite-sprache>shourai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1288">
+  <vokabel-paar schritt="1289">
     <erste-sprache>而不是</erste-sprache><zweite-sprache>kawari ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1289">
+  <vokabel-paar schritt="1290">
     <erste-sprache>卡</erste-sprache><zweite-sprache>kaado</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1290">
+  <vokabel-paar schritt="1291">
     <erste-sprache>军事的</erste-sprache><zweite-sprache>gunji no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1291">
+  <vokabel-paar schritt="1292">
     <erste-sprache>当局</erste-sprache><zweite-sprache>toukyoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1292">
+  <vokabel-paar schritt="1293">
     <erste-sprache>被请求的</erste-sprache><zweite-sprache>yousei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1293">
+  <vokabel-paar schritt="1294">
     <erste-sprache>请求了</erste-sprache><zweite-sprache>yousei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1295">
     <erste-sprache>属于</erste-sprache><zweite-sprache>zoku suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1294">
+  <vokabel-paar schritt="1295">
     <erste-sprache>属于</erste-sprache><zweite-sprache>zoku shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1295">
+  <vokabel-paar schritt="1296">
     <erste-sprache>听到了</erste-sprache><zweite-sprache>kiita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1296">
+  <vokabel-paar schritt="1297">
     <erste-sprache>背景</erste-sprache><zweite-sprache>bunmyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1297">
+  <vokabel-paar schritt="1298">
     <erste-sprache>团队</erste-sprache><zweite-sprache>chiimu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1298">
+  <vokabel-paar schritt="1299">
     <erste-sprache>别处</erste-sprache><zweite-sprache>hoka de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1299">
+  <vokabel-paar schritt="1300">
     <erste-sprache>尺子</erste-sprache><zweite-sprache>jougi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1301">
     <erste-sprache>如果不</erste-sprache><zweite-sprache>sou de nakereba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1300">
+  <vokabel-paar schritt="1301">
     <erste-sprache>否则</erste-sprache><zweite-sprache>sou de nakereba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1301">
+  <vokabel-paar schritt="1302">
     <erste-sprache>故事</erste-sprache><zweite-sprache>monogatari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>goui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>kyoutei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>torikime</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>moushiawase</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>meiyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1302">
+  <vokabel-paar schritt="1303">
     <erste-sprache>协议</erste-sprache><zweite-sprache>giteisho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1303">
+  <vokabel-paar schritt="1304">
     <erste-sprache>家庭</erste-sprache><zweite-sprache>kazoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1304">
+  <vokabel-paar schritt="1305">
     <erste-sprache>类似的东西</erste-sprache><zweite-sprache>sonna mono</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1305">
+  <vokabel-paar schritt="1306">
     <erste-sprache>关于它</erste-sprache><zweite-sprache>sore ni tsuite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1306">
+  <vokabel-paar schritt="1307">
     <erste-sprache>朝那边</erste-sprache><zweite-sprache>asoko e</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1307">
+  <vokabel-paar schritt="1308">
     <erste-sprache>朝着</erste-sprache><zweite-sprache>ni mukete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1309">
     <erste-sprache>担忧</erste-sprache><zweite-sprache>kennen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1308">
+  <vokabel-paar schritt="1309">
     <erste-sprache>担忧</erste-sprache><zweite-sprache>shinpaigoto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1309">
+  <vokabel-paar schritt="1310">
     <erste-sprache>关怀</erste-sprache><zweite-sprache>kea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1310">
+  <vokabel-paar schritt="1311">
     <erste-sprache>请求</erste-sprache><zweite-sprache>yousei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1311">
+  <vokabel-paar schritt="1312">
     <erste-sprache>除了</erste-sprache><zweite-sprache>nozoite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1312">
+  <vokabel-paar schritt="1313">
     <erste-sprache>欧元</erste-sprache><zweite-sprache>yuuro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1313">
+  <vokabel-paar schritt="1314">
     <erste-sprache>较少的</erste-sprache><zweite-sprache>yori sukunai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1314">
+  <vokabel-paar schritt="1315">
     <erste-sprache>或者更确切地说</erste-sprache><zweite-sprache>aruiwa mushiro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1316">
     <erste-sprache>建立</erste-sprache><zweite-sprache>setsuritsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1316">
     <erste-sprache>建立</erste-sprache><zweite-sprache>kakuritsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1315">
+  <vokabel-paar schritt="1316">
     <erste-sprache>建立</erste-sprache><zweite-sprache>kakuritsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1317">
     <erste-sprache>私人</erste-sprache><zweite-sprache>shiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1316">
+  <vokabel-paar schritt="1317">
     <erste-sprache>私人的</erste-sprache><zweite-sprache>shiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1318">
     <erste-sprache>拥有</erste-sprache><zweite-sprache>shoyuu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1317">
+  <vokabel-paar schritt="1318">
     <erste-sprache>拥有</erste-sprache><zweite-sprache>shoyuu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1319">
     <erste-sprache>第二</erste-sprache><zweite-sprache>nibanme no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1318">
+  <vokabel-paar schritt="1319">
     <erste-sprache>第二</erste-sprache><zweite-sprache>dai ni no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1320">
     <erste-sprache>地位</erste-sprache><zweite-sprache>chii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1319">
+  <vokabel-paar schritt="1320">
     <erste-sprache>地位</erste-sprache><zweite-sprache>suteetasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1321">
     <erste-sprache>联系</erste-sprache><zweite-sprache>tsunagari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1321">
     <erste-sprache>联系</erste-sprache><zweite-sprache>kanrenzukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1320">
+  <vokabel-paar schritt="1321">
     <erste-sprache>联系</erste-sprache><zweite-sprache>kanrenzukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1321">
+  <vokabel-paar schritt="1322">
     <erste-sprache>阿拉伯的</erste-sprache><zweite-sprache>arabu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1322">
+  <vokabel-paar schritt="1323">
     <erste-sprache>请让</erste-sprache><zweite-sprache>sasete kudasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1324">
     <erste-sprache>允许</erste-sprache><zweite-sprache>kyoka suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1323">
+  <vokabel-paar schritt="1324">
     <erste-sprache>允许</erste-sprache><zweite-sprache>kyoka shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1325">
     <erste-sprache>许可</erste-sprache><zweite-sprache>kyoka suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1324">
+  <vokabel-paar schritt="1325">
     <erste-sprache>许可</erste-sprache><zweite-sprache>kyoka shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1325">
+  <vokabel-paar schritt="1326">
     <erste-sprache>图片</erste-sprache><zweite-sprache>gazou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1326">
+  <vokabel-paar schritt="1327">
     <erste-sprache>宽的</erste-sprache><zweite-sprache>hiroi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1327">
+  <vokabel-paar schritt="1328">
     <erste-sprache>工作的</erste-sprache><zweite-sprache>hataraite iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1328">
+  <vokabel-paar schritt="1329">
     <erste-sprache>全面的</erste-sprache><zweite-sprache>houkatsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1329">
+  <vokabel-paar schritt="1330">
     <erste-sprache>采取</erste-sprache><zweite-sprache>toru koto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1330">
+  <vokabel-paar schritt="1331">
     <erste-sprache>有权的</erste-sprache><zweite-sprache>kenri no aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1331">
+  <vokabel-paar schritt="1332">
     <erste-sprache>有权了</erste-sprache><zweite-sprache>kenri ga atta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1333">
     <erste-sprache>不能</erste-sprache><zweite-sprache>watashitachi wa dekinai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1333">
     <erste-sprache>不能</erste-sprache><zweite-sprache>dekinakatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1333">
     <erste-sprache>不能</erste-sprache><zweite-sprache>dekinai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1332">
+  <vokabel-paar schritt="1333">
     <erste-sprache>不能</erste-sprache><zweite-sprache>dekimasen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1333">
+  <vokabel-paar schritt="1334">
     <erste-sprache>监测</erste-sprache><zweite-sprache>kanshi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1334">
+  <vokabel-paar schritt="1335">
     <erste-sprache>品牌</erste-sprache><zweite-sprache>burando</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1335">
+  <vokabel-paar schritt="1336">
     <erste-sprache>收到的</erste-sprache><zweite-sprache>uketorareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1336">
+  <vokabel-paar schritt="1337">
     <erste-sprache>分钟</erste-sprache><zweite-sprache>fun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1337">
+  <vokabel-paar schritt="1338">
     <erste-sprache>相互の</erste-sprache><zweite-sprache>sougo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1339">
     <erste-sprache>附上</erste-sprache><zweite-sprache>tenpu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1338">
+  <vokabel-paar schritt="1339">
     <erste-sprache>附上</erste-sprache><zweite-sprache>tenpu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1339">
+  <vokabel-paar schritt="1340">
     <erste-sprache>国内的</erste-sprache><zweite-sprache>kokunai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1340">
+  <vokabel-paar schritt="1341">
     <erste-sprache>表达的</erste-sprache><zweite-sprache>hyougen sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1341">
+  <vokabel-paar schritt="1342">
     <erste-sprache>表达了</erste-sprache><zweite-sprache>hyougen shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1342">
+  <vokabel-paar schritt="1343">
     <erste-sprache>陪伴</erste-sprache><zweite-sprache>tsukiai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1343">
+  <vokabel-paar schritt="1344">
     <erste-sprache>不得不</erste-sprache><zweite-sprache>shinakereba naranakatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1344">
+  <vokabel-paar schritt="1345">
     <erste-sprache>在线</erste-sprache><zweite-sprache>onrain</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1345">
+  <vokabel-paar schritt="1346">
     <erste-sprache>不幸的是</erste-sprache><zweite-sprache>zannen nagara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1347">
     <erste-sprache>找到</erste-sprache><zweite-sprache>mitsukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1346">
+  <vokabel-paar schritt="1347">
     <erste-sprache>找到</erste-sprache><zweite-sprache>mitsukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1347">
+  <vokabel-paar schritt="1348">
     <erste-sprache>机制</erste-sprache><zweite-sprache>mekanizumu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1348">
+  <vokabel-paar schritt="1349">
     <erste-sprache>增加的</erste-sprache><zweite-sprache>fuyasareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1349">
+  <vokabel-paar schritt="1350">
     <erste-sprache>增加了</erste-sprache><zweite-sprache>fuyashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1350">
+  <vokabel-paar schritt="1351">
     <erste-sprache>成本</erste-sprache><zweite-sprache>hiyou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1351">
+  <vokabel-paar schritt="1352">
     <erste-sprache>技术</erste-sprache><zweite-sprache>gijutsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1352">
+  <vokabel-paar schritt="1353">
     <erste-sprache>钥匙</erste-sprache><zweite-sprache>kagi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1353">
+  <vokabel-paar schritt="1354">
     <erste-sprache>美元</erste-sprache><zweite-sprache>doru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1355">
     <erste-sprache>已经</erste-sprache><zweite-sprache>sudeni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1354">
+  <vokabel-paar schritt="1355">
     <erste-sprache>已经</erste-sprache><zweite-sprache>mou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1355">
+  <vokabel-paar schritt="1356">
     <erste-sprache>关着的</erste-sprache><zweite-sprache>ofu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1356">
+  <vokabel-paar schritt="1357">
     <erste-sprache>事实</erste-sprache><zweite-sprache>jijitsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1357">
+  <vokabel-paar schritt="1358">
     <erste-sprache>收养</erste-sprache><zweite-sprache>youshi engumi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1358">
+  <vokabel-paar schritt="1359">
     <erste-sprache>二月</erste-sprache><zweite-sprache>nigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1359">
+  <vokabel-paar schritt="1360">
     <erste-sprache>宁静</erste-sprache><zweite-sprache>yasuragi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1360">
+  <vokabel-paar schritt="1361">
     <erste-sprache>寂静</erste-sprache><zweite-sprache>shizukesa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1361">
+  <vokabel-paar schritt="1362">
     <erste-sprache>我去过</erste-sprache><zweite-sprache>watashi wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1362">
+  <vokabel-paar schritt="1363">
     <erste-sprache>你去过</erste-sprache><zweite-sprache>anata wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1363">
+  <vokabel-paar schritt="1364">
     <erste-sprache>他去过</erste-sprache><zweite-sprache>kare wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1364">
+  <vokabel-paar schritt="1365">
     <erste-sprache>她去过</erste-sprache><zweite-sprache>kanojo wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1365">
+  <vokabel-paar schritt="1366">
     <erste-sprache>我们去过</erste-sprache><zweite-sprache>watashitachi wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1366">
+  <vokabel-paar schritt="1367">
     <erste-sprache>你们去过</erste-sprache><zweite-sprache>anatatachi wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1367">
+  <vokabel-paar schritt="1368">
     <erste-sprache>他们去过</erste-sprache><zweite-sprache>karera wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1368">
+  <vokabel-paar schritt="1369">
     <erste-sprache>她们去过</erste-sprache><zweite-sprache>kanojotachi wa ikimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1370">
     <erste-sprache>它做了</erste-sprache><zweite-sprache>sore wa tsukurimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1369">
+  <vokabel-paar schritt="1370">
     <erste-sprache>它做了</erste-sprache><zweite-sprache>sore wa shimashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1370">
+  <vokabel-paar schritt="1371">
     <erste-sprache>我会是</erste-sprache><zweite-sprache>watashi wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1371">
+  <vokabel-paar schritt="1372">
     <erste-sprache>你会是</erste-sprache><zweite-sprache>anata wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1372">
+  <vokabel-paar schritt="1373">
     <erste-sprache>他会是</erste-sprache><zweite-sprache>kare wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1373">
+  <vokabel-paar schritt="1374">
     <erste-sprache>她会是</erste-sprache><zweite-sprache>kanojo wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1374">
+  <vokabel-paar schritt="1375">
     <erste-sprache>它会是</erste-sprache><zweite-sprache>sore wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1375">
+  <vokabel-paar schritt="1376">
     <erste-sprache>我们会是</erste-sprache><zweite-sprache>watashitachi wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1376">
+  <vokabel-paar schritt="1377">
     <erste-sprache>你们会是</erste-sprache><zweite-sprache>anatatachi wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1377">
+  <vokabel-paar schritt="1378">
     <erste-sprache>您会是</erste-sprache><zweite-sprache>anatagata wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1378">
+  <vokabel-paar schritt="1379">
     <erste-sprache>他们会是</erste-sprache><zweite-sprache>karera wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1379">
+  <vokabel-paar schritt="1380">
     <erste-sprache>她们会是</erste-sprache><zweite-sprache>kanojotachi wa sou ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1380">
+  <vokabel-paar schritt="1381">
     <erste-sprache>我会去</erste-sprache><zweite-sprache>watashi wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1381">
+  <vokabel-paar schritt="1382">
     <erste-sprache>你会去</erste-sprache><zweite-sprache>anata wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1382">
+  <vokabel-paar schritt="1383">
     <erste-sprache>他会去</erste-sprache><zweite-sprache>kare wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1383">
+  <vokabel-paar schritt="1384">
     <erste-sprache>她会去</erste-sprache><zweite-sprache>kanojo wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1384">
+  <vokabel-paar schritt="1385">
     <erste-sprache>它会去</erste-sprache><zweite-sprache>sore wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1385">
+  <vokabel-paar schritt="1386">
     <erste-sprache>我们会去</erste-sprache><zweite-sprache>watashitachi wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1386">
+  <vokabel-paar schritt="1387">
     <erste-sprache>你们会去</erste-sprache><zweite-sprache>anatatachi wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1387">
+  <vokabel-paar schritt="1388">
     <erste-sprache>您会去</erste-sprache><zweite-sprache>anatagata wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1388">
+  <vokabel-paar schritt="1389">
     <erste-sprache>他们会去</erste-sprache><zweite-sprache>karera wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1389">
+  <vokabel-paar schritt="1390">
     <erste-sprache>她们会去</erste-sprache><zweite-sprache>kanojotachi wa iku deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1390">
+  <vokabel-paar schritt="1391">
     <erste-sprache>你会做</erste-sprache><zweite-sprache>anata wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1391">
+  <vokabel-paar schritt="1392">
     <erste-sprache>他会做</erste-sprache><zweite-sprache>kare wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1392">
+  <vokabel-paar schritt="1393">
     <erste-sprache>她会做</erste-sprache><zweite-sprache>kanojo wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1393">
+  <vokabel-paar schritt="1394">
     <erste-sprache>它会做</erste-sprache><zweite-sprache>sore wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1394">
+  <vokabel-paar schritt="1395">
     <erste-sprache>我们会做</erste-sprache><zweite-sprache>watashitachi wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1395">
+  <vokabel-paar schritt="1396">
     <erste-sprache>你们会做</erste-sprache><zweite-sprache>anatatachi wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1396">
+  <vokabel-paar schritt="1397">
     <erste-sprache>您会做</erste-sprache><zweite-sprache>anatagata wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1397">
+  <vokabel-paar schritt="1398">
     <erste-sprache>他们会做</erste-sprache><zweite-sprache>karera wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1398">
+  <vokabel-paar schritt="1399">
     <erste-sprache>她们会做</erste-sprache><zweite-sprache>kanojotachi wa tsukuru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1399">
+  <vokabel-paar schritt="1400">
     <erste-sprache>我会有</erste-sprache><zweite-sprache>watashi wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1400">
+  <vokabel-paar schritt="1401">
     <erste-sprache>你会有</erste-sprache><zweite-sprache>anata wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1401">
+  <vokabel-paar schritt="1402">
     <erste-sprache>他会有</erste-sprache><zweite-sprache>kare wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1402">
+  <vokabel-paar schritt="1403">
     <erste-sprache>她会有</erste-sprache><zweite-sprache>kanojo wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1403">
+  <vokabel-paar schritt="1404">
     <erste-sprache>它会有</erste-sprache><zweite-sprache>sore wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1404">
+  <vokabel-paar schritt="1405">
     <erste-sprache>我们会有</erste-sprache><zweite-sprache>watashitachi wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1405">
+  <vokabel-paar schritt="1406">
     <erste-sprache>你们会有</erste-sprache><zweite-sprache>anatatachi wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1406">
+  <vokabel-paar schritt="1407">
     <erste-sprache>您会有</erste-sprache><zweite-sprache>anatagata wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1407">
+  <vokabel-paar schritt="1408">
     <erste-sprache>她们会有</erste-sprache><zweite-sprache>kanojotachi wa motsu deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1408">
+  <vokabel-paar schritt="1409">
     <erste-sprache>被命名的</erste-sprache><zweite-sprache>nazukerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1410">
     <erste-sprache>命名了</erste-sprache><zweite-sprache>nazuketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1409">
+  <vokabel-paar schritt="1410">
     <erste-sprache>称为了</erste-sprache><zweite-sprache>nazuketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1411">
     <erste-sprache>被称为的</erste-sprache><zweite-sprache>yobareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1411">
     <erste-sprache>被喊的</erste-sprache><zweite-sprache>yobareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1411">
+  <vokabel-paar schritt="1412">
     <erste-sprache>已知的</erste-sprache><zweite-sprache>shirarete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1413">
     <erste-sprache>获得的</erste-sprache><zweite-sprache>te ni irerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1412">
+  <vokabel-paar schritt="1413">
     <erste-sprache>获得的</erste-sprache><zweite-sprache>erareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1413">
+  <vokabel-paar schritt="1414">
     <erste-sprache>平的</erste-sprache><zweite-sprache>taira na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1414">
+  <vokabel-paar schritt="1415">
     <erste-sprache>回应</erste-sprache><zweite-sprache>outou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1416">
     <erste-sprache>独自</erste-sprache><zweite-sprache>hitori</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1415">
+  <vokabel-paar schritt="1416">
     <erste-sprache>独自</erste-sprache><zweite-sprache>hitori de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1416">
+  <vokabel-paar schritt="1417">
     <erste-sprache>全然</erste-sprache><zweite-sprache>mattaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1417">
+  <vokabel-paar schritt="1418">
     <erste-sprache>学校</erste-sprache><zweite-sprache>gakkou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1419">
     <erste-sprache>展示</erste-sprache><zweite-sprache>miseru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1418">
+  <vokabel-paar schritt="1419">
     <erste-sprache>展示</erste-sprache><zweite-sprache>misemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1420">
     <erste-sprache>显示</erste-sprache><zweite-sprache>miseru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1419">
+  <vokabel-paar schritt="1420">
     <erste-sprache>显示</erste-sprache><zweite-sprache>misemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1420">
+  <vokabel-paar schritt="1421">
     <erste-sprache>直接</erste-sprache><zweite-sprache>chokusetsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1421">
+  <vokabel-paar schritt="1422">
     <erste-sprache>维和</erste-sprache><zweite-sprache>heiwa iji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1422">
+  <vokabel-paar schritt="1423">
     <erste-sprache>磋商</erste-sprache><zweite-sprache>kyougi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1424">
     <erste-sprache>发布</erste-sprache><zweite-sprache>toukou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1423">
+  <vokabel-paar schritt="1424">
     <erste-sprache>发布</erste-sprache><zweite-sprache>toukou shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1425">
     <erste-sprache>运动</erste-sprache><zweite-sprache>ugoki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1424">
+  <vokabel-paar schritt="1425">
     <erste-sprache>运动</erste-sprache><zweite-sprache>supootsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1425">
+  <vokabel-paar schritt="1426">
     <erste-sprache>另一个</erste-sprache><zweite-sprache>betsu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1426">
+  <vokabel-paar schritt="1427">
     <erste-sprache>数量</erste-sprache><zweite-sprache>ryou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1427">
+  <vokabel-paar schritt="1428">
     <erste-sprache>承诺</erste-sprache><zweite-sprache>komittomento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1428">
+  <vokabel-paar schritt="1429">
     <erste-sprache>每</erste-sprache><zweite-sprache>goto ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1429">
+  <vokabel-paar schritt="1430">
     <erste-sprache>恐怖主义</erste-sprache><zweite-sprache>terorizumu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1430">
-    <erste-sprache>在后面</erste-sprache><zweite-sprache>no ushiro ni</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1431">
+    <erste-sprache>在后面</erste-sprache><zweite-sprache>-no ushiro ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1432">
     <erste-sprache>音乐</erste-sprache><zweite-sprache>ongaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1433">
     <erste-sprache>喜欢</erste-sprache><zweite-sprache>konomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1432">
+  <vokabel-paar schritt="1433">
     <erste-sprache>喜欢</erste-sprache><zweite-sprache>konomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1434">
     <erste-sprache>更喜欢</erste-sprache><zweite-sprache>konomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1433">
+  <vokabel-paar schritt="1434">
     <erste-sprache>更喜欢</erste-sprache><zweite-sprache>konomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1434">
+  <vokabel-paar schritt="1435">
     <erste-sprache>评估</erste-sprache><zweite-sprache>hyouka</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1435">
+  <vokabel-paar schritt="1436">
     <erste-sprache>示例</erste-sprache><zweite-sprache>rei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1436">
+  <vokabel-paar schritt="1437">
     <erste-sprache>裁军</erste-sprache><zweite-sprache>gunshuku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1437">
+  <vokabel-paar schritt="1438">
     <erste-sprache>电视</erste-sprache><zweite-sprache>terebi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1438">
+  <vokabel-paar schritt="1439">
     <erste-sprache>应付的</erste-sprache><zweite-sprache>shiharai kigen no kita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1440">
     <erste-sprache>倡议</erste-sprache><zweite-sprache>inishiachibu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1439">
+  <vokabel-paar schritt="1440">
     <erste-sprache>倡议</erste-sprache><zweite-sprache>torikumi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1440">
+  <vokabel-paar schritt="1441">
     <erste-sprache>即时的</erste-sprache><zweite-sprache>sokuji no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1441">
+  <vokabel-paar schritt="1442">
     <erste-sprache>很快</erste-sprache><zweite-sprache>mamonaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1442">
+  <vokabel-paar schritt="1443">
     <erste-sprache>年轻的</erste-sprache><zweite-sprache>wakai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>预防</erste-sprache><zweite-sprache>yobou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>预防</erste-sprache><zweite-sprache>fusegu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1443">
+  <vokabel-paar schritt="1444">
     <erste-sprache>预防</erste-sprache><zweite-sprache>fusegimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1444">
+  <vokabel-paar schritt="1445">
     <erste-sprache>被报告的</erste-sprache><zweite-sprache>houkoku sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1445">
+  <vokabel-paar schritt="1446">
     <erste-sprache>报告了</erste-sprache><zweite-sprache>houkoku shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1446">
+  <vokabel-paar schritt="1447">
     <erste-sprache>女首领</erste-sprache><zweite-sprache>josei sekininsha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1447">
+  <vokabel-paar schritt="1448">
     <erste-sprache>首领</erste-sprache><zweite-sprache>sekininsha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1448">
+  <vokabel-paar schritt="1449">
     <erste-sprache>欧洲</erste-sprache><zweite-sprache>yooroppa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1449">
+  <vokabel-paar schritt="1450">
     <erste-sprache>四</erste-sprache><zweite-sprache>yon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1450">
+  <vokabel-paar schritt="1451">
     <erste-sprache>创立的</erste-sprache><zweite-sprache>setsuritsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1451">
+  <vokabel-paar schritt="1452">
     <erste-sprache>创立了</erste-sprache><zweite-sprache>setsuritsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1452">
+  <vokabel-paar schritt="1453">
     <erste-sprache>博士</erste-sprache><zweite-sprache>hakushi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1453">
+  <vokabel-paar schritt="1454">
     <erste-sprache>头</erste-sprache><zweite-sprache>atama</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1455">
     <erste-sprache>负责人</erste-sprache><zweite-sprache>gichou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1454">
+  <vokabel-paar schritt="1455">
     <erste-sprache>主席</erste-sprache><zweite-sprache>gichou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1455">
+  <vokabel-paar schritt="1456">
     <erste-sprache>清楚地</erste-sprache><zweite-sprache>hakkiri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1457">
     <erste-sprache>清楚表达</erste-sprache><zweite-sprache>hakkiri noberu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1456">
+  <vokabel-paar schritt="1457">
     <erste-sprache>清楚表达</erste-sprache><zweite-sprache>hakkiri nobemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1457">
+  <vokabel-paar schritt="1458">
     <erste-sprache>花费</erste-sprache><zweite-sprache>kakaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1459">
     <erste-sprache>战略</erste-sprache><zweite-sprache>senryaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1458">
+  <vokabel-paar schritt="1459">
     <erste-sprache>策略</erste-sprache><zweite-sprache>senryaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1460">
     <erste-sprache>小姐</erste-sprache><zweite-sprache>ojousan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1459">
+  <vokabel-paar schritt="1460">
     <erste-sprache>小姐</erste-sprache><zweite-sprache>madomoazeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1460">
+  <vokabel-paar schritt="1461">
     <erste-sprache>东</erste-sprache><zweite-sprache>higashi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1461">
+  <vokabel-paar schritt="1462">
     <erste-sprache>平等</erste-sprache><zweite-sprache>byoudou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1462">
+  <vokabel-paar schritt="1463">
     <erste-sprache>欧盟</erste-sprache><zweite-sprache>iiyuu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1463">
+  <vokabel-paar schritt="1464">
     <erste-sprache>那时</erste-sprache><zweite-sprache>sono toki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1464">
+  <vokabel-paar schritt="1465">
     <erste-sprache>适用</erste-sprache><zweite-sprache>tekiyou sareru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1465">
+  <vokabel-paar schritt="1466">
     <erste-sprache>困难的</erste-sprache><zweite-sprache>muzukashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1466">
+  <vokabel-paar schritt="1467">
     <erste-sprache>重的</erste-sprache><zweite-sprache>omoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1467">
+  <vokabel-paar schritt="1468">
     <erste-sprache>商业</erste-sprache><zweite-sprache>bijinesu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1469">
     <erste-sprache>短缺</erste-sprache><zweite-sprache>fusoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1468">
+  <vokabel-paar schritt="1469">
     <erste-sprache>缺乏</erste-sprache><zweite-sprache>fusoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1469">
+  <vokabel-paar schritt="1470">
     <erste-sprache>市盈率</erste-sprache><zweite-sprache>kabuka shuuekirit(s)u</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1470">
+  <vokabel-paar schritt="1471">
     <erste-sprache>无论</erste-sprache><zweite-sprache>kankei nai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1471">
+  <vokabel-paar schritt="1472">
     <erste-sprache>人口贩运</erste-sprache><zweite-sprache>jinshin baibai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1472">
+  <vokabel-paar schritt="1473">
     <erste-sprache>规划</erste-sprache><zweite-sprache>keikaku ritsuan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1473">
+  <vokabel-paar schritt="1474">
     <erste-sprache>法国的</erste-sprache><zweite-sprache>furansu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1474">
+  <vokabel-paar schritt="1475">
     <erste-sprache>每股权益</erste-sprache><zweite-sprache>ichikabu atari jikoshihon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1475">
+  <vokabel-paar schritt="1476">
     <erste-sprache>上方</erste-sprache><zweite-sprache>ue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1476">
-    <erste-sprache>周围</erste-sprache><zweite-sprache>no mawari ni</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1477">
-    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimari</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1477">
-    <erste-sprache>开始</erste-sprache><zweite-sprache>sutaato</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1477">
-    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimeru</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1477">
-    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimemasu</zweite-sprache>
+    <erste-sprache>周围</erste-sprache><zweite-sprache>-no mawari ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1478">
-    <erste-sprache>对面</erste-sprache><zweite-sprache>mukai ni</zweite-sprache>
+    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimari</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1478">
+    <erste-sprache>开始</erste-sprache><zweite-sprache>sutaato</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1478">
+    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimeru</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1478">
+    <erste-sprache>开始</erste-sprache><zweite-sprache>hajimemasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1479">
-    <erste-sprache>西班牙的</erste-sprache><zweite-sprache>supein no</zweite-sprache>
+    <erste-sprache>对面</erste-sprache><zweite-sprache>mukai ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1480">
-    <erste-sprache>清晰</erste-sprache><zweite-sprache>meikaku na</zweite-sprache>
+    <erste-sprache>西班牙的</erste-sprache><zweite-sprache>supein no</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1481">
-    <erste-sprache>干净</erste-sprache><zweite-sprache>kirei na</zweite-sprache>
+    <erste-sprache>清晰</erste-sprache><zweite-sprache>meikaku na</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1482">
+    <erste-sprache>干净</erste-sprache><zweite-sprache>kirei na</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1483">
     <erste-sprache>文化的</erste-sprache><zweite-sprache>bunkateki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1484">
     <erste-sprache>到目前为止</erste-sprache><zweite-sprache>ima no tokoro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1484">
     <erste-sprache>到目前为止</erste-sprache><zweite-sprache>imantoko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1483">
+  <vokabel-paar schritt="1484">
     <erste-sprache>到目前为止</erste-sprache><zweite-sprache>kore made no tokoro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1484">
+  <vokabel-paar schritt="1485">
     <erste-sprache>走了</erste-sprache><zweite-sprache>itte shimatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1485">
+  <vokabel-paar schritt="1486">
     <erste-sprache>父母</erste-sprache><zweite-sprache>ryoushin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1486">
+  <vokabel-paar schritt="1487">
     <erste-sprache>专员</erste-sprache><zweite-sprache>iin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1487">
+  <vokabel-paar schritt="1488">
     <erste-sprache>我说</erste-sprache><zweite-sprache>watashi wa iu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1488">
+  <vokabel-paar schritt="1489">
     <erste-sprache>行政的</erste-sprache><zweite-sprache>gyousei no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1489">
+  <vokabel-paar schritt="1490">
     <erste-sprache>被建议的</erste-sprache><zweite-sprache>susumerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1490">
+  <vokabel-paar schritt="1491">
     <erste-sprache>主任</erste-sprache><zweite-sprache>direkutaa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1491">
+  <vokabel-paar schritt="1492">
     <erste-sprache>违规行为</erste-sprache><zweite-sprache>ihan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1492">
+  <vokabel-paar schritt="1493">
     <erste-sprache>眼睛</erste-sprache><zweite-sprache>me</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1493">
+  <vokabel-paar schritt="1494">
     <erste-sprache>数百万</erste-sprache><zweite-sprache>suuhyakuman</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1494">
+  <vokabel-paar schritt="1495">
     <erste-sprache>性的</erste-sprache><zweite-sprache>seiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1495">
+  <vokabel-paar schritt="1496">
     <erste-sprache>部长</erste-sprache><zweite-sprache>daijin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1496">
+  <vokabel-paar schritt="1497">
     <erste-sprache>工具</erste-sprache><zweite-sprache>dougu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1497">
+  <vokabel-paar schritt="1498">
     <erste-sprache>幸福</erste-sprache><zweite-sprache>shiawase</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1498">
+  <vokabel-paar schritt="1499">
     <erste-sprache>没有人</erste-sprache><zweite-sprache>dare mo inai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1499">
+  <vokabel-paar schritt="1500">
     <erste-sprache>似乎</erste-sprache><zweite-sprache>mieru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1500">
+  <vokabel-paar schritt="1501">
     <erste-sprache>容易地</erste-sprache><zweite-sprache>kantan ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1501">
+  <vokabel-paar schritt="1502">
     <erste-sprache>舱室</erste-sprache><zweite-sprache>kukaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1503">
     <erste-sprache>达成</erste-sprache><zweite-sprache>tassei suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1502">
+  <vokabel-paar schritt="1503">
     <erste-sprache>达成</erste-sprache><zweite-sprache>tassei shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1503">
+  <vokabel-paar schritt="1504">
     <erste-sprache>顶部</erste-sprache><zweite-sprache>joubu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1504">
+  <vokabel-paar schritt="1505">
     <erste-sprache>我感觉</erste-sprache><zweite-sprache>watashi wa kanjiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1505">
+  <vokabel-paar schritt="1506">
     <erste-sprache>日期</erste-sprache><zweite-sprache>hizuke</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1507">
     <erste-sprache>负责任的</erste-sprache><zweite-sprache>sekininkan no aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1506">
+  <vokabel-paar schritt="1507">
     <erste-sprache>负责任的</erste-sprache><zweite-sprache>sekinin aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1507">
+  <vokabel-paar schritt="1508">
     <erste-sprache>投入的</erste-sprache><zweite-sprache>kenshinteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1508">
+  <vokabel-paar schritt="1509">
     <erste-sprache>注明日期的</erste-sprache><zweite-sprache>hizuke no aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1509">
+  <vokabel-paar schritt="1510">
     <erste-sprache>组织好的</erste-sprache><zweite-sprache>soshikika sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1510">
+  <vokabel-paar schritt="1511">
     <erste-sprache>组织了</erste-sprache><zweite-sprache>soshiki shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1512">
     <erste-sprache>根据</erste-sprache><zweite-sprache>ni yoru to</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1511">
+  <vokabel-paar schritt="1512">
     <erste-sprache>根据</erste-sprache><zweite-sprache>ni shitagatte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1512">
+  <vokabel-paar schritt="1513">
     <erste-sprache>大声地</erste-sprache><zweite-sprache>koe ni dashite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1513">
+  <vokabel-paar schritt="1514">
     <erste-sprache>巴伐利亚</erste-sprache><zweite-sprache>Baierun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1514">
+  <vokabel-paar schritt="1515">
     <erste-sprache>方向</erste-sprache><zweite-sprache>houkou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1515">
+  <vokabel-paar schritt="1516">
     <erste-sprache>最终</erste-sprache><zweite-sprache>saishuuteki ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1516">
+  <vokabel-paar schritt="1517">
     <erste-sprache>互联网</erste-sprache><zweite-sprache>intaanetto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1518">
     <erste-sprache>呈现</erste-sprache><zweite-sprache>shoukai suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1517">
+  <vokabel-paar schritt="1518">
     <erste-sprache>呈现</erste-sprache><zweite-sprache>shoukai shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1519">
     <erste-sprache>阅读</erste-sprache><zweite-sprache>yomu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1518">
+  <vokabel-paar schritt="1519">
     <erste-sprache>阅读</erste-sprache><zweite-sprache>yomimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1519">
+  <vokabel-paar schritt="1520">
     <erste-sprache>旧的</erste-sprache><zweite-sprache>furui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1520">
+  <vokabel-paar schritt="1521">
     <erste-sprache>资本</erste-sprache><zweite-sprache>shihon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1521">
+  <vokabel-paar schritt="1522">
     <erste-sprache>你知道</erste-sprache><zweite-sprache>anata wa shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1522">
+  <vokabel-paar schritt="1523">
     <erste-sprache>天数</erste-sprache><zweite-sprache>hibi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1523">
+  <vokabel-paar schritt="1524">
     <erste-sprache>天</erste-sprache><zweite-sprache>nikkan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1524">
+  <vokabel-paar schritt="1525">
     <erste-sprache>黑暗的</erste-sprache><zweite-sprache>kurai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1525">
+  <vokabel-paar schritt="1526">
     <erste-sprache>明亮的</erste-sprache><zweite-sprache>akarui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1526">
+  <vokabel-paar schritt="1527">
     <erste-sprache>官方的</erste-sprache><zweite-sprache>koushiki no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1527">
+  <vokabel-paar schritt="1528">
     <erste-sprache>有针对的</erste-sprache><zweite-sprache>nerawareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1528">
+  <vokabel-paar schritt="1529">
     <erste-sprache>瞄准了</erste-sprache><zweite-sprache>neratta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1529">
+  <vokabel-paar schritt="1530">
     <erste-sprache>意识</erste-sprache><zweite-sprache>ishiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1530">
+  <vokabel-paar schritt="1531">
     <erste-sprache>个人的</erste-sprache><zweite-sprache>kojinteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1531">
+  <vokabel-paar schritt="1532">
     <erste-sprache>书籍</erste-sprache><zweite-sprache>hon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1532">
+  <vokabel-paar schritt="1533">
     <erste-sprache>早些时候</erste-sprache><zweite-sprache>izen wa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1533">
+  <vokabel-paar schritt="1534">
     <erste-sprache>百分比</erste-sprache><zweite-sprache>paasento</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1535">
     <erste-sprache>词语</erste-sprache><zweite-sprache>kotoba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1534">
+  <vokabel-paar schritt="1535">
     <erste-sprache>话语</erste-sprache><zweite-sprache>kotoba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1535">
+  <vokabel-paar schritt="1536">
     <erste-sprache>词</erste-sprache><zweite-sprache>tango</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1537">
     <erste-sprache>形成</erste-sprache><zweite-sprache>keisei suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1536">
+  <vokabel-paar schritt="1537">
     <erste-sprache>形成</erste-sprache><zweite-sprache>keisei shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1537">
+  <vokabel-paar schritt="1538">
     <erste-sprache>知识</erste-sprache><zweite-sprache>chishiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1538">
+  <vokabel-paar schritt="1539">
     <erste-sprache>支持了</erste-sprache><zweite-sprache>shiji shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1539">
+  <vokabel-paar schritt="1540">
     <erste-sprache>批准的</erste-sprache><zweite-sprache>shounin sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1540">
+  <vokabel-paar schritt="1541">
     <erste-sprache>批准了</erste-sprache><zweite-sprache>shounin shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1541">
+  <vokabel-paar schritt="1542">
     <erste-sprache>法律</erste-sprache><zweite-sprache>houritsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1542">
+  <vokabel-paar schritt="1543">
     <erste-sprache>目的</erste-sprache><zweite-sprache>mokuteki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1543">
+  <vokabel-paar schritt="1544">
     <erste-sprache>很久</erste-sprache><zweite-sprache>nagai aida</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1544">
+  <vokabel-paar schritt="1545">
     <erste-sprache>俄罗斯的</erste-sprache><zweite-sprache>roshia no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1545">
+  <vokabel-paar schritt="1546">
     <erste-sprache>能量</erste-sprache><zweite-sprache>enerugii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1546">
+  <vokabel-paar schritt="1547">
     <erste-sprache>年轻女性</erste-sprache><zweite-sprache>wakai joseitachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1548">
     <erste-sprache>带来</erste-sprache><zweite-sprache>motte kuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1547">
+  <vokabel-paar schritt="1548">
     <erste-sprache>带来</erste-sprache><zweite-sprache>motte kimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1549">
     <erste-sprache>存在</erste-sprache><zweite-sprache>sonzai suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1548">
+  <vokabel-paar schritt="1549">
     <erste-sprache>存在</erste-sprache><zweite-sprache>sonzai shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1549">
+  <vokabel-paar schritt="1550">
     <erste-sprache>人类的</erste-sprache><zweite-sprache>ningen no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1550">
+  <vokabel-paar schritt="1551">
     <erste-sprache>我希望</erste-sprache><zweite-sprache>watashi wa negatte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1551">
+  <vokabel-paar schritt="1552">
     <erste-sprache>帖子</erste-sprache><zweite-sprache>toukou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1552">
+  <vokabel-paar schritt="1553">
     <erste-sprache>战略性的</erste-sprache><zweite-sprache>senryakuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1553">
+  <vokabel-paar schritt="1554">
     <erste-sprache>章程</erste-sprache><zweite-sprache>kenshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1554">
+  <vokabel-paar schritt="1555">
     <erste-sprache>已发布的</erste-sprache><zweite-sprache>hakkou sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1555">
+  <vokabel-paar schritt="1556">
     <erste-sprache>发布了</erste-sprache><zweite-sprache>hakkou shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1556">
+  <vokabel-paar schritt="1557">
     <erste-sprache>分析</erste-sprache><zweite-sprache>bunseki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1557">
+  <vokabel-paar schritt="1558">
     <erste-sprache>奥地利</erste-sprache><zweite-sprache>Oosutoria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1558">
+  <vokabel-paar schritt="1559">
     <erste-sprache>发生</erste-sprache><zweite-sprache>okoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1560">
     <erste-sprache>躺下</erste-sprache><zweite-sprache>yoko ni naru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1559">
+  <vokabel-paar schritt="1560">
     <erste-sprache>躺下</erste-sprache><zweite-sprache>yoko ni narimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1561">
     <erste-sprache>说谎</erste-sprache><zweite-sprache>uso o tsuku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1560">
+  <vokabel-paar schritt="1561">
     <erste-sprache>说谎</erste-sprache><zweite-sprache>uso o tsukimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1561">
+  <vokabel-paar schritt="1562">
     <erste-sprache>免费的</erste-sprache><zweite-sprache>muryou no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1562">
+  <vokabel-paar schritt="1563">
     <erste-sprache>智利</erste-sprache><zweite-sprache>Chiri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1563">
+  <vokabel-paar schritt="1564">
     <erste-sprache>始终</erste-sprache><zweite-sprache>tsune ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1564">
+  <vokabel-paar schritt="1565">
     <erste-sprache>等于</erste-sprache><zweite-sprache>hitoshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1565">
+  <vokabel-paar schritt="1566">
     <erste-sprache>平等的</erste-sprache><zweite-sprache>byoudou na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1566">
+  <vokabel-paar schritt="1567">
     <erste-sprache>文本</erste-sprache><zweite-sprache>tekisuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1567">
+  <vokabel-paar schritt="1568">
     <erste-sprache>疼痛</erste-sprache><zweite-sprache>itami</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1568">
+  <vokabel-paar schritt="1569">
     <erste-sprache>英语的</erste-sprache><zweite-sprache>eigo no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1569">
+  <vokabel-paar schritt="1570">
     <erste-sprache>远</erste-sprache><zweite-sprache>tooku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1570">
+  <vokabel-paar schritt="1571">
     <erste-sprache>潜力</erste-sprache><zweite-sprache>senzairyoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1571">
+  <vokabel-paar schritt="1572">
     <erste-sprache>有时</erste-sprache><zweite-sprache>tokidoki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1572">
+  <vokabel-paar schritt="1573">
     <erste-sprache>预期的</erste-sprache><zweite-sprache>yoki sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1573">
+  <vokabel-paar schritt="1574">
     <erste-sprache>大的</erste-sprache><zweite-sprache>ookii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1574">
+  <vokabel-paar schritt="1575">
     <erste-sprache>已开展的</erste-sprache><zweite-sprache>chakushu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1575">
+  <vokabel-paar schritt="1576">
     <erste-sprache>开展了</erste-sprache><zweite-sprache>chakushu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1576">
+  <vokabel-paar schritt="1577">
     <erste-sprache>已说明的</erste-sprache><zweite-sprache>noberareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1577">
+  <vokabel-paar schritt="1578">
     <erste-sprache>战争</erste-sprache><zweite-sprache>sensou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1578">
+  <vokabel-paar schritt="1579">
     <erste-sprache>受影响的</erste-sprache><zweite-sprache>eikyou o uketa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1579">
+  <vokabel-paar schritt="1580">
     <erste-sprache>影响了</erste-sprache><zweite-sprache>eikyou o ataeta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1580">
+  <vokabel-paar schritt="1581">
     <erste-sprache>指导方针</erste-sprache><zweite-sprache>gaidorain</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1581">
+  <vokabel-paar schritt="1582">
     <erste-sprache>疑虑</erste-sprache><zweite-sprache>ginen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1583">
     <erste-sprache>玩</erste-sprache><zweite-sprache>asobu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1582">
+  <vokabel-paar schritt="1583">
     <erste-sprache>玩</erste-sprache><zweite-sprache>asobimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1583">
+  <vokabel-paar schritt="1584">
     <erste-sprache>峰会</erste-sprache><zweite-sprache>shunou kaidan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1584">
+  <vokabel-paar schritt="1585">
     <erste-sprache>山顶</erste-sprache><zweite-sprache>choujou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1585">
+  <vokabel-paar schritt="1586">
     <erste-sprache>唯一的</erste-sprache><zweite-sprache>yuiitsu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1587">
     <erste-sprache>搜索</erste-sprache><zweite-sprache>kensaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1587">
     <erste-sprache>搜索</erste-sprache><zweite-sprache>kensaku suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1586">
+  <vokabel-paar schritt="1587">
     <erste-sprache>搜索</erste-sprache><zweite-sprache>kensaku shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1587">
+  <vokabel-paar schritt="1588">
     <erste-sprache>铅</erste-sprache><zweite-sprache>namari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1589">
     <erste-sprache>引导</erste-sprache><zweite-sprache>michibiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1588">
+  <vokabel-paar schritt="1589">
     <erste-sprache>引导</erste-sprache><zweite-sprache>michibikimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1589">
+  <vokabel-paar schritt="1590">
     <erste-sprache>知情的</erste-sprache><zweite-sprache>shirasareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1590">
+  <vokabel-paar schritt="1591">
     <erste-sprache>以色列的</erste-sprache><zweite-sprache>isuraeru no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1591">
+  <vokabel-paar schritt="1592">
     <erste-sprache>建设</erste-sprache><zweite-sprache>kouchiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1592">
+  <vokabel-paar schritt="1593">
     <erste-sprache>独立的</erste-sprache><zweite-sprache>dokuritsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1593">
+  <vokabel-paar schritt="1594">
     <erste-sprache>害怕</erste-sprache><zweite-sprache>osore</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1595">
     <erste-sprache>运行</erste-sprache><zweite-sprache>ugoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1594">
+  <vokabel-paar schritt="1595">
     <erste-sprache>运作</erste-sprache><zweite-sprache>ugoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1596">
     <erste-sprache>跑</erste-sprache><zweite-sprache>hashiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1595">
+  <vokabel-paar schritt="1596">
     <erste-sprache>跑</erste-sprache><zweite-sprache>hashirimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1596">
+  <vokabel-paar schritt="1597">
     <erste-sprache>满的</erste-sprache><zweite-sprache>ippai no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1598">
     <erste-sprache>信息</erste-sprache><zweite-sprache>jouhou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1597">
+  <vokabel-paar schritt="1598">
     <erste-sprache>信息</erste-sprache><zweite-sprache>messeiji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1598">
+  <vokabel-paar schritt="1599">
     <erste-sprache>新闻</erste-sprache><zweite-sprache>nyuusu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1599">
+  <vokabel-paar schritt="1600">
     <erste-sprache>有限的</erste-sprache><zweite-sprache>seigen sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1601">
     <erste-sprache>证据</erste-sprache><zweite-sprache>shouko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1600">
+  <vokabel-paar schritt="1601">
     <erste-sprache>证明</erste-sprache><zweite-sprache>shouko</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1601">
+  <vokabel-paar schritt="1602">
     <erste-sprache>质量</erste-sprache><zweite-sprache>hinshitsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1602">
+  <vokabel-paar schritt="1603">
     <erste-sprache>市值</erste-sprache><zweite-sprache>jikasougaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1603">
+  <vokabel-paar schritt="1604">
     <erste-sprache>论坛</erste-sprache><zweite-sprache>fooramu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1605">
     <erste-sprache>关闭</erste-sprache><zweite-sprache>shimeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1604">
+  <vokabel-paar schritt="1605">
     <erste-sprache>关闭</erste-sprache><zweite-sprache>shimemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1605">
+  <vokabel-paar schritt="1606">
     <erste-sprache>总体上</erste-sprache><zweite-sprache>zentai to shite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1606">
+  <vokabel-paar schritt="1607">
     <erste-sprache>在 之内</erste-sprache><zweite-sprache>inai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1607">
+  <vokabel-paar schritt="1608">
     <erste-sprache>转账</erste-sprache><zweite-sprache>furikomi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1608">
+  <vokabel-paar schritt="1609">
     <erste-sprache>信函</erste-sprache><zweite-sprache>tegami</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1609">
+  <vokabel-paar schritt="1610">
     <erste-sprache>工人</erste-sprache><zweite-sprache>roudousha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1610">
+  <vokabel-paar schritt="1611">
     <erste-sprache>开放的</erste-sprache><zweite-sprache>aite iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1612">
     <erste-sprache>保持</erste-sprache><zweite-sprache>tamotsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1611">
+  <vokabel-paar schritt="1612">
     <erste-sprache>保持</erste-sprache><zweite-sprache>tamochimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1613">
     <erste-sprache>提交</erste-sprache><zweite-sprache>teishutsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1612">
+  <vokabel-paar schritt="1613">
     <erste-sprache>提交</erste-sprache><zweite-sprache>teishutsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1613">
+  <vokabel-paar schritt="1614">
     <erste-sprache>前進</erste-sprache><zweite-sprache>mae e</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1614">
+  <vokabel-paar schritt="1615">
     <erste-sprache>心智</erste-sprache><zweite-sprache>seishin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1615">
-    <erste-sprache>尽管</erste-sprache><zweite-sprache>ni mo kakawarazu</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1616">
-    <erste-sprache>主要</erste-sprache><zweite-sprache>omo ni</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1616">
-    <erste-sprache>主要地</erste-sprache><zweite-sprache>omo ni</zweite-sprache>
+    <erste-sprache>尽管</erste-sprache><zweite-sprache>-ni mo kakawarazu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1617">
-    <erste-sprache>不知何故</erste-sprache><zweite-sprache>dou iu wake ka</zweite-sprache>
+    <erste-sprache>主要</erste-sprache><zweite-sprache>omo ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1617">
+    <erste-sprache>主要地</erste-sprache><zweite-sprache>omo ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1618">
-    <erste-sprache>被遗忘的</erste-sprache><zweite-sprache>wasurerareta</zweite-sprache>
+    <erste-sprache>不知何故</erste-sprache><zweite-sprache>dou iu wake ka</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1619">
-    <erste-sprache>给她</erste-sprache><zweite-sprache>kanojo ni</zweite-sprache>
+    <erste-sprache>被遗忘的</erste-sprache><zweite-sprache>wasurerareta</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1620">
-    <erste-sprache>优势</erste-sprache><zweite-sprache>riten</zweite-sprache>
+    <erste-sprache>给她</erste-sprache><zweite-sprache>kanojo ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1621">
-    <erste-sprache>剩余部分</erste-sprache><zweite-sprache>nokori</zweite-sprache>
+    <erste-sprache>优势</erste-sprache><zweite-sprache>riten</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1622">
+    <erste-sprache>剩余部分</erste-sprache><zweite-sprache>nokori</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1623">
     <erste-sprache>休息</erste-sprache><zweite-sprache>kyuusoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1624">
     <erste-sprache>转</erste-sprache><zweite-sprache>mawasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1623">
+  <vokabel-paar schritt="1624">
     <erste-sprache>转</erste-sprache><zweite-sprache>mawashimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1624">
+  <vokabel-paar schritt="1625">
     <erste-sprache>标题</erste-sprache><zweite-sprache>taitoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1625">
+  <vokabel-paar schritt="1626">
     <erste-sprache>视频</erste-sprache><zweite-sprache>bideo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1626">
+  <vokabel-paar schritt="1627">
     <erste-sprache>被认可的</erste-sprache><zweite-sprache>mitomerareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1627">
+  <vokabel-paar schritt="1628">
     <erste-sprache>认可了</erste-sprache><zweite-sprache>mitometa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1628">
+  <vokabel-paar schritt="1629">
     <erste-sprache>权益</erste-sprache><zweite-sprache>jikoshihon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1629">
+  <vokabel-paar schritt="1630">
     <erste-sprache>提到了</erste-sprache><zweite-sprache>genkyuu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1630">
+  <vokabel-paar schritt="1631">
     <erste-sprache>内在价值</erste-sprache><zweite-sprache>honshitsuteki kachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1632">
     <erste-sprache>利润</erste-sprache><zweite-sprache>rieki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1631">
+  <vokabel-paar schritt="1632">
     <erste-sprache>收益</erste-sprache><zweite-sprache>rieki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1632">
+  <vokabel-paar schritt="1633">
     <erste-sprache>反之</erste-sprache><zweite-sprache>sore ni hantai shite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1633">
+  <vokabel-paar schritt="1634">
     <erste-sprache>一方</erste-sprache><zweite-sprache>toujisha-gawa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1635">
     <erste-sprache>买</erste-sprache><zweite-sprache>kau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1634">
+  <vokabel-paar schritt="1635">
     <erste-sprache>买</erste-sprache><zweite-sprache>kaimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1636">
     <erste-sprache>学习</erste-sprache><zweite-sprache>manabu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1635">
+  <vokabel-paar schritt="1636">
     <erste-sprache>学习</erste-sprache><zweite-sprache>manabimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1636">
+  <vokabel-paar schritt="1637">
     <erste-sprache>做吧</erste-sprache><zweite-sprache>sore o shinasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1637">
+  <vokabel-paar schritt="1638">
     <erste-sprache>死亡</erste-sprache><zweite-sprache>shi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1638">
+  <vokabel-paar schritt="1639">
     <erste-sprache>呈现的</erste-sprache><zweite-sprache>teiji sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1639">
+  <vokabel-paar schritt="1640">
     <erste-sprache>软件</erste-sprache><zweite-sprache>sofutowea</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1640">
+  <vokabel-paar schritt="1641">
     <erste-sprache>确定的</erste-sprache><zweite-sprache>tashika na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1641">
+  <vokabel-paar schritt="1642">
     <erste-sprache>产品</erste-sprache><zweite-sprache>seihin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1642">
+  <vokabel-paar schritt="1643">
     <erste-sprache>多边的</erste-sprache><zweite-sprache>takokukan no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1643">
+  <vokabel-paar schritt="1644">
     <erste-sprache>博弈论</erste-sprache><zweite-sprache>geemu riron</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1644">
+  <vokabel-paar schritt="1645">
     <erste-sprache>日本</erste-sprache><zweite-sprache>nihon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1645">
+  <vokabel-paar schritt="1646">
     <erste-sprache>时刻</erste-sprache><zweite-sprache>shunkan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1647">
     <erste-sprache>差的</erste-sprache><zweite-sprache>yowai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1646">
+  <vokabel-paar schritt="1647">
     <erste-sprache>弱的</erste-sprache><zweite-sprache>yowai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1647">
+  <vokabel-paar schritt="1648">
     <erste-sprache>残骸</erste-sprache><zweite-sprache>igai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1648">
+  <vokabel-paar schritt="1649">
     <erste-sprache>非正式的</erste-sprache><zweite-sprache>hikoushiki no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1649">
+  <vokabel-paar schritt="1650">
     <erste-sprache>合作的</erste-sprache><zweite-sprache>kyouryokuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1650">
+  <vokabel-paar schritt="1651">
     <erste-sprache>悲伤</erste-sprache><zweite-sprache>kanashimi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1652">
     <erste-sprache>声称</erste-sprache><zweite-sprache>shuchou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1651">
+  <vokabel-paar schritt="1652">
     <erste-sprache>声称</erste-sprache><zweite-sprache>shuchou shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1653">
     <erste-sprache>断言</erste-sprache><zweite-sprache>shuchou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1652">
+  <vokabel-paar schritt="1653">
     <erste-sprache>断言</erste-sprache><zweite-sprache>shuchou shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1653">
+  <vokabel-paar schritt="1654">
     <erste-sprache>欺诈的</erste-sprache><zweite-sprache>sagiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1654">
+  <vokabel-paar schritt="1655">
     <erste-sprache>已识别的</erste-sprache><zweite-sprache>tokutei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1655">
+  <vokabel-paar schritt="1656">
     <erste-sprache>嫌疑人</erste-sprache><zweite-sprache>yougisha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1657">
     <erste-sprache>猜想</erste-sprache><zweite-sprache>suisoku suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1656">
+  <vokabel-paar schritt="1657">
     <erste-sprache>猜想</erste-sprache><zweite-sprache>suisoku shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1657">
+  <vokabel-paar schritt="1658">
     <erste-sprache>毒品</erste-sprache><zweite-sprache>yakubutsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1658">
+  <vokabel-paar schritt="1659">
     <erste-sprache>八月</erste-sprache><zweite-sprache>hachigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1659">
+  <vokabel-paar schritt="1660">
     <erste-sprache>十一月</erste-sprache><zweite-sprache>juuichigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1661">
     <erste-sprache>曾经</erste-sprache><zweite-sprache>ima made ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1660">
+  <vokabel-paar schritt="1661">
     <erste-sprache>曾经</erste-sprache><zweite-sprache>katsute</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1661">
+  <vokabel-paar schritt="1662">
     <erste-sprache>职业生涯</erste-sprache><zweite-sprache>kyaria</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1662">
+  <vokabel-paar schritt="1663">
     <erste-sprache>领土</erste-sprache><zweite-sprache>ryoudo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1663">
+  <vokabel-paar schritt="1664">
     <erste-sprache>变化</erste-sprache><zweite-sprache>henkouten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1664">
+  <vokabel-paar schritt="1665">
     <erste-sprache>执法</erste-sprache><zweite-sprache>shikkou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1665">
+  <vokabel-paar schritt="1666">
     <erste-sprache>树林</erste-sprache><zweite-sprache>shinrin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1666">
+  <vokabel-paar schritt="1667">
     <erste-sprache>制度的</erste-sprache><zweite-sprache>seidoteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
+  <vokabel-paar schritt="1668">
     <erste-sprache>军官</erste-sprache><zweite-sprache>shoukou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1668">
+  <vokabel-paar schritt="1669">
     <erste-sprache>四月</erste-sprache><zweite-sprache>shigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1669">
+  <vokabel-paar schritt="1670">
     <erste-sprache>治理</erste-sprache><zweite-sprache>gabanansu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1670">
+  <vokabel-paar schritt="1671">
     <erste-sprache>实质性的</erste-sprache><zweite-sprache>jisshitsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1672">
     <erste-sprache>使能够</erste-sprache><zweite-sprache>kanou ni suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1671">
+  <vokabel-paar schritt="1672">
     <erste-sprache>使能够</erste-sprache><zweite-sprache>kanou ni shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1672">
+  <vokabel-paar schritt="1673">
     <erste-sprache>直接的</erste-sprache><zweite-sprache>chokusetsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1674">
     <erste-sprache>问</erste-sprache><zweite-sprache>tazuneru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1673">
+  <vokabel-paar schritt="1674">
     <erste-sprache>问</erste-sprache><zweite-sprache>tazunemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1674">
+  <vokabel-paar schritt="1675">
     <erste-sprache>住</erste-sprache><zweite-sprache>ikiro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1675">
+  <vokabel-paar schritt="1676">
     <erste-sprache>请住</erste-sprache><zweite-sprache>ikite kudasai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1676">
+  <vokabel-paar schritt="1677">
     <erste-sprache>已实现的</erste-sprache><zweite-sprache>tassei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1677">
+  <vokabel-paar schritt="1678">
     <erste-sprache>令人愉快的</erste-sprache><zweite-sprache>tanoshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1678">
+  <vokabel-paar schritt="1679">
     <erste-sprache>杰出的</erste-sprache><zweite-sprache>takuetsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1679">
+  <vokabel-paar schritt="1680">
     <erste-sprache>七月</erste-sprache><zweite-sprache>shichigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1680">
+  <vokabel-paar schritt="1681">
     <erste-sprache>六月</erste-sprache><zweite-sprache>rokugatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1682">
     <erste-sprache>尝试</erste-sprache><zweite-sprache>kokoromiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1681">
+  <vokabel-paar schritt="1682">
     <erste-sprache>尝试</erste-sprache><zweite-sprache>kokoromimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1683">
     <erste-sprache>分享</erste-sprache><zweite-sprache>kyouyuu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1682">
+  <vokabel-paar schritt="1683">
     <erste-sprache>分享</erste-sprache><zweite-sprache>kyouyuu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1683">
+  <vokabel-paar schritt="1684">
     <erste-sprache>整合</erste-sprache><zweite-sprache>tougou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1684">
+  <vokabel-paar schritt="1685">
     <erste-sprache>司法的</erste-sprache><zweite-sprache>shihou no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1685">
+  <vokabel-paar schritt="1686">
     <erste-sprache>指出的</erste-sprache><zweite-sprache>shimesareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1686">
+  <vokabel-paar schritt="1687">
     <erste-sprache>指出了</erste-sprache><zweite-sprache>shimeshita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1687">
+  <vokabel-paar schritt="1688">
     <erste-sprache>斗争</erste-sprache><zweite-sprache>sentou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1688">
+  <vokabel-paar schritt="1689">
     <erste-sprache>俱乐部</erste-sprache><zweite-sprache>kurabu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1689">
+  <vokabel-paar schritt="1690">
     <erste-sprache>记忆</erste-sprache><zweite-sprache>kioku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1691">
     <erste-sprache>想起</erste-sprache><zweite-sprache>omoidasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1690">
+  <vokabel-paar schritt="1691">
     <erste-sprache>想起</erste-sprache><zweite-sprache>omoidashimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1692">
     <erste-sprache>回忆</erste-sprache><zweite-sprache>omoidasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1691">
+  <vokabel-paar schritt="1692">
     <erste-sprache>回忆</erste-sprache><zweite-sprache>omoidashimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1692">
+  <vokabel-paar schritt="1693">
     <erste-sprache>一块</erste-sprache><zweite-sprache>hitokire</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1694">
     <erste-sprache>赢</erste-sprache><zweite-sprache>katsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1693">
+  <vokabel-paar schritt="1694">
     <erste-sprache>赢</erste-sprache><zweite-sprache>kachimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1694">
+  <vokabel-paar schritt="1695">
     <erste-sprache>赢得的</erste-sprache><zweite-sprache>kachitorareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1696">
     <erste-sprache>网络</erste-sprache><zweite-sprache>nettowaaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1695">
+  <vokabel-paar schritt="1696">
     <erste-sprache>网络</erste-sprache><zweite-sprache>webu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1696">
+  <vokabel-paar schritt="1697">
     <erste-sprache>更高</erste-sprache><zweite-sprache>yori takai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1697">
+  <vokabel-paar schritt="1698">
     <erste-sprache>更年长</erste-sprache><zweite-sprache>toshiue</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1698">
+  <vokabel-paar schritt="1699">
     <erste-sprache>在 的帮助下</erste-sprache><zweite-sprache>shiyou shite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1699">
+  <vokabel-paar schritt="1700">
     <erste-sprache>行政</erste-sprache><zweite-sprache>kanri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1700">
+  <vokabel-paar schritt="1701">
     <erste-sprache>物质的</erste-sprache><zweite-sprache>busshitsuteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1701">
+  <vokabel-paar schritt="1702">
     <erste-sprache>面貌</erste-sprache><zweite-sprache>kao</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1702">
+  <vokabel-paar schritt="1703">
     <erste-sprache>公寓</erste-sprache><zweite-sprache>apaato</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1703">
+  <vokabel-paar schritt="1704">
     <erste-sprache>数</erste-sprache><zweite-sprache>kazu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1704">
+  <vokabel-paar schritt="1705">
     <erste-sprache>夏天</erste-sprache><zweite-sprache>natsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1706">
     <erste-sprache>落下</erste-sprache><zweite-sprache>ochiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1705">
+  <vokabel-paar schritt="1706">
     <erste-sprache>落下</erste-sprache><zweite-sprache>ochimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1706">
+  <vokabel-paar schritt="1707">
     <erste-sprache>修订的</erste-sprache><zweite-sprache>kaitei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1707">
+  <vokabel-paar schritt="1708">
     <erste-sprache>竞选运动</erste-sprache><zweite-sprache>kyanpeen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1708">
+  <vokabel-paar schritt="1709">
     <erste-sprache>受欢迎的</erste-sprache><zweite-sprache>ninki no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1709">
+  <vokabel-paar schritt="1710">
     <erste-sprache>满足了</erste-sprache><zweite-sprache>mitashita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1710">
+  <vokabel-paar schritt="1711">
     <erste-sprache>通货膨胀</erste-sprache><zweite-sprache>infureeshon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1711">
+  <vokabel-paar schritt="1712">
     <erste-sprache>情况</erste-sprache><zweite-sprache>joukyou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1712">
+  <vokabel-paar schritt="1713">
     <erste-sprache>外面</erste-sprache><zweite-sprache>soto de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1713">
+  <vokabel-paar schritt="1714">
     <erste-sprache>艺术</erste-sprache><zweite-sprache>geijutsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1714">
+  <vokabel-paar schritt="1715">
     <erste-sprache>至少</erste-sprache><zweite-sprache>sukunakutomo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1715">
+  <vokabel-paar schritt="1716">
     <erste-sprache>顺便说一下</erste-sprache><zweite-sprache>tokoro de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1716">
+  <vokabel-paar schritt="1717">
     <erste-sprache>语言</erste-sprache><zweite-sprache>gengo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1717">
+  <vokabel-paar schritt="1718">
     <erste-sprache>丢失的</erste-sprache><zweite-sprache>ushinawareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1718">
+  <vokabel-paar schritt="1719">
     <erste-sprache>丢了</erste-sprache><zweite-sprache>ushinatta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1719">
+  <vokabel-paar schritt="1720">
     <erste-sprache>平民</erste-sprache><zweite-sprache>minkanjin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1720">
+  <vokabel-paar schritt="1721">
     <erste-sprache>整个期间</erste-sprache><zweite-sprache>zenkikan o tooshite</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1722">
     <erste-sprache>停留</erste-sprache><zweite-sprache>todomaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1721">
+  <vokabel-paar schritt="1722">
     <erste-sprache>停留</erste-sprache><zweite-sprache>todomarimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1722">
+  <vokabel-paar schritt="1723">
     <erste-sprache>加勒比地区</erste-sprache><zweite-sprache>Karibukai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1723">
+  <vokabel-paar schritt="1724">
     <erste-sprache>加勒比的</erste-sprache><zweite-sprache>karibu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1724">
+  <vokabel-paar schritt="1725">
     <erste-sprache>指南</erste-sprache><zweite-sprache>gaidansu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1725">
+  <vokabel-paar schritt="1726">
     <erste-sprache>桌子</erste-sprache><zweite-sprache>teeburu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1727">
     <erste-sprache>表格</erste-sprache><zweite-sprache>hyou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1726">
+  <vokabel-paar schritt="1727">
     <erste-sprache>选票</erste-sprache><zweite-sprache>hyou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1727">
+  <vokabel-paar schritt="1728">
     <erste-sprache>折磨</erste-sprache><zweite-sprache>goumon suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1728">
+  <vokabel-paar schritt="1729">
     <erste-sprache>乐队</erste-sprache><zweite-sprache>bando</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1730">
     <erste-sprache>错误</erste-sprache><zweite-sprache>ayamari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1729">
+  <vokabel-paar schritt="1730">
     <erste-sprache>错误</erste-sprache><zweite-sprache>machigai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1731">
     <erste-sprache>你自己</erste-sprache><zweite-sprache>jibun de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1730">
+  <vokabel-paar schritt="1731">
     <erste-sprache>你自己</erste-sprache><zweite-sprache>anata jishin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1731">
+  <vokabel-paar schritt="1732">
     <erste-sprache>慢慢地</erste-sprache><zweite-sprache>yukkuri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1733">
     <erste-sprache>意思是</erste-sprache><zweite-sprache>ito suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1732">
+  <vokabel-paar schritt="1733">
     <erste-sprache>意思是</erste-sprache><zweite-sprache>ito shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1733">
+  <vokabel-paar schritt="1734">
     <erste-sprache>贫穷的</erste-sprache><zweite-sprache>mazushii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1734">
+  <vokabel-paar schritt="1735">
     <erste-sprache>风险</erste-sprache><zweite-sprache>risuku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1735">
+  <vokabel-paar schritt="1736">
     <erste-sprache>从现在开始</erste-sprache><zweite-sprache>korekara</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1736">
+  <vokabel-paar schritt="1737">
     <erste-sprache>庭院</erste-sprache><zweite-sprache>nakaniwa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1737">
+  <vokabel-paar schritt="1738">
     <erste-sprache>到处</erste-sprache><zweite-sprache>doko ni demo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1738">
+  <vokabel-paar schritt="1739">
     <erste-sprache>解释了</erste-sprache><zweite-sprache>setsumei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1739">
+  <vokabel-paar schritt="1740">
     <erste-sprache>美洲</erste-sprache><zweite-sprache>Amerika tairiku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1741">
     <erste-sprache>维护</erste-sprache><zweite-sprache>yougo suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1740">
+  <vokabel-paar schritt="1741">
     <erste-sprache>维护</erste-sprache><zweite-sprache>yougo shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1741">
+  <vokabel-paar schritt="1742">
     <erste-sprache>比较</erste-sprache><zweite-sprache>hikaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1742">
+  <vokabel-paar schritt="1743">
     <erste-sprache>跟你</erste-sprache><zweite-sprache>anata to</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1744">
     <erste-sprache>记住</erste-sprache><zweite-sprache>oboete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1743">
+  <vokabel-paar schritt="1744">
     <erste-sprache>记住</erste-sprache><zweite-sprache>oboete imasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1744">
+  <vokabel-paar schritt="1745">
     <erste-sprache>次要的</erste-sprache><zweite-sprache>keibi na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1745">
+  <vokabel-paar schritt="1746">
     <erste-sprache>页面</erste-sprache><zweite-sprache>peeji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1747">
     <erste-sprache>例如</erste-sprache><zweite-sprache>tatoeba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1746">
+  <vokabel-paar schritt="1747">
     <erste-sprache>比如</erste-sprache><zweite-sprache>tatoeba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1747">
+  <vokabel-paar schritt="1748">
     <erste-sprache>一月</erste-sprache><zweite-sprache>ichigatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1749">
     <erste-sprache>附近</erste-sprache><zweite-sprache>chikaku ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1748">
+  <vokabel-paar schritt="1749">
     <erste-sprache>附近</erste-sprache><zweite-sprache>chikaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1750">
     <erste-sprache>等待</erste-sprache><zweite-sprache>taiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1750">
     <erste-sprache>等待</erste-sprache><zweite-sprache>matsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1749">
+  <vokabel-paar schritt="1750">
     <erste-sprache>等待</erste-sprache><zweite-sprache>machimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1750">
+  <vokabel-paar schritt="1751">
     <erste-sprache>横跨</erste-sprache><zweite-sprache>yokogitte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1752">
     <erste-sprache>打印</erste-sprache><zweite-sprache>insatsu suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1751">
+  <vokabel-paar schritt="1752">
     <erste-sprache>打印</erste-sprache><zweite-sprache>insatsu shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1752">
+  <vokabel-paar schritt="1753">
     <erste-sprache>美国的</erste-sprache><zweite-sprache>amerika no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1753">
+  <vokabel-paar schritt="1754">
     <erste-sprache>兴趣</erste-sprache><zweite-sprache>kanshin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1754">
+  <vokabel-paar schritt="1755">
     <erste-sprache>国王</erste-sprache><zweite-sprache>ou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1755">
+  <vokabel-paar schritt="1756">
     <erste-sprache>排</erste-sprache><zweite-sprache>retsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1756">
+  <vokabel-paar schritt="1757">
     <erste-sprache>解决方案</erste-sprache><zweite-sprache>kaiketsusaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1758">
     <erste-sprache>声音</erste-sprache><zweite-sprache>oto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1757">
+  <vokabel-paar schritt="1758">
     <erste-sprache>声音</erste-sprache><zweite-sprache>koe</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1758">
+  <vokabel-paar schritt="1759">
     <erste-sprache>噪音</erste-sprache><zweite-sprache>oto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1759">
+  <vokabel-paar schritt="1760">
     <erste-sprache>成员</erste-sprache><zweite-sprache>menbaa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1760">
+  <vokabel-paar schritt="1761">
     <erste-sprache>我们想要</erste-sprache><zweite-sprache>watashitachi wa hoshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1761">
+  <vokabel-paar schritt="1762">
     <erste-sprache>以为</erste-sprache><zweite-sprache>soutei shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1762">
+  <vokabel-paar schritt="1763">
     <erste-sprache>半的</erste-sprache><zweite-sprache>hanbun no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1763">
+  <vokabel-paar schritt="1764">
     <erste-sprache>黑色</erste-sprache><zweite-sprache>kuroi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1764">
+  <vokabel-paar schritt="1765">
     <erste-sprache>法国</erste-sprache><zweite-sprache>furansu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1765">
+  <vokabel-paar schritt="1766">
     <erste-sprache>对的</erste-sprache><zweite-sprache>tadashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1766">
+  <vokabel-paar schritt="1767">
     <erste-sprache>星期日</erste-sprache><zweite-sprache>nichiyoubi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1767">
+  <vokabel-paar schritt="1768">
     <erste-sprache>较新的</erste-sprache><zweite-sprache>yori atarashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1768">
+  <vokabel-paar schritt="1769">
     <erste-sprache>等待的</erste-sprache><zweite-sprache>matte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1769">
+  <vokabel-paar schritt="1770">
     <erste-sprache>熄灭</erste-sprache><zweite-sprache>kieru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1771">
     <erste-sprache>平均的</erste-sprache><zweite-sprache>heikinteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1770">
+  <vokabel-paar schritt="1771">
     <erste-sprache>平均的</erste-sprache><zweite-sprache>futsuu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1771">
+  <vokabel-paar schritt="1772">
     <erste-sprache>正常的</erste-sprache><zweite-sprache>futsuu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1772">
+  <vokabel-paar schritt="1773">
     <erste-sprache>入口</erste-sprache><zweite-sprache>iriguchi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1773">
+  <vokabel-paar schritt="1774">
     <erste-sprache>脚</erste-sprache><zweite-sprache>ashi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1774">
+  <vokabel-paar schritt="1775">
     <erste-sprache>新闻界</erste-sprache><zweite-sprache>houdou kikan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1775">
+  <vokabel-paar schritt="1776">
     <erste-sprache>现实</erste-sprache><zweite-sprache>genjitsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1776">
+  <vokabel-paar schritt="1777">
     <erste-sprache>圆圈</erste-sprache><zweite-sprache>en</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1777">
+  <vokabel-paar schritt="1778">
     <erste-sprache>让</erste-sprache><zweite-sprache>sasete</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1778">
+  <vokabel-paar schritt="1779">
     <erste-sprache>更长的</erste-sprache><zweite-sprache>motto nagai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1779">
+  <vokabel-paar schritt="1780">
     <erste-sprache>演讲</erste-sprache><zweite-sprache>supiichi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1780">
+  <vokabel-paar schritt="1781">
     <erste-sprache>每天</erste-sprache><zweite-sprache>mainichi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1781">
+  <vokabel-paar schritt="1782">
     <erste-sprache>光</erste-sprache><zweite-sprache>hikari</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1782">
+  <vokabel-paar schritt="1783">
     <erste-sprache>月</erste-sprache><zweite-sprache>tsuki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1783">
+  <vokabel-paar schritt="1784">
     <erste-sprache>右边的</erste-sprache><zweite-sprache>migi no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1784">
+  <vokabel-paar schritt="1785">
     <erste-sprache>满意的</erste-sprache><zweite-sprache>manzoku shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1785">
+  <vokabel-paar schritt="1786">
     <erste-sprache>使满意了</erste-sprache><zweite-sprache>manzoku saseta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1786">
+  <vokabel-paar schritt="1787">
     <erste-sprache>轻的</erste-sprache><zweite-sprache>karui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1787">
+  <vokabel-paar schritt="1788">
     <erste-sprache>部分地</erste-sprache><zweite-sprache>bubunteki ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1788">
+  <vokabel-paar schritt="1789">
     <erste-sprache>手臂</erste-sprache><zweite-sprache>ude</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1789">
+  <vokabel-paar schritt="1790">
     <erste-sprache>前</erste-sprache><zweite-sprache>moto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1790">
+  <vokabel-paar schritt="1791">
     <erste-sprache>碎片</erste-sprache><zweite-sprache>fukusuu no danpen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1792">
     <erste-sprache>失去</erste-sprache><zweite-sprache>ushinau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1791">
+  <vokabel-paar schritt="1792">
     <erste-sprache>失去</erste-sprache><zweite-sprache>ushinaimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1792">
+  <vokabel-paar schritt="1793">
     <erste-sprache>够</erste-sprache><zweite-sprache>tariru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1793">
+  <vokabel-paar schritt="1794">
     <erste-sprache>一半</erste-sprache><zweite-sprache>hanbun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1794">
+  <vokabel-paar schritt="1795">
     <erste-sprache>躺着</erste-sprache><zweite-sprache>yokotawatte ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1795">
+  <vokabel-paar schritt="1796">
     <erste-sprache>报纸</erste-sprache><zweite-sprache>shinbun</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1796">
+  <vokabel-paar schritt="1797">
     <erste-sprache>罕见的</erste-sprache><zweite-sprache>mare na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1797">
+  <vokabel-paar schritt="1798">
     <erste-sprache>巴西</erste-sprache><zweite-sprache>Burajiru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1798">
+  <vokabel-paar schritt="1799">
     <erste-sprache>俄罗斯</erste-sprache><zweite-sprache>roshia</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1800">
     <erste-sprache>解释</erste-sprache><zweite-sprache>setsumei suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1799">
+  <vokabel-paar schritt="1800">
     <erste-sprache>解释</erste-sprache><zweite-sprache>setsumei shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1800">
+  <vokabel-paar schritt="1801">
     <erste-sprache>播出</erste-sprache><zweite-sprache>housou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1801">
+  <vokabel-paar schritt="1802">
     <erste-sprache>荣誉</erste-sprache><zweite-sprache>meiyo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1802">
+  <vokabel-paar schritt="1803">
     <erste-sprache>西</erste-sprache><zweite-sprache>nishi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1803">
+  <vokabel-paar schritt="1804">
     <erste-sprache>就像</erste-sprache><zweite-sprache>choudo - no you ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1804">
+  <vokabel-paar schritt="1805">
     <erste-sprache>压力</erste-sprache><zweite-sprache>atsuryoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1805">
+  <vokabel-paar schritt="1806">
     <erste-sprache>移除了</erste-sprache><zweite-sprache>torinozoita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1806">
+  <vokabel-paar schritt="1807">
     <erste-sprache>缺失的</erste-sprache><zweite-sprache>kakete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1807">
+  <vokabel-paar schritt="1808">
     <erste-sprache>性</erste-sprache><zweite-sprache>sekkusu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1808">
+  <vokabel-paar schritt="1809">
     <erste-sprache>我们知道</erste-sprache><zweite-sprache>watashitachi wa shitte iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1809">
+  <vokabel-paar schritt="1810">
     <erste-sprache>双倍的</erste-sprache><zweite-sprache>nijuu no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1810">
+  <vokabel-paar schritt="1811">
     <erste-sprache>中午</erste-sprache><zweite-sprache>shougo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1811">
+  <vokabel-paar schritt="1812">
     <erste-sprache>将能够</erste-sprache><zweite-sprache>dekiru deshou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1813">
     <erste-sprache>避免</erste-sprache><zweite-sprache>sakeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1812">
+  <vokabel-paar schritt="1813">
     <erste-sprache>避免</erste-sprache><zweite-sprache>sakemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1814">
     <erste-sprache>将不得不</erste-sprache><zweite-sprache>watashitachi wa shinakereba naranai darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1813">
+  <vokabel-paar schritt="1814">
     <erste-sprache>将不得不</erste-sprache><zweite-sprache>anata wa shinakereba naranai darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1815">
     <erste-sprache>跌落的</erste-sprache><zweite-sprache>ochita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1814">
+  <vokabel-paar schritt="1815">
     <erste-sprache>跌落了</erste-sprache><zweite-sprache>ochita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1815">
+  <vokabel-paar schritt="1816">
     <erste-sprache>衣服</erste-sprache><zweite-sprache>fuku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1816">
+  <vokabel-paar schritt="1817">
     <erste-sprache>我认为</erste-sprache><zweite-sprache>watashi wa omou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1817">
+  <vokabel-paar schritt="1818">
     <erste-sprache>即</erste-sprache><zweite-sprache>sunawachi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1818">
+  <vokabel-paar schritt="1819">
     <erste-sprache>边缘</erste-sprache><zweite-sprache>fuchi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1819">
+  <vokabel-paar schritt="1820">
     <erste-sprache>快乐的</erste-sprache><zweite-sprache>shiawase na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1820">
+  <vokabel-paar schritt="1821">
     <erste-sprache>内疚</erste-sprache><zweite-sprache>zaiakukan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1821">
+  <vokabel-paar schritt="1822">
     <erste-sprache>单身</erste-sprache><zweite-sprache>dokushin no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1822">
+  <vokabel-paar schritt="1823">
     <erste-sprache>电影院</erste-sprache><zweite-sprache>eigakan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1823">
+  <vokabel-paar schritt="1824">
     <erste-sprache>行业</erste-sprache><zweite-sprache>gyoukai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1824">
+  <vokabel-paar schritt="1825">
     <erste-sprache>我们必须</erste-sprache><zweite-sprache>watashitachi wa shinakereba naranai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1825">
+  <vokabel-paar schritt="1826">
     <erste-sprache>悲伤的</erste-sprache><zweite-sprache>kanashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1826">
+  <vokabel-paar schritt="1827">
     <erste-sprache>表现</erste-sprache><zweite-sprache>seinou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1826">
+  <vokabel-paar schritt="1827">
     <erste-sprache>表现</erste-sprache><zweite-sprache>furumau</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1826">
+  <vokabel-paar schritt="1827">
     <erste-sprache>表现</erste-sprache><zweite-sprache>furumaimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1827">
-    <erste-sprache>超出</erste-sprache><zweite-sprache>no mukou ni</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1828">
-    <erste-sprache>风格</erste-sprache><zweite-sprache>sutairu</zweite-sprache>
+    <erste-sprache>超出</erste-sprache><zweite-sprache>-no mukou ni</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1829">
-    <erste-sprache>等等</erste-sprache><zweite-sprache>nado</zweite-sprache>
+    <erste-sprache>风格</erste-sprache><zweite-sprache>sutairu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1830">
-    <erste-sprache>有限责任公司</erste-sprache><zweite-sprache>yuugen sekinin gaisha</zweite-sprache>
+    <erste-sprache>等等</erste-sprache><zweite-sprache>nado</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1831">
-    <erste-sprache>命令</erste-sprache><zweite-sprache>meirei</zweite-sprache>
+    <erste-sprache>有限责任公司</erste-sprache><zweite-sprache>yuugen sekinin gaisha</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1832">
-    <erste-sprache>秩序</erste-sprache><zweite-sprache>chitsujo</zweite-sprache>
+    <erste-sprache>命令</erste-sprache><zweite-sprache>meirei</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1833">
-    <erste-sprache>红色的</erste-sprache><zweite-sprache>akai</zweite-sprache>
+    <erste-sprache>秩序</erste-sprache><zweite-sprache>chitsujo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1834">
-    <erste-sprache>星期六</erste-sprache><zweite-sprache>doyoubi</zweite-sprache>
+    <erste-sprache>红色的</erste-sprache><zweite-sprache>akai</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1835">
-    <erste-sprache>句子</erste-sprache><zweite-sprache>bun</zweite-sprache>
+    <erste-sprache>星期六</erste-sprache><zweite-sprache>doyoubi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1836">
-    <erste-sprache>刚刚</erste-sprache><zweite-sprache>karoujite</zweite-sprache>
+    <erste-sprache>句子</erste-sprache><zweite-sprache>bun</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1837">
-    <erste-sprache>套</erste-sprache><zweite-sprache>setto</zweite-sprache>
+    <erste-sprache>刚刚</erste-sprache><zweite-sprache>karoujite</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1838">
+    <erste-sprache>套</erste-sprache><zweite-sprache>setto</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1839">
     <erste-sprache>集合</erste-sprache><zweite-sprache>shuugou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1839">
+  <vokabel-paar schritt="1840">
     <erste-sprache>听起来</erste-sprache><zweite-sprache>kikoeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1839">
+  <vokabel-paar schritt="1840">
     <erste-sprache>听起来</erste-sprache><zweite-sprache>kikoemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1840">
+  <vokabel-paar schritt="1841">
     <erste-sprache>频道</erste-sprache><zweite-sprache>channeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1841">
+  <vokabel-paar schritt="1842">
     <erste-sprache>审判</erste-sprache><zweite-sprache>hanketsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1842">
+  <vokabel-paar schritt="1843">
     <erste-sprache>革命</erste-sprache><zweite-sprache>kakumei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1843">
+  <vokabel-paar schritt="1844">
     <erste-sprache>成千上万的</erste-sprache><zweite-sprache>suusen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1844">
+  <vokabel-paar schritt="1845">
     <erste-sprache>资产阶级社会</erste-sprache><zweite-sprache>burujowa shakai</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1845">
+  <vokabel-paar schritt="1846">
     <erste-sprache>原创的</erste-sprache><zweite-sprache>dokusouteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1846">
+  <vokabel-paar schritt="1847">
     <erste-sprache>合同</erste-sprache><zweite-sprache>keiyaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1847">
+  <vokabel-paar schritt="1848">
     <erste-sprache>高兴</erste-sprache><zweite-sprache>ureshii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1848">
+  <vokabel-paar schritt="1849">
     <erste-sprache>圆的</erste-sprache><zweite-sprache>marui</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1849">
+  <vokabel-paar schritt="1850">
     <erste-sprache>轮</erste-sprache><zweite-sprache>raundo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1850">
+  <vokabel-paar schritt="1851">
     <erste-sprache>老师</erste-sprache><zweite-sprache>sensei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1851">
+  <vokabel-paar schritt="1852">
     <erste-sprache>已出版的</erste-sprache><zweite-sprache>shuppan sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1852">
+  <vokabel-paar schritt="1853">
     <erste-sprache>当选的</erste-sprache><zweite-sprache>erabareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1852">
+  <vokabel-paar schritt="1853">
     <erste-sprache>当选了</erste-sprache><zweite-sprache>erabareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1853">
+  <vokabel-paar schritt="1854">
     <erste-sprache>发达的</erste-sprache><zweite-sprache>kaihatsu sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1854">
+  <vokabel-paar schritt="1855">
     <erste-sprache>发展了</erste-sprache><zweite-sprache>kaihatsu shita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1855">
+  <vokabel-paar schritt="1856">
     <erste-sprache>指定的</erste-sprache><zweite-sprache>shitei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1856">
+  <vokabel-paar schritt="1857">
     <erste-sprache>类似的</erste-sprache><zweite-sprache>ruiji no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1857">
+  <vokabel-paar schritt="1858">
     <erste-sprache>医院</erste-sprache><zweite-sprache>byouin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1858">
+  <vokabel-paar schritt="1859">
     <erste-sprache>灵魂</erste-sprache><zweite-sprache>tamashii</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1859">
+  <vokabel-paar schritt="1860">
     <erste-sprache>路过的</erste-sprache><zweite-sprache>toorisugari no</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1860">
+  <vokabel-paar schritt="1861">
     <erste-sprache>大师</erste-sprache><zweite-sprache>tatsujin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1861">
+  <vokabel-paar schritt="1862">
     <erste-sprache>监狱</erste-sprache><zweite-sprache>keimusho</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1862">
+  <vokabel-paar schritt="1863">
     <erste-sprache>第一</erste-sprache><zweite-sprache>daiichi ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1863">
+  <vokabel-paar schritt="1864">
     <erste-sprache>画</erste-sprache><zweite-sprache>egaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1863">
+  <vokabel-paar schritt="1864">
     <erste-sprache>画</erste-sprache><zweite-sprache>egakimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1864">
+  <vokabel-paar schritt="1865">
     <erste-sprache>命名</erste-sprache><zweite-sprache>nazukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1864">
+  <vokabel-paar schritt="1865">
     <erste-sprache>命名</erste-sprache><zweite-sprache>nazukemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1865">
+  <vokabel-paar schritt="1866">
     <erste-sprache>识别</erste-sprache><zweite-sprache>miwakeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1865">
+  <vokabel-paar schritt="1866">
     <erste-sprache>识别</erste-sprache><zweite-sprache>miwakemasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1866">
+  <vokabel-paar schritt="1867">
     <erste-sprache>你见</erste-sprache><zweite-sprache>anata wa miru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1866">
+  <vokabel-paar schritt="1867">
     <erste-sprache>你看见</erste-sprache><zweite-sprache>anata wa miru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1867">
+  <vokabel-paar schritt="1868">
     <erste-sprache>专业的</erste-sprache><zweite-sprache>senmonteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1868">
+  <vokabel-paar schritt="1869">
     <erste-sprache>专业地</erste-sprache><zweite-sprache>senmonteki ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1869">
+  <vokabel-paar schritt="1870">
     <erste-sprache>再次发现</erste-sprache><zweite-sprache>futatabi mitsukeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1870">
+  <vokabel-paar schritt="1871">
     <erste-sprache>门</erste-sprache><zweite-sprache>doa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1871">
+  <vokabel-paar schritt="1872">
     <erste-sprache>土</erste-sprache><zweite-sprache>tsuchi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1872">
+  <vokabel-paar schritt="1873">
     <erste-sprache>黄金</erste-sprache><zweite-sprache>kin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1873">
+  <vokabel-paar schritt="1874">
     <erste-sprache>婚姻</erste-sprache><zweite-sprache>kekkon</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1874">
+  <vokabel-paar schritt="1875">
     <erste-sprache>右翼</erste-sprache><zweite-sprache>uyoku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1875">
+  <vokabel-paar schritt="1876">
     <erste-sprache>大学</erste-sprache><zweite-sprache>daigaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1876">
+  <vokabel-paar schritt="1877">
     <erste-sprache>胜利</erste-sprache><zweite-sprache>shouri</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1877">
+  <vokabel-paar schritt="1878">
     <erste-sprache>玩过的</erste-sprache><zweite-sprache>purei sareta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1878">
+  <vokabel-paar schritt="1879">
     <erste-sprache>坐</erste-sprache><zweite-sprache>suwaru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1878">
+  <vokabel-paar schritt="1879">
     <erste-sprache>坐</erste-sprache><zweite-sprache>suwarimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1879">
+  <vokabel-paar schritt="1880">
     <erste-sprache>老实说</erste-sprache><zweite-sprache>shoujiki ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1880">
+  <vokabel-paar schritt="1881">
     <erste-sprache>梦想</erste-sprache><zweite-sprache>yume</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1881">
+  <vokabel-paar schritt="1882">
     <erste-sprache>女士</erste-sprache><zweite-sprache>gofujin</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1882">
+  <vokabel-paar schritt="1883">
     <erste-sprache>圣地亚哥</erste-sprache><zweite-sprache>santiago</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1883">
+  <vokabel-paar schritt="1884">
     <erste-sprache>会面</erste-sprache><zweite-sprache>machiawase</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1884">
+  <vokabel-paar schritt="1885">
     <erste-sprache>螺丝钉</erste-sprache><zweite-sprache>neji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1885">
+  <vokabel-paar schritt="1886">
     <erste-sprache>物理的</erste-sprache><zweite-sprache>butsuriteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1886">
+  <vokabel-paar schritt="1887">
     <erste-sprache>完美的</erste-sprache><zweite-sprache>kanpeki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1887">
+  <vokabel-paar schritt="1888">
     <erste-sprache>驴</erste-sprache><zweite-sprache>roba</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1888">
+  <vokabel-paar schritt="1889">
     <erste-sprache>值得</erste-sprache><zweite-sprache>kachi ga aru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1889">
+  <vokabel-paar schritt="1890">
     <erste-sprache>颜色</erste-sprache><zweite-sprache>iro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1890">
+  <vokabel-paar schritt="1891">
     <erste-sprache>法令</erste-sprache><zweite-sprache>hourei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1891">
+  <vokabel-paar schritt="1892">
     <erste-sprache>星期一</erste-sprache><zweite-sprache>getsuyoubi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1892">
+  <vokabel-paar schritt="1893">
     <erste-sprache>据说</erste-sprache><zweite-sprache>to iwarete iru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1893">
+  <vokabel-paar schritt="1894">
     <erste-sprache>常识</erste-sprache><zweite-sprache>joushiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1894">
+  <vokabel-paar schritt="1895">
     <erste-sprache>您们</erste-sprache><zweite-sprache>anata-gata</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1894">
+  <vokabel-paar schritt="1895">
     <erste-sprache>您们</erste-sprache><zweite-sprache>anata-gata o</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1895">
+  <vokabel-paar schritt="1896">
     <erste-sprache>给您们</erste-sprache><zweite-sprache>anata-gata ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1896">
+  <vokabel-paar schritt="1897">
     <erste-sprache>可怕的</erste-sprache><zweite-sprache>hidoi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1897">
+  <vokabel-paar schritt="1898">
     <erste-sprache>比赛</erste-sprache><zweite-sprache>kontesuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1898">
+  <vokabel-paar schritt="1899">
     <erste-sprache>夫妇</erste-sprache><zweite-sprache>kappuru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1899">
+  <vokabel-paar schritt="1900">
     <erste-sprache>疯狂的</erste-sprache><zweite-sprache>kurutta</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1900">
+  <vokabel-paar schritt="1901">
     <erste-sprache>跟进</erste-sprache><zweite-sprache>tsuiseki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1901">
+  <vokabel-paar schritt="1902">
     <erste-sprache>法官</erste-sprache><zweite-sprache>saibankan</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1902">
+  <vokabel-paar schritt="1903">
     <erste-sprache>管理</erste-sprache><zweite-sprache>keiei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1903">
+  <vokabel-paar schritt="1904">
     <erste-sprache>村庄</erste-sprache><zweite-sprache>mura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1904">
+  <vokabel-paar schritt="1905">
     <erste-sprache>正在前往</erste-sprache><zweite-sprache>itte ita</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1905">
+  <vokabel-paar schritt="1906">
     <erste-sprache>重量</erste-sprache><zweite-sprache>juuryou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1906">
+  <vokabel-paar schritt="1907">
     <erste-sprache>简而言之</erste-sprache><zweite-sprache>yousuru ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1907">
+  <vokabel-paar schritt="1908">
     <erste-sprache>标志</erste-sprache><zweite-sprache>shirushi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1908">
+  <vokabel-paar schritt="1909">
     <erste-sprache>天空</erste-sprache><zweite-sprache>sora</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1909">
+  <vokabel-paar schritt="1910">
     <erste-sprache>会说</erste-sprache><zweite-sprache>iu darou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1910">
+  <vokabel-paar schritt="1911">
     <erste-sprache>煽动仇恨</erste-sprache><zweite-sprache>zoo sendou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1911">
+  <vokabel-paar schritt="1912">
     <erste-sprache>威权主义的</erste-sprache><zweite-sprache>ken'i shugiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1912">
+  <vokabel-paar schritt="1913">
     <erste-sprache>极权主义的</erste-sprache><zweite-sprache>zentai shugiteki na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1913">
+  <vokabel-paar schritt="1914">
     <erste-sprache>命运</erste-sprache><zweite-sprache>unmei</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1914">
+  <vokabel-paar schritt="1915">
     <erste-sprache>共享汽车</erste-sprache><zweite-sprache>kaa shearingu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1915">
+  <vokabel-paar schritt="1916">
     <erste-sprache>早</erste-sprache><zweite-sprache>ohayou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1916">
+  <vokabel-paar schritt="1917">
     <erste-sprache>没有他</erste-sprache><zweite-sprache>kare nuki de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1917">
+  <vokabel-paar schritt="1918">
     <erste-sprache>没有她</erste-sprache><zweite-sprache>kanojo nuki de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1918">
+  <vokabel-paar schritt="1919">
     <erste-sprache>没有我</erste-sprache><zweite-sprache>watashi nuki de</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1919">
+  <vokabel-paar schritt="1920">
     <erste-sprache>和他一起</erste-sprache><zweite-sprache>kare to</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1920">
+  <vokabel-paar schritt="1921">
     <erste-sprache>婚礼</erste-sprache><zweite-sprache>kekkonshiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1921">
+  <vokabel-paar schritt="1922">
     <erste-sprache>测验</erste-sprache><zweite-sprache>kuizu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1922">
+  <vokabel-paar schritt="1923">
     <erste-sprache>衬衫</erste-sprache><zweite-sprache>shatsu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1923">
+  <vokabel-paar schritt="1924">
     <erste-sprache>演出</erste-sprache><zweite-sprache>kouen</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1924">
+  <vokabel-paar schritt="1925">
     <erste-sprache>证券交易所</erste-sprache><zweite-sprache>shouken torihikijo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1925">
+  <vokabel-paar schritt="1926">
     <erste-sprache>股票</erste-sprache><zweite-sprache>kabu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1926">
+  <vokabel-paar schritt="1927">
     <erste-sprache>不可返回点</erste-sprache><zweite-sprache>hikikaesenai chiten</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1927">
+  <vokabel-paar schritt="1928">
     <erste-sprache>诈骗</erste-sprache><zweite-sprache>sagi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1928">
+  <vokabel-paar schritt="1929">
     <erste-sprache>骗局</erste-sprache><zweite-sprache>ikasama</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1929">
+  <vokabel-paar schritt="1930">
     <erste-sprache>罪犯</erste-sprache><zweite-sprache>jukeisha</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1930">
+  <vokabel-paar schritt="1931">
     <erste-sprache>鞋垫</erste-sprache><zweite-sprache>nakajiki</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1931">
+  <vokabel-paar schritt="1932">
     <erste-sprache>字母</erste-sprache><zweite-sprache>moji</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1932">
+  <vokabel-paar schritt="1933">
     <erste-sprache>强调</erste-sprache><zweite-sprache>kyouchou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1932">
+  <vokabel-paar schritt="1933">
     <erste-sprache>强调</erste-sprache><zweite-sprache>kyouchou shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1933">
+  <vokabel-paar schritt="1934">
     <erste-sprache>生长</erste-sprache><zweite-sprache>seichou suru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1933">
+  <vokabel-paar schritt="1934">
     <erste-sprache>生长</erste-sprache><zweite-sprache>seichou shimasu</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1934">
+  <vokabel-paar schritt="1935">
     <erste-sprache>遥远的</erste-sprache><zweite-sprache>tooi</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1935">
+  <vokabel-paar schritt="1936">
     <erste-sprache>零</erste-sprache><zweite-sprache>zero</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1936">
+  <vokabel-paar schritt="1937">
     <erste-sprache>名单</erste-sprache><zweite-sprache>risuto</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1937">
+  <vokabel-paar schritt="1938">
     <erste-sprache>以色列</erste-sprache><zweite-sprache>isuraeru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1938">
+  <vokabel-paar schritt="1939">
     <erste-sprache>米</erste-sprache><zweite-sprache>meetoru</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1939">
+  <vokabel-paar schritt="1940">
     <erste-sprache>合作伙伴</erste-sprache><zweite-sprache>paatonaa</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1940">
+  <vokabel-paar schritt="1941">
     <erste-sprache>顺利地</erste-sprache><zweite-sprache>umaku</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1941">
+  <vokabel-paar schritt="1942">
     <erste-sprache>宁可</erste-sprache><zweite-sprache>mushiro</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1942">
+  <vokabel-paar schritt="1943">
     <erste-sprache>收音机</erste-sprache><zweite-sprache>rajio</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1943">
+  <vokabel-paar schritt="1944">
     <erste-sprache>公告</erste-sprache><zweite-sprache>happyou</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1944">
+  <vokabel-paar schritt="1945">
     <erste-sprache>西班牙</erste-sprache><zweite-sprache>supein</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1945">
+  <vokabel-paar schritt="1946">
     <erste-sprache>基础设施</erste-sprache><zweite-sprache>infura</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1946">
+  <vokabel-paar schritt="1947">
     <erste-sprache>烂的</erste-sprache><zweite-sprache>dame na</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1947">
-    <erste-sprache>不过</erste-sprache><zweite-sprache>kedo</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1948">
-    <erste-sprache>回复</erste-sprache><zweite-sprache>henji</zweite-sprache>
+    <erste-sprache>不过</erste-sprache><zweite-sprache>-kedo</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1949">
-    <erste-sprache>小动物</erste-sprache><zweite-sprache>ikimono-tachi</zweite-sprache>
+    <erste-sprache>回复</erste-sprache><zweite-sprache>henji</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1950">
-    <erste-sprache>反正</erste-sprache><zweite-sprache>maa</zweite-sprache>
+    <erste-sprache>小动物</erste-sprache><zweite-sprache>ikimono-tachi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1951">
-    <erste-sprache>通知</erste-sprache><zweite-sprache>jizen renraku</zweite-sprache>
+    <erste-sprache>反正</erste-sprache><zweite-sprache>maa</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1952">
+    <erste-sprache>通知</erste-sprache><zweite-sprache>jizen renraku</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1953">
     <erste-sprache>秒钟</erste-sprache><zweite-sprache>byou</zweite-sprache>
   </vokabel-paar>
 </vokabeln>

@@ -471,7 +471,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>szeretnék</erste-sprache><zweite-sprache>わたしはしたい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="100">
-    <erste-sprache>szeretnék</erste-sprache><zweite-sprache>たい</zweite-sprache>
+    <erste-sprache>szeretnék</erste-sprache><zweite-sprache>-たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="101">
     <erste-sprache>repülés</erste-sprache><zweite-sprache>フライト</zweite-sprache>
@@ -807,7 +807,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>hogy</erste-sprache><zweite-sprache>かどうか</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="181">
-    <erste-sprache>hogy</erste-sprache><zweite-sprache>するために</zweite-sprache>
+    <erste-sprache>hogy</erste-sprache><zweite-sprache>-するために</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="182">
     <erste-sprache>talán</erste-sprache><zweite-sprache>たぶん</zweite-sprache>
@@ -3120,7 +3120,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ben</erste-sprache><zweite-sprache>なかで</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="616">
-    <erste-sprache>ben</erste-sprache><zweite-sprache>なかに・なかで</zweite-sprache>
+    <erste-sprache>ben</erste-sprache><zweite-sprache>なかに</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="617">
     <erste-sprache>–ban</erste-sprache><zweite-sprache>で</zweite-sprache>
@@ -3273,901 +3273,901 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>megérkezik</erste-sprache><zweite-sprache>とうちゃくします</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="642">
-    <erste-sprache>ellen</erste-sprache><zweite-sprache>-にはんたいして</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>ellen</erste-sprache><zweite-sprache>たい</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="643">
     <erste-sprache>iszik</erste-sprache><zweite-sprache>のみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="644">
+  <vokabel-paar schritt="643">
     <erste-sprache>nőni</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="644">
+  <vokabel-paar schritt="643">
     <erste-sprache>növünk</erste-sprache><zweite-sprache>せいちょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="645">
+  <vokabel-paar schritt="644">
     <erste-sprache>vezetni</erste-sprache><zweite-sprache>うんてんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="645">
+  <vokabel-paar schritt="644">
     <erste-sprache>vezetni</erste-sprache><zweite-sprache>みちびく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="646">
+  <vokabel-paar schritt="645">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>うんてんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="646">
+  <vokabel-paar schritt="645">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>うんてんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="646">
+  <vokabel-paar schritt="645">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>みちびきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="646">
+  <vokabel-paar schritt="645">
     <erste-sprache>vezet</erste-sprache><zweite-sprache>みちびく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="647">
+  <vokabel-paar schritt="646">
     <erste-sprache>vég</erste-sprache><zweite-sprache>しゅうりょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="648">
+  <vokabel-paar schritt="647">
     <erste-sprache>egyesület</erste-sprache><zweite-sprache>きょうかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="649">
+  <vokabel-paar schritt="648">
     <erste-sprache>esni</erste-sprache><zweite-sprache>おちる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="649">
+  <vokabel-paar schritt="648">
     <erste-sprache>esünk</erste-sprache><zweite-sprache>おちる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="650">
+  <vokabel-paar schritt="649">
     <erste-sprache>kik</erste-sprache><zweite-sprache>だれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>cucc</erste-sprache><zweite-sprache>もの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>dolgok</erste-sprache><zweite-sprache>もの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="651">
+  <vokabel-paar schritt="650">
     <erste-sprache>cuccok</erste-sprache><zweite-sprache>もの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="652">
+  <vokabel-paar schritt="651">
     <erste-sprache>azzal</erste-sprache><zweite-sprache>-することで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="653">
+  <vokabel-paar schritt="652">
     <erste-sprache>feltéve</erste-sprache><zweite-sprache>というじょうけんで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="654">
+  <vokabel-paar schritt="653">
     <erste-sprache>valószínűleg</erste-sprache><zweite-sprache>おそらく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="654">
+  <vokabel-paar schritt="653">
     <erste-sprache>feltehetően</erste-sprache><zweite-sprache>おそらく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="655">
+  <vokabel-paar schritt="654">
     <erste-sprache>televízió</erste-sprache><zweite-sprache>テレビ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="656">
+  <vokabel-paar schritt="655">
     <erste-sprache>összesen</erste-sprache><zweite-sprache>ごうけい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="657">
+  <vokabel-paar schritt="656">
     <erste-sprache>tól/től</erste-sprache><zweite-sprache>から</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="657">
+  <vokabel-paar schritt="656">
     <erste-sprache>-ból</erste-sprache><zweite-sprache>から</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="657">
+  <vokabel-paar schritt="656">
     <erste-sprache>-ből</erste-sprache><zweite-sprache>から</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="658">
+  <vokabel-paar schritt="657">
     <erste-sprache>hatások</erste-sprache><zweite-sprache>えいきょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="658">
     <erste-sprache>találkoztam</erste-sprache><zweite-sprache>あった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="658">
     <erste-sprache>találkoztál</erste-sprache><zweite-sprache>あった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="659">
+  <vokabel-paar schritt="658">
     <erste-sprache>találkozott</erste-sprache><zweite-sprache>あった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="660">
+  <vokabel-paar schritt="659">
     <erste-sprache>előző</erste-sprache><zweite-sprache>まえの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="660">
+  <vokabel-paar schritt="659">
     <erste-sprache>előző</erste-sprache><zweite-sprache>いぜんの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="661">
+  <vokabel-paar schritt="660">
     <erste-sprache>még</erste-sprache><zweite-sprache>まだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="662">
+  <vokabel-paar schritt="661">
     <erste-sprache>szó</erste-sprache><zweite-sprache>たんご</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="663">
+  <vokabel-paar schritt="662">
     <erste-sprache>fölött</erste-sprache><zweite-sprache>うえ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="664">
+  <vokabel-paar schritt="663">
     <erste-sprache>úr</erste-sprache><zweite-sprache>さん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="665">
+  <vokabel-paar schritt="664">
     <erste-sprache>jön</erste-sprache><zweite-sprache>きます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="666">
+  <vokabel-paar schritt="665">
     <erste-sprache>használt</erste-sprache><zweite-sprache>つかわれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="667">
+  <vokabel-paar schritt="666">
     <erste-sprache>szabály</erste-sprache><zweite-sprache>きてい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="668">
+  <vokabel-paar schritt="667">
     <erste-sprache>gyors</erste-sprache><zweite-sprache>はやい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="669">
+  <vokabel-paar schritt="668">
     <erste-sprache>felelősség</erste-sprache><zweite-sprache>せきにん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="670">
+  <vokabel-paar schritt="669">
     <erste-sprache>vita</erste-sprache><zweite-sprache>ぎろん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="671">
+  <vokabel-paar schritt="670">
     <erste-sprache>él</erste-sprache><zweite-sprache>いきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="671">
     <erste-sprache>több</erste-sprache><zweite-sprache>もっと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="672">
+  <vokabel-paar schritt="671">
     <erste-sprache>több</erste-sprache><zweite-sprache>いくつか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="673">
+  <vokabel-paar schritt="672">
     <erste-sprache>követni</erste-sprache><zweite-sprache>したがう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="673">
+  <vokabel-paar schritt="672">
     <erste-sprache>követünk</erste-sprache><zweite-sprache>したがう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="674">
+  <vokabel-paar schritt="673">
     <erste-sprache>körülbelül</erste-sprache><zweite-sprache>やく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="674">
+  <vokabel-paar schritt="673">
     <erste-sprache>körülbelül</erste-sprache><zweite-sprache>およそ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="675">
+  <vokabel-paar schritt="674">
     <erste-sprache>úgy kb.</erste-sprache><zweite-sprache>だいたい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="676">
+  <vokabel-paar schritt="675">
     <erste-sprache>normális</erste-sprache><zweite-sprache>ふつうの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="677">
+  <vokabel-paar schritt="676">
     <erste-sprache>egyesültek</erste-sprache><zweite-sprache>とういつされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="678">
+  <vokabel-paar schritt="677">
     <erste-sprache>kelleni</erste-sprache><zweite-sprache>しなければならない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="678">
+  <vokabel-paar schritt="677">
     <erste-sprache>kell</erste-sprache><zweite-sprache>しなければならない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="679">
+  <vokabel-paar schritt="678">
     <erste-sprache>kell</erste-sprache><zweite-sprache>しなければなりません</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="679">
     <erste-sprache>tud</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="679">
     <erste-sprache>tud</erste-sprache><zweite-sprache>できます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="679">
     <erste-sprache>tud</erste-sprache><zweite-sprache>しっています</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="680">
+  <vokabel-paar schritt="679">
     <erste-sprache>tud</erste-sprache><zweite-sprache>しっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="680">
     <erste-sprache>ismerni</erste-sprache><zweite-sprache>しっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="680">
     <erste-sprache>ismerünk</erste-sprache><zweite-sprache>しっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="680">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>しっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="681">
+  <vokabel-paar schritt="680">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>しっている</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="682">
+  <vokabel-paar schritt="681">
     <erste-sprache>tudni</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="683">
+  <vokabel-paar schritt="682">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>わたしたちはできる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="683">
+  <vokabel-paar schritt="682">
     <erste-sprache>tudunk</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="684">
+  <vokabel-paar schritt="683">
     <erste-sprache>kértem</erste-sprache><zweite-sprache>ようせいした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="685">
+  <vokabel-paar schritt="684">
     <erste-sprache>kértél</erste-sprache><zweite-sprache>ようせいした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>kért</erste-sprache><zweite-sprache>ようきゅうされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>kért</erste-sprache><zweite-sprache>ようせいされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="686">
+  <vokabel-paar schritt="685">
     <erste-sprache>kért</erste-sprache><zweite-sprache>ようせいした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>kapott</erste-sprache><zweite-sprache>えた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="687">
+  <vokabel-paar schritt="686">
     <erste-sprache>kapott</erste-sprache><zweite-sprache>うけとられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="688">
+  <vokabel-paar schritt="687">
     <erste-sprache>kezelt</erste-sprache><zweite-sprache>たいしょされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="689">
+  <vokabel-paar schritt="688">
     <erste-sprache>talált</erste-sprache><zweite-sprache>みつけられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="690">
+  <vokabel-paar schritt="689">
     <erste-sprache>hisz</erste-sprache><zweite-sprache>しんじます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="691">
+  <vokabel-paar schritt="690">
     <erste-sprache>célzott</erste-sprache><zweite-sprache>ねらわれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="691">
     <erste-sprache>maradni</erste-sprache><zweite-sprache>のこる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="692">
+  <vokabel-paar schritt="691">
     <erste-sprache>maradni</erste-sprache><zweite-sprache>とどまる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>marad</erste-sprache><zweite-sprache>のこります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>marad</erste-sprache><zweite-sprache>のこる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>marad</erste-sprache><zweite-sprache>とどまります</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="693">
+  <vokabel-paar schritt="692">
     <erste-sprache>marad</erste-sprache><zweite-sprache>とどまる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="694">
+  <vokabel-paar schritt="693">
     <erste-sprache>kezd</erste-sprache><zweite-sprache>はじめます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="695">
+  <vokabel-paar schritt="694">
     <erste-sprache>egyezmény</erste-sprache><zweite-sprache>じょうやく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="696">
+  <vokabel-paar schritt="695">
     <erste-sprache>játszott</erste-sprache><zweite-sprache>プレイされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="697">
+  <vokabel-paar schritt="696">
     <erste-sprache>eleinte</erste-sprache><zweite-sprache>さいしょは</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="698">
+  <vokabel-paar schritt="697">
     <erste-sprache>javít</erste-sprache><zweite-sprache>かいぜんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>biztosítani</erste-sprache><zweite-sprache>かくほする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="699">
+  <vokabel-paar schritt="698">
     <erste-sprache>biztosítani</erste-sprache><zweite-sprache>ていきょうする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="700">
+  <vokabel-paar schritt="699">
     <erste-sprache>benyújtott</erste-sprache><zweite-sprache>ていしゅつされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="701">
+  <vokabel-paar schritt="700">
     <erste-sprache>telefonálni</erste-sprache><zweite-sprache>でんわする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="701">
+  <vokabel-paar schritt="700">
     <erste-sprache>telefonálunk</erste-sprache><zweite-sprache>でんわする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="702">
+  <vokabel-paar schritt="701">
     <erste-sprache>ajánlott</erste-sprache><zweite-sprache>すすめられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="703">
+  <vokabel-paar schritt="702">
     <erste-sprache>végrehajtott</erste-sprache><zweite-sprache>じっしされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="703">
+  <vokabel-paar schritt="702">
     <erste-sprache>végrehajtott</erste-sprache><zweite-sprache>じっしした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="703">
     <erste-sprache>végrehajtottam</erste-sprache><zweite-sprache>じっしした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="703">
     <erste-sprache>végrehajtottál</erste-sprache><zweite-sprache>じっしした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="703">
     <erste-sprache>megvalósítottam</erste-sprache><zweite-sprache>じっしした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="704">
+  <vokabel-paar schritt="703">
     <erste-sprache>megvalósítottál</erste-sprache><zweite-sprache>じっしした</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="705">
+  <vokabel-paar schritt="704">
     <erste-sprache>csökkenteni</erste-sprache><zweite-sprache>へらす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="705">
+  <vokabel-paar schritt="704">
     <erste-sprache>csökkentünk</erste-sprache><zweite-sprache>へらす</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="706">
+  <vokabel-paar schritt="705">
     <erste-sprache>megalapított</erste-sprache><zweite-sprache>かくりつされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="707">
+  <vokabel-paar schritt="706">
     <erste-sprache>előmozdít</erste-sprache><zweite-sprache>そくしんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="708">
+  <vokabel-paar schritt="707">
     <erste-sprache>jelentett</erste-sprache><zweite-sprache>ほうこくされた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="709">
+  <vokabel-paar schritt="708">
     <erste-sprache>én csinálni fogok</erste-sprache><zweite-sprache>わたしはつくるでしょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>mondtam</erste-sprache><zweite-sprache>わたしはいった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="710">
+  <vokabel-paar schritt="709">
     <erste-sprache>mondtam</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="711">
+  <vokabel-paar schritt="710">
     <erste-sprache>Ön csinált</erste-sprache><zweite-sprache>あなたがたはつくりました</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="712">
+  <vokabel-paar schritt="711">
     <erste-sprache>vagyunk</erste-sprache><zweite-sprache>です</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="713">
+  <vokabel-paar schritt="712">
     <erste-sprache>egyes</erste-sprache><zweite-sprache>ある</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="713">
+  <vokabel-paar schritt="712">
     <erste-sprache>vannak</erste-sprache><zweite-sprache>ある</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="713">
     <erste-sprache>ez</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="714">
+  <vokabel-paar schritt="713">
     <erste-sprache>ez</erste-sprache><zweite-sprache>これ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="715">
+  <vokabel-paar schritt="714">
     <erste-sprache>az az एक</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="715">
+  <vokabel-paar schritt="714">
     <erste-sprache>az az egy</erste-sprache><zweite-sprache>あれ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="716">
+  <vokabel-paar schritt="715">
     <erste-sprache>belül</erste-sprache><zweite-sprache>なかで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="716">
+  <vokabel-paar schritt="715">
     <erste-sprache>belül</erste-sprache><zweite-sprache>いない</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="717">
+  <vokabel-paar schritt="716">
     <erste-sprache>pozíció</erste-sprache><zweite-sprache>いち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="718">
+  <vokabel-paar schritt="717">
     <erste-sprache>én magam</erste-sprache><zweite-sprache>じぶんじしん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="719">
+  <vokabel-paar schritt="718">
     <erste-sprache>önmagának</erste-sprache><zweite-sprache>それじたい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="720">
+  <vokabel-paar schritt="719">
     <erste-sprache>baleset</erste-sprache><zweite-sprache>じこ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="720">
     <erste-sprache>meg még</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="720">
     <erste-sprache>azon</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="721">
+  <vokabel-paar schritt="720">
     <erste-sprache>ahhoz</erste-sprache><zweite-sprache>それに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="721">
     <erste-sprache>érteni</erste-sprache><zweite-sprache>いとする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="722">
+  <vokabel-paar schritt="721">
     <erste-sprache>érteni</erste-sprache><zweite-sprache>りかいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="723">
+  <vokabel-paar schritt="722">
     <erste-sprache>értünk</erste-sprache><zweite-sprache>いとする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="724">
+  <vokabel-paar schritt="723">
     <erste-sprache>még mindig</erste-sprache><zweite-sprache>いぜんとして</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="724">
+  <vokabel-paar schritt="723">
     <erste-sprache>még mindig</erste-sprache><zweite-sprache>まだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="725">
+  <vokabel-paar schritt="724">
     <erste-sprache>viselnek</erste-sprache><zweite-sprache>きます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="726">
+  <vokabel-paar schritt="725">
     <erste-sprache>rendelkezés</erste-sprache><zweite-sprache>きてい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="726">
+  <vokabel-paar schritt="725">
     <erste-sprache>rendelkezések</erste-sprache><zweite-sprache>きてい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="727">
+  <vokabel-paar schritt="726">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>いくつかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="727">
+  <vokabel-paar schritt="726">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>いくつか</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="727">
+  <vokabel-paar schritt="726">
     <erste-sprache>néhány</erste-sprache><zweite-sprache>なんらかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="728">
+  <vokabel-paar schritt="727">
     <erste-sprache>meg lehet csinálni</erste-sprache><zweite-sprache>できる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="729">
+  <vokabel-paar schritt="728">
     <erste-sprache>megszereztem</erste-sprache><zweite-sprache>てにいれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="729">
+  <vokabel-paar schritt="728">
     <erste-sprache>megszereztem</erste-sprache><zweite-sprache>えた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="730">
+  <vokabel-paar schritt="729">
     <erste-sprache>megszereztél</erste-sprache><zweite-sprache>てにいれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="730">
+  <vokabel-paar schritt="729">
     <erste-sprache>megszereztél</erste-sprache><zweite-sprache>えた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="730">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>てにいれられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="730">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>てにいれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="730">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>えられた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="731">
+  <vokabel-paar schritt="730">
     <erste-sprache>megszerzett</erste-sprache><zweite-sprache>えた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="732">
+  <vokabel-paar schritt="731">
     <erste-sprache>javítanak</erste-sprache><zweite-sprache>かいぜんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>mondtál</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>mondott</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>elment</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>mentem</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>mentél</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>ment</erste-sprache><zweite-sprache>いった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="733">
     <erste-sprache>mondott</erste-sprache><zweite-sprache>いわれた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="734">
     <erste-sprache>elment</erste-sprache><zweite-sprache>いってしまった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="734">
     <erste-sprache>elment</erste-sprache><zweite-sprache>さった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="735">
     <erste-sprache>ment</erste-sprache><zweite-sprache>いっていた</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="736">
     <erste-sprache>értjük</erste-sprache><zweite-sprache>りかいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="736">
     <erste-sprache>érti</erste-sprache><zweite-sprache>りかいする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>bármilyen</erste-sprache><zweite-sprache>なんらかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>bármilyen</erste-sprache><zweite-sprache>なにかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="738">
     <erste-sprache>őket</erste-sprache><zweite-sprache>かれらに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>か</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>または</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>vagy</erste-sprache><zweite-sprache>あるいは</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="740">
     <erste-sprache>szúnyog</erste-sprache><zweite-sprache>か</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="741">
     <erste-sprache>légy</erste-sprache><zweite-sprache>-でいろ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="742">
     <erste-sprache>legyenek</erste-sprache><zweite-sprache>-でいてください</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="743">
     <erste-sprache>lenni</erste-sprache><zweite-sprache>である</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>ti</erste-sprache><zweite-sprache>あなたたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>ti</erste-sprache><zweite-sprache>きみたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>ti</erste-sprache><zweite-sprache>あなたたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="745">
     <erste-sprache>a ti</erste-sprache><zweite-sprache>きみたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="747">
+  <vokabel-paar schritt="746">
     <erste-sprache>bal</erste-sprache><zweite-sprache>ひだりの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>tehát</erste-sprache><zweite-sprache>だから</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>így hát</erste-sprache><zweite-sprache>だから</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="748">
     <erste-sprache>ennyire</erste-sprache><zweite-sprache>そんなに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="748">
     <erste-sprache>ennyire sok</erste-sprache><zweite-sprache>そんなに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="750">
+  <vokabel-paar schritt="749">
     <erste-sprache>ne</erste-sprache><zweite-sprache>しないで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="750">
+  <vokabel-paar schritt="749">
     <erste-sprache>ne</erste-sprache><zweite-sprache>しないでおこう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="751">
+  <vokabel-paar schritt="750">
     <erste-sprache>után</erste-sprache><zweite-sprache>-のあとに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>csak</erste-sprache><zweite-sprache>だけ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>csak</erste-sprache><zweite-sprache>ただ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>csak</erste-sprache><zweite-sprache>そういうものだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="752">
+  <vokabel-paar schritt="751">
     <erste-sprache>csak</erste-sprache><zweite-sprache>のみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="753">
+  <vokabel-paar schritt="752">
     <erste-sprache>amikor</erste-sprache><zweite-sprache>とき</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>fogok</erste-sprache><zweite-sprache>するよていだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="754">
+  <vokabel-paar schritt="753">
     <erste-sprache>fogok</erste-sprache><zweite-sprache>するつもり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>よりよい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>まし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="755">
+  <vokabel-paar schritt="754">
     <erste-sprache>jobb</erste-sprache><zweite-sprache>みぎの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>nemzetek</erste-sprache><zweite-sprache>くにぐに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="756">
+  <vokabel-paar schritt="755">
     <erste-sprache>országok</erste-sprache><zweite-sprache>くにぐに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="757">
+  <vokabel-paar schritt="756">
     <erste-sprache>az ember</erste-sprache><zweite-sprache>ひとは</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>ezt a</erste-sprache><zweite-sprache>この</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="758">
+  <vokabel-paar schritt="757">
     <erste-sprache>ez a</erste-sprache><zweite-sprache>この</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="759">
+  <vokabel-paar schritt="758">
     <erste-sprache>ennek</erste-sprache><zweite-sprache>これに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="760">
+  <vokabel-paar schritt="759">
     <erste-sprache>lehet</erste-sprache><zweite-sprache>ありうる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="761">
+  <vokabel-paar schritt="760">
     <erste-sprache>élveznek</erste-sprache><zweite-sprache>たのしみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>mint</erste-sprache><zweite-sprache>として</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>mint</erste-sprache><zweite-sprache>ちょうど-のように</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
-    <erste-sprache>mint</erste-sprache><zweite-sprache>のように</zweite-sprache>
+  <vokabel-paar schritt="761">
+    <erste-sprache>mint</erste-sprache><zweite-sprache>-のように</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="762">
+  <vokabel-paar schritt="761">
     <erste-sprache>mint</erste-sprache><zweite-sprache>より</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="763">
+  <vokabel-paar schritt="762">
     <erste-sprache>pont úgy</erste-sprache><zweite-sprache>ちょうど-のように</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="764">
+  <vokabel-paar schritt="763">
     <erste-sprache>egynek</erste-sprache><zweite-sprache>ひとつに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="765">
+  <vokabel-paar schritt="764">
     <erste-sprache>lettek</erste-sprache><zweite-sprache>された</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="766">
+  <vokabel-paar schritt="765">
     <erste-sprache>ezt hívják</erste-sprache><zweite-sprache>それは〜とよばれる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>bizottság</erste-sprache><zweite-sprache>いいんかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="767">
+  <vokabel-paar schritt="766">
     <erste-sprache>szervek</erste-sprache><zweite-sprache>いいんかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>ott</erste-sprache><zweite-sprache>そこに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="768">
+  <vokabel-paar schritt="767">
     <erste-sprache>ott</erste-sprache><zweite-sprache>あそこ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>ja</erste-sprache><zweite-sprache>ええ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="769">
+  <vokabel-paar schritt="768">
     <erste-sprache>ja</erste-sprache><zweite-sprache>うん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="770">
+  <vokabel-paar schritt="769">
     <erste-sprache>szerencse</erste-sprache><zweite-sprache>うん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="771">
+  <vokabel-paar schritt="770">
     <erste-sprache>aztán</erste-sprache><zweite-sprache>それから</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="772">
+  <vokabel-paar schritt="771">
     <erste-sprache>több mint</erste-sprache><zweite-sprache>いじょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="773">
+  <vokabel-paar schritt="772">
     <erste-sprache>igen</erste-sprache><zweite-sprache>はい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>előtt</erste-sprache><zweite-sprache>-のまえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="774">
+  <vokabel-paar schritt="773">
     <erste-sprache>előtt</erste-sprache><zweite-sprache>まえに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>fogunk</erste-sprache><zweite-sprache>わたしたちは-するよていだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="775">
+  <vokabel-paar schritt="774">
     <erste-sprache>fogunk</erste-sprache><zweite-sprache>するだろう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="776">
+  <vokabel-paar schritt="775">
     <erste-sprache>fog</erste-sprache><zweite-sprache>するだろう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>akarat</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>orvos</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="777">
+  <vokabel-paar schritt="776">
     <erste-sprache>kő</erste-sprache><zweite-sprache>いし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="778">
+  <vokabel-paar schritt="777">
     <erste-sprache>fognak</erste-sprache><zweite-sprache>するでしょう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="779">
+  <vokabel-paar schritt="778">
     <erste-sprache>nemzetközi</erste-sprache><zweite-sprache>こくさいてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="780">
+  <vokabel-paar schritt="779">
     <erste-sprache>itt</erste-sprache><zweite-sprache>ここ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="781">
+  <vokabel-paar schritt="780">
     <erste-sprache>ide</erste-sprache><zweite-sprache>ここへ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="781">
     <erste-sprache>is</erste-sprache><zweite-sprache>また</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="782">
+  <vokabel-paar schritt="781">
     <erste-sprache>is</erste-sprache><zweite-sprache>-も</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="782">
     <erste-sprache>még egyszer</erste-sprache><zweite-sprache>また</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="783">
+  <vokabel-paar schritt="782">
     <erste-sprache>megint</erste-sprache><zweite-sprache>また</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="784">
+  <vokabel-paar schritt="783">
     <erste-sprache>mind</erste-sprache><zweite-sprache>-も</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="784">
     <erste-sprache>mások</erste-sprache><zweite-sprache>ほかのひとたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="785">
+  <vokabel-paar schritt="784">
     <erste-sprache>mások</erste-sprache><zweite-sprache>ほかのもの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="785">
     <erste-sprache>másik</erste-sprache><zweite-sprache>べつの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="786">
+  <vokabel-paar schritt="785">
     <erste-sprache>másik</erste-sprache><zweite-sprache>ほかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="786">
     <erste-sprache>USA</erste-sprache><zweite-sprache>アメリカ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="786">
     <erste-sprache>USA</erste-sprache><zweite-sprache>べいこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="787">
+  <vokabel-paar schritt="786">
     <erste-sprache>USA</erste-sprache><zweite-sprache>アメリカがっしゅうこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="788">
+  <vokabel-paar schritt="787">
     <erste-sprache>Egyesült Államok</erste-sprache><zweite-sprache>アメリカがっしゅうこく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="788">
     <erste-sprache>tanács</erste-sprache><zweite-sprache>ひょうぎかい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="788">
     <erste-sprache>tanács</erste-sprache><zweite-sprache>じょげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="790">
+  <vokabel-paar schritt="789">
     <erste-sprache>tanácsadás</erste-sprache><zweite-sprache>じょげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="791">
+  <vokabel-paar schritt="790">
     <erste-sprache>most</erste-sprache><zweite-sprache>いま</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="792">
+  <vokabel-paar schritt="791">
     <erste-sprache>ezek</erste-sprache><zweite-sprache>これら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="793">
+  <vokabel-paar schritt="792">
     <erste-sprache>jogok</erste-sprache><zweite-sprache>けんり</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="794">
+  <vokabel-paar schritt="793">
     <erste-sprache>furcsa</erste-sprache><zweite-sprache>へんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="794">
     <erste-sprache>jelentés</erste-sprache><zweite-sprache>いみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="795">
+  <vokabel-paar schritt="794">
     <erste-sprache>jelentés</erste-sprache><zweite-sprache>ほうこくしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="795">
     <erste-sprache>értelem</erste-sprache><zweite-sprache>いみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="796">
+  <vokabel-paar schritt="795">
     <erste-sprache>érzék</erste-sprache><zweite-sprache>いみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="797">
+  <vokabel-paar schritt="796">
     <erste-sprache>jelentések</erste-sprache><zweite-sprache>ほうこくしょ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>minden</erste-sprache><zweite-sprache>すべて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>minden</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>minden</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>minden</erste-sprache><zweite-sprache>それぞれの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="798">
+  <vokabel-paar schritt="797">
     <erste-sprache>minden</erste-sprache><zweite-sprache>かく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="799">
+  <vokabel-paar schritt="798">
     <erste-sprache>mind közül</erste-sprache><zweite-sprache>すべての</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="799">
     <erste-sprache>mindenki</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="800">
+  <vokabel-paar schritt="799">
     <erste-sprache>srácok</erste-sprache><zweite-sprache>みんな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="800">
     <erste-sprache>írni</erste-sprache><zweite-sprache>かく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="800">
     <erste-sprache>írunk</erste-sprache><zweite-sprache>かく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="801">
+  <vokabel-paar schritt="800">
     <erste-sprache>ír</erste-sprache><zweite-sprache>かく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="801">
     <erste-sprache>kötelezettség</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="801">
     <erste-sprache>kötelezettségek</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="802">
+  <vokabel-paar schritt="801">
     <erste-sprache>kötelesség</erste-sprache><zweite-sprache>ぎむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>határozat</erste-sprache><zweite-sprache>けつぎ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="803">
+  <vokabel-paar schritt="802">
     <erste-sprache>határozatok</erste-sprache><zweite-sprache>けつぎ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="804">
+  <vokabel-paar schritt="803">
     <erste-sprache>beleértve</erste-sprache><zweite-sprache>ふくめて</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="804">
     <erste-sprache>alatt</erste-sprache><zweite-sprache>したに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="804">
     <erste-sprache>alatt</erste-sprache><zweite-sprache>-のあいだ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="805">
+  <vokabel-paar schritt="804">
     <erste-sprache>alatt</erste-sprache><zweite-sprache>-のあいだに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="805">
     <erste-sprache>között</erste-sprache><zweite-sprache>-のあいだで</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="806">
+  <vokabel-paar schritt="805">
     <erste-sprache>között</erste-sprache><zweite-sprache>-のあいだに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="806">
     <erste-sprache>munka</erste-sprache><zweite-sprache>しごと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="807">
+  <vokabel-paar schritt="806">
     <erste-sprache>munka</erste-sprache><zweite-sprache>ろうどう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="808">
+  <vokabel-paar schritt="807">
     <erste-sprache>munkák</erste-sprache><zweite-sprache>しごと</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="809">
+  <vokabel-paar schritt="808">
     <erste-sprache>mű</erste-sprache><zweite-sprache>さくひん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="810">
+  <vokabel-paar schritt="809">
     <erste-sprache>dolgoznak</erste-sprache><zweite-sprache>はたらきます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="810">
     <erste-sprache>általános</erste-sprache><zweite-sprache>いっぱんてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="811">
+  <vokabel-paar schritt="810">
     <erste-sprache>általános</erste-sprache><zweite-sprache>いっぱんの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="812">
+  <vokabel-paar schritt="811">
     <erste-sprache>tábornok</erste-sprache><zweite-sprache>しょうぐん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="812">
     <erste-sprache>támogatni</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="812">
     <erste-sprache>támogatunk</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="813">
+  <vokabel-paar schritt="812">
     <erste-sprache>támogat</erste-sprache><zweite-sprache>しじする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="814">
+  <vokabel-paar schritt="813">
     <erste-sprache>támogatnak</erste-sprache><zweite-sprache>しじします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="814">
     <erste-sprache>körül</erste-sprache><zweite-sprache>について</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="815">
+  <vokabel-paar schritt="814">
     <erste-sprache>körül</erste-sprache><zweite-sprache>-のまわりに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="815">
     <erste-sprache>ők</erste-sprache><zweite-sprache>かのじょたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="816">
+  <vokabel-paar schritt="815">
     <erste-sprache>ők</erste-sprache><zweite-sprache>かれら</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="817">
+  <vokabel-paar schritt="816">
     <erste-sprache>nemzeti</erste-sprache><zweite-sprache>こっかの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="817">
     <erste-sprache>ad</erste-sprache><zweite-sprache>あたえます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="818">
+  <vokabel-paar schritt="817">
     <erste-sprache>ad</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="818">
     <erste-sprache>adni</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="819">
+  <vokabel-paar schritt="818">
     <erste-sprache>adunk</erste-sprache><zweite-sprache>あたえる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="820">
+  <vokabel-paar schritt="819">
     <erste-sprache>figura</erste-sprache><zweite-sprache>ずけい</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="820">
+    <erste-sprache>ellen</erste-sprache><zweite-sprache>-にはんたいして</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="820">
+    <erste-sprache>ellen</erste-sprache><zweite-sprache>たい</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="821">
     <erste-sprache>végrehajtás</erste-sprache><zweite-sprache>しっこう</zweite-sprache>
@@ -4287,7 +4287,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>valami</erste-sprache><zweite-sprache>なにか</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="845">
-    <erste-sprache>aki</erste-sprache><zweite-sprache>するひと</zweite-sprache>
+    <erste-sprache>aki</erste-sprache><zweite-sprache>-するひと</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="846">
     <erste-sprache>találkozás</erste-sprache><zweite-sprache>であい</zweite-sprache>
@@ -4532,200 +4532,200 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="891">
     <erste-sprache>volnánk</erste-sprache><zweite-sprache>だろう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="891">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>だろう</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="892">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>あるだろう</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="892">
-    <erste-sprache>lenne</erste-sprache><zweite-sprache>かれらはもっていただろう</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="893">
-    <erste-sprache>lesz</erste-sprache><zweite-sprache>あるだろう</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="894">
     <erste-sprache>erőfeszítések</erste-sprache><zweite-sprache>どりょく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="894">
+  <vokabel-paar schritt="892">
     <erste-sprache>erőfeszítés</erste-sprache><zweite-sprache>どりょく</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="895">
+  <vokabel-paar schritt="893">
     <erste-sprache>fényképezőgép</erste-sprache><zweite-sprache>カメラ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="896">
+  <vokabel-paar schritt="894">
     <erste-sprache>gyerekek</erste-sprache><zweite-sprache>こどもたち</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="895">
     <erste-sprache>haladás</erste-sprache><zweite-sprache>しんぽ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="897">
+  <vokabel-paar schritt="895">
     <erste-sprache>haladások</erste-sprache><zweite-sprache>しんぽ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="896">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>しょうすうの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="896">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>わずかな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="898">
+  <vokabel-paar schritt="896">
     <erste-sprache>kevés</erste-sprache><zweite-sprache>すこし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="897">
     <erste-sprache>egy kicsit</erste-sprache><zweite-sprache>すこし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="897">
     <erste-sprache>kicsit</erste-sprache><zweite-sprache>すこし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="899">
+  <vokabel-paar schritt="897">
     <erste-sprache>egy kis</erste-sprache><zweite-sprache>すこし</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="900">
+  <vokabel-paar schritt="898">
     <erste-sprache>ajándék</erste-sprache><zweite-sprache>おくりもの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="899">
     <erste-sprache>öröm</erste-sprache><zweite-sprache>たのしみ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="901">
+  <vokabel-paar schritt="899">
     <erste-sprache>öröm</erste-sprache><zweite-sprache>よろこび</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="902">
+  <vokabel-paar schritt="900">
     <erste-sprache>látogatás</erste-sprache><zweite-sprache>ほうもん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="903">
+  <vokabel-paar schritt="901">
     <erste-sprache>melléklet</erste-sprache><zweite-sprache>てんぷファイル</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>remélni</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>remélünk</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>remél</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>akarni</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>akarunk</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="904">
+  <vokabel-paar schritt="902">
     <erste-sprache>akar</erste-sprache><zweite-sprache>のぞむ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="905">
+  <vokabel-paar schritt="903">
     <erste-sprache>remél</erste-sprache><zweite-sprache>のぞみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="906">
+  <vokabel-paar schritt="904">
     <erste-sprache>akarunk</erste-sprache><zweite-sprache>わたしたちはほしい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="907">
+  <vokabel-paar schritt="905">
     <erste-sprache>akarnak</erste-sprache><zweite-sprache>のぞみます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="906">
     <erste-sprache>javasolni</erste-sprache><zweite-sprache>ていあんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="906">
     <erste-sprache>javasolunk</erste-sprache><zweite-sprache>ていあんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="908">
+  <vokabel-paar schritt="906">
     <erste-sprache>javasol</erste-sprache><zweite-sprache>ていあんする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="909">
+  <vokabel-paar schritt="907">
     <erste-sprache>javasol</erste-sprache><zweite-sprache>ていあんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="910">
+  <vokabel-paar schritt="908">
     <erste-sprache>javasolnak</erste-sprache><zweite-sprache>ていあんします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="909">
     <erste-sprache>megoldani</erste-sprache><zweite-sprache>かいけつする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="909">
     <erste-sprache>megoldunk</erste-sprache><zweite-sprache>かいけつする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="911">
+  <vokabel-paar schritt="909">
     <erste-sprache>megold</erste-sprache><zweite-sprache>かいけつする</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="912">
+  <vokabel-paar schritt="910">
     <erste-sprache>megold</erste-sprache><zweite-sprache>かいけつします</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="911">
     <erste-sprache>élet</erste-sprache><zweite-sprache>せいめい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="913">
+  <vokabel-paar schritt="911">
     <erste-sprache>élet</erste-sprache><zweite-sprache>せいかつ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="912">
     <erste-sprache>nyilatkozat</erste-sprache><zweite-sprache>せんげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="912">
     <erste-sprache>nyilatkozat</erste-sprache><zweite-sprache>せいめい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="913">
     <erste-sprache>nyilatkozatok</erste-sprache><zweite-sprache>せいめい</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>ゆるされる</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>ゆるされます</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="914">
     <erste-sprache>szabad</erste-sprache><zweite-sprache>じゆうな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="915">
     <erste-sprache>erőforrások</erste-sprache><zweite-sprache>しげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="915">
     <erste-sprache>erőforrás</erste-sprache><zweite-sprache>しげん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="918">
+  <vokabel-paar schritt="916">
     <erste-sprache>csupán</erste-sprache><zweite-sprache>たった</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="919">
+  <vokabel-paar schritt="917">
     <erste-sprache>igazságos</erste-sprache><zweite-sprache>こうせいな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="920">
+  <vokabel-paar schritt="918">
     <erste-sprache>Németország</erste-sprache><zweite-sprache>ドイツ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="921">
+  <vokabel-paar schritt="919">
     <erste-sprache>másoknak</erste-sprache><zweite-sprache>ほかのひとたちに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="922">
+  <vokabel-paar schritt="920">
     <erste-sprache>regionális</erste-sprache><zweite-sprache>ちいきてきな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="923">
+  <vokabel-paar schritt="921">
     <erste-sprache>központi bank</erste-sprache><zweite-sprache>ちゅうおうぎんこう</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="924">
+  <vokabel-paar schritt="922">
     <erste-sprache>aljas</erste-sprache><zweite-sprache>いじわるな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="925">
+  <vokabel-paar schritt="923">
     <erste-sprache>undorító</erste-sprache><zweite-sprache>いやな</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="926">
+  <vokabel-paar schritt="924">
     <erste-sprache>a mi</erste-sprache><zweite-sprache>わたしたちの</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="925">
     <erste-sprache>csoport</erste-sprache><zweite-sprache>グループ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="927">
+  <vokabel-paar schritt="925">
     <erste-sprache>csoportok</erste-sprache><zweite-sprache>グループ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="928">
+  <vokabel-paar schritt="926">
     <erste-sprache>rendelés</erste-sprache><zweite-sprache>ちゅうもん</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="927">
     <erste-sprache>neki</erste-sprache><zweite-sprache>かれに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="929">
+  <vokabel-paar schritt="927">
     <erste-sprache>neki</erste-sprache><zweite-sprache>かのじょに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="928">
     <erste-sprache>őt</erste-sprache><zweite-sprache>かれを</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="930">
+  <vokabel-paar schritt="928">
     <erste-sprache>őt</erste-sprache><zweite-sprache>かのじょを</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="929">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>あるだろう</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="929">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>-だろう</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="929">
+    <erste-sprache>lenne</erste-sprache><zweite-sprache>かれらはもっていただろう</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="930">
+    <erste-sprache>lesz</erste-sprache><zweite-sprache>あるだろう</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="931">
     <erste-sprache>segítség</erste-sprache><zweite-sprache>しえん</zweite-sprache>

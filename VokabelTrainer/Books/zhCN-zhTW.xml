@@ -651,7 +651,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>谁</erste-sprache><zweite-sprache>誰</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="190">
-    <erste-sprache>谁</erste-sprache><zweite-sprache>的人</zweite-sprache>
+    <erste-sprache>谁</erste-sprache><zweite-sprache>-的人</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="191">
     <erste-sprache>到达</erste-sprache><zweite-sprache>到達</zweite-sprache>
@@ -876,7 +876,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>一个</erste-sprache><zweite-sprache>一個</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="247">
-    <erste-sprache>非</erste-sprache><zweite-sprache>/feɪ̯˥/</zweite-sprache>
+    <erste-sprache>非</erste-sprache><zweite-sprache>非</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="248">
     <erste-sprache>太</erste-sprache><zweite-sprache>太</zweite-sprache>
@@ -3507,7 +3507,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>州</erste-sprache><zweite-sprache>州</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="998">
-    <erste-sprache>TV</erste-sprache><zweite-sprache>TV</zweite-sprache>
+    <erste-sprache>TV</erste-sprache><zweite-sprache>電視機</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="998">
+    <erste-sprache>电视</erste-sprache><zweite-sprache>電視機</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="999">
     <erste-sprache>维护</erste-sprache><zweite-sprache>維護</zweite-sprache>
@@ -5684,9 +5687,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="1667">
     <erste-sprache>电视</erste-sprache><zweite-sprache>電視</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1667">
-    <erste-sprache>电视</erste-sprache><zweite-sprache>電視機</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="1668">
     <erste-sprache>解释</erste-sprache><zweite-sprache>解釋</zweite-sprache>
   </vokabel-paar>
@@ -6654,7 +6654,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>日</erste-sprache><zweite-sprache>日</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1958">
-    <erste-sprache>相互の</erste-sprache><zweite-sprache>相互-</zweite-sprache>
+    <erste-sprache>相互の</erste-sprache><zweite-sprache>相互</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1959">
     <erste-sprache>你去过</erste-sprache><zweite-sprache>你已經去了</zweite-sprache>
@@ -6672,7 +6672,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>它做了</erste-sprache><zweite-sprache>它已經做了</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1964">
-    <erste-sprache>部</erste-sprache><zweite-sprache>noun; singular; ministry government department</zweite-sprache>
+    <erste-sprache>部</erste-sprache><zweite-sprache>部會</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1965">
     <erste-sprache>土著的</erste-sprache><zweite-sprache>原住民的</zweite-sprache>

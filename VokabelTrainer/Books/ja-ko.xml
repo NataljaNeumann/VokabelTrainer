@@ -5265,52 +5265,55 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>に</erste-sprache><zweite-sprache>에게</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1398">
-    <erste-sprache>中に・中で</erste-sprache><zweite-sprache>안에・안에서</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1399">
-    <erste-sprache>で</erste-sprache><zweite-sprache>에서</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1400">
-    <erste-sprache>-も ない</erste-sprache><zweite-sprache>-도 아니다</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1401">
-    <erste-sprache>年</erste-sprache><zweite-sprache>해</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1402">
-    <erste-sprache>一つ</erste-sprache><zweite-sprache>하나</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1402">
-    <erste-sprache>一</erste-sprache><zweite-sprache>하나</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1403">
-    <erste-sprache>非</erste-sprache><zweite-sprache>비-/pi/</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1404">
-    <erste-sprache>あまりにも</erste-sprache><zweite-sprache>너무</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1405">
-    <erste-sprache>一つを</erste-sprache><zweite-sprache>하나를</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1406">
-    <erste-sprache>それ</erste-sprache><zweite-sprache>그것</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1407">
-    <erste-sprache>それは</erste-sprache><zweite-sprache>그것은</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1408">
-    <erste-sprache>のために</erste-sprache><zweite-sprache>위해</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1409">
-    <erste-sprache>こと</erste-sprache><zweite-sprache>일</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1409">
-    <erste-sprache>事柄</erste-sprache><zweite-sprache>일</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1410">
     <erste-sprache>中で</erste-sprache><zweite-sprache>안에서</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="1410">
+  <vokabel-paar schritt="1398">
+    <erste-sprache>中で</erste-sprache><zweite-sprache>안에・안에서</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1398">
     <erste-sprache>中で</erste-sprache><zweite-sprache>안에</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1399">
+    <erste-sprache>中に</erste-sprache><zweite-sprache>안에・안에서</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1400">
+    <erste-sprache>で</erste-sprache><zweite-sprache>에서</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1401">
+    <erste-sprache>-も ない</erste-sprache><zweite-sprache>-도 아니다</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1402">
+    <erste-sprache>年</erste-sprache><zweite-sprache>해</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1403">
+    <erste-sprache>一つ</erste-sprache><zweite-sprache>하나</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1403">
+    <erste-sprache>一</erste-sprache><zweite-sprache>하나</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1404">
+    <erste-sprache>非</erste-sprache><zweite-sprache>비-/pi/</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1405">
+    <erste-sprache>あまりにも</erste-sprache><zweite-sprache>너무</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1406">
+    <erste-sprache>一つを</erste-sprache><zweite-sprache>하나를</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1407">
+    <erste-sprache>それ</erste-sprache><zweite-sprache>그것</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1408">
+    <erste-sprache>それは</erste-sprache><zweite-sprache>그것은</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1409">
+    <erste-sprache>のために</erste-sprache><zweite-sprache>위해</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1410">
+    <erste-sprache>こと</erste-sprache><zweite-sprache>일</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1410">
+    <erste-sprache>事柄</erste-sprache><zweite-sprache>일</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1411">
     <erste-sprache>開ける</erste-sprache><zweite-sprache>열다</zweite-sprache>
@@ -6564,7 +6567,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>さまざまな</erste-sprache><zweite-sprache>여러 가지의</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1749">
-    <erste-sprache>相互-</erste-sprache><zweite-sprache>상호-</zweite-sprache>
+    <erste-sprache>相互</erste-sprache><zweite-sprache>상호-</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1750">
     <erste-sprache>対処された</erste-sprache><zweite-sprache>다루어진</zweite-sprache>

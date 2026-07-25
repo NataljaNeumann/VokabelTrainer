@@ -3735,16 +3735,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>en</erste-sprache><zweite-sprache>中で</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="760">
-    <erste-sprache>en</erste-sprache><zweite-sprache>中に・中で</zweite-sprache>
+    <erste-sprache>en</erste-sprache><zweite-sprache>中に</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="760">
     <erste-sprache>en</erste-sprache><zweite-sprache>中へ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="760">
     <erste-sprache>en</erste-sprache><zweite-sprache>に</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="760">
-    <erste-sprache>en</erste-sprache><zweite-sprache>中に</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="760">
     <erste-sprache>en</erste-sprache><zweite-sprache>上に</zweite-sprache>
@@ -6696,7 +6693,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>fortalecen</erste-sprache><zweite-sprache>強化します</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1362">
-    <erste-sprache>inter-</erste-sprache><zweite-sprache>相互-</zweite-sprache>
+    <erste-sprache>inter-</erste-sprache><zweite-sprache>相互</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1363">
     <erste-sprache>coordinación</erste-sprache><zweite-sprache>調整</zweite-sprache>
