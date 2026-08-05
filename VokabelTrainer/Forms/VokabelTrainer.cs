@@ -4096,20 +4096,20 @@ namespace VokabelTrainer
                             Add(oResult, @"https://www.youtube.com/@AfricanSoundOfPraise/videos");
                             goto default;
                         case "he":
-                            Add(oResult, @"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics", 0.3);
-                            Add(oResult, @"https://www.youtube.com/@EchoesJerusalem/videos", 0.3);
-                            Add(oResult, @"https://www.youtube.com/@rbgospel_ca/videos", 0.3);
-                            Add(oResult, @"https://www.youtube.com/@JerusalemVoicesofWorship/videos", 0.3);
-                            Add(oResult, @"https://www.youtube.com/@WorshipofIsrael", 0.3);
-                            Add(oResult, @"https://www.youtube.com/@AmetsOfZion/videos", 0.3);
-                            Add(oResult, @"https://www.youtube.com/results?search_query=TECNOHEBREO+%E2%80%93+HEBREW+CHRISTIAN+TECHNO+WORSHIP+%7C+THE+SOUND+OF+YAHWEH+++glory+frequency", 0.3);
+                            Add(oResult, @"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/@EchoesJerusalem/videos", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/@rbgospel_ca/videos", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/@JerusalemVoicesofWorship/videos", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/@WorshipofIsrael", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/@AmetsOfZion/videos", 0.3, 300);
+                            Add(oResult, @"https://www.youtube.com/results?search_query=TECNOHEBREO+%E2%80%93+HEBREW+CHRISTIAN+TECHNO+WORSHIP+%7C+THE+SOUND+OF+YAHWEH+++glory+frequency", 0.3, 300);
                             goto default;
                         case "de":
                             Add(oResult, @"https://onlineuebung.de/englisch/englische-lernspiele/");
                             // for german speakers: Witch Huckla / English
                             Add(oResult, @"https://www.amazon.de/s?k=hexe+huckla+englisch");
                             Add(oResult, @"https://www.youtube.com/@7cloudsGermanyOfficial/videos");
-                            Add(oResult, @"https://www.youtube.com/@LivingbreadNetMusic/videos");
+                            Add(oResult, @"https://www.youtube.com/@LivingbreadNetMusic/videos", 0.3, 300);
                             goto default;
                         default:
                             if (!Program.IslamicCountry)
@@ -4134,6 +4134,7 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@ZionEchoCovers/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@TheOutlawStrings/videos");
                                 Add(oResult, @"https://www.youtube.com/@Parla_project/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@the_next_show/videos");
 
                                 // https://www.youtube.com/@alphonsusmarianmusic/videos
 
