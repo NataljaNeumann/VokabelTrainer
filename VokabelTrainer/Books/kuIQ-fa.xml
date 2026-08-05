@@ -4,7 +4,7 @@
   <!-- Modus: kontinuierlich oder normal -->
   <modus>kontinuierlich</modus>
 
-  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->
+  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren Links- oder Rechtsläufigkeit -->
   <erste-sprache-name>سۆرانی</erste-sprache-name>
   <zweite-sprache-name>فارسی</zweite-sprache-name>
   <erste-sprache-rtl>ja</erste-sprache-rtl>
