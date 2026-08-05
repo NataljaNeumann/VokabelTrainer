@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<vokabeln>
+
+  <!-- Modus: kontinuierlich oder normal -->
+  <modus>kontinuierlich</modus>
+
+  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren Links- oder Rechtsläufigkeit -->
+  <erste-sprache-name>Nederlands</erste-sprache-name>
+  <zweite-sprache-name>繁體中文語</zweite-sprache-name>
+  <erste-sprache-rtl>nein</erste-sprache-rtl>
+  <zweite-sprache-rtl>nein</zweite-sprache-rtl>
+
+  <!-- Allgemeiner Teil: Lizenz für das Vokabelheft -->
+  <lizenz><modifikationen>Unter Lizenzbedingungen</modifikationen>
+  <text xml:space="preserve">Copyright (C) 2026 NataljaNeumann@gmx.de
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</text></lizenz>
+
+  <!-- Die Verbindung zwischen den Vokabeln der zwei Sprachen (Nederlands-繁體中文語) -->
+</vokabeln>
