@@ -3494,6 +3494,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="646">
     <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>提升</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>改進</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="647">
     <erste-sprache>יִשַּׂמְתִּי</erste-sprache><zweite-sprache>實施了</zweite-sprache>
   </vokabel-paar>
@@ -4685,6 +4688,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="881">
     <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>提升</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="881">
+    <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>改進</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="882">
     <erste-sprache>לְחַפֵּשׂ</erste-sprache><zweite-sprache>尋找</zweite-sprache>
   </vokabel-paar>
@@ -4893,19 +4899,19 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>הַצָּעָה</erste-sprache><zweite-sprache>提案</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="931">
-    <erste-sprache>אֲנַחְנוּ צְרִיכִים</erste-sprache><zweite-sprache>應該</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="931">
-    <erste-sprache>אַתֶּם צְרִיכִים</erste-sprache><zweite-sprache>應該</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="932">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>他自己</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="932">
+  <vokabel-paar schritt="931">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>它本身</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="933">
+  <vokabel-paar schritt="932">
     <erste-sprache>עַצְמָהּ</erste-sprache><zweite-sprache>她自己</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="933">
+    <erste-sprache>אֲנַחְנוּ צְרִיכִים</erste-sprache><zweite-sprache>應該</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="933">
+    <erste-sprache>אַתֶּם צְרִיכִים</erste-sprache><zweite-sprache>應該</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="934">
     <erste-sprache>מַעֲשֶׂה</erste-sprache><zweite-sprache>行為</zweite-sprache>

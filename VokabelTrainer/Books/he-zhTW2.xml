@@ -3491,6 +3491,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="634">
     <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>ㄊㄧˊ ㄕㄥ</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="634">
+    <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>ㄍㄞˇ ㄐㄧㄣˋ</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="635">
     <erste-sprache>יִשַּׂמְתִּי</erste-sprache><zweite-sprache>ㄕˊ ㄕ ˙ㄌㄜ</zweite-sprache>
   </vokabel-paar>
@@ -4718,6 +4721,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="864">
     <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>ㄊㄧˊ ㄕㄥ</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="864">
+    <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>ㄍㄞˇ ㄐㄧㄣˋ</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="865">
     <erste-sprache>לְחַפֵּשׂ</erste-sprache><zweite-sprache>ㄒㄩㄣˊ ㄓㄠˇ</zweite-sprache>
   </vokabel-paar>
@@ -4935,19 +4941,19 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>לְהַגִּיד</erste-sprache><zweite-sprache>ㄧˋ ㄨㄟˋ ˙ㄓㄜ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="915">
-    <erste-sprache>צֶוֶת</erste-sprache><zweite-sprache>ㄩㄢˊ ㄍㄨㄥ</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="915">
-    <erste-sprache>צֶוֶת</erste-sprache><zweite-sprache>ㄊㄨㄢˊ ㄉㄨㄟˋ</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="916">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>ㄊㄚ ㄗˋ ㄐㄧˇ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="916">
+  <vokabel-paar schritt="915">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>ㄊㄚ ㄅㄣˇ ㄕㄣ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="917">
+  <vokabel-paar schritt="916">
     <erste-sprache>עַצְמָהּ</erste-sprache><zweite-sprache>ㄊㄚ ㄗˋ ㄐㄧˇ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="917">
+    <erste-sprache>צֶוֶת</erste-sprache><zweite-sprache>ㄩㄢˊ ㄍㄨㄥ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="917">
+    <erste-sprache>צֶוֶת</erste-sprache><zweite-sprache>ㄊㄨㄢˊ ㄉㄨㄟˋ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="918">
     <erste-sprache>הַצָּעָה</erste-sprache><zweite-sprache>ㄊㄧˊ ㄧˋ</zweite-sprache>

@@ -3395,6 +3395,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="657">
     <erste-sprache>سُدھارْنَا</erste-sprache><zweite-sprache>改善する</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="657">
+    <erste-sprache>سُدھارْدے آں</erste-sprache><zweite-sprache>改善する</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="657">
+    <erste-sprache>سُدھارْدا اے</erste-sprache><zweite-sprache>改善する</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="658">
     <erste-sprache>کفایتی</erste-sprache><zweite-sprache>経済的な</zweite-sprache>
   </vokabel-paar>
@@ -3865,6 +3871,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="740">
     <erste-sprache>بہتر بناندے او</erste-sprache><zweite-sprache>改善します</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="740">
+    <erste-sprache>سُدھارْدے او</erste-sprache><zweite-sprache>改善します</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="741">
     <erste-sprache>ضرورت ہونا</erste-sprache><zweite-sprache>必要とする</zweite-sprache>
@@ -4857,16 +4866,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>مَیں کراں گا</erste-sprache><zweite-sprache>私はします</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="953">
-    <erste-sprache>تُسِیں گئے او</erste-sprache><zweite-sprache>あなたたちは行きました</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="953">
-    <erste-sprache>تُسِیں گئے او</erste-sprache><zweite-sprache>あなた方は行きました</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="954">
     <erste-sprache>اوہناں نوں</erste-sprache><zweite-sprache>彼らに</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="954">
+  <vokabel-paar schritt="953">
     <erste-sprache>اوہناں نوں</erste-sprache><zweite-sprache>あれらに</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="954">
+    <erste-sprache>تُسِیں گئے او</erste-sprache><zweite-sprache>あなたたちは行きました</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="954">
+    <erste-sprache>تُسِیں گئے او</erste-sprache><zweite-sprache>あなた方は行きました</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="955">
     <erste-sprache>تُسِیں کیتا اے</erste-sprache><zweite-sprache>あなたたちはしました</zweite-sprache>

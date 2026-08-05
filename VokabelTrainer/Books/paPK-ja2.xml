@@ -3437,6 +3437,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="653">
     <erste-sprache>سُدھارْنَا</erste-sprache><zweite-sprache>kaizen suru</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="653">
+    <erste-sprache>سُدھارْدے آں</erste-sprache><zweite-sprache>kaizen suru</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="653">
+    <erste-sprache>سُدھارْدا اے</erste-sprache><zweite-sprache>kaizen suru</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="654">
     <erste-sprache>کفایتی</erste-sprache><zweite-sprache>keizaiteki na</zweite-sprache>
   </vokabel-paar>
@@ -3907,6 +3913,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="736">
     <erste-sprache>بہتر بناندے او</erste-sprache><zweite-sprache>kaizen shimasu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="736">
+    <erste-sprache>سُدھارْدے او</erste-sprache><zweite-sprache>kaizen shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="737">
     <erste-sprache>ضرورت ہونا</erste-sprache><zweite-sprache>hitsuyō to suru</zweite-sprache>
@@ -4905,13 +4914,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>اوہ پہنچیا</erste-sprache><zweite-sprache>tōtatsu shita</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="946">
-    <erste-sprache>ضرورت ہُندی اے</erste-sprache><zweite-sprache>hitsuyō to shimasu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="947">
     <erste-sprache>اوہناں نوں</erste-sprache><zweite-sprache>karera ni</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="947">
+  <vokabel-paar schritt="946">
     <erste-sprache>اوہناں نوں</erste-sprache><zweite-sprache>arera ni</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="947">
+    <erste-sprache>ضرورت ہُندی اے</erste-sprache><zweite-sprache>hitsuyō to shimasu</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="948">
     <erste-sprache>ضَرُورَت ہُوندی اے</erste-sprache><zweite-sprache>hitsuyō to shimasu</zweite-sprache>

@@ -3006,43 +3006,49 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>نام‌گذاری کَردی</erste-sprache><zweite-sprache>名付けた</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="638">
-    <erste-sprache>توصیه‌شُده</erste-sprache><zweite-sprache>勧められた</zweite-sprache>
+    <erste-sprache>بِهْتَر کَرْدَن</erste-sprache><zweite-sprache>改善する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="639">
-    <erste-sprache>سازمان دادُم</erste-sprache><zweite-sprache>組織した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="639">
-    <erste-sprache>سازمان دادی</erste-sprache><zweite-sprache>組織した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="639">
-    <erste-sprache>سازمان داد</erste-sprache><zweite-sprache>組織した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="640">
-    <erste-sprache>تسهیل می‌کنید</erste-sprache><zweite-sprache>容易にします</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>تَأیید کَردُم</erste-sprache><zweite-sprache>承認した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>تَأیید کَردی</erste-sprache><zweite-sprache>承認した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>تَأیید کَرد</erste-sprache><zweite-sprache>承認した</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>حمایت‌شُده</erste-sprache><zweite-sprache>支持された</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="643">
+  <vokabel-paar schritt="638">
     <erste-sprache>بهبود دادن</erste-sprache><zweite-sprache>改善する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="643">
+  <vokabel-paar schritt="638">
     <erste-sprache>بهبود می‌دهیم</erste-sprache><zweite-sprache>改善する</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="643">
+  <vokabel-paar schritt="638">
     <erste-sprache>بهبود می‌دهد</erste-sprache><zweite-sprache>改善する</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>بِهْتَر می‌کُنیم</erste-sprache><zweite-sprache>改善する</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>بِهْتَر می‌کُنَد</erste-sprache><zweite-sprache>改善する</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="639">
+    <erste-sprache>توصیه‌شُده</erste-sprache><zweite-sprache>勧められた</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="640">
+    <erste-sprache>سازمان دادُم</erste-sprache><zweite-sprache>組織した</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="640">
+    <erste-sprache>سازمان دادی</erste-sprache><zweite-sprache>組織した</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="640">
+    <erste-sprache>سازمان داد</erste-sprache><zweite-sprache>組織した</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="641">
+    <erste-sprache>تسهیل می‌کنید</erste-sprache><zweite-sprache>容易にします</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="642">
+    <erste-sprache>تَأیید کَردُم</erste-sprache><zweite-sprache>承認した</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="642">
+    <erste-sprache>تَأیید کَردی</erste-sprache><zweite-sprache>承認した</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="642">
+    <erste-sprache>تَأیید کَرد</erste-sprache><zweite-sprache>承認した</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="643">
-    <erste-sprache>بِهْتَر کَرْدَن</erste-sprache><zweite-sprache>改善する</zweite-sprache>
+    <erste-sprache>حمایت‌شُده</erste-sprache><zweite-sprache>支持された</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="644">
     <erste-sprache>سهم دارید</erste-sprache><zweite-sprache>貢献します</zweite-sprache>
@@ -4579,6 +4585,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="949">
     <erste-sprache>بهبود می‌دهید</erste-sprache><zweite-sprache>改善します</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="949">
+    <erste-sprache>بِهْتَر می‌کُنید</erste-sprache><zweite-sprache>改善します</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="950">
     <erste-sprache>نیاز</erste-sprache><zweite-sprache>必要性</zweite-sprache>

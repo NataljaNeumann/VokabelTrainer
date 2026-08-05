@@ -2603,6 +2603,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="595">
     <erste-sprache>باشتر دەکەن</erste-sprache><zweite-sprache>βελτιώνετε</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="595">
+    <erste-sprache>باشْتَر دەکەن</erste-sprache><zweite-sprache>βελτιώνετε</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="596">
     <erste-sprache>وەردەگرین</erste-sprache><zweite-sprache>παίρνουμε</zweite-sprache>
   </vokabel-paar>
@@ -4433,8 +4436,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="1007">
     <erste-sprache>باشتر دەکەین</erste-sprache><zweite-sprache>βελτιώνουμε</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="1007">
+    <erste-sprache>باشْتَر دەکەین</erste-sprache><zweite-sprache>βελτιώνουμε</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="1008">
     <erste-sprache>باشتر دەکات</erste-sprache><zweite-sprache>βελτιώνει</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1008">
+    <erste-sprache>باشْتَر دەکات</erste-sprache><zweite-sprache>βελτιώνει</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1009">
     <erste-sprache>لەبەر ئەوەی</erste-sprache><zweite-sprache>αφού</zweite-sprache>

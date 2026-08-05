@@ -102,6 +102,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>do</erste-sprache><zweite-sprache>sisään</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="17">
+    <erste-sprache>do</erste-sprache><zweite-sprache>luo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="17">
     <erste-sprache>do</erste-sprache><zweite-sprache>asti</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="18">
@@ -2211,832 +2214,835 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>ryzyko</erste-sprache><zweite-sprache>riski</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="566">
-    <erste-sprache>czyje</erste-sprache><zweite-sprache>kenen</zweite-sprache>
+    <erste-sprache>poprawiacie</erste-sprache><zweite-sprache>parannatte</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="566">
-    <erste-sprache>czyja</erste-sprache><zweite-sprache>kenen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="566">
-    <erste-sprache>czyj</erste-sprache><zweite-sprache>kenen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="566">
-    <erste-sprache>czyi</erste-sprache><zweite-sprache>kenen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="567">
-    <erste-sprache>konsultacje</erste-sprache><zweite-sprache>konsultaatiot</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="568">
-    <erste-sprache>tysiąc</erste-sprache><zweite-sprache>tuhat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="569">
-    <erste-sprache>woleć</erste-sprache><zweite-sprache>suosia</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="570">
-    <erste-sprache>kosztować</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="570">
-    <erste-sprache>kosztuje</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="570">
-    <erste-sprache>płacić</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="570">
-    <erste-sprache>płaci</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>kosztują</erste-sprache><zweite-sprache>maksavat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="572">
-    <erste-sprache>dostarcza</erste-sprache><zweite-sprache>tarjoaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="573">
-    <erste-sprache>demokratyczny</erste-sprache><zweite-sprache>demokraattinen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="574">
-    <erste-sprache>powyżej</erste-sprache><zweite-sprache>yllä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="574">
-    <erste-sprache>nad</erste-sprache><zweite-sprache>yllä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="575">
-    <erste-sprache>dziecko</erste-sprache><zweite-sprache>lapsi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="576">
-    <erste-sprache>czyny</erste-sprache><zweite-sprache>teot</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="577">
-    <erste-sprache>priorytet</erste-sprache><zweite-sprache>prioriteetti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="578">
-    <erste-sprache>komisarz</erste-sprache><zweite-sprache>komissaari</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="579">
-    <erste-sprache>odszedł</erste-sprache><zweite-sprache>poissa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="579">
-    <erste-sprache>odszedł</erste-sprache><zweite-sprache>lähti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="580">
-    <erste-sprache>dyskusja</erste-sprache><zweite-sprache>keskustelu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="581">
-    <erste-sprache>miliony</erste-sprache><zweite-sprache>miljoonat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="582">
-    <erste-sprache>poleciłem</erste-sprache><zweite-sprache>suosittelin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="583">
-    <erste-sprache>poleciłeś</erste-sprache><zweite-sprache>suosittelit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="584">
-    <erste-sprache>seksualny</erste-sprache><zweite-sprache>seksuaalinen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="585">
-    <erste-sprache>sekcja</erste-sprache><zweite-sprache>osio</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="586">
-    <erste-sprache>internet</erste-sprache><zweite-sprache>internet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="587">
-    <erste-sprache>czyta</erste-sprache><zweite-sprache>lukee</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="588">
-    <erste-sprache>ułatwiamy</erste-sprache><zweite-sprache>helpotamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="589">
-    <erste-sprache>ułatwia</erste-sprache><zweite-sprache>helpottaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="589">
-    <erste-sprache>ułatwiać</erste-sprache><zweite-sprache>helpottaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="590">
-    <erste-sprache>książka</erste-sprache><zweite-sprache>kirja</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="591">
-    <erste-sprache>cele</erste-sprache><zweite-sprache>tavoitteet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="591">
-    <erste-sprache>cele</erste-sprache><zweite-sprache>tarkoitukset</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="592">
-    <erste-sprache>celowałem</erste-sprache><zweite-sprache>tähtäsin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="593">
-    <erste-sprache>celowałeś</erste-sprache><zweite-sprache>tähtäsit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="594">
-    <erste-sprache>poważnie</erste-sprache><zweite-sprache>vakavasti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="595">
-    <erste-sprache>strategiczny</erste-sprache><zweite-sprache>strateginen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="596">
-    <erste-sprache>jest</erste-sprache><zweite-sprache>on</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="596">
-    <erste-sprache>jest</erste-sprache><zweite-sprache>olette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="597">
-    <erste-sprache>widzieć</erste-sprache><zweite-sprache>nähdä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="598">
-    <erste-sprache>zdarza się</erste-sprache><zweite-sprache>tapahtuu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="599">
-    <erste-sprache>odchodzi</erste-sprache><zweite-sprache>lähtee</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="600">
-    <erste-sprache>widzą</erste-sprache><zweite-sprache>näette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="601">
-    <erste-sprache>zabawny</erste-sprache><zweite-sprache>hauska</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="602">
-    <erste-sprache>czasami</erste-sprache><zweite-sprache>joskus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="603">
-    <erste-sprache>wartość</erste-sprache><zweite-sprache>arvo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="604">
-    <erste-sprache>niosłem</erste-sprache><zweite-sprache>kannoin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="605">
-    <erste-sprache>niosłeś</erste-sprache><zweite-sprache>kannoit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="606">
-    <erste-sprache>podjąłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="606">
-    <erste-sprache>przeprowadziłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="606">
-    <erste-sprache>wdrożyłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="607">
-    <erste-sprache>podjąłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="607">
-    <erste-sprache>przeprowadziłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="607">
-    <erste-sprache>wdrożyłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="608">
-    <erste-sprache>cel</erste-sprache><zweite-sprache>tavoite</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="608">
-    <erste-sprache>cel</erste-sprache><zweite-sprache>tarkoitus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="609">
-    <erste-sprache>wojna</erste-sprache><zweite-sprache>sota</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="610">
-    <erste-sprache>list</erste-sprache><zweite-sprache>kirje</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="611">
-    <erste-sprache>korzyści</erste-sprache><zweite-sprache>hyödyt</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="612">
-    <erste-sprache>umysł</erste-sprache><zweite-sprache>mieli</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="613">
-    <erste-sprache>zachowujemy</erste-sprache><zweite-sprache>säilytämme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="614">
-    <erste-sprache>zachowuje</erste-sprache><zweite-sprache>säilyttää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="614">
-    <erste-sprache>zachowywać</erste-sprache><zweite-sprache>säilyttää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="615">
-    <erste-sprache>skręca</erste-sprache><zweite-sprache>kääntyy</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="616">
-    <erste-sprache>zapomniałem</erste-sprache><zweite-sprache>unohdin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="617">
-    <erste-sprache>zapomniałeś</erste-sprache><zweite-sprache>unohdit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="618">
-    <erste-sprache>partia</erste-sprache><zweite-sprache>puolue</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="619">
-    <erste-sprache>kupujemy</erste-sprache><zweite-sprache>ostamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="620">
-    <erste-sprache>kupują</erste-sprache><zweite-sprache>ostatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="621">
-    <erste-sprache>uczą się</erste-sprache><zweite-sprache>opitte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="622">
-    <erste-sprache>strata</erste-sprache><zweite-sprache>tappio</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="622">
-    <erste-sprache>strata</erste-sprache><zweite-sprache>menetys</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="623">
-    <erste-sprache>chwila</erste-sprache><zweite-sprache>hetki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="624">
-    <erste-sprache>szczątki</erste-sprache><zweite-sprache>jäänteet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="625">
-    <erste-sprache>zintegrował</erste-sprache><zweite-sprache>integroi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="626">
-    <erste-sprache>wierzą</erste-sprache><zweite-sprache>uskotte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="627">
-    <erste-sprache>przypuszczają</erste-sprache><zweite-sprache>oletatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="628">
-    <erste-sprache>armia</erste-sprache><zweite-sprache>armeija</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="628">
-    <erste-sprache>wojsko</erste-sprache><zweite-sprache>armeija</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="629">
-    <erste-sprache>jadą</erste-sprache><zweite-sprache>ajatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="630">
-    <erste-sprache>jeść</erste-sprache><zweite-sprache>syödä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="631">
-    <erste-sprache>jedzą</erste-sprache><zweite-sprache>syötte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="632">
-    <erste-sprache>lipiec</erste-sprache><zweite-sprache>heinäkuu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="633">
-    <erste-sprache>pochodzenie</erste-sprache><zweite-sprache>alkuperä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="634">
-    <erste-sprache>tworzyć</erste-sprache><zweite-sprache>luoda</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="635">
-    <erste-sprache>tworzymy</erste-sprache><zweite-sprache>luomme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="636">
-    <erste-sprache>dzielą się</erste-sprache><zweite-sprache>jaatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="637">
-    <erste-sprache>próbuje</erste-sprache><zweite-sprache>yrittää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="637">
-    <erste-sprache>próbować</erste-sprache><zweite-sprache>yrittää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="638">
-    <erste-sprache>wskazałem</erste-sprache><zweite-sprache>osoitin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="639">
-    <erste-sprache>wskazałeś</erste-sprache><zweite-sprache>osoitit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="640">
-    <erste-sprache>wskazał</erste-sprache><zweite-sprache>osoitti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="641">
-    <erste-sprache>którego</erste-sprache><zweite-sprache>jonka</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>które</erste-sprache><zweite-sprache>mitkä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>które</erste-sprache><zweite-sprache>joka</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="642">
-    <erste-sprache>które</erste-sprache><zweite-sprache>mikä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="643">
-    <erste-sprache>agencja</erste-sprache><zweite-sprache>virasto</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="644">
-    <erste-sprache>scena</erste-sprache><zweite-sprache>näyttämö</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="644">
-    <erste-sprache>scena</erste-sprache><zweite-sprache>kohtaus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="644">
-    <erste-sprache>scena</erste-sprache><zweite-sprache>lava</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>pozwalamy</erste-sprache><zweite-sprache>sallimme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="645">
-    <erste-sprache>pozwalamy</erste-sprache><zweite-sprache>annamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="646">
-    <erste-sprache>korzyść</erste-sprache><zweite-sprache>hyöty</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="647">
-    <erste-sprache>lato</erste-sprache><zweite-sprache>kesä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="648">
-    <erste-sprache>krytyczny</erste-sprache><zweite-sprache>kriittinen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="649">
-    <erste-sprache>sztuka</erste-sprache><zweite-sprache>taide</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="650">
-    <erste-sprache>widział</erste-sprache><zweite-sprache>näki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="651">
-    <erste-sprache>sytuacje</erste-sprache><zweite-sprache>tilanteet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="652">
-    <erste-sprache>znamy</erste-sprache><zweite-sprache>tunnemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="653">
-    <erste-sprache>Karaiby</erste-sprache><zweite-sprache>Karibia</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="654">
-    <erste-sprache>tabela</erste-sprache><zweite-sprache>taulukko</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="655">
-    <erste-sprache>kochać</erste-sprache><zweite-sprache>rakastaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="655">
-    <erste-sprache>kocha</erste-sprache><zweite-sprache>rakastaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="656">
-    <erste-sprache>kochamy</erste-sprache><zweite-sprache>rakastamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="657">
-    <erste-sprache>dziedziniec</erste-sprache><zweite-sprache>sisäpiha</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="658">
-    <erste-sprache>priorytety</erste-sprache><zweite-sprache>prioriteetit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="659">
-    <erste-sprache>słyszą</erste-sprache><zweite-sprache>kuulette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="660">
-    <erste-sprache>uczucie</erste-sprache><zweite-sprache>tunne</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="660">
-    <erste-sprache>sens</erste-sprache><zweite-sprache>tunne</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="661">
-    <erste-sprache>ten sam</erste-sprache><zweite-sprache>saman</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="662">
-    <erste-sprache>ogląda</erste-sprache><zweite-sprache>katsoo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="662">
-    <erste-sprache>patrzy</erste-sprache><zweite-sprache>katsoo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="663">
-    <erste-sprache>twarz</erste-sprache><zweite-sprache>kasvot</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="664">
-    <erste-sprache>odpowiedzi</erste-sprache><zweite-sprache>vastaukset</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="665">
-    <erste-sprache>próbujemy</erste-sprache><zweite-sprache>yritämme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="666">
-    <erste-sprache>nosić</erste-sprache><zweite-sprache>pukea</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="667">
-    <erste-sprache>nosimy</erste-sprache><zweite-sprache>puemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="668">
-    <erste-sprache>nosicie</erste-sprache><zweite-sprache>puette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="669">
-    <erste-sprache>serce</erste-sprache><zweite-sprache>sydän</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="670">
-    <erste-sprache>sens</erste-sprache><zweite-sprache>merkitys</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="671">
-    <erste-sprache>czeka</erste-sprache><zweite-sprache>odottaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="671">
-    <erste-sprache>czekać</erste-sprache><zweite-sprache>odottaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="672">
-    <erste-sprache>przez</erste-sprache><zweite-sprache>poikki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="672">
-    <erste-sprache>przez</erste-sprache><zweite-sprache>kautta</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="672">
-    <erste-sprache>przez</erste-sprache><zweite-sprache>läpi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="673">
-    <erste-sprache>stworzenie</erste-sprache><zweite-sprache>luominen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="674">
-    <erste-sprache>gotowy</erste-sprache><zweite-sprache>valmis</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="674">
-    <erste-sprache>skończony</erste-sprache><zweite-sprache>valmis</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="675">
-    <erste-sprache>sposoby</erste-sprache><zweite-sprache>tavat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="676">
-    <erste-sprache>drukować</erste-sprache><zweite-sprache>tulostaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="676">
-    <erste-sprache>drukuje</erste-sprache><zweite-sprache>tulostaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="677">
-    <erste-sprache>drukujemy</erste-sprache><zweite-sprache>tulostamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="678">
-    <erste-sprache>drukujecie</erste-sprache><zweite-sprache>tulostatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="679">
-    <erste-sprache>przypuścił</erste-sprache><zweite-sprache>oletti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="680">
-    <erste-sprache>połowiczny</erste-sprache><zweite-sprache>puoli</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="680">
-    <erste-sprache>połowa</erste-sprache><zweite-sprache>puoli</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="680">
-    <erste-sprache>strona</erste-sprache><zweite-sprache>puoli</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="681">
-    <erste-sprache>rzeczywistość</erste-sprache><zweite-sprache>todellisuus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="682">
-    <erste-sprache>sytuacja</erste-sprache><zweite-sprache>tilanne</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="682">
-    <erste-sprache>położenie</erste-sprache><zweite-sprache>tilanne</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="683">
-    <erste-sprache>ofiary</erste-sprache><zweite-sprache>uhrit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="684">
-    <erste-sprache>osiągamy</erste-sprache><zweite-sprache>saavutamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="685">
-    <erste-sprache>osiąga</erste-sprache><zweite-sprache>saavuttaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="685">
-    <erste-sprache>osiągać</erste-sprache><zweite-sprache>saavuttaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="686">
-    <erste-sprache>pasujemy</erste-sprache><zweite-sprache>sovimme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="687">
-    <erste-sprache>pasuje</erste-sprache><zweite-sprache>sopii</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="688">
-    <erste-sprache>stawia</erste-sprache><zweite-sprache>asettaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="688">
-    <erste-sprache>stawiać</erste-sprache><zweite-sprache>asettaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="689">
-    <erste-sprache>czekamy</erste-sprache><zweite-sprache>odotamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="690">
-    <erste-sprache>pozwólcie</erste-sprache><zweite-sprache>antakaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="691">
-    <erste-sprache>czasy</erste-sprache><zweite-sprache>ajat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="692">
-    <erste-sprache>żyją</erste-sprache><zweite-sprache>elätte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="693">
-    <erste-sprache>rezultat</erste-sprache><zweite-sprache>tulos</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="693">
-    <erste-sprache>wynik</erste-sprache><zweite-sprache>tulos</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="694">
-    <erste-sprache>kawałki</erste-sprache><zweite-sprache>palat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="695">
-    <erste-sprache>politycy</erste-sprache><zweite-sprache>poliitikot</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="696">
-    <erste-sprache>lekki</erste-sprache><zweite-sprache>kevyt</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="697">
-    <erste-sprache>położył</erste-sprache><zweite-sprache>laski</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="698">
-    <erste-sprache>punkty</erste-sprache><zweite-sprache>pisteet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="699">
-    <erste-sprache>działałem</erste-sprache><zweite-sprache>toimin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="700">
-    <erste-sprache>działałeś</erste-sprache><zweite-sprache>toimit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="701">
-    <erste-sprache>komentarze</erste-sprache><zweite-sprache>kommentit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="702">
-    <erste-sprache>honor</erste-sprache><zweite-sprache>kunnia</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="703">
-    <erste-sprache>telefon</erste-sprache><zweite-sprache>puhelin</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="704">
-    <erste-sprache>ceny</erste-sprache><zweite-sprache>hinnat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="705">
-    <erste-sprache>weekend</erste-sprache><zweite-sprache>viikonloppu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="706">
-    <erste-sprache>wsparcie</erste-sprache><zweite-sprache>tuki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="706">
-    <erste-sprache>wsparł</erste-sprache><zweite-sprache>tuki</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="707">
-    <erste-sprache>unikamy</erste-sprache><zweite-sprache>vältämme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="708">
-    <erste-sprache>unika</erste-sprache><zweite-sprache>välttää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="708">
-    <erste-sprache>unikać</erste-sprache><zweite-sprache>välttää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="709">
-    <erste-sprache>spadać</erste-sprache><zweite-sprache>pudota</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="710">
-    <erste-sprache>spadają</erste-sprache><zweite-sprache>putoatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="711">
-    <erste-sprache>oczekiwał</erste-sprache><zweite-sprache>odotti</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="712">
-    <erste-sprache>upadł</erste-sprache><zweite-sprache>putosi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="713">
-    <erste-sprache>sobota</erste-sprache><zweite-sprache>lauantai</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="714">
-    <erste-sprache>tysiące</erste-sprache><zweite-sprache>tuhansia</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="715">
-    <erste-sprache>zestaw</erste-sprache><zweite-sprache>sarja</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="715">
-    <erste-sprache>serial</erste-sprache><zweite-sprache>sarja</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="716">
-    <erste-sprache>szpital</erste-sprache><zweite-sprache>sairaala</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="717">
-    <erste-sprache>ty widzisz</erste-sprache><zweite-sprache>sinä näet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="718">
-    <erste-sprache>prawica</erste-sprache><zweite-sprache>oikeisto</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="719">
-    <erste-sprache>siedzimy</erste-sprache><zweite-sprache>istumme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="720">
-    <erste-sprache>chwile</erste-sprache><zweite-sprache>hetket</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="721">
-    <erste-sprache>miejsca</erste-sprache><zweite-sprache>paikat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="722">
-    <erste-sprache>fizyczny</erste-sprache><zweite-sprache>fyysinen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="723">
-    <erste-sprache>wieś</erste-sprache><zweite-sprache>maaseutu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="723">
-    <erste-sprache>wieś</erste-sprache><zweite-sprache>kylä</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="724">
-    <erste-sprache>szalony</erste-sprache><zweite-sprache>hullu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="724">
-    <erste-sprache>szalony</erste-sprache><zweite-sprache>järjetön</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="725">
-    <erste-sprache>otwarcie</erste-sprache><zweite-sprache>avajaiset</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="726">
-    <erste-sprache>totalitarny</erste-sprache><zweite-sprache>totalitaarinen</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="727">
-    <erste-sprache>imperium</erste-sprache><zweite-sprache>imperiumi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="727">
-    <erste-sprache>imperium</erste-sprache><zweite-sprache>valtakunta</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="728">
-    <erste-sprache>z nami</erste-sprache><zweite-sprache>kanssamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="729">
-    <erste-sprache>quiz</erste-sprache><zweite-sprache>visa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="730">
-    <erste-sprache>podłoga</erste-sprache><zweite-sprache>lattia</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="731">
-    <erste-sprache>oszustwo</erste-sprache><zweite-sprache>petos</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="732">
-    <erste-sprache>gliny</erste-sprache><zweite-sprache>poliisit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="733">
-    <erste-sprache>kwiaty</erste-sprache><zweite-sprache>kukat</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="734">
-    <erste-sprache>ciemność</erste-sprache><zweite-sprache>pimeys</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="735">
-    <erste-sprache>Tajpej</erste-sprache><zweite-sprache>Taipei</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="736">
-    <erste-sprache>Bruksela</erste-sprache><zweite-sprache>Bryssel</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="737">
-    <erste-sprache>sandały</erste-sprache><zweite-sprache>sandaalit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="738">
-    <erste-sprache>pustynia</erste-sprache><zweite-sprache>aavikko</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="739">
-    <erste-sprache>rządzić</erste-sprache><zweite-sprache>hallita</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="740">
-    <erste-sprache>rządzimy</erste-sprache><zweite-sprache>hallitsemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="741">
-    <erste-sprache>rządzicie</erste-sprache><zweite-sprache>hallitsette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="742">
-    <erste-sprache>rządzi</erste-sprache><zweite-sprache>hallitsee</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="743">
-    <erste-sprache>panujemy</erste-sprache><zweite-sprache>vallitsemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="744">
-    <erste-sprache>panujecie</erste-sprache><zweite-sprache>vallitsette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="745">
-    <erste-sprache>panuje</erste-sprache><zweite-sprache>vallitsee</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="746">
-    <erste-sprache>skaczemy</erste-sprache><zweite-sprache>hyppäämme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="747">
-    <erste-sprache>skaczecie</erste-sprache><zweite-sprache>hyppäätte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="748">
-    <erste-sprache>skacze</erste-sprache><zweite-sprache>hyppää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="749">
-    <erste-sprache>całujemy</erste-sprache><zweite-sprache>suutelemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="750">
-    <erste-sprache>całujecie</erste-sprache><zweite-sprache>suutelette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="751">
-    <erste-sprache>całuje</erste-sprache><zweite-sprache>suutelee</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="752">
-    <erste-sprache>lśnić</erste-sprache><zweite-sprache>kiiltää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="752">
-    <erste-sprache>lśni</erste-sprache><zweite-sprache>kiiltää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="753">
-    <erste-sprache>lśnimy</erste-sprache><zweite-sprache>kiillämme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="754">
-    <erste-sprache>odnawiamy</erste-sprache><zweite-sprache>uudistamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="755">
-    <erste-sprache>odnawiacie</erste-sprache><zweite-sprache>uudistatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="756">
-    <erste-sprache>odnawia</erste-sprache><zweite-sprache>uudistaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="756">
-    <erste-sprache>odnawiać</erste-sprache><zweite-sprache>uudistaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="757">
-    <erste-sprache>kwitniemy</erste-sprache><zweite-sprache>kukimme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="758">
-    <erste-sprache>kwitniecie</erste-sprache><zweite-sprache>kukitte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="759">
-    <erste-sprache>kwitnie</erste-sprache><zweite-sprache>kukkii</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="760">
-    <erste-sprache>krzyczymy</erste-sprache><zweite-sprache>huudamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="761">
-    <erste-sprache>krzyczycie</erste-sprache><zweite-sprache>huudatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="762">
-    <erste-sprache>krzyczy</erste-sprache><zweite-sprache>huutaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="762">
-    <erste-sprache>krzyczeć</erste-sprache><zweite-sprache>huutaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="763">
-    <erste-sprache>prowokować</erste-sprache><zweite-sprache>provosoida</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="764">
-    <erste-sprache>prowokują</erste-sprache><zweite-sprache>provosoitte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="765">
-    <erste-sprache>młodzież</erste-sprache><zweite-sprache>nuoriso</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="766">
-    <erste-sprache>wiatr</erste-sprache><zweite-sprache>tuuli</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="767">
-    <erste-sprache>kostium</erste-sprache><zweite-sprache>asu</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="768">
-    <erste-sprache>czyścimy</erste-sprache><zweite-sprache>puhdistamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="769">
-    <erste-sprache>czyścicie</erste-sprache><zweite-sprache>puhdistatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="770">
-    <erste-sprache>czyści</erste-sprache><zweite-sprache>puhdistaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="770">
-    <erste-sprache>czyścić</erste-sprache><zweite-sprache>puhdistaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="771">
-    <erste-sprache>suszymy</erste-sprache><zweite-sprache>kuivaamme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="772">
-    <erste-sprache>suszycie</erste-sprache><zweite-sprache>kuivaatte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="773">
-    <erste-sprache>suszy</erste-sprache><zweite-sprache>kuivaa</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="774">
-    <erste-sprache>budzicie się</erste-sprache><zweite-sprache>heräätte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="775">
-    <erste-sprache>budzi się</erste-sprache><zweite-sprache>herää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="776">
-    <erste-sprache>my jesteśmy</erste-sprache><zweite-sprache>me olemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="777">
-    <erste-sprache>wy jesteście</erste-sprache><zweite-sprache>te olette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="778">
-    <erste-sprache>ty byłaś</erste-sprache><zweite-sprache>sinä olit</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="778">
-    <erste-sprache>ty byłaś</erste-sprache><zweite-sprache>sinä olet ollut</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="779">
-    <erste-sprache>ty masz</erste-sprache><zweite-sprache>sinulla on</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="780">
-    <erste-sprache>my mamy</erste-sprache><zweite-sprache>meillä on</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="781">
-    <erste-sprache>wy idziecie</erste-sprache><zweite-sprache>te menette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="782">
-    <erste-sprache>ty robisz</erste-sprache><zweite-sprache>sinä teet</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="783">
-    <erste-sprache>wy robicie</erste-sprache><zweite-sprache>te teette</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="784">
-    <erste-sprache>duże okno</erste-sprache><zweite-sprache>suuri ikkuna</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="785">
-    <erste-sprache>cieszą się</erste-sprache><zweite-sprache>nautitte</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="786">
-    <erste-sprache>wspieramy</erste-sprache><zweite-sprache>tuemme</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="787">
-    <erste-sprache>utrzymuje</erste-sprache><zweite-sprache>ylläpitää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="787">
-    <erste-sprache>utrzymuje</erste-sprache><zweite-sprache>elättää</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="788">
-    <erste-sprache>aplikacja</erste-sprache><zweite-sprache>sovellus</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="789">
     <erste-sprache>poprawiają</erste-sprache><zweite-sprache>parannatte</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="789">
+  <vokabel-paar schritt="566">
     <erste-sprache>ulepszają</erste-sprache><zweite-sprache>parannatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="567">
+    <erste-sprache>czyje</erste-sprache><zweite-sprache>kenen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="567">
+    <erste-sprache>czyja</erste-sprache><zweite-sprache>kenen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="567">
+    <erste-sprache>czyj</erste-sprache><zweite-sprache>kenen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="567">
+    <erste-sprache>czyi</erste-sprache><zweite-sprache>kenen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="568">
+    <erste-sprache>konsultacje</erste-sprache><zweite-sprache>konsultaatiot</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="569">
+    <erste-sprache>tysiąc</erste-sprache><zweite-sprache>tuhat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="570">
+    <erste-sprache>woleć</erste-sprache><zweite-sprache>suosia</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="571">
+    <erste-sprache>kosztować</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="571">
+    <erste-sprache>kosztuje</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="571">
+    <erste-sprache>płacić</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="571">
+    <erste-sprache>płaci</erste-sprache><zweite-sprache>maksaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>kosztują</erste-sprache><zweite-sprache>maksavat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="573">
+    <erste-sprache>dostarcza</erste-sprache><zweite-sprache>tarjoaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="574">
+    <erste-sprache>demokratyczny</erste-sprache><zweite-sprache>demokraattinen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="575">
+    <erste-sprache>powyżej</erste-sprache><zweite-sprache>yllä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="575">
+    <erste-sprache>nad</erste-sprache><zweite-sprache>yllä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="576">
+    <erste-sprache>dziecko</erste-sprache><zweite-sprache>lapsi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="577">
+    <erste-sprache>czyny</erste-sprache><zweite-sprache>teot</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="578">
+    <erste-sprache>priorytet</erste-sprache><zweite-sprache>prioriteetti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="579">
+    <erste-sprache>komisarz</erste-sprache><zweite-sprache>komissaari</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="580">
+    <erste-sprache>odszedł</erste-sprache><zweite-sprache>poissa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="580">
+    <erste-sprache>odszedł</erste-sprache><zweite-sprache>lähti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="581">
+    <erste-sprache>dyskusja</erste-sprache><zweite-sprache>keskustelu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="582">
+    <erste-sprache>miliony</erste-sprache><zweite-sprache>miljoonat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="583">
+    <erste-sprache>poleciłem</erste-sprache><zweite-sprache>suosittelin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="584">
+    <erste-sprache>poleciłeś</erste-sprache><zweite-sprache>suosittelit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="585">
+    <erste-sprache>seksualny</erste-sprache><zweite-sprache>seksuaalinen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="586">
+    <erste-sprache>sekcja</erste-sprache><zweite-sprache>osio</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="587">
+    <erste-sprache>internet</erste-sprache><zweite-sprache>internet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="588">
+    <erste-sprache>czyta</erste-sprache><zweite-sprache>lukee</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="589">
+    <erste-sprache>ułatwiamy</erste-sprache><zweite-sprache>helpotamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="590">
+    <erste-sprache>ułatwia</erste-sprache><zweite-sprache>helpottaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="590">
+    <erste-sprache>ułatwiać</erste-sprache><zweite-sprache>helpottaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="591">
+    <erste-sprache>książka</erste-sprache><zweite-sprache>kirja</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="592">
+    <erste-sprache>cele</erste-sprache><zweite-sprache>tavoitteet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="592">
+    <erste-sprache>cele</erste-sprache><zweite-sprache>tarkoitukset</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="593">
+    <erste-sprache>celowałem</erste-sprache><zweite-sprache>tähtäsin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="594">
+    <erste-sprache>celowałeś</erste-sprache><zweite-sprache>tähtäsit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="595">
+    <erste-sprache>poważnie</erste-sprache><zweite-sprache>vakavasti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="596">
+    <erste-sprache>strategiczny</erste-sprache><zweite-sprache>strateginen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="597">
+    <erste-sprache>jest</erste-sprache><zweite-sprache>on</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="597">
+    <erste-sprache>jest</erste-sprache><zweite-sprache>olette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="598">
+    <erste-sprache>widzieć</erste-sprache><zweite-sprache>nähdä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="599">
+    <erste-sprache>zdarza się</erste-sprache><zweite-sprache>tapahtuu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="600">
+    <erste-sprache>odchodzi</erste-sprache><zweite-sprache>lähtee</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="601">
+    <erste-sprache>widzą</erste-sprache><zweite-sprache>näette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="602">
+    <erste-sprache>zabawny</erste-sprache><zweite-sprache>hauska</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="603">
+    <erste-sprache>czasami</erste-sprache><zweite-sprache>joskus</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="604">
+    <erste-sprache>wartość</erste-sprache><zweite-sprache>arvo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="605">
+    <erste-sprache>niosłem</erste-sprache><zweite-sprache>kannoin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="606">
+    <erste-sprache>niosłeś</erste-sprache><zweite-sprache>kannoit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="607">
+    <erste-sprache>podjąłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="607">
+    <erste-sprache>przeprowadziłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="607">
+    <erste-sprache>wdrożyłem</erste-sprache><zweite-sprache>toteutin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="608">
+    <erste-sprache>podjąłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="608">
+    <erste-sprache>przeprowadziłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="608">
+    <erste-sprache>wdrożyłeś</erste-sprache><zweite-sprache>toteutit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="609">
+    <erste-sprache>cel</erste-sprache><zweite-sprache>tavoite</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="609">
+    <erste-sprache>cel</erste-sprache><zweite-sprache>tarkoitus</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="610">
+    <erste-sprache>wojna</erste-sprache><zweite-sprache>sota</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="611">
+    <erste-sprache>list</erste-sprache><zweite-sprache>kirje</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="612">
+    <erste-sprache>korzyści</erste-sprache><zweite-sprache>hyödyt</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="613">
+    <erste-sprache>umysł</erste-sprache><zweite-sprache>mieli</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="614">
+    <erste-sprache>zachowujemy</erste-sprache><zweite-sprache>säilytämme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="615">
+    <erste-sprache>zachowuje</erste-sprache><zweite-sprache>säilyttää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="615">
+    <erste-sprache>zachowywać</erste-sprache><zweite-sprache>säilyttää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="616">
+    <erste-sprache>skręca</erste-sprache><zweite-sprache>kääntyy</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="617">
+    <erste-sprache>zapomniałem</erste-sprache><zweite-sprache>unohdin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="618">
+    <erste-sprache>zapomniałeś</erste-sprache><zweite-sprache>unohdit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="619">
+    <erste-sprache>partia</erste-sprache><zweite-sprache>puolue</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="620">
+    <erste-sprache>kupujemy</erste-sprache><zweite-sprache>ostamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="621">
+    <erste-sprache>kupują</erste-sprache><zweite-sprache>ostatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="622">
+    <erste-sprache>uczą się</erste-sprache><zweite-sprache>opitte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="623">
+    <erste-sprache>strata</erste-sprache><zweite-sprache>tappio</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="623">
+    <erste-sprache>strata</erste-sprache><zweite-sprache>menetys</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="624">
+    <erste-sprache>chwila</erste-sprache><zweite-sprache>hetki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="625">
+    <erste-sprache>szczątki</erste-sprache><zweite-sprache>jäänteet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="626">
+    <erste-sprache>zintegrował</erste-sprache><zweite-sprache>integroi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="627">
+    <erste-sprache>wierzą</erste-sprache><zweite-sprache>uskotte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="628">
+    <erste-sprache>przypuszczają</erste-sprache><zweite-sprache>oletatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="629">
+    <erste-sprache>armia</erste-sprache><zweite-sprache>armeija</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="629">
+    <erste-sprache>wojsko</erste-sprache><zweite-sprache>armeija</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="630">
+    <erste-sprache>jadą</erste-sprache><zweite-sprache>ajatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="631">
+    <erste-sprache>jeść</erste-sprache><zweite-sprache>syödä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="632">
+    <erste-sprache>jedzą</erste-sprache><zweite-sprache>syötte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="633">
+    <erste-sprache>lipiec</erste-sprache><zweite-sprache>heinäkuu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="634">
+    <erste-sprache>pochodzenie</erste-sprache><zweite-sprache>alkuperä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="635">
+    <erste-sprache>tworzyć</erste-sprache><zweite-sprache>luoda</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="636">
+    <erste-sprache>tworzymy</erste-sprache><zweite-sprache>luomme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="637">
+    <erste-sprache>dzielą się</erste-sprache><zweite-sprache>jaatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>próbuje</erste-sprache><zweite-sprache>yrittää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>próbować</erste-sprache><zweite-sprache>yrittää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="639">
+    <erste-sprache>wskazałem</erste-sprache><zweite-sprache>osoitin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="640">
+    <erste-sprache>wskazałeś</erste-sprache><zweite-sprache>osoitit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="641">
+    <erste-sprache>wskazał</erste-sprache><zweite-sprache>osoitti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="642">
+    <erste-sprache>którego</erste-sprache><zweite-sprache>jonka</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="643">
+    <erste-sprache>które</erste-sprache><zweite-sprache>mitkä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="643">
+    <erste-sprache>które</erste-sprache><zweite-sprache>joka</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="643">
+    <erste-sprache>które</erste-sprache><zweite-sprache>mikä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="644">
+    <erste-sprache>agencja</erste-sprache><zweite-sprache>virasto</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="645">
+    <erste-sprache>scena</erste-sprache><zweite-sprache>näyttämö</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="645">
+    <erste-sprache>scena</erste-sprache><zweite-sprache>kohtaus</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="645">
+    <erste-sprache>scena</erste-sprache><zweite-sprache>lava</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>pozwalamy</erste-sprache><zweite-sprache>sallimme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="646">
+    <erste-sprache>pozwalamy</erste-sprache><zweite-sprache>annamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="647">
+    <erste-sprache>korzyść</erste-sprache><zweite-sprache>hyöty</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="648">
+    <erste-sprache>lato</erste-sprache><zweite-sprache>kesä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="649">
+    <erste-sprache>krytyczny</erste-sprache><zweite-sprache>kriittinen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="650">
+    <erste-sprache>sztuka</erste-sprache><zweite-sprache>taide</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="651">
+    <erste-sprache>widział</erste-sprache><zweite-sprache>näki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="652">
+    <erste-sprache>sytuacje</erste-sprache><zweite-sprache>tilanteet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="653">
+    <erste-sprache>znamy</erste-sprache><zweite-sprache>tunnemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="654">
+    <erste-sprache>Karaiby</erste-sprache><zweite-sprache>Karibia</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="655">
+    <erste-sprache>tabela</erste-sprache><zweite-sprache>taulukko</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="656">
+    <erste-sprache>kochać</erste-sprache><zweite-sprache>rakastaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="656">
+    <erste-sprache>kocha</erste-sprache><zweite-sprache>rakastaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="657">
+    <erste-sprache>kochamy</erste-sprache><zweite-sprache>rakastamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="658">
+    <erste-sprache>dziedziniec</erste-sprache><zweite-sprache>sisäpiha</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="659">
+    <erste-sprache>priorytety</erste-sprache><zweite-sprache>prioriteetit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="660">
+    <erste-sprache>słyszą</erste-sprache><zweite-sprache>kuulette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="661">
+    <erste-sprache>uczucie</erste-sprache><zweite-sprache>tunne</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="661">
+    <erste-sprache>sens</erste-sprache><zweite-sprache>tunne</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="662">
+    <erste-sprache>ten sam</erste-sprache><zweite-sprache>saman</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="663">
+    <erste-sprache>ogląda</erste-sprache><zweite-sprache>katsoo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="663">
+    <erste-sprache>patrzy</erste-sprache><zweite-sprache>katsoo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="664">
+    <erste-sprache>twarz</erste-sprache><zweite-sprache>kasvot</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="665">
+    <erste-sprache>odpowiedzi</erste-sprache><zweite-sprache>vastaukset</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="666">
+    <erste-sprache>próbujemy</erste-sprache><zweite-sprache>yritämme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="667">
+    <erste-sprache>nosić</erste-sprache><zweite-sprache>pukea</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="668">
+    <erste-sprache>nosimy</erste-sprache><zweite-sprache>puemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="669">
+    <erste-sprache>nosicie</erste-sprache><zweite-sprache>puette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="670">
+    <erste-sprache>serce</erste-sprache><zweite-sprache>sydän</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="671">
+    <erste-sprache>sens</erste-sprache><zweite-sprache>merkitys</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="672">
+    <erste-sprache>czeka</erste-sprache><zweite-sprache>odottaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="672">
+    <erste-sprache>czekać</erste-sprache><zweite-sprache>odottaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="673">
+    <erste-sprache>przez</erste-sprache><zweite-sprache>poikki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="673">
+    <erste-sprache>przez</erste-sprache><zweite-sprache>kautta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="673">
+    <erste-sprache>przez</erste-sprache><zweite-sprache>läpi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="674">
+    <erste-sprache>stworzenie</erste-sprache><zweite-sprache>luominen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="675">
+    <erste-sprache>gotowy</erste-sprache><zweite-sprache>valmis</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="675">
+    <erste-sprache>skończony</erste-sprache><zweite-sprache>valmis</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="676">
+    <erste-sprache>sposoby</erste-sprache><zweite-sprache>tavat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="677">
+    <erste-sprache>drukować</erste-sprache><zweite-sprache>tulostaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="677">
+    <erste-sprache>drukuje</erste-sprache><zweite-sprache>tulostaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="678">
+    <erste-sprache>drukujemy</erste-sprache><zweite-sprache>tulostamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="679">
+    <erste-sprache>drukujecie</erste-sprache><zweite-sprache>tulostatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="680">
+    <erste-sprache>przypuścił</erste-sprache><zweite-sprache>oletti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="681">
+    <erste-sprache>połowiczny</erste-sprache><zweite-sprache>puoli</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="681">
+    <erste-sprache>połowa</erste-sprache><zweite-sprache>puoli</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="681">
+    <erste-sprache>strona</erste-sprache><zweite-sprache>puoli</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="682">
+    <erste-sprache>rzeczywistość</erste-sprache><zweite-sprache>todellisuus</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="683">
+    <erste-sprache>sytuacja</erste-sprache><zweite-sprache>tilanne</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="683">
+    <erste-sprache>położenie</erste-sprache><zweite-sprache>tilanne</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="684">
+    <erste-sprache>ofiary</erste-sprache><zweite-sprache>uhrit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="685">
+    <erste-sprache>osiągamy</erste-sprache><zweite-sprache>saavutamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="686">
+    <erste-sprache>osiąga</erste-sprache><zweite-sprache>saavuttaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="686">
+    <erste-sprache>osiągać</erste-sprache><zweite-sprache>saavuttaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="687">
+    <erste-sprache>pasujemy</erste-sprache><zweite-sprache>sovimme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="688">
+    <erste-sprache>pasuje</erste-sprache><zweite-sprache>sopii</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="689">
+    <erste-sprache>stawia</erste-sprache><zweite-sprache>asettaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="689">
+    <erste-sprache>stawiać</erste-sprache><zweite-sprache>asettaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="690">
+    <erste-sprache>czekamy</erste-sprache><zweite-sprache>odotamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="691">
+    <erste-sprache>pozwólcie</erste-sprache><zweite-sprache>antakaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="692">
+    <erste-sprache>czasy</erste-sprache><zweite-sprache>ajat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="693">
+    <erste-sprache>żyją</erste-sprache><zweite-sprache>elätte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="694">
+    <erste-sprache>rezultat</erste-sprache><zweite-sprache>tulos</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="694">
+    <erste-sprache>wynik</erste-sprache><zweite-sprache>tulos</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="695">
+    <erste-sprache>kawałki</erste-sprache><zweite-sprache>palat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="696">
+    <erste-sprache>politycy</erste-sprache><zweite-sprache>poliitikot</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="697">
+    <erste-sprache>lekki</erste-sprache><zweite-sprache>kevyt</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="698">
+    <erste-sprache>położył</erste-sprache><zweite-sprache>laski</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="699">
+    <erste-sprache>punkty</erste-sprache><zweite-sprache>pisteet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="700">
+    <erste-sprache>działałem</erste-sprache><zweite-sprache>toimin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="701">
+    <erste-sprache>działałeś</erste-sprache><zweite-sprache>toimit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="702">
+    <erste-sprache>komentarze</erste-sprache><zweite-sprache>kommentit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="703">
+    <erste-sprache>honor</erste-sprache><zweite-sprache>kunnia</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="704">
+    <erste-sprache>telefon</erste-sprache><zweite-sprache>puhelin</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="705">
+    <erste-sprache>ceny</erste-sprache><zweite-sprache>hinnat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="706">
+    <erste-sprache>weekend</erste-sprache><zweite-sprache>viikonloppu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="707">
+    <erste-sprache>wsparcie</erste-sprache><zweite-sprache>tuki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="707">
+    <erste-sprache>wsparł</erste-sprache><zweite-sprache>tuki</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="708">
+    <erste-sprache>unikamy</erste-sprache><zweite-sprache>vältämme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="709">
+    <erste-sprache>unika</erste-sprache><zweite-sprache>välttää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="709">
+    <erste-sprache>unikać</erste-sprache><zweite-sprache>välttää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="710">
+    <erste-sprache>spadać</erste-sprache><zweite-sprache>pudota</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="711">
+    <erste-sprache>spadają</erste-sprache><zweite-sprache>putoatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="712">
+    <erste-sprache>oczekiwał</erste-sprache><zweite-sprache>odotti</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="713">
+    <erste-sprache>upadł</erste-sprache><zweite-sprache>putosi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="714">
+    <erste-sprache>sobota</erste-sprache><zweite-sprache>lauantai</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="715">
+    <erste-sprache>tysiące</erste-sprache><zweite-sprache>tuhansia</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="716">
+    <erste-sprache>zestaw</erste-sprache><zweite-sprache>sarja</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="716">
+    <erste-sprache>serial</erste-sprache><zweite-sprache>sarja</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="717">
+    <erste-sprache>szpital</erste-sprache><zweite-sprache>sairaala</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="718">
+    <erste-sprache>ty widzisz</erste-sprache><zweite-sprache>sinä näet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="719">
+    <erste-sprache>prawica</erste-sprache><zweite-sprache>oikeisto</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="720">
+    <erste-sprache>siedzimy</erste-sprache><zweite-sprache>istumme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="721">
+    <erste-sprache>chwile</erste-sprache><zweite-sprache>hetket</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="722">
+    <erste-sprache>miejsca</erste-sprache><zweite-sprache>paikat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="723">
+    <erste-sprache>fizyczny</erste-sprache><zweite-sprache>fyysinen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="724">
+    <erste-sprache>wieś</erste-sprache><zweite-sprache>maaseutu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="724">
+    <erste-sprache>wieś</erste-sprache><zweite-sprache>kylä</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="725">
+    <erste-sprache>szalony</erste-sprache><zweite-sprache>hullu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="725">
+    <erste-sprache>szalony</erste-sprache><zweite-sprache>järjetön</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="726">
+    <erste-sprache>otwarcie</erste-sprache><zweite-sprache>avajaiset</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="727">
+    <erste-sprache>totalitarny</erste-sprache><zweite-sprache>totalitaarinen</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="728">
+    <erste-sprache>imperium</erste-sprache><zweite-sprache>imperiumi</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="728">
+    <erste-sprache>imperium</erste-sprache><zweite-sprache>valtakunta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="729">
+    <erste-sprache>z nami</erste-sprache><zweite-sprache>kanssamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="730">
+    <erste-sprache>quiz</erste-sprache><zweite-sprache>visa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="731">
+    <erste-sprache>podłoga</erste-sprache><zweite-sprache>lattia</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="732">
+    <erste-sprache>oszustwo</erste-sprache><zweite-sprache>petos</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="733">
+    <erste-sprache>gliny</erste-sprache><zweite-sprache>poliisit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="734">
+    <erste-sprache>kwiaty</erste-sprache><zweite-sprache>kukat</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="735">
+    <erste-sprache>ciemność</erste-sprache><zweite-sprache>pimeys</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="736">
+    <erste-sprache>Tajpej</erste-sprache><zweite-sprache>Taipei</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="737">
+    <erste-sprache>Bruksela</erste-sprache><zweite-sprache>Bryssel</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="738">
+    <erste-sprache>sandały</erste-sprache><zweite-sprache>sandaalit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="739">
+    <erste-sprache>pustynia</erste-sprache><zweite-sprache>aavikko</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="740">
+    <erste-sprache>rządzić</erste-sprache><zweite-sprache>hallita</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="741">
+    <erste-sprache>rządzimy</erste-sprache><zweite-sprache>hallitsemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="742">
+    <erste-sprache>rządzicie</erste-sprache><zweite-sprache>hallitsette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="743">
+    <erste-sprache>rządzi</erste-sprache><zweite-sprache>hallitsee</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="744">
+    <erste-sprache>panujemy</erste-sprache><zweite-sprache>vallitsemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="745">
+    <erste-sprache>panujecie</erste-sprache><zweite-sprache>vallitsette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="746">
+    <erste-sprache>panuje</erste-sprache><zweite-sprache>vallitsee</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="747">
+    <erste-sprache>skaczemy</erste-sprache><zweite-sprache>hyppäämme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="748">
+    <erste-sprache>skaczecie</erste-sprache><zweite-sprache>hyppäätte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="749">
+    <erste-sprache>skacze</erste-sprache><zweite-sprache>hyppää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="750">
+    <erste-sprache>całujemy</erste-sprache><zweite-sprache>suutelemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="751">
+    <erste-sprache>całujecie</erste-sprache><zweite-sprache>suutelette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="752">
+    <erste-sprache>całuje</erste-sprache><zweite-sprache>suutelee</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="753">
+    <erste-sprache>lśnić</erste-sprache><zweite-sprache>kiiltää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="753">
+    <erste-sprache>lśni</erste-sprache><zweite-sprache>kiiltää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="754">
+    <erste-sprache>lśnimy</erste-sprache><zweite-sprache>kiillämme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="755">
+    <erste-sprache>odnawiamy</erste-sprache><zweite-sprache>uudistamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="756">
+    <erste-sprache>odnawiacie</erste-sprache><zweite-sprache>uudistatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="757">
+    <erste-sprache>odnawia</erste-sprache><zweite-sprache>uudistaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="757">
+    <erste-sprache>odnawiać</erste-sprache><zweite-sprache>uudistaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="758">
+    <erste-sprache>kwitniemy</erste-sprache><zweite-sprache>kukimme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="759">
+    <erste-sprache>kwitniecie</erste-sprache><zweite-sprache>kukitte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="760">
+    <erste-sprache>kwitnie</erste-sprache><zweite-sprache>kukkii</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="761">
+    <erste-sprache>krzyczymy</erste-sprache><zweite-sprache>huudamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="762">
+    <erste-sprache>krzyczycie</erste-sprache><zweite-sprache>huudatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="763">
+    <erste-sprache>krzyczy</erste-sprache><zweite-sprache>huutaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="763">
+    <erste-sprache>krzyczeć</erste-sprache><zweite-sprache>huutaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="764">
+    <erste-sprache>prowokować</erste-sprache><zweite-sprache>provosoida</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="765">
+    <erste-sprache>prowokują</erste-sprache><zweite-sprache>provosoitte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="766">
+    <erste-sprache>młodzież</erste-sprache><zweite-sprache>nuoriso</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="767">
+    <erste-sprache>wiatr</erste-sprache><zweite-sprache>tuuli</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="768">
+    <erste-sprache>kostium</erste-sprache><zweite-sprache>asu</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="769">
+    <erste-sprache>czyścimy</erste-sprache><zweite-sprache>puhdistamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="770">
+    <erste-sprache>czyścicie</erste-sprache><zweite-sprache>puhdistatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="771">
+    <erste-sprache>czyści</erste-sprache><zweite-sprache>puhdistaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="771">
+    <erste-sprache>czyścić</erste-sprache><zweite-sprache>puhdistaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="772">
+    <erste-sprache>suszymy</erste-sprache><zweite-sprache>kuivaamme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="773">
+    <erste-sprache>suszycie</erste-sprache><zweite-sprache>kuivaatte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="774">
+    <erste-sprache>suszy</erste-sprache><zweite-sprache>kuivaa</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="775">
+    <erste-sprache>budzicie się</erste-sprache><zweite-sprache>heräätte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="776">
+    <erste-sprache>budzi się</erste-sprache><zweite-sprache>herää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="777">
+    <erste-sprache>my jesteśmy</erste-sprache><zweite-sprache>me olemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="778">
+    <erste-sprache>wy jesteście</erste-sprache><zweite-sprache>te olette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="779">
+    <erste-sprache>ty byłaś</erste-sprache><zweite-sprache>sinä olit</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="779">
+    <erste-sprache>ty byłaś</erste-sprache><zweite-sprache>sinä olet ollut</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="780">
+    <erste-sprache>ty masz</erste-sprache><zweite-sprache>sinulla on</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="781">
+    <erste-sprache>my mamy</erste-sprache><zweite-sprache>meillä on</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="782">
+    <erste-sprache>wy idziecie</erste-sprache><zweite-sprache>te menette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="783">
+    <erste-sprache>ty robisz</erste-sprache><zweite-sprache>sinä teet</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="784">
+    <erste-sprache>wy robicie</erste-sprache><zweite-sprache>te teette</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="785">
+    <erste-sprache>duże okno</erste-sprache><zweite-sprache>suuri ikkuna</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="786">
+    <erste-sprache>cieszą się</erste-sprache><zweite-sprache>nautitte</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="787">
+    <erste-sprache>wspieramy</erste-sprache><zweite-sprache>tuemme</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="788">
+    <erste-sprache>utrzymuje</erste-sprache><zweite-sprache>ylläpitää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="788">
+    <erste-sprache>utrzymuje</erste-sprache><zweite-sprache>elättää</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="789">
+    <erste-sprache>aplikacja</erste-sprache><zweite-sprache>sovellus</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="790">
     <erste-sprache>republika</erste-sprache><zweite-sprache>tasavalta</zweite-sprache>

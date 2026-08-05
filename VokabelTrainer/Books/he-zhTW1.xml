@@ -3518,6 +3518,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="638">
     <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>tíshēng</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="638">
+    <erste-sprache>מְשַׁפְּרִים</erste-sprache><zweite-sprache>gǎijìn</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="639">
     <erste-sprache>יִשַּׂמְתִּי</erste-sprache><zweite-sprache>shíshī le</zweite-sprache>
   </vokabel-paar>
@@ -4727,6 +4730,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="865">
     <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>tíshēng</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="865">
+    <erste-sprache>מְשַׁפֵּר</erste-sprache><zweite-sprache>gǎijìn</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="866">
     <erste-sprache>לְחַפֵּשׂ</erste-sprache><zweite-sprache>xúnzhǎo</zweite-sprache>
   </vokabel-paar>
@@ -4929,16 +4935,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>אֻמּוֹת</erste-sprache><zweite-sprache>gèguó</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="913">
-    <erste-sprache>לְהַגִּיד</erste-sprache><zweite-sprache>yìwèizhe</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="914">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>tā zìjǐ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="914">
+  <vokabel-paar schritt="913">
     <erste-sprache>עַצְמוֹ</erste-sprache><zweite-sprache>tā běnshēn</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="915">
+  <vokabel-paar schritt="914">
     <erste-sprache>עַצְמָהּ</erste-sprache><zweite-sprache>tā zìjǐ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="915">
+    <erste-sprache>לְהַגִּיד</erste-sprache><zweite-sprache>yìwèizhe</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="916">
     <erste-sprache>צֶוֶת</erste-sprache><zweite-sprache>yuángōng</zweite-sprache>

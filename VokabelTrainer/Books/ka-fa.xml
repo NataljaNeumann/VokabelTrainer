@@ -2405,8 +2405,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="601">
     <erste-sprache>აუმჯობესებთ</erste-sprache><zweite-sprache>بهبود می‌دهید</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="601">
+    <erste-sprache>აუმჯობესებთ</erste-sprache><zweite-sprache>بِهْتَر می‌کُنید</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="602">
     <erste-sprache>აუმჯობესებს</erste-sprache><zweite-sprache>بهبود می‌دهد</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="602">
+    <erste-sprache>აუმჯობესებს</erste-sprache><zweite-sprache>بِهْتَر می‌کُنَد</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="603">
     <erste-sprache>უზრუნველყოფილი</erste-sprache><zweite-sprache>فَراهَم‌شُده</zweite-sprache>
@@ -3661,6 +3667,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </vokabel-paar>
   <vokabel-paar schritt="886">
     <erste-sprache>ვაუმჯობესებთ</erste-sprache><zweite-sprache>بهبود می‌دهیم</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="886">
+    <erste-sprache>ვაუმჯობესებთ</erste-sprache><zweite-sprache>بِهْتَر می‌کُنیم</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="887">
     <erste-sprache>საჭიროება</erste-sprache><zweite-sprache>نیاز</zweite-sprache>

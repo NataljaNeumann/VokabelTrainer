@@ -3234,85 +3234,82 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>được miêu tả</erste-sprache><zweite-sprache>rappresentato</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="569">
-    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>essere applicabile</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="569">
-    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>sono applicabili</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="569">
-    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>è applicabile</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="570">
-    <erste-sprache>vĩnh viễn</erste-sprache><zweite-sprache>permanente</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentare</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentiamo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentate</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presenta</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostrare</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostriamo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostrate</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="571">
-    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostra</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="572">
-    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitare</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="572">
-    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitiamo</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="572">
-    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitate</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="572">
-    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilita</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="573">
-    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>ho approvato</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="573">
-    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>hai approvato</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="573">
-    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>ha approvato</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="574">
-    <erste-sprache>được hỗ trợ</erste-sprache><zweite-sprache>supportato</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="575">
-    <erste-sprache>nguyên tắc</erste-sprache><zweite-sprache>principio</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="575">
-    <erste-sprache>nguyên tắc</erste-sprache><zweite-sprache>principi</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="576">
     <erste-sprache>cải thiện</erste-sprache><zweite-sprache>migliorare</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="576">
+  <vokabel-paar schritt="569">
     <erste-sprache>cải thiện</erste-sprache><zweite-sprache>miglioriamo</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="576">
+  <vokabel-paar schritt="569">
     <erste-sprache>cải thiện</erste-sprache><zweite-sprache>migliorate</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="576">
+  <vokabel-paar schritt="569">
     <erste-sprache>cải thiện</erste-sprache><zweite-sprache>migliora</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="570">
+    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>essere applicabile</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="570">
+    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>sono applicabili</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="570">
+    <erste-sprache>có hiệu lực</erste-sprache><zweite-sprache>è applicabile</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="571">
+    <erste-sprache>vĩnh viễn</erste-sprache><zweite-sprache>permanente</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentare</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentiamo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presentate</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>presenta</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostrare</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostriamo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostrate</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="572">
+    <erste-sprache>trình bày</erste-sprache><zweite-sprache>mostra</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="573">
+    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitare</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="573">
+    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitiamo</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="573">
+    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilitate</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="573">
+    <erste-sprache>tạo điều kiện</erste-sprache><zweite-sprache>facilita</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="574">
+    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>ho approvato</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="574">
+    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>hai approvato</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="574">
+    <erste-sprache>đã phê duyệt</erste-sprache><zweite-sprache>ha approvato</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="575">
+    <erste-sprache>được hỗ trợ</erste-sprache><zweite-sprache>supportato</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="576">
-    <erste-sprache>cải thiện</erste-sprache><zweite-sprache>miglioramo</zweite-sprache>
+    <erste-sprache>nguyên tắc</erste-sprache><zweite-sprache>principio</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="576">
+    <erste-sprache>nguyên tắc</erste-sprache><zweite-sprache>principi</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="577">
     <erste-sprache>đã mong đợi</erste-sprache><zweite-sprache>attesi</zweite-sprache>

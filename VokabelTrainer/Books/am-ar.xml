@@ -3533,6 +3533,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="831">
     <erste-sprache>እናሻሻለን</erste-sprache><zweite-sprache>نُحَسِّنُ</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="831">
+    <erste-sprache>እናሻሽላለን</erste-sprache><zweite-sprache>نُحَسِّنُ</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="832">
     <erste-sprache>ትፈልጋላችሁ</erste-sprache><zweite-sprache>تَحْتَاجُونَ إِلَى</zweite-sprache>
   </vokabel-paar>
@@ -4035,25 +4038,25 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>እኔ እሠራለሁ</erste-sprache><zweite-sprache>أَنَا سَأَفْعَلُ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="960">
-    <erste-sprache>የረጅም ጊዜ</erste-sprache><zweite-sprache>طَوِيلُ الأَمَد</zweite-sprache>
+    <erste-sprache>እናሻሽላለን</erste-sprache><zweite-sprache>نُحَسِّنُ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="961">
-    <erste-sprache>ታዳብራላችሁ</erste-sprache><zweite-sprache>تُطَوِّرُونَ</zweite-sprache>
+    <erste-sprache>የረጅም ጊዜ</erste-sprache><zweite-sprache>طَوِيلُ الأَمَد</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="962">
+    <erste-sprache>ታዳብራላችሁ</erste-sprache><zweite-sprache>تُطَوِّرُونَ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="963">
     <erste-sprache>ተፈጻሚዎች ናቸው</erste-sprache><zweite-sprache>يَنْطَبِقُونَ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="964">
     <erste-sprache>በከፍተኛ ድምፅ</erste-sprache><zweite-sprache>بِصَوْتٍ عَالٍ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="963">
+  <vokabel-paar schritt="964">
     <erste-sprache>በድምፅ</erste-sprache><zweite-sprache>بِصَوْتٍ عَالٍ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="964">
-    <erste-sprache>ታቅዳላችሁ</erste-sprache><zweite-sprache>تُخَطِّطُونَ</zweite-sprache>
-  </vokabel-paar>
   <vokabel-paar schritt="965">
-    <erste-sprache>እናሻሽላለን</erste-sprache><zweite-sprache>نُحَسِّنُ</zweite-sprache>
+    <erste-sprache>ታቅዳላችሁ</erste-sprache><zweite-sprache>تُخَطِّطُونَ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="966">
     <erste-sprache>ትተዋላችሁ</erste-sprache><zweite-sprache>تُغَادِرُونَ</zweite-sprache>
