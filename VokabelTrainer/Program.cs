@@ -278,7 +278,7 @@ namespace VokabelTrainer
                 "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) && strCurrentCulture.Equals("zh-CHT") ? "zh-TW" :
                 "中文".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("zh") && !strCurrentCulture.Equals("zh-CHS") && !strCurrentCulture.Equals("zh-CHT") ? strCurrentCulture : "zh-CN") :
-                "繁體中".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW":
+                "繁體中".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW" :
                 "Tái".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW" :
                 "ㄓㄨˋ".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "zh-TW" :
                 // arab
@@ -336,10 +336,18 @@ namespace VokabelTrainer
                 "Sor".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ku-IQ" :
                 "کوردیی ناوەندی".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "ku-IQ" :
                 "سۆرانی".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "ku-IQ" :
+                // Lietuvių, Lithuanian, Litauisch
+                "Lie".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "lt-LT" :
+                "Lit".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "lt-LT" :
+                "Ли".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "lt-LT" :
                 // Latvian Lettisch latviski
                 "La".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "lv-LV" :
                 "Le".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "lv-LV" :
-                "Ли".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "lv-LV" :
+                "Ла".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "lv-LV" :
+                // Eesti, Estonian, Estnisch
+                "Ees".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "et-EE" :
+                "Est".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "et-EE" :
+                "Ист".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "et-EE" :
                 // Dutch Nederlands Niederländisch
                 "Ne".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
                 "Ni".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "nl-NL" :
@@ -353,6 +361,7 @@ namespace VokabelTrainer
                 "Rum".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ro-RO" :
                 "Рум".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ro-RO" :
                 // Slowak
+                "Slovenčina".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "sk-SK" :
                 "Slovenský".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "sk-SK" :
                 // Slovenian
                 "Slovenski".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "sl-SL" :
@@ -408,7 +417,7 @@ namespace VokabelTrainer
                 "Tai".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
                 "Тай".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "th-TH" :
                 // Khmer
-                "ភាសា".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "km-KH" :
+                "ភា".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "km-KH" :
                 "Khm".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "km-KH" :
                 // Persian/Farsi فارسی
                 "فا".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "fa-IR" :
