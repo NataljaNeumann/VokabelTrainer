@@ -3782,15 +3782,17 @@ namespace VokabelTrainer
                     {
                         Add(oResult, @"https://www.youtube.com/@BibelA.I/videos");
                         Add(oResult, @"https://www.youtube.com/@G%C3%B6ttlicheGeschichte47/videos", 0.1);
-                        Add(oResult, @"https://www.youtube.com/@WorshipZeit/videos", 0.1);
+                        Add(oResult, @"https://www.youtube.com/@WorshipZeit/videos", 0.1, 300);
                         if ("ru".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
-                            Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1);
+                            Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1, 300);
                         //Add(oResult, @"https://www.youtube.com/@WiedergeborenInChristus", 0.1);
-                        Add(oResult, @"https://www.youtube.com/@RuheWorship/videos", 0.1);
+                        Add(oResult, @"https://www.youtube.com/@RuheWorship/videos", 0.1, 300);
                         if ("en".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
-                            Add(oResult, @"https://www.youtube.com/@LivingbreadNetMusic/videos", 0.1);
+                            Add(oResult, @"https://www.youtube.com/@LivingbreadNetMusic/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@BlossomWaltzAffair");
                         Add(oResult, @"https://www.youtube.com/@MantrasaufDeutschgesungen/videos");
+                        Add(oResult, @"https://www.youtube.com/@ThankyouJesus1112/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@Schlagerhafen/videos");
                         //Add(oResult, @"https://www.ballermann-radio.de/");
                     }
 
@@ -3979,7 +3981,9 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@MelodiasQueAbrazan/videos", 1, 0, 500);
                                 Add(oResult, @"https://www.youtube.com/@M%C3%BAsicacristianadeFortaleza/featured", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@espa%C3%B1alecantaajesus/videos", 0.1, 300);
-                                Add(oResult, @"https://www.youtube.com/watch?v=mBhFxdIcfF8, 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/watch?v=mBhFxdIcfF8", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@DESPIERTAMUJERDEFE/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@Energ%C3%ADaPositivaRadio/videos");
 
                                 // Jazz
                                 Add(oResult, @"https://www.youtube.com/@flowsanto", 0.1, 300);
@@ -4008,9 +4012,11 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@Pitbulllatin/videos");
                                 Add(oResult, @"https://www.youtube.com/@RemixLatinoDJ");
                                 Add(oResult, @"https://www.youtube.com/@Melodiasanadora/videos");
-                                Add(oResult, @"https://www.youtube.com/@EDMChristianWorship/videos, 0.1, 300);
-                                Add(oResult, @"https://www.youtube.com/watch?v=wUSSM4eztJ4, 0.1, 300);
-                                Add(oResult, @"https://www.youtube.com/@RemanenteSonoro/featured, 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@EDMChristianWorship/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/watch?v=wUSSM4eztJ4", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@RemanenteSonoro/featured", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@SonidodelAltisimo/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/watch?v=a-iogIFDE5w"); //https://www.youtube.com/@LatinDanceSong/videos
                                 //Add(oResult, @"https://www.youtube.com/@MujeresFelicesMF");
                                 //Add(oResult, @"https://www.youtube.com/@evamiraluz/videos");
                                 // https://www.youtube.com/@CORRIDOSMUJERDEDIOS/videos
@@ -4087,6 +4093,7 @@ namespace VokabelTrainer
                             Add(oResult, @"https://www.youtube.com/@REGGAEREVIVALGOSPEL/videos");
                             Add(oResult, @"https://www.youtube.com/@DailySoulBloom/videos");
                             Add(oResult, @"https://www.youtube.com/@MylotAfroGospelChoir/videos");
+                            Add(oResult, @"https://www.youtube.com/@AfricanSoundOfPraise/videos");
                             goto default;
                         case "he":
                             Add(oResult, @"https://www.youtube.com/results?search_query=angelic+hymns+of+heaven+lyrics", 0.3);
@@ -4125,8 +4132,8 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@ChristianTechnoMusic69", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@CountryLoveStories-o1d/videos", 300);
                                 Add(oResult, @"https://www.youtube.com/@ZionEchoCovers/videos", 0.1, 300);
-                                Add(oResult, @"https://www.youtube.com/@SonidodelAltisimo/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@TheOutlawStrings/videos");
+                                Add(oResult, @"https://www.youtube.com/@Parla_project/videos", 0.1, 300);
 
                                 // https://www.youtube.com/@alphonsusmarianmusic/videos
 
@@ -4182,7 +4189,9 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@Irm%C3%A3doFogoIA/videos", 0.05, 1000);
                                 Add(oResult, @"https://www.youtube.com/@BoaEnergiaAfro/videos");
                                 Add(oResult, @"https://www.youtube.com/@DjManKeyPortugal/videos");
-                                Add(oResult, @"https://www.youtube.com/@OceanBossaCafe/videos");
+                                Add(oResult, @"https://www.youtube.com/@OceanBossaCafe/videosc");
+                                Add(oResult, @"https://www.youtube.com/@FadoTechnoLisboa/videos");
+                                Add(oResult, @"https://www.youtube.com/@MardeEmo%C3%A7%C3%B5es-u2z/videos");
                             }
                             break;
                     }
@@ -4239,6 +4248,8 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@Grace_Music28/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B11/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%D1%8F%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D1%8F/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@silasostoyania/videos");
+                        Add(oResult, @"https://www.youtube.com/@SlavicChristianMusic1/videos", 0.1, 300);
                         if ("de".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                             Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1, 300);
                     }
@@ -4514,8 +4525,8 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@gospelmolodiesrijo/videos", 0.05);
                         // Mantras
                         Add(oResult, @"https://www.youtube.com/@BhaktiBeenaa/videos", 0.5);
-                        Add(oResult, @"https://www.youtube.com/@GKWITHSOMCHAND/videos, 0.5);
-                        Add(oResult, @"https://www.youtube.com/@BhaktiBeenaa/videos, 0.5);
+                        Add(oResult, @"https://www.youtube.com/@GKWITHSOMCHAND/videos", 0.5);
+                        Add(oResult, @"https://www.youtube.com/@BhaktiBeenaa/videos", 0.5);
                     }
                 }
             }
