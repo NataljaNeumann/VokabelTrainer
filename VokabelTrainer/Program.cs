@@ -305,6 +305,8 @@ namespace VokabelTrainer
                 "Бo".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "bs-BA" :
                 // Català
                 "Ca".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ca" :
+                "Kat".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ca" :
+                "Кат".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ca" :
                 // Czech čeština
                 "Cz".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "cs-CZ" :
                 "Če".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "cs-CZ" :
@@ -397,9 +399,13 @@ namespace VokabelTrainer
                 // Macedonian македонски
                 "Ma".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "mk-MK" :
                 "Ма".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "mk-MK" :
-                // Norwegian  norsk
+                // Norwegian  norsk 
                 "No".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "no-NO" :
                 "Нор".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "no-NO" :
+                // Irish Gaeilge Irisch
+                "Iri".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ga-IE" :
+                "Gae".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ga-IE" :
+                "Ирл".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ga-IE" :
                 // Albanian shqiptare shqipe sq
                 "Alb".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sq-AL" :
                 "Shq".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sq-AL" :
