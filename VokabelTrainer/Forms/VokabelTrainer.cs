@@ -2794,7 +2794,7 @@ namespace VokabelTrainer
                     w.WriteLine("  <!-- Modus: kontinuierlich oder normal -->");
                     w.WriteLine("  <modus>{0}</modus>", m_strMode);
                     w.WriteLine();
-                    w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren links- oder rechtsläufigkeit -->");
+                    w.WriteLine("  <!-- Allgemeiner Teil: Die Namen der Sprachen im Vokabelheft und deren Links- oder Rechtsläufigkeit -->");
                     w.WriteLine("  <erste-sprache-name>{0}</erste-sprache-name>", m_strFirstLanguage);
                     w.WriteLine("  <zweite-sprache-name>{0}</zweite-sprache-name>", m_strSecondLanguage);
                     w.WriteLine("  <erste-sprache-rtl>{0}</erste-sprache-rtl>", m_bFirstLanguageRtl ? "ja" : "nein");
