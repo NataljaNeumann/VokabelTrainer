@@ -444,6 +444,9 @@ namespace VokabelTrainer
                 "پنجابی".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
                 "Pun".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
                 "Пан".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
+                // Urdu اُردُ
+                "اُردُ".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ur-PK" :
+                "Urd".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ur-PK" :
                 // Tigrinya ትግርኛ
                 "ትግ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ti-ER" :
                 "Tig".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ti-ER" :
