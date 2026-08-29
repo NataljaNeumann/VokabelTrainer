@@ -444,7 +444,7 @@ namespace VokabelTrainer
                 "پنجابی".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
                 "Pun".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
                 "Пан".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "pa-PK" :
-                // Urdu اُردُ
+                // Urdu اُردُو
                 "اُردُ".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ur-PK" :
                 "Urd".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ur-PK" :
                 // Tigrinya ትግርኛ
@@ -462,6 +462,43 @@ namespace VokabelTrainer
                 "Kis".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sw-TZ" :
                 "Swa".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sw-TZ" :
                 "Сва".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "sw-TZ" :
+                // Mongolian "Монгол хэл"
+                "Mon".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "mn-MN" :
+                "Мон".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "mn-MN" :
+                // Chechen "Нохчийн мотт" - let there be peace...
+                "Нох".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ce-RU" :
+                // Kazakh "Qazaqşa"
+                "Каз".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "kk-KZ" :
+                "Qaz".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "kk-KZ" :
+                // Kyrgyz Кыргызча
+                "Кыр".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ky-KG" :
+                "Кир".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ky-KG" :
+                "Kir".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ky-KG" :
+                "Kyr".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "ky-KG" :
+                // Tajik Тоҷикӣ
+                "Тоҷ".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "tg-TJ" :
+                "Тад".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "tg-TJ" :
+                "Taj".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "tg-TJ" :
+                "Tad".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "tg-TJ" :
+                // Turkmen Türkmençe
+                "Turkmen".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tk-TM" :
+                "Türkmenisch".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tk-TM" :
+                "Türkmençe".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tk-TM" :
+                "Tуркменский".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tk-TM" :
+                // Turkish Türkçe
+                "Turkish".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+                "Türkisch".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+                "Turc".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+                "Turco".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+                "Türkçe".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+                "Турецкий".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "tr-TR" :
+
+                // Uzbek Oʻzbekcha
+                "Uzbek".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "uz-UZ" :
+                "Usbekisch".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "uz-UZ" :
+                "Узбекский".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "uz-UZ" :
+                "Oʻzbekcha".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "uz-UZ" :
+
                 "";
 
             return strSSMLLanguageToSpeak;
