@@ -276,7 +276,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>to</erste-sprache><zweite-sprache>դեպի</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="65">
-    <erste-sprache>to</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>to</erste-sprache><zweite-sprache>-ին</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="66">
     <erste-sprache>river</erste-sprache><zweite-sprache>գետ</zweite-sprache>
@@ -1023,7 +1023,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>in</erste-sprache><zweite-sprache>ներսում</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="241">
-    <erste-sprache>in</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>in</erste-sprache><zweite-sprache>-ում</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="241">
     <erste-sprache>in</erste-sprache><zweite-sprache>դեպի</zweite-sprache>
@@ -1071,7 +1071,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>out</erste-sprache><zweite-sprache>դուրս</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="249">
-    <erste-sprache>out</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>out</erste-sprache><zweite-sprache>-ից</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="250">
     <erste-sprache>new</erste-sprache><zweite-sprache>նոր</zweite-sprache>
@@ -1542,7 +1542,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>into</erste-sprache><zweite-sprache>ներս</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="341">
-    <erste-sprache>into</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>into</erste-sprache><zweite-sprache>-ի մեջ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="342">
     <erste-sprache>due to</erste-sprache><zweite-sprache>պատճառով</zweite-sprache>
@@ -3669,112 +3669,112 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>both</erste-sprache><zweite-sprache>երկուսին էլ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="731">
-    <erste-sprache>from</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="731">
-    <erste-sprache>from the</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="731">
-    <erste-sprache>to the</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="732">
     <erste-sprache>to the</erste-sprache><zweite-sprache>դրան</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="731">
+    <erste-sprache>to the</erste-sprache><zweite-sprache>-ին</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="732">
     <erste-sprache>human</erste-sprache><zweite-sprache>մարդ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="733">
+  <vokabel-paar schritt="732">
     <erste-sprache>human</erste-sprache><zweite-sprache>մարդկային</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="734">
+  <vokabel-paar schritt="733">
     <erste-sprache>to you</erste-sprache><zweite-sprache>Ձեզ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="735">
+  <vokabel-paar schritt="734">
     <erste-sprache>either</erste-sprache><zweite-sprache>կամ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="736">
+  <vokabel-paar schritt="735">
     <erste-sprache>none</erste-sprache><zweite-sprache>ոչ մի</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="737">
+  <vokabel-paar schritt="736">
     <erste-sprache>below</erste-sprache><zweite-sprache>ներքևում</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>remained</erste-sprache><zweite-sprache>մնացած</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>remained</erste-sprache><zweite-sprache>մնացի</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>remained</erste-sprache><zweite-sprache>մնացիր</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="738">
+  <vokabel-paar schritt="737">
     <erste-sprache>remained</erste-sprache><zweite-sprache>մնաց</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="738">
     <erste-sprache>true</erste-sprache><zweite-sprache>ճիշտ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="739">
+  <vokabel-paar schritt="738">
     <erste-sprache>true</erste-sprache><zweite-sprache>ճշմարիտ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>although</erste-sprache><zweite-sprache>թեև</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>although</erste-sprache><zweite-sprache>ճիշտ է</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="740">
+  <vokabel-paar schritt="739">
     <erste-sprache>although</erste-sprache><zweite-sprache>բայց</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="740">
     <erste-sprache>though</erste-sprache><zweite-sprache>չնայած որ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="741">
+  <vokabel-paar schritt="740">
     <erste-sprache>though</erste-sprache><zweite-sprache>բայց</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="741">
     <erste-sprache>however</erste-sprache><zweite-sprache>սակայն</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="742">
+  <vokabel-paar schritt="741">
     <erste-sprache>however</erste-sprache><zweite-sprache>այնուամենայնիվ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="743">
+  <vokabel-paar schritt="742">
     <erste-sprache>nevertheless</erste-sprache><zweite-sprache>այնուամենայնիվ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="743">
     <erste-sprache>company</erste-sprache><zweite-sprache>ֆիրմա</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="743">
     <erste-sprache>company</erste-sprache><zweite-sprache>ձեռնարկություն</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="743">
     <erste-sprache>company</erste-sprache><zweite-sprache>ընկերություն</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="744">
+  <vokabel-paar schritt="743">
     <erste-sprache>company</erste-sprache><zweite-sprache>ընկերակցություն</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="745">
+  <vokabel-paar schritt="744">
     <erste-sprache>donkey</erste-sprache><zweite-sprache>էշ</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="745">
     <erste-sprache>this</erste-sprache><zweite-sprache>սա</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="745">
     <erste-sprache>this</erste-sprache><zweite-sprache>այս</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="746">
+  <vokabel-paar schritt="745">
     <erste-sprache>this</erste-sprache><zweite-sprache>սրան</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="747">
+  <vokabel-paar schritt="746">
     <erste-sprache>these</erste-sprache><zweite-sprache>սրանք</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>they</erste-sprache><zweite-sprache>նրանք</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="748">
+  <vokabel-paar schritt="747">
     <erste-sprache>those</erste-sprache><zweite-sprache>նրանք</zweite-sprache>
   </vokabel-paar>
-  <vokabel-paar schritt="749">
+  <vokabel-paar schritt="748">
     <erste-sprache>inside</erste-sprache><zweite-sprache>ներսում</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="749">
+    <erste-sprache>from</erste-sprache><zweite-sprache>-ից</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="749">
+    <erste-sprache>from the</erste-sprache><zweite-sprache>-ից</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="750">
     <erste-sprache>spent</erste-sprache><zweite-sprache>անցկացրի</zweite-sprache>

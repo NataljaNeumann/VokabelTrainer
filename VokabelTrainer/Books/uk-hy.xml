@@ -117,7 +117,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>до</erste-sprache><zweite-sprache>դեպի</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="19">
-    <erste-sprache>до</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>до</erste-sprache><zweite-sprache>-ին</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="19">
     <erste-sprache>до</erste-sprache><zweite-sprache>մինչև</zweite-sprache>
@@ -1047,16 +1047,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>шість</erste-sprache><zweite-sprache>վեց</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="282">
-    <erste-sprache>від</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>від</erste-sprache><zweite-sprache>-ից</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="282">
-    <erste-sprache>з</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="282">
-    <erste-sprache>в</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="282">
-    <erste-sprache>у</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>з</erste-sprache><zweite-sprache>-ից</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="283">
     <erste-sprache>це</erste-sprache><zweite-sprache>դա</zweite-sprache>
@@ -4007,8 +4001,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <vokabel-paar schritt="1005">
     <erste-sprache>у</erste-sprache><zweite-sprache>ներս</zweite-sprache>
   </vokabel-paar>
+  <vokabel-paar schritt="1005">
+    <erste-sprache>у</erste-sprache><zweite-sprache>-ի մեջ</zweite-sprache>
+  </vokabel-paar>
   <vokabel-paar schritt="1006">
     <erste-sprache>в</erste-sprache><zweite-sprache>ներսում</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1006">
+    <erste-sprache>в</erste-sprache><zweite-sprache>-ում</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1007">
     <erste-sprache>рік</erste-sprache><zweite-sprache>տարի</zweite-sprache>

@@ -138,7 +138,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>до</erste-sprache><zweite-sprache>წინ</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="19">
-    <erste-sprache>до</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>до</erste-sprache><zweite-sprache>-ისკენ</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="19">
+    <erste-sprache>до</erste-sprache><zweite-sprache>-ს</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="19">
+    <erste-sprache>до</erste-sprache><zweite-sprache>-თან</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="19">
     <erste-sprache>до</erste-sprache><zweite-sprache>მიმართულებით</zweite-sprache>
@@ -4578,16 +4584,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>товариство з обмеженою відповідальністю</erste-sprache><zweite-sprache>შეზღუდული პასუხისმგებლობის საზოგადოება</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1152">
-    <erste-sprache>від</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>від</erste-sprache><zweite-sprache>-დან</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1152">
-    <erste-sprache>з</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1152">
-    <erste-sprache>в</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
-  </vokabel-paar>
-  <vokabel-paar schritt="1152">
-    <erste-sprache>у</erste-sprache><zweite-sprache>Err:508</zweite-sprache>
+    <erste-sprache>з</erste-sprache><zweite-sprache>-დან</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1153">
     <erste-sprache>ці</erste-sprache><zweite-sprache>ესენი</zweite-sprache>
@@ -4614,10 +4614,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <erste-sprache>у</erste-sprache><zweite-sprache>თან</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1157">
+    <erste-sprache>у</erste-sprache><zweite-sprache>-ში</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1157">
     <erste-sprache>у</erste-sprache><zweite-sprache>შიგნით</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1158">
     <erste-sprache>в</erste-sprache><zweite-sprache>შიგნით</zweite-sprache>
+  </vokabel-paar>
+  <vokabel-paar schritt="1158">
+    <erste-sprache>в</erste-sprache><zweite-sprache>-ში</zweite-sprache>
   </vokabel-paar>
   <vokabel-paar schritt="1159">
     <erste-sprache>рік</erste-sprache><zweite-sprache>წელი</zweite-sprache>
