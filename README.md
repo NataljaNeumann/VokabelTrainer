@@ -46,7 +46,9 @@ find below the list of languages and supported variants of their naming in the a
 moment it can become supported in the future.
 
 ‎The application supports writing direction from right to left for the languages that require this, e.g. Arabic, Persian, Pashtu, Hebrew, Punjabi
-  
+
+- Offline open source (free) vocabulary trainer software (desktop-app) for Windows under GNU GPL-2.0. Flashcards app. Vocabulary learning. language learning.
+
 [Do you need support?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Français
@@ -83,7 +85,9 @@ Veuillez trouver ci-dessous la liste des langues et les variantes prises en char
 Même si une langue n'est pas prise en charge pour le moment, elle peut le devenir ultérieurement.
 
 ‎L'application prend en charge le sens d'écriture de droite à gauche pour les langues qui l'exigent, par ex. Arabe, persan, pachtou, hébreu, punjabi
-  
+
+- Logiciel d'entraînement au vocabulaire open source (gratuit) fonctionnant hors ligne (application de bureau) pour Windows, sous licence GNU GPL-2.0. Application de cartes mémoire (flashcards). Apprentissage du vocabulaire et des langues.
+
 [Avez-vous besoin de soutien?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wikia](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Español
@@ -121,7 +125,9 @@ Incluso si un idioma no es compatible en este momento, puede serlo en el futuro.
 
 ‎La aplicación admite la dirección de escritura de derecha a izquierda 
 para los idiomas que lo requieren, p. Árabe, persa, pashtu, hebreo, punjabi
-  
+
+- Software de código abierto (gratuito) para el aprendizaje de vocabulario que funciona sin conexión (aplicación de escritorio) para Windows, bajo la licencia GNU GPL-2.0. Aplicación de tarjetas de memoria (flashcards). Aprendizaje de vocabulario e idiomas.
+
 [¿Necesitas apoyo?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Português
@@ -159,7 +165,9 @@ Mesmo que um idioma não seja suportado no momento, ele poderá ser suportado no
 
 ‎O aplicativo suporta a direção de escrita da direita para a esquerda para os idiomas que exigem isso, 
 por ex. Árabe, persa, pashtu, hebraico, punjabi
-  
+
+- Software de treinamento de vocabulário de código aberto (gratuito) para uso offline (aplicativo desktop) no Windows, sob a licença GNU GPL-2.0. Aplicativo de flashcards. Aprendizado de vocabulário e de idiomas.
+
 [Você precisa de suporte?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Italiano
@@ -197,7 +205,9 @@ Anche se una lingua non è supportata al momento, potrebbe esserlo in futuro.
 
 ‎L'applicazione supporta la direzione di scrittura da destra a sinistra per le lingue che lo richiedono, 
 ad es. Arabo, persiano, pashtu, ebraico, punjabi
-  
+
+- Software open source (gratuito) per l'apprendimento del lessico, utilizzabile offline su Windows (applicazione desktop) e rilasciato sotto licenza GNU GPL-2.0. App basata su flashcard per l'apprendimento di vocaboli e lingue.
+
 [Hai bisogno di supporto?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Deutsch
@@ -235,7 +245,9 @@ Auch wenn eine Sprache derzeit nicht unterstützt wird, kann sie in Zukunft unte
 
 ‎Die Anwendung unterstützt die Schreibrichtung von rechts nach links für die Sprachen, 
 die dies erfordern, z. B. Arabisch, Persisch, Paschtu, Hebräisch, Punjabi
-  
+
+- Offline nutzbare Open-Source-Vokabeltrainer-Software (kostenlos, Desktop-Anwendung) für Windows unter der GNU GPL-2.0-Lizenz. Karteikarten-App. Vokabellernen. Sprachenlernen.
+
 [Brauchen Sie Unterstützung?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # По русски
@@ -272,7 +284,9 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 
 ‎Приложение поддерживает направление письма справа налево для языков, которые этого требуют, 
 например. арабский, персидский, пушту, иврит, панджаби
-  
+
+- Бесплатная программа с открытым исходным кодом (настольное приложение) для Windows, распространяемая по лицензии GNU GPL-2.0 и предназначенная для изучения лексики (тренажер словарного запаса). Приложение на основе карточек.
+
 [Вам нужна поддержка?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Вики](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Polski
@@ -308,7 +322,9 @@ aby aplikacja mogła je rozpoznać i przeczytać słowa. Poniżej znajdziesz lis
 Nawet jeśli dany język nie jest obecnie obsługiwany, może stać się obsługiwany w przyszłości.
 
 ‎Aplikacja obsługuje kierunek pisania od prawej do lewej dla języków, które tego wymagają, np. polskiego. Arabski, perski, pasztu, hebrajski, pendżabski
-  
+
+- Darmowe oprogramowanie typu open source do nauki słownictwa (aplikacja desktopowa) na system Windows, udostępniane na licencji GNU GPL-2.0. Aplikacja typu „fiszki” (flashcards). Nauka słownictwa i języków.
+
 [Czy potrzebujesz wsparcia?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Вики](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Στα ελληνικά
@@ -346,7 +362,9 @@ Nawet jeśli dany język nie jest obecnie obsługiwany, może stać się obsług
 Ακόμα κι αν μια γλώσσα δεν υποστηρίζεται αυτή τη στιγμή, μπορεί να γίνει υποστηριζόμενη στο μέλλον.
 
 ‎Η εφαρμογή υποστηρίζει κατεύθυνση γραφής από δεξιά προς τα αριστερά για τις γλώσσες που το απαιτούν, π.χ. Αραβικά, Περσικά, Παστούν, Εβραϊκά, Παντζάμπι
-  
+
+- Λογισμικό εκμάθησης λεξιλογίου ανοιχτού κώδικα (δωρεάν) για λειτουργία εκτός σύνδεσης (εφαρμογή επιφάνειας εργασίας) για Windows, υπό την άδεια GNU GPL-2.0. Εφαρμογή με κάρτες εκμάθησης (flashcards). Εκμάθηση λεξιλογίου. Εκμάθηση γλωσσών.
+
 [Χρειάζεστε υποστήριξη;](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Nederlands
@@ -383,7 +401,9 @@ talen en ondersteunde varianten van hun naamgeving in de applicatie.
 Zelfs als een taal op dit moment niet wordt ondersteund, kan deze in de toekomst wel ondersteund worden.
 
 ‎De applicatie ondersteunt de schrijfrichting van rechts naar links voor de talen die dit vereisen, b.v. Arabisch, Perzisch, Pashtu, Hebreeuws, Punjabi
-  
+
+- Offline open-source (gratis) software voor woordtraining (desktop-app) voor Windows onder de GNU GPL-2.0-licentie. Flashcard-app. Woordenschat en talen leren.
+
 [Heeft u ondersteuning nodig?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Dansk
@@ -420,7 +440,9 @@ sikkerhedskopieringsoplysninger gemt i skjulte filer.
 ‎For alle sprog, også dem, der ikke er på listen, foretrækker du at navngive dem med deres oprindelige navn. Selvom et sprog ikke understøttes i øjeblikket, kan det blive understøttet i fremtiden.
 
 ‎Applikationen understøtter skriveretning fra højre mod venstre for de sprog, der kræver dette, f.eks. Arabisk, persisk, pashtu, hebraisk, punjabi
-  
+
+- Offline open source-software (gratis) til ordforrådstræning (desktop-app) til Windows under GNU GPL-2.0. Flashcard-app. Indlæring af ordforråd. Sprogindlæring.
+
 [Har du brug for støtte?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Suomeksi
@@ -455,7 +477,9 @@ Alla on luettelo kielistä ja tuetuista versioista niiden nimeämisestä sovellu
 ‎Kaikille kielille, myös niille, jotka eivät ole luettelossa, kannattaa nimetä ne äidinkielellään. Vaikka kieltä ei tueta tällä hetkellä, se voi tulla tueksi tulevaisuudessa.
 
 ‎Sovellus tukee kirjoitussuuntaa oikealta vasemmalle sitä vaativille kielille, esim. arabia, persia, pashtu, heprea, panjabi
-  
+
+- Ilmainen, avoimen lähdekoodin sanastoharjoitteluohjelmisto (työpöytäsovellus) Windowsille (GNU GPL-2.0-lisenssi). Muistikorttisovellus. Sanaston ja kielten opiskelu.
+
 [Tarvitsetko tukea?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Svenska
@@ -491,7 +515,9 @@ kan känna igen dem och kan läsa orden. Nedan hittar du listan över språk och
 Även om ett språk inte stöds för tillfället kan det bli stöd i framtiden.
 
 ‎Applikationen stöder skrivriktning från höger till vänster för de språk som kräver detta, t.ex. arabiska, persiska, pashtu, hebreiska, punjabi
-  
+
+- Programvara med öppen källkod (gratis) för glosövning (skrivbordsprogram) för Windows, licensierad under GNU GPL-2.0. App för digitala flashcards. Inlärning av glosor och språk.
+
 [Behöver du stöd?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # Türkçe
@@ -527,7 +553,9 @@ ve desteklenen ad çeşitlerini aşağıda bulabilirsiniz.
 ‎Tüm diller için, listede yer almayanlar da dahil olmak üzere, onları yerel adlarıyla adlandırmayı tercih edin. Bir dil şu anda desteklenmiyor olsa bile gelecekte desteklenebilir.
 
 ‎Uygulama, bunu gerektiren diller için sağdan sola yazma yönünü destekler; Arapça, Farsça, Peştuca, İbranice, Pencapça
-  
+
+- Windows için GNU GPL-2.0 lisanslı, çevrimdışı, açık kaynaklı (ücretsiz) kelime çalışma yazılımı (masaüstü uygulaması). Bilgi kartı uygulaması. Kelime öğrenme. Dil öğrenme.
+
 [Desteğe mi ihtiyacınız var?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [Viki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # 中文文本
@@ -560,6 +588,8 @@ Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家�
 ‎对于所有语言，即使是那些不在列表中的语言，也更喜欢用它们的母语名称来命名。即使目前不支持某种语言，将来也可能会受到支持。
 
 ‎对于需要此功能的语言，该应用程序支持从右到左的书写方向，例如：阿拉伯语、波斯语、普什图语、希伯来语、旁遮普语
+
+- 基于 GNU GPL-2.0 协议的 Windows 平台离线开源（免费）词汇训练软件（桌面应用）。一款抽认卡（Flashcard）应用，用于词汇学习及语言学习。
   
 [您需要支持吗？](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [维基百科](https://github.com/NataljaNeumann/VokabelTrainer/wiki)  
@@ -595,7 +625,9 @@ Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家�
 ‎對於所有語言，即使是那些不在清單中的語言，也更喜歡用它們的母語名稱來命名。即使目前不支援某種語言，將來也可能會受到支援。
 
 ‎對於需要此功能的語言，該應用程式支援從右到左的書寫方向，例如：阿拉伯語、波斯語、普什圖語、希伯來語、旁遮普語
-  
+
+- 基於 GNU GPL-2.0 協定的 Windows 平台離線開源（免費）詞彙訓練軟體（桌面應用）。一款抽認卡（Flashcard）應用，用於字彙學習及語言學習。
+
 [您需要支援嗎？](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [維基百科](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # 日本語
@@ -633,7 +665,9 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 
 ‎アプリケーションは、これを必要とする言語で右から左への書き込み方向をサポートしています。
 アラビア語、ペルシア語、パシュトゥ語、ヘブライ語、パンジャブ語
-  
+
+- GNU GPL-2.0ライセンスに基づく、Windows用オフライン・オープンソース（無料）の語彙学習ソフト（デスクトップアプリ）。フラッシュカード形式の語彙・言語学習用アプリケーション。
+
 [サポートが必要ですか?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [ウィキ](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # 한국인
@@ -668,7 +702,9 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 ‎모든 언어에 대해 목록에 없는 언어라도 모국어로 이름을 지정하는 것을 선호합니다. 현재 지원되지 않는 언어라도 향후 지원될 수 있습니다.
 
 ‎응용 프로그램은 이를 요구하는 언어에 대해 오른쪽에서 왼쪽으로 쓰기 방향을 지원합니다. 아랍어, 페르시아어, 파슈투어, 히브리어, 펀자브어
-  
+
+- GNU GPL-2.0 라이선스를 따르는 Windows용 오프라인 오픈 소스(무료) 어휘 학습 소프트웨어(데스크톱 앱)입니다. 플래시카드 방식의 어휘 및 언어 학습 프로그램입니다.
+
 [지원이 필요합니까?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [위키](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # भारतीय में
@@ -703,7 +739,9 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 ‎सभी भाषाओं के लिए, यहां तक ​​कि जो सूची में नहीं हैं, उनका नामकरण उनके मूल नाम से करना पसंद करते हैं। भले ही कोई भाषा इस समय समर्थित न हो, वह भविष्य में समर्थित हो सकती है।
 
 ‎एप्लिकेशन उन भाषाओं के लिए दाईं से बाईं ओर लेखन दिशा का समर्थन करता है जिनके लिए इसकी आवश्यकता होती है, उदाहरण के लिए अरबी, फ़ारसी, पश्तू, हिब्रू, पंजाबी
-  
+
+- Windows के लिए GNU GPL-2.0 के तहत ऑफ़लाइन ओपन-सोर्स (मुफ़्त) शब्दावली सीखने वाला सॉफ़्टवेयर (डेस्कटॉप-ऐप)। फ़्लैशकार्ड ऐप। शब्दावली सीखना। भाषा सीखना।
+
 [क्या आपको समर्थन की आवश्यकता है?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [विकि](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‏
 # باللغة العربية
@@ -738,6 +776,8 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 ‏بالنسبة لجميع اللغات، حتى تلك غير الموجودة في القائمة، يفضل تسميتها باسمها الأصلي. حتى لو كانت اللغة غير مدعومة في الوقت الحالي، فمن الممكن أن تصبح مدعومة في المستقبل.
 
 ‏يدعم التطبيق اتجاه الكتابة من اليمين إلى اليسار للغات التي تتطلب ذلك، على سبيل المثال. العربية، الفارسية، الباشتو، العبرية، البنجابية
+
+- برنامج مجاني ومفتوح المصدر لتدريب المفردات (تطبيق سطح مكتب) يعمل دون اتصال بالإنترنت على نظام Windows، ومُرخَّص بموجب رخصة GNU GPL-2.0. إنه تطبيق يعتمد على البطاقات التعليمية (Flashcards) لتعلم المفردات واللغات.
 
 ‏[هل تحتاج إلى دعم؟](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [ويكي](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
@@ -774,6 +814,8 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 ‏עבור כל השפות, גם אלו שאינן ברשימה, העדיפו לתת להן שמות בשמם המקומי. גם אם שפה לא נתמכת כרגע היא יכולה להיות נתמכת בעתיד.
 
 ‏האפליקציה תומכת בכיוון כתיבה מימין לשמאל עבור השפות הדורשות זאת, למשל. ערבית, פרסית, פשטו, עברית, פנג'אבית
+
+- תוכנה (יישום שולחני) בקוד פתוח (חינמית) לתרגול אוצר מילים, הפועלת במצב לא-מקוון (אופליין) ב-Windows תחת רישיון GNU GPL-2.0. אפליקציית כרטיסיות (Flashcards) ללימוד אוצר מילים ושפות.
 
 ‏[האם אתה צריך תמיכה?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [ויקי](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
@@ -848,4 +890,4 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 - Prograamu jàngat baatu-kàddu. Téere vocabulaire - logiciel.
 
 
-
+Platform: Win7, Win8, Win8.1, Win10, Win11
