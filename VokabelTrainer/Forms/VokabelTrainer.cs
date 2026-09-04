@@ -3774,6 +3774,8 @@ namespace VokabelTrainer
                     Add(oResult, @"https://onlineuebung.de/deutsch/lernspiele-deutschunterricht/");
                     Add(oResult, @"https://onlineuebung.de/andere-faecher/geschichtsunterricht/#lsg");
                     Add(oResult, @"https://www.youtube.com/@7cloudsGermanyOfficial/videos");
+                    Add(oResult, @"https://www.amazon.de/s?k=Nachgefragt+wirtschaft+CD");
+                    Add(oResult, @"https://www.amazon.de/s?k=Bildung+alles+was+man+wissen+muss+CD");
 
                     // sometimes also add the critical book
                     Add(oResult, @"https://www.amazon.de/s?k=die+kunst+der+ehezerr%C3%BCttung", 0.1);
@@ -3793,7 +3795,9 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@MantrasaufDeutschgesungen/videos");
                         Add(oResult, @"https://www.youtube.com/@ThankyouJesus1112/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@Schlagerhafen/videos");
+                        Add(oResult, @"https://www.youtube.com/@SchlagerwelleGold/videos");
                         //Add(oResult, @"https://www.ballermann-radio.de/");
+                        // https://www.youtube.com/watch?v=NIpSUHwfZxo
                     }
 
                 }
@@ -3819,6 +3823,7 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.amazon.fr/s?k=psychologie+livre");
                     Add(oResult, @"https://www.youtube.com/@ChansonsdeParis-x8t/videos");
                     Add(oResult, @"https://www.youtube.com/@ParisChanson/videos");
+                    Add(oResult, @"https://www.amazon.fr/s?k=Balzac%2C+Illusions+perdues%2C+DVD");
 
 
                     switch (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName)
@@ -3855,6 +3860,7 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@gracedivinebeni/videos", 0.1, 500, 700);
                                 Add(oResult, @"https://www.youtube.com/@Chansonschr%C3%A9tienneslibres/videos", 0.3, 100);
                                 Add(oResult, @"https://www.youtube.com/@%C3%89lioraMika%C3%ABl/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@7cloudsFranceOfficial/videos");
                                 //Add(oResult, @"https://www.youtube.com/@ShadayahGospelMinistry/videos", 0.1);
                                 //Add(oResult, @"https://www.youtube.com/@FLAMMEDIVINEGOSPEL/videos", 0.1);
                                 //https://www.youtube.com/@ChristSoulMusic
@@ -3971,6 +3977,9 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@seanconner104/videos");
                                 Add(oResult, @"https://www.youtube.com/@Terapiaencanci%C3%B3n/videos");
                                 Add(oResult, @"https://www.youtube.com/@CosterraCumbia/videos");
+                                Add(oResult, @"https://www.youtube.com/@VibraBonita-y9j/videos");
+                                Add(oResult, @"https://www.youtube.com/@ALABANZASBAILABLESCRISTIANAS/videos", 0.1, 300);
+                                // https://www.youtube.com/@VibraBonita-y9j/videos
 
                                 // Calm music
                                 Add(oResult, @"https://www.youtube.com/@CancionesqueSanan/videos");
@@ -3984,6 +3993,13 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/watch?v=mBhFxdIcfF8", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@DESPIERTAMUJERDEFE/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@Energ%C3%ADaPositivaRadio/videos");
+                                Add(oResult, @"https://www.youtube.com/watch?v=DhUO_VYvYy0", 0.1, 1000);
+                                Add(oResult, @"https://www.youtube.com/@Suspirocatolico/videos", 0.1, 300, 1000);
+                                Add(oResult, @"https://www.youtube.com/@GloriaAMaria88/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@SantuarioDeCantosMarianos/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@REFUGIOMARIANO-OFICIAL/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@SantoNortenoOficial/videos", 0.1, 300);
+                                //https://www.youtube.com/@Alabanzas-Que-Sanan/videos
 
                                 // Jazz
                                 Add(oResult, @"https://www.youtube.com/@flowsanto", 0.1, 300);
@@ -4007,16 +4023,21 @@ namespace VokabelTrainer
                                 // reggae
                                 Add(oResult, @"https://www.youtube.com/@LionofZionRecords/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@ReggaeQueSanaGospel", 0.1, 300);
+                                //https://www.youtube.com/@Si%C3%B3nReggaeCristiano
 
                                 // pop, miscellaneous
-                                Add(oResult, @"https://www.youtube.com/@Pitbulllatin/videos");
+                                Add(oResult, @"https://www.youtube.com/@7cloudsSpain/videos");
+                                //Add(oResult, @"https://www.youtube.com/@Pitbulllatin/videos");
+                                Add(oResult, @"https://www.youtube.com/@AromadeClave/videos");
                                 Add(oResult, @"https://www.youtube.com/@RemixLatinoDJ");
                                 Add(oResult, @"https://www.youtube.com/@Melodiasanadora/videos");
                                 Add(oResult, @"https://www.youtube.com/@EDMChristianWorship/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/watch?v=wUSSM4eztJ4", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@RemanenteSonoro/featured", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@SonidodelAltisimo/videos", 0.1, 300);
-                                Add(oResult, @"https://www.youtube.com/watch?v=a-iogIFDE5w"); //https://www.youtube.com/@LatinDanceSong/videos
+                                Add(oResult, @"https://www.youtube.com/@LatinDanceSong/videos");
+                                Add(oResult, @"https://www.youtube.com/watch?v=CXiUiMMN8No", 0.1, 300); // Channel https://www.youtube.com/@gospeltropical
+                                Add(oResult, @"https://www.youtube.com/@summerdancevibes/videos");
                                 //Add(oResult, @"https://www.youtube.com/@MujeresFelicesMF");
                                 //Add(oResult, @"https://www.youtube.com/@evamiraluz/videos");
                                 // https://www.youtube.com/@CORRIDOSMUJERDEDIOS/videos
@@ -4062,9 +4083,10 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.amazon.co.uk/s?k=harry+potter+and+the+philosopher's+stone");
                     Add(oResult, @"https://www.amazon.co.uk/s?k=meet+the+fockers");
                     Add(oResult, @"https://www.amazon.co.uk/s?k=50+great+short+stories");
+                    Add(oResult, @"https://www.amazon.co.uk/s?k=Bedazzled+dvd");
                     Add(oResult, @"https://www.youtube.com/@ACEamazing/videos");
                     Add(oResult, @"https://www.youtube.com/@Buddy1970-g4j/videos");
-                    Add(oResult, @"https://www.youtube.com/watch?v=5Fz_Pb15mTY");
+                    Add(oResult, @"https://www.youtube.com/watch?v=5Fz_Pb15mTY"); // channel https://www.youtube.com/@AlmadeAdoraci%C3%B3nCristiana
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -4121,6 +4143,8 @@ namespace VokabelTrainer
                                     Add(oResult, @"https://www.youtube.com/@KingdomGlorySounds/videos", 0.05, 1000);
                                 }
 
+                                Add(oResult, @"https://www.youtube.com/@7clouds/videos");
+                                Add(oResult, @"https://www.youtube.com/results?search_query=NDCA+cha+cha",0.1);
                                 Add(oResult, @"https://www.youtube.com/results?search_query=divine+harmony+choir+lyrics");
                                 Add(oResult, @"https://www.youtube.com/@angelicpsalms1");
                                 Add(oResult, @"https://www.youtube.com/results?search_query=christian+reggae+lyrics", 0.1, 300);
@@ -4134,7 +4158,13 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@ZionEchoCovers/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@TheOutlawStrings/videos");
                                 Add(oResult, @"https://www.youtube.com/@Parla_project/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@UnitedVoicesMusic/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@the_next_show/videos");
+                                Add(oResult, @"https://www.youtube.com/@Dr.HongMusic/videos", 0.3, 1000);
+                                Add(oResult, @"https://www.youtube.com/@DavidsHarpPsalms/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@inmariasgrace/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@Sword_of_the_Spirit39/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/watch?v=BW_4CzqDKxs"); // channel: https://www.youtube.com/@GoldenOldiesMelody
 
                                 // https://www.youtube.com/@alphonsusmarianmusic/videos
 
@@ -4183,6 +4213,7 @@ namespace VokabelTrainer
                         default:
                             if (!Program.IslamicCountry)
                             {
+                                Add(oResult, @"https://www.youtube.com/@7cloudsBrazil/videos");
                                 Add(oResult, @"https://www.youtube.com/results?search_query=adora%C3%A7%C3%A3o+m%C3%BAsica+espiritual", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/results?search_query=M%C3%BAsicas+crist%C3%A3s+em+portugu%C3%AAs+com+letra", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@SerestaGospeldaAlma/videos", 0.05, 300);
@@ -4230,29 +4261,44 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D1%81+%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BC");
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B4%D1%83%D1%88%D0%B8");
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D0%A3%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D0%B8");
+                    Add(oResult, @"https://www.youtube.com/results?search_query=%D0%BB%D0%B0%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BC%D0%B0%D0%B9+%D1%81%D0%B5%D0%B4%D0%B0%D1%8F+%D0%BD%D0%BE%D1%87%D1%8C+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0");
+                    Add(oResult, @"https://www.youtube.com/results?search_query=%D0%BE%D1%81%D0%B5%D0%BD%D1%8C+%D0%B4%D0%B4%D1%82+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0");
+                    Add(oResult, @"https://www.youtube.com/@%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0_1");
+                    Add(oResult, @"https://www.youtube.com/@%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%9F25/videos");
+                    Add(oResult, @"https://www.youtube.com/results?search_query=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+%D0%BE%D1%81%D0%B5%D0%BD%D1%8C+%D0%B4%D0%B4%D1%82+%D1%81%D0%BE+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D0%BC%D0%B8");
 
                     // for language speakers that aren't muslim add christian songs
                     if (!Program.IslamicCountry)
                     {
                         Add(oResult, @"https://www.youtube.com/results?search_query=%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%B5%D1%81%D0%BD%D0%B8", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@AgnessaGrace/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@AgnessaGrace/videos", 0.1, 1000);
                         Add(oResult, @"https://www.youtube.com/@SongRelax2222/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/results?search_query=%D0%A2%D1%8B+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B8%2C+%D0%93%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D1%8C+%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9+%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA+2026+Navin+Worship", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%D0%9F%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0", 0.1, 300);
+                        //Add(oResult, @"https://www.youtube.com/@%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%D0%9F%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@toptommusic/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@ApostolSongs/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@godishere8/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B5%D0%9F%D0%B5%D1%81%D0%BD%D0%B829/videos", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@Sky_Dove/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@Sky_Dove/videos", 0.1, 1000);
                         Add(oResult, @"https://www.youtube.com/@SMARTCHRISTIANMELODIES/videos", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@%D0%A1%D0%92%D0%95%D0%A2%D0%9B%D0%AB%D0%95%D0%9F%D0%95%D0%A1%D0%9D%D0%98", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@%D0%A1%D0%92%D0%95%D0%A2%D0%9B%D0%AB%D0%95%D0%9F%D0%95%D0%A1%D0%9D%D0%98", 1, 300);
                         Add(oResult, @"https://www.youtube.com/@Grace_Music28/videos", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B11/videos", 0.1, 300);
-                        Add(oResult, @"https://www.youtube.com/@%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%D1%8F%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D1%8F/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B11/videos", 0.1, 1000);
+                        Add(oResult, @"https://www.youtube.com/@%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%D1%8F%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D1%8F/videos", 1, 300);
                         Add(oResult, @"https://www.youtube.com/@silasostoyania/videos");
                         Add(oResult, @"https://www.youtube.com/@SlavicChristianMusic1/videos", 0.1, 300);
+                        Add(oResult, @"https://www.youtube.com/@%D0%9F%D0%B5%D1%81%D0%BD%D0%B8%D0%A1%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F/videos");
+                        Add(oResult, @"https://www.youtube.com/watch?v=XCKadO8eSXE",1,1500,2000);
+
+                        // german-english resource
                         if ("de".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                             Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1, 300);
+
+                        // these use a word that doesn't work in hebrew
+                        if ("he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                        {
+                            Add(oResult, @"https://www.youtube.com/@%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%D1%81%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5/videos,0.05,1000");
+                        }
                     }
                 }
             }
@@ -4271,6 +4317,11 @@ namespace VokabelTrainer
                     {
                         Add(oResult, @"https://www.youtube.com/results?search_query=%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B8%D0%BA+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D0%BF%D1%81%D0%B0%D0%BB%D0%BC%D1%96%D0%B2+");
                         Add(oResult, @"https://www.youtube.com/results?search_query=%D0%92%D0%95%D0%A1%D0%95%D0%9B%D0%86+%D0%A3%D0%9A%D0%A0%D0%90%D0%87%D0%9D%D0%A1%D0%AC%D0%9A%D0%86+%D0%9F%D0%86%D0%A1%D0%9D%D0%86+" + (DateTime.Now.Year.ToString()) + "+%D0%A3%D0%9A%D0%A0%D0%90%D0%87%D0%9D%D0%A1%D0%AC%D0%9A%D0%90+%D0%9C%D0%A3%D0%97%D0%98%D0%9A%D0%90+");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%96+%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D1%96+%D0%BF%D1%96%D1%81%D0%BD%D1%96+%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B8");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%96+%D0%BF%D1%96%D1%81%D0%BD%D1%96+%D0%BA%D0%B0%D1%80%D0%B0%D0%BE%D0%BA%D0%B5");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%D0%A1%D0%BB%D1%83%D0%B3%D0%B0+%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%83+-+%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB+%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D1%96%D1%8F+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%8E");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%8E+%D0%BC%D0%BE%D0%B2%D0%BE%D1%8E+%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BA%D0%B8");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%D0%B4%D1%96%D0%B7%D0%B5%D0%BB%D1%8C+%D1%88%D0%BE%D1%83+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%8E+%D0%BC%D0%BE%D0%B2%D0%BE%D1%8E");
                     }
                 }
             }
@@ -4293,10 +4344,15 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.youtube.com/results?search_query=film+completo");
                     Add(oResult, @"https://www.youtube.com/@WinxClubIT");
                     Add(oResult, @"https://www.youtube.com/results?search_query=italian+music");
+                    Add(oResult, @"https://www.youtube.com/watch?v=fCnKvJ-LuBo");
 
                     if (!Program.IslamicCountry)
                     {
+                        Add(oResult, @"https://www.youtube.com/@LUZUKO-u3l/videos");
                         Add(oResult, @"https://www.youtube.com/results?search_query=Canzoni+cristiane+in+italiano+con+testo", 0.1);
+                        Add(oResult, @"https://www.youtube.com/@CantiAllaMadonna/videos", 0.1);
+                        Add(oResult, @"https://www.youtube.com/@7cloudsItaly/videos");
+                        Add(oResult, @"https://www.youtube.com/@IncantoItaliano-m4f/videos");
                     }
                 }
             }
@@ -4524,6 +4580,7 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@jesusholyworshipIndia/videos", 0.05);
                         Add(oResult, @"https://www.youtube.com/@Brijeshbhai-n5l", 0.05);
                         Add(oResult, @"https://www.youtube.com/@gospelmolodiesrijo/videos", 0.05);
+                        Add(oResult, @"https://www.youtube.com/@nonstopchristiansongs-w2e/videos", 0.05);
                         // Mantras
                         Add(oResult, @"https://www.youtube.com/@BhaktiBeenaa/videos", 0.5);
                         Add(oResult, @"https://www.youtube.com/@GKWITHSOMCHAND/videos", 0.5);
@@ -4533,7 +4590,7 @@ namespace VokabelTrainer
             }
 
             // if current culture isn't polish
-            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("po"))
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("pl"))
             {
                 // and one of the trained languages is polish
                 if (strLanguageFirst3.Equals("Pol", StringComparison.InvariantCultureIgnoreCase) ||
@@ -4555,6 +4612,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is swahili
                 if (strLanguageFirst3.Equals("Kis", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Swa", StringComparison.CurrentCultureIgnoreCase) ||
+                    strLanguageFirst3.Equals("Sua", StringComparison.CurrentCultureIgnoreCase) ||
                     strLanguageFirst3.Equals("Сва", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
@@ -4563,9 +4621,12 @@ namespace VokabelTrainer
                     {
                         Add(oResult, @"https://www.youtube.com/@rbgospel_ca/videos");
                         Add(oResult, @"https://www.youtube.com/@TulivuTunes/videos");
+                        Add(oResult, @"https://www.youtube.com/@DearGodItsMe-x1q/videos");
+                        Add(oResult, @"https://www.youtube.com/@AlleluiaPraiseMusic/videos");
                     }
                 }
             }
+
 
             // if current culture isn't Yoruba
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("yo"))
@@ -4580,6 +4641,23 @@ namespace VokabelTrainer
                     }
                 }
             }
+
+            // if current culture isn't Indonesian
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("id"))
+            {
+                // and one of the trained languages is Indonesian
+                if (strLanguageFirst3.Equals("Ind", StringComparison.InvariantCultureIgnoreCase) ||
+                    strLanguage.Equals("Bahasa Indonesia", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/@BassRohani/videos");
+                        Add(oResult, @"https://www.youtube.com/@RemixRohani1/videos");
+                    }
+                }
+            }
+
 
             return oResult;
         }
