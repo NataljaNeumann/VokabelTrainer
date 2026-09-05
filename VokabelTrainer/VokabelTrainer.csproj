@@ -340,7 +340,7 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.ky-KG.resx">
+    <EmbeddedResource Include="Forms\About.ky.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -624,7 +624,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.ky-KG.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ky.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -888,7 +888,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.ky-KG.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ky.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1164,7 +1164,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.ky-KG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ky.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1432,7 +1432,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ky-KG.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ky.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1703,7 +1703,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ky.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1975,7 +1975,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ky.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2235,7 +2235,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.ky-KG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ky.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2483,7 +2483,7 @@
     <EmbeddedResource Include="Properties\Resources.km-KH.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ky-KG.resx">
+    <EmbeddedResource Include="Properties\Resources.ky.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.lt.resx">
@@ -2712,7 +2712,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.ky-KG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ky.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2984,7 +2984,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.ky-KG.resx">
+    <EmbeddedResource Include="Forms\WordTest.ky.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
