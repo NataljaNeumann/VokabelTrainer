@@ -136,7 +136,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\About.am-ET.resx">
+    <EmbeddedResource Include="Forms\About.am.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.as.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.bn.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -144,15 +152,79 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.bs.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.dz.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.eo.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.fil.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.ga-IE.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.ig-NG.resx">
+    <EmbeddedResource Include="Forms\About.hr.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ig.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.kn.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.ku-Arab-IQ.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.lo.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.mi.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ml.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.mr.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.my.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ne.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.or.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.prs.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ps.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.quz.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -177,10 +249,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.bg.resx">
-      <DependentUpon>About.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.bs-Latn-BA.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -320,10 +388,6 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.ps-AF.resx">
-      <DependentUpon>About.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.pt.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -336,11 +400,15 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.rw-RW.resx">
+    <EmbeddedResource Include="Forms\About.rw.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.sa.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.sd-Arab.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -352,7 +420,11 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.so-SO.resx">
+    <EmbeddedResource Include="Forms\About.so.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.sq.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -364,7 +436,15 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\About.sw.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ta.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.tg.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -372,11 +452,11 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.ti-ER.resx">
+    <EmbeddedResource Include="Forms\About.ti.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.ti-ET.resx">
+    <EmbeddedResource Include="Forms\About.tk.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -388,6 +468,10 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.ur-PK.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.uz.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -396,11 +480,11 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.wo-SN.resx">
+    <EmbeddedResource Include="Forms\About.wo.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.yo-NG.resx">
+    <EmbeddedResource Include="Forms\About.yo.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -416,7 +500,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.am-ET.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.am.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -440,7 +524,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.bs.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -504,7 +588,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.ig-NG.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ig.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -584,7 +668,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.ps-AF.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ps.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -604,7 +688,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.rw-RW.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.rw.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -620,7 +704,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.so-SO.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.so.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -632,7 +716,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.tg.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -640,11 +724,7 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.ti-ER.resx">
-      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.ti-ET.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.ti.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -664,11 +744,11 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.wo-SN.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.wo.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.yo-NG.resx">
+    <EmbeddedResource Include="Forms\ChineseVariantSelection.yo.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -684,7 +764,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.am-ET.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.am.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -708,7 +788,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.bs.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -772,7 +852,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.ig-NG.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ig.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -852,7 +932,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.ps-AF.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ps.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -872,7 +952,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.rw-RW.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.rw.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -888,7 +968,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.so-SO.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.so.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -900,7 +980,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.tg.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -908,11 +988,7 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.ti-ER.resx">
-      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.ti-ET.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.ti.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -932,11 +1008,11 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.wo-SN.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.wo.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.yo-NG.resx">
+    <EmbeddedResource Include="Forms\CultureSelectionForm.yo.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -952,7 +1028,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.am-ET.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.am.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -976,7 +1052,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.bs.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1052,7 +1128,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.ig-NG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ig.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1132,7 +1208,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.ps-AF.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ps.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1152,7 +1228,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.rw-RW.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.rw.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1168,7 +1244,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.so-SO.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.so.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1180,7 +1256,7 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.tg.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1188,15 +1264,11 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.ti-ER.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.ti.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.ti-ET.resx">
-      <DependentUpon>GraphsForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.tk-TM.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.tk.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1216,11 +1288,11 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.wo-SN.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.wo.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.yo-NG.resx">
+    <EmbeddedResource Include="Forms\GraphsForm.yo.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1236,7 +1308,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.am-ET.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.am.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1260,7 +1332,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.bs.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1324,7 +1396,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ig-NG.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ig.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1404,7 +1476,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ps-AF.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ps.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1424,7 +1496,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.rw-RW.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.rw.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1440,7 +1512,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.so-SO.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.so.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1452,7 +1524,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.tg.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1460,11 +1532,7 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ti-ER.resx">
-      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ti-ET.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.ti.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1484,11 +1552,11 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.wo-SN.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.wo.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.yo-NG.resx">
+    <EmbeddedResource Include="Forms\JapaneseVariantSelection.yo.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1507,7 +1575,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.am.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1531,7 +1599,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.bs.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1599,7 +1667,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ig.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1679,7 +1747,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ps.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1699,7 +1767,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.rw.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1715,7 +1783,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.so.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1727,7 +1795,7 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.tg.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1735,15 +1803,11 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.ti.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.ti-ET.resx">
-      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.tk.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1763,11 +1827,11 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.wo.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewDictionaryPair.yo.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1783,7 +1847,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.am.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1807,7 +1871,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.bs.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1875,7 +1939,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ig.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1955,7 +2019,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ps.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1975,7 +2039,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.rw.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -1991,7 +2055,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.so.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2003,7 +2067,7 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.tg.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2011,15 +2075,11 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.ti.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.ti-ET.resx">
-      <DependentUpon>NewLanguageFile.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.tk.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2039,11 +2099,11 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.wo.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewLanguageFile.yo.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2059,7 +2119,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.am-ET.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.am.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2083,7 +2143,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.bs.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2143,7 +2203,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.ig-NG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ig.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2219,7 +2279,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.ps-AF.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ps.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2235,7 +2295,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.rw-RW.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.rw.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2251,7 +2311,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.so-SO.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.so.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2263,7 +2323,7 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.tg.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2271,15 +2331,11 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.ti-ER.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.ti.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.ti-ET.resx">
-      <DependentUpon>NewMessageBox.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.tk-TM.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.tk.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2295,11 +2351,11 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.wo-SN.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.wo.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.yo-NG.resx">
+    <EmbeddedResource Include="Forms\NewMessageBox.yo.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2385,7 +2441,7 @@
     <EmbeddedResource Include="Properties\Resources.bo-CN.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Properties\Resources.bs.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.ca.resx">
@@ -2460,7 +2516,7 @@
     <EmbeddedResource Include="Properties\Resources.pl.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ps-AF.resx">
+    <EmbeddedResource Include="Properties\Resources.ps.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.ro.resx">
@@ -2478,10 +2534,10 @@
     <EmbeddedResource Include="Properties\Resources.sv.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Properties\Resources.tg.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.tk-TM.resx">
+    <EmbeddedResource Include="Properties\Resources.tk.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.uk.resx">
@@ -2496,28 +2552,25 @@
     <EmbeddedResource Include="Properties\Resources.th.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.am-ET.resx">
+    <EmbeddedResource Include="Properties\Resources.am.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ig-NG.resx">
+    <EmbeddedResource Include="Properties\Resources.ig.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.rw-RW.resx">
+    <EmbeddedResource Include="Properties\Resources.rw.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.so-SO.resx">
+    <EmbeddedResource Include="Properties\Resources.so.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ti-ER.resx">
+    <EmbeddedResource Include="Properties\Resources.ti.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ti-ET.resx">
+    <EmbeddedResource Include="Properties\Resources.wo.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.wo-SN.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.yo-NG.resx">
+    <EmbeddedResource Include="Properties\Resources.yo.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.ku-Arab-IQ.resx">
@@ -2527,7 +2580,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.am-ET.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.am.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2551,7 +2604,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.bs.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2623,7 +2676,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.ig-NG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ig.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2703,7 +2756,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.ps-AF.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ps.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2723,7 +2776,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.rw-RW.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.rw.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2739,7 +2792,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.so-SO.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.so.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2751,7 +2804,7 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.tg.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2759,15 +2812,11 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.ti-ER.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.ti.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.ti-ET.resx">
-      <DependentUpon>VokabelTrainer.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.tk-TM.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.tk.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2787,11 +2836,11 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.wo-SN.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.wo.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.yo-NG.resx">
+    <EmbeddedResource Include="Forms\VokabelTrainer.yo.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2807,7 +2856,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.am-ET.resx">
+    <EmbeddedResource Include="Forms\WordTest.am.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2831,7 +2880,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.bs-Latn-BA.resx">
+    <EmbeddedResource Include="Forms\WordTest.bs.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2899,7 +2948,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.ig-NG.resx">
+    <EmbeddedResource Include="Forms\WordTest.ig.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2979,7 +3028,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.ps-AF.resx">
+    <EmbeddedResource Include="Forms\WordTest.ps.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -2999,7 +3048,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.rw-RW.resx">
+    <EmbeddedResource Include="Forms\WordTest.rw.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -3015,7 +3064,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.so-SO.resx">
+    <EmbeddedResource Include="Forms\WordTest.so.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -3027,7 +3076,7 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.tg-Cyrl-TJ.resx">
+    <EmbeddedResource Include="Forms\WordTest.tg.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -3035,15 +3084,11 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.ti-ER.resx">
+    <EmbeddedResource Include="Forms\WordTest.ti.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.ti-ET.resx">
-      <DependentUpon>WordTest.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.tk-TM.resx">
+    <EmbeddedResource Include="Forms\WordTest.tk.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -3063,11 +3108,11 @@
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.wo-SN.resx">
+    <EmbeddedResource Include="Forms\WordTest.wo.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.yo-NG.resx">
+    <EmbeddedResource Include="Forms\WordTest.yo.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
