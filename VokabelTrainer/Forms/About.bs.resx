@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,29 +112,24 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 247</value>
-  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.7
-Autorsko pravo © 2024-2026 NataljaNeumann@gmx.de
+Autorska prava © 2024–2026 NataljaNeumann@gmx.de
 
-Ovaj program je besplatan softver; možete ga ponovo distribuirati i/ili modifikovati pod uslovima GNU Opšte javne licence koju je objavila Free Software Foundation; bilo verziju 2 Licence, ili (po vašoj želji) bilo koju noviju verziju.
+Ovaj program je slobodan softver; možete ga dalje distribuirati i/ili mijenjati pod uslovima GNU Opće javne licence (GNU General Public License) koju je objavila Free Software Foundation; bilo verzije 2 te licence ili (po vašem izboru) bilo koje kasnije verzije.
 
-Ovaj program se distribuira u nadi da će biti koristan, ali BEZ IKAKVE GARANCIJE; čak i bez implicitne garancije o PRODAJNOSTI ili PRIKLADNOSTI ZA ODREĐENU NAMJENU.  Pogledajte GNU Opću javnu licencu za više detalja.
+Ovaj program se distribuira u nadi da će biti koristan, ali BEZ IKAKVE GARANCIJE; čak i bez podrazumijevane garancije o mogućnosti prodaje ili prikladnosti za određenu namjenu. Za više detalja pogledajte GNU Opću javnu licencu.
 
-Trebalo je da dobijete kopiju GNU Opšte javne licence zajedno sa ovim programom; ako ne, pišite na  Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</value>
+Trebali ste primiti primjerak GNU Opće javne licence uz ovaj program; ako niste, pišite na adresu: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>517, 265</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Text" xml:space="preserve">
-    <value>O treneru vokabulara</value>
+    <value>O aplikaciji</value>
   </data>
 </root>
