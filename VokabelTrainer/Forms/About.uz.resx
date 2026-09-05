@@ -112,23 +112,30 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>"Lug'at murabbiyi" haqida</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 294</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.7
 Mualliflik huquqi © 2024-2026 NataljaNeumann@gmx.de
 
-Bu dastur bepul dastur hisoblanadi; Free Software Foundation tomonidan e'lon qilingan GNU General Public License shartlari asosida uni qayta tarqatishingiz va/yoki o'zgartirishingiz mumkin; Litsenziyaning 2-versiyasi yoki (sizning xohishingizga ko'ra) har qanday keyingi versiyasi.
+Ushbu dastur erkin dasturiy ta'minot hisoblanadi; siz uni Free Software Foundation (Erkin dasturiy ta'minot jamg'armasi) tomonidan e'lon qilingan GNU Umumiy ommaviy litsenziyasi (GNU General Public License) shartlari asosida qayta tarqatishingiz va/yoki o'zgartirishingiz mumkin; bunda litsenziyaning 2-versiyasidan yoki (o'z tanlovingizga ko'ra) undan keyingi har qanday versiyasidan foydalanishingiz mumkin.
 
-Ushbu dastur foydali bo'ladi degan umidda tarqatiladi, lekin HECH QANDAY KAFOLATSIZ; SOVLASH MUVOFIQligi yoki MAQSUS MAQSADGA MUVOFIQligi haqidagi nazarda tutilgan kafolatisiz ham.  Batafsil ma'lumot uchun GNU General Public License-ga qarang.
+Ushbu dastur foydali bo'lishi umidida tarqatiladi, ammo HECH QANDAY KAFOLATSIZ; hatto sotishga yaroqlilik yoki muayyan maqsadga muvofiqlik bo'yicha nazarda tutilgan kafolatsiz taqdim etiladi. Batafsil ma'lumot uchun GNU Umumiy ommaviy litsenziyasiga qarang.
 
-Siz ushbu dastur bilan birga GNU General Public License nusxasini olishingiz kerak edi; boʻlmasa,  Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+Ushbu dastur bilan birga GNU Umumiy ommaviy litsenziyasining nusxasini olgan bo'lishingiz kerak; agar olmagan bo'lsangiz, quyidagi manzilga murojaat qiling: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>559, 312</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>"Lug'at murabbiyi" haqida</value>
   </data>
 </root>
