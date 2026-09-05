@@ -112,31 +112,47 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 285</value>
+    <value>678, 348</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.7
 Copyright © 2024-2026 NataljaNeumann@gmx.de
 
-Ин барнома нармафзори ройгон аст; шумо метавонед онро аз нав тақсим кунед ва/ё онро мувофиқи шартҳои Литсензияи умумии ҷамъиятии GNU, ки аз ҷониби Free Software Foundation нашр шудааст, тағир диҳед; ё версияи 2-и Литсензия, ё (бо ихтиёри шумо) ягон версияи дертар.
+እዚ ፕሮግራም ነጻ ሶፍትዌር እዩ፤ ብመሰረት ውዕላት ናይቲ ብ  Free Software Foundation ዝተሓትመ GNU ሓፈሻዊ ህዝባዊ ፍቓድ ዳግማይ ክትዝርግሖን/ወይ ክትቅይሮን ትኽእል ኢኻ፤ ወይ ስሪት 2 ናይቲ ፍቓድ፡ ወይ (ብኣማራጺኻ) ዝኾነ ድሒሩ ዝመጽእ ስሪት።
 
-Ин барнома бо умеде, ки муфид хоҳад буд, паҳн карда мешавад, аммо БЕ ЯГОН КАФОЛАТ; ҳатто бе кафолати пешбинишудаи МАВЪУЛИЯТ ё МУВОФИҚАТ БА МАҚСАДИ МАХСУС.  Барои тафсилоти бештар ба Литсензияи умумии ҷамъиятии GNU нигаред.
+እዚ ፕሮግራም ጠቓሚ ክኸውን እዩ ብዝብል ተስፋ ዝዝርጋሕ ኮይኑ ግን ብዘይ ዝኾነ ዋሕስ፤ ብዘይ ዋላ እቲ ንፍሉይ ዕላማ ዝኸውን ሸቐጣት ወይ ብቑዕነት ዝብል ዋሕስ ከይተረፈ።  ንዝያዳ ዝርዝር ሓበሬታ ኣብ  GNU ሓፈሻዊ ህዝባዊ ፍቓድ ርአ።
 
-Шумо бояд нусхаи Литсензияи умумии ҷамъиятии GNU-ро дар якҷоягӣ бо ин барнома гирифта бошед; агар не, ба 
-Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ምስዚ ፕሮግራም ቅዳሕ ናይቲ GNU ሓፈሻዊ ህዝባዊ ፍቓድ ክትረክብ ነይሩካ፤ እንተዘይኮይኑ ናብ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA ጽሓፉ።
+
 </value>
   </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>517, 303</value>
+    <value>711, 376</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Дар бораи "Тренери луғат"</value>
+    <value>ብዛዕባ እቲ ኣፕ</value>
   </data>
 </root>
