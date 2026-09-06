@@ -8197,6 +8197,15 @@
     <Content Include="Images\CourseProgressHorizontalHeader.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\CourseProgressHorizontalHeaderAfrica.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CourseProgressHorizontalHeaderEastAsia.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CourseProgressHorizontalHeaderLatinAmerica.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\CourseProgressHorizontalHeaderMuslim.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

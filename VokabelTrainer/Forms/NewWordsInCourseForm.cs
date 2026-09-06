@@ -140,6 +140,7 @@ namespace VokabelTrainer.Forms
             this.AutoSize = false;
             this.StartPosition = FormStartPosition.CenterParent;
 
+            // For islamic countries: try the islamic learning header
             if (Program.IslamicCountry && 
                 ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                 "CourseProgressHorizontalHeaderMuslim.jpg"))
@@ -147,8 +148,71 @@ namespace VokabelTrainer.Forms
                 return;
             }
 
-            ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar + 
-                "CourseProgressHorizontalHeader.jpg");
+            // the IETF language tag for decisions about the headers
+            string strIetf = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
+
+            // If language indicates it is eastern Asia, then try east Asia header
+            if ((strIetf.StartsWith("ja")||strIetf.StartsWith("zh")||strIetf.StartsWith("ms")||
+                strIetf.StartsWith("id")||strIetf.StartsWith("fil")||strIetf.StartsWith("ko")||
+                strIetf.StartsWith("lo")) &&
+                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderEastAsia.jpg"))
+            {
+                return;
+            }
+
+            // If language indicates it is Africa, then try African header
+            if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
+                strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
+                strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
+                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderAfrica.jpg"))
+            {
+                return;
+            }
+
+            // If language indicates it is latin America, then try latin American header
+            if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
+                && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
+                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
+            {
+                return;
+            }
+
+
+            // Try the standard learning header
+            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeader.jpg"))
+            {
+                return;
+            }
+
+            // In case of failure, then try all headers, maybe still one exists
+            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderEastAsia.jpg"))
+            {
+                return;
+            }
+
+            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
+            {
+                return;
+            }
+
+            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderMuslim.jpg"))
+            {
+                return;
+            }
+
+            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                "CourseProgressHorizontalHeaderAfrica.jpg"))
+            {
+                return;
+            }
+
         }
 
         //===================================================================================================
