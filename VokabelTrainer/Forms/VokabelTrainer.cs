@@ -3835,6 +3835,7 @@ namespace VokabelTrainer
                         case "sw":
                         case "ti":
                         case "yo":
+                        case "so":
                             // african style
                             Add(oResult, @"https://www.youtube.com/@universalworshipmusic");
                             Add(oResult, @"https://www.youtube.com/@DieuMeRel%C3%A8ve/videos");
@@ -3930,6 +3931,7 @@ namespace VokabelTrainer
                         case "ti":
                         case "wo":
                         case "yo":
+                        case "so":
                             // good sound but no lyrics and a still image at the moment
                             Add(oResult, @"https://www.youtube.com/@jonahkingoficial/videos");
                             // african style
@@ -4108,6 +4110,8 @@ namespace VokabelTrainer
                         case "sw":
                         case "ti":
                         case "wo":
+                        case "so":
+
                             // Church-like gospel
                             Add(oResult, @"https://www.youtube.com/@SoulfulRhythmReggae/videos");
                             // African style
