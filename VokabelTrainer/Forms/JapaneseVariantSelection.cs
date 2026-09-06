@@ -291,7 +291,7 @@ namespace VokabelTrainer.Forms
 
         private void m_rbRomajiUsingLatinLettersOnly_CheckedChanged(object sender, EventArgs e)
         {
-
+            Choice = JapaneseVariantType.JapaneseLatinRomaji;
         }
     }
 }
