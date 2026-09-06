@@ -45,24 +45,31 @@ namespace VokabelTrainer
         static void Main()
         {
 #if DEBUG
-            //string strSetCulture =
+            // string strSetCulture =
             // "af-ZA";
             // "ar-SA";
+            // "as";
             // "az-Latn-AZ";
             // "be-BY";
             // "bg-BG";
+            // "bn";
             // "bs-Latn-BA";
             // "cs-CZ";
             // "da-DK";
             // "de-DE";
+            // "dz";
             // "el-GR";
+            // "en-US";
+            // "eo";
             // "es-ES";
             // "et-EE";
             // "fa-IR";
             // "fi-FI";
+            // "fil";
             // "fr-FR";
             // "he-IL";
             // "hi-IN";
+            // "hr";
             // "hu-HU";
             // "hy-AM";
             // "id-ID";
@@ -71,33 +78,49 @@ namespace VokabelTrainer
             // "ja-JP";
             // "ka-GE";
             // "kk-KZ";
+            // "kn";
             // "km-KH";
             // "ko-KR";
             // "ky-KG";
+            // "la";
+            // "lo";
             // "lt-LT";
             // "lv-LV";
+            // "mi";
             // "mk-MK";
+            // "ml";
             // "mn-MN";
+            // "mr";
             // "ms-MY";
+            // "my";
+            // "ne-NP";
             // "nl-NL";
             // "no-NO";
+            // "or";
             // "pa-Arab-PK";
             // "pa-IN";
             // "pl-PL";
+            // "prs";
             // "ps-AF";
             // "pt-PT";
-            // "en-US";
+            // "quz";
             // "ro-RO";
             // "ru-RU";
             // "sa-IN";
+            // "sd-Arab";
             // "sk-SK";
             // "sl-SL";
+            // "sq";
             // "sr"; 
             // "sv-SE";
+            // "sw";
+            // "ta";
             // "tg-Cyrl-TJ";
             // "th-TH";
+            // "tk";
             // "tr-TR";
             // "uk-UA";
+            // "ur-PK";
             // "uz-Latn-UZ";
             // "vi-VN";
             // "zh-TW";
@@ -167,14 +190,26 @@ namespace VokabelTrainer
 
                             System.Diagnostics.Process.Start(
                                 System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+
                             return;
                         }
                     }
+
+                    // continue counting for asking another time
+                    if (Properties.Settings.Default.StartsSinceCultureChange <= 20)
+                    {
+                        Properties.Settings.Default.StartsSinceCultureChange++;
+                        Properties.Settings.Default.Save();
+                    }
+
+                    System.Diagnostics.Process.Start(
+                        System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+                    return;
                 }
             }
 
             // continue counting for asking another time
-            if (Properties.Settings.Default.StartsSinceCultureChange < 20)
+            if (Properties.Settings.Default.StartsSinceCultureChange <= 20)
             {
                 Properties.Settings.Default.StartsSinceCultureChange++;
                 Properties.Settings.Default.Save();
