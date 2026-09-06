@@ -31,61 +31,76 @@ namespace VokabelTrainer.Forms
     //*******************************************************************************************************
     /// <summary>
     /// This form allows user to choose one of the available GUI languages/cultures
+    /// 
+    /// PSEUDOCODE / PLAN (detailed):
+    /// 1. Ensure UI ComboBox does not allow free text entry:
+    ///    - Set m_cbLanguage.DropDownStyle = ComboBoxStyle.DropDownList so only predefined values can be chosen.
+    /// 2. Validate 'oLanguages' not null; throw ArgumentNullException otherwise.
+    /// 3. Ensure an empty entry exists in 'oLanguages' for default/none selection.
+    /// 4. Convert 'oLanguages' to a List<KeyValuePair<string,string>> named 'oItemList' for binding.
+    ///    - Sort by Value (display name) ascending using case-insensitive comparer.
+    /// 5. Configure ComboBox:
+    ///    - DisplayMember = "Value"
+    ///    - ValueMember = "Key"
+    ///    - DataSource = new BindingSource(oItemList, null)
+    ///    - Hook SelectedIndexChanged event to OnLanguage_SelectedIndexChanged
+    /// 6. Selection strategy:
+    ///    a) If SelectedLanguage already set and a matching key exists -> select canonical key and assign it.
+    ///    b) Else, try to match current UI culture.Name, then TwoLetterISOLanguageName.
+    ///       - Special-case Chinese: "zh-TW" -> "zh-CHT", any 'zh' two-letter -> "zh-CHS".
+    ///    c) If still not found, fallback to using first item key or null.
+    /// 7. Loading header image remains unchanged.
+    /// 
+    /// This change enforces that users cannot type arbitrary values into the language ComboBox.
     /// </summary>
     //*******************************************************************************************************
     public partial class CultureSelectionForm : Form
     {
-        /*
-         PSEUDOCODE / PLAN (detailed):
-         1. Validate 'oLanguages' is not null (existing behavior).
-         2. Convert 'oLanguages' to a List<KeyValuePair<string,string>> named 'items' for binding.
-         3. Configure combo box: DisplayMember = "Value", ValueMember = "Key", DataSource = new BindingSource(items, null).
-         4. Selection strategy (in order):
-            a. If the current property 'SelectedLanguage' is not null/empty AND there exists an item
-               in 'items' whose Key equals 'SelectedLanguage' (case-insensitive), then set the combo
-               selection to that key and assign the canonical Key from the list to 'SelectedLanguage'.
-            b. Otherwise, get the current thread UI culture (System.Threading.Thread.CurrentThread.CurrentUICulture).
-               Try to find an item where Key equals culture.Name (case-insensitive).
-               If not found, try culture.TwoLetterISOLanguageName.
-               If a match is found, set combo selection to that key and assign it to 'SelectedLanguage'.
-            c. If neither step (a) nor (b) matched, fall back to previous behavior:
-               - If combo has at least one item and SelectedItem is a KeyValuePair<string,string>, use its Key.
-               - Otherwise set SelectedLanguage = null.
-         5. Setting 'm_cbLanguage.SelectedValue' will update the combo selection; explicitly assign 'SelectedLanguage'
-            to the canonical key from the matched item to ensure exact casing/format.
-        */
         public CultureSelectionForm(
             IDictionary<string, string> oLanguages
             )
         {
             InitializeComponent();
 
+            // Prevent the user from entering arbitrary text; allow selection only.
+            // This enforces "only predefined values" requirement.
+            m_cbLanguage.DropDownStyle = ComboBoxStyle.DropDownList;
+
             if (oLanguages == null)
             {
                 throw new ArgumentNullException(nameof(oLanguages));
             }
 
-            oLanguages.Add("", "");
+            // Ensure an empty entry exists (preserve original behavior).
+            // If key "" already exists, this Add will throw; original code used Add directly.
+            // To avoid potential exception with readonly/duplicate, check before adding.
+            if (!oLanguages.ContainsKey(string.Empty))
+            {
+                oLanguages.Add(string.Empty, string.Empty);
+            }
 
             // Convert dictionary to a list so it can be safely bound to the ComboBox.
-            var items = oLanguages
+            // Sort the list by the display value (Value) ascending, case-insensitive.
+            List<KeyValuePair<string, string>> oItemList = oLanguages
                 .Select(kvp => new KeyValuePair<string, string>(kvp.Key, kvp.Value))
+                // Change to kvp => kvp.Key ?? string.Empty for sorting by IETF code
+                .OrderBy(kvp => kvp.Value ?? string.Empty, StringComparer.OrdinalIgnoreCase)
                 .ToList();
 
             // Configure ComboBox to display language names and return keys as values.
             m_cbLanguage.DisplayMember = "Value";
             m_cbLanguage.ValueMember = "Key";
-            m_cbLanguage.DataSource = new BindingSource(items, null);
+            m_cbLanguage.DataSource = new BindingSource(oItemList, null);
 
             this.m_cbLanguage.SelectedIndexChanged += new System.EventHandler(this.OnLanguage_SelectedIndexChanged);
 
             // Selection logic:
             // 1) If SelectedLanguage already set and present in items -> select it.
             if (!string.IsNullOrEmpty(SelectedLanguage) &&
-                items.Any(kvp => string.Equals(kvp.Key, SelectedLanguage, StringComparison.OrdinalIgnoreCase)))
+                oItemList.Any(kvp => string.Equals(kvp.Key, SelectedLanguage, StringComparison.OrdinalIgnoreCase)))
             {
                 // Use the exact key from the list to ensure canonical value.
-                var canonical = items.First(kvp => string.Equals(kvp.Key, SelectedLanguage, StringComparison.OrdinalIgnoreCase)).Key;
+                var canonical = oItemList.First(kvp => string.Equals(kvp.Key, SelectedLanguage, StringComparison.OrdinalIgnoreCase)).Key;
                 m_cbLanguage.SelectedValue = canonical;
                 SelectedLanguage = canonical;
             }
@@ -97,21 +112,21 @@ namespace VokabelTrainer.Forms
 
                 if (uiCulture != null)
                 {
-                    found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, uiCulture.Name, StringComparison.OrdinalIgnoreCase));
+                    found = oItemList.FirstOrDefault(kvp => string.Equals(kvp.Key, uiCulture.Name, StringComparison.OrdinalIgnoreCase));
 
                     if (found.Key == null)
                     {
-                        found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, uiCulture.TwoLetterISOLanguageName, StringComparison.OrdinalIgnoreCase));
+                        found = oItemList.FirstOrDefault(kvp => string.Equals(kvp.Key, uiCulture.TwoLetterISOLanguageName, StringComparison.OrdinalIgnoreCase));
                     }
 
                     if (found.Key == null && uiCulture.Name.Equals("zh-TW"))
                     {
-                        found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHT", StringComparison.OrdinalIgnoreCase));
+                        found = oItemList.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHT", StringComparison.OrdinalIgnoreCase));
                     }
 
                     if (found.Key == null && uiCulture.TwoLetterISOLanguageName.Equals("zh"))
                     {
-                        found = items.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHS", StringComparison.OrdinalIgnoreCase));
+                        found = oItemList.FirstOrDefault(kvp => string.Equals(kvp.Key, "zh-CHS", StringComparison.OrdinalIgnoreCase));
                     }
 
                 }
