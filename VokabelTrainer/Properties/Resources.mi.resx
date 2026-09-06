@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>Berlinale: Te Hakari Kiriata</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>Te Hakari Kiriata i Cannes</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>Ngā whakanuinga huritau mō ngā tamariki me te Buddha i Hapani me Korea</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>Ngā whakanuinga o te tau hou Hainamana</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>Kei te whakanui ngā Karaitiana puta noa i te ao i te Kirihimete</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>Te Rā o te kanikani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>Te whakanuinga māramatanga Hindu mō te pono e wikitoria ana i ngā teka</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>Te hakari kiriata Āwherika i Durban</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>Kei te whakanui ngā Karaitiana puta noa i te ao i te Aranga</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>Te hakari puoro i Ūropi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>Ngā Mahometa e haereere ana ki Meka: Hajj</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>Kei te whakanui ngā tāngata puta noa i te ao i te tau hou.</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>Nobel: Te Tohu mō te Rongoā, te Matū, te Ahupūngao, te Ōhanga, te Rangimārie me te Tuhituhi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>Ngā kēmu raumati Ōrimipia</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>Kei te whakanui ngā Karaitiana Orthodox i te Kirihimete</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>Kei te whakanui ngā Karaitiana Orthodox i te Aranga</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>Oscar: Ngā tohu a te Academy Film Academy</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>Te Rā Rangimārie o te Ao</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>Te Rā o te rapunga whakaaro</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>Te Rā o te hinengaro</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>Kei te whai wāhi ngā Mahometa puta noa i te ao ki te Ramadan</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>Te rā pānui o te ao</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: te tau hou o Iharaira</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>Te Rā Penapena o te Ao</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>Te Rā Pūtaiao o te Ao</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>Halloween</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>Te whakataetae whutupaoro</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>Ngā kēmu hotoke Ōrimipia</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>Timkat: Te whakanui a ngā Karaitiana o Etiopia i te iriiringa o Ihu</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>Te Rā o Valentine</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>Kia ora!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>Kua mutu te akoranga reo kua whakaritea kētia! Haere tonu ki te pānui i ngā rongo kōrero, ki te mātakitaki kiriata rānei (me ngā kupu ā-tuhi, kāore rānei), ki te whakarongo ki te reo irirangi ipurangi, ki te pānui pukapuka rānei i te reo taketake. Ngā mihi mō tō noho mai ki a mātou tae noa ki te mutunga!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>Hapa!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>He hapa i te utanga o te kōnae XML mō ngā hua whakangungu</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>I puta he hapa i te utanga o te kōnae XML mō ngā hua whakangungu: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>He hapa i te utanga o te kōnae XML mō ngā kupu</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>I puta he hapa i te utanga o te kōnae XML mō ngā kupu: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>I puta he hapa i te tiakitanga o te kōnae hua whakangungu: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>I puta he hapa i te tiakitanga o te kōnae kupu: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>Mahi {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>Ngā mihi mō tō whakamātau i te pukapuka kupu whakamātau. Tukuna mai ō whakaaro hei whakapai ake i te huinga kōrero ipurangi, mēnā ka kitea e koe he hapa, he whakamāoritanga rānei e rite ana te tangi. Whakahuatia te putanga o te pūmanawa, ngā ingoa o ngā reo, ngā takirua kupu me ngā whakapainga. Ko te mea pai rawa atu, kohia ngā whakaaro whakapai katoa ka tuku ngātahi ai.</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>Mō tēnei takirua reo, he pukapuka kupu whakamātau kei reira, ā, kei raro i te raihana ōrite ki tā te pūmanawa. I hangaia hei akoranga haere tonu mā ngā pakeke, heoi kāore anō kia arotakehia e ngā kaikōrero taketake o te reo. Kei te hiahia koe ki te whakamātau?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>I ngaro ēnei tikanga kupu:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>I hē ēnei tikanga kupu i whakaurua:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>I ngaro tēnei tikanga kupu:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>I hē tēnei tikanga kupu i whakaurua:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>I ngaro ēnei tikanga kupu:</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>Akoranga Kaha {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>Tuhirua i te kōnae?</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>Kei reira kē te kōnae reo "{0}"; e hiahia ana koe ki te tuhirua i runga?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>Hapa!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>Akoranga tino kaha {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>Ngā kupu hou</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>Mō tēnei takirua reo, he pukapuka kupu kei reira, ā, kei raro i te raihana ōrite ki tā te pūmanawa. I hangaia hei akoranga haere tonu mā ngā pakeke. Kei te hiahia koe ki te whakamātau?</value>
+  </data>
+</root>

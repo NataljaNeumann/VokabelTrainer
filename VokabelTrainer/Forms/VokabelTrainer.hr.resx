@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Učitaj jezičnu datoteku</value>
@@ -129,7 +129,7 @@
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Datoteke rječnika|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
     <value>507, 216</value>
   </data>
@@ -140,7 +140,7 @@
     <value>183, 246</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 16</value>
+    <value>226, 16</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Informacije o vježbačima vokabulara</value>
@@ -152,7 +152,7 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 16</value>
+    <value>80, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Čitaj naglas:</value>
@@ -179,7 +179,7 @@
     <value>231, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 16</value>
+    <value>117, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Preuzmite eSpeak</value>
@@ -188,7 +188,7 @@
     <value>186, 273</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 20</value>
+    <value>124, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Koristite eSpeak</value>
@@ -200,36 +200,12 @@
     <value>218, 20</value>
   </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 16</value>
+    <value>149, 16</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>Bez učenja (nasumično)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Vježbač rječnika</value>
-  </data>
-  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
   </data>
 </root>

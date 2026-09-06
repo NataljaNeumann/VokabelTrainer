@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>Berlinale: Festum Cinematographicum</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>Festum Cinematographicum Cannense</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>Celebrationes natalium liberorum et Buddhae in Iaponia et Corea</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>Celebrationes Anni Novi Sinensis</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>Christiani ubique terrarum Diem Natalem Christi celebrant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>Dies Saltationis</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>Festum Hinduisticum luminis de veritate mendacium vincente</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>Festum Cinematographicum Africanum Durbanense</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>Christiani ubique terrarum Pascha celebrant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>Festum Musicum Europaeum</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>Musulmani Meccam peregrinantur: Hajj</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>Homines ubique terrarum Annum Novum celebrant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>Praemium Nobelianum: pro Medicina, Chemia, Physica, Oeconomia, Pace et Litteris</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>Ludi Olympici Aestivi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>Christiani Orthodoxi Diem Natalem Christi celebrant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>Christiani Orthodoxi Pascha celebrant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>Praemium Oscar: Praemia Academiae Cinematographicae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>Dies Pacis Mundanae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>Dies Philosophiae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>Dies Psychologiae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>Musulmani ubique terrarum Ramadan observant</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>Dies Mundanus Lectionis</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Annus Novus Israeliticus</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>Dies Mundanus Pecuniae Servandae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>Dies Mundanus Scientiae</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>Vigilia Omnium Sanctorum (Halloween)</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>Certamen Pediludii</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>Ludi Olympici Hiemales</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>Timkat: Christiani Aethiopes Baptismum Iesu celebrantes</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>Dies Sancti Valentini</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>Gratulor!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>Cursus linguae praestitutus confectus est! Perge et nuntios lege, pelliculas specta (cum titulis vel sine eis), radiophonum interretiale audi vel libros lingua originali lege. Gratias tibi agimus quod nobiscum usque ad finem mansisti!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>Error!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>Error in onerando fasciculo XML exituum exercitationis</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>Error accidit in onerando fasciculo XML exituum exercitationis: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>Error in onerando fasciculo XML vocabularii</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>Error accidit in onerando fasciculo XML vocabularii: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>Error accidit in servando fasciculo exituum exercitationis: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>Error accidit in servando fasciculo vocabularii: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>Exercitatio {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>Gratias tibi agimus quod librum vocabulorum experimentalem probavisti. Quaeso, consilia tua de emendatione in foro scribe, si errores vel plures translationes sono similes inveneris. Versionem programmatis, nomina linguarum, paria verborum atque emendationes indica. Optime facies, si omnia consilia de emendatione collegeris et simul scripseris.</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>Pro hoc pari linguarum exstat liber vocabulorum experimentalis; eadem licentia ac programma tegitur. Ut cursus continuus adultis destinatus creatus est, quamquam a hominibus linguae nativis non recognitus est. Visne eum experiri?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>Significationes sequentes deerant:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>Significationes sequentes inductae erroneae erant:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>Significatio sequens deerat:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>Significatio sequens inducta erronea erat:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>Significationes sequentes deerant:</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>Intensiva {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>Visne fasciculum rescribere?</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>Fasciculus linguae "{0}" iam exstat; visne eum rescribere?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>Error!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>Maxime intensiva {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>Verba nova</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>Pro hoc pari linguarum exstat liber vocabulorum; eadem licentia ac programma tegitur. Ut cursus continuus adultis destinatus creatus est. Visne eum experiri?</value>
+  </data>
+</root>

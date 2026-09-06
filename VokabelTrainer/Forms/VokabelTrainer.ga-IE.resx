@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="m_btnLoadLanguageFile.Text" xml:space="preserve">
     <value>Íoslódáil an comhad teanga</value>
@@ -129,12 +129,12 @@
   <data name="m_dlgOpenFileDialog.Filter" xml:space="preserve">
     <value>Comhaid stór focal|*.Vocabulary.xml;*.Vokabeln.xml</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
     <value>492, 216</value>
   </data>
   <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 16</value>
+    <value>126, 16</value>
   </data>
   <data name="m_lblShowLicense.Text" xml:space="preserve">
     <value>Ceadúnas (GPL v2) </value>
@@ -143,7 +143,7 @@
     <value>183, 246</value>
   </data>
   <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 16</value>
+    <value>176, 16</value>
   </data>
   <data name="m_lblShowAbout.Text" xml:space="preserve">
     <value>Eolas faoi oiliúnóirí stór focal</value>
@@ -155,7 +155,7 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="m_lblReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 16</value>
+    <value>84, 16</value>
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>Léigh os ard:</value>
@@ -182,7 +182,7 @@
     <value>212, 21</value>
   </data>
   <data name="m_lblDownloadESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 16</value>
+    <value>178, 16</value>
   </data>
   <data name="m_lblDownloadESpeak.Text" xml:space="preserve">
     <value>Íosluchtaigh leabhar eSpeak</value>
@@ -191,7 +191,7 @@
     <value>258, 273</value>
   </data>
   <data name="m_chkUseESpeak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 20</value>
+    <value>113, 20</value>
   </data>
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>Úsáid eSpeak</value>
@@ -202,41 +202,16 @@
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 20</value>
   </data>
+  <data name="m_lblDontLearnAquire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 246</value>
+  </data>
   <data name="m_lblDontLearnAquire.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 16</value>
+    <value>165, 16</value>
   </data>
   <data name="m_lblDontLearnAquire.Text" xml:space="preserve">
     <value>Gan foghlaim (randamach)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Oiliúnóir do stór focal</value>
-  </data>
-  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_chkUseESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_lblDontLearnAquire.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-    <comment>Automatically fixed</comment>
   </data>
 </root>

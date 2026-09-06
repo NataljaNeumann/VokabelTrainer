@@ -117,22 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data xml:space="preserve" name="m_labelSelectLanguage.Text">
+  <data name="m_labelSelectLanguage.Text" xml:space="preserve">
     <value>Quaeso, unam ex linguis praesto pro interfacie graphica selige. Linguam elige quae differt ab ea quam discere vis; nam quaedam rationes programmatis ita constituuntur ut lingua interfaciei non sit ea quam discere cupis.</value>
   </data>
-  <data xml:space="preserve" name="m_btnCancel.Text">
+  <data name="m_btnCancel.Text" xml:space="preserve">
     <value>Cancella</value>
   </data>
-  <data xml:space="preserve" name="m_btnOk.Text">
+  <data name="m_btnOk.Text" xml:space="preserve">
     <value>Bene</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Text" xml:space="preserve">
     <value>Ratio culturalis interfaciei graphicae </value>
   </data>
 </root>

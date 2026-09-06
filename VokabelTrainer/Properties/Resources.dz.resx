@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>Berlinale: གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>ཀེན་ནིསི་ལུ་གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>ཇ་པཱན་དང་ཀོ་རི་ཡ་ལུ་ ཨ་ལོ་དང་སངས་རྒྱས་ཀྱི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>རྒྱ་ནག་གི་ལོ་གསར་སྲུང་བརྩི།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུའི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>ཞབས་བྲོའི་ཉིནམ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>བདེན་པ་གིས་རྫུན་གཏམ་ལས་རྒྱལ་ཁ་ཐོབ་པའི་དོན་ལུ་ ཧིན་དུའི་འོད་ཀྱི་དགའ་སྟོན་བརྩི་སྲུང་།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>ཌར་བྷན་ལུ་ ཨཕ་རི་ཀའི་གློག་བརྙན་དུས་སྟོན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཨིསི་ཊར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>ཡུ་རོབ་ལུ་ རོལ་དབྱངས་དུས་སྟོན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>མུ་ས་ལིམ་ཚུ་གིས་ མེ་ཀ་ལུ་གནས་སྐོར་འབད་མི་: ཧ་ཇི།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་མི་ཚུ་གིས་ ལོ་གསར་བརྩི་སྲུང་འབད་དོ་ཡོདཔ་ཨིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>ནོ་བྷེལ་: སྨན་རིགས་དང་རྫས་ཁམས་རིག་པ་ དངོས་ཁམས་རིག་པ་ དཔལ་འབྱོར་ ཞི་བདེ་དང་རྩོམ་རིག་གི་གཟེངས་རྟགས།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>ཨོ་ལིམ་པིག་དབྱར་དུས་ཀྱི་ལུས་རྩལ་འགྲན་སྡུར།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>ཡེ་ཤུ་པའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུའི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཨིསི་ཊར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>Oscar: གློག་བརྙན་སློབ་གླིང་གི་རྟགས་མ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>འཛམ་གླིང་ཞི་བདེའི་ཉིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>མཚན་ཉིད་རིག་པའི་ཉིན་མོ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>སེམས་ཁམས་རིག་པའི་ཉིན་མོ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>འཛམ་གླིང་ཡོངས་ཀྱི་མུ་ས་ལིམ་ཚུ་གིས་ ར་མ་དཱན་ནང་ བཅའ་མར་གཏོགས་དོ་ཡོདཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>འཛམ་གླིང་ལྷག་ནིའི་ཉིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>རོཤ་ཧ་ཤ་ན་: ཨི་ཟི་རེལ་གྱི་ལོ་གསརཔ།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>འཛམ་གླིང་གསོག་འཇོག་ཉིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>འཛམ་གླིང་ཚན་རིག་ཉིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>ཧ་ལོ་ཝིན།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>རྐང་རྩེད་འགྲན་བསྡུར།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>ཨོ་ལིམ་པིག་དགུན་དུས་ཀྱི་ལུས་རྩལ་འགྲན་སྡུར།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>ཏིམ་ཀཊ་: ཨི་ཐོ་པི་ཡ་གི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུ་གི་ཁྲུས་གསོལ་དྲན་གསོ་འབད་བའི་བསྒང་།</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>བརྩེ་དུང་གི་ཉིན།</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>བཀྲིས་བདེ་ལེགས།</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>སྔོན་སྒྲིག་སྐད་ཡིག་སློབ་ཚན་འདི་མཇུག་བསྡུ་ཡི། འགྱོ་སྟེ་ གནས་ཚུལ་ཚུ་ལྷག་སྟེ་ གློག་བརྙན་ཚུ་ ཁ་བསྡམས་བཞག་སྟེ་ ཡང་ན་ ཁ་བསྡམ་བཞག་སྟེ་ བལྟ་སྟེ་ ཡོངས་འབྲེལ་གྱི་ རེ་ཌིའོ་ཁ་ཕྱེ་སྟེ་ ཡང་ན་ སྐད་ཡིག་ངོ་མའི་ནང་ ཀི་དེབ་ཚུ་ལྷག་སྟེ་ འགྱོ་དགོ། མཇུག་ཚུན་ཚོད་ ང་བཅས་དང་གཅིག་ཁར་སྡོད་མི་ལུ་བཀའ་དྲིན་ཆེ།</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>འཛོལ༌བ!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་: {0} མངོན་གསལ་འབད་བའི་སྐབས་ འཛོལ་བ་བྱུང་ནུག།</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>མིང་ཚིག་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>མིང་ཚིག་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ་ཅིག་བྱུང་ནུག: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ཡིག་སྣོད་སྲུང་བཞག་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>མིང་ཚིག་ཡིག་སྣོད་སྲུང་བཞག་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>སྦྱོང་བརྡར་ {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>བརྟག་དཔྱད་མིང་ཚིག་ཀི་དེབ་འདི་ འབད་རྩོལ་བསྐྱེད་མི་ལུ་བཀའ་དྲིན་ཆེ། ཁྱོད་ཀྱིས་ འཛོལ་བ་དང་ ཡང་ན་ སྐད་སྒྱུར་ཚུ་ ཅོག་འཐདཔ་སྦེ་ གོ་ཚུགས་པ་ཅིན་ ཁྱོད་རའི་ ཡར་དྲག་གཏང་ནིའི་ བསམ་འཆར་ཚུ་ གྲོས་འཛོམས་ནང་ བཀོད་གནང་། མཉེན་ཆས་ཀྱི་ཐོན་རིམ་དང་སྐད་ཡིག་གི་མིང་ མིང་ཚིག་ཆ་གཅིག་དང་ ཡར་རྒྱས་ཚུ་བཤད་དགོ། གནས་སྟངས་ལེགས་ཤོམ་ནང་ ཡར་དྲག་གཏང་ནིའི་བསམ་འཆར་ཚུ་ག་ར་བསྡུ་སྟེ་ ཚར་གཅིག་ལུ་ བཀོད་བཞག་དགོ།</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>སྐད་ཡིག་ཆ་འདི་གི་དོན་ལུ་ བརྟག་དཔྱད་མིང་ཚིག་ཀི་དེབ་ཅིག་ཡོདཔ་ད་ དེ་ཡང་ མཉེན་ཆས་དང་གཅིག་ཁར་ ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ཡོདཔ་ཨིན། འདི་ཡང་ མི་རྒས་ཤོས་ཚུ་གི་དོན་ལུ་ འཕྲོ་མཐུད་དེ་རང་ སློབ་ཚན་ཅིག་སྦེ་ བཟོ་བཀོད་འབད་དེ་ཡོད་རུང་ ས་གནས་ཀྱི་ཁ་སླབ་མི་ཚུ་གིས་ བདེན་དཔྱད་འབད་མ་ཚུགས་པས། ཁྱོད་ཀྱིས་ཚོད་ལྟ་འབད་ནི་ཨིན་ན?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>འོག་གི་དོན་དག་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ཨིན།</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>འོག་གི་བཙུགས་ཡོད་པའི་དོན་དག་ཚུ་འཛོལ་བ་ཨིན་པས། </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>འོག་གི་དོན་དག་འདི་བརླག་སོང་ནུག། </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>འོག་གི་བཙུགས་ཡོད་པའི་དོན་དག་འདི་འཛོལ་བ་ཨིན་མས། </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>འོག་གི་དོན་དག་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ཨིན།  </value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>ཤུགས་ཆེ་བའི་ {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>ཡིག་སྣོད་ཚབ་སྲུང་འབད་ནི་ཨིན་ན? </value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>སྐད་ཡིག་ཡིག་སྣོད་ "{0}" འདི་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན་ ཁྱོད་ཀྱིས་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>འཛོལ་བ!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>ཤུགས་ཆེ་ཤོས་ {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>ཚིག་གསརཔ།</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>སྐད་ཡིག་ཆ་འདི་གི་དོན་ལུ་ མིང་ཚིག་ཀི་དེབ་ཅིག་ཡོདཔ་ད་ དེ་ཡང་ མཉེན་ཆས་དང་གཅིག་ཁར་ ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ཡོདཔ་ཨིན། རྒས་ཤོས་ཚུ་གི་དོན་ལུ་ འཕྲོ་མཐུད་སློབ་ཚན་ཅིག་སྦེ་ བཟོ་བཀོད་འབད་ཡོདཔ་ཨིན། ཁྱོད་ཀྱིས་ཚོད་ལྟ་འབད་ནི་ཨིན་ན?</value>
+  </data>
+</root>

@@ -112,19 +112,62 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblShownText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 21.75pt</value>
+  </data>
+  <data name="m_lblAskedTranslation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 14.25pt</value>
+  </data>
+  <data name="m_tbxAskedTranslation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 20.25pt</value>
+  </data>
+  <data name="m_tbxAskedTranslation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 43</value>
+  </data>
+  <data name="m_btnNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 18pt</value>
+  </data>
+  <data name="m_btnNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 200</value>
+  </data>
+  <data name="m_btnNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 38</value>
+  </data>
   <data name="m_btnNext.Text" xml:space="preserve">
     <value>རྗེས་མ</value>
+  </data>
+  <data name="m_btnLast.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 18pt</value>
+  </data>
+  <data name="m_btnLast.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 200</value>
+  </data>
+  <data name="m_btnLast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 38</value>
   </data>
   <data name="m_btnLast.Text" xml:space="preserve">
     <value>སྔོན་མ</value>
   </data>
+  <data name="m_btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 18pt</value>
+  </data>
+  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 200</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 38</value>
+  </data>
   <data name="m_btnCancel.Text" xml:space="preserve">
     <value>འདོར་བ</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>705, 250</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>སྦྱོང་བརྡར</value>

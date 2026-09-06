@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>Berlinale: Tamasha la Filamu</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>Tamasha la Filamu la Cannes</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>Sherehe za watoto na siku ya kuzaliwa ya Buddha nchini Japani na Korea</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>Sherehe za Mwaka Mpya wa Kichina</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>Wakristo kote duniani wanasherehekea Krismasi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>Siku ya Dansi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>Tamasha la Kihindu la taa kusherehekea ushindi wa ukweli dhidi ya uongo</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>Tamasha la Filamu za Kiafrika jijini Durban</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>Wakristo kote duniani wanasherehekea Pasaka</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>Tamasha la Muziki barani Ulaya</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>Waislamu kufanya hija Makka: Hija (Hajj)</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>Watu kote duniani wanasherehekea Mwaka Mpya.</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>Nobel: Tuzo za Tiba, Kemia, Fizikia, Uchumi, Amani na Fasihi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>Michezo ya Olimpiki ya Majira ya Joto</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>Wakristo wa Kanisa la Orthodox wanasherehekea Krismasi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>Wakristo wa Kanisa la Orthodox wanasherehekea Pasaka</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>Oscar: Tuzo za Chuo cha Filamu</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>Siku ya Amani Duniani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>Siku ya Falsafa</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>Siku ya Saikolojia</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>Waislamu kote duniani wanashiriki katika Ramadhani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>Siku ya Kusoma Duniani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Mwaka Mpya wa Israeli</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>Siku ya Akiba Duniani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>Siku ya Sayansi Duniani</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>Halloween</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>Mashindano ya Soka</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>Michezo ya Olimpiki ya Majira ya Baridi</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>Timkat: Wakristo wa Ethiopia wanaoadhimisha Ubatizo wa Yesu</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>Siku ya Wapendanao</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>Hongera!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>Kozi ya lugha iliyopangwa awali imekamilika! Endelea kusoma habari, kutazama filamu (zenye au bila maneno ya maandishi), kuwasha redio ya mtandaoni au kusoma vitabu katika lugha asilia. Asante kwa kuwa nasi hadi mwisho!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>Hitilafu!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>Hitilafu wakati wa kupakia faili ya XML ya matokeo ya mafunzo</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>Hitilafu imetokea wakati wa kupakia faili ya XML ya matokeo ya mafunzo: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>Hitilafu wakati wa kupakia faili ya XML ya msamiati</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>Hitilafu imetokea wakati wa kupakia faili ya XML ya msamiati: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>Hitilafu imetokea wakati wa kuhifadhi faili ya matokeo ya mafunzo: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>Hitilafu imetokea wakati wa kuhifadhi faili ya msamiati: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>Zoezi {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>Asante kwa kujaribu kitabu cha majaribio cha msamiati. Tafadhali weka mapendekezo yako ya uboreshaji kwenye jukwaa, iwapo utapata makosa au tafsiri zaidi zinazosikika sawa. Taja toleo la programu, majina ya lugha, jozi za maneno na maboresho. Inapendeza zaidi kukusanya mapendekezo yote ya uboreshaji na kuyaweka yote kwa wakati mmoja.</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>Kwa jozi hii ya lugha kuna kitabu cha majaribio cha msamiati; kinatumia leseni sawa na ile ya programu. Kimeundwa kama kozi endelevu kwa watu wazima, hata hivyo hakijapitiwa na wazungumzaji asilia wa lugha hiyo. Je, ungependa kukijaribu?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>Maana zifuatazo zilikuwa hazipo:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>Maana zifuatazo zilizowekwa zilikuwa si sahihi:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>Maana ifuatayo ilikuwa haipo:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>Maana ifuatayo iliyowekwa ilikuwa si sahihi:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>Maana zifuatazo zilikuwa hazipo:</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>Ya kina {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>Andika juu ya faili iliyopo?</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>Faili ya lugha "{0}" tayari ipo; je, ungependa kuiandikia upya?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>Kosa!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>Mafunzo ya kina zaidi {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>Maneno mapya</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>Kwa jozi hii ya lugha kuna kitabu cha msamiati; kinatumia leseni sawa na ile ya programu. Kimeundwa kama kozi endelevu kwa watu wazima. Je, ungependa kukijaribu?</value>
+  </data>
+</root>

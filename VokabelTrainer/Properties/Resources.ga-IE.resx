@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>Berlinale: Féile Scannán</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>Féile Scannán i Cannes</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>Ceiliúradh do leanaí agus do bhreithlá an Bhúda sa tSeapáin agus sa Chóiré</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>Ceiliúradh na hAthbhliana Síneí</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>Críostaithe ar fud an domhain ag ceiliúradh na Nollag</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>Lá na Rince</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>Féile sholais Hiondúch a cheiliúrann bua na fírinne ar an mbréag</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>Féile Scannán Afracach i Durban</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>Críostaithe ar fud an domhain ag ceiliúradh na Cásca</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>Féile Cheoil san Eoraip</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>Moslamaigh ag déanamh oilithreachta go Mecca: an Hajj</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>Daoine ar fud an domhain ag ceiliúradh na hAthbhliana</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>Duais Nobel: Leigheas, Ceimic, Fisic, Eacnamaíocht, Síocháin agus Litríocht</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>Cluichí Oilimpeacha an tSamhraidh</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>Críostaithe Ceartchreidmheacha ag ceiliúradh na Nollag</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>Críostaithe Ceartchreidmheacha ag ceiliúradh na Cásca</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>Oscar: Dámhachtainí Acadamh na Scannán</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>Lá Domhanda na Síochána</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>Lá na Fealsúnachta</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>Lá na Síceolaíochta</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>Moslamaigh ar fud an domhain ag glacadh páirte i mí an Ramadáin</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>Lá Domhanda na Léitheoireachta</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>Rosh Hashanah: Athbhliain Iosrael</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>Lá Domhanda na Sábhála</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>Lá Domhanda na hEolaíochta</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>Oíche Shamhna</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>Craobhchomórtas Sacair</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>Cluichí Oilimpeacha an Gheimhridh</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>Timkat: Críostaithe san Aetóip ag comóradh Baisteadh Íosa</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>Lá Fhéile Vailintín</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>Comhghairdeas!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>Tá an cúrsa teanga réamhshainithe críochnaithe! Lean ort ag léamh an nuachta, ag breathnú ar scannáin (le fotheidil nó gan iad), ag éisteacht le raidió idirlín nó ag léamh leabhar sa bhunteanga. Go raibh maith agat as fanacht linn go dtí an deireadh!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>Earráid!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>Earráid agus comhad XML na dtorthaí oiliúna á luchtú</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>Tharla earráid agus comhad XML na dtorthaí oiliúna á luchtú: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>Earráid agus comhad XML an stór focal á luchtú</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>Tharla earráid agus comhad XML an stór focal á luchtú: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>Tharla earráid agus comhad na dtorthaí oiliúna á shábháil: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>Tharla earráid agus comhad an stór focal á shábháil: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>Cleachtadh {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>Go raibh maith agat as triail a bhaint as an leabhar stór focal turgnamhach. Cuir do chuid moltaí feabhsúcháin sa bhfóram, le do thoil, má aimsíonn tú earráidí nó tuilleadh aistriúchán a bhfuil fuaim chosúil leo. Luaigh leagan na bogearraí, ainmneacha na dteangacha, na péirí focal agus na feabhsúcháin. Sa chás is fearr, bailigh na moltaí feabhsúcháin go léir agus cuir sa phost iad ag an am céanna.</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>Tá leabhar stór focal turgnamhach ann don phéire teangacha seo; tá sé faoin gceadúnas céanna leis na bogearraí. Dearadh é mar chúrsa leanúnach do dhaoine fásta, ach níor léigh cainteoirí dúchais tríd chun é a cheartú. Ar mhaith leat triail a bhaint as?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>Bhí na bríonna seo a leanas ar iarraidh:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>Bhí na bríonna seo a leanas a cuireadh isteach mícheart:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>Bhí an bhrí seo a leanas ar iarraidh:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>Bhí an bhrí seo a leanas a cuireadh isteach mícheart:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>Bhí na bríonna seo a leanas ar iarraidh:</value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>Dianchúrsa {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>An scríobhfar thairis ar an gcomhad?</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>Tá an comhad teanga "{0}" ann cheana féin; an bhfuil tú ag iarraidh scríobh thairis air?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>Botún!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>Dianchúrsa Breise {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>Focail nua</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>Tá leabhar stór focal ann don phéire teangacha seo; tá sé faoin gceadúnas céanna leis na bogearraí. Dearadh é mar chúrsa leanúnach do dhaoine fásta. Ar mhaith leat triail a bhaint as?</value>
+  </data>
+</root>

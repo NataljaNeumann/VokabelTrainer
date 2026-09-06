@@ -126,11 +126,11 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 333</value>
+    <value>738, 376</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.7
-কপিৰাইট © ২০২৪-২০২৬ NataljaNeumann@gmx.de
+কপিৰাইট © 2024-2026 NataljaNeumann@gmx.de
 
 এই প্ৰগ্ৰেমটো হৈছে বিনামূলীয়া চফ্টৱেৰ; আপুনি ইয়াক পুনৰ বিতৰণ কৰিব পাৰে আৰু/বা ইয়াক GNU সাধাৰণ ৰাজহুৱা অনুজ্ঞাৰ চৰ্তসমূহৰ অধীনত পৰিবৰ্তন কৰিব পাৰে যিদৰে বিনামূলীয়া চফ্টৱেৰ ফাউণ্ডেচন (Free Software Foundation) দ্বাৰা প্ৰকাশ কৰা হৈছে; হয় অনুজ্ঞাৰ সংস্কৰণ 2, বা (আপোনাৰ বিকল্পত) যিকোনো পিছৰ সংস্কৰণ ।
 
@@ -143,7 +143,7 @@
     <value>11, 24</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>711, 360</value>
+    <value>771, 403</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>

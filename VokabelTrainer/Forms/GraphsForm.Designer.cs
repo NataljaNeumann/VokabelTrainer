@@ -20,33 +20,24 @@
             // 
             // m_lblTotal
             // 
-            this.m_lblTotal.AccessibleDescription = null;
-            this.m_lblTotal.AccessibleName = null;
             resources.ApplyResources(this.m_lblTotal, "m_lblTotal");
             this.m_lblTotal.Name = "m_lblTotal";
             // 
             // m_lblWords
             // 
-            this.m_lblWords.AccessibleDescription = null;
-            this.m_lblWords.AccessibleName = null;
             resources.ApplyResources(this.m_lblWords, "m_lblWords");
             this.m_lblWords.Name = "m_lblWords";
             // 
             // m_lblWordsLearned
             // 
-            this.m_lblWordsLearned.AccessibleDescription = null;
-            this.m_lblWordsLearned.AccessibleName = null;
             resources.ApplyResources(this.m_lblWordsLearned, "m_lblWordsLearned");
             this.m_lblWordsLearned.Name = "m_lblWordsLearned";
             // 
             // GraphsForm
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.BackgroundImage = null;
             this.Controls.Add(this.m_lblWordsLearned);
             this.Controls.Add(this.m_lblWords);
             this.Controls.Add(this.m_lblTotal);

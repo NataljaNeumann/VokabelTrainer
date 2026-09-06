@@ -126,11 +126,11 @@
     <value>5, 0, 5, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>801, 501</value>
+    <value>918, 501</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>VokabelTrainer v1.7
-པར་དབང་ © ༢༠༢༤-༢༠༢༦ NataljaNeumann@gmx.de
+པར་དབང་ © 2024-2026 NataljaNeumann@gmx.de
 
 ལས་རིམ་འདི་རིན་མེད་མཉེན་ཆས་ཨིན། ཁྱོད་ཀྱིས་ GNU སྤྱིར་བཏང་མི་མང་ཆོག་ཐམ་གྱི་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ (Free Software Foundation) གིས་དཔར་བསྐྲུན་འབད་ཡོད་པའི་གནས་ཚིག་ཚུ་གི་འོག་ལུ་ ལོག་སྟེ་བཀྲམ་སྤེལ་འབད་ཚུགས་ནི་དང་/ཡང་ན་ ལེགས་བཅོས་འབད་ཚུགས། ཡང་ན་ ཆོག་ཐམ་གྱི་ཐོན་རིམ་༢ ཡང་ན་ (ཁྱོད་ཀྱི་གདམ་ཁ་ནང་) ཤུལ་མའི་ཐོན་རིམ་གང་རུང་ཅིག།
 
@@ -144,7 +144,7 @@ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  021
     <value>13, 35</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>840, 541</value>
+    <value>957, 541</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Pristina, 20.25pt</value>

@@ -185,7 +185,7 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>ਔਨ-ਸਕ੍ਰੀਨ ਕੀਬੋਰਡ (osk.exe)</value>
+    <value>ਔਨ-ਸਕ੍ਰੀਨ ਕੀਬੋਰਡ</value>
   </data>
   <data name="m_lblReader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>

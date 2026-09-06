@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>বাৰ্লিনেল: চিনেমা উৎসৱ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>কানত চলচ্চিত্ৰ মহোৎসৱ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>জাপান আৰু কোৰিয়াত শিশু আৰু বুদ্ধৰ জন্মদিন উদযাপন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>চীনৰ নৱবৰ্ষ উদযাপন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>সমগ্ৰ বিশ্বতে খ্ৰীষ্টানসকলে বৰদিন উদযাপন কৰিছে</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>নৃত্যৰ দিন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>মিছাৰ ওপৰত সত্য জয় কৰাৰ বাবে হিন্দু পোহৰ উদযাপন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>ডাৰবানত আফ্ৰিকান চিনেমা উৎসৱ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>সমগ্ৰ বিশ্বতে খ্ৰীষ্টানসকলে ইষ্টাৰ উদযাপন কৰিছে</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>ইউৰোপত সংগীত উৎসৱ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>মক্কালৈ মুছলমান তীৰ্থযাত্ৰী: হজ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>সমগ্ৰ বিশ্বৰ মানুহে নতুন বছৰ উদযাপন কৰিছে।</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>নোবেল: চিকিৎসা, ৰসায়ন, পদাৰ্থ বিজ্ঞান, অৰ্থনীতি, শান্তি আৰু সাহিত্যৰ বঁটা</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>অলিম্পিক গ্ৰীষ্মকালীন খেল</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>অৰ্থডক্স খ্ৰীষ্টানসকলে বৰদিন উদযাপন কৰিছে</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>অৰ্থডক্স খ্ৰীষ্টানসকলে ইষ্টাৰ উদযাপন কৰিছে</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>অস্কাৰ: ফিল্ম একাডেমীৰ বঁটা</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>বিশ্ব শান্তি দিৱস</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>দৰ্শনৰ দিন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>মনোবিজ্ঞানৰ দিন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>সমগ্ৰ বিশ্বৰ মুছলমানসকলে ৰমজানত অংশগ্ৰহণ কৰিছে</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>বিশ্ব পঠন দিৱস</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>ৰোছ হাছানাহ: ইজৰাইলৰ নতুন বছৰ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>বিশ্ব সঞ্চয় দিৱস</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>বিশ্ব বিজ্ঞান দিৱস</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>হ্যালোইন</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>ফুটবল চেম্পিয়নশ্বিপ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>অলিম্পিকৰ শীতকালীন খেল</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>টিমকাট: ইথিওপিয়াৰ খ্ৰীষ্টানসকলে যীচুৰ বাপ্তিস্মৰ স্মৃতিত</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>ভেলেণ্টাইন ডে</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>অভিনন্দন!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>পূৰ্বনিৰ্ধাৰিত ভাষাৰ পাঠ্যক্ৰম শেষ হ’ল! আগবাঢ়ি যাওক আৰু কিছুমান বাতৰি পঢ়ক, বন্ধ কেপচন থকা বা নথকা কিছুমান চিনেমা চাওক, ইণ্টাৰনেট ৰেডিঅ’ অন কৰক বা মূল ভাষাৰ কিছুমান কিতাপ পঢ়ক। শেষলৈকে আমাৰ লগত থকাৰ বাবে ধন্যবাদ!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>আঁসোৱাহ!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>প্ৰশিক্ষণ ফলাফল XML ফাইল লোড কৰাৰ সময়ত ত্ৰুটি</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>প্ৰশিক্ষণ ফলাফল XML ফাইল লোড কৰাৰ সময়ত এটা ভুল হৈছে: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>শব্দভাণ্ডাৰ XML ফাইল লোড কৰাৰ সময়ত ত্ৰুটি</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>শব্দভাণ্ডাৰ XML ফাইল লোড কৰাৰ সময়ত এটা ভুল হৈছে: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>প্ৰশিক্ষণ ফলাফল ফাইল সংৰক্ষণ কৰাৰ সময়ত এটা ভুল হৈছে: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>শব্দভাণ্ডাৰ ফাইল সংৰক্ষণ কৰাৰ সময়ত এটা ভুল হৈছে: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>ব্যায়াম {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>পৰীক্ষামূলক শব্দভাণ্ডাৰৰ কিতাপখন চেষ্টা কৰাৰ বাবে ধন্যবাদ। অনুগ্ৰহ কৰি আপোনাৰ উন্নতিৰ পৰামৰ্শসমূহ মঞ্চত পোষ্ট কৰক, যদি আপুনি ভুল বা অধিক অনুৰূপ শব্দৰ অনুবাদ পায়। চফট্ ৱেৰৰ সংস্কৰণ, ভাষাৰ নাম, শব্দৰ যোৰ আৰু উন্নতিৰ কথা উল্লেখ কৰক। উত্তম ক্ষেত্ৰত সকলো উন্নতিৰ পৰামৰ্শ সংগ্ৰহ কৰি সকলোবোৰ একেলগে পোষ্ট কৰক।</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>এই ভাষা যোৰৰ বাবে এটা পৰীক্ষামূলক শব্দভাণ্ডাৰৰ কিতাপ আছে, ই চফট্ ৱেৰৰ সৈতে একে অনুজ্ঞাপত্ৰৰ অধীনত আছে। ইয়াক প্ৰাপ্তবয়স্কৰ বাবে এক অবিৰত পাঠ্যক্ৰম হিচাপে ডিজাইন কৰা হৈছে, অৱশ্যে ইয়াক নেটিভ ভাষীসকলে প্ৰুফৰিড কৰা নাই। আপুনি ইয়াক চেষ্টা কৰি চাব বিচাৰেনে?</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>তলত দিয়া অৰ্থবোৰ নোহোৱা হৈছিল:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>তলত দিয়া অৰ্থবোৰ ভুল আছিল: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>তলত দিয়া অৰ্থ নোহোৱা হৈছিল: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>তলত প্ৰৱেশ কৰা অৰ্থ ভুল আছিল: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>তলত দিয়া অৰ্থবোৰ নোহোৱা হৈছিল:  </value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>নিবিড় {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>ফাইল অভাৰৰাইট কৰক? </value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>ভাষা নথিপত্ৰ "{0}" ইতিমধ্যে আছে, আপুনি ইয়াক অভাৰৰাইট কৰিব বিচাৰেনে?</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>ভুল!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>সৰ্বাধিক নিবিড় {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>নতুন শব্দ</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>এই ভাষা যোৰৰ বাবে এটা শব্দভাণ্ডাৰৰ কিতাপ আছে, ই চফট্ ৱেৰৰ সৈতে একে অনুজ্ঞাপত্ৰৰ অধীনত আছে। ইয়াক প্ৰাপ্তবয়স্কৰ বাবে এক অবিৰত পাঠ্যক্ৰম হিচাপে ডিজাইন কৰা হৈছে। আপুনি ইয়াক চেষ্টা কৰি চাব বিচাৰেনে?</value>
+  </data>
+</root>

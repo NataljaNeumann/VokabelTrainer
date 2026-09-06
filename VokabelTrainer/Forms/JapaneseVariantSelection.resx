@@ -117,221 +117,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblJapaneseVariant.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;m_btnOk.Name" xml:space="preserve">
+    <value>m_btnOk</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblJapaneseVariant.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 17</value>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 29</value>
   </data>
+  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_lblJapaneseVariant.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 0, 6, 0</value>
   </data>
-  <data name="m_lblJapaneseVariant.Size" type="System.Drawing.Size, System.Drawing">
-    <value>779, 59</value>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblJapaneseVariant.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_lblJapaneseVariant.Text" xml:space="preserve">
-    <value>Please select the variant of the Japanese language that you want to use</value>
+  <data name="m_btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="m_lblJapaneseVariant.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="&gt;&gt;m_lblJapaneseVariant.Name" xml:space="preserve">
-    <value>m_lblJapaneseVariant</value>
-  </data>
-  <data name="&gt;&gt;m_lblJapaneseVariant.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblJapaneseVariant.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;m_btnOk.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;m_lblJapaneseVariant.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="m_lblJapaneseVariant.Text" xml:space="preserve">
+    <value>Please select the variant of the Japanese language that you want to use</value>
   </data>
-  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 98</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Selection of Variant of Japanese Language</value>
   </data>
-  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>543, 29</value>
-  </data>
-  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Text" xml:space="preserve">
-    <value>Kanji + Hiragana + Katakana (Standard, most difficult)</value>
-  </data>
-  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Name" xml:space="preserve">
-    <value>m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage</value>
-  </data>
-  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Parent" xml:space="preserve">
+  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="m_rbJapaneseHiraganaOnly.AutoSize" type="System.Boolean, mscorlib">
+  <data name="m_rbRomajiUsingLatinLettersOnly.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="m_rbJapaneseHiraganaOnly.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 168</value>
   </data>
-  <data name="m_rbJapaneseHiraganaOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 29</value>
-  </data>
-  <data name="m_rbJapaneseHiraganaOnly.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="m_rbJapaneseHiraganaOnly.Text" xml:space="preserve">
-    <value>Only Hiragana</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Name" xml:space="preserve">
-    <value>m_rbJapaneseHiraganaOnly</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 203</value>
-  </data>
-  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 29</value>
-  </data>
   <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Text" xml:space="preserve">
-    <value>Rōmaji with special lettters</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Name" xml:space="preserve">
-    <value>m_rbJapaneseRomajiWithLatinAndOtherLetters</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="m_btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>679, 233</value>
-  </data>
-  <data name="m_btnOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 38</value>
-  </data>
-  <data name="m_btnOk.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="m_btnOk.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;m_btnOk.Name" xml:space="preserve">
-    <value>m_btnOk</value>
-  </data>
-  <data name="&gt;&gt;m_btnOk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnOk.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnOk.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.AutoSize" type="System.Boolean, mscorlib">
+  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 133</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 29</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Text" xml:space="preserve">
-    <value>Katakana + Hiragana</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Name" xml:space="preserve">
-    <value>m_rbJapaneseKatakanaAndHiragadaOnly</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 238</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 29</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="m_rbRomajiUsingLatinLettersOnly.Text" xml:space="preserve">
-    <value>Romaji with only latin letters (easiest)</value>
-  </data>
-  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Name" xml:space="preserve">
-    <value>m_rbRomajiUsingLatinLettersOnly</value>
   </data>
   <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
   </data>
-  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Name" xml:space="preserve">
+    <value>m_rbRomajiUsingLatinLettersOnly</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>12, 25</value>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>827, 298</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
+  <data name="m_btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 38</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -431,19 +284,166 @@
         AMZAAABgDAQAAMZAAABgDAQAAMb8HzZtObb8HnpGAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Text" xml:space="preserve">
+    <value>Katakana + Hiragana</value>
+  </data>
+  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>543, 29</value>
+  </data>
+  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 98</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 6, 6, 6</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
+  <data name="m_lblJapaneseVariant.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Selection of Variant of Japanese Language</value>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 133</value>
+  </data>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Text" xml:space="preserve">
+    <value>Rōmaji with special lettters</value>
+  </data>
+  <data name="&gt;&gt;m_lblJapaneseVariant.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_rbJapaneseHiraganaOnly.Text" xml:space="preserve">
+    <value>Only Hiragana</value>
+  </data>
+  <data name="m_rbJapaneseHiraganaOnly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Text" xml:space="preserve">
+    <value>Kanji + Hiragana + Katakana (Standard, most difficult)</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_rbRomajiUsingLatinLettersOnly.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 238</value>
+  </data>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 29</value>
+  </data>
+  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 29</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_rbJapaneseHiraganaOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 29</value>
+  </data>
+  <data name="m_rbJapaneseKatakanaAndHiragadaOnly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbJapaneseHiraganaOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_lblJapaneseVariant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lblJapaneseVariant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>779, 59</value>
+  </data>
+  <data name="m_lblJapaneseVariant.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.Name" xml:space="preserve">
+    <value>m_rbJapaneseHiraganaOnly</value>
+  </data>
+  <data name="m_btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 233</value>
+  </data>
+  <data name="m_btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_rbRomajiUsingLatinLettersOnly.Text" xml:space="preserve">
+    <value>Romaji with only latin letters (easiest)</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseRomajiWithLatinAndOtherLetters.Name" xml:space="preserve">
+    <value>m_rbJapaneseRomajiWithLatinAndOtherLetters</value>
+  </data>
+  <data name="&gt;&gt;m_lblJapaneseVariant.Name" xml:space="preserve">
+    <value>m_lblJapaneseVariant</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>JapaneseVariantSelection</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.Name" xml:space="preserve">
+    <value>m_rbJapaneseKatakanaAndHiragadaOnly</value>
   </data>
+  <data name="m_rbJapaneseRomajiWithLatinAndOtherLetters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 203</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>827, 298</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseKatakanaAndHiragadaOnly.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Name" xml:space="preserve">
+    <value>m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage</value>
+  </data>
+  <data name="m_lblJapaneseVariant.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="m_lblJapaneseVariant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="m_btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;m_rbJapaneseHiraganaOnly.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_rbKanjiAndHiraganaAndKatakanaNormalJapaneseLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

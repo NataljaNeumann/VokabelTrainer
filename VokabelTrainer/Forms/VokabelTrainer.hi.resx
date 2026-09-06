@@ -112,19 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_btnLoadLanguageFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_btnLoadLanguageFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 122</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_btnLoadLanguageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
@@ -288,7 +288,7 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="m_lblReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 332</value>
+    <value>274, 336</value>
   </data>
   <data name="m_lblReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -298,6 +298,9 @@
   </data>
   <data name="m_lblReader.Text" xml:space="preserve">
     <value>ज़ोर से पढ़ें:</value>
+  </data>
+  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="m_cbxReader.Items" xml:space="preserve">
     <value>भाषा प्रदर्शित की गई</value>
@@ -315,13 +318,13 @@
     <value>केवल त्रुटियों के मामले में</value>
   </data>
   <data name="m_cbxReader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 329</value>
+    <value>399, 333</value>
   </data>
   <data name="m_cbxReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="m_cbxReader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 28</value>
+    <value>293, 32</value>
   </data>
   <data name="m_lblDownloadESpeak.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
@@ -347,11 +350,17 @@
   <data name="m_chkUseESpeak.Text" xml:space="preserve">
     <value>eSpeak का प्रयोग करें</value>
   </data>
+  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="m_tbxESpeakPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>529, 437</value>
   </data>
   <data name="m_tbxESpeakPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>293, 26</value>
+  </data>
+  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="m_btnSearchESpeak.Location" type="System.Drawing.Point, System.Drawing">
     <value>828, 434</value>
@@ -400,17 +409,5 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>शब्दावली प्रशिक्षक</value>
-  </data>
-  <data name="m_cbxReader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_tbxESpeakPath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-    <comment>Automatically fixed</comment>
-  </data>
-  <data name="m_btnSearchESpeak.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-    <comment>Automatically fixed</comment>
   </data>
 </root>

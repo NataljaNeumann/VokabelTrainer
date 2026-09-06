@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data xml:space="preserve" name="CelebrationBerlinale">
+    <value>برلیناله: جشنواره فیلم</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationCannes">
+    <value>جشنواره فیلم در کن</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+    <value>جشن تولد کودکان و بودا در جاپان و کوریا</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChineseNewYear">
+    <value>جشن سال نو چینایی</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationChristmas">
+    <value>مسیحیان در سراسر جهان کریسمس را تجلیل می کنند</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDancingDay">
+    <value>روز رقص</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDiwali">
+    <value>جشن چراغ هندو برای پیروزی حقیقت بر دروغ</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationDurban">
+    <value>جشنواره فیلم افریقایی در دوربان</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEaster">
+    <value>مسیحیان در سراسر جهان عید پاک را تجلیل می کنند</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationEsc">
+    <value>جشنواره موسیقی در اروپا</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationHajj">
+    <value>زیارت مسلمانان به مکه: حج</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNewYear">
+    <value>مردم در تمام جهان سال نو را تجلیل میکنند.</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationNobelPrize">
+    <value>نوبل: جایزه پزشکی، کیمیا، فیزیک، اقتصاد، صلح و ادبیات</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOlympics">
+    <value>بازی های تابستانی المپیک</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+    <value>مسیحیان ارتدوکس در حال تجلیل از کریسمس هستند</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+    <value>مسیحیان ارتدوکس در حال تجلیل از عید پاک هستند</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationOscar">
+    <value>اسکار: جوایز آکادمی فیلم</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPeaceDay">
+    <value>روز جهانی صلح</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+    <value>روز فلسفه</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationPsychology">
+    <value>روز روانشناسی</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRamadan">
+    <value>مسلمانان سراسر جهان در ماه رمضان شرکت می کنند</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationReadingDay">
+    <value>روز جهانی کتابخوانی</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationRoshHashanah">
+    <value>روش هشانه؛ سال نو اسرائیل</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSavingsDay">
+    <value>روز جهانی پس انداز</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationScienceDay">
+    <value>روز جهانی علم</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsHalloween">
+    <value>هالووین</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationSoccer">
+    <value>قهرمانی فوتبال</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+    <value>بازی های زمستانی المپیک</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationTimkat">
+    <value>تیمکت: مسیحیان اتیوپیایی در حال یادبود تعمید عیسی</value>
+  </data>
+  <data xml:space="preserve" name="CelebrationValentine">
+    <value>روز ولنتاین</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedHeader">
+    <value>تبریک باشد!</value>
+  </data>
+  <data xml:space="preserve" name="CourseFinishedText">
+    <value>کورس زبان از قبل تعریف شده به پایان رسید! بروید و بعضی از اخبار را بخوانید، بعضی از فلم ها را با یا بدون زیرنویس های بسته تماشا کنید، رادیو انترنت را روشن کنید یا بعضی از کتاب ها را به زبان اصلی بخوانید. تشکر از اینکه تا آخر با ما بودید!</value>
+  </data>
+  <data xml:space="preserve" name="Error">
+    <value>خطا!</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+    <value>خطا در هنگام بارگذاری فایل XML نتایج آموزشی</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+    <value>در جریان بارگذاری فایل XML نتایج آموزش یک خطا رخ داد: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+    <value>خطا در هنگام بارگذاری فایل XML فرهنگ لغات</value>
+  </data>
+  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+    <value>در جریان بارگذاری فایل XML فرهنگ لغات یک خطا رخ داد: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+    <value>در جریان ذخیره کردن فایل نتایج آموزش یک خطا رخ داد: {0}</value>
+  </data>
+  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+    <value>در جریان ذخیره کردن فایل فرهنگ لغات یک خطا رخ داد: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Exercise">
+    <value>تمرین {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalThanks">
+    <value>تشکر از اینکه کتاب فرهنگ لغات تجربوی را امتحان کردید. لطفاً پیشنهادات بهبود خود را در انجمن ارسال کنید، اگر شما اشتباهات یا ترجمه های بیشتر مشابه را پیدا کردید. نسخه نرم افزار، نام های زبان ها، جفت کلمات و پیشرفت ها را ذکر کنید. در بهترین حالت، تمام پیشنهادات بهبود را جمع آوری کنید و همه آنها را یکجا ارسال کنید.</value>
+  </data>
+  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+    <value>برای این جفت زبان یک کتاب فرهنگ لغات تجربوی وجود دارد که تحت همان جواز سافتویر است. این به عنوان یک کورس مداوم برای بزرگسالان طرح شده است، اما توسط گویندگان بومی تصحیح نشده است. آیا میخواهید آنرا امتحان کنید؟</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+    <value>معانی ذیل مفقود بودند:</value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+    <value>معانی داخل شده ذیل اشتباه بودند: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+    <value>معنی ذیل مفقود بود: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+    <value>معنی داخل شده ذیل اشتباه بود: </value>
+  </data>
+  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+    <value>معانی ذیل مفقود بودند:  </value>
+  </data>
+  <data xml:space="preserve" name="Intensive">
+    <value>فشرده {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+    <value>فایل را رونویسی کنید؟ </value>
+  </data>
+  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+    <value>فایل زبان "{0}" از قبل وجود دارد، آیا میخواهید آنرا رونویسی کنید؟</value>
+  </data>
+  <data xml:space="preserve" name="Mistake">
+    <value>اشتباه!</value>
+  </data>
+  <data xml:space="preserve" name="MostIntensive">
+    <value>فشرده ترین {0} - {1}</value>
+  </data>
+  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+    <value>کلمات جدید</value>
+  </data>
+  <data xml:space="preserve" name="PredefinedVocabularyBook">
+    <value>برای این جفت زبان یک کتاب فرهنگ لغات وجود دارد که تحت همان جواز سافتویر است. این به عنوان یک کورس مداوم برای بزرگسالان طرح شده است. آیا میخواهید آنرا امتحان کنید؟</value>
+  </data>
+</root>

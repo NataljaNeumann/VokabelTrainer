@@ -112,16 +112,20 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblFirstLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
   <data name="m_lblFirstLanguage.Text" xml:space="preserve">
     <value>Забони аввал:</value>
   </data>
-  <data name="m_tbxSecondLanguage.Text" xml:space="preserve">
-    <value />
+  <data name="m_lblSecondLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
   </data>
   <data name="m_lblSecondLanguage.Text" xml:space="preserve">
     <value>Забони дуюм:</value>
@@ -132,14 +136,26 @@
   <data name="m_btnCancel.Text" xml:space="preserve">
     <value>Бекор кардан</value>
   </data>
+  <data name="m_chkLanguageFileUnderGPL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 20</value>
+  </data>
   <data name="m_chkLanguageFileUnderGPL2.Text" xml:space="preserve">
     <value>Файли забонӣ барои паҳн кардани литсензияи GPL2 пешбинӣ шудааст</value>
+  </data>
+  <data name="m_chkLanguageFileModifiable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
   </data>
   <data name="m_chkLanguageFileModifiable.Text" xml:space="preserve">
     <value>Файли забон тағирёбанда аст</value>
   </data>
+  <data name="m_chkFirstLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
+  </data>
   <data name="m_chkFirstLanguageRTL.Text" xml:space="preserve">
     <value>Самти навиштан аз рост ба чап</value>
+  </data>
+  <data name="m_chkSecondLanguageRTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
   </data>
   <data name="m_chkSecondLanguageRTL.Text" xml:space="preserve">
     <value>Самти навиштан аз рост ба чап</value>

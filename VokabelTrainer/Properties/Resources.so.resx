@@ -259,7 +259,7 @@
     <value>Macnaha soo socda ayaa maqan: </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} - {1} aad u xoogan</value>
+    <value>{0} - {1} xoogan</value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Dib u qor faylka?</value>
@@ -271,7 +271,7 @@
     <value>Qalad!</value>
   </data>
   <data name="MostIntensive" xml:space="preserve">
-    <value>{0} - {1} ugu daran </value>
+    <value>{0} - {1} ugu xooggan</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Erayada Cusub</value>

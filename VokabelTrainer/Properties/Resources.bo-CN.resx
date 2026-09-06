@@ -259,7 +259,7 @@
     <value>གཤམ་གྱི་དོན་དག་བརླག་སོང་། </value>
   </data>
   <data name="Intensive" xml:space="preserve">
-    <value>{0} – {1}ཤུགས་ཆེ་བ།</value>
+    <value>{0} – {1} ཤུགས་ཆེ་བ།</value>
   </data>
   <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>ཡིག་ཆ་བརྗེ་སྒྱུར་བྱེད་དམ།</value>

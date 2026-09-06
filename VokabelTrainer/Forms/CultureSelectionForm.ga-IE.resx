@@ -117,22 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data xml:space="preserve" name="m_labelSelectLanguage.Text">
+  <data name="m_labelSelectLanguage.Text" xml:space="preserve">
     <value>Roghnaigh ceann de na teangacha GUI atá ar fáil. Roghnaigh teanga atá difriúil ón teanga ar mhaith leat a fhoghlaim, mar go mbíonn toimhde i gceist le loighic áirithe den chlár nach í an teanga GUI an teanga ar mhaith leat a fhoghlaim.</value>
   </data>
-  <data xml:space="preserve" name="m_btnCancel.Text">
+  <data name="m_btnCancel.Text" xml:space="preserve">
     <value>Cealaigh</value>
   </data>
-  <data xml:space="preserve" name="m_btnOk.Text">
+  <data name="m_btnOk.Text" xml:space="preserve">
     <value>Ceart go leor</value>
   </data>
-  <data xml:space="preserve" name="$this.Text">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Text" xml:space="preserve">
     <value>Cultúr an GUI </value>
   </data>
 </root>
