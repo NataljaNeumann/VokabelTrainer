@@ -3789,7 +3789,7 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@BibelA.I/videos");
                         Add(oResult, @"https://www.youtube.com/@G%C3%B6ttlicheGeschichte47/videos", 0.1);
                         Add(oResult, @"https://www.youtube.com/@WorshipZeit/videos", 0.1, 300);
-                        if ("ru".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
+                        //if ("ru".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                             Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1, 300);
                         //Add(oResult, @"https://www.youtube.com/@WiedergeborenInChristus", 0.1);
                         Add(oResult, @"https://www.youtube.com/@RuheWorship/videos", 0.1, 300);
@@ -3800,6 +3800,7 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@ThankyouJesus1112/videos", 0.1, 300);
                         Add(oResult, @"https://www.youtube.com/@Schlagerhafen/videos");
                         Add(oResult, @"https://www.youtube.com/@SchlagerwelleGold/videos");
+                        Add(oResult, @"https://www.youtube.com/@YodelLullaby/videos");
                         //Add(oResult, @"https://www.ballermann-radio.de/");
                         // https://www.youtube.com/watch?v=NIpSUHwfZxo
                     }
@@ -3958,6 +3959,9 @@ namespace VokabelTrainer
                                 // visionary celestial
                                 Add(oResult, @"https://www.youtube.com/results?search_query=M%C3%BAsica+Cristiana+Celestial");
                                 Add(oResult, @"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
+                                Add(oResult, @"https://www.youtube.com/@vozdeldesierto-c2l/videos");
+                                Add(oResult, @"https://www.youtube.com/@SalmosenMelod%C3%ADa/videos");
+
 
                                 if (!"he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                                 {
@@ -4006,6 +4010,7 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@REFUGIOMARIANO-OFICIAL/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@SantoNortenoOficial/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@AlabanzaCat%C3%B3lica-c2t/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@HeavenAdoraci%C3%B3nCat%C3%B3lica/videos", 0.1, 300);
                                 //https://www.youtube.com/@Alabanzas-Que-Sanan/videos
 
                                 // Jazz
@@ -4300,10 +4305,8 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@%D0%9F%D0%B5%D1%81%D0%BD%D0%B8%D0%A1%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F/videos");
                         Add(oResult, @"https://www.youtube.com/watch?v=XCKadO8eSXE",1,1500,2000);
                         Add(oResult, @"https://www.youtube.com/@DJ-PRIPRAVA/videos", 0.1, 500);
-
-                        // german-english resource
-                        if ("de".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
-                            Add(oResult, @"https://www.youtube.com/@TheHeavensSing/videos", 0.1, 300);
+                        //https://www.youtube.com/@%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%B0%D0%9F%D0%BE%D1%8E%D1%82/videos
+   
 
                         // these use a word that doesn't work in hebrew
                         if ("he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
@@ -4365,6 +4368,8 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@CantiAllaMadonna/videos", 0.1);
                         Add(oResult, @"https://www.youtube.com/@7cloudsItaly/videos");
                         Add(oResult, @"https://www.youtube.com/@IncantoItaliano-m4f/videos");
+                        Add(oResult, @"https://www.youtube.com/@LiviaBellamore/videos");
+                        Add(oResult, @"https://www.youtube.com/@DiscoItaliaRadio/videos");
                     }
                 }
             }
@@ -4609,7 +4614,7 @@ namespace VokabelTrainer
                     strLanguageFirst3.Equals("Пол", StringComparison.CurrentCultureIgnoreCase)
                     )
                 {
-                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
+                    // then add resources in Polish for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         Add(oResult, @"https://www.youtube.com/@piesniduchowe/videos");
@@ -4635,6 +4640,7 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@TulivuTunes/videos");
                         Add(oResult, @"https://www.youtube.com/@DearGodItsMe-x1q/videos");
                         Add(oResult, @"https://www.youtube.com/@AlleluiaPraiseMusic/videos");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Muziki+wa+Pop+wa+Kiswahili");
                     }
                 }
             }
@@ -4646,13 +4652,118 @@ namespace VokabelTrainer
                 // and one of the trained languages is Yoruba
                 if (strLanguageFirst3.Equals("Yor", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
+                    // then add resources in Yoruba for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         Add(oResult, @"https://www.youtube.com/@RroyalHeritage/videos");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Orin+Pop+ti+Yor%C3%B9b%C3%A1");
                     }
                 }
             }
+
+
+            // If current language is not Igbo
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ig"))
+            {
+                // and one of the trained languages is Igbo
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("ig"))
+                {
+                    // then add Igbo resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Egwu+Pop+nke+nd%E1%BB%8B+Igbo");
+                    }
+                }
+            }
+
+
+            // If current language is not Amharish
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("am"))
+            {
+                // and one of the trained languages is Amharish
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("am"))
+                {
+                    // then add Amharish resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E1%8B%A8%E1%8A%A0%E1%88%9B%E1%88%AD%E1%8A%9B+%E1%8D%96%E1%8D%95+%E1%88%99%E1%8B%9A%E1%89%83");
+                    }
+                }
+            }
+
+            // If current language is not Afrikaans
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("af"))
+            {
+                // and one of the trained languages is Afrikaans
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("af"))
+                {
+                    // then add Afrikaans resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Popmusiek+in+Afrikaans");
+                    }
+                }
+            }
+
+            // If current language is not Kinyarwuanda
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("rw"))
+            {
+                // and one of the trained languages is Kinyarwuanda
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("rw"))
+                {
+                    // then add Kinyarwuanda resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Umuziki+wa+Pop+mu+Kinyarwanda");
+                    }
+                }
+            }
+
+            // If current language is not Tigrinya
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ti"))
+            {
+                // and one of the trained languages is Tigrinya
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("ti"))
+                {
+                    // then add Kinyarwuanda resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E1%8D%96%E1%8D%95+%E1%88%99%E1%8B%9A%E1%89%83+%E1%89%A5%E1%89%B5%E1%8C%8D%E1%88%AD%E1%8A%9B");
+                    }
+                }
+            }
+
+
+            // If current language is not Wolof
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("wo"))
+            {
+                // and one of the trained languages is Wolof
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("wo"))
+                {
+                    // then add Wolof resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Musique+pop+en+wolof");
+                    }
+                }
+            }
+
+
+            // If current language is not Somali
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("so"))
+            {
+                // and one of the trained languages is Somali
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("so"))
+                {
+                    // then add Somali resources for language acquisition without explicit learning
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Muusigga+Pop-ka+Soomaaliga");
+                    }
+                }
+            }
+
+
 
             // if current culture isn't Indonesian
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("id"))
@@ -4661,11 +4772,12 @@ namespace VokabelTrainer
                 if (strLanguageFirst3.Equals("Ind", StringComparison.InvariantCultureIgnoreCase) ||
                     strLanguage.Equals("Bahasa Indonesia", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    // then add resources in swahili for language acquisition without explicit learning for non-islamic countries
+                    // then add resources in Indonesian for language acquisition without explicit learning for non-islamic countries
                     if (!Program.IslamicCountry)
                     {
                         Add(oResult, @"https://www.youtube.com/@BassRohani/videos");
                         Add(oResult, @"https://www.youtube.com/@RemixRohani1/videos");
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Musik+Pop+Indonesia");
                     }
                 }
             }
@@ -4673,15 +4785,16 @@ namespace VokabelTrainer
             // If current language is not Croatian
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("hr"))
             {
-                // and one of the trained languages is croation
+                // and one of the trained languages is Croatian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("hr"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Croatian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                     {
                         Add(oResult, @"https://www.youtube.com/results?search_query=+%F0%9F%87%AD%F0%9F%87%B7+Croatian+Music+Overlooking+the+Adriatic+");
                         Add(oResult, @"https://www.youtube.com/@SoftTonesRadio/videos");
                         Add(oResult, @"https://www.youtube.com/@PopVal-z9u/videos");
+                        Add(oResult, @"https://www.youtube.com/@MolitvaDuhuSvetomu/videos");
                     }
                 }
             }
@@ -4692,7 +4805,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Serbian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("sr"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Serbian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=%F0%9F%87%B7%F0%9F%87%B8+Serbian+Traditional+Music+Serbian+Folk+Hits+");
                 }
@@ -4705,7 +4818,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Bosnian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("bs"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Bosnian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Ti%C5%A1ina+No%C4%87i+Bosnian+Folk+Vibes+");
                 }
@@ -4717,7 +4830,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Albanian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("sq"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Albanian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Zjarr+n%C3%AB+Err%C3%ABsir%C3%AB++Albanian+Folk+Dance+");
                 }
@@ -4729,7 +4842,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Czech
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("cs"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Czech resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Czech+music+");
                 }
@@ -4741,7 +4854,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Slowak
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("sk"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Slowak resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Slovak+music+%F0%9F%87%B8%F0%9F%87%B0+");
                 }
@@ -4753,7 +4866,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Belarussian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("be"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Belarussian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=belarusian+music+%F0%9F%87%A7%F0%9F%87%BE+");
                 }
@@ -4765,7 +4878,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Belarussian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("bg"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Bulgarian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=belarusian+music+%F0%9F%87%A7%F0%9F%87%BE+");
                 }
@@ -4777,7 +4890,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Georgian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("ka"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Georgian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98+%E1%83%9B%E1%83%A3%E1%83%A1%E1%83%98%E1%83%99%E1%83%90");
                 }
@@ -4789,7 +4902,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Armenian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("hy"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Armenian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=%D5%80%D5%A1%D5%B5%D5%AF%D5%A1%D5%AF%D5%A1%D5%B6+%D5%A5%D6%80%D5%A1%D5%AA%D5%B7%D5%BF%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6");
                 }
@@ -4802,7 +4915,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Azerbaijani
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("az"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Azerbaijani resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Az%C9%99rbaycan+musiqisi");
                 }
@@ -4814,7 +4927,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Hungarian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("hu"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Hungarian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=Magyar+zene+%F0%9F%87%AD%F0%9F%87%BA+");
                 }
@@ -4827,7 +4940,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Irish
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("ga"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Irish resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=irish+gaeilic+songs");
                 }
@@ -4839,7 +4952,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Slovenian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("sl"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Slovenian resources for language acquisition without explicit learning
                     if (!Program.IslamicCountry)
                         Add(oResult, @"https://www.youtube.com/results?search_query=slovenian+music+");
                 }
@@ -4847,12 +4960,12 @@ namespace VokabelTrainer
 
 
             // If current language is not Quasach
-            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("sl"))
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("kk"))
             {
                 // and one of the trained languages is Quasach
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("kk"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Quasach resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D0%9A%D0%B0%D0%B7%D0%B0%D0%BA+%D0%BF%D0%BE%D0%BF-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D1%81%D1%8B");
                 }
             }
@@ -4865,7 +4978,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Uzbek
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("uz"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Uzbek resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D0%9A%D0%B0%D0%B7%D0%B0%D0%BA+%D0%BF%D0%BE%D0%BF-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D1%81%D1%8B");
                 }
             }
@@ -4877,7 +4990,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Tajik
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("tg"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Tajik resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D0%9F%D0%BE%D0%BF%D0%B8+%D1%82%D0%BE%D2%B7%D0%B8%D0%BA%D3%A3");
                 }
             }
@@ -4888,7 +5001,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Turkmen
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("tk"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Turkmen resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=T%C3%BCrkmen+pop-sazy");
                 }
             }
@@ -4899,7 +5012,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Persian
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("fa"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Persian resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C+%D9%BE%D8%A7%D9%BE+%D9%81%D8%A7%D8%B1%D8%B3%DB%8C");
                 }
             }
@@ -4911,7 +5024,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Pashtu
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("pa"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Pashtu resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D9%BE%DA%9A%D8%AA%D9%88+%D9%BE%D8%A7%D9%BE");
                 }
             }
@@ -4922,7 +5035,7 @@ namespace VokabelTrainer
                 // and one of the trained languages is Urdu
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("ur"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Urdu resources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D8%A7%D8%B1%D8%AF%D9%88+%D8%B3%D9%86%D8%AF%D8%B1%DB%8C");
                 }
             }
@@ -4933,8 +5046,180 @@ namespace VokabelTrainer
                 // and one of the trained languages is Punjabi
                 if (Program.LanguageCodeFromName(strLanguage).StartsWith("pu"))
                 {
-                    // then add french resources for language acquisition without explicit learning
+                    // then add Punjabi ressources for language acquisition without explicit learning
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D9%BE%D9%86%D8%AC%D8%A7%D8%A8%DB%8C+%D9%BE%D8%A7%D9%BE");
+                }
+            }
+
+
+            // if current culture isn't Malay
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ms"))
+            {
+                // and one of the trained languages is Malay
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("ms"))
+                {
+                    // then add resources in Malay for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Muzik+Pop+Melayu");
+                    }
+                }
+            }
+
+            // if current culture isn't Philippino
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.ThreeLetterISOLanguageName.Equals("fil"))
+            {
+                // and one of the trained languages is Philippino
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("fil"))
+                {
+                    // then add resources in Phillipino for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Musikang+Pop+ng+Pilipinas");
+                    }
+                }
+            }
+
+
+            // if current culture isn't Vietnamese
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("vi"))
+            {
+                // and one of the trained languages is Vietnamese
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("vi"))
+                {
+                    // then add resources in Vietnamese for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Nh%E1%BA%A1c+Pop+Vi%E1%BB%87t+Nam");
+                    }
+                }
+            }
+
+            // if current culture isn't Lao
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("lo"))
+            {
+                // and one of the trained languages is Lao
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("lo"))
+                {
+                    // then add resources in Lao for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%BB%80%E0%BA%9E%E0%BA%87%E0%BA%9B%E0%BA%B1%E0%BA%AD%E0%BA%9A%E0%BA%A5%E0%BA%B2%E0%BA%A7");
+                    }
+                }
+            }
+
+            // if current culture isn't Khmer
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("km"))
+            {
+                // and one of the trained languages is Khmer
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("km"))
+                {
+                    // then add resources in Khmer for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E1%9E%8F%E1%9E%93%E1%9F%92%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8%E1%9E%94%E1%9F%89%E1%9E%BB%E1%9E%94%E1%9E%81%E1%9F%92%E1%9E%98%E1%9F%82%E1%9E%9A");
+                    }
+                }
+            }
+
+            // if current culture isn't Burmese
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("my"))
+            {
+                // and one of the trained languages is Burmese
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("my"))
+                {
+                    // then add resources in Burmese for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E1%80%99%E1%80%BC%E1%80%94%E1%80%BA%E1%80%99%E1%80%AC%E1%80%B7%E1%80%95%E1%80%B1%E1%80%AB%E1%80%B7%E1%80%95%E1%80%BA%E1%80%82%E1%80%AE%E1%80%90");
+                    }
+                }
+            }
+
+
+            // if current culture isn't Thai
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("th"))
+            {
+                // and one of the trained languages is Thai
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("th"))
+                {
+                    // then add resources in Thai for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B9%8A%E0%B8%AD%E0%B8%9B%E0%B9%84%E0%B8%97%E0%B8%A2");
+                    }
+                }
+            }
+
+            // if current culture isn't Bangla
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("bn"))
+            {
+                // and one of the trained languages is Bangla
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("bn"))
+                {
+                    // then add resources in Bangla for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE+%E0%A6%AA%E0%A6%AA+%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%A4");
+                    }
+                }
+            }
+
+            // if current culture isn't Nepali
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ne"))
+            {
+                // and one of the trained languages is Nepali
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("ne"))
+                {
+                    // then add resources in Nepali for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80+%E0%A4%AA%E0%A4%AA+%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%A4");
+                    }
+                }
+            }
+
+            // if current culture isn't Dzongha
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("dz"))
+            {
+                // and one of the trained languages is Dzongha
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("dz"))
+                {
+                    // then add resources in Dzongha for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%BD%A2%E0%BE%AB%E0%BD%BC%E0%BD%84%E0%BC%8B%E0%BD%81%E0%BD%A0%E0%BD%B2%E0%BC%8B%E0%BD%A6%E0%BE%99%E0%BD%93%E0%BC%8B%E0%BD%86%E0%BC%8D");
+                    }
+                }
+            }
+
+
+            // if current culture isn't Maori
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("mi"))
+            {
+                // and one of the trained languages is Maori
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("mi"))
+                {
+                    // then add resources in Maori for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=Puoro+Pop+M%C4%81ori");
+                    }
+                }
+            }
+
+            // if current culture isn't Tok Pisin
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.ThreeLetterISOLanguageName.Equals("tpi"))
+            {
+                // and one of the trained languages is Tok Pisin
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("tpi"))
+                {
+                    // then add resources in Tok Pisin for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=pop+musik+bilong+Tok+Pisin");
+                    }
                 }
             }
 
