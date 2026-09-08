@@ -70,6 +70,8 @@ namespace VokabelTrainer.Forms
             m_lblText.UseCompatibleTextRendering = false;
             m_lblText.Text = strText;
 
+            this.Text = strHeader;
+
             ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                 "MistakeDisplayHeader.jpg");
         }
