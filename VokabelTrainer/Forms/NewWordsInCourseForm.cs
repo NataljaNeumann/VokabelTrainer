@@ -140,77 +140,157 @@ namespace VokabelTrainer.Forms
             this.AutoSize = false;
             this.StartPosition = FormStartPosition.CenterParent;
 
-            // For islamic countries: try the islamic learning header
-            if (Program.IslamicCountry && 
-                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderMuslim.jpg"))
+            // Decide, vertical or horizontal image
+            if (this.MinimumSize.Width * 6 < this.MinimumSize.Height * 5)
             {
-                return;
+                // For islamic countries: try the islamic learning header
+                if (Program.IslamicCountry &&
+                    ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderMuslim.jpg"))
+                {
+                    return;
+                }
+
+                // the IETF language tag for decisions about the headers
+                string strIetf = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
+
+                // If language indicates it is eastern Asia, then try east Asia header
+                if ((strIetf.StartsWith("ja") || strIetf.StartsWith("zh") || strIetf.StartsWith("ms") ||
+                    strIetf.StartsWith("id") || strIetf.StartsWith("fil") || strIetf.StartsWith("ko") ||
+                    strIetf.StartsWith("lo")) &&
+                    ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderEastAsia.jpg"))
+                {
+                    return;
+                }
+
+                // If language indicates it is Africa, then try African header
+                if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
+                    strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
+                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
+                    ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderAfrica.jpg"))
+                {
+                    return;
+                }
+
+                // If language indicates it is latin America, then try latin American header
+                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
+                    && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
+                    ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderLatinAmerica.jpg"))
+                {
+                    return;
+                }
+
+
+                // Try the standard learning header
+                if (ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeader.jpg"))
+                {
+                    return;
+                }
+
+                // In case of failure, then try all headers, maybe still one exists
+                if (ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderEastAsia.jpg"))
+                {
+                    return;
+                }
+
+                if (ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderLatinAmerica.jpg"))
+                {
+                    return;
+                }
+
+                if (ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderMuslim.jpg"))
+                {
+                    return;
+                }
+
+                if (ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressVerticalHeaderAfrica.jpg"))
+                {
+                    return;
+                }
             }
-
-            // the IETF language tag for decisions about the headers
-            string strIetf = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
-
-            // If language indicates it is eastern Asia, then try east Asia header
-            if ((strIetf.StartsWith("ja")||strIetf.StartsWith("zh")||strIetf.StartsWith("ms")||
-                strIetf.StartsWith("id")||strIetf.StartsWith("fil")||strIetf.StartsWith("ko")||
-                strIetf.StartsWith("lo")) &&
-                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderEastAsia.jpg"))
+            else
             {
-                return;
-            }
 
-            // If language indicates it is Africa, then try African header
-            if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
-                strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
-                strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
-                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderAfrica.jpg"))
-            {
-                return;
-            }
+                // For islamic countries: try the islamic learning header
+                if (Program.IslamicCountry &&
+                    ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderMuslim.jpg"))
+                {
+                    return;
+                }
 
-            // If language indicates it is latin America, then try latin American header
-            if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
-                && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
-                ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
-            {
-                return;
-            }
+                // the IETF language tag for decisions about the headers
+                string strIetf = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
+
+                // If language indicates it is eastern Asia, then try east Asia header
+                if ((strIetf.StartsWith("ja") || strIetf.StartsWith("zh") || strIetf.StartsWith("ms") ||
+                    strIetf.StartsWith("id") || strIetf.StartsWith("fil") || strIetf.StartsWith("ko") ||
+                    strIetf.StartsWith("lo")) &&
+                    ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderEastAsia.jpg"))
+                {
+                    return;
+                }
+
+                // If language indicates it is Africa, then try African header
+                if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
+                    strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
+                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
+                    ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderAfrica.jpg"))
+                {
+                    return;
+                }
+
+                // If language indicates it is latin America, then try latin American header
+                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
+                    && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
+                    ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
+                {
+                    return;
+                }
 
 
-            // Try the standard learning header
-            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeader.jpg"))
-            {
-                return;
-            }
+                // Try the standard learning header
+                if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeader.jpg"))
+                {
+                    return;
+                }
 
-            // In case of failure, then try all headers, maybe still one exists
-            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderEastAsia.jpg"))
-            {
-                return;
-            }
+                // In case of failure, then try all headers, maybe still one exists
+                if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderEastAsia.jpg"))
+                {
+                    return;
+                }
 
-            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
-            {
-                return;
-            }
+                if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderLatinAmerica.jpg"))
+                {
+                    return;
+                }
 
-            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderMuslim.jpg"))
-            {
-                return;
-            }
+                if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderMuslim.jpg"))
+                {
+                    return;
+                }
 
-            if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
-                "CourseProgressHorizontalHeaderAfrica.jpg"))
-            {
-                return;
+                if (ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
+                    "CourseProgressHorizontalHeaderAfrica.jpg"))
+                {
+                    return;
+                }
             }
 
         }
@@ -232,9 +312,7 @@ namespace VokabelTrainer.Forms
         }
 
 
-
-
-        #region image injection part
+        #region side image injection part
         //===================================================================================================
         /// <summary>
         /// Picture box control
@@ -244,7 +322,7 @@ namespace VokabelTrainer.Forms
         /// <summary>
         /// Image
         /// </summary>
-        private Image m_oLoadedImage;
+        private System.Drawing.Image m_oLoadedImage;
         //===================================================================================================
         /// <summary>
         /// A dictionary with positions of other elements
@@ -257,10 +335,135 @@ namespace VokabelTrainer.Forms
         /// </summary>
         /// <param name="strName">Name of the image, without directory specifications</param>
         //===================================================================================================
+        private bool ReadyToUseSideImageInjection(
+            string strImageName
+            )
+        {
+            bool bResult = false;
+            string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            if (System.IO.File.Exists(strImagePath))
+            {
+                m_oOriginalPositions = new Dictionary<Control, int>();
+                foreach (Control ctl in Controls)
+                {
+                    m_oOriginalPositions[ctl] = ctl.Left;
+                }
+
+                m_ctlPictureBox = new PictureBox();
+                m_ctlPictureBox.Location = this.ClientRectangle.Location;
+                m_ctlPictureBox.Size = new Size(0, 0);
+                Controls.Add(m_ctlPictureBox);
+
+                LoadAndResizeSideImage(strImagePath);
+
+                bResult = true;
+
+                this.Resize += new EventHandler(ResizeSideImageAlongWithForm);
+            }
+
+            return bResult;
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image along with the form
+        /// </summary>
+        /// <param name="oSender">Sender object</param>
+        /// <param name="oEventArgs">Event args</param>
+        //===================================================================================================
+        private void ResizeSideImageAlongWithForm(
+            object oSender,
+            EventArgs oEventArgs
+            )
+        {
+            ResizeSideImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image and resizes it to the width of client area
+        /// </summary>
+        /// <param name="strImagePath"></param>
+        //===================================================================================================
+        private void LoadAndResizeSideImage(
+            string strImagePath
+            )
+        {
+            m_oLoadedImage = Image.FromFile(strImagePath);
+            ResizeSideImageAndShiftElements();
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Resizes image and shifts other elements
+        /// </summary>
+        //===================================================================================================
+        private void ResizeSideImageAndShiftElements()
+        {
+            if (m_oLoadedImage != null)
+            {
+                if (WindowState != FormWindowState.Minimized)
+                {
+                    float fAspectRatio = (float)m_oLoadedImage.Width / (float)m_oLoadedImage.Height;
+
+                    int nNewHeight = this.ClientSize.Height;
+                    if (nNewHeight != 0)
+                    {
+                        int nNewWidth = (int)(nNewHeight * fAspectRatio);
+
+                        int nWidthChange = nNewWidth - m_ctlPictureBox.Width;
+
+                        this.m_ctlPictureBox.Image = new Bitmap(m_oLoadedImage, nNewWidth, nNewHeight);
+                        this.m_ctlPictureBox.Size = new Size(nNewWidth, nNewHeight);
+
+                        if (nWidthChange != 0)
+                        {
+                            this.Width += nWidthChange;
+                            ShiftOtherElementsLeftOrRight(nWidthChange);
+                        }
+                    }
+                }
+            }
+        }
+
+        //===================================================================================================
+        /// <summary>
+        /// Shifts elements, apart from the image box up or down
+        /// </summary>
+        /// <param name="nNewPictureWidth">New width of the picture</param>
+        //===================================================================================================
+        private void ShiftOtherElementsLeftOrRight(
+            int nWidthChange
+            )
+        {
+            foreach (Control ctl in m_oOriginalPositions.Keys)
+            {
+                if ((ctl.Anchor & AnchorStyles.Right) == AnchorStyles.None)
+                {
+                    ctl.Left += nWidthChange;
+                }
+                else
+                    if ((ctl.Anchor & AnchorStyles.Left) != AnchorStyles.None)
+                {
+                    ctl.Left += nWidthChange;
+                    //ctl.Width -= nWidthChange;
+                }
+            }
+        }
+        #endregion
+
+        #region image injection part
+        //===================================================================================================
+        /// <summary>
+        /// Loads an image from application startup path and shows it at the top of the window
+        /// </summary>
+        /// <param name="strName">Name of the image, without directory specifications</param>
+        //===================================================================================================
         private bool ReadyToUseImageInjection(
             string strImageName
             )
         {
+            bool bResult = false;
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
             if (System.IO.File.Exists(strImagePath))
             {
@@ -277,12 +480,12 @@ namespace VokabelTrainer.Forms
 
                 LoadAndResizeImage(strImagePath);
 
+                bResult = true;
+
                 this.Resize += new EventHandler(ResizeImageAlongWithForm);
-                return true;
-            } else
-            {
-                return false;
             }
+
+            return bResult;
         }
 
         //===================================================================================================
@@ -337,8 +540,8 @@ namespace VokabelTrainer.Forms
                         this.m_ctlPictureBox.Image = new Bitmap(m_oLoadedImage, nNewWidth, nNewHeight);
                         this.m_ctlPictureBox.Size = new Size(nNewWidth, nNewHeight);
 
-                        ShiftOtherElementsUpOrDown(nHeightChange);
                         this.Height += nHeightChange;
+                        ShiftOtherElementsUpOrDown(nNewHeight);
                     }
                 }
             }
@@ -348,19 +551,20 @@ namespace VokabelTrainer.Forms
         /// <summary>
         /// Shifts elements, apart from the image box up or down
         /// </summary>
-        /// <param name="nHeightChange">The change in height, compared to previous</param>
+        /// <param name="nNewPictureHeight">New height of the picture</param>
         //===================================================================================================
         private void ShiftOtherElementsUpOrDown(
-            int nHeightChange
+            int nNewPictureHeight
             )
         {
             foreach (Control ctl in m_oOriginalPositions.Keys)
             {
                 if ((ctl.Anchor & AnchorStyles.Bottom) == AnchorStyles.None)
-                    ctl.Top += nHeightChange;
+                    ctl.Top = m_oOriginalPositions[ctl] + nNewPictureHeight;
             }
         }
         #endregion
+
 
         //===================================================================================================
         /// <summary>
