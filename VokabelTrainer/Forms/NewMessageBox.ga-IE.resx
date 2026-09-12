@@ -120,6 +120,15 @@
   <data name="m_btnOK.Text" xml:space="preserve">
     <value>Ceart go leor</value>
   </data>
+  <data name="m_btnCancel.Text" xml:space="preserve">
+    <value>Cealaigh</value>
+  </data>
+  <data name="m_btnNo.Text" xml:space="preserve">
+    <value>Ní hea</value>
+  </data>
+  <data name="m_btnYes.Text" xml:space="preserve">
+    <value>Sea</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Text" xml:space="preserve">
     <value>Traenálaí stór focal</value>

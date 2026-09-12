@@ -1136,7 +1136,8 @@ namespace VokabelTrainer
             catch (Exception oEx)
             {
                 NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingXmlFileHeader, 
-                    string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, oEx.Message));
+                    string.Format(Properties.Resources.ErrorLoadingXmlFileMessage, oEx.Message),
+                    true, false, false, "Error");
 
                 m_strCurrentPath = null;
                 m_oCurrentVocabularyDoc = null;
@@ -1328,7 +1329,8 @@ namespace VokabelTrainer
                 catch (Exception oEx)
                 {
                     NewMessageBox.Show(this, oEx.Message, Properties.Resources.ErrorLoadingTrainingFileHeader,
-                        string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, oEx.Message));
+                        string.Format(Properties.Resources.ErrorLoadingTrainingFileMessage, oEx.Message),
+                        true, false, false, "Error");
 
                     m_strCurrentPath = null;
                     m_oCurrentVocabularyDoc = null;
@@ -1352,16 +1354,17 @@ namespace VokabelTrainer
             {
                 using (NewWordsInCourseForm oForm = new NewWordsInCourseForm(
                     Resources.NewVocabularyInCourseHeader, m_strFirstLanguage, 
-                    m_strSecondLanguage, oCurrentStep))
+                    m_strSecondLanguage, oCurrentStep, 
+                    m_cbxReader.SelectedIndex != 4,
+                    m_chkUseESpeak.Checked, m_tbxESpeakPath.Text))
                 {
                     oForm.ShowDialog(this);
                 }
             } else if (nNeededStep.HasValue)
             {
-                MessageBox.Show(this, Resources.CourseFinishedText, 
-                    Resources.CourseFinishedHeader, 
-                    MessageBoxButtons.OK, 
-                    MessageBoxIcon.Asterisk);
+                NewMessageBox.Show(this, Resources.CourseFinishedText, 
+                    Resources.CourseFinishedHeader,
+                    "", true, false, false, "Celebration");
 
                 // switch back to "normal", so user can enter his own vocabulary, in case licence allows it.
                 m_strMode = "normal";
@@ -1496,8 +1499,8 @@ namespace VokabelTrainer
                             strFilePath.EndsWith("de-ru.xml"))
                         {
                             if (DialogResult.Yes ==
-                                MessageBox.Show(Resources.PredefinedVocabularyBook, 
-                                this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                                NewMessageBox.Show(this, Resources.PredefinedVocabularyBook, 
+                                this.Text, "", false, false, true, "Question"))
                             {
                                 bPredefined = true;
                             }
@@ -1505,11 +1508,11 @@ namespace VokabelTrainer
                         else
                         {
                             if (DialogResult.Yes ==
-                                MessageBox.Show(Resources.ExperimentalVocabularyBook, 
-                                this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                                NewMessageBox.Show(this, Resources.ExperimentalVocabularyBook, 
+                                this.Text, "", false, false, true, "Question"))
                             {
-                                MessageBox.Show(Resources.ExperimentalThanks, 
-                                    this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                NewMessageBox.Show(this, Resources.ExperimentalThanks, 
+                                    this.Text, "", true, false, false, "Information");
                                 bPredefined = true;
                             }
                         }
@@ -1842,10 +1845,10 @@ namespace VokabelTrainer
                     System.IO.FileInfo fi = new System.IO.FileInfo(strNewPath);
                     if (fi.Exists)
                     {
-                        if (System.Windows.Forms.MessageBox.Show(this, 
+                        if (NewMessageBox.Show(this, 
                                 string.Format(Properties.Resources.LanguageFileAlreadyExistsMessage, strNewPath), 
-                                Properties.Resources.LanguageFileAlreadyExistsHeader,
-                                MessageBoxButtons.YesNo, MessageBoxIcon.Question) 
+                                Properties.Resources.LanguageFileAlreadyExistsHeader, "",
+                                false, false, true, "Question") 
                                 != DialogResult.Yes)
                             return;
                     };
@@ -2854,7 +2857,8 @@ namespace VokabelTrainer
                 };
 
                 NewMessageBox.Show(this, oEx.Message, Properties.Resources.Error, 
-                    string.Format(Properties.Resources.ErrorWhileSavingVocabularyFile, oEx.Message));
+                    string.Format(Properties.Resources.ErrorWhileSavingVocabularyFile, oEx.Message),
+                    true, false, false, "Error");
             }
         }
 
@@ -3002,7 +3006,8 @@ namespace VokabelTrainer
                 };
 
                 NewMessageBox.Show(this, oEx.Message, Properties.Resources.Error, 
-                    string.Format(Properties.Resources.ErrorWhileSavingTrainingFile,oEx.Message));
+                    string.Format(Properties.Resources.ErrorWhileSavingTrainingFile,oEx.Message),
+                    true, false, false, "Error");
 
                 return false;
             }
@@ -3989,6 +3994,8 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@CosterraCumbia/videos");
                                 Add(oResult, @"https://www.youtube.com/@VibraBonita-y9j/videos");
                                 Add(oResult, @"https://www.youtube.com/@ALABANZASBAILABLESCRISTIANAS/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@VibeMachineStudio/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@CumbiaTropicanaslim/videos");
                                 // https://www.youtube.com/@VibraBonita-y9j/videos
 
                                 // Calm music
@@ -4239,6 +4246,10 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@OceanBossaCafe/videosc");
                                 Add(oResult, @"https://www.youtube.com/@FadoTechnoLisboa/videos");
                                 Add(oResult, @"https://www.youtube.com/@MardeEmo%C3%A7%C3%B5es-u2z/videos");
+                                Add(oResult, @"https://www.youtube.com/@MiguelCanaljnc/videos");
+
+                                Add(oResult, @"https://www.youtube.com/@Cora%C3%A7%C3%A3oLusitano-musica/videos");
+                                Add(oResult, @"https://www.youtube.com/@PortugalFadoPulse/videos");
                             }
                             break;
                     }
@@ -4305,13 +4316,14 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@%D0%9F%D0%B5%D1%81%D0%BD%D0%B8%D0%A1%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F/videos");
                         Add(oResult, @"https://www.youtube.com/watch?v=XCKadO8eSXE",1,1500,2000);
                         Add(oResult, @"https://www.youtube.com/@DJ-PRIPRAVA/videos", 0.1, 500);
-                        //https://www.youtube.com/@%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%B0%D0%9F%D0%BE%D1%8E%D1%82/videos
-   
+                        Add(oResult, @"https://www.youtube.com/@RussianGoldenDisco/videos");
+                          //https://www.youtube.com/@%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%B0%D0%9F%D0%BE%D1%8E%D1%82/videos
+
 
                         // these use a word that doesn't work in hebrew
                         if ("he".Equals(System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                         {
-                            Add(oResult, @"https://www.youtube.com/@%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%D1%81%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5/videos,0.05,1000+");
+                            Add(oResult, @"https://www.youtube.com/@%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%D1%81%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5/videos",0.05,1000);
                         }
                     }
                 }
@@ -5224,6 +5236,35 @@ namespace VokabelTrainer
             }
 
 
+            // if current culture isn't Latin
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("la"))
+            {
+                // and one of the trained languages is Latin
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("la"))
+                {
+                    // then add resources in Latin for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=gregorian+chant+in+latin");
+                    }
+                }
+            }
+
+            // if current culture isn't Tibettan
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("bo"))
+            {
+                // and one of the trained languages is Tibettan
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("bo"))
+                {
+                    // then add resources in Latin for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/results?search_query=%E0%BD%96%E0%BD%BC%E0%BD%91%E0%BC%8B%E0%BD%A6%E0%BE%90%E0%BD%91%E0%BC%8B%E0%BD%80%E0%BE%B1%E0%BD%B2%E0%BC%8B%E0%BD%A2%E0%BD%BC%E0%BD%A3%E0%BC%8B%E0%BD%91%E0%BD%96%E0%BE%B1%E0%BD%84%E0%BD%A6%E0%BC%8D");
+                    }
+                }
+            }
+
+
             return oResult;
         }
 
@@ -5342,7 +5383,7 @@ namespace VokabelTrainer
             }
             catch (Exception oEx)
             {
-                MessageBox.Show(oEx.Message);
+                NewMessageBox.Show(this, oEx.Message, this.Text, "", true, false, false, "Error");
             }
         }
 

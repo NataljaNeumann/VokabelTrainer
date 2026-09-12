@@ -156,8 +156,8 @@
   <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="m_rbZhuyinFuhaoWritingOfTaiwan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 29</value>
+  <data name="m_rbChinesePeoplesRepublicOfChina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 90</value>
   </data>
   <data name="m_rbChinesePeplesRepublicOfChinaPinyinWriting.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 125</value>
@@ -290,6 +290,9 @@
   <data name="&gt;&gt;m_rbTraditionalChineseLanguageOfTaiwan.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="m_rbTraditionalChineseLanguageOfTaiwan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 29</value>
+  </data>
   <data name="&gt;&gt;m_lblChineseVariant.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -302,11 +305,17 @@
   <data name="&gt;&gt;m_rbPinyinChineseOfTaiwanPinyinWriting.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;m_rbZhuyinFuhaoWritingOfTaiwan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="m_lblChineseVariant.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="m_lblChineseVariant.Size" type="System.Drawing.Size, System.Drawing">
     <value>767, 59</value>
+  </data>
+  <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.Text" xml:space="preserve">
+    <value>Hanyu Pinyin (Taiwan)</value>
   </data>
   <data name="m_btnOk.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -316,6 +325,9 @@
   </data>
   <data name="&gt;&gt;m_rbChinesePeoplesRepublicOfChina.Name" xml:space="preserve">
     <value>m_rbChinesePeoplesRepublicOfChina</value>
+  </data>
+  <data name="m_rbZhuyinFuhaoWritingOfTaiwan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 29</value>
   </data>
   <data name="&gt;&gt;m_btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -332,8 +344,8 @@
   <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;m_rbZhuyinFuhaoWritingOfTaiwan.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 195</value>
   </data>
   <data name="&gt;&gt;m_lblChineseVariant.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -377,9 +389,6 @@
   <data name="m_lblChineseVariant.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 195</value>
-  </data>
   <data name="&gt;&gt;m_rbChinesePeplesRepublicOfChinaPinyinWriting.Name" xml:space="preserve">
     <value>m_rbChinesePeplesRepublicOfChinaPinyinWriting</value>
   </data>
@@ -392,14 +401,8 @@
   <data name="m_rbChinesePeplesRepublicOfChinaPinyinWriting.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;m_rbChinesePeoplesRepublicOfChina.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="m_lblChineseVariant.Text" xml:space="preserve">
     <value>Please select the variant of the Chinese language that you want to use</value>
-  </data>
-  <data name="m_rbChinesePeoplesRepublicOfChina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 90</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ChineseVariantSelection</value>
@@ -407,14 +410,8 @@
   <data name="m_rbChinesePeplesRepublicOfChinaPinyinWriting.Size" type="System.Drawing.Size, System.Drawing">
     <value>431, 29</value>
   </data>
-  <data name="&gt;&gt;m_rbChinesePeoplesRepublicOfChina.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;m_lblChineseVariant.Name" xml:space="preserve">
     <value>m_lblChineseVariant</value>
-  </data>
-  <data name="m_rbChinesePeoplesRepublicOfChina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>595, 29</value>
   </data>
   <data name="&gt;&gt;m_rbZhuyinFuhaoWritingOfTaiwan.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -425,8 +422,8 @@
   <data name="&gt;&gt;m_rbZhuyinFuhaoWritingOfTaiwan.Name" xml:space="preserve">
     <value>m_rbZhuyinFuhaoWritingOfTaiwan</value>
   </data>
-  <data name="m_rbTraditionalChineseLanguageOfTaiwan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 29</value>
+  <data name="m_rbChinesePeoplesRepublicOfChina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 29</value>
   </data>
   <data name="m_rbZhuyinFuhaoWritingOfTaiwan.Text" xml:space="preserve">
     <value>Zhuyin Fuhao (Taiwan)</value>
@@ -440,6 +437,9 @@
   <data name="&gt;&gt;m_btnOk.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;m_btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;m_rbPinyinChineseOfTaiwanPinyinWriting.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
@@ -452,13 +452,16 @@
   <data name="m_rbZhuyinFuhaoWritingOfTaiwan.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;m_btnOk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_rbChinesePeoplesRepublicOfChina.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="m_rbPinyinChineseOfTaiwanPinyinWriting.Text" xml:space="preserve">
-    <value>Hanyu Pinyin (Taiwan)</value>
+  <data name="&gt;&gt;m_rbChinesePeoplesRepublicOfChina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ta</value>
   </metadata>
 </root>

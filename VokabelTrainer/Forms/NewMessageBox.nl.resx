@@ -123,4 +123,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Woordenschattrainer</value>
   </data>
+  <data xml:space="preserve" name="m_btnCancel.Text">
+    <value>Annuleren</value>
+  </data>
+  <data xml:space="preserve" name="m_btnNo.Text">
+    <value>Nee</value>
+  </data>
+  <data xml:space="preserve" name="m_btnYes.Text">
+    <value>Ja</value>
+  </data>
 </root>

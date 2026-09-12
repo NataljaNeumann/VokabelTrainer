@@ -49,6 +49,9 @@ namespace VokabelTrainer
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewMessageBox));
             this.m_lblMessageText = new System.Windows.Forms.Label();
             this.m_btnOK = new System.Windows.Forms.Button();
+            this.m_btnCancel = new System.Windows.Forms.Button();
+            this.m_btnNo = new System.Windows.Forms.Button();
+            this.m_btnYes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // m_lblMessageText
@@ -60,15 +63,44 @@ namespace VokabelTrainer
             // m_btnOK
             // 
             resources.ApplyResources(this.m_btnOK, "m_btnOK");
+            this.m_btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.m_btnOK.Name = "m_btnOK";
             this.m_btnOK.UseVisualStyleBackColor = true;
             this.m_btnOK.Click += new System.EventHandler(this.m_btnOk_Click);
+            // 
+            // m_btnCancel
+            // 
+            resources.ApplyResources(this.m_btnCancel, "m_btnCancel");
+            this.m_btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.m_btnCancel.Name = "m_btnCancel";
+            this.m_btnCancel.UseVisualStyleBackColor = true;
+            this.m_btnCancel.Click += new System.EventHandler(this.m_btnCancel_Click);
+            // 
+            // m_btnNo
+            // 
+            resources.ApplyResources(this.m_btnNo, "m_btnNo");
+            this.m_btnNo.DialogResult = System.Windows.Forms.DialogResult.No;
+            this.m_btnNo.Name = "m_btnNo";
+            this.m_btnNo.UseVisualStyleBackColor = true;
+            this.m_btnNo.Click += new System.EventHandler(this.m_btnNo_Click);
+            // 
+            // m_btnYes
+            // 
+            resources.ApplyResources(this.m_btnYes, "m_btnYes");
+            this.m_btnYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            this.m_btnYes.Name = "m_btnYes";
+            this.m_btnYes.UseVisualStyleBackColor = true;
+            this.m_btnYes.Click += new System.EventHandler(this.m_btnYes_Click);
             // 
             // NewMessageBox
             // 
             this.AcceptButton = this.m_btnOK;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.m_btnCancel;
+            this.Controls.Add(this.m_btnYes);
+            this.Controls.Add(this.m_btnNo);
+            this.Controls.Add(this.m_btnCancel);
             this.Controls.Add(this.m_btnOK);
             this.Controls.Add(this.m_lblMessageText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -82,5 +114,8 @@ namespace VokabelTrainer
 
         private System.Windows.Forms.Label m_lblMessageText;
         private System.Windows.Forms.Button m_btnOK;
+        private System.Windows.Forms.Button m_btnCancel;
+        private System.Windows.Forms.Button m_btnNo;
+        private System.Windows.Forms.Button m_btnYes;
     }
 }

@@ -132,4 +132,13 @@
   <data xml:space="preserve" name="$this.Text">
     <value>Mazoezi ya msamiati</value>
   </data>
+  <data xml:space="preserve" name="m_btnCancel.Text">
+    <value>Ghairi</value>
+  </data>
+  <data xml:space="preserve" name="m_btnNo.Text">
+    <value>Hapana</value>
+  </data>
+  <data xml:space="preserve" name="m_btnYes.Text">
+    <value>Ndiyo</value>
+  </data>
 </root>

@@ -24,6 +24,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
 
 namespace VokabelTrainer.Forms
@@ -43,6 +44,12 @@ namespace VokabelTrainer.Forms
 
         //===================================================================================================
         /// <summary>
+        /// The font for language names
+        /// </summary>
+        Font m_oHeaderFont;
+
+        //===================================================================================================
+        /// <summary>
         /// Constructs a new form object
         /// </summary>
         /// <param name="strHeading">The heading of the object</param>
@@ -54,15 +61,67 @@ namespace VokabelTrainer.Forms
             string strHeading, 
             string strFirstLanguage, 
             string strSecondLanguage, 
-            IEnumerable<KeyValuePair<string, string>> oWordPairs
+            IEnumerable<KeyValuePair<string, string>> oWordPairs,
+            bool bSay,
+            bool bUseESpeak,
+            string strESpeakPath
             )
         {
 
             InitializeComponent();
 
-            // Set up font
+            // Set up fonts
             m_oFont = new Font(family: Font.FontFamily, emSize: 22, style: FontStyle.Regular);
+            m_oHeaderFont = new Font(family: Font.FontFamily, emSize: 22, style: FontStyle.Underline | FontStyle.Bold);
 
+            if (bSay)
+            {
+                if (Program.LanguageCodeFromName(strFirstLanguage).Length >= 2 && 
+                    Program.LanguageCodeFromName(strFirstLanguage).Substring(0, 2).Equals(
+                    System.Threading.Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName))
+                {
+                    StringBuilder oAllWords = new StringBuilder();
+                    foreach (KeyValuePair<string, string> oKVP in oWordPairs)
+                    {
+                        if (oAllWords.ToString().IndexOf(oKVP.Value) < 0)
+                        {
+                            if (oAllWords.Length > 0)
+                                oAllWords.Append(", ");
+                            oAllWords.Append(oKVP.Value);
+                        }
+                    }
+
+                    Speaker.Say(Program.LanguageCodeFromName(strSecondLanguage),
+                        oAllWords.ToString(),
+                        true,
+                        bUseESpeak,
+                        strESpeakPath);
+
+                }
+                else
+                if (Program.LanguageCodeFromName(strSecondLanguage).Length>=2 &&
+                    Program.LanguageCodeFromName(strSecondLanguage).Substring(0, 2).Equals(
+                    System.Threading.Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName))
+                {
+                    StringBuilder oAllWords = new StringBuilder();
+                    foreach (KeyValuePair<string, string> oKVP in oWordPairs)
+                    {
+                        if (oAllWords.ToString().IndexOf(oKVP.Key) < 0)
+                        {
+                            if (oAllWords.Length > 0)
+                                oAllWords.Append(", ");
+                            oAllWords.Append(oKVP.Key);
+                        }
+                    }
+
+                    Speaker.Say(Program.LanguageCodeFromName(strFirstLanguage),
+                        oAllWords.ToString(),
+                        true,
+                        bUseESpeak,
+                        strESpeakPath);
+                }
+            }
+            
             // Create a TableLayoutPanel for two columns
             var ctlTable = new TableLayoutPanel
             {
@@ -80,7 +139,7 @@ namespace VokabelTrainer.Forms
             var lblFirstLang = new Label
             {
                 Text = strFirstLanguage,
-                Font = m_oFont,
+                Font = m_oHeaderFont,
                 AutoSize = true,
                 TextAlign = ContentAlignment.MiddleRight,
                 Anchor = AnchorStyles.Right,
@@ -89,7 +148,7 @@ namespace VokabelTrainer.Forms
             var lblSecondLang = new Label
             {
                 Text = strSecondLanguage,
-                Font = m_oFont,
+                Font = m_oHeaderFont,
                 AutoSize = true,
                 TextAlign = ContentAlignment.MiddleLeft,
                 Anchor = AnchorStyles.Left,
@@ -167,15 +226,21 @@ namespace VokabelTrainer.Forms
                 // If language indicates it is Africa, then try African header
                 if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
                     strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
-                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
+                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti") ||
+                    strIetf.StartsWith("sw")) &&
                     ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                     "CourseProgressVerticalHeaderAfrica.jpg"))
                 {
                     return;
                 }
 
-                // If language indicates it is latin America, then try latin American header
-                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
+                // If language indicates it is latin America or India environment, then try latin American header
+                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt") ||
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("ne") ||
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("sa") ||
+                    strIetf.StartsWith("bo") || strIetf.StartsWith("dz") ||
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("ml") ||
+                    strIetf.StartsWith("mr") || strIetf.StartsWith("or"))
                     && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
                     ReadyToUseSideImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                     "CourseProgressVerticalHeaderLatinAmerica.jpg"))
@@ -243,15 +308,21 @@ namespace VokabelTrainer.Forms
                 // If language indicates it is Africa, then try African header
                 if ((strIetf.StartsWith("yo") || strIetf.StartsWith("ig") || strIetf.StartsWith("so") ||
                     strIetf.StartsWith("af") || strIetf.StartsWith("am") || strIetf.StartsWith("ig") ||
-                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti")) &&
+                    strIetf.StartsWith("wo") || strIetf.StartsWith("rw") || strIetf.StartsWith("ti") ||
+                    strIetf.StartsWith("sw")) &&
                     ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                     "CourseProgressHorizontalHeaderAfrica.jpg"))
                 {
                     return;
                 }
 
-                // If language indicates it is latin America, then try latin American header
-                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt"))
+                // If language indicates it is latin America or india environment, then try latin American header
+                if ((strIetf.StartsWith("es") || strIetf.StartsWith("pt") || 
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("ne") ||
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("sa") ||
+                    strIetf.StartsWith("bo") || strIetf.StartsWith("dz") ||
+                    strIetf.StartsWith("hi") || strIetf.StartsWith("ml") ||
+                    strIetf.StartsWith("mr") || strIetf.StartsWith("or"))
                     && !strIetf.Equals("es-ES") && !strIetf.Equals("pt-PT") &&
                     ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                     "CourseProgressHorizontalHeaderLatinAmerica.jpg"))

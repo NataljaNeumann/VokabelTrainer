@@ -129,13 +129,13 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="m_lblMessageText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 136</value>
+    <value>573, 151</value>
   </data>
   <data name="m_btnOK.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_btnOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 186</value>
+    <value>282, 186</value>
   </data>
   <data name="m_btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -145,6 +145,42 @@
   </data>
   <data name="m_btnOK.Text" xml:space="preserve">
     <value>ଠିକ୍ ଅଛି</value>
+  </data>
+  <data name="m_btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 186</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 41</value>
+  </data>
+  <data name="m_btnCancel.Text" xml:space="preserve">
+    <value>ବାତିଲ୍ କରନ୍ତୁ</value>
+  </data>
+  <data name="m_btnNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 137</value>
+  </data>
+  <data name="m_btnNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 41</value>
+  </data>
+  <data name="m_btnNo.Text" xml:space="preserve">
+    <value>ନା</value>
+  </data>
+  <data name="m_btnYes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="m_btnYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 137</value>
+  </data>
+  <data name="m_btnYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 41</value>
+  </data>
+  <data name="m_btnYes.Text" xml:space="preserve">
+    <value>ହଁ</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>12, 25</value>
