@@ -331,6 +331,8 @@ namespace VokabelTrainer
                 // arab
                 "Ar".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ar-SA" :
                 "Ара".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ar-SA" :
+                "ال".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
+                (strCurrentCulture.StartsWith("ar") && !strCurrentCulture.Equals("ar") ? strCurrentCulture : "ar-SA") :
                 "عر".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ?
                 (strCurrentCulture.StartsWith("ar") && !strCurrentCulture.Equals("ar") ? strCurrentCulture : "ar-SA") :
 
