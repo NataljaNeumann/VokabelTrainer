@@ -22,7 +22,7 @@ rem as			Asamiya
 rem az			Azerbaijani
 rem be			Belarussian
 rem bg			Bulgarian
-rem bn			Bengali
+rem bn			Bengali Bangla
 rem bo-CN		Tibetan
 rem bs			Bosnian
 rem ca			Catalan
