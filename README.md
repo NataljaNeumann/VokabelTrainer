@@ -819,75 +819,104 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 
 ‏[האם אתה צריך תמיכה?](https://github.com/NataljaNeumann/VokabelTrainer/issues)  
 [ויקי](https://github.com/NataljaNeumann/VokabelTrainer/wiki)
-
+‎
 
 # Other languages:
-- Woordeskat oefenprogram. Woordeskatboek - sagteware.
-- Programi i praktikës së fjalorit. Libër fjalori - softuer.
-- የቃላት ልምምድ ፕሮግራም. የቃላት ዝርዝር - ሶፍትዌር.
-- برنامج ممارسة المفردات. كتاب المفردات - البرمجيات.
-- Բառապաշարի պրակտիկայի ծրագիր. Բառապաշար - ծրագրային ապահովում.
-- Lüğət təcrübə proqramı. Lüğət kitabı - proqram təminatı.
-- Праграму па практыцы слоўнікавага запасу. 
-- 詞彙練習計劃。詞彙書-軟體。
-- Programm zum Üben von Vokabeln. Vokabelheft - Software.
-- Program for practicing vocabulary. Vocabulary book software.
-- Sõnavara harjutamise programm. Sõnavararaamat - tarkvara.
-- Sanaston harjoitusohjelma. Sanastokirja - ohjelmisto.
-- Programme de pratique du vocabulaire. Livre de vocabulaire - logiciel.
-- ლექსიკის სავარჯიშო პროგრამა. ლექსიკის წიგნი - პროგრამული უზრუნველყოფა.
-- Πρόγραμμα εξάσκησης λεξιλογίου. Βιβλίο λεξιλογίου - λογισμικό.
-- תוכנית לתרגול אוצר מילים. ספר אוצר מילים - תוכנה.
-- शब्दावली अभ्यास कार्यक्रम. शब्दावली पुस्तक - सॉफ्टवेयर.
-- Mmemme omume okwu. Akwụkwọ okwu - software.
-- Program latihan kosakata. Buku kosakata - perangkat lunak.
-- Æfingaáætlun orðaforða. Orðaforðabók - hugbúnaður.
-- Programma di pratica del vocabolario. Libro di vocabolario - software.
-- Тыл үөрэҕин дьарыктанар бырагыраама. Лексика кинигэтэ - софт.
-- 語彙練習プログラム。単語帳 - ソフトウェア。
-- ಶಬ್ದಕೋಶ ಅಭ್ಯಾಸ ಕಾರ್ಯಕ್ರಮ. ಶಬ್ದಕೋಶ ಪುಸ್ತಕ - ಸಾಫ್ಟ್‌ವೇರ್.
-- Сөздік тәжірибелік бағдарлама. Сөздік кітап – бағдарламалық құрал.
-- Programa de pràctica de vocabulari. Llibre de vocabulari - programari.
-- កម្មវិធីអនុវត្តវាក្យសព្ទ។ សៀវភៅវាក្យសព្ទ - កម្មវិធី។
-- Лексика боюнча практикалык программа. Лексика китеби - программалык камсыздоо.
-- 어휘 연습 프로그램. 어휘 책 - 소프트웨어.
-- Program vježbanja vokabulara. Rječnik - softver.
-- Vārdu krājuma prakses programma. Vārdnīca - programmatūra.
-- Žodyno praktikos programa. Žodyno knyga – programinė įranga.
-- Program latihan kosa kata. Buku kosa kata - perisian.
-- ڤروڬرام لاتيهن ڤركاتان. بوكو ڤركاتان - ڤرايسين.
-- Програма за вежбање вокабулар. Книга вокабулар - софтвер.
-- Тайлбар толь бичгийн дасгалын хөтөлбөр. Тайлбар толь бичиг - програм хангамж.
-- Woordenschat oefenprogramma. Woordenschatboek - software.
-- Praksisprogram for ordforråd. Ordbok - programvare.
-- د لغتونو تمرین پروګرام. د لغتونو کتاب - سافټویر.
-- برنامه تمرین واژگان. کتاب واژگان - نرم افزار.
-- Program ćwiczeń słownictwa. Książka słownictwa - oprogramowanie.
-- Programa de prática de vocabulário. Livro de vocabulário - software.
-- ਸ਼ਬਦਾਵਲੀ ਅਭਿਆਸ ਪ੍ਰੋਗਰਾਮ. ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ - ਸਾਫਟਵੇਅਰ.
-- لفظاں دی مشق دا پروگرام۔ لفظاں دی کتاب - سافٹ ویئر۔
-- Program de exersare a vocabularului. Carte de vocabular - software.
-- Программа тренировки словарного запаса. Словарный справочник - программа.
-- शब्दावली अभ्यास कार्यक्रम। शब्दावली पुस्तक - सॉफ्टवेयर।
-- Ordförrådsövningsprogram. Ordbok - programvara.
-- Програм вежбања речника. Речник - софтвер.
-- Program precvičovania slovnej zásoby. Kniha slovnej zásoby - softvér.
-- Program za vadbo besedišča. Besednjak - programska oprema.
-- Barnaamijka ku celcelinta erayada. Buuga erayada - software.
-- Programa de práctica de vocabulario. Libro de vocabulario - software.
-- Барномаи амалии лексика. Китоби луғат - нармафзор.
-- መደብ ልምምድ ቃላት። መጽሓፍ ቃላት - ሶፍትዌር።
-- Program procvičování slovní zásoby. Kniha slovíček - software.
-- Лексика Ӏаморан программа. Лексикин книга - программни гӀирс.
-- Kelime alıştırma programı. Kelime kitabı - yazılım.
-- Sözlük amaly programmasy. Sözlük kitaby - programma üpjünçiligi.
-- Програма практики словникового запасу. Словник - програмне забезпечення.
-- Szókincsgyakorló program. Szótár - szoftver.
-- Lug'at amaliyoti dasturi. Lug'at kitobi - dasturiy ta'minot.
-- Chương trình luyện tập từ vựng. Sách từ vựng - phần mềm.
-- Eto adaṣe fokabulari. Fokabulari iwe - software.
-- Gahunda y'imyitozo y'amagambo. Igitabo cy'amagambo - software.
-- Prograamu jàngat baatu-kàddu. Téere vocabulaire - logiciel.
+- Vanlyn oopbron-sagteware (gratis) vir woordeskat-oefening (rekenaartoepassing) vir Windows onder die GNU GPL-2.0-lisensie. Flitskaart-toepassing. Aanleer van woordeskat. Taalaanleer. Program vir die inoefening van woordeskat. Sagteware vir woordeskatstudie.
+- Softuer (aplikacion desktop) me burim të hapur (falas) për trajnimin e fjalorit, që funksionon jashtë linje në Windows nën licencën GNU GPL-2.0. Aplikacion me kartela mësimore (flashcards). Mësimi i fjalorit dhe gjuhëve të huaja. Program për praktikimin e fjalorit. Softuer për menaxhimin e fjalorit.
+- ለዊንዶውስ (Windows) የተዘጋጀ፣ በGNU GPL-2.0 ፈቃድ የሚሰራ፣ ከመስመር ውጭ (offline) የሚያገለግል እና ነፃ (open source) የቃላት ማሰልጠኛ ሶፍትዌር (የዴስክቶፕ መተግበሪያ)። የፍላሽ ካርድ (flashcards) መተግበሪያ፤ የቃላት እና የቋንቋ ትምህርት፤ የቃላት ልምምድ ፕሮግራም፤ የቃላት መማሪያ ሶፍትዌር።
+- Օֆլայն ռեժիմով աշխատող, բաց կոդով (անվճար) ծրագիր՝ բառապաշարի ուսուցման համար (համակարգչային հավելված Windows-ի համար՝ GNU GPL-2.0 արտոնագրով)։ Ֆլեշ-քարտերի հավելված։ Բառապաշարի ուսուցում։ Լեզվի ուսուցում։ Բառապաշարի վարժեցման ծրագիր։ Բառապաշարի կառավարման ծրագրային ապահովում։
+- Windows üçün GNU GPL-2.0 lisenziyalı, oflayn rejimdə işləyən açıq mənbəli (pulsuz) lüğət öyrənmə proqramı (masaüstü tətbiq). Fleş-kart tətbiqi. Lüğət və dil öyrənmə. Lüğət təcrübəsi proqramı. Lüğət bazası proqramı.
+- GNU GPL-2.0 ৰ অন্তৰ্গত Windows ৰ বাবে অফলাইন মুক্ত উৎস (বিনামূলীয়া) শব্দভাণ্ডাৰ প্ৰশিক্ষক চফ্টৱেৰ (ডেস্কটপ-এপ)। ফ্লেচকাৰ্ড এপ। শব্দভাণ্ডাৰ শিক্ষণ। ভাষা শিক্ষণ। শব্দভাণ্ডাৰৰ অনুশীলনৰ বাবে কাৰ্যসূচী। শব্দভাণ্ডাৰ কিতাপৰ চফট্ ৱেৰ।
+- Бясплатнае праграмнае забеспячэнне для трэнажора лексікі (настольнае прыкладанне) з адкрытым зыходным кодам для Windows пад ліцэнзіяй GNU GPL-2.0. Прыкладанне для картак. Вывучэнне лексікі. Вывучэнне мовы. Праграма для практыкавання лексікі. Праграма для працы са слоўнікавым запасам. Праграмнае забеспячэнне для працы са слоўнікавым запасам.
+- উইন্ডোজের জন্য অফলাইন ওপেন সোর্স (ফ্রি) শব্দভাণ্ডার শেখার সফটওয়্যার (ডেস্কটপ অ্যাপ), যা GNU GPL-2.0 লাইসেন্সের আওতাভুক্ত। এটি একটি ফ্ল্যাশকার্ড অ্যাপ যা শব্দভাণ্ডার ও ভাষা শেখার এবং শব্দভাণ্ডার অনুশীলনের কাজে ব্যবহৃত হয়।
+- GNU GPL-2.0 စည်းမျဉ်းအောက်ရှိ Windows အတွက် အင်တာနက်မလိုဘဲ အသုံးပြုနိုင်သော open-source (အခမဲ့) ဝေါဟာရလေ့ကျင့်ရေးဆော့ဖ်ဝဲ (Desktop-app) ဖြစ်ပါသည်။ ၎င်းသည် Flashcard ပုံစံဖြင့် ဝေါဟာရနှင့် ဘာသာစကားကို လေ့လာသင်ယူနိုင်စေမည့် ပရိုဂရမ်တစ်ခု ဖြစ်သည်။
+- Offline softver otvorenog koda (besplatan) za vježbanje vokabulara (desktop aplikacija) za Windows pod licencom GNU GPL-2.0. Aplikacija sa karticama za učenje (flashcards). Učenje vokabulara. Učenje jezika. Program za vježbanje vokabulara. Softver za rad sa vokabularom.
+- Офлайн софтуер с отворен код (безплатен) за упражняване на лексика (настолно приложение) за Windows, разпространяван под лиценза GNU GPL-2.0. Приложение с флаш-карти. Учене на лексика. Изучаване на езици. Програма за упражняване на речников запас. Софтуер за водене на речников списък.
+- 基於 GNU GPL-2.0 協定的 Windows 離線開源（免費）詞彙訓練軟體（桌面應用）。包含抽認卡功能，適用於字彙學習與語言學習。一款用於練習詞彙的程式及電子詞彙本軟體。
+- 基于 GNU GPL-2.0 协议的 Windows 离线开源（免费）词汇训练软件（桌面应用）。包含抽认卡功能，适用于词汇学习与语言学习。一款用于练习词汇的程序及电子词汇本软件。
+- Offline open source-software (gratis) til ordforrådstræning (desktop-app) til Windows under GNU GPL-2.0. Flashcard-app. Indlæring af ordforråd. Sprogindlæring. Program til øvelse af ordforråd. Software til ordforrådstræning.
+- ཇི་ཨེན་ཡུ་ཇི་པི་ཨེལ་-༢.༠ འོག་ལུ་ཡོད་མི་ ཝིན་ཌོསི་གི་དོན་ལུ་ ཨོཕ་ལ་ཡིན་ཁ་ཕྱེ་འབྱུང་ཁུངས་ (རིན་མེད་) མིང་ཚིག་སྦྱོང་བརྡར་མཉེན་ཆས་ (ཌེཀསི་ཊོཔ་-ཨེཔ་)། ཕེལེཤ་ཀརཌ་ཨེཔིལ། མིང་ཚིག་ལྷབ་སྦྱང་། སྐད་ཡིག་སྦྱང་བ། མིང་ཚིག་སྦྱོང་བརྡར་གྱི་ལས་རིམ། མིང་ཚིག་དེབ་ཀྱི་མཉེན་ཆས།ཇི་ཨེན་ཡུ་ཇི་པི་ཨེལ་-༢.༠ འོག་ལུ་ཡོད་མི་ ཝིན་ཌོསི་གི་དོན་ལུ་ ཨོཕ་ལ་ཡིན་ཁ་ཕྱེ་འབྱུང་ཁུངས་ (རིན་མེད་) མིང་ཚིག་སྦྱོང་བརྡར་མཉེན་ཆས་ (ཌེཀསི་ཊོཔ་-ཨེཔ་)། ཕེལེཤ་ཀརཌ་ཨེཔིལ། མིང་ཚིག་ལྷབ་སྦྱང་། སྐད་ཡིག་སྦྱང་བ། མིང་ཚིག་སྦྱོང་བརྡར་གྱི་ལས་རིམ། མིང་ཚིག་དེབ་ཀྱི་མཉེན་ཆས།
+- Offline nutzbare Open-Source-Vokabeltrainer-Software (kostenlos, Desktop-Anwendung) für Windows unter der GNU GPL-2.0. Karteikarten-App. Vokabellernen. Sprachenlernen. Programm zum Üben von Vokabeln. Software für Vokabelhefte.
+- Eksterreta, malfermitkoda (senpaga) programaro por trejni vortprovizon (komputila aplikaĵo) por Vindozo sub la permesilo GNU GPL-2.0. Aplikaĵo kun lernkartoj. Lernado de vortprovizo. Lernado de lingvoj. Programo por praktiki vortprovizon. Programaro por vortproviza lernolibro.
+- Võrguühenduseta töötav avatud lähtekoodiga (tasuta) sõnavaraõppeprogramm (lauaarvutirakendus) Windowsile (litsents GNU GPL-2.0). Välkkaartidel põhinev rakendus. Sõnavaraõpe. Keeleõpe. Programm sõnavara harjutamiseks. Sõnavararakendus.
+- Offline na open-source (libre) software para sa pagsasanay ng bokabularyo (desktop app) para sa Windows sa ilalim ng GNU GPL-2.0. Flashcard app. Pag-aaral ng bokabularyo. Pag-aaral ng wika. Program para sa pagsasanay sa bokabularyo. Software na nagsisilbing aklat ng bokabularyo.
+- Ilmainen, avoimen lähdekoodin sanastoharjoitteluohjelmisto (työpöytäsovellus) Windowsille (GNU GPL-2.0-lisenssi). Muistikorttisovellus. Sanaston opettelu. Kieltenopiskelu. Ohjelma sanaston harjoitteluun. Sanastosovellus.
+- Logiciel d'entraînement au vocabulaire open source (gratuit) fonctionnant hors ligne (application de bureau) pour Windows, sous licence GNU GPL-2.0. Application de cartes mémoire (flashcards). Apprentissage du vocabulaire. Apprentissage des langues. Programme pour s'exercer au vocabulaire. Logiciel de gestion de vocabulaire.
+- ოფლაინ რეჟიმში მომუშავე, ღია კოდის მქონე (უფასო) პროგრამა ლექსიკის შესასწავლად (დესკტოპ-აპლიკაცია) Windows-ისთვის (GNU GPL-2.0 ლიცენზიით). ფლეშ-ბარათების აპლიკაცია. ლექსიკის შესწავლა. ენის შესწავლა. პროგრამა ლექსიკის სავარჯიშოდ. ლექსიკის შემსწავლელი პროგრამა.
+- Λογισμικό εκμάθησης λεξιλογίου ανοιχτού κώδικα (δωρεάν) για λειτουργία εκτός σύνδεσης (εφαρμογή επιφάνειας εργασίας) για Windows, υπό την άδεια GNU GPL-2.0. Εφαρμογή με κάρτες εκμάθησης (flashcards). Εκμάθηση λεξιλογίου. Εκμάθηση γλωσσών. Πρόγραμμα εξάσκησης λεξιλογίου. Λογισμικό ψηφιακού βιβλίου λεξιλογίου.
+- Windows के लिए GNU GPL-2.0 के तहत ऑफ़लाइन ओपन-सोर्स (मुफ़्त) शब्दावली ट्रेनर सॉफ़्टवेयर (डेस्कटॉप-ऐप)। फ़्लैशकार्ड ऐप। शब्दावली सीखना। भाषा सीखना। शब्दावली का अभ्यास करने के लिए प्रोग्राम। शब्दावली बुक सॉफ़्टवेयर।
+- Ngwanrọ nkuzi okwu mepere emepe (n'efu) na-anọghị n'ịntanetị (ngwa desktọọpụ) maka Windows n'okpuru GNU GPL-2.0. Ngwa Flashcards. Ọmụmụ okwu. Ọmụmụ asụsụ. Mmemme maka ime okwu. Ngwanrọ akwụkwọ okwu.
+- Perangkat lunak (aplikasi desktop) pelatihan kosakata *open source* (gratis) yang dapat digunakan secara luring di Windows di bawah lisensi GNU GPL-2.0. Aplikasi *flashcard*. Pembelajaran kosakata. Pembelajaran bahasa. Program untuk berlatih kosakata. Perangkat lunak buku kosakata.
+- Bogearraí foinse oscailte (saor in aisce) as líne chun stór focal a chleachtadh (feidhmchlár deisce) do Windows faoin gceadúnas GNU GPL-2.0. Feidhmchlár cártaí cuimhne. Foghlaim stór focal. Foghlaim teanga. Clár chun stór focal a chleachtadh. Bogearraí leabhar stór focal.
+- Ókeypis hugbúnaður með opnum kóða til orðaþjálfunar (skrifborðsforrit) fyrir Windows, gefinn út undir GNU GPL-2.0 leyfinu. Forrit fyrir spjaldkort (flashcards). Orða- og tungumálanám. Forrit til að æfa orðaforða. Hugbúnaður fyrir orðasöfn.
+- Software open source (gratuito) per l'apprendimento del lessico, utilizzabile offline (applicazione desktop) per Windows e distribuito con licenza GNU GPL-2.0. Applicazione basata su flashcard. Apprendimento del lessico e delle lingue. Programma per esercitarsi con il vocabolario. Software per la gestione di raccolte lessicali.
+- GNU GPL-2.0ライセンスに基づく、Windows用オフライン・オープンソース（無料）の語彙学習ソフト（デスクトップアプリ）。フラッシュカード型アプリ。語彙学習・言語学習用。単語帳ソフト。
+- GNU GPL-2.0 ಅಡಿಯಲ್ಲಿ ವಿಂಡೋಸ್‌ಗಾಗಿ ಆಫ್‌ಲೈನ್ ಓಪನ್-ಸೋರ್ಸ್ (ಉಚಿತ) ಶಬ್ದಕೋಶ ತರಬೇತಿ ತಂತ್ರಾಂಶ (ಡೆಸ್ಕ್‌ಟಾಪ್ ಅಪ್ಲಿಕೇಶನ್). ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್ ಅಪ್ಲಿಕೇಶನ್. ಶಬ್ದಕೋಶ ಕಲಿಕೆ. ಭಾಷಾ ಕಲಿಕೆ. ಶಬ್ದಕೋಶ ಅಭ್ಯಾಸದ ಪ್ರೋಗ್ರಾಂ. ಶಬ್ದಕೋಶ ಪುಸ್ತಕ ತಂತ್ರಾಂಶ.
+- GNU GPL-2.0 бойынша Windows жүйесіне арналған офлайн ашық бастапқы кодты (тегін) сөздік қорын жаттықтыру бағдарламалық жасақтамасы (desktop-app). Flashcards қолданбасы. Сөздік қорын үйрену. Тіл үйрену. Сөздік қорын жаттықтыруға арналған бағдарлама. Сөздік кітап бағдарламалық жасақтамасы.
+- Programari d'entrenament de vocabulari de codi obert (gratuït) fora de línia (aplicació d'escriptori) per a Windows sota GNU GPL-2.0. Aplicació de targetes flash. Aprenentatge de vocabulari. Aprenentatge d'idiomes. Programa per practicar vocabulari. Programari de llibres de vocabulari.
+- កម្មវិធីកុំព្យូទ័រសម្រាប់ហ្វឹកហាត់ពាក្យពេចន៍ (ដំណើរការដោយមិនចាំបាច់ប្រើអ៊ីនធឺណិត) ដែលជាកម្មវិធីប្រភពបើកចំហ (ឥតគិតថ្លៃ) សម្រាប់ប្រព័ន្ធប្រតិបត្តិការ Windows ក្រោមអាជ្ញាប័ណ្ណ GNU GPL-2.0។ វាជាកម្មវិធីប្រើកាតជំនួយការចងចាំ (flashcards) សម្រាប់ការរៀនពាក្យពេចន៍ និងភាសា។ កម្មវិធីនេះត្រូវបានរចនាឡើងសម្រាប់ការហ្វឹកហាត់ពាក្យពេចន៍ និងដើរតួជាសៀវភៅពាក្យពេចន៍បែបឌីជីថល។
+- Porogaramu ifunguye (y'ubuntu) itoza amagambo (porogaramu ya desktop) kuri Windows munsi ya GNU GPL-2.0. Porogaramu ya Flashcards. Kwiga amagambo. Kwiga indimi. Porogaramu yo kwitoza amagambo. Porogaramu y'igitabo cy'amagambo.
+- Windows үчүн GNU GPL-2.0 лицензиясы менен таратылуучу, оффлайн режиминде иштеген, ачык баштапкы коддуу (акысыз) сөз байлыгын машыктыруучу программа (иш-такта тиркемеси). Флеш-карталар тиркемеси. Сөз байлыгын өздөштүрүү. Тил үйрөнүү. Сөздөрдү машыктыруучу программа. Сөздүк программасы.
+- GNU GPL-2.0 라이선스 기반의 Windows용 오프라인 오픈 소스(무료) 어휘 학습 소프트웨어(데스크톱 앱). 플래시카드 앱. 어휘 및 언어 학습용 프로그램. 단어장 소프트웨어.
+- Besplatni (offline) softver za vježbanje vokabulara (desktop aplikacija) otvorenog koda za Windows pod GNU GPL-2.0 licencom. Aplikacija s karticama za učenje. Učenje vokabulara. Učenje jezika. Program za vježbanje vokabulara. Softver za knjige vokabulara.
+- ຊອບແວຝຶກຄຳສັບແບບອອບລາຍ (Offline) ທີ່ເປັນໂອເພນຊອດ (Open Source) ແລະ ບໍ່ເສຍຄ່າ (ສຳລັບ Windows ພາຍໃຕ້ສັນຍາ GNU GPL-2.0). ແອັບພລິເຄຊັນບັດຄຳສັບ (Flashcards). ການຮຽນຮູ້ຄຳສັບ. ການຮຽນຮູ້ພາສາ. ໂປຣແກຣມສຳລັບຝຶກຄຳສັບ. ຊອບແວປຶ້ມຄຳສັບ.
+- Programma computatrale (pro systemate Windows) ad vocabula exercenda, sine interrete adhibendum, fonte aperto (et gratuito) sub licentia GNU GPL-2.0 distributum; applicatio chartularum mnemonicarum; instrumentum ad vocabula et linguas discendas atque exercendas.
+- Bezsaistē darbojoša atvērtā pirmkoda (bezmaksas) programmatūra vārdu krājuma apguvei (darbvirsmas lietotne) operētājsistēmai Windows, kas izplatīta saskaņā ar GNU GPL-2.0 licenci. Zibatmiņas karšu lietotne. Vārdu krājuma apguve. Valodu apguve. Programma vārdu krājuma trenēšanai. Programmatūra vārdu krājuma pārvaldībai.
+- Atvirojo kodo (nemokama) žodyno mokymosi programa (darbalaukio aplikacija), skirta „Windows“ ir platinama pagal GNU GPL-2.0 licenciją. „Flashcard“ (kortelių) tipo programa. Žodyno mokymasis. Kalbų mokymasis. Programa žodynui įtvirtinti. Žodyno valdymo programinė įranga.
+- Perisian latihan perbendaharaan kata sumber terbuka (percuma) luar talian (aplikasi desktop) untuk Windows di bawah lesen GNU GPL-2.0. Aplikasi kad imbas. Pembelajaran perbendaharaan kata. Pembelajaran bahasa. Program untuk berlatih perbendaharaan kata. Perisian buku perbendaharaan kata.
+- GNU GPL-2.0 ലൈസൻസിന് കീഴിലുള്ള, വിൻഡോസിനായുള്ള ഓഫ്‌ലൈൻ ഓപ്പൺ സോഴ്‌സ് (സൗജന്യ) പദസമ്പത്ത് പരിശീലന സോഫ്റ്റ്‌വെയർ (ഡെസ്‌ക്‌ടോപ്പ് ആപ്പ്). ഫ്ലാഷ്കാർഡ് ആപ്പ്. പദസമ്പത്ത് പഠനം. ഭാഷാ പഠനം. പദസമ്പത്ത് പരിശീലിക്കുന്നതിനുള്ള പ്രോഗ്രാം. വൊക്കാബുലറി ബുക്ക് സോഫ്റ്റ്‌വെയർ.
+- He pūmanawa ako kupu (he kore utu, he pūtake tuwhera) e mahi ana me te kore hononga ipurangi (mō te rorohiko papamahi Windows), i raro i te raihana GNU GPL-2.0. He taupānga kāri uira. He taputapu ako kupu me te reo. He hōtaka hei parakatihi i ngā kupu. He pūmanawa hei whakarite pukapuka kupu.
+- Windows साठी GNU GPL-2.0 अंतर्गत उपलब्ध असलेले ऑफलाइन, ओपन-सोर्स (मोफत) शब्दसंग्रह प्रशिक्षण सॉफ्टवेअर (डेस्कटॉप ॲप). फ्लॅशकार्ड्स ॲप. शब्दसंग्रह आणि भाषा शिकण्यासाठीचे साधन. शब्दसंग्रहाचा सराव करण्यासाठीचा प्रोग्राम.
+- Офлајн софтвер со отворен код (бесплатен) за вежбање вокабулар (десктоп-апликација) за Windows, под лиценцата GNU GPL-2.0. Апликација со картички за учење (flashcards). Учење вокабулар. Учење јазици. Програма за вежбање вокабулар. Софтвер за управување со вокабулар.
+- Windows үйлдлийн системд зориулсан, GNU GPL-2.0 лицензтэй, офлайн ажилладаг нээлттэй эхийн (үнэгүй) үгсийн сангийн дасгалжуулагч програм (компьютерын програм). Флэш карт (flashcard) ашигладаг програм. Үгсийн сан болон хэл сурах хэрэгсэл. Үгсийн сангийн дасгал хийх програм. Үгсийн сангийн цахим дэвтэр.
+- GNU GPL-2.0 अन्तर्गत विन्डोजका लागि अफलाइन, खुला स्रोत (नि:शुल्क) शब्दावली अभ्यास गर्ने सफ्टवेयर (डेस्कटप एप)। फ्ल्यासकार्ड एप। शब्दावली सिकाइ। भाषा सिकाइ। शब्दावली अभ्यास गर्ने कार्यक्रम। शब्दावलीसम्बन्धी सफ्टवेयर।
+- Offline open-source (gratis) software voor woordtraining (desktop-app) voor Windows onder de GNU GPL-2.0-licentie. Flashcard-app. Woordenschat leren. Talen leren. Programma voor het oefenen van woordenschat. Software voor woordenschatbeheer.
+- Frakoblet programvare for ordforrådstrening (åpen kildekode / gratis, skrivebordsprogram) for Windows under GNU GPL-2.0. App for digitale flashcards. Innlæring av ordforråd. Språklæring. Program for å øve på ordforråd. Programvare for ordforrådstrening.
+- GNU GPL-2.0 ଅଧୀନରେ Windows ପାଇଁ ଅଫଲାଇନ୍ ଓପନ୍-ସୋର୍ସ (ମାଗଣା) ଶବ୍ଦଭଣ୍ଡାର ଶିକ୍ଷା ସଫ୍ଟୱେର୍ (ଡେସ୍କଟପ୍-ଆପ୍) | ଫ୍ଲାସ୍‌କାର୍ଡ ଆପ୍ | ଶବ୍ଦଭଣ୍ଡାର ଶିକ୍ଷା | ଭାଷା ଶିକ୍ଷା | ଶବ୍ଦଭଣ୍ଡାର ଅଭ୍ୟାସ ପାଇଁ ପ୍ରୋଗ୍ରାମ୍ | ଶବ୍ଦଭଣ୍ଡାର ବହି ସଫ୍ଟୱେର୍ |
+- Darmowe oprogramowanie typu open source do nauki słownictwa (aplikacja desktopowa) na system Windows, na licencji GNU GPL-2.0. Aplikacja typu „fiszki”. Nauka słownictwa. Nauka języków. Program do ćwiczenia słownictwa. Cyfrowy zeszyt do nauki słówek.
+- Software de treinamento de vocabulário offline, de código aberto (gratuito) e para desktop (Windows), licenciado sob a GNU GPL-2.0. Aplicativo de flashcards. Aprendizado de vocabulário. Aprendizado de idiomas. Programa para praticar vocabulário. Software de caderno de vocabulário.
+- Software de treino de vocabulário offline, de código aberto (gratuito) e para desktop (Windows), licenciado sob a GNU GPL-2.0. Aplicação de flashcards. Aprendizagem de vocabulário. Aprendizagem de idiomas. Programa para praticar vocabulário. Software de caderno de vocabulário.
+- GNU GPL-2.0 ਦੇ ਤਹਿਤ ਵਿੰਡੋਜ਼ ਲਈ ਔਫਲਾਈਨ ਓਪਨ-ਸੋਰਸ (ਮੁਫ਼ਤ) ਸ਼ਬਦਾਵਲੀ ਸਿਖਲਾਈ ਸਾਫਟਵੇਅਰ (ਡੈਸਕਟਾਪ ਐਪ)। ਫਲੈਸ਼ਕਾਰਡ ਐਪ। ਸ਼ਬਦਾਵਲੀ ਸਿੱਖਣਾ। ਭਾਸ਼ਾ ਸਿੱਖਣਾ। ਸ਼ਬਦਾਵਲੀ ਦਾ ਅਭਿਆਸ ਕਰਨ ਲਈ ਪ੍ਰੋਗਰਾਮ। ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਸਾਫਟਵੇਅਰ।
+- Mana tinkisqa kichasqa qullqi (mana qullqiyuq) simikuna yachachiq software (escritorio-app) Windows kaqpaq GNU GPL-2.0 kaqpi. Flashcards nisqa app. Simikunata yachay. Simi yachay. Programa vocabulario nisqa practicanapaq. Simikuna qillqa mayt’u software.
+- Software open-source (gratuit) pentru exersarea vocabularului, care funcționează offline (aplicație desktop) pe Windows, sub licența GNU GPL-2.0. Aplicație de tip flashcard. Învățarea vocabularului. Învățarea limbilor străine. Program pentru exersarea vocabularului. Software pentru gestionarea vocabularului.
+- Офлайн-программа для тренировки словарного запаса с открытым исходным кодом (бесплатное приложение для настольных компьютеров) для Windows под лицензией GNU GPL-2.0. Приложение для карточек. Изучение лексики. Изучение языка. Программа для отработки словарного запаса. Программное обеспечение для изучения словарного запаса.
+- GNU GPL-2.0 इत्यस्य अन्तर्गतं Windows कृते अफलाइन मुक्तस्रोत (निःशुल्क) शब्दावलीप्रशिक्षकसॉफ्टवेयर (desktop-app) । फ्लैशकार्ड्स एप्लिकेशन। शब्दावली शिक्षण। भाषाशिक्षणम् । शब्दावली अभ्यासार्थं कार्यक्रमः। शब्दावली पुस्तक सॉफ्टवेयर।
+- Programvara för glosövning (öppen källkod/gratis) för Windows (skrivbordsprogram) under licensen GNU GPL-2.0. App för digitala flashcards. Inlärning av glosor. Språkinlärning. Program för att öva på ordförråd. Programvara för digitala gloslistor.
+- Офлајн софтвер отвореног кода (бесплатан) за вежбање вокабулара (десктоп апликација) за Windows, под лиценцом GNU GPL-2.0. Апликација са картицама за учење (флеш-картице). Учење вокабулара. Учење језика. Програм за вежбање вокабулара. Софтвер за вођење евиденције вокабулара.
+- Offline open source (bezplatný) softvér na tréner slovnej zásoby (desktopová aplikácia) pre Windows pod licenciou GNU GPL-2.0. Aplikácia s kartičkami. Učenie sa slovnej zásoby. Učenie sa jazykov. Program na precvičovanie slovnej zásoby. Softvér na tvorbu kníh slovnej zásoby.
+- Programska oprema z odprto kodo (brezplačna) za vadbo besedišča, ki deluje brez povezave (namizna aplikacija) za Windows pod licenco GNU GPL-2.0. Aplikacija s karticami (flashcards). Učenje besedišča. Učenje jezikov. Program za vadbo besedišča. Programska oprema za upravljanje besedišča.
+- Barnaamijka tababarka ereyada ee aan tooska ahayn (bilaash ah) ee barnaamijka tababarka ereyada (desktop-app) ee Windows-ka ee hoos yimaada GNU GPL-2.0. Barnaamijka Flashcards. Barashada ereyada. Barashada luqadda. Barnaamijka ku dhaqanka ereyada. Barnaamijka buugga ereyada.
+- Software de código abierto (gratuito) para el aprendizaje de vocabulario que funciona sin conexión (aplicación de escritorio) para Windows, bajo la licencia GNU GPL-2.0. Aplicación de tarjetas de memoria (flashcards). Aprendizaje de vocabulario. Aprendizaje de idiomas. Programa para practicar vocabulario. Software de cuaderno de vocabulario.
+- Programu ya mkufunzi wa msamiati wa chanzo huria (bure) nje ya mtandao (programu ya kompyuta) kwa Windows chini ya GNU GPL-2.0. Programu ya Flashcards. Kujifunza msamiati. Kujifunza lugha. Programu ya kufanya mazoezi ya msamiati. Programu ya kitabu cha msamiati.
+- Барномаи офлайнии ройгон ва дорои рамзи кушода (open-source) барои машқи луғат (барномаи компютерӣ) барои Windows, ки таҳти иҷозатномаи GNU GPL-2.0 паҳн мешавад. Барномаи корти ёдгирӣ (flashcards). Омӯзиши луғат. Омӯзиши забон. Барнома барои машқи захираи луғавӣ. Нармафзори китоби луғат.
+- GNU GPL-2.0 உரிமத்தின் கீழ் விண்டோஸிற்கான ஆஃப்லைன் திறந்த மூல (இலவச) சொல்லகராதிப் பயிற்சி மென்பொருள் (டெஸ்க்டாப் செயலி). ஃபிளாஷ்கார்டு செயலி. சொல்லகராதி கற்றல். மொழி கற்றல். சொல்லகராதியைப் பயிற்சி செய்வதற்கான நிரல். சொல்லகராதிப் புத்தக மென்பொருள்.
+- ซอฟต์แวร์ฝึกคำศัพท์แบบโอเพนซอร์ส (ฟรี) ที่ใช้งานแบบออฟไลน์ได้ (แอปพลิเคชันบนเดสก์ท็อป) สำหรับ Windows ภายใต้สัญญาอนุญาต GNU GPL-2.0 แอปพลิเคชันแฟลชการ์ดสำหรับการเรียนรู้คำศัพท์และภาษา โปรแกรมฝึกฝนคำศัพท์ และซอฟต์แวร์จัดการคลังคำศัพท์
+- དྲ་རྒྱའི་ཕྱི་རོལ་གྱི་ཁ་ཕྱེ་བའི་ཐོན་ཁུངས་(རིན་མེད།)མིང་ཚིག་སྦྱོང་བརྡར་གྱི་མཉེན་ཆས་(ཌེཀ་སི་ཊོཔ་མཉེན་ཆས་)ནི་ཝིན་ཌོ་ཡི་ཆེད་དུ་ཇི་ཨེན་ཡུ་ཇི་པི་ཨེལ་-༢.༠འོག་ཡིན། ཕ་ལེཤ་ཀར་ཌི་མཉེན་ཆས། མིང་ཚིག་སྦྱོང་བ། སྐད་ཡིག་སློབ་སྦྱོང་། མིང་ཚིག་སྦྱོང་བརྡར་གྱི་ལས་རིམ། མིང་ཚིག་དེབ་ཀྱི་མཉེན་ཆས།
+- ካብ መስመር ወጻኢ ክፉት ምንጪ (ነጻ) ናይ ቃላት ኣሰልጣኒ ሶፍትዌር (desktop-app) ንዊንዶውስ ኣብ ትሕቲ GNU GPL-2.0። ፍላሽካርድስ ኣፕ። ትምህርቲ ቃላት። ትምህርቲ ቋንቋ። መደብ ምልምማድ ቃላት። ናይ ቃላት መጽሓፍ ሶፍትዌር።
+- Offline open-source (bezplatný) software pro procvičování slovní zásoby (desktopová aplikace) pro Windows pod licencí GNU GPL-2.0. Aplikace s kartičkami. Výuka slovní zásoby. Studium jazyků. Program na procvičování slovíček. Software pro správu slovní zásoby.
+- Офлайн йиллина хьостан (маьрша) лексика Ӏамош йолу программа (desktop-app) Windows-на GNU GPL-2.0 низамца. Флешкарташ лелош ю. Лексика Ӏамор. Мотт Ӏамор. Лексика Ӏаморан программа. Лексикин тептаран программаш.
+- Windows için GNU GPL-2.0 lisanslı, çevrimdışı, açık kaynaklı (ücretsiz) kelime çalışma yazılımı (masaüstü uygulaması). Bilgi kartı (flashcard) uygulaması. Kelime öğrenme. Dil öğrenme. Kelime pratiği programı. Kelime defteri yazılımı.
+- GNU GPL-2.0 boýunça Windows üçin oflaýn açyk çeşmeli (mugt) söz baýlygyny tälim beriji programma üpjünçiligi (iş stoly programmasy). Fleşkartlar programmasy. Söz baýlygyny öwrenmek. Dil öwrenmek. Söz baýlygyny tejribe etmek üçin programma. Söz baýlygy kitaby programma üpjünçiligi.
+- Програмне забезпечення для тренування словникового запасу (настільний додаток) з відкритим кодом (офлайн) для Windows під ліцензією GNU GPL-2.0. Додаток для флеш-карт. Вивчення словникового запасу. Вивчення мов. Програма для практики словникового запасу. Програмне забезпечення для роботи зі словниковим запасом.
+- Offline, nyílt forráskódú (ingyenes) szókincsfejlesztő szoftver (asztali alkalmazás) Windowsra, GNU GPL-2.0 licenc alatt. Tanulókártyás alkalmazás. Szókincstanulás. Nyelvtanulás. Program szókincs gyakorlására. Szókincsgyűjtemény-szoftver.
+- Windows uchun GNU GPL-2.0 litsenziyasi asosidagi oflayn, ochiq kodli (bepul) lug‘at mashq qildiruvchi dastur (ish stoli ilovasi). Flesh-kartalar ilovasi. Lug‘at boyligini oshirish. Til o‘rganish. Lug‘at ustida ishlash dasturi. Lug‘atni o‘zlashtirishga mo‘ljallangan dasturiy ta’minot.
+- Phần mềm mã nguồn mở (miễn phí) luyện từ vựng chạy ngoại tuyến (ứng dụng máy tính) trên Windows, phát hành theo giấy phép GNU GPL-2.0. Ứng dụng thẻ ghi nhớ (flashcard). Học từ vựng. Học ngoại ngữ. Chương trình luyện tập từ vựng. Phần mềm sổ tay từ vựng.
+- Losisiel biy jàngale kàddu yi (aplikaasioŋu biro) ngir Windows ci suufu GNU GPL-2.0. Aplikaasioŋu kàrt flash. Jàng vocabulaire. Jàng làkk. Prograamu jàngat vokabileer. Logiciel téere vocabulaire.
+- Sọfitiwia (ti a le lo lori kọmputa) fun ikẹkọọ ọrọ-ede, eyiti o jẹ ti iru "open source" (ọfẹ) ti a si le lo laisi asopọ intanẹẹti labẹ iwe-aṣẹ GNU GPL-2.0. Ohun elo ti n lo awọn kaadi-kikọ (flashcards) fun ikẹkọọ. Eto fun ṣiṣe adaṣe lori awọn ọrọ-ede.
+‎
 
+# Keywords in other languages with right-to-left writing direction
+‏
+- نەرمەکاڵای ڕاهێنەری وشەسازی سەرچاوە کراوە (بەخۆڕایی) ئۆفلاین (desktop-app) بۆ ویندۆز لە ژێر GNU GPL-2.0. ئەپی فلاشکاردز. فێربوونی وشەسازی. فێربوونی زمان. بەرنامە بۆ پراکتیزەکردنی وشەسازی. نەرمەکاڵای کتێبی وشەسازی.
+- برنامج مجاني ومفتوح المصدر لتدريب المفردات (تطبيق سطح مكتب) يعمل دون اتصال بالإنترنت على نظام Windows، ومُرخَّص بموجب رخصة GNU GPL-2.0. تطبيق للبطاقات التعليمية (Flashcards)، مخصص لتعلم المفردات واللغات، والتدرب على المفردات، وتنظيم قوائم الكلمات.
+- سافتویر آموزش فرهنگ لغات منبع باز آفلاین (رایگان) (اپلیکیشن رومیزی) برای ویندوز تحت GNU GPL-2.0. اپلیکیشن فلش کارت ها. یادگیری فرهنگ لغات. یادگیری زبان. برنامه برای تمرین کردن فرهنگ لغات. سافتویر کتاب فرهنگ لغات.
+- תוכנה (יישום שולחני) בקוד פתוח (חינמית) לתרגול אוצר מילים, הפועלת במצב לא-מקוון (אופליין) ב-Windows תחת רישיון GNU GPL-2.0. אפליקציית כרטיסיות (flashcards). לימוד אוצר מילים. לימוד שפות. תוכנה לתרגול אוצר מילים. תוכנה לניהול אוצר מילים.
+- د وینډوز لپاره د لغتونو د زده کړې او تمرین آفلاین، خلاصې سرچینې (وړیا) سافټویر (ډیسکټاپ اپلیکیشن) چې د GNU GPL-2.0 جواز لاندې دی. د فلش کارډونو اپلیکیشن؛ د لغتونو او ژبې زده کړه؛ د لغتونو د تمرین پروګرام؛ د لغتونو د کتاب په بڼه سافټویر.
+- نرم‌افزار آفلاین، متن‌باز (رایگان) و دسکتاپی برای آموزش واژگان در ویندوز (تحت مجوز GNU GPL-2.0). برنامه فلش‌کارت؛ یادگیری واژگان و زبان؛ برنامه تمرین واژگان؛ نرم‌افزار کتاب واژگان.
+- جی این یو جی پی ایل 2.0 دے تحت ونڈوز لئی آف لائن اوپن سورس (مفت) ووکیبلری ٹرینر سافٹ ویئر (ڈیسک ٹاپ ایپ)۔ فلیش کارڈز ایپ۔ لفظالی سکھنا۔ بولی سکھنا۔ لفظاں دی مشق کرن دا پروگرام۔ لفظاں دی کتاب دا سافٹ ویئر۔
+- GNU GPL-2.0 کے تحت ونڈوز کے لیے آف لائن، اوپن سورس (مفت) ذخیرہ الفاظ سکھانے والا سافٹ ویئر (ڈیسک ٹاپ ایپ)۔ فلیش کارڈز ایپ۔ ذخیرہ الفاظ سیکھنا۔ زبان سیکھنا۔ ذخیرہ الفاظ کی مشق کا پروگرام۔ ذخیرہ الفاظ کی کتاب والا سافٹ ویئر۔
+- GNU GPL-2.0 تحت ونڊوز لاءِ آف لائن اوپن سورس (مفت) لفظن جي سکيا وارو سافٽ ويئر (ڊيسڪ ٽاپ ايپ). فليش ڪارڊز ايپ. لفظن جي سکيا. ٻوليءَ جي سکيا. لفظن جي مشق لاءِ پروگرام. لفظن جي ذخيري (وڪيبلري) وارو سافٽ ويئر.
 
+‎
 Platform: Win7, Win8, Win8.1, Win10, Win11
