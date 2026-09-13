@@ -3968,6 +3968,9 @@
     <Compile Include="Forms\WordTest.Designer.cs">
       <DependentUpon>WordTest.cs</DependentUpon>
     </Compile>
+    <None Include="Public.crt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
@@ -8346,6 +8349,8 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
+  if exist "$(ProjectDir)\*.snk" del /f /q "$(ProjectDir)\*.snk"
+  if exist "$(ProjectDir)\*.pfx" del /f /q "$(ProjectDir)\*.pfx"
   if NOT EXIST "$(TargetDir)ZZ_SOURCE_CODE_ZZ" (
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ"
     mkdir  "$(TargetDir)ZZ_SOURCE_CODE_ZZ\.github\"
@@ -8372,6 +8377,10 @@
   copy /Y "$(ProjectDir)Properties\*.resx" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
   copy /Y "$(ProjectDir)Properties\*.cs" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
   copy /Y "$(ProjectDir)Properties\*.settings" "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\Properties\"
+  if exist "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\*.snk" del /f /q "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\*.snk"
+  if exist "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\*.pfx" del /f /q "$(TargetDir)ZZ_SOURCE_CODE_ZZ\$(ProjectName)\*.pfx"
+  if exist "$(TargetDir)ZZ_SOURCE_CODE_ZZ\*.snk" del /f /q "$(TargetDir)ZZ_SOURCE_CODE_ZZ\*.snk"
+  if exist "$(TargetDir)ZZ_SOURCE_CODE_ZZ\*.pfx" del /f /q "$(TargetDir)ZZ_SOURCE_CODE_ZZ\*.pfx"
   cd /D "$(TargetDir)ZZ_SOURCE_CODE_ZZ"
   tar.exe -cf "..\source_code.tar" *.*
   cd ..
