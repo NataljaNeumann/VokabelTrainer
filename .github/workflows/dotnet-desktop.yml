@@ -175,6 +175,10 @@ jobs:
           [System.IO.File]::WriteAllBytes("${{ env.APP_NAME }}/MyKey.snk", $snkBytes)
           Write-Host "Wrote SNK to $targetPath"
 
+      # SNK creation:
+      # sn -k MyKey.snk
+      #  [Convert]::ToBase64String([IO.File]::ReadAllBytes("MyKey.snk")) | Set-Clipboard
+
       - name: Build and sign with SNK
         run: |
           & msbuild ${{ env.APP_NAME }}.sln /p:Configuration=Release /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=MyKey.snk
