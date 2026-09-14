@@ -8393,4 +8393,8 @@
   tar.exe -a -c -f ..\$(ProjectName).zip *.*
 )</PostBuildEvent>
   </PropertyGroup>
+<Target Name="ClearAll" AfterTargets="Clean">
+	<Message Text="Executing custom cleaning of the target directory" Importance="high" />
+    <Exec Command="rmdir /S /Q &quot;$(TargetDir)&quot;" ContinueOnError="true" />
+</Target>
 </Project>
