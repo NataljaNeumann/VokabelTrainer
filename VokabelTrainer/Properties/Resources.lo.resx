@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>ງານເທດສະການຮູບເງົາ Berlinale</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>ງານເທດສະການຮູບເງົາ Cannes</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ງານສະຫຼອງວັນເດັກ ແລະ ວັນປະສູດຂອງພະພຸດທະເຈົ້າ ໃນຍີ່ປຸ່ນ ແລະ ເກົາຫຼີ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>ງານສະຫຼອງວັນປີໃໝ່ຈີນ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>ຊາວຄຣິດສະຕຽນທົ່ວໂລກສະຫຼອງວັນຄຣິດສະມາດ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>ວັນແຫ່ງການເຕັ້ນລຳ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>ງານສະຫຼອງດ້ວຍແສງໄຟຂອງຊາວຮິນດູ ເພື່ອສະຫຼອງໄຊຊະນະຂອງຄວາມຈິງເໜືອຄວາມຕົວະຫຼອກລວງ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>ງານເທດສະການຮູບເງົາອາຟຣິກາ ໃນເມືອງ Durban</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>ຊາວຄຣິດສະຕຽນທົ່ວໂລກສະຫຼອງວັນອີສເຕີ (Easter)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>ງານເທດສະການດົນຕີໃນເອີຣົບ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>ຊາວມຸດສະລິມເດີນທາງໄປປະກອບພິທີຮັດຈ໌ (Hajj) ທີ່ນະຄອນເມກກາ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>ຜູ້ຄົນທົ່ວໂລກສະຫຼອງວັນປີໃໝ່</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>ລາງວັນໂນເບວ: ສາຂາການແພດ, ເຄມີສາດ, ຟີຊິກສາດ, ເສດຖະສາດ, ສັນຕິພາບ ແລະ ວັນນະກຳ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>ການແຂ່ງຂັນກິລາໂອລິມປິກລະດູຮ້ອນ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ຊາວຄຣິດສະຕຽນນິກາຍອໍໂທດອກ (Orthodox) ສະຫຼອງວັນຄຣິດສະມາດ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>ຊາວຄຣິດສະຕຽນນິກາຍອໍໂທດອກ (Orthodox) ສະຫຼອງວັນອີສເຕີ (Easter)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>ລາງວັນອອສກາ (Oscar): ລາງວັນຂອງສະຖາບັນສິລະປະຮູບເງົາ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>ວັນສັນຕິພາບໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>ວັນປັດຊະຍາໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>ວັນຈິດຕະວິທະຍາໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>ຊາວມຸດສະລິມທົ່ວໂລກເຂົ້າຮ່ວມພິທີຖືສິນອົດອາຫານໃນເດືອນຣາມາດານ (Ramadan)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>ວັນການອ່ານໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>ວັນ Rosh Hashanah: ວັນປີໃໝ່ຂອງອິດສະຣາເອນ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>ວັນການອອມໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>ວັນວິທະຍາສາດໂລກ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>ວັນຮາໂລວີນ (Halloween)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>ການແຂ່ງຂັນຊິງແຊ້ມບານເຕະ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ການແຂ່ງຂັນກິລາໂອລິມປິກລະດູໜາວ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: ຊາວຄຣິດສະຕຽນໃນເອທິໂອເປຍ ສະຫຼອງພິທີຮັບບັບຕິສະມາຂອງພຣະເຢຊູ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>ວັນວາເລນທາຍ</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ຂໍສະແດງຄວາມຍິນດີ!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>ຫຼັກສູດພາສາທີ່ກຳນົດໄວ້ໄດ້ສຳເລັດແລ້ວ! ເຊີນອ່ານຂ່າວ, ເບິ່ງຮູບເງົາ (ບໍ່ວ່າຈະມີຄຳບັນຍາຍ ຫຼື ບໍ່), ເປີດວິທະຍຸອອນລາຍ ຫຼື ອ່ານປຶ້ມໃນພາສາຕົ້ນສະບັບຕໍ່ໄປໄດ້ເລີຍ. ຂອບໃຈທີ່ຢູ່ກັບພວກເຮົາຈົນຈົບ!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດ!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະໂຫຼດໄຟລ໌ XML ຜົນການຝຶກຊ້ອມ</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະໂຫຼດໄຟລ໌ XML ຜົນການຝຶກຊ້ອມ: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະໂຫຼດໄຟລ໌ XML ຄຳສັບ</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະໂຫຼດໄຟລ໌ XML ຄຳສັບ: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະບັນທຶກໄຟລ໌ຜົນການຝຶກຊ້ອມ: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>ເກີດຂໍ້ຜິດພາດໃນຂະນະບັນທຶກໄຟລ໌ຄຳສັບ: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>ບົດຝຶກຫັດ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>ຂອບໃຈທີ່ທົດລອງໃຊ້ປຶ້ມຄຳສັບສະບັບທົດລອງ. ກະລຸນາໂພສຄຳແນະນຳເພື່ອການປັບປຸງລົງໃນກະດານສົນທະນາ (forum) ຫາກທ່ານພົບຂໍ້ຜິດພາດ ຫຼື ຄຳແປທີ່ມີສຽງຄ້າຍຄືກັນເພີ່ມເຕີມ. ກະລຸນາລະບຸເວີຊັນຂອງຊອບແວ, ຊື່ພາສາ, ຄູ່ຄຳສັບ ແລະ ຈຸດທີ່ຕ້ອງການປັບປຸງ. ທາງທີ່ດີທີ່ສຸດ, ຄວນລວບລວມຄຳແນະນຳທັງໝົດແລ້ວໂພສພ້ອມກັນໃນຄັ້ງດຽວ.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>ສຳລັບຄູ່ພາສານີ້ ມີປຶ້ມຄຳສັບສະບັບທົດລອງໃຫ້ໃຊ້, ເຊິ່ງຢູ່ພາຍໃຕ້ໃບອະນຸຍາດດຽວກັນກັບຊອບແວ. ມັນຖືກອອກແບບມາເປັນຫຼັກສູດຕໍ່ເນື່ອງສຳລັບຜູ້ໃຫຍ່, ແນວໃດກໍຕາມ ມັນຍັງບໍ່ທັນໄດ້ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງໂດຍເຈົ້າຂອງພາສາ. ທ່ານຕ້ອງການທົດລອງໃຊ້ມັນບໍ່?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>ຂາດຄວາມໝາຍຕໍ່ໄປນີ້:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>ຄວາມໝາຍທີ່ປ້ອນເຂົ້າໄປຕໍ່ໄປນີ້ບໍ່ຖືກຕ້ອງ:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>ຂາດຄວາມໝາຍຕໍ່ໄປນີ້:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>ຄວາມໝາຍທີ່ປ້ອນເຂົ້າໄປຕໍ່ໄປນີ້ບໍ່ຖືກຕ້ອງ:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>ຂາດຄວາມໝາຍຕໍ່ໄປນີ້:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>ແບບເຂັ້ມຂຸ້ນ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>ຂຽນທັບໄຟລ໌ບໍ່?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>ໄຟລ໌ພາສາ "{0}" ມີຢູ່ແລ້ວ, ທ່ານຕ້ອງການຂຽນທັບມັນບໍ່?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>ຂໍ້ຜິດພາດ!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>ແບບເຂັ້ມຂຸ້ນສູງສຸດ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>ສຳລັບການຈັບຄູ່ພາສານີ້, ມີປຶ້ມຄຳສັບທີ່ກຳນົດໄວ້ລ່ວງໜ້າສະບັບໃໝ່ ເຊິ່ງມາພ້ອມກັບຊອບແວ ແລະ ຢູ່ພາຍໃຕ້ເງື່ອນໄຂການອະນຸຍາດດຽວກັນກັບຊອບແວນັ້ນ. ທ່ານຕ້ອງການອັບເດດປຶ້ມຄຳສັບປັດຈຸບັນຂອງທ່ານໃຫ້ເປັນເວີຊັນໃໝ່ບໍ່? ຖ້າທ່ານຕັດສິນໃຈເຮັດແນວນັ້ນ, ມັນຈະຂຽນທັບປຶ້ມຄຳສັບເດີມທັງໝົດ, ເຖິງແມ່ນວ່າທ່ານຈະໄດ້ຮັບປຶ້ມຄຳສັບນັ້ນມາຈາກແຫຼ່ງອື່ນກໍຕາມ.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ຄຳສັບໃໝ່</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ສຳລັບຄູ່ພາສານີ້ ມີປຶ້ມຄຳສັບໃຫ້ໃຊ້, ເຊິ່ງຢູ່ພາຍໃຕ້ໃບອະນຸຍາດດຽວກັນກັບຊອບແວ. ມັນຖືກອອກແບບມາເປັນຫຼັກສູດຕໍ່ເນື່ອງສຳລັບຜູ້ໃຫຍ່. ທ່ານຕ້ອງການທົດລອງໃຊ້ມັນບໍ່?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>ແຫຼ່ງທີ່ມາຂອງປຶ້ມຄຳສັບໃໝ່: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ແຫຼ່ງທີ່ມາຂອງປຶ້ມຄຳສັບປັດຈຸບັນຂອງທ່ານ: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ບໍ່ຮູ້ແຫຼ່ງທີ່ມາ)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>ເວີຊັນຂອງປຶ້ມຄຳສັບໃໝ່: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ເວີຊັນຂອງປຶ້ມຄຳສັບປັດຈຸບັນຂອງທ່ານ: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ລາຍລະອຽດການປ່ອຍເວີຊັນໃໝ່:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(ບໍ່ຮູ້ເວີຊັນ)</value>
   </data>
 </root>

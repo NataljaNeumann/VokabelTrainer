@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} ዝያዳ ጽዑቕ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>ነዚ ውህደት ቋንቋታት ምስቲ ሶፍትዌር ዝለኣኽን ብተመሳሳሊ ፍቓድ ምስቲ ሶፍትዌር ፍቓድ ዘለዎን ሓድሽ ኣቐዲሙ ዝተነጸረ መጽሓፍ ቃላት ኣሎ። ናይ ሕጂ መጽሓፍ ቃላትካ ናብቲ ሓድሽ ስሪት ከተመሓይሾ ትደሊ ዲኻ? ከምኡ ክትገብር እንተ ወሲንካ፡ እዚ ዋላ’ውን ናትካ ካብ ካልእ ምንጪ እንተረኸብካ፡ ነቲ ምሉእ መጽሓፍ ቃላት ክጽሕፎ እዩ።</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ሓድሽ ቃላት</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ነዚ ጽምዲ ቋንቋ ዝኸውን መጽሓፍ ስነ-ቓላት ኣሎ፡ እዚ ድማ ምስቲ ሶፍትዌር ብሓደ ፍቓድ ይርከብ። ንዓበይቲ ዝኸውን ቀጻሊ ኮርስ ኮይኑ ተነዲፉ። ክትፍትኖ ትደሊ ዲኻ? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>ምንጪ ሓድሽ መጽሓፍ ቃላት፡ {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ምንጪ ናይዚ ሕጂ ዘለኻዮ መጽሓፍ ቃላት፡ {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ፍልፍል ዘይተፈልጠ)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>ስሪት ሓድሽ መጽሓፍ ቃላት፡ {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ስሪት ናይቲ ሕጂ ዘለኻዮ መጽሓፍ ቃላት፡ {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ናይ ሓድሽ ስሪት ምውጻእ መዘኻኸሪታት፤</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(ዘይተፈልጠ ስሪት)</value>
   </data>
 </root>

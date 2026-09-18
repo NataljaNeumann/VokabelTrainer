@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Festum Cinematographicum</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Festum Cinematographicum Cannense</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Celebrationes natalium liberorum et Buddhae in Iaponia et Corea</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Celebrationes Anni Novi Sinensis</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Christiani ubique terrarum Diem Natalem Christi celebrant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Dies Saltationis</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Festum Hinduisticum luminis de veritate mendacium vincente</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Festum Cinematographicum Africanum Durbanense</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Christiani ubique terrarum Pascha celebrant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>Festum Musicum Europaeum</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Musulmani Meccam peregrinantur: Hajj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Homines ubique terrarum Annum Novum celebrant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Praemium Nobelianum: pro Medicina, Chemia, Physica, Oeconomia, Pace et Litteris</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Ludi Olympici Aestivi</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Christiani Orthodoxi Diem Natalem Christi celebrant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>Christiani Orthodoxi Pascha celebrant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Praemium Oscar: Praemia Academiae Cinematographicae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Dies Pacis Mundanae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Dies Philosophiae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Dies Psychologiae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Musulmani ubique terrarum Ramadan observant</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Dies Mundanus Lectionis</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: Annus Novus Israeliticus</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Dies Mundanus Pecuniae Servandae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Dies Mundanus Scientiae</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Vigilia Omnium Sanctorum (Halloween)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Certamen Pediludii</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Ludi Olympici Hiemales</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Christiani Aethiopes Baptismum Iesu celebrantes</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Dies Sancti Valentini</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulor!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>Cursus linguae praestitutus confectus est! Perge et nuntios lege, pelliculas specta (cum titulis vel sine eis), radiophonum interretiale audi vel libros lingua originali lege. Gratias tibi agimus quod nobiscum usque ad finem mansisti!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>Error!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>Error in onerando fasciculo XML exituum exercitationis</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>Error accidit in onerando fasciculo XML exituum exercitationis: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>Error in onerando fasciculo XML vocabularii</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>Error accidit in onerando fasciculo XML vocabularii: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>Error accidit in servando fasciculo exituum exercitationis: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Error accidit in servando fasciculo vocabularii: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>Exercitatio {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>Gratias tibi agimus quod librum vocabulorum experimentalem probavisti. Quaeso, consilia tua de emendatione in foro scribe, si errores vel plures translationes sono similes inveneris. Versionem programmatis, nomina linguarum, paria verborum atque emendationes indica. Optime facies, si omnia consilia de emendatione collegeris et simul scripseris.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Pro hoc pari linguarum exstat liber vocabulorum experimentalis; eadem licentia ac programma tegitur. Ut cursus continuus adultis destinatus creatus est, quamquam a hominibus linguae nativis non recognitus est. Visne eum experiri?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Significationes sequentes deerant:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Significationes sequentes inductae erroneae erant:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>Significatio sequens deerat:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>Significatio sequens inducta erronea erat:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Significationes sequentes deerant:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>Intensiva {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Visne fasciculum rescribere?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>Fasciculus linguae "{0}" iam exstat; visne eum rescribere?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>Error!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>Maxime intensiva {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Pro hac linguarum coniunctione novus index vocabulorum praefinitus exstat, qui una cum programmate suppeditatur eademque licentia ac programma ipsum regitur. Visne indicem vocabulorum quo nunc uteris ad novam versionem renovare? Si id facere constitueris, novus index totum priorem delebit atque substituetur, etiam si priorem aliunde accepisti.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Verba nova</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Pro hoc pari linguarum exstat liber vocabulorum; eadem licentia ac programma tegitur. Ut cursus continuus adultis destinatus creatus est. Visne eum experiri?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Origo novi indicis vocabulorum: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Origo indicis tui praesentis: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Origo ignota)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Versio novi indicis vocabulorum: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Versio indicis tui praesentis: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Notae de nova versione:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Versio ignota)</value>
   </data>
 </root>

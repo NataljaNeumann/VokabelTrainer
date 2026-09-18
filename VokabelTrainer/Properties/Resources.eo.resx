@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Filmfestivalo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Filmfestivalo en Cannes</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Festoj por infanoj kaj la naskiĝtago de Budho en Japanio kaj Koreio</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Festoj de la ĉina novjaro</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Kristanoj tra la tuta mondo festas Kristnaskon</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Tago de dancado</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Hindua lumfesto pri la venko de vero super malvero</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Afrika filmfestivalo en Durbano</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Kristanoj tra la tuta mondo festas Paskon</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>Muzikfestivalo en Eŭropo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Islamanoj pilgrimas al Mekko: Haĝo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Homoj tra la tuta mondo festas la novjaron.</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Nobel-premio: Premioj pri medicino, kemio, fiziko, ekonomiko, paco kaj literaturo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Someraj Olimpikoj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Ortodoksaj kristanoj festas Kristnaskon</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>Ortodoksaj kristanoj festas Paskon</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oskar-premio: Premioj de la Filmakademio</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Monda Tago de Paco</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Tago de filozofio</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Tago de psikologio</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Islamanoj tra la tuta mondo partoprenas en Ramadano</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Monda Tago de Legado</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Roŝ Haŝana: Israela novjaro</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Monda Tago de Ŝparado</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Monda Tago de Scienco</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Haloveno</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Futbala ĉampioneco</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Vintraj Olimpikoj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Etiopaj kristanoj festas la bapton de Jesuo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Tago de Sankta Valenteno</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulon!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>La antaŭdifinita lingvokurso finiĝis! Daŭrigu legante novaĵojn, spektante filmojn (kun aŭ sen subtitoloj), aŭskultante interretan radion aŭ legante librojn en la originala lingvo. Dankon, ke vi restis kun ni ĝis la fino!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>Eraro!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>Eraro dum ŝargado de la XML-dosiero pri trejnaj rezultoj</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>Okazis eraro dum ŝargado de la XML-dosiero pri trejnaj rezultoj: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>Eraro dum ŝargado de la XML-dosiero pri vortprovizo</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>Okazis eraro dum ŝargado de la XML-dosiero pri vortprovizo: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>Okazis eraro dum konservado de la dosiero pri trejnaj rezultoj: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Okazis eraro dum konservado de la dosiero pri vortprovizo: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>Ekzerco {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>Dankon, ke vi provis la eksperimentan vortprovizan libron. Bonvolu afiŝi viajn sugestojn pri plibonigo en la forumo, se vi trovas erarojn aŭ pliajn simile sonantajn tradukojn. Menciu la version de la programaro, la lingvojn, la vortparojn kaj la plibonigojn. Ideale, kolektu ĉiujn sugestojn pri plibonigo kaj afiŝu ilin ĉiujn samtempe.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Por ĉi tiu lingvoparo ekzistas eksperimenta vortproviza libro; ĝi estas sub la sama permesilo kiel la programaro. Ĝi estis kreita kiel sinsekva kurso por plenkreskuloj, sed ĝi ne estis kontrolita de denaskaj parolantoj. Ĉu vi ŝatus provi ĝin?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Mankis la jenaj signifoj:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>La jenaj enigitaj signifoj estis malĝustaj:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>Mankis la jena signifo:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>La jena enigita signifo estis malĝusta:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Mankis la jenaj signifoj:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>Intensa {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>Ĉu anstataŭigi la dosieron?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>La lingvodosiero "{0}" jam ekzistas; ĉu vi volas anstataŭigi ĝin?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>Eraro!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>Plej intensa {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Por ĉi tiu kombinaĵo de lingvoj ekzistas nova antaŭdifinita vortproviza dosiero, kiu estas liverata kune kun la programaro kaj havas la saman permesilon kiel la programaro. Ĉu vi volas ĝisdatigi vian nunan vortprovizan dosieron al la nova versio? Se vi decidos fari tion, tio anstataŭigos la tutan vortprovizan dosieron, eĉ se vi akiris la vian el alia fonto.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Novaj vortoj</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Por ĉi tiu lingvoparo ekzistas vortproviza libro; ĝi estas sub la sama permesilo kiel la programaro. Ĝi estis kreita kiel sinsekva kurso por plenkreskuloj. Ĉu vi ŝatus provi ĝin?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Fonto de la nova vortproviza dosiero: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Fonto de via nuna vortproviza dosiero: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Nekonata fonto)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Versio de la nova vortproviza dosiero: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Versio de via nuna vortproviza dosiero: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Eldonaj notoj pri la nova versio:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Nekonata versio)</value>
   </data>
 </root>

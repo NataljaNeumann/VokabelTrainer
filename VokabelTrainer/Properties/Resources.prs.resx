@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>برلیناله: جشنواره فیلم</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>جشنواره فیلم در کن</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>جشن تولد کودکان و بودا در جاپان و کوریا</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>جشن سال نو چینایی</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>مسیحیان در سراسر جهان کریسمس را تجلیل می کنند</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>روز رقص</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>جشن چراغ هندو برای پیروزی حقیقت بر دروغ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>جشنواره فیلم افریقایی در دوربان</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>مسیحیان در سراسر جهان عید پاک را تجلیل می کنند</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>جشنواره موسیقی در اروپا</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>زیارت مسلمانان به مکه: حج</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>مردم در تمام جهان سال نو را تجلیل میکنند.</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>نوبل: جایزه پزشکی، کیمیا، فیزیک، اقتصاد، صلح و ادبیات</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>بازی های تابستانی المپیک</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>مسیحیان ارتدوکس در حال تجلیل از کریسمس هستند</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>مسیحیان ارتدوکس در حال تجلیل از عید پاک هستند</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>اسکار: جوایز آکادمی فیلم</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>روز جهانی صلح</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>روز فلسفه</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>روز روانشناسی</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>مسلمانان سراسر جهان در ماه رمضان شرکت می کنند</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>روز جهانی کتابخوانی</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>روش هشانه؛ سال نو اسرائیل</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>روز جهانی پس انداز</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>روز جهانی علم</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>هالووین</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>قهرمانی فوتبال</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>بازی های زمستانی المپیک</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>تیمکت: مسیحیان اتیوپیایی در حال یادبود تعمید عیسی</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>روز ولنتاین</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>تبریک باشد!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>کورس زبان از قبل تعریف شده به پایان رسید! بروید و بعضی از اخبار را بخوانید، بعضی از فلم ها را با یا بدون زیرنویس های بسته تماشا کنید، رادیو انترنت را روشن کنید یا بعضی از کتاب ها را به زبان اصلی بخوانید. تشکر از اینکه تا آخر با ما بودید!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>خطا!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>خطا در هنگام بارگذاری فایل XML نتایج آموزشی</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>در جریان بارگذاری فایل XML نتایج آموزش یک خطا رخ داد: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>خطا در هنگام بارگذاری فایل XML فرهنگ لغات</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>در جریان بارگذاری فایل XML فرهنگ لغات یک خطا رخ داد: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>در جریان ذخیره کردن فایل نتایج آموزش یک خطا رخ داد: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>در جریان ذخیره کردن فایل فرهنگ لغات یک خطا رخ داد: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>تمرین {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>تشکر از اینکه کتاب فرهنگ لغات تجربوی را امتحان کردید. لطفاً پیشنهادات بهبود خود را در انجمن ارسال کنید، اگر شما اشتباهات یا ترجمه های بیشتر مشابه را پیدا کردید. نسخه نرم افزار، نام های زبان ها، جفت کلمات و پیشرفت ها را ذکر کنید. در بهترین حالت، تمام پیشنهادات بهبود را جمع آوری کنید و همه آنها را یکجا ارسال کنید.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>برای این جفت زبان یک کتاب فرهنگ لغات تجربوی وجود دارد که تحت همان جواز سافتویر است. این به عنوان یک کورس مداوم برای بزرگسالان طرح شده است، اما توسط گویندگان بومی تصحیح نشده است. آیا میخواهید آنرا امتحان کنید؟</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>معانی ذیل مفقود بودند:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>معانی داخل شده ذیل اشتباه بودند: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>معنی ذیل مفقود بود: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>معنی داخل شده ذیل اشتباه بود: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>معانی ذیل مفقود بودند:  </value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>فشرده {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>فایل را رونویسی کنید؟ </value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>فایل زبان "{0}" از قبل وجود دارد، آیا میخواهید آنرا رونویسی کنید؟</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>اشتباه!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>فشرده ترین {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>برای این ترکیب زبان ها یک کتاب جدید از قبل تعریف شده فرهنگ لغات وجود دارد که همراه با سافتویر ارسال میشود و تحت همان جواز سافتویر جواز دارد. آیا میخواهید کتاب فرهنگ لغات فعلی تانرا به نسخه جدید به روز کنید؟ اگر شما تصمیم بگیرید که چنین کنید، این کتاب کامل فرهنگ لغات را رونویسی خواهد کرد، حتی اگر شما کتاب خود را از یک منبع دیگر بدست آورده باشید.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>کلمات جدید</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>برای این جفت زبان یک کتاب فرهنگ لغات وجود دارد که تحت همان جواز سافتویر است. این به عنوان یک کورس مداوم برای بزرگسالان طرح شده است. آیا میخواهید آنرا امتحان کنید؟</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>منبع کتاب واژگان جدید: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>منبع کتاب فرهنگ لغات فعلی شما: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(منبع نامعلوم)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>نسخه کتاب واژگان جدید: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>نسخه کتاب فرهنگ لغات فعلی شما: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>یادداشت های انتشار نسخه جدید:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(نسخه نامعلوم)</value>
   </data>
 </root>

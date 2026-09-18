@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Féile Scannán</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Féile Scannán i Cannes</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Ceiliúradh do leanaí agus do bhreithlá an Bhúda sa tSeapáin agus sa Chóiré</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Ceiliúradh na hAthbhliana Síneí</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Críostaithe ar fud an domhain ag ceiliúradh na Nollag</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Lá na Rince</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Féile sholais Hiondúch a cheiliúrann bua na fírinne ar an mbréag</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Féile Scannán Afracach i Durban</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Críostaithe ar fud an domhain ag ceiliúradh na Cásca</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>Féile Cheoil san Eoraip</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Moslamaigh ag déanamh oilithreachta go Mecca: an Hajj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Daoine ar fud an domhain ag ceiliúradh na hAthbhliana</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Duais Nobel: Leigheas, Ceimic, Fisic, Eacnamaíocht, Síocháin agus Litríocht</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Cluichí Oilimpeacha an tSamhraidh</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Críostaithe Ceartchreidmheacha ag ceiliúradh na Nollag</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>Críostaithe Ceartchreidmheacha ag ceiliúradh na Cásca</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Dámhachtainí Acadamh na Scannán</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Lá Domhanda na Síochána</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Lá na Fealsúnachta</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Lá na Síceolaíochta</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Moslamaigh ar fud an domhain ag glacadh páirte i mí an Ramadáin</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Lá Domhanda na Léitheoireachta</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: Athbhliain Iosrael</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Lá Domhanda na Sábhála</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Lá Domhanda na hEolaíochta</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Oíche Shamhna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Craobhchomórtas Sacair</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Cluichí Oilimpeacha an Gheimhridh</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Críostaithe san Aetóip ag comóradh Baisteadh Íosa</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Lá Fhéile Vailintín</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Comhghairdeas!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>Tá an cúrsa teanga réamhshainithe críochnaithe! Lean ort ag léamh an nuachta, ag breathnú ar scannáin (le fotheidil nó gan iad), ag éisteacht le raidió idirlín nó ag léamh leabhar sa bhunteanga. Go raibh maith agat as fanacht linn go dtí an deireadh!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>Earráid!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>Earráid agus comhad XML na dtorthaí oiliúna á luchtú</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>Tharla earráid agus comhad XML na dtorthaí oiliúna á luchtú: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>Earráid agus comhad XML an stór focal á luchtú</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>Tharla earráid agus comhad XML an stór focal á luchtú: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>Tharla earráid agus comhad na dtorthaí oiliúna á shábháil: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Tharla earráid agus comhad an stór focal á shábháil: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>Cleachtadh {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>Go raibh maith agat as triail a bhaint as an leabhar stór focal turgnamhach. Cuir do chuid moltaí feabhsúcháin sa bhfóram, le do thoil, má aimsíonn tú earráidí nó tuilleadh aistriúchán a bhfuil fuaim chosúil leo. Luaigh leagan na bogearraí, ainmneacha na dteangacha, na péirí focal agus na feabhsúcháin. Sa chás is fearr, bailigh na moltaí feabhsúcháin go léir agus cuir sa phost iad ag an am céanna.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Tá leabhar stór focal turgnamhach ann don phéire teangacha seo; tá sé faoin gceadúnas céanna leis na bogearraí. Dearadh é mar chúrsa leanúnach do dhaoine fásta, ach níor léigh cainteoirí dúchais tríd chun é a cheartú. Ar mhaith leat triail a bhaint as?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Bhí na bríonna seo a leanas ar iarraidh:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Bhí na bríonna seo a leanas a cuireadh isteach mícheart:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>Bhí an bhrí seo a leanas ar iarraidh:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>Bhí an bhrí seo a leanas a cuireadh isteach mícheart:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Bhí na bríonna seo a leanas ar iarraidh:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>Dianchúrsa {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>An scríobhfar thairis ar an gcomhad?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>Tá an comhad teanga "{0}" ann cheana féin; an bhfuil tú ag iarraidh scríobh thairis air?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>Botún!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>Dianchúrsa Breise {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Don chomhcheangal teangacha seo, tá leabhar foclóra nua réamhshainithe ann a sheoltar leis an mbogearra agus atá faoi réir an cheadúnais chéanna leis an mbogearra. Ar mhaith leat do leabhar foclóra reatha a nuashonrú go dtí an leagan nua? Má shocraíonn tú é sin a dhéanamh, scríobhfar thar an leabhar foclóra iomlán, fiú más ó fhoinse dhifriúil a fuair tú féin é.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Focail nua</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Tá leabhar stór focal ann don phéire teangacha seo; tá sé faoin gceadúnas céanna leis na bogearraí. Dearadh é mar chúrsa leanúnach do dhaoine fásta. Ar mhaith leat triail a bhaint as?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Foinse an leabhair fhoclóra nua: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Foinse do leabhair fhoclóra reatha: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Foinse anaithnid)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Leagan an leabhair fhoclóra nua: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Leagan do leabhair fhoclóra reatha: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Nótaí eisiúna an leagain nua:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Leagan anaithnid)</value>
   </data>
 </root>

@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ən intensiv </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Bu dil kombinasiyası üçün proqram təminatı ilə birlikdə təqdim olunan və onunla eyni lisenziya şərtlərinə tabe olan yeni, əvvəlcədən təyin edilmiş lüğət faylı mövcuddur. Mövcud lüğət faylınızı yeni versiyaya yeniləmək istərdinizmi? Əgər bunu etməyə qərar versəniz, hətta mövcud faylınızı başqa mənbədən əldə etmiş olsanız belə, o, tamamilə yeni lüğət faylı ilə əvəz olunacaq.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Yeni Sözlər</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Bu dil cütü üçün proqram təminatı ilə eyni lisenziya altında olan lüğət kitabı var. Bu, böyüklər üçün davamlı kurs kimi hazırlanmışdır. Bunu sınamaq istərdinizmi? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Yeni lüğət faylının mənbəyi: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Mövcud lüğət faylınızın mənbəyi: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Naməlum mənbə)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Yeni lüğət faylının versiyası: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Mövcud lüğət faylınızın versiyası: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Yeni versiya üzrə buraxılış qeydləri:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Naməlum versiya)</value>
   </data>
 </root>

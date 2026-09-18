@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} хамгийн эрчимтэй</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Энэхүү хэлний хослолд зориулсан, програм хангамжийн хамт ирдэг, мөн уг програмтай ижил лицензээр зөвшөөрөгдсөн шинэ, урьдчилан тодорхойлсон үгсийн сангийн ном байна. Та одоогийн үгсийн сангийн номоо шинэ хувилбар руу шинэчлэхийг хүсэж байна уу? Хэрэв та шинэчлэхээр шийдвэл, таны одоогийн ном өөр эх сурвалжаас авсан байсан ч хамаагүй, бүхэлдээ шинээр солигдох болно.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Шинэ үгс</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Энэ хэлний хосод зориулсан үгийн сангийн ном байдаг бөгөөд энэ нь програм хангамжтай ижил лицензтэй байдаг. Энэ нь насанд хүрэгчдэд зориулсан байнгын сургалтаар зохион бүтээгдсэн. Та туршиж үзмээр байна уу? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Шинэ үгсийн сангийн номын эх сурвалж: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Таны одоогийн үгсийн сангийн номын эх сурвалж: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Тодорхойгүй эх сурвалж)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Шинэ үгсийн сангийн номын хувилбар: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Таны одоогийн үгсийн сангийн номын хувилбар: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Шинэ хувилбарын талаарх мэдээлэл:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Тодорхойгүй хувилбар)</value>
   </data>
 </root>

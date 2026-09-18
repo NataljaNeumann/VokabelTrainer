@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} најинтензивно</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>За оваа комбинација на јазици постои нова, однапред дефинирана книга со вокабулар која се испорачува заедно со софтверот и е под истата лиценца како и самиот софтвер. Дали сакате да ја ажурирате вашата моментална книга со вокабулар на новата верзија? Доколку одлучите да го сторите тоа, целосната книга со вокабулар ќе биде презапишана, дури и ако вашата е преземена од друг извор.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Нови зборови</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Постои книга со вокабулар за овој јазичен пар, која е под истата лиценца како и софтверот. Дизајнирана е како тековен курс за возрасни. Дали сакате да ја пробате? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Извор на новата книга со вокабулар: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Извор на вашата моментална книга со вокабулар: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Непознат извор)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Верзија на новата книга со вокабулар: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Верзија на вашата моментална книга со вокабулар: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Белешки за изданието на новата верзија:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Непозната верзија)</value>
   </data>
 </root>

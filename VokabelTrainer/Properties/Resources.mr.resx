@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>बर्लिनाले: चित्रपट महोत्सव</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>कान्स चित्रपट महोत्सव</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>जपान आणि कोरियामध्ये मुलांचे सण आणि बुद्धांचा जन्मदिवस साजरा</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>चिनी नववर्ष उत्सव</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>जगभरातील ख्रिश्चन बांधव ख्रिसमस साजरा करत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>नृत्य दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>असत्यावर सत्याच्या विजयाचा हिंदू प्रकाशोत्सव (दिवाळी)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>डर्बनमधील आफ्रिकन चित्रपट महोत्सव</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>जगभरातील ख्रिश्चन बांधव ईस्टर साजरा करत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>युरोपमधील संगीत महोत्सव</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>मुस्लिम बांधवांची मक्केची तीर्थयात्रा: हज</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>जगभरातील लोक नववर्ष साजरा करत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>नोबेल: वैद्यकशास्त्र, रसायनशास्त्र, भौतिकशास्त्र, अर्थशास्त्र, शांतता आणि साहित्य क्षेत्रातील पुरस्कार</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>ऑलिम्पिक उन्हाळी स्पर्धा</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ऑर्थोडॉक्स ख्रिश्चन ख्रिसमस साजरा करत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>ऑर्थोडॉक्स ख्रिश्चन ईस्टर साजरा करत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>ऑस्कर: फिल्म अकादमी पुरस्कार</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>जागतिक शांतता दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>तत्त्वज्ञान दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>मानसशास्त्र दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>जगभरातील मुस्लिम बांधव रमजान पाळत आहेत</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>जागतिक वाचन दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>रोश हशानाह: इस्रायली नववर्ष</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>जागतिक बचत दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>जागतिक विज्ञान दिन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>हॅलोवीन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>फुटबॉल चॅम्पियनशिप</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ऑलिम्पिक हिवाळी स्पर्धा</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>टिमकॅट: येशूच्या बाप्तिस्म्याचे स्मरण करणारे इथिओपियन ख्रिश्चन</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>व्हॅलेंटाईन डे</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>अभिनंदन!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>पूर्वनिर्धारित भाषा अभ्यासक्रम पूर्ण झाला आहे! आता पुढे जाऊन काही बातम्या वाचा, 'क्लोज्ड कॅप्शन्स'सह किंवा त्याशिवाय काही चित्रपट पहा, इंटरनेट रेडिओ ऐका किंवा मूळ भाषेत काही पुस्तके वाचा. शेवटपर्यंत आमच्यासोबत राहिल्याबद्दल धन्यवाद!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>त्रुटी!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>प्रशिक्षणाचे परिणाम असलेली XML फाईल लोड करताना त्रुटी आली</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>प्रशिक्षणाचे परिणाम असलेली XML फाईल लोड करताना त्रुटी आली: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>शब्दसंग्रहाची (व्होकॅब्युलरी) XML फाईल लोड करताना त्रुटी आली</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>शब्दसंग्रहाची XML फाईल लोड करताना त्रुटी आली: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>प्रशिक्षणाचे परिणाम असलेली फाईल सेव्ह करताना त्रुटी आली: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>शब्दसंग्रहाची फाईल सेव्ह करताना त्रुटी आली: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>सराव {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>प्रायोगिक शब्दसंग्रह पुस्तक वापरून पाहिल्याबद्दल धन्यवाद. जर तुम्हाला काही चुका किंवा समान उच्चार असलेले इतर अनुवाद आढळले, तर कृपया फोरमवर सुधारणेसाठीच्या सूचना पोस्ट करा. सॉफ्टवेअरची आवृत्ती, भाषांची नावे, शब्दांच्या जोड्या आणि सुचवलेल्या सुधारणा यांचा उल्लेख करा. शक्य असल्यास, सुधारणेसाठीच्या सर्व सूचना एकत्र करा आणि त्या एकाच वेळी पोस्ट करा.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>या भाषेच्या जोडीसाठी एक प्रायोगिक शब्दसंग्रह पुस्तक उपलब्ध आहे; ते सॉफ्टवेअरप्रमाणेच त्याच परवान्याअंतर्गत येते. प्रौढांसाठीचा एक सलग अभ्यासक्रम म्हणून याची रचना केली गेली आहे, तरीही मूळ भाषिकांकडून (नेटिव्ह स्पीकर्सकडून) याची पडताळणी (प्रूफरीडिंग) केलेली नाही. तुम्हाला ते वापरून पाहायला आवडेल का?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>खालील अर्थ गहाळ होते:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>खालील नमूद केलेले अर्थ चुकीचे होते:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>खालील अर्थ गहाळ होता:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>खालील नमूद केलेला अर्थ चुकीचा होता:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>खालील अर्थ गहाळ होते:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>सखोल सराव {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>फाईल ओव्हरराईट (पुनर्लिखित) करायची का?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>"{0}" ही भाषा फाईल आधीच अस्तित्वात आहे, तुम्हाला ती ओव्हरराईट करायची आहे का?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>चूक!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>सर्वात सखोल {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>भाषांच्या या जोडीसाठी, सॉफ्टवेअरसोबतच एक नवीन पूर्व-निर्धारित शब्दसंग्रह उपलब्ध करून दिला जात आहे आणि तो सॉफ्टवेअरच्याच परवान्याअंतर्गत येतो. तुम्हाला तुमचा सध्याचा शब्दसंग्रह नवीन आवृत्तीमध्ये अद्ययावत करायचा आहे का? तसे केल्यास, तुमचा सध्याचा शब्दसंग्रह पूर्णपणे बदलला जाईल (ओव्हरराईट केला जाईल), मग तो तुम्ही कोणत्याही स्रोताकडून मिळवलेला असला तरीही.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>नवीन शब्द</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>या भाषेच्या जोडीसाठी एक शब्दसंग्रह पुस्तक उपलब्ध आहे; ते सॉफ्टवेअरप्रमाणेच त्याच परवान्याअंतर्गत येते. प्रौढांसाठीचा एक सलग अभ्यासक्रम म्हणून याची रचना केली गेली आहे. तुम्हाला ते वापरून पाहायला आवडेल का?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>नवीन शब्दसंग्रहाचा स्रोत: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>तुमच्या सध्याच्या शब्दसंग्रहाचा स्रोत: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(अज्ञात स्रोत)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>नवीन शब्दसंग्रहाची आवृत्ती: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>तुमच्या सध्याच्या शब्दसंग्रहाची आवृत्ती: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>नवीन आवृत्तीच्या प्रकाशन-टिपा:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(अज्ञात आवृत्ती)</value>
   </data>
 </root>

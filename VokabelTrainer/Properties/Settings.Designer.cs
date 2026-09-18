@@ -106,5 +106,77 @@ namespace VokabelTrainer.Properties {
                 this["LastUsedLink5"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguagePair1 {
+            get {
+                return ((string)(this["LearnedLanguagePair1"]));
+            }
+            set {
+                this["LearnedLanguagePair1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguageVersion1 {
+            get {
+                return ((string)(this["LearnedLanguageVersion1"]));
+            }
+            set {
+                this["LearnedLanguageVersion1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguagePair2 {
+            get {
+                return ((string)(this["LearnedLanguagePair2"]));
+            }
+            set {
+                this["LearnedLanguagePair2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguageVersion2 {
+            get {
+                return ((string)(this["LearnedLanguageVersion2"]));
+            }
+            set {
+                this["LearnedLanguageVersion2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguagePair3 {
+            get {
+                return ((string)(this["LearnedLanguagePair3"]));
+            }
+            set {
+                this["LearnedLanguagePair3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LearnedLanguageVersion3 {
+            get {
+                return ((string)(this["LearnedLanguageVersion3"]));
+            }
+            set {
+                this["LearnedLanguageVersion3"] = value;
+            }
+        }
     }
 }

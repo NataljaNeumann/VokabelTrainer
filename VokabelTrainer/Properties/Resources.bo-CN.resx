@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ཤུགས་ཆེ་ཤོས། </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>སྐད་ཡིག་མཉམ་སྡེབ་འདིའི་ཆེད་དུ་སྔོན་ནས་གཏན་འབེབས་བྱས་པའི་མིང་ཚིག་དེབ་གསར་པ་ཞིག་ཡོད་པ་དེ་མཉེན་ཆས་དང་མཉམ་དུ་བཏང་བ་དང་། མཉེན་ཆས་དེ་དང་འདྲ་བའི་ཆོག་མཆན་འོག་ཆོག་མཆན་ཐོབ་ཡོད། ཁྱེད་རང་གི་ད་ལྟའི་མིང་ཚིག་དེབ་དེ་ཐོན་རིམ་གསར་པར་བསྒྱུར་འདོད་དམ། གལ་ཏེ་ཁྱེད་ཀྱིས་དེ་ལྟར་བྱེད་རྒྱུའི་ཐག་གཅོད་བྱས་ན། འདིས་མིང་ཚིག་དེབ་ཆ་ཚང་དེ་བརྗེ་སྒྱུར་བྱེད། ཁྱེད་ཀྱི་མིང་ཚིག་དེབ་དེ་ཐོན་ཁུངས་གཞན་ཞིག་ནས་ཐོབ་ནའང་།</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ཚིག་གསར་པ།</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>སྐད་ཡིག་ཆ་གཅིག་འདི་ལ་མིང་ཚིག་དེབ་ཅིག་ཡོད་པ་དེ་ནི་མཉེན་ཆས་དང་ཆོག་མཆན་གཅིག་པའི་འོག་ཡོད། དེ་ནི་རྒན་རྒོན་ཚོའི་ཆེད་དུ་རྒྱུན་མཐུད་ཀྱི་སློབ་ཚན་ཞིག་ཏུ་བཟོས་ཡོད། ཁྱེད་རང་ཚོད་ལྟ་བྱེད་འདོད་དམ། </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>མིང་ཚིག་དཔེ་དེབ་གསར་པའི་ཡོང་ཁུངས།{0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ཁྱེད་ཀྱི་མིག་སྔའི་མིང་ཚིག་དེབ་ཀྱི་ཡོང་ཁུངས།{0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ཡོང་ཁུངས་མ་ཤེས།)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>མིང་ཚིག་དཔེ་དེབ་གསར་པའི་ཐོན་རིམ།: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ཁྱེད་ཀྱི་མིག་སྔའི་མིང་བརྡ་དེབ་ཀྱི་ཐོན་རིམ།: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ཐོན་རིམ་གསར་པའི་འགྲེམ་སྤེལ་དྲན་ཐོ།</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(མ་ཤེས་པའི་ཐོན་རིམ།)</value>
   </data>
 </root>

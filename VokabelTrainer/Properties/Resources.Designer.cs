@@ -538,6 +538,15 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to For this combination of languages there is a new pre-defined vocabulary book that is shipped along with the software and is licensed under the same license as the software. Would you like to update your current vocabulary book to the new version? If you decide to do so, this will overwrite the complete vocabulary book, even if you got yours from a different source..
+        /// </summary>
+        internal static string NewVersionOfVocabularyBook {
+            get {
+                return ResourceManager.GetString("NewVersionOfVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New words.
         /// </summary>
         internal static string NewVocabularyInCourseHeader {
@@ -552,6 +561,69 @@ namespace VokabelTrainer.Properties {
         internal static string PredefinedVocabularyBook {
             get {
                 return ResourceManager.GetString("PredefinedVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source of new vocabulary book: {0}.
+        /// </summary>
+        internal static string SourceOfNewVocabularyBook {
+            get {
+                return ResourceManager.GetString("SourceOfNewVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source of your current vocabulary book: {0}.
+        /// </summary>
+        internal static string SourceOfPreviousVocabularyBook {
+            get {
+                return ResourceManager.GetString("SourceOfPreviousVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Unknown source).
+        /// </summary>
+        internal static string SourceUnknown {
+            get {
+                return ResourceManager.GetString("SourceUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version of new vocabulary book: {0}.
+        /// </summary>
+        internal static string VersionOfNewVocabularyBook {
+            get {
+                return ResourceManager.GetString("VersionOfNewVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version of your current vocabulary book: {0}.
+        /// </summary>
+        internal static string VersionOfPreviousVocabularyBook {
+            get {
+                return ResourceManager.GetString("VersionOfPreviousVocabularyBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Release notes of new version:.
+        /// </summary>
+        internal static string VersionReleaseNotes {
+            get {
+                return ResourceManager.GetString("VersionReleaseNotes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Unknown version).
+        /// </summary>
+        internal static string VersionUnknown {
+            get {
+                return ResourceManager.GetString("VersionUnknown", resourceCulture);
             }
         }
     }

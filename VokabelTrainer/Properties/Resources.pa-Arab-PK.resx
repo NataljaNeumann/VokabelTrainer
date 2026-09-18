@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} سب توں زیادہ شدت نال</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>زباناں دے اس مجموعہ دے لیی اک نویں پہلے توں متعین لفظاں دی کتاب اے جہڑی سافٹ ویئر دے نال بھیجی جاندی اے تے سافٹ ویئر دے اسی لائسنس دے تحت لائسنس یافتہ اے۔ کی تسی اپنی موجودہ لفظالی دی کتاب نو نویں ورژن چ اپ ڈیٹ کرنا چاہندے او؟ جے تسی انج کرن دا فیصلہ کردے او، تے ایہ مکمل لفظالی دی کتاب نوں اوور رائٹ کر دیوے گا، بھاویں تسی اپنی کتاب کسے ہور وسیلے توں حاصل کیتی ہووے۔</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>نویں بول</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>اس بولی دے جوڑے لئی اک شبداولی کتاب اے، جو سافٹویئر دے لائسنس ہیٹھ اے۔ ایہ بالغاں لئی اک جاری کورس دے طور تے ڈیزائن کیتا گیا سی۔ کی تسی ایہنوں آزمانا چاہندے او؟ </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>نویں شبداولی دی کتاب دا وسیلہ: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>تہاڈی موجودہ لفظالی دی کتاب دا وسیلہ: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(نامعلوم وسیلہ)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>نویں لفظالی دی کتاب دا ورژن: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>تہاڈی موجودہ لفظالی دی کتاب دا ورژن: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>نویں ورژن دے ریلیز نوٹ:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(نامعلوم ورژن)</value>
   </data>
 </root>

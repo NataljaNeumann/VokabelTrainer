@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} առավել ինտենսիվ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Լեզուների այս զույգի համար առկա է նախապես սահմանված բառապաշարի նոր ֆայլ, որը տրամադրվում է ծրագրային ապահովման հետ միասին և ունի նույն լիցենզիան, ինչ ծրագիրը։ Ցանկանո՞ւմ եք թարմացնել ձեր ընթացիկ բառապաշարի ֆայլը նոր տարբերակով։ Եթե որոշեք դա անել, նոր ֆայլը կփոխարինի ամբողջական բառապաշարին՝ նույնիսկ եթե ձեր ունեցած ֆայլը ստացվել է այլ աղբյուրից։</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Նոր բառեր</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Այս լեզվական զույգի համար կա բառապաշարի գիրք, որը գտնվում է ծրագրի հետ նույն լիցենզիայի ներքո։ Այն մշակվել է որպես մեծահասակների համար շարունակական դասընթաց։ Կցանկանայի՞ք փորձել այն։ </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Բառապաշարի նոր ֆայլի աղբյուրը՝ {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Ձեր ընթացիկ բառապաշարի ֆայլի աղբյուրը՝ {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Անհայտ աղբյուր)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Բառապաշարի նոր ֆայլի տարբերակը՝ {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Ձեր ընթացիկ բառապաշարի ֆայլի տարբերակը՝ {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Նոր տարբերակի թողարկման մանրամասները՝</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Անհայտ տարբերակ)</value>
   </data>
 </root>

@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Película raymi</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Cannes llaqtapi pelicula raymi</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Japón, Corea suyukunapi wawakuna, Buda p'unchaw p'unchaw raymikuna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>China musuq wata raymikuna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Tukuy pachantinpi cristianokunan Navidad fiestata ruwashanku</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Tusuy punchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Hindu k'anchay raymi chiqap llullakuy atipasqanmanta</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Durban llaqtapi Africamanta pelicula raymi</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Tukuy pachantinpi cristianokunan Pascua fiestata ruwashanku</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>Iwrupapi musiku raymi</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Musulmankuna La Meca llaqtaman peregrino: Hajj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Tukuy pachantinpi runakunan mosoq watata ruwashanku.</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Nobel: Hampi, Qumiku, Fisika, Qullqi, Hawka Kawsay, Literatura nisqa suñay</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Olímpico nisqa chiri timpu pukllaykuna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Ortodoxo cristianokunan Navidad fiestata ruwashanku</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>Ortodoxo cristianokunan Pascua fiestata ruwashanku</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Academia de Cine nisqa suñayninkuna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Pachamamapi Hawka Kawsay P'unchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Filosofía nisqa p’unchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Psicología nisqa p’unchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Tukuy pachantinpi musulmankunan Ramadán killapi participashanku</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Kay pachantinpi ñawinchay p’unchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: Israelpa musuq wata</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Pachamamapi Qolqe Waqaychasqa P’unchay</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Mundial Ciencias nisqa p’unchay</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Halloween punchaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Piluta hayt'aypi atipanakuy</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Inti raymi killapi Olímpico pukllaykuna</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Etiopía cristianokuna Jesuspa Bautizakusqanmanta yuyarispa</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>San Valentín punchaw</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>¡Ancha kusisqa!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>¡Ñawpaqmanta sut’inchasqa simi yachay tukusqaña! Riy hinaspa wakin noticiakunata leey, wakin peliculakunata qhaway wisq’asqa letrayoq otaq mana, internet radiota llank’achiy otaq wakin librokunata original simipi leey. ¡Gracias tukukuykama ñuqaykuwan qhipakusqaykimanta!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>Pantay!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>Yachachiy ruwasqakuna XML willañiqita kargachkaspa pantasqa</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>Huk pantasqa karqan yachachiy ruwasqakuna XML willañiqita kargachkaspa: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>Simikuna XML willañiqita kargachkaspa pantasqa</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>Huk pantasqa karqan simikuna XML willañiqita kargachkaspa: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>Yachachiypa rurasqan willañiqita waqaychaspa pantasqa karqan: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Simikuna willañiqita waqaychaspa pantasqa karqan: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>Ejercicio {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>Gracias chay experimental vocabulario librota pruebasqaykimanta. Ama hina kaspa, allinchay yuyaychasqaykikunata foro nisqapi churay, pantaykunata utaq aswan rikch'aq uyarikuq tikraykunata tarispa. Softwarepa versión nisqamanta, simikunapa sutinta, iskay iskay simikunata hinaspa allinchakusqanmanta rimay. Aswan allin kaqtinqa, llapa allinchay yuyaychaykunata huñuy hinaspa llapanta huk kutillapi churay.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Kay simi parispaqmi kan huk experimental vocabulario libro, chaymi software nisqawan kikin licenciawan kachkan. Kuraq runakunapaq sapa kuti kursu hina ruwasqa kachkan, chaywanpas mana nativo rimaqkunap allichasqanchu. ¿Munawaqchu chayta pruebayta?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Kay significadokuna faltarqan:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Kay yaykusqa significadokunaqa pantasqam karqa: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>Kay significadoqa faltarqanmi: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>Kay qatiq yaykusqa significadoqa pantasqa karqan: </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Kay significadokuna faltarqan:  </value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>Intensivo {0} - {1} nisqa.</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>¿Archivota hawaman qillqay? </value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>"{0}" simi willañiqiqa kachkanñam, ¿chaytachu qillqayta munanki?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>Pantay!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>Aswan kallpayuq {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Kay simikuna huñusqapaqqa kanmi musuq ñawpaqmanta riqsisqa simikuna qillqa maytu softwarewan kuska apachisqa chaymanta software kaqwan kikin licenciayuq licenciayuq. ¿Munawaqchu kunan vocabulario libroykita mosoq versión nisqaman mosoqyachiyta? Chayta ruwanaykipaq tanteaspaykiqa, chaywanmi vocabulario nisqa librota huntasqata qillqanqa, hukmantaña qampaq kaq librota chaskirqanki chaypas.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Musuq simikuna</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Kay simi parispaqmi kan huk simikuna qillqa, chaymi software nisqawan kikin licenciawan kachkan. Kuraq runakunapaq sapa kuti kursu hinam ruwasqa kachkan. ¿Munawaqchu chayta pruebayta?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Musuq simikuna qillqap paqariynin: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Kunan simikuna qillqasqaykipa paqariynin: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Mana riqsisqa pukyuta)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Musuq simikuna qillqap rikch'aynin: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Kunan simi qillqaykip rikch'aynin: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Musuq layamanta lluqsichiy willaykuna:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Mana riqsisqa versión)</value>
   </data>
 </root>

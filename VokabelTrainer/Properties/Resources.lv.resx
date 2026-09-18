@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} — {1} visintensīvāk</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Šim valodu pārim ir pieejama jauna, iepriekš sagatavota vārdnīca, kas tiek piegādāta kopā ar programmatūru un kurai ir tāda pati licence kā pašai programmatūrai. Vai vēlaties atjaunināt savu pašreizējo vārdnīcu uz jauno versiju? Ja izvēlēsieties to darīt, pašreizējā vārdnīca tiks pilnībā aizstāta, pat ja tā iegūta no cita avota.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Jauni vārdi</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Šim valodu pārim ir vārdu krājuma grāmata, kas atrodas saskaņā ar to pašu licenci kā programmatūra. Tā tika izstrādāta kā nepārtraukts kurss pieaugušajiem. Vai vēlaties to izmēģināt? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Jaunās vārdnīcas avots: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Pašreizējās vārdnīcas avots: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Nezināms avots)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Jaunās vārdnīcas versija: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Pašreizējās vārdnīcas versija: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Informācija par jauno versiju:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Nezināma versija)</value>
   </data>
 </root>

@@ -3048,11 +3048,21 @@
     <EmbeddedResource Include="Properties\Resources.ko.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.sd-Arab.resx" />
-    <EmbeddedResource Include="Properties\Resources.sq.resx" />
-    <EmbeddedResource Include="Properties\Resources.sw.resx" />
-    <EmbeddedResource Include="Properties\Resources.ta.resx" />
-    <EmbeddedResource Include="Properties\Resources.ur-PK.resx" />
+    <EmbeddedResource Include="Properties\Resources.sd-Arab.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.sq.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.sw.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ta.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ur-PK.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-CHS.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -8393,8 +8403,8 @@
   tar.exe -a -c -f ..\$(ProjectName).zip *.*
 )</PostBuildEvent>
   </PropertyGroup>
-<Target Name="ClearAll" AfterTargets="Clean">
-	<Message Text="Executing custom cleaning of the target directory" Importance="high" />
+  <Target Name="ClearAll" AfterTargets="Clean">
+    <Message Text="Executing custom cleaning of the target directory" Importance="high" />
     <Exec Command="rmdir /S /Q &quot;$(TargetDir)&quot;" ContinueOnError="true" />
-</Target>
+  </Target>
 </Project>

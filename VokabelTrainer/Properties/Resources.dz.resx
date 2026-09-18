@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>ཀེན་ནིསི་ལུ་གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ཇ་པཱན་དང་ཀོ་རི་ཡ་ལུ་ ཨ་ལོ་དང་སངས་རྒྱས་ཀྱི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>རྒྱ་ནག་གི་ལོ་གསར་སྲུང་བརྩི།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུའི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>ཞབས་བྲོའི་ཉིནམ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>བདེན་པ་གིས་རྫུན་གཏམ་ལས་རྒྱལ་ཁ་ཐོབ་པའི་དོན་ལུ་ ཧིན་དུའི་འོད་ཀྱི་དགའ་སྟོན་བརྩི་སྲུང་།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>ཌར་བྷན་ལུ་ ཨཕ་རི་ཀའི་གློག་བརྙན་དུས་སྟོན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཨིསི་ཊར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>ཡུ་རོབ་ལུ་ རོལ་དབྱངས་དུས་སྟོན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>མུ་ས་ལིམ་ཚུ་གིས་ མེ་ཀ་ལུ་གནས་སྐོར་འབད་མི་: ཧ་ཇི།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་མི་ཚུ་གིས་ ལོ་གསར་བརྩི་སྲུང་འབད་དོ་ཡོདཔ་ཨིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>ནོ་བྷེལ་: སྨན་རིགས་དང་རྫས་ཁམས་རིག་པ་ དངོས་ཁམས་རིག་པ་ དཔལ་འབྱོར་ ཞི་བདེ་དང་རྩོམ་རིག་གི་གཟེངས་རྟགས།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>ཨོ་ལིམ་པིག་དབྱར་དུས་ཀྱི་ལུས་རྩལ་འགྲན་སྡུར།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ཡེ་ཤུ་པའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུའི་འཁྲུངས་སྐར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཨིསི་ཊར་དུས་སྟོན་བརྩི་སྲུང་འབད་དོ་ཡོདཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: གློག་བརྙན་སློབ་གླིང་གི་རྟགས་མ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>འཛམ་གླིང་ཞི་བདེའི་ཉིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>མཚན་ཉིད་རིག་པའི་ཉིན་མོ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>སེམས་ཁམས་རིག་པའི་ཉིན་མོ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>འཛམ་གླིང་ཡོངས་ཀྱི་མུ་ས་ལིམ་ཚུ་གིས་ ར་མ་དཱན་ནང་ བཅའ་མར་གཏོགས་དོ་ཡོདཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>འཛམ་གླིང་ལྷག་ནིའི་ཉིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>རོཤ་ཧ་ཤ་ན་: ཨི་ཟི་རེལ་གྱི་ལོ་གསརཔ།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>འཛམ་གླིང་གསོག་འཇོག་ཉིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>འཛམ་གླིང་ཚན་རིག་ཉིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>ཧ་ལོ་ཝིན།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>རྐང་རྩེད་འགྲན་བསྡུར།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ཨོ་ལིམ་པིག་དགུན་དུས་ཀྱི་ལུས་རྩལ་འགྲན་སྡུར།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>ཏིམ་ཀཊ་: ཨི་ཐོ་པི་ཡ་གི་ཡེ་ཤུའི་ཆོས་ལུགས་འཛིན་མི་ཚུ་གིས་ ཡེ་ཤུ་གི་ཁྲུས་གསོལ་དྲན་གསོ་འབད་བའི་བསྒང་།</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>བརྩེ་དུང་གི་ཉིན།</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>བཀྲིས་བདེ་ལེགས།</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>སྔོན་སྒྲིག་སྐད་ཡིག་སློབ་ཚན་འདི་མཇུག་བསྡུ་ཡི། འགྱོ་སྟེ་ གནས་ཚུལ་ཚུ་ལྷག་སྟེ་ གློག་བརྙན་ཚུ་ ཁ་བསྡམས་བཞག་སྟེ་ ཡང་ན་ ཁ་བསྡམ་བཞག་སྟེ་ བལྟ་སྟེ་ ཡོངས་འབྲེལ་གྱི་ རེ་ཌིའོ་ཁ་ཕྱེ་སྟེ་ ཡང་ན་ སྐད་ཡིག་ངོ་མའི་ནང་ ཀི་དེབ་ཚུ་ལྷག་སྟེ་ འགྱོ་དགོ། མཇུག་ཚུན་ཚོད་ ང་བཅས་དང་གཅིག་ཁར་སྡོད་མི་ལུ་བཀའ་དྲིན་ཆེ།</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>འཛོལ༌བ!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་: {0} མངོན་གསལ་འབད་བའི་སྐབས་ འཛོལ་བ་བྱུང་ནུག།</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>མིང་ཚིག་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>མིང་ཚིག་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ་ཅིག་བྱུང་ནུག: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>སྦྱོང་བརྡར་གྲུབ་འབྲས་ཡིག་སྣོད་སྲུང་བཞག་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>མིང་ཚིག་ཡིག་སྣོད་སྲུང་བཞག་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>སྦྱོང་བརྡར་ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>བརྟག་དཔྱད་མིང་ཚིག་ཀི་དེབ་འདི་ འབད་རྩོལ་བསྐྱེད་མི་ལུ་བཀའ་དྲིན་ཆེ། ཁྱོད་ཀྱིས་ འཛོལ་བ་དང་ ཡང་ན་ སྐད་སྒྱུར་ཚུ་ ཅོག་འཐདཔ་སྦེ་ གོ་ཚུགས་པ་ཅིན་ ཁྱོད་རའི་ ཡར་དྲག་གཏང་ནིའི་ བསམ་འཆར་ཚུ་ གྲོས་འཛོམས་ནང་ བཀོད་གནང་། མཉེན་ཆས་ཀྱི་ཐོན་རིམ་དང་སྐད་ཡིག་གི་མིང་ མིང་ཚིག་ཆ་གཅིག་དང་ ཡར་རྒྱས་ཚུ་བཤད་དགོ། གནས་སྟངས་ལེགས་ཤོམ་ནང་ ཡར་དྲག་གཏང་ནིའི་བསམ་འཆར་ཚུ་ག་ར་བསྡུ་སྟེ་ ཚར་གཅིག་ལུ་ བཀོད་བཞག་དགོ།</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>སྐད་ཡིག་ཆ་འདི་གི་དོན་ལུ་ བརྟག་དཔྱད་མིང་ཚིག་ཀི་དེབ་ཅིག་ཡོདཔ་ད་ དེ་ཡང་ མཉེན་ཆས་དང་གཅིག་ཁར་ ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ཡོདཔ་ཨིན། འདི་ཡང་ མི་རྒས་ཤོས་ཚུ་གི་དོན་ལུ་ འཕྲོ་མཐུད་དེ་རང་ སློབ་ཚན་ཅིག་སྦེ་ བཟོ་བཀོད་འབད་དེ་ཡོད་རུང་ ས་གནས་ཀྱི་ཁ་སླབ་མི་ཚུ་གིས་ བདེན་དཔྱད་འབད་མ་ཚུགས་པས། ཁྱོད་ཀྱིས་ཚོད་ལྟ་འབད་ནི་ཨིན་ན?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>འོག་གི་དོན་དག་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ཨིན།</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>འོག་གི་བཙུགས་ཡོད་པའི་དོན་དག་ཚུ་འཛོལ་བ་ཨིན་པས། </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>འོག་གི་དོན་དག་འདི་བརླག་སོང་ནུག། </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>འོག་གི་བཙུགས་ཡོད་པའི་དོན་དག་འདི་འཛོལ་བ་ཨིན་མས། </value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>འོག་གི་དོན་དག་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ཨིན།  </value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>ཤུགས་ཆེ་བའི་ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>ཡིག་སྣོད་ཚབ་སྲུང་འབད་ནི་ཨིན་ན? </value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>སྐད་ཡིག་ཡིག་སྣོད་ "{0}" འདི་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན་ ཁྱོད་ཀྱིས་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>འཛོལ་བ!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>ཤུགས་ཆེ་ཤོས་ {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>སྐད་ཡིག་མཉམ་སྡེབ་འདི་གི་དོན་ལུ་ མཉེན་ཆས་དང་གཅིག་ཁར་ བཏང་ཡོད་པའི་ སྔོན་སྒྲིག་མིང་ཚིག་ཀི་དེབ་གསརཔ་ཅིག་ཡོདཔ་ད་ དེ་ཡང་ མཉེན་ཆས་དང་གཅིག་ཁར་ ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ ཆོག་ཐམ་བྱིན་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་ད་ལྟོའི་མིང་ཚིག་ཀི་དེབ་འདི་ ཐོན་རིམ་གསརཔ་ལུ་ དུས་མཐུན་བཟོ་ནི་ཨིན་ན? ཁྱོད་ཀྱིས་དེ་སྦེ་ཐག་བཅད་པ་ཅིན་ འདི་གིས་ ཁྱོད་རའི་མིང་ཚིག་ཀི་དེབ་འདི་ འབྱུང་ཁུངས་སོ་སོ་ལས་ཐོབ་རུང་ མིང་ཚིག་ཆ་ཚང་འདི་ བཀང་འོང་།</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ཚིག་གསརཔ།</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>སྐད་ཡིག་ཆ་འདི་གི་དོན་ལུ་ མིང་ཚིག་ཀི་དེབ་ཅིག་ཡོདཔ་ད་ དེ་ཡང་ མཉེན་ཆས་དང་གཅིག་ཁར་ ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ཡོདཔ་ཨིན། རྒས་ཤོས་ཚུ་གི་དོན་ལུ་ འཕྲོ་མཐུད་སློབ་ཚན་ཅིག་སྦེ་ བཟོ་བཀོད་འབད་ཡོདཔ་ཨིན། ཁྱོད་ཀྱིས་ཚོད་ལྟ་འབད་ནི་ཨིན་ན?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>མིང་བརྡ་དཔེ་དེབ་གསར་པའི་ཡོང་ཁུངས།: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་ད་ལྟའི་མིང་ཚིག་དཔེ་དེབ་ཀྱི་ཡོང་ཁུངས།: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(འབྱུང་ཁུངས་མ་ཤེས།)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>མིང་ཚིག་དཔེ་དེབ་གསར་པའི་ཐོན་རིམ: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་ད་ལྟོའི་མིང་ཚིག་དེབ་ཀྱི་ཐོན་རིམ: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ཐོན་རིམ་གསརཔ་གི་གསར་བཏོན་དྲན་ཐོ།</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(མ་ཤེས་པའི་ཐོན་རིམ།)</value>
   </data>
 </root>

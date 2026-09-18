@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} chuyên sâu nhất</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Đối với sự kết hợp ngôn ngữ này, có một tập dữ liệu từ vựng được định nghĩa sẵn mới đi kèm với phần mềm và được cấp phép theo cùng điều khoản với phần mềm đó. Bạn có muốn cập nhật tập dữ liệu từ vựng hiện tại của mình lên phiên bản mới không? Nếu bạn chọn cập nhật, thao tác này sẽ ghi đè lên toàn bộ tập dữ liệu từ vựng hiện có, ngay cả khi bạn lấy nó từ một nguồn khác.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Từ mới</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Có một cuốn sách từ vựng cho cặp ngôn ngữ này, được cấp phép giống với phần mềm. Nó được thiết kế như một khóa học liên tục dành cho người lớn. Bạn có muốn thử không? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Nguồn của tập dữ liệu từ vựng mới: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Nguồn của tập dữ liệu từ vựng hiện tại: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Nguồn không xác định)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Phiên bản của tập dữ liệu từ vựng mới: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Phiên bản của tập dữ liệu từ vựng hiện tại: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Ghi chú phát hành của phiên bản mới:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Phiên bản không xác định)</value>
   </data>
 </root>

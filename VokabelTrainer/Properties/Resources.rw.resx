@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} cyane </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Ku bijyanye n’izi ndimi zombi, hari igitabo gishya cy’amagambo cyateguwe mbere, gitangwa hamwe na porogaramu kandi kikaba gifite amabwiriza agenga imikoreshereze (license) ameze neza nk’aya porogaramu ubwayo. Waba wifuza kuvugurura igitabo cyawe cy’amagambo ukagishyira kuri iyo verisiyo nshya? Niba uhisemo kubikora, ibi bizasimbura burundu igitabo cyawe cy’amagambo, kabone n’iyo waba warakibonye ahandi hatandukanye.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Amagambo mashya</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Hano hari igitabo cyamagambo kuriyi mvugo yindimi, iri munsi yimpushya zimwe na software. Yateguwe nkamasomo ahoraho kubantu bakuru. Urashaka kubigerageza? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Aho igitabo gishya cy’amagambo gituruka: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Aho igitabo cyawe cy’amagambo gisanzwe gituruka: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Ahatamenyekanye)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Verisiyo y’igitabo gishya cy’amagambo: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Verisiyo y’igitabo cyawe cy’amagambo gisanzwe: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Amakuru yerekeye iyi verisiyo nshya:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Verisiyo itazwi)</value>
   </data>
 </root>

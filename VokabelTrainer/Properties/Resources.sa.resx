@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} अत्यन्तं तीव्रम्</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>अस्य भाषासंयोजनस्य कृते नूतनं पूर्वनिर्धारितं शब्दावलीपुस्तकं अस्ति यत् सॉफ्टवेयरेन सह निर्यातितं भवति तथा च सॉफ्टवेयरस्य समानानुज्ञापत्रेण अनुज्ञापत्रं प्राप्तम् अस्ति किं भवान् स्वस्य वर्तमानशब्दकोशपुस्तकं नूतनसंस्करणं प्रति अद्यतनीकर्तुं इच्छति? यदि भवान् तत् कर्तुं निश्चयति तर्हि एतेन सम्पूर्णं शब्दावलीपुस्तकं अधिलिखितं भविष्यति, यद्यपि भवान् स्वस्य भिन्नस्रोतः प्राप्तवान् ।</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>नव शब्द</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>अस्य भाषायुग्मस्य कृते शब्दावलीपुस्तकम् अस्ति, यत् सॉफ्टवेयरस्य समानानुज्ञापत्रस्य अन्तर्गतम् अस्ति । प्रौढानां कृते निरन्तरपाठ्यक्रमरूपेण अस्य परिकल्पना आसीत् । किं भवन्तः तस्य प्रयोगं कर्तुम् इच्छन्ति ? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>नवीनशब्दकोशपुस्तकस्य स्रोतः : {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>भवतः वर्तमानशब्दकोशपुस्तकस्य स्रोतः : {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(अज्ञात स्रोतः) २.</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>नवीन शब्दावली पुस्तकस्य संस्करणम् : {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>भवतः वर्तमानशब्दकोशपुस्तकस्य संस्करणम्: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>नूतनसंस्करणस्य विमोचनटिप्पणयः : १.</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(अज्ञात संस्करणम्) २.</value>
   </data>
 </root>

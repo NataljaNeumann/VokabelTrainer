@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} kachasi ike </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Maka njikọta asụsụ a, e nwere akwụkwọ okwu ọhụrụ akọwapụtara nke e zigara ya na ngwanrọ ahụ ma nwee ikike n'okpuru otu ikike ahụ dị ka ngwanrọ ahụ. Ị chọrọ imelite akwụkwọ okwu gị ugbu a na ụdị ọhụrụ ahụ? Ọ bụrụ na ị kpebie ime nke a, nke a ga-ehichapụ akwụkwọ okwu zuru oke, ọbụlagodi na ị nwetara nke gị site na isi mmalite ọzọ.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Okwu ọhụrụ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Enwere akwụkwọ okwu maka ụzọ asụsụ a, nke dị n'okpuru otu ikike dị ka ngwa ngwa. Emebere ya ka ọ bụrụ usoro mmụta na-aga n'ihu maka ndị okenye. Ọ ga-amasị gị ịnwale ya? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Isi mmalite nke akwụkwọ okwu ọhụrụ: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Isi mmalite nke akwụkwọ okwu gị ugbu a: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Isi mmalite amaghi)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Ụdị nke akwụkwọ okwu ọhụrụ: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Ụdị nke akwụkwọ okwu gị ugbu a: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Ndetu mwepụta nke ụdị ọhụrụ:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Ụdị amaghi)</value>
   </data>
 </root>

@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} รุนแรงที่สุด </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>สำหรับการจับคู่ภาษานี้ มีไฟล์คำศัพท์ที่กำหนดไว้ล่วงหน้าชุดใหม่มาพร้อมกับซอฟต์แวร์ และอยู่ภายใต้เงื่อนไขการอนุญาตใช้งานเดียวกันกับซอฟต์แวร์ คุณต้องการอัปเดตไฟล์คำศัพท์ปัจจุบันของคุณเป็นเวอร์ชันใหม่หรือไม่? หากคุณเลือกที่จะดำเนินการ ไฟล์คำศัพท์เดิมทั้งหมดจะถูกแทนที่ด้วยไฟล์ใหม่ แม้ว่าไฟล์เดิมของคุณจะมาจากแหล่งอื่นก็ตาม</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>คำศัพท์ใหม่</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>มีหนังสือคำศัพท์สำหรับคู่ภาษานี้ ซึ่งอยู่ภายใต้ลิขสิทธิ์เดียวกันกับซอฟต์แวร์ หนังสือเล่มนี้ได้รับการออกแบบให้เป็นหลักสูตรต่อเนื่องสำหรับผู้ใหญ่ คุณต้องการลองใช้หรือไม่? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>แหล่งที่มาของไฟล์คำศัพท์ใหม่: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>แหล่งที่มาของไฟล์คำศัพท์ปัจจุบันของคุณ: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ไม่ทราบแหล่งที่มา)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>เวอร์ชันของไฟล์คำศัพท์ใหม่: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>เวอร์ชันของไฟล์คำศัพท์ปัจจุบันของคุณ: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>รายละเอียดการปรับปรุงของเวอร์ชันใหม่:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(ไม่ทราบเวอร์ชัน)</value>
   </data>
 </root>

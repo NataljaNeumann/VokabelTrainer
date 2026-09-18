@@ -277,10 +277,34 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} ی چڕترین</value>
   </data>
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>بۆ ئەم تێکەڵە زمانانە کتێبێکی نوێی وشەسازی پێشوەختە پێناسەکراو هەیە کە لەگەڵ نەرمەکاڵاکەدا دەنێردرێت و بەپێی هەمان مۆڵەتی نەرمەکاڵاکە مۆڵەتی پێدراوە. حەز دەکەیت کتێبی وشەسازی ئێستات نوێ بکەیتەوە بۆ وەشانی نوێ؟ ئەگەر بڕیار بدەیت ئەوە بکەیت، ئەمە کتێبی وشەسازی تەواو دەنووسێتەوە، تەنانەت ئەگەر کتێبی وشەسازیت لە سەرچاوەیەکی جیاوازەوە وەرگرتبێت.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>وشەی نوێ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>کتێبێکی وشەسازی بۆ ئەم جووتە زمانە هەیە، کە لە ژێر هەمان مۆڵەتی نەرمەکاڵاکەدایە. وەک خولێکی بەردەوام بۆ گەورەکان داڕێژرابوو. حەز دەکەیت تاقی بکەیتەوە؟ </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>سەرچاوەی کتێبی وشەسازی نوێ: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>سەرچاوەی کتێبی وشەسازی ئێستات: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(سەرچاوەیەکی نادیارە)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>وەشانی کتێبی وشەسازی نوێ: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>وەشانی کتێبی وشەسازی ئێستات: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>تێبینی بڵاوکردنەوەی وەشانی نوێ:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(وەشانێکی نەناسراو)</value>
   </data>
 </root>

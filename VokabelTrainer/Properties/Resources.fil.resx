@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>Berlinale: Pista ng Pelikula</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>Pista ng Pelikula sa Cannes</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>Mga pagdiriwang ng kaarawan ng mga bata at Buddha sa Japan at Korea</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>Mga pagdiriwang ng bagong taon ng Tsino</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>Nagdiriwang ng Pasko ang mga Kristiyano sa buong mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>Araw ng pagsasayaw</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>Pagdiriwang ng liwanag ng Hindu para sa katotohanang nagwawagi laban sa mga kasinungalingan</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>Pista ng pelikula sa Africa sa Durban</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>Nagdiriwang ng Pasko ng Pagkabuhay ang mga Kristiyano sa buong mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>Pista ng musika sa Europa</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>Mga Muslim na naglalakbay patungong Mecca: Hajj</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>Nagdiriwang ng bagong taon ang mga tao sa buong mundo.</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>Nobel: Premyo para sa Medisina, Kemistri, Pisika, Ekonomiya, Kapayapaan at Panitikan</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>Mga laro sa tag-init ng Olympics</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>Nagdiriwang ng Pasko ang mga Kristiyanong Ortodokso</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>Nagdiriwang ng Pasko ng Pagkabuhay ang mga Kristiyanong Ortodokso</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>Oscar: Mga parangal ng Film Academy</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>Araw ng Kapayapaan sa Mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>Araw ng pilosopiya</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>Araw ng sikolohiya</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>Nakikilahok ang mga Muslim sa buong mundo sa Ramadan</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>Araw ng pagbabasa sa mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>Rosh Hashanah: Bagong taon ng Israel</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>Araw ng Pagtitipid sa Mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>Araw ng Agham sa Mundo</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>Halloween</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>Kampeonato ng soccer</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>Mga laro sa taglamig ng Olympics</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat: Pag-alala ng mga Kristiyanong Ethiopian sa Pagbibinyag kay Hesus</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>Araw ng mga Puso</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Binabati kita!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>Tapos na ang nakatakdang kurso sa wika! Maaari ka nang magbasa ng mga balita, manood ng mga pelikula (nang mayroon o walang subtitles), makinig sa internet radio, o magbasa ng mga libro sa orihinal na wika nito. Salamat sa pananatili sa amin hanggang sa huli!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>Error!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>Nagkaroon ng error habang nilo-load ang XML file ng mga resulta ng pagsasanay</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>Nagkaroon ng error habang nilo-load ang XML file ng mga resulta ng pagsasanay: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>Nagkaroon ng error habang nilo-load ang XML file ng bokabularyo</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>Nagkaroon ng error habang nilo-load ang XML file ng bokabularyo: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>Nagkaroon ng error habang sine-save ang file ng mga resulta ng pagsasanay: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>Nagkaroon ng error habang sine-save ang file ng bokabularyo: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>Ehersisyo {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>Salamat sa pagsubok sa eksperimental na libro ng bokabularyo. Mangyaring i-post sa forum ang iyong mga mungkahi para sa pagpapabuti kung makakita ka ng mga mali o mga salin na magkakatunog. Banggitin ang bersyon ng software, mga wika, ang mga pares ng salita, at ang mga iminumungkahing pagbabago. Mainam kung titipunin mo ang lahat ng mungkahi at i-po-post ang mga ito nang sabay-sabay.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Para sa pares ng wikang ito, mayroong eksperimental na libro ng bokabularyo na nasa ilalim ng parehong lisensya ng software. Dinisenyo ito bilang tuloy-tuloy na kurso para sa mga nasa hustong gulang, ngunit hindi pa ito nasusuri ng mga *native speaker* (mga taong ang wika ay katutubo sa kanila). Gusto mo ba itong subukan?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Nawawala ang mga sumusunod na kahulugan:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>Mali ang mga sumusunod na inilagay na kahulugan:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>Nawawala ang sumusunod na kahulugan:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>Mali ang sumusunod na inilagay na kahulugan:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>Nawawala ang mga sumusunod na kahulugan:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>Intensibo {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>I-overwrite ang file?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>Mayroon nang umiiral na language file na "{0}"; gusto mo ba itong i-overwrite?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>Mali!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>Pinakaintensibo {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Para sa kombinasyong ito ng mga wika, mayroong bagong paunang-itinakdang aklat ng bokabularyo na kasama sa software at saklaw ng parehong lisensya ng software. Gusto mo bang i-update ang iyong kasalukuyang aklat ng bokabularyo sa bagong bersyon? Kung magpapasya kang gawin ito, mapapalitan nito ang buong aklat ng bokabularyo, kahit na nakuha mo ang sa iyo mula sa ibang pinagmulan.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Mga bagong salita</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Para sa pares ng wikang ito, mayroong libro ng bokabularyo na nasa ilalim ng parehong lisensya ng software. Dinisenyo ito bilang tuloy-tuloy na kurso para sa mga nasa hustong gulang. Gusto mo ba itong subukan?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Pinagmulan ng bagong aklat ng bokabularyo: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Pinagmulan ng iyong kasalukuyang aklat ng bokabularyo: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Hindi kilalang pinagmulan)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Bersyon ng bagong aklat ng bokabularyo: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Bersyon ng iyong kasalukuyang aklat ng bokabularyo: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Mga tala sa paglabas ng bagong bersyon:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Hindi kilalang bersyon)</value>
   </data>
 </root>

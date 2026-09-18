@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ਸਭ ਤੋਂ ਤੀਬਰ</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>ਭਾਸ਼ਾਵਾਂ ਦੇ ਇਸ ਸੁਮੇਲ ਲਈ ਇੱਕ ਨਵੀਂ ਪਹਿਲਾਂ ਤੋਂ ਨਿਰਧਾਰਤ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ (vocabulary book) ਮੌਜੂਦ ਹੈ ਜੋ ਸਾਫਟਵੇਅਰ ਦੇ ਨਾਲ ਹੀ ਆਉਂਦੀ ਹੈ ਅਤੇ ਉਸੇ ਲਾਇਸੰਸ ਦੇ ਅਧੀਨ ਹੈ ਜਿਸ ਦੇ ਅਧੀਨ ਸਾਫਟਵੇਅਰ ਹੈ। ਕੀ ਤੁਸੀਂ ਆਪਣੀ ਮੌਜੂਦਾ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਨਵੇਂ ਸੰਸਕਰਣ ਵਿੱਚ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਜੇਕਰ ਤੁਸੀਂ ਅਜਿਹਾ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਦੇ ਹੋ, ਤਾਂ ਇਹ ਪੂਰੀ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਬਦਲ ਦੇਵੇਗਾ, ਭਾਵੇਂ ਤੁਸੀਂ ਆਪਣੀ ਪੁਸਤਕ ਕਿਸੇ ਵੱਖਰੇ ਸਰੋਤ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤੀ ਹੋਵੇ।</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ਨਵੇਂ ਸ਼ਬਦ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ਇਸ ਭਾਸ਼ਾ ਜੋੜੇ ਲਈ ਇੱਕ ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ ਹੈ, ਜੋ ਕਿ ਸਾਫਟਵੇਅਰ ਦੇ ਸਮਾਨ ਲਾਇਸੈਂਸ ਦੇ ਅਧੀਨ ਹੈ। ਇਸਨੂੰ ਬਾਲਗਾਂ ਲਈ ਇੱਕ ਚੱਲ ਰਹੇ ਕੋਰਸ ਦੇ ਰੂਪ ਵਿੱਚ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ। ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਅਜ਼ਮਾਉਣਾ ਚਾਹੋਗੇ? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>ਨਵੀਂ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਦਾ ਸਰੋਤ: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਦਾ ਸਰੋਤ: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ਅਣਜਾਣ ਸਰੋਤ)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>ਨਵੀਂ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਦਾ ਸੰਸਕਰਣ: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਦਾ ਸੰਸਕਰਣ: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ਨਵੇਂ ਸੰਸਕਰਣ ਦੀਆਂ ਰਿਲੀਜ਼ ਨੋਟਸ:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(ਅਣਜਾਣ ਸੰਸਕਰਣ)</value>
   </data>
 </root>

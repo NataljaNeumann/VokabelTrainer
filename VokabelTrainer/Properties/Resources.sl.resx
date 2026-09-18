@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Najintenzivneje {0} – {1}</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Za to jezikovno kombinacijo je na voljo nova vnaprej določena zbirka besedišča, ki je priložena programski opremi in zanjo velja enaka licenca kot za programsko opremo. Ali želite posodobiti svojo trenutno zbirko besedišča na novo različico? Če se za to odločite, bo nova zbirka prepisala celotno obstoječo zbirko, tudi če ste jo pridobili iz drugega vira.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nove besede</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Za ta jezikovni par obstaja besednjak, ki je pod isto licenco kot programska oprema. Zasnovan je bil kot tekoči tečaj za odrasle. Bi ga radi preizkusili? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Vir nove zbirke besedišča: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Vir vaše trenutne zbirke besedišča: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Neznan vir)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Različica nove zbirke besedišča: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Različica vaše trenutne zbirke besedišča: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Opombe ob izdaji nove različice:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Neznana različica)</value>
   </data>
 </root>

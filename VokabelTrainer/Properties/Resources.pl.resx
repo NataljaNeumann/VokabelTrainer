@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Najintensywniej {0} – {1}</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Dla tej pary języków dostępny jest nowy, wstępnie zdefiniowany słownik, dostarczany wraz z oprogramowaniem i objęty tą samą licencją co oprogramowanie. Czy chcesz zaktualizować swój obecny słownik do nowej wersji? Jeśli się na to zdecydujesz, cały słownik zostanie zastąpiony nowym, nawet jeśli Twój obecny słownik pochodzi z innego źródła.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nowe słowa</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Istnieje słownik dla tej pary językowej, który jest objęty tą samą licencją co oprogramowanie. Został on zaprojektowany jako kurs ciągły dla dorosłych. Chcesz go wypróbować? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Źródło nowego słownika: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Źródło Twojego obecnego słownika: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Nieznane źródło)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Wersja nowego słownika: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Wersja Twojego obecnego słownika: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Informacje o nowej wersji:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Nieznana wersja)</value>
   </data>
 </root>

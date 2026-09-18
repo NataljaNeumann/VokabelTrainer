@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} خورا په شدت سره</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>د ژبو د دې ترکیب لپاره، د لغتونو یوه نوې مخکې-تعریف شوې کتابچه شتون لري چې د سافټویر سره یوځای وړاندې کیږي او د سافټویر په څیر ورته جواز (لایسنس) لري. ایا غواړئ د لغتونو خپله اوسنۍ کتابچه نوي نسخه ته تازه کړئ؟ که تاسو د دې کار پرېکړه وکړئ، نو دا به د لغتونو ټوله کتابچه بدله کړي، حتی که ستاسو کتابچه له کومې بلې سرچینې څخه ترلاسه شوې وي.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>نوي کلمې</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>د دې ژبې جوړې لپاره د لغتونو کتاب شتون لري، کوم چې د سافټویر په څیر ورته جواز لاندې دی. دا د لویانو لپاره د روان کورس په توګه ډیزاین شوی. ایا تاسو غواړئ دا هڅه وکړئ؟ </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>د لغتونو د نوې کتابچې سرچینه: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ستاسو د اوسنۍ کتابچې سرچینه: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(ناپېژندل شوې سرچینه)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>د لغتونو د نوې کتابچې نسخه: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>ستاسو د اوسنۍ کتابچې نسخه: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>د نوې نسخې په اړه معلومات:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(ناپېژندل شوې نسخه)</value>
   </data>
 </root>

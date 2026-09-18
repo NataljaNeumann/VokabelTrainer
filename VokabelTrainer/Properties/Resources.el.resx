@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} πιο έντονες </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Για αυτόν τον συνδυασμό γλωσσών υπάρχει ένα νέο, προκαθορισμένο αρχείο λεξιλογίου που παρέχεται μαζί με το λογισμικό και διέπεται από την ίδια άδεια χρήσης με αυτό. Θα θέλατε να ενημερώσετε το τρέχον αρχείο λεξιλογίου σας στη νέα έκδοση; Εάν επιλέξετε να το κάνετε, το νέο αρχείο θα αντικαταστήσει πλήρως το υπάρχον, ακόμη και αν το είχατε αποκτήσει από άλλη πηγή.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Νέες Λέξεις</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Υπάρχει ένα βιβλίο λεξιλογίου για αυτό το ζεύγος γλωσσών, το οποίο βρίσκεται υπό την ίδια άδεια χρήσης με το λογισμικό. Σχεδιάστηκε ως συνεχές μάθημα για ενήλικες. Θα θέλατε να το δοκιμάσετε; </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Πηγή νέου αρχείου λεξιλογίου: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Πηγή τρέχοντος αρχείου λεξιλογίου: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Άγνωστη πηγή)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Έκδοση νέου αρχείου λεξιλογίου: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Έκδοση τρέχοντος αρχείου λεξιλογίου: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Σημειώσεις έκδοσης για τη νέα έκδοση:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Άγνωστη έκδοση)</value>
   </data>
 </root>

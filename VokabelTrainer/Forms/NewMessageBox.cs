@@ -190,7 +190,7 @@ namespace VokabelTrainer
 
                     m_bSkipRecursion = true;
                     m_lblMessageText.MaximumSize = new Size(Math.Max(nLeg * 2, m_btnNo.Right - m_btnYes.Left),
-                        nLeg * 2);
+                        nLeg * 10);
 
                     m_bSkipRecursion = false;
 

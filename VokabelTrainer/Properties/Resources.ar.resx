@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} الأكثر كثافة </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>يتوفر لهذا المزيج من اللغات ملف مفردات جديد مُعد مسبقاً يُرفق مع البرنامج ويخضع لنفس شروط ترخيص البرنامج. هل ترغب في تحديث ملف المفردات الحالي لديك إلى الإصدار الجديد؟ إذا قررت القيام بذلك، فسيتم استبدال ملف المفردات بالكامل، حتى لو كنت قد حصلت على ملفك الحالي من مصدر مختلف.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>كلمات جديدة</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>يوجد كتاب مفردات لهذا الزوج اللغوي، وهو مرخص بنفس ترخيص البرنامج. صُمم كدورة مستمرة للبالغين. هل ترغب بتجربته؟ </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>مصدر ملف المفردات الجديد: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>مصدر ملف المفردات الحالي: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(مصدر غير معروف)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>إصدار ملف المفردات الجديد: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>إصدار ملف المفردات الحالي: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ملاحظات الإصدار الجديد:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(إصدار غير معروف)</value>
   </data>
 </root>

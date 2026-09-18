@@ -975,6 +975,101 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
+        /// Tests if a file contains a required language pair
+        /// </summary>
+        /// <param name="strFilePath">Path of a course file</param>
+        /// <param name="strLanguagePair">The required language pair</param>
+        /// <returns>true iff the language pair matches</returns>
+        //===================================================================================================
+        private static bool CourseFileMatches(
+            string strFilePath,
+            string strLanguagePair,
+            ref string rstrVersion,
+            ref string rstrSource,
+            ref string rstrReleaseNotes)
+        {
+            try
+            {
+                System.Xml.XmlDocument oDoc = new System.Xml.XmlDocument();
+                oDoc.Load(strFilePath);
+
+                string strSecondLanguage = oDoc.SelectSingleNode("/vokabeln/zweite-sprache-name").InnerText;
+                string strFirstLanguage = oDoc.SelectSingleNode("/vokabeln/erste-sprache-name").InnerText;
+                string strLanguagePairInFile = strFirstLanguage + "-" + strSecondLanguage;
+
+                if (strLanguagePair.Equals(strLanguagePairInFile))
+                {
+                    System.Xml.XmlNode oNode = oDoc.SelectSingleNode("/vokabeln/version");
+                    rstrVersion = oNode != null ? oNode.InnerText : "";
+
+                    oNode = oDoc.SelectSingleNode("/vokabeln/publisher");
+                    rstrSource = oNode != null ? oNode.InnerText : "";
+
+                    string strCurrentUICulture = System.Threading.Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName;
+                    string strFirstLanguageCode = Program.LanguageCodeFromName(strFirstLanguage);
+                    int nPos = strFirstLanguageCode.IndexOf("-");
+                    if (nPos >= 0)
+                        strFirstLanguageCode = strFirstLanguageCode.Substring(0, nPos);
+
+                    string strSecondLanguageCode = Program.LanguageCodeFromName(strSecondLanguage);
+                    nPos = strSecondLanguageCode.IndexOf("-");
+                    if (nPos >= 0)
+                        strSecondLanguageCode = strSecondLanguageCode.Substring(0, nPos);
+
+                    oNode = oDoc.SelectSingleNode("/vokabeln/erste-sprache-release-meldung");
+                    System.Xml.XmlNode oNode2 = oDoc.SelectSingleNode("/vokabeln/zweite-sprache-release-meldung");
+
+                    if (strFirstLanguageCode.Equals(strCurrentUICulture))
+                    {
+                        if (oNode != null)
+                            rstrReleaseNotes = oNode.InnerText;
+                    }
+
+                    if (strSecondLanguageCode.Equals(strCurrentUICulture))
+                    {
+                        if (oNode2 != null)
+                            rstrReleaseNotes = oNode2.InnerText;
+                    }
+
+                    // if no matching release message found, then try the english, if available
+                    if (string.IsNullOrEmpty(rstrReleaseNotes) && strSecondLanguageCode.Equals("en"))
+                    {
+                        if (oNode2 != null)
+                            rstrReleaseNotes = oNode2.InnerText;
+                    }
+
+                    if (string.IsNullOrEmpty(rstrReleaseNotes) && strFirstLanguageCode.Equals("en"))
+                    {
+                        if (oNode != null)
+                            rstrReleaseNotes = oNode.InnerText;
+                    }
+
+                    // if no matching release message found, then try any, if available
+                    if (string.IsNullOrEmpty(rstrReleaseNotes))
+                    {
+                        if (oNode2 != null)
+                            rstrReleaseNotes = oNode2.InnerText;
+                    }
+
+                    if (string.IsNullOrEmpty(rstrReleaseNotes))
+                    {
+                        if (oNode != null)
+                            rstrReleaseNotes = oNode.InnerText;
+                    }
+
+                    return true;
+
+                }
+            }
+            catch
+            {
+                
+            }
+            return false;
+        }
+
+        //===================================================================================================
+        /// <summary>
         /// Load the file that has been set in m_strCurrentPath
         /// </summary>
         //===================================================================================================
@@ -1056,6 +1151,201 @@ namespace VokabelTrainer
 
                     m_strLicense = e.SelectSingleNode("text").InnerText;
                 }
+
+                if (bContinuous)
+                {
+                    try
+                    {
+                        string strOpenedLanguagePair = m_strFirstLanguage + "-" + m_strSecondLanguage;
+                        if (!strOpenedLanguagePair.Equals(Properties.Settings.Default.LearnedLanguagePair1))
+                        {
+                            if (strOpenedLanguagePair.Equals(Properties.Settings.Default.LearnedLanguagePair2))
+                            {
+                                string strLangTemp = Properties.Settings.Default.LearnedLanguagePair1;
+                                string strVersionTemp = Properties.Settings.Default.LearnedLanguageVersion1;
+
+                                Properties.Settings.Default.LearnedLanguagePair1 = Properties.Settings.Default.LearnedLanguagePair2;
+                                Properties.Settings.Default.LearnedLanguageVersion1 = Properties.Settings.Default.LearnedLanguageVersion2;
+
+                                Properties.Settings.Default.LearnedLanguagePair2 = strLangTemp;
+                                Properties.Settings.Default.LearnedLanguageVersion2 = strVersionTemp;
+
+                            }
+                            else
+                            {
+                                string strLangTemp = Properties.Settings.Default.LearnedLanguagePair1;
+                                string strVersionTemp = Properties.Settings.Default.LearnedLanguageVersion1;
+
+
+                                if (!strOpenedLanguagePair.Equals(Properties.Settings.Default.LearnedLanguagePair3))
+                                {
+                                    Properties.Settings.Default.LearnedLanguagePair1 = strOpenedLanguagePair;
+                                    Properties.Settings.Default.LearnedLanguageVersion1 = "";
+                                }
+                                else
+                                {
+                                    Properties.Settings.Default.LearnedLanguagePair1 = Properties.Settings.Default.LearnedLanguagePair3;
+                                    Properties.Settings.Default.LearnedLanguageVersion1 = Properties.Settings.Default.LearnedLanguageVersion3;
+                                }
+
+                                Properties.Settings.Default.LearnedLanguagePair3 = Properties.Settings.Default.LearnedLanguagePair2;
+                                Properties.Settings.Default.LearnedLanguageVersion3 = Properties.Settings.Default.LearnedLanguageVersion2;
+
+                                Properties.Settings.Default.LearnedLanguagePair2 = strLangTemp;
+                                Properties.Settings.Default.LearnedLanguageVersion2 = strVersionTemp;
+                            }
+
+                            Properties.Settings.Default.Save();
+                        }
+
+                        string strPreviouslyAnalyzedBookVersion = Properties.Settings.Default.LearnedLanguageVersion1;
+
+                        // let's see, if there is a predefined course for this language pair
+                        string strCode1 = Program.LanguageCodeFromName(m_strFirstLanguage);
+                        string strCode2 = Program.LanguageCodeFromName(m_strSecondLanguage);
+
+                        if (!string.IsNullOrEmpty(strCode1) && !string.IsNullOrEmpty(strCode2))
+                        {
+                            string strTestedPath;
+                            string strBaseDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Books");
+
+                            string strFilePath = null;
+                            string strFileVersion = null;
+                            string strFileSource = null;
+                            string strFileReleaseMessage = null;
+
+                            for (int i = 0; i <= 5 && strFilePath == null; ++i)
+                            {
+
+                                string strAddOn = i == 0 ? "" : i.ToString();
+
+                                strTestedPath = Path.Combine(strBaseDir, strCode1.Replace("-", "") + "-" + strCode2.Replace("-", "") + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir, strCode2.Replace("-", "") + "-" + strCode1.Replace("-", "") + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" + strCode2.Replace("-", "") + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode2) + "-" + strCode1.Replace("-", "") + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    strCode2.Replace("-", "") + "-" + LanguagePart(strCode1) + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                     strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode1) + "-" +
+                                    LanguagePart(strCode2) + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+
+                                strTestedPath = Path.Combine(strBaseDir,
+                                    LanguagePart(strCode2) + "-" +
+                                    LanguagePart(strCode1) + strAddOn + ".xml");
+                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                    ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
+                                {
+                                    strFilePath = strTestedPath;
+                                }
+                            }
+
+                            if (strFilePath != null)
+                            {
+
+                                System.Xml.XmlNode oNode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/version");
+                                string strOldVersionFromXml = oNode != null ? oNode.InnerText : null;
+
+                                oNode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/publisher");
+                                string strOldSourceFromXml = oNode != null ? oNode.InnerText : "";
+
+                                string strOldSource = Environment.NewLine + string.Format(Resources.SourceOfPreviousVocabularyBook,
+                                    string.IsNullOrWhiteSpace(strOldSourceFromXml) ? Resources.SourceUnknown : strOldSourceFromXml);
+                                string strOldVersion = Environment.NewLine + string.Format(Resources.VersionOfPreviousVocabularyBook,
+                                    string.IsNullOrWhiteSpace(strOldVersionFromXml) ? Resources.VersionUnknown : strOldVersionFromXml);
+                                string strNewSource = Environment.NewLine + string.Format(Resources.SourceOfNewVocabularyBook,
+                                    string.IsNullOrWhiteSpace(strFileSource) ? Resources.SourceUnknown : strFileSource);
+                                string strNewVersion = Environment.NewLine + string.Format(Resources.VersionOfNewVocabularyBook,
+                                    string.IsNullOrWhiteSpace(strFileVersion) ? Resources.VersionUnknown : strFileVersion);
+                                string strReleaseNotes = string.IsNullOrWhiteSpace(strFileReleaseMessage) ? "" : Environment.NewLine +
+                                    Environment.NewLine + Resources.VersionReleaseNotes + Environment.NewLine + strFileReleaseMessage;
+
+                                string strMessage = Resources.NewVersionOfVocabularyBook + Environment.NewLine +
+                                    strOldSource + strOldVersion + Environment.NewLine +
+                                    strNewSource + strNewVersion +
+                                    strReleaseNotes;
+
+
+                                if (string.IsNullOrWhiteSpace(strFileVersion))
+                                    strFileVersion = "";
+
+                                // Compare last seen version of vocabulary file with the one encountered
+                                if (!strFileVersion.Equals(Properties.Settings.Default.LearnedLanguageVersion1))
+                                {
+                                    // there has been no message about the found version, so let's ask user
+                                    // and remember that we already have shown a message about it
+                                    Properties.Settings.Default.LearnedLanguageVersion1 = strFileVersion;
+                                    Properties.Settings.Default.Save();
+
+                                    if (NewMessageBox.Show(this, strMessage, this.Text, "", false, false, true, "Question") == DialogResult.Yes)
+                                    {
+                                        // User agreed, let's overwrite his current vocabulary book
+                                        File.Copy(strFilePath, m_strCurrentPath, true);
+
+                                        // and reload
+                                        LoadLanguageFile(nNeededStep);
+
+                                        // end
+                                        return;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception oEx)
+                    {
+                        NewMessageBox.Show(this, oEx.Message, this.Text, "", true, false, false, "Error");
+                    }
+                }
+
 
                 foreach (System.Xml.XmlElement e in m_oCurrentVocabularyDoc.SelectNodes("/vokabeln/vokabel-paar"))
                 {
@@ -3996,6 +4286,7 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@ALABANZASBAILABLESCRISTIANAS/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@VibeMachineStudio/videos", 0.1, 300);
                                 Add(oResult, @"https://www.youtube.com/@CumbiaTropicanaslim/videos");
+                                Add(oResult, @"https://www.youtube.com/@CUMBIAQUEBENDICE/videos", 0.1, 300);
                                 // https://www.youtube.com/@VibraBonita-y9j/videos
 
                                 // Calm music
@@ -4057,6 +4348,7 @@ namespace VokabelTrainer
                                 Add(oResult, @"https://www.youtube.com/@LatinDanceSong/videos");
                                 Add(oResult, @"https://www.youtube.com/watch?v=CXiUiMMN8No", 0.1, 300); // Channel https://www.youtube.com/@gospeltropical
                                 Add(oResult, @"https://www.youtube.com/@summerdancevibes/videos");
+                                Add(oResult, @"https://www.youtube.com/@CenoteVibrante/videos");
                                 //Add(oResult, @"https://www.youtube.com/@MujeresFelicesMF");
                                 //Add(oResult, @"https://www.youtube.com/@evamiraluz/videos");
                                 // https://www.youtube.com/@CORRIDOSMUJERDEDIOS/videos
@@ -4106,6 +4398,7 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.youtube.com/@ACEamazing/videos");
                     Add(oResult, @"https://www.youtube.com/@Buddy1970-g4j/videos");
                     Add(oResult, @"https://www.youtube.com/watch?v=5Fz_Pb15mTY"); // channel https://www.youtube.com/@AlmadeAdoraci%C3%B3nCristiana
+                    Add(oResult, @"https://www.youtube.com/results?search_query=100+places+to+visit");
 
                     // also sometimes add the business dynamics that is probably useful only 
                     // for a small percentage of users
@@ -4164,6 +4457,8 @@ namespace VokabelTrainer
                                     Add(oResult, @"https://www.youtube.com/@KingdomGlorySounds/videos", 0.05, 1000);
                                 }
 
+                                Add(oResult, @"https://www.youtube.com/@juinccm/videos", 0.1, 300);
+                                Add(oResult, @"https://www.youtube.com/@WildCountryRadio-z5y/videos");
                                 Add(oResult, @"https://www.youtube.com/results?search_query=america%E2%80%99s+got+talent");
                                 Add(oResult, @"https://www.youtube.com/@7clouds/videos");
                                 Add(oResult, @"https://www.youtube.com/results?search_query=NDCA+cha+cha",0.1);
@@ -4292,6 +4587,7 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.youtube.com/@%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0_1");
                     Add(oResult, @"https://www.youtube.com/@%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%9F25/videos");
                     Add(oResult, @"https://www.youtube.com/results?search_query=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+%D0%BE%D1%81%D0%B5%D0%BD%D1%8C+%D0%B4%D0%B4%D1%82+%D1%81%D0%BE+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D0%BC%D0%B8+");
+                    Add(oResult, @"https://www.youtube.com/@mirbezkarty/videos");
 
                     // for language speakers that aren't muslim add christian songs
                     if (!Program.IslamicCountry)
@@ -4382,6 +4678,8 @@ namespace VokabelTrainer
                         Add(oResult, @"https://www.youtube.com/@IncantoItaliano-m4f/videos");
                         Add(oResult, @"https://www.youtube.com/@LiviaBellamore/videos");
                         Add(oResult, @"https://www.youtube.com/@DiscoItaliaRadio/videos");
+                        Add(oResult, @"https://www.youtube.com/@GoldenRiver-o6z/videos");
+                        Add(oResult, @"https://www.youtube.com/@MelodieItaliane8686/videos");
                     }
                 }
             }
@@ -5249,6 +5547,23 @@ namespace VokabelTrainer
                     }
                 }
             }
+
+
+            // if current culture isn't Romanian
+            if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("ro"))
+            {
+                // and one of the trained languages is Romanian
+                if (Program.LanguageCodeFromName(strLanguage).StartsWith("ro"))
+                {
+                    // then add resources in Romanian for language acquisition without explicit learning for non-islamic countries
+                    if (!Program.IslamicCountry)
+                    {
+                        Add(oResult, @"https://www.youtube.com/@RomanianCelebration/videos");
+                    }
+                }
+            }
+
+
 
             // if current culture isn't Tibettan
             if (!System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.Equals("bo"))

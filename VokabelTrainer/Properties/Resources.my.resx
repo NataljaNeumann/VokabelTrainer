@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>ဘာလင် ရုပ်ရှင်ပွဲတော် (Berlinale)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>ကန်း (Cannes) ရုပ်ရှင်ပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ဂျပန်နှင့် ကိုရီးယားနိုင်ငံတို့တွင် ကလေးများနေ့နှင့် ဗုဒ္ဓနေ့ (ဗုဒ္ဓဖွားမြင်တော်မူနေ့) အခမ်းအနားများ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>တရုတ်နှစ်သစ်ကူးပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>ကမ္ဘာတစ်ဝန်းရှိ ခရစ်ယာန်ဘာသာဝင်များ ခရစ္စမတ်ပွဲတော် ကျင်းပခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>အကအခုန်နေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>မုသားအပေါ် သစ္စာတရား အောင်မြင်ခြင်းကို အထိမ်းအမှတ်ပြုသည့် ဟိန္ဒူဘာသာဝင်တို့၏ မီးထွန်းပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>ဒါဘန် (Durban) မြို့ရှိ အာဖရိက ရုပ်ရှင်ပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>ကမ္ဘာတစ်ဝန်းရှိ ခရစ်ယာန်ဘာသာဝင်များ အီစတာပွဲတော် ကျင်းပခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>ဥရောပရှိ ဂီတပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>မက္ကာမြို့သို့ မွတ်စလင်ဘာသာဝင်များ ဘုရားဖူးသွားရောက်ခြင်း (ဟဂ်ျခရီးစဉ်)</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>ကမ္ဘာတစ်ဝန်းရှိ ပြည်သူများ နှစ်သစ်ကူးပွဲတော် ကျင်းပခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>နိုဘယ်လ်ဆု - ဆေးပညာ၊ ဓာတုဗေဒ၊ ရူပဗေဒ၊ စီးပွားရေးပညာ၊ ငြိမ်းချမ်းရေးနှင့် စာပေဆိုင်ရာ ဆုများ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>နွေရာသီ အိုလံပစ်အားကစားပြိုင်ပွဲ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>အော်သိုဒေါ့စ် ခရစ်ယာန်ဘာသာဝင်များ ခရစ္စမတ်ပွဲတော် ကျင်းပခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>အော်သိုဒေါ့စ် ခရစ်ယာန်ဘာသာဝင်များ အီစတာပွဲတော် ကျင်းပခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>အော်စကာဆု (Oscars) - ရုပ်ရှင်အကယ်ဒမီဆုများ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>ကမ္ဘာ့ငြိမ်းချမ်းရေးနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>ဒဿနိကဗေဒနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>စိတ်ပညာနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>ကမ္ဘာတစ်ဝန်းရှိ မွတ်စလင်ဘာသာဝင်များ ရမ်ဇာန်လမြတ်တွင် ပါဝင်ဆင်နွှဲခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>ကမ္ဘာ့စာဖတ်ခြင်းနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>ရော့ရှ် ဟာရှာနာ (Rosh Hashanah) - အစ္စရေးနှစ်သစ်ကူးပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>ကမ္ဘာ့ငွေစုနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>ကမ္ဘာ့သိပ္ပံနေ့</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>ဟယ်လိုဝင်း (Halloween) ပွဲတော်</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>ဘောလုံးချန်ပီယံရှစ်ပြိုင်ပွဲ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>ဆောင်းရာသီ အိုလံပစ်အားကစားပြိုင်ပွဲ</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>Timkat - ယေရှုခရစ်တော်၏ ဗတ္တိဇံခံယူခြင်းကို အီသီယိုးပီးယား ခရစ်ယာန်များက အောက်မေ့သတိရခြင်း</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>ဗယ်လင်တိုင်းနေ့</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ဂုဏ်ယူပါသည်။</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>သတ်မှတ်ထားသော ဘာသာစကားသင်ခန်းစာ ပြီးဆုံးသွားပါပြီ။ သတင်းများဖတ်ရှုခြင်း၊ စာတန်းထိုး (closed captions) ပါဝင်သည်ဖြစ်စေ၊ မပါဝင်သည်ဖြစ်စေ ရုပ်ရှင်များကြည့်ရှုခြင်း၊ အင်တာနက်ရေဒီယို နားဆင်ခြင်း သို့မဟုတ် မူရင်းဘာသာစကားဖြင့် စာအုပ်များဖတ်ရှုခြင်းတို့ကို ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်။ အဆုံးတိုင်အောင် ကျွန်ုပ်တို့နှင့်အတူ ရှိနေပေးသည့်အတွက် ကျေးဇူးတင်ပါသည်။</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>အမှားအယွင်း!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>လေ့ကျင့်မှုရလဒ်များပါဝင်သော XML ဖိုင်ကို ဖွင့်ရာတွင် အမှားအယွင်းဖြစ်ပေါ်သည်</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>လေ့ကျင့်မှုရလဒ်များပါဝင်သော XML ဖိုင်ကို ဖွင့်ရာတွင် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည် - {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>ဝေါဟာရများပါဝင်သော XML ဖိုင်ကို ဖွင့်ရာတွင် အမှားအယွင်းဖြစ်ပေါ်သည်</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>ဝေါဟာရများပါဝင်သော XML ဖိုင်ကို ဖွင့်ရာတွင် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည် - {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>လေ့ကျင့်မှုရလဒ်များပါဝင်သော ဖိုင်ကို သိမ်းဆည်းရာတွင် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည် - {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>ဝေါဟာရများပါဝင်သော ဖိုင်ကို သိမ်းဆည်းရာတွင် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည် - {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>လေ့ကျင့်ခန်း {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>စမ်းသပ်အဆင့် ဝေါဟာရစာအုပ်ကို စမ်းသုံးကြည့်သည့်အတွက် ကျေးဇူးတင်ပါသည်။ အမှားအယွင်းများ သို့မဟုတ် အသံထွက်ဆင်တူသော ဘာသာပြန်ချက်များကို တွေ့ရှိပါက တိုးတက်ကောင်းမွန်စေမည့် အကြံပြုချက်များကို ဖိုရမ် (forum) တွင် တင်ပေးပါ။ ဆော့ဖ်ဝဲဗားရှင်း၊ ဘာသာစကားအမည်များ၊ စကားလုံးအတွဲများနှင့် တိုးတက်ကောင်းမွန်စေမည့် အချက်များကို ဖော်ပြပေးပါ။ အကောင်းဆုံးမှာ တိုးတက်ကောင်းမွန်စေမည့် အကြံပြုချက်အားလုံးကို စုစည်းပြီး တစ်ကြိမ်တည်း တင်ပေးခြင်း ဖြစ်ပါသည်။</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>ဤဘာသာစကားအတွဲအတွက် စမ်းသပ်အဆင့် ဝေါဟာရစာအုပ်တစ်အုပ် ရှိပြီး ၎င်းသည် ဆော့ဖ်ဝဲနှင့် တူညီသော လိုင်စင်စည်းကမ်းချက်များအောက်တွင် ရှိပါသည်။ ၎င်းကို လူကြီးများအတွက် ဆက်တိုက်လေ့လာနိုင်သော သင်ခန်းစာအဖြစ် ဒီဇိုင်းထုတ်ထားသော်လည်း မူရင်းဘာသာစကားပြောသူများက စစ်ဆေးပြင်ဆင်ထားခြင်း (proofread) မရှိသေးပါ။ စမ်းသုံးကြည့်လိုပါသလား။</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>အောက်ပါအဓိပ္ပာယ်များ လိုအပ်နေပါသည် -</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>အောက်ပါထည့်သွင်းထားသော အဓိပ္ပာယ်များ မှားယွင်းနေပါသည် -</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>အောက်ပါအဓိပ္ပာယ် လိုအပ်နေပါသည် -</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>အောက်ပါထည့်သွင်းထားသော အဓိပ္ပာယ် မှားယွင်းနေပါသည် -</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>အောက်ပါအဓိပ္ပာယ်များ လိုအပ်နေပါသည် -</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>အထူးလေ့ကျင့်ခန်း {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
-    <value>ဖိုင်ကို ထပ်ရေး (overwrite) မလား?</value>
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
+    <value>ဖိုင်ကို ထပ်ရေး မလား?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
-    <value>"{0}" ဟူသော ဘာသာစကားဖိုင် ရှိနှင့်ပြီးဖြစ်ရာ ၎င်းကို ထပ်ရေး (overwrite) လိုပါသလား?</value>
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
+    <value>"{0}" ဟူသော ဘာသာစကားဖိုင် ရှိနှင့်ပြီးဖြစ်ရာ ၎င်းကို ထပ်ရေး လိုပါသလား?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>အမှား!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>အပြင်းထန်ဆုံး  {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>ဤဘာသာစကားတွဲဖက်မှုအတွက် ဆော့ဖ်ဝဲနှင့်အတူ ပါဝင်လာပြီး ဆော့ဖ်ဝဲ၏ လိုင်စင်အမျိုးအစားတူဖြင့်ပင် ခွင့်ပြုချက်ရယူထားသော ကြိုတင်သတ်မှတ်ထားသည့် ဝေါဟာရစာအုပ်အသစ်တစ်ခု ရှိပါသည်။ သင့်လက်ရှိဝေါဟာရစာအုပ်ကို ဗားရှင်းအသစ်သို့ အပ်ဒိတ်လုပ်လိုပါသလား။ အကယ်၍ သင်ပြုလုပ်ရန် ဆုံးဖြတ်ပါက၊ သင့်စာအုပ်ကို အခြားရင်းမြစ်တစ်ခုမှ ရရှိထားခဲ့လျှင်ပင် ဤလုပ်ဆောင်ချက်သည် လက်ရှိဝေါဟာရစာအုပ်တစ်ခုလုံးကို အစားထိုးသွားမည်ဖြစ်ပါသည်။</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>စကားလုံးအသစ်များ</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ဤဘာသာစကားအတွဲအတွက် ဝေါဟာရစာအုပ်တစ်အုပ် ရှိပြီး ၎င်းသည် ဆော့ဖ်ဝဲနှင့် တူညီသော လိုင်စင်စည်းကမ်းချက်များအောက်တွင် ရှိပါသည်။ ၎င်းကို လူကြီးများအတွက် ဆက်တိုက်လေ့လာနိုင်သော သင်ခန်းစာအဖြစ် ဒီဇိုင်းထုတ်ထားပါသည်။ စမ်းသုံးကြည့်လိုပါသလား။</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>ဝေါဟာရစာအုပ်အသစ်၏ ရင်းမြစ် - {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>သင့်လက်ရှိဝေါဟာရစာအုပ်၏ ရင်းမြစ် - {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(မသိရှိရသော ရင်းမြစ်)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>ဝေါဟာရစာအုပ်အသစ်၏ ဗားရှင်း - {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>သင့်လက်ရှိဝေါဟာရစာအုပ်၏ ဗားရှင်း - {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ဗားရှင်းအသစ်နှင့်ပတ်သက်သည့် အချက်အလက်များ -</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(မသိရှိရသော ဗားရှင်း)</value>
   </data>
 </root>

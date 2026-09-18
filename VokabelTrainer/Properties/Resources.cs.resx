@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} nejintenzivnějši</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Pro tuto jazykovou kombinaci je k dispozici nový předdefinovaný slovník, který je dodáván společně se softwarem a vztahuje se na něj stejná licence jako na samotný software. Chcete aktualizovat svůj stávající slovník na novou verzi? Pokud se tak rozhodnete, dojde k přepsání celého slovníku, a to i v případě, že jste ten svůj získali z jiného zdroje.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nová slova</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Pro tuto jazykovou dvojici existuje slovní zásoba, která je pod stejnou licencí jako software. Byla navržena jako průběžný kurz pro dospělé. Chcete si ji vyzkoušet? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Zdroj nového slovníku: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Zdroj vašeho stávajícího slovníku: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Neznámý zdroj)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Verze nového slovníku: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Verze vašeho stávajícího slovníku: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Poznámky k nové verzi:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Neznámá verze)</value>
   </data>
 </root>

@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ყველაზე ინტენსიურად</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>ენების ამ კომბინაციისთვის არსებობს წინასწარ განსაზღვრული ლექსიკონის ახალი ფაილი, რომელიც პროგრამულ უზრუნველყოფასთან ერთად მოწმდება და ვრცელდება იმავე ლიცენზიით, რაც თავად პროგრამა. გსურთ, განაახლოთ თქვენი ამჟამინდელი ლექსიკონი ახალ ვერსიამდე? თუ ამას აირჩევთ, ლექსიკონი მთლიანად ჩანაცვლდება, მაშინაც კი, თუ ის სხვა წყაროდან გქონდათ მიღებული.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ახალი სიტყვები</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ამ ენათა წყვილისთვის არსებობს ლექსიკის წიგნი, რომელიც იმავე ლიცენზიით არის, როგორც პროგრამული უზრუნველყოფა. ის შექმნილია როგორც მიმდინარე კურსი ზრდასრულებისთვის. გსურთ სცადოთ? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>ლექსიკონის ახალი ფაილის წყარო: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>თქვენი ამჟამინდელი ლექსიკონის წყარო: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(უცნობი წყარო)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>ლექსიკონის ახალი ფაილის ვერსია: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>თქვენი ამჟამინდელი ლექსიკონის ვერსია: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>ახალი ვერსიის გამოშვების დეტალები:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(უცნობი ვერსია)</value>
   </data>
 </root>

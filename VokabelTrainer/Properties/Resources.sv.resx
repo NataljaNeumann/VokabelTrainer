@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mest intensivt</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>För denna språkkombination finns en ny, fördefinierad ordlista som medföljer programvaran och omfattas av samma licensvillkor som denna. Vill du uppdatera din nuvarande ordlista till den nya versionen? Om du väljer att göra detta kommer hela ordlistan att skrivas över, även om den ursprungligen hämtades från en annan källa.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nya ord</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Det finns en ordbok för detta språkpar, som är under samma licens som programvaran. Den utformades som en pågående kurs för vuxna. Vill du prova den? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Källa för den nya ordlistan: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Källa för din nuvarande ordlista: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Okänd källa)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Version av den nya ordlistan: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Version av din nuvarande ordlista: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Versionsinformation för den nya versionen:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Okänd version)</value>
   </data>
 </root>

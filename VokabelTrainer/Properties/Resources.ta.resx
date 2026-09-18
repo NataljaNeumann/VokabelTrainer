@@ -117,166 +117,191 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data xml:space="preserve" name="CelebrationBerlinale">
+  <data name="CelebrationBerlinale" xml:space="preserve">
     <value>பெர்லினாலே: திரைப்பட விழா</value>
   </data>
-  <data xml:space="preserve" name="CelebrationCannes">
+  <data name="CelebrationCannes" xml:space="preserve">
     <value>கான்ஸ் திரைப்பட விழா</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChildrenAndBuddha">
+  <data name="CelebrationChildrenAndBuddha" xml:space="preserve">
     <value>ஜப்பான் மற்றும் கொரியாவில் குழந்தைகள் மற்றும் புத்தரின் பிறந்தநாள் கொண்டாட்டங்கள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChineseNewYear">
+  <data name="CelebrationChineseNewYear" xml:space="preserve">
     <value>சீனப் புத்தாண்டு கொண்டாட்டங்கள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationChristmas">
+  <data name="CelebrationChristmas" xml:space="preserve">
     <value>உலகெங்கிலும் உள்ள கிறிஸ்தவர்கள் கிறிஸ்துமஸைக் கொண்டாடுகின்றனர்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDancingDay">
+  <data name="CelebrationDancingDay" xml:space="preserve">
     <value>நடன நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDiwali">
+  <data name="CelebrationDiwali" xml:space="preserve">
     <value>பொய்மையின் மீது உண்மை வெற்றி பெற்றதைக் குறிக்கும் இந்துக்களின் ஒளித் திருவிழா</value>
   </data>
-  <data xml:space="preserve" name="CelebrationDurban">
+  <data name="CelebrationDurban" xml:space="preserve">
     <value>டர்பனில் ஆப்பிரிக்கத் திரைப்பட விழா</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEaster">
+  <data name="CelebrationEaster" xml:space="preserve">
     <value>உலகெங்கிலும் உள்ள கிறிஸ்தவர்கள் ஈஸ்டர் பண்டிகையைக் கொண்டாடுகின்றனர்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationEsc">
+  <data name="CelebrationEsc" xml:space="preserve">
     <value>ஐரோப்பாவில் இசை விழா</value>
   </data>
-  <data xml:space="preserve" name="CelebrationHajj">
+  <data name="CelebrationHajj" xml:space="preserve">
     <value>மெக்காவிற்கு முஸ்லிம்களின் புனிதப் பயணம்: ஹஜ்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNewYear">
+  <data name="CelebrationNewYear" xml:space="preserve">
     <value>உலகெங்கிலும் உள்ள மக்கள் புத்தாண்டைக் கொண்டாடுகின்றனர்.</value>
   </data>
-  <data xml:space="preserve" name="CelebrationNobelPrize">
+  <data name="CelebrationNobelPrize" xml:space="preserve">
     <value>நோபல்: மருத்துவம், வேதியியல், இயற்பியல், பொருளாதாரம், அமைதி மற்றும் இலக்கியத்திற்கான விருதுகள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOlympics">
+  <data name="CelebrationOlympics" xml:space="preserve">
     <value>கோடைக்கால ஒலிம்பிக் போட்டிகள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxChristmas">
+  <data name="CelebrationOrthodoxChristmas" xml:space="preserve">
     <value>ஆர்த்தடாக்ஸ் கிறிஸ்தவர்கள் கிறிஸ்துமஸைக் கொண்டாடுகின்றனர்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOrthodoxEaster">
+  <data name="CelebrationOrthodoxEaster" xml:space="preserve">
     <value>ஆர்த்தடாக்ஸ் கிறிஸ்தவர்கள் ஈஸ்டர் பண்டிகையைக் கொண்டாடுகின்றனர்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationOscar">
+  <data name="CelebrationOscar" xml:space="preserve">
     <value>ஆஸ்கார்: திரைப்பட அகாடமி விருதுகள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPeaceDay">
+  <data name="CelebrationPeaceDay" xml:space="preserve">
     <value>உலக அமைதி நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPhilosophyDay">
+  <data name="CelebrationPhilosophyDay" xml:space="preserve">
     <value>தத்துவ நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationPsychology">
+  <data name="CelebrationPsychology" xml:space="preserve">
     <value>உளவியல் நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRamadan">
+  <data name="CelebrationRamadan" xml:space="preserve">
     <value>உலகெங்கிலும் உள்ள முஸ்லிம்கள் ரமலான் நோன்பில் பங்கேற்கின்றனர்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationReadingDay">
+  <data name="CelebrationReadingDay" xml:space="preserve">
     <value>உலக வாசிப்பு நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationRoshHashanah">
+  <data name="CelebrationRoshHashanah" xml:space="preserve">
     <value>ரோஷ் ஹஷானா: இஸ்ரேலியப் புத்தாண்டு</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSavingsDay">
+  <data name="CelebrationSavingsDay" xml:space="preserve">
     <value>உலக சேமிப்பு நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationScienceDay">
+  <data name="CelebrationScienceDay" xml:space="preserve">
     <value>உலக அறிவியல் நாள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsHalloween">
+  <data name="CelebrationsHalloween" xml:space="preserve">
     <value>ஹாலோவீன்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationSoccer">
+  <data name="CelebrationSoccer" xml:space="preserve">
     <value>கால்பந்து சாம்பியன்ஷிப் போட்டி</value>
   </data>
-  <data xml:space="preserve" name="CelebrationsWinterOlympics">
+  <data name="CelebrationsWinterOlympics" xml:space="preserve">
     <value>குளிர்கால ஒலிம்பிக் போட்டிகள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationTimkat">
+  <data name="CelebrationTimkat" xml:space="preserve">
     <value>டிம்காட் (Timkat): இயேசுவின் திருமுழுக்கு விழாவைக் கொண்டாடும் எத்தியோப்பியக் கிறிஸ்தவர்கள்</value>
   </data>
-  <data xml:space="preserve" name="CelebrationValentine">
+  <data name="CelebrationValentine" xml:space="preserve">
     <value>காதலர் தினம்</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedHeader">
+  <data name="CourseFinishedHeader" xml:space="preserve">
     <value>வாழ்த்துகள்!</value>
   </data>
-  <data xml:space="preserve" name="CourseFinishedText">
+  <data name="CourseFinishedText" xml:space="preserve">
     <value>முன்னரே வரையறுக்கப்பட்ட மொழிப் பயிற்சிப் பாடநெறி நிறைவடைந்தது! இனி செய்திகளைப் படியுங்கள், வசனங்களுடன் (closed captions) அல்லது வசனங்கள் இல்லாமலே திரைப்படங்களைப் பாருங்கள், இணைய வானொலியை ஒலியுங்கள் அல்லது மூல மொழியிலேயே புத்தகங்களை வாசியுங்கள். இறுதிவரை எங்களுடன் இணைந்திருந்தமைக்கு நன்றி!</value>
   </data>
-  <data xml:space="preserve" name="Error">
+  <data name="Error" xml:space="preserve">
     <value>பிழை!</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileHeader">
+  <data name="ErrorLoadingTrainingFileHeader" xml:space="preserve">
     <value>பயிற்சி முடிவுகள் அடங்கிய XML கோப்பை ஏற்றுவதில் பிழை</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingTrainingFileMessage">
+  <data name="ErrorLoadingTrainingFileMessage" xml:space="preserve">
     <value>பயிற்சி முடிவுகள் அடங்கிய XML கோப்பை ஏற்றும்போது பிழை ஏற்பட்டது: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileHeader">
+  <data name="ErrorLoadingXmlFileHeader" xml:space="preserve">
     <value>சொற்களஞ்சிய XML கோப்பை ஏற்றுவதில் பிழை</value>
   </data>
-  <data xml:space="preserve" name="ErrorLoadingXmlFileMessage">
+  <data name="ErrorLoadingXmlFileMessage" xml:space="preserve">
     <value>சொற்களஞ்சிய XML கோப்பை ஏற்றும்போது பிழை ஏற்பட்டது: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingTrainingFile">
+  <data name="ErrorWhileSavingTrainingFile" xml:space="preserve">
     <value>பயிற்சி முடிவுகள் கோப்பைச் சேமிக்கும்போது பிழை ஏற்பட்டது: {0}</value>
   </data>
-  <data xml:space="preserve" name="ErrorWhileSavingVocabularyFile">
+  <data name="ErrorWhileSavingVocabularyFile" xml:space="preserve">
     <value>சொற்களஞ்சியக் கோப்பைச் சேமிக்கும்போது பிழை ஏற்பட்டது: {0}</value>
   </data>
-  <data xml:space="preserve" name="Exercise">
+  <data name="Exercise" xml:space="preserve">
     <value>பயிற்சி {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalThanks">
+  <data name="ExperimentalThanks" xml:space="preserve">
     <value>சோதனை முயற்சியாக உள்ள இந்தச் சொற்களஞ்சியப் புத்தகத்தைப் பயன்படுத்தியதற்கு நன்றி. பிழைகள் அல்லது ஒரே மாதிரியான ஒலிப்புடைய மொழிபெயர்ப்புகள் ஏதேனும் தென்பட்டால், உங்கள் மேம்பாட்டு ஆலோசனைகளை மன்றத்தில் (forum) பதிவிடுங்கள். மென்பொருள் பதிப்பு, மொழிகளின் பெயர்கள், சொற்கள் மற்றும் மேம்பாடுகள் ஆகியவற்றைக் குறிப்பிடவும். முடிந்தால், அனைத்து மேம்பாட்டு ஆலோசனைகளையும் சேகரித்து ஒரே நேரத்தில் பதிவிடவும்.</value>
   </data>
-  <data xml:space="preserve" name="ExperimentalVocabularyBook">
+  <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>இந்த மொழி இணையைச் சார்ந்த சோதனைச் சொற்களஞ்சியப் புத்தகம் ஒன்று உள்ளது; இது மென்பொருளின் அதே உரிமத்தின் கீழ் வருகிறது. இது பெரியவர்களுக்கான தொடர் பாடநெறியாக வடிவமைக்கப்பட்டுள்ளது, இருப்பினும் இது அந்த மொழியைத் தாய்மொழியாகக் கொண்டவர்களால் சரிபார்க்கப்படவில்லை. இதை நீங்கள் முயன்று பார்க்க விரும்புகிறீர்களா?</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereMissing">
+  <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>பின்வரும் பொருள்கள் விடுபட்டிருந்தன:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningsWereWrong">
+  <data name="FollowingMeaningsWereWrong" xml:space="preserve">
     <value>உள்ளிடப்பட்ட பின்வரும் பொருள்கள் தவறாக இருந்தன:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasMissing">
+  <data name="FollowingMeaningWasMissing" xml:space="preserve">
     <value>பின்வரும் பொருள் விடுபட்டிருந்தது:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWasWrong">
+  <data name="FollowingMeaningWasWrong" xml:space="preserve">
     <value>உள்ளிடப்பட்ட பின்வரும் பொருள் தவறாக இருந்தது:</value>
   </data>
-  <data xml:space="preserve" name="FollowingMeaningWereMissing">
+  <data name="FollowingMeaningWereMissing" xml:space="preserve">
     <value>பின்வரும் பொருள்கள் விடுபட்டிருந்தன:</value>
   </data>
-  <data xml:space="preserve" name="Intensive">
+  <data name="Intensive" xml:space="preserve">
     <value>தீவிரப் பயிற்சி {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsHeader">
+  <data name="LanguageFileAlreadyExistsHeader" xml:space="preserve">
     <value>கோப்பை மேலெழுதவா?</value>
   </data>
-  <data xml:space="preserve" name="LanguageFileAlreadyExistsMessage">
+  <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>"{0}" என்ற மொழிசார் கோப்பு ஏற்கனவே உள்ளது; அதை மேலெழுத விரும்புகிறீர்களா?</value>
   </data>
-  <data xml:space="preserve" name="Mistake">
+  <data name="Mistake" xml:space="preserve">
     <value>பிழை!</value>
   </data>
-  <data xml:space="preserve" name="MostIntensive">
+  <data name="MostIntensive" xml:space="preserve">
     <value>மிகத் தீவிரப் பயிற்சி {0} - {1}</value>
   </data>
-  <data xml:space="preserve" name="NewVocabularyInCourseHeader">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>இந்த மொழி இணைப்பிற்காக, மென்பொருளுடன் சேர்த்து வழங்கப்படும் மற்றும் அதே உரிமத்தின் கீழ் அமைந்த ஒரு புதிய முன்-வரையறுக்கப்பட்ட சொற்களஞ்சியப் புத்தகம் உள்ளது. உங்கள் தற்போதைய சொற்களஞ்சியப் புத்தகத்தை புதிய பதிப்பிற்குப் புதுப்பிக்க விரும்புகிறீர்களா? அவ்வாறு செய்ய நீங்கள் முடிவு செய்தால், உங்கள் தற்போதைய புத்தகம் வேறொரு மூலத்திலிருந்து பெறப்பட்டிருந்தாலும் கூட, அது முழுமையாகப் புதிய புத்தகத்தால் மாற்றியமைக்கப்படும்.</value>
+  </data>
+  <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>புதிய சொற்கள்</value>
   </data>
-  <data xml:space="preserve" name="PredefinedVocabularyBook">
+  <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>இந்த மொழி இணையைச் சார்ந்த சொற்களஞ்சியப் புத்தகம் ஒன்று உள்ளது; இது மென்பொருளின் அதே உரிமத்தின் கீழ் வருகிறது. இது பெரியவர்களுக்கான தொடர் பாடநெறியாக வடிவமைக்கப்பட்டுள்ளது. இதை நீங்கள் முயன்று பார்க்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>புதிய சொற்களஞ்சியப் புத்தகத்தின் மூலம்: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>உங்கள் தற்போதைய சொற்களஞ்சியப் புத்தகத்தின் மூலம்: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(அறியப்படாத மூலம்)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>புதிய சொற்களஞ்சியப் புத்தகத்தின் பதிப்பு: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>உங்கள் தற்போதைய சொற்களஞ்சியப் புத்தகத்தின் பதிப்பு: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>புதிய பதிப்பிற்கான வெளியீட்டுக் குறிப்புகள்:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(அறியப்படாத பதிப்பு)</value>
   </data>
 </root>

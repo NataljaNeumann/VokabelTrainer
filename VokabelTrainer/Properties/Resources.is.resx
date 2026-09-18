@@ -273,10 +273,35 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mest ákafur</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewVersionOfVocabularyBook" xml:space="preserve">
+    <value>Fyrir þessa tungumálasamsetningu er til ný, fyrirfram skilgreind orðabók sem fylgir hugbúnaðinum og fellur undir sama notkunarleyfi og hann. Viltu uppfæra núverandi orðabók í nýju útgáfuna? Ef þú velur að gera það verður núverandi orðabók öll yfirskrifuð, jafnvel þótt hún sé fengin úr annarri átt.</value>
+  </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Ný orð</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Það er til orðabók fyrir þetta tungumálapar, sem er undir sama leyfi og hugbúnaðurinn. Hún var hönnuð sem áframhaldandi námskeið fyrir fullorðna. Viltu prófa hana? </value>
+  </data>
+  <data name="SourceOfNewVocabularyBook" xml:space="preserve">
+    <value>Uppruni nýju orðabókarinnar: {0}</value>
+  </data>
+  <data name="SourceOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Uppruni núverandi orðabókar: {0}</value>
+  </data>
+  <data name="SourceUnknown" xml:space="preserve">
+    <value>(Óþekktur uppruni)</value>
+  </data>
+  <data name="VersionOfNewVocabularyBook" xml:space="preserve">
+    <value>Útgáfa nýju orðabókarinnar: {0}</value>
+  </data>
+  <data name="VersionOfPreviousVocabularyBook" xml:space="preserve">
+    <value>Útgáfa núverandi orðabókar: {0}</value>
+  </data>
+  <data name="VersionReleaseNotes" xml:space="preserve">
+    <value>Upplýsingar um nýju útgáfuna:</value>
+  </data>
+  <data name="VersionUnknown" xml:space="preserve">
+    <value>(Óþekkt útgáfa)</value>
   </data>
 </root>
