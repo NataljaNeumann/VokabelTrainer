@@ -21,6 +21,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -126,13 +127,73 @@ namespace VokabelTrainer
             {
                 if (m_lblMessageText.Width > m_lblMessageText.Height * 3 && !m_bSkipRecursion)
                 {
-                    int nLeg = (int)Math.Sqrt(m_lblMessageText.Width * m_lblMessageText.Height);
+                    string[] astrLines = m_lblMessageText.Text.Split('\n');
 
-                    m_bSkipRecursion  = true;
-                    m_lblMessageText.MaximumSize = new Size(Math.Max(nLeg*2, m_btnNo.Right - m_btnYes.Left),
-                        nLeg*2);
+                    int nLeg = (int)Math.Sqrt(m_lblMessageText.Width * m_lblMessageText.Height);
+                    if (astrLines.Length > 1)
+                    {
+                        int nLongestLineLength = astrLines.Max(x => x.Length);
+                        int nCountLessHalfLength = astrLines.Count( x => x.Length < nLongestLineLength / 2 );
+                        int nCountLessThirdLength = astrLines.Count(x => x.Length < nLongestLineLength / 3);
+                        int nCountLessQuarterLength = astrLines.Count(x => x.Length < nLongestLineLength / 4);
+                        int nCountLessFifthPartLength = astrLines.Count(x => x.Length < nLongestLineLength / 5);
+                        int nCountLessSixtPartLength = astrLines.Count(x => x.Length < nLongestLineLength / 6);
+
+
+                        if (nCountLessFifthPartLength >= astrLines.Length - 1)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 4)
+                                nLeg = m_lblMessageText.Width / 4 / 2;
+                        }
+                        else
+                        if (nCountLessQuarterLength >= astrLines.Length - 1)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 3)
+                                nLeg = m_lblMessageText.Width / 3 / 2;
+                        }
+                        else
+                        if (nCountLessThirdLength >= astrLines.Length - 1)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 2)
+                                nLeg = m_lblMessageText.Width / 2 / 2;
+                        } else
+                        if (nCountLessSixtPartLength >= astrLines.Length / 2)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 5)
+                                nLeg = m_lblMessageText.Width / 5 / 2;
+                        }
+                        else
+                        if (nCountLessFifthPartLength >= astrLines.Length)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 4)
+                                nLeg = m_lblMessageText.Width / 4 / 2;
+                        }
+                        else
+                        if (nCountLessQuarterLength >= astrLines.Length / 2)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 3)
+                                nLeg = m_lblMessageText.Width / 3 / 2;
+                        }
+                        else
+                        if (nCountLessThirdLength >= astrLines.Length / 2)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width / 2)
+                                nLeg = m_lblMessageText.Width / 2 / 2;
+                        }
+                        else
+                        if (nCountLessHalfLength >= astrLines.Length / 2)
+                        {
+                            if (nLeg * 2 > m_lblMessageText.Width * 6 / 10)
+                                nLeg = m_lblMessageText.Width * 6 / 10 / 2;
+                        }
+                    }
+
+                    m_bSkipRecursion = true;
+                    m_lblMessageText.MaximumSize = new Size(Math.Max(nLeg * 2, m_btnNo.Right - m_btnYes.Left),
+                        nLeg * 2);
 
                     m_bSkipRecursion = false;
+
                 }
                 else
                 {
