@@ -4612,7 +4612,7 @@
     <Content Include="Books\de-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\de-faAF.xml">
+    <Content Include="Books\de-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\de-fi.xml">
@@ -4876,7 +4876,7 @@
     <Content Include="Books\en-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\en-faAF.xml">
+    <Content Include="Books\en-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\en-fi.xml">
@@ -5224,46 +5224,46 @@
     <Content Include="Books\fa-zhTW2.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-ar.xml">
+    <Content Include="Books\prs-ar.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-el.xml">
+    <Content Include="Books\prs-el.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-es.xml">
+    <Content Include="Books\prs-es.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-fa.xml">
+    <Content Include="Books\prs-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-fr.xml">
+    <Content Include="Books\prs-fr.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-he.xml">
+    <Content Include="Books\prs-he.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-hi.xml">
+    <Content Include="Books\prs-hi.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-it.xml">
+    <Content Include="Books\prs-it.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-ja.xml">
+    <Content Include="Books\prs-ja.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-ko.xml">
+    <Content Include="Books\prs-ko.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-ps.xml">
+    <Content Include="Books\prs-ps.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-pt.xml">
+    <Content Include="Books\prs-pt.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-ru.xml">
+    <Content Include="Books\prs-ru.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\faAF-tr.xml">
+    <Content Include="Books\prs-tr.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\fi-ar.xml">
@@ -5974,7 +5974,7 @@
     <Content Include="Books\kk-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\kk-faAF.xml">
+    <Content Include="Books\kk-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\kk-fr.xml">
@@ -6097,7 +6097,7 @@
     <Content Include="Books\kuIQ-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\kuIQ-faAF.xml">
+    <Content Include="Books\kuIQ-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\kuIQ-fr.xml">
@@ -6145,7 +6145,7 @@
     <Content Include="Books\ky-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\ky-faAF.xml">
+    <Content Include="Books\ky-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\ky-fr.xml">
@@ -6700,7 +6700,7 @@
     <Content Include="Books\paPK-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\paPK-faAF.xml">
+    <Content Include="Books\paPK-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\paPK-fr.xml">
@@ -7339,7 +7339,7 @@
     <Content Include="Books\tg-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\tg-faAF.xml">
+    <Content Include="Books\tg-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\tg-fr.xml">
@@ -7474,7 +7474,7 @@
     <Content Include="Books\tk-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\tk-faAF.xml">
+    <Content Include="Books\tk-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\tk-fr.xml">
@@ -7705,7 +7705,7 @@
     <Content Include="Books\urPK-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\urPK-faAF.xml">
+    <Content Include="Books\urPK-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\urPK-fr.xml">
@@ -7756,7 +7756,7 @@
     <Content Include="Books\uz-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\uz-faAF.xml">
+    <Content Include="Books\uz-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\uz-fr.xml">
@@ -7948,7 +7948,7 @@
     <Content Include="Books\zhCN-fa.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Books\zhCN-faAF.xml">
+    <Content Include="Books\zhCN-prs.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Books\zhCN-fi.xml">
