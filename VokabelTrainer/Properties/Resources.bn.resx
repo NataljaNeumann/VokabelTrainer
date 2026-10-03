@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ভ্যালেন্টাইনস ডে</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>আপনি যদি এই দুটি ভাষায় অনর্গল কথা বলতে পারেন এবং নিশ্চিত করতে চান যে শব্দভাণ্ডারের বইটি ভালোভাবে তৈরি হয়েছে ও এতে সচরাচর ব্যবহৃত কোনো অর্থ বাদ পড়েনি, তবে তা অত্যন্ত প্রশংসনীয় হবে। সেক্ষেত্রে, ভবিষ্যতের সংস্করণগুলোতে এই বইটি যে পরীক্ষামূলক পর্যায়ের—সেই সংক্রান্ত উল্লেখটি বাদ দেওয়া যেতে পারে।</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>অভিনন্দন!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>সর্বোচ্চ নিবিড় (Most Intensive) {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
-    <value>এই ভাষা-জোড়ের জন্য একটি নতুন পূর্ব-নির্ধারিত শব্দভাণ্ডারের বই (vocabulary book) রয়েছে যা সফটওয়্যারটির সাথেই দেওয়া হয়েছে এবং এটি সফটওয়্যারটির মতোই একই লাইসেন্সের আওতাভুক্ত। আপনি কি আপনার বর্তমান শব্দভাণ্ডারের বইটিকে নতুন সংস্করণে আপডেট করতে চান? আপনি যদি তা করার সিদ্ধান্ত নেন, তবে এটি আপনার সম্পূর্ণ শব্দভাণ্ডারের বইটিকে প্রতিস্থাপন করে দেবে—এমনকি যদি আপনার বইটি অন্য কোনো উৎস থেকে সংগ্রহ করা হয়ে থাকে, তবুও।</value>
+    <value>এই ভাষা-জোড়ের জন্য একটি নতুন পূর্ব-নির্ধারিত শব্দভাণ্ডারের বই রয়েছে যা সফটওয়্যারটির সাথেই দেওয়া হয়েছে এবং এটি সফটওয়্যারটির মতোই একই লাইসেন্সের আওতাভুক্ত। আপনি কি আপনার বর্তমান শব্দভাণ্ডারের বইটিকে নতুন সংস্করণে আপডেট করতে চান? আপনি যদি তা করার সিদ্ধান্ত নেন, তবে এটি আপনার সম্পূর্ণ শব্দভাণ্ডারের বইটিকে প্রতিস্থাপন করে দেবে—এমনকি যদি আপনার বইটি অন্য কোনো উৎস থেকে সংগ্রহ করা হয়ে থাকে, তবুও।</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>নতুন শব্দ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ঠিক আছে</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>এই ভাষা-জোড়ের জন্য একটি শব্দভাণ্ডারের বই রয়েছে, যা সফটওয়্যারের মতোই একই লাইসেন্সের আওতাভুক্ত। এটি প্রাপ্তবয়স্কদের জন্য একটি ধারাবাহিক কোর্স হিসেবে তৈরি করা হয়েছে। আপনি কি এটি ব্যবহার করে দেখতে চান?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(অজানা সংস্করণ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ভাষায় {0}-এর অর্থ এবং এর অর্থের পার্থক্যগুলো কী কী?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ভাষায় {0}-এর অর্থ কী?</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Рӯзи Валентин </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Агар шумо ин ду забонро равон донед ва хоҳед тасдиқ кунед, ки китоби луғат хуб таҳия шудааст ва маъноҳои серистеъмол дар он аз даст дода нашудаанд, ин хеле қадрдонӣ мешавад. Дар ин ҳолат, қайд дар бораи хусусияти озмоишии китоби луғат метавонад дар версияҳои оянда хориҷ карда шавад.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Табрик мекунем!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} шадидтарин</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Барои ин ҷуфти забонҳо як луғати нави пешакӣ муайяншуда мавҷуд аст, ки ҳамроҳи нармафзор пешниҳод мешавад ва таҳти ҳамон иҷозатномаи нармафзор қарор дорад. Оё мехоҳед луғати ҷории худро ба версияи нав навсозӣ кунед? Агар шумо ин корро интихоб кунед, луғати мавҷуда пурра бо луғати нав иваз карда мешавад, ҳатто агар шумо онро аз манбаи дигар гирифта бошед.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Калимаҳои нав</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Хуб</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Барои ин ҷуфти забонҳо як китоби луғат мавҷуд аст, ки таҳти иҷозатномаи ҳамон нармафзор аст. Он ҳамчун курси доимӣ барои калонсолон тарҳрезӣ шудааст. Оё шумо мехоҳед онро санҷед? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Версияи номаълум)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Дар забони {1} калимаи {0} чӣ маъно дорад ва фарқияти маъноҳои он дар чист?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Дар забони {1} калимаи {0} чӣ маъно дорад?</value>
   </data>
 </root>

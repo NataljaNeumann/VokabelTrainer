@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ວັນວາເລນທາຍ</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ມັນຈະເປັນການດີຫຼາຍ ຖ້າທ່ານສາມາດເວົ້າທັງສອງພາສານີ້ໄດ້ຢ່າງຄ່ອງແຄ້ວ ແລະ ຕ້ອງການຢືນຢັນວ່າປຶ້ມຄຳສັບນີ້ມີຄຸນນະພາບດີ ແລະ ບໍ່ມີການຕົກຫຼົ່ນຄວາມໝາຍທີ່ໃຊ້ກັນເລື້ອຍໆ. ໃນກໍລະນີນີ້, ຂໍ້ຄວາມທີ່ລະບຸວ່າປຶ້ມຄຳສັບນີ້ຍັງຢູ່ໃນຂັ້ນທົດລອງ ສາມາດຖືກຕັດອອກໄດ້ໃນເວີຊັນຕໍ່ໄປ.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ຂໍສະແດງຄວາມຍິນດີ!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>ແບບເຂັ້ມຂຸ້ນສູງສຸດ {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ສຳລັບການຈັບຄູ່ພາສານີ້, ມີປຶ້ມຄຳສັບທີ່ກຳນົດໄວ້ລ່ວງໜ້າສະບັບໃໝ່ ເຊິ່ງມາພ້ອມກັບຊອບແວ ແລະ ຢູ່ພາຍໃຕ້ເງື່ອນໄຂການອະນຸຍາດດຽວກັນກັບຊອບແວນັ້ນ. ທ່ານຕ້ອງການອັບເດດປຶ້ມຄຳສັບປັດຈຸບັນຂອງທ່ານໃຫ້ເປັນເວີຊັນໃໝ່ບໍ່? ຖ້າທ່ານຕັດສິນໃຈເຮັດແນວນັ້ນ, ມັນຈະຂຽນທັບປຶ້ມຄຳສັບເດີມທັງໝົດ, ເຖິງແມ່ນວ່າທ່ານຈະໄດ້ຮັບປຶ້ມຄຳສັບນັ້ນມາຈາກແຫຼ່ງອື່ນກໍຕາມ.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ຄຳສັບໃໝ່</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ຕົກລົງ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ສຳລັບຄູ່ພາສານີ້ ມີປຶ້ມຄຳສັບໃຫ້ໃຊ້, ເຊິ່ງຢູ່ພາຍໃຕ້ໃບອະນຸຍາດດຽວກັນກັບຊອບແວ. ມັນຖືກອອກແບບມາເປັນຫຼັກສູດຕໍ່ເນື່ອງສຳລັບຜູ້ໃຫຍ່. ທ່ານຕ້ອງການທົດລອງໃຊ້ມັນບໍ່?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(ບໍ່ຮູ້ເວີຊັນ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>ໃນພາສາ {1}, ຄຳວ່າ {0} ມີຄວາມໝາຍແນວໃດ ແລະ ມີຄວາມແຕກຕ່າງກັນແນວໃດໃນດ້ານຄວາມໝາຍ?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>ໃນພາສາ {1}, ຄຳວ່າ {0} ມີຄວາມໝາຍແນວໃດ?</value>
   </data>
 </root>

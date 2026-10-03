@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Дан заљубљених </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Такође би било веома корисно ако течно говорите овај језик и желите да потврдите да је речник добро урађен и да не изоставља често коришћена значења. У том случају, напомена о експерименталној природи речника може се уклонити у будућим верзијама.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Честитамо!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} најинтензивније</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>За ову комбинацију језика постоји нова, унапред дефинисана збирка речника која се испоручује уз софтвер и подлеже истој лиценци као и сам софтвер. Да ли желите да ажурирате своју тренутну збирку речника на нову верзију? Ако одлучите да то учините, целокупна збирка речника ће бити замењена, чак и ако сте своју преузели из другог извора.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Нове речи</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>У реду</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Постоји књига речника за овај језички пар, која је под истом лиценцом као и софтвер. Осмишљена је као континуирани курс за одрасле. Да ли бисте желели да је испробате? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Непозната верзија)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Која су значења и разлике у значењима речи {0} у језику {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Које је значење речи {0} у језику {1}?</value>
   </data>
 </root>

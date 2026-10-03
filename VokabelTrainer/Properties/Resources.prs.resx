@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>روز ولنتاین</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>این همچنان بسیار قابل قدر است، اگر شما میتوانید به این دو زبان روان صحبت کنید و میخواهید تایید کنید که کتاب فرهنگ لغات خوب ساخته شده است و معانی مکرراً استفاده شده را از دست نداده است. در این صورت اشاره در مورد ماهیت تجربوی کتاب فرهنگ لغات در نسخه های آینده حذف شده میتواند.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>تبریک باشد!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>فشرده ترین {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>برای این ترکیب زبان ها یک کتاب جدید از قبل تعریف شده فرهنگ لغات وجود دارد که همراه با سافتویر ارسال میشود و تحت همان جواز سافتویر جواز دارد. آیا میخواهید کتاب فرهنگ لغات فعلی تانرا به نسخه جدید به روز کنید؟ اگر شما تصمیم بگیرید که چنین کنید، این کتاب کامل فرهنگ لغات را رونویسی خواهد کرد، حتی اگر شما کتاب خود را از یک منبع دیگر بدست آورده باشید.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>کلمات جدید</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>درست</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>برای این جفت زبان یک کتاب فرهنگ لغات وجود دارد که تحت همان جواز سافتویر است. این به عنوان یک کورس مداوم برای بزرگسالان طرح شده است. آیا میخواهید آنرا امتحان کنید؟</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(نسخه نامعلوم)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>در زبان {1} معانی و تفاوت های معانی {0} چیست</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>در زبان {1} معنی {0} چیست</value>
   </data>
 </root>

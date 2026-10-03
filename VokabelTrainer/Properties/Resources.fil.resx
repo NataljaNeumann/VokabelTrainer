@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Araw ng mga Puso</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Lubos ding pahahalagahan kung matatas kang magsalita ng dalawang wikang ito at nais mong tiyakin na maayos ang pagkakagawa sa vocabulary book at walang kulang na mga kahulugang madalas gamitin. Kung gayon, maaaring alisin na sa mga susunod na bersyon ang paalala tungkol sa pagiging eksperimental ng vocabulary book.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Binabati kita!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Pinakaintensibo {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Para sa kombinasyong ito ng mga wika, mayroong bagong paunang-itinakdang aklat ng bokabularyo na kasama sa software at saklaw ng parehong lisensya ng software. Gusto mo bang i-update ang iyong kasalukuyang aklat ng bokabularyo sa bagong bersyon? Kung magpapasya kang gawin ito, mapapalitan nito ang buong aklat ng bokabularyo, kahit na nakuha mo ang sa iyo mula sa ibang pinagmulan.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Mga bagong salita</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Para sa pares ng wikang ito, mayroong libro ng bokabularyo na nasa ilalim ng parehong lisensya ng software. Dinisenyo ito bilang tuloy-tuloy na kurso para sa mga nasa hustong gulang. Gusto mo ba itong subukan?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Hindi kilalang bersyon)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Sa wikang {1}, ano ang mga kahulugan at pagkakaiba sa kahulugan ng {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Sa wikang {1}, ano ang kahulugan ng {0}?</value>
   </data>
 </root>

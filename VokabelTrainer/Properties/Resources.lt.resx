@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentino diena </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Taip pat labai vertiname, jei laisvai kalbate šiomis dviem kalbomis ir norite patvirtinti, kad žodynas parengtas kokybiškai ir jame nepraleista dažnai vartojamų reikšmių. Tokiu atveju būsimose versijose bus galima pašalinti pastabą apie eksperimentinį šio žodyno pobūdį.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Sveikiname!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} intensyviausiai</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Šiai kalbų porai yra naujas iš anksto parengtas žodynas, tiekiamas kartu su programine įranga ir platinamas pagal tą pačią licenciją. Ar norite atnaujinti savo dabartinį žodyną į naująją versiją? Jei nuspręsite tai padaryti, visas esamas žodynas bus pakeistas naujuoju, net jei dabartinį žodyną gavote iš kito šaltinio.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nauji žodžiai</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Gerai</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Šiai kalbų porai yra žodyno knyga, kuriai taikoma ta pati licencija kaip ir programinei įrangai. Ji buvo sukurta kaip tęstinis kursas suaugusiesiems. Ar norėtumėte ją išbandyti? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Nežinoma versija)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Kokia yra {0} reikšmė ir kokie jos niuansai {1} kalboje?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Kokia yra {0} reikšmė {1} kalboje?</value>
   </data>
 </root>

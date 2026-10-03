@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Hari Valentine </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Kami juga sangat menghargai jika Anda fasih berbahasa kedua bahasa ini dan bersedia memastikan bahwa buku kosakata tersebut telah disusun dengan baik serta tidak melewatkan makna-makna yang sering digunakan. Jika demikian, catatan mengenai sifat eksperimental buku kosakata ini dapat dihapus pada versi mendatang.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Selamat!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} paling intensif</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Untuk kombinasi bahasa ini, tersedia buku kosakata bawaan baru yang disertakan bersama perangkat lunak dan dilisensikan dengan ketentuan yang sama seperti perangkat lunak tersebut. Apakah Anda ingin memperbarui buku kosakata Anda saat ini ke versi baru? Jika Anda memilih untuk melakukannya, tindakan ini akan menimpa seluruh isi buku kosakata yang ada, meskipun buku tersebut berasal dari sumber yang berbeda.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Kata-Kata Baru</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Oke</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Tersedia buku kosakata untuk pasangan bahasa ini, yang berada di bawah lisensi yang sama dengan perangkat lunak. Buku ini dirancang sebagai kursus berkelanjutan untuk orang dewasa. Apakah Anda ingin mencobanya? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Versi tidak diketahui)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Dalam bahasa {1}, apa saja makna dan perbedaan makna dari {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Dalam bahasa {1}, apa arti dari {0}?</value>
   </data>
 </root>

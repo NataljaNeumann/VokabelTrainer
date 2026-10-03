@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Dia dos Namorados </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Também seria muito apreciado se falasse fluentemente estas duas línguas e quisesse confirmar que o livro de vocabulário está bem elaborado e não omite significados de uso frequente. Nesse caso, a observação sobre a natureza experimental do livro de vocabulário poderá ser removida em versões futuras.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Parabéns!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} mais intenso </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Para esta combinação de idiomas, existe um novo ficheiro de vocabulário predefinido que acompanha o software e está licenciado nos mesmos termos do software. Gostaria de atualizar o seu ficheiro de vocabulário atual para a nova versão? Se decidir fazê-lo, o ficheiro de vocabulário completo será substituído, mesmo que o seu tenha sido obtido de uma fonte diferente.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Novas Palavras</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Existe um livro de vocabulário para este par de línguas, que está sob a mesma licença do software. Foi desenvolvido como um curso contínuo para adultos. Gostaria de experimentá-lo? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Versão desconhecida)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Na língua {1}, quais são os significados e as diferenças de significado de {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Na língua {1}, qual é o significado de {0}?</value>
   </data>
 </root>

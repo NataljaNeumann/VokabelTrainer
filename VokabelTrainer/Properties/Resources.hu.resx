@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentin-nap </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Nagyra értékeljük, ha folyékonyan beszéli ezt a két nyelvet, és megerősíti, hogy a szókincstár jól összeállított, és nem hiányoznak belőle a gyakran használt jelentések. Ebben az esetben a szókincstár kísérleti jellegére utaló megjegyzés a későbbi verziókból eltávolítható.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulálunk!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} a legintenzívebben</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Ehhez a nyelvpárhoz tartozik egy új, előre definiált szókincsfájl, amelyet a szoftverrel együtt szállítunk, és amelyre ugyanaz a licenc vonatkozik, mint magára a szoftverre. Szeretné frissíteni jelenlegi szókincsfájlját az új verzióra? Ha így dönt, a művelet felülírja a teljes szókincsfájlt, még akkor is, ha az eredetileg más forrásból származott.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Új szavak</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Ehhez a nyelvpárhoz létezik egy szókincsgyűjtemény, amely ugyanazon licenc alatt áll, mint a szoftver. Felnőttek számára készült, folyamatos kurzusként tervezték. Szeretnéd kipróbálni? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Ismeretlen verzió)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Mik a jelentései és a jelentésbeli különbségei a(z) {0} szónak {1} nyelven?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Mi a jelentése a(z) {0} szónak {1} nyelven?</value>
   </data>
 </root>

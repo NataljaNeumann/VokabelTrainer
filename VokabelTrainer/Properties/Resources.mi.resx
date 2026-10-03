@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Te Rā o Valentine</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Ka tino mihi hoki mēnā e matatau ana koe ki ēnei reo e rua, ā, e hiahia ana koe ki te whakaū he pai te hanganga o te pukapuka kupu, kāore hoki i te ngaro ngā tikanga e whakamahia nuitia ana. Mēnā pērā, ka taea te tango i te kupu tohutoro e pā ana ki te āhua whakamātau o te pukapuka kupu i ngā putanga o muri mai.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Kia ora!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Akoranga tino kaha {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Mō tēnei huinga reo, he pukapuka kupu kua whakaritea kētia, e tukuna tahi ana me te pūmanawa, ā, e herea ana e te raihana ōrite ki tā te pūmanawa. E hiahia ana koe ki te whakahou i tāu pukapuka kupu o nāianei ki te putanga hou? Ki te pērā koe, ka whakakapia katoatia tāu pukapuka kupu o nāianei, ahakoa i ahu mai i tētahi atu puna.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Ngā kupu hou</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Āe</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Mō tēnei takirua reo, he pukapuka kupu kei reira, ā, kei raro i te raihana ōrite ki tā te pūmanawa. I hangaia hei akoranga haere tonu mā ngā pakeke. Kei te hiahia koe ki te whakamātau?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Putanga kāore i te mōhiotia)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>I te reo {1}, he aha ngā tikanga me ngā rerekētanga o ngā tikanga o {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>I te reo {1}, he aha te tikanga o {0}?</value>
   </data>
 </root>

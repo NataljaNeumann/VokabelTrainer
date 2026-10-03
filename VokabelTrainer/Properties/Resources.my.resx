@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ဗယ်လင်တိုင်းနေ့</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>အကယ်၍ သင်သည် ဤဘာသာစကားနှစ်မျိုးစလုံးကို ကျွမ်းကျင်စွာပြောဆိုနိုင်ပြီး၊ ဝေါဟာရစာအုပ်သည် ကောင်းမွန်စွာပြုစုထားကြောင်းနှင့် အသုံးများသော အဓိပ္ပာယ်များ ချန်လှပ်ထားခြင်းမရှိကြောင်း အတည်ပြုပေးလိုပါက အလွန်ပင် ကျေးဇူးတင်ရှိပါမည်။ ထိုသို့အတည်ပြုနိုင်ပါက ဤဝေါဟာရစာအုပ်သည် စမ်းသပ်ဆဲအဆင့်တွင်ရှိသည်ဟူသော အသိပေးချက်ကို နောက်ထပ်ဗားရှင်းများတွင် ဖယ်ရှားနိုင်မည် ဖြစ်ပါသည်။</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ဂုဏ်ယူပါသည်။</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>အပြင်းထန်ဆုံး  {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ဤဘာသာစကားတွဲဖက်မှုအတွက် ဆော့ဖ်ဝဲနှင့်အတူ ပါဝင်လာပြီး ဆော့ဖ်ဝဲ၏ လိုင်စင်အမျိုးအစားတူဖြင့်ပင် ခွင့်ပြုချက်ရယူထားသော ကြိုတင်သတ်မှတ်ထားသည့် ဝေါဟာရစာအုပ်အသစ်တစ်ခု ရှိပါသည်။ သင့်လက်ရှိဝေါဟာရစာအုပ်ကို ဗားရှင်းအသစ်သို့ အပ်ဒိတ်လုပ်လိုပါသလား။ အကယ်၍ သင်ပြုလုပ်ရန် ဆုံးဖြတ်ပါက၊ သင့်စာအုပ်ကို အခြားရင်းမြစ်တစ်ခုမှ ရရှိထားခဲ့လျှင်ပင် ဤလုပ်ဆောင်ချက်သည် လက်ရှိဝေါဟာရစာအုပ်တစ်ခုလုံးကို အစားထိုးသွားမည်ဖြစ်ပါသည်။</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>စကားလုံးအသစ်များ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ကောင်းပါပြီ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ဤဘာသာစကားအတွဲအတွက် ဝေါဟာရစာအုပ်တစ်အုပ် ရှိပြီး ၎င်းသည် ဆော့ဖ်ဝဲနှင့် တူညီသော လိုင်စင်စည်းကမ်းချက်များအောက်တွင် ရှိပါသည်။ ၎င်းကို လူကြီးများအတွက် ဆက်တိုက်လေ့လာနိုင်သော သင်ခန်းစာအဖြစ် ဒီဇိုင်းထုတ်ထားပါသည်။ စမ်းသုံးကြည့်လိုပါသလား။</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(မသိရှိရသော ဗားရှင်း)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ဘာသာစကားတွင် {0} ၏ အဓိပ္ပာယ်များနှင့် ၎င်းတို့ကြားရှိ အဓိပ္ပာယ်ကွာခြားချက်များမှာ အဘယ်နည်း။</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ဘာသာစကားတွင် {0} ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ਵੈਲੇਨਟਾਈਨ ਦਿਵਸ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ਜੇਕਰ ਤੁਸੀਂ ਇਹ ਦੋਵੇਂ ਭਾਸ਼ਾਵਾਂ ਰਵਾਨਗੀ ਨਾਲ ਬੋਲ ਸਕਦੇ ਹੋ ਅਤੇ ਇਹ ਤਸਦੀਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਸ਼ਬਦਾਵਲੀ ਦੀ ਕਿਤਾਬ ਵਧੀਆ ਢੰਗ ਨਾਲ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ ਅਤੇ ਇਸ ਵਿੱਚ ਅਕਸਰ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਅਰਥਾਂ ਦੀ ਕੋਈ ਕਮੀ ਨਹੀਂ ਹੈ, ਤਾਂ ਇਸ ਦੀ ਬਹੁਤ ਸ਼ਲਾਘਾ ਕੀਤੀ ਜਾਵੇਗੀ। ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ, ਭਵਿੱਖ ਦੇ ਸੰਸਕਰਣਾਂ ਵਿੱਚੋਂ ਸ਼ਬਦਾਵਲੀ ਦੀ ਕਿਤਾਬ ਦੇ 'ਪ੍ਰਯੋਗਿਕ ਸੁਭਾਅ' ਬਾਰੇ ਸੰਕੇਤ ਨੂੰ ਹਟਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ਵਧਾਈਆਂ!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ਸਭ ਤੋਂ ਤੀਬਰ</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
-    <value>ਭਾਸ਼ਾਵਾਂ ਦੇ ਇਸ ਸੁਮੇਲ ਲਈ ਇੱਕ ਨਵੀਂ ਪਹਿਲਾਂ ਤੋਂ ਨਿਰਧਾਰਤ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ (vocabulary book) ਮੌਜੂਦ ਹੈ ਜੋ ਸਾਫਟਵੇਅਰ ਦੇ ਨਾਲ ਹੀ ਆਉਂਦੀ ਹੈ ਅਤੇ ਉਸੇ ਲਾਇਸੰਸ ਦੇ ਅਧੀਨ ਹੈ ਜਿਸ ਦੇ ਅਧੀਨ ਸਾਫਟਵੇਅਰ ਹੈ। ਕੀ ਤੁਸੀਂ ਆਪਣੀ ਮੌਜੂਦਾ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਨਵੇਂ ਸੰਸਕਰਣ ਵਿੱਚ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਜੇਕਰ ਤੁਸੀਂ ਅਜਿਹਾ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਦੇ ਹੋ, ਤਾਂ ਇਹ ਪੂਰੀ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਬਦਲ ਦੇਵੇਗਾ, ਭਾਵੇਂ ਤੁਸੀਂ ਆਪਣੀ ਪੁਸਤਕ ਕਿਸੇ ਵੱਖਰੇ ਸਰੋਤ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤੀ ਹੋਵੇ।</value>
+    <value>ਭਾਸ਼ਾਵਾਂ ਦੇ ਇਸ ਸੁਮੇਲ ਲਈ ਇੱਕ ਨਵੀਂ ਪਹਿਲਾਂ ਤੋਂ ਨਿਰਧਾਰਤ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਮੌਜੂਦ ਹੈ ਜੋ ਸਾਫਟਵੇਅਰ ਦੇ ਨਾਲ ਹੀ ਆਉਂਦੀ ਹੈ ਅਤੇ ਉਸੇ ਲਾਇਸੰਸ ਦੇ ਅਧੀਨ ਹੈ ਜਿਸ ਦੇ ਅਧੀਨ ਸਾਫਟਵੇਅਰ ਹੈ। ਕੀ ਤੁਸੀਂ ਆਪਣੀ ਮੌਜੂਦਾ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਨਵੇਂ ਸੰਸਕਰਣ ਵਿੱਚ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਜੇਕਰ ਤੁਸੀਂ ਅਜਿਹਾ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਦੇ ਹੋ, ਤਾਂ ਇਹ ਪੂਰੀ ਸ਼ਬਦਾਵਲੀ-ਪੁਸਤਕ ਨੂੰ ਬਦਲ ਦੇਵੇਗਾ, ਭਾਵੇਂ ਤੁਸੀਂ ਆਪਣੀ ਪੁਸਤਕ ਕਿਸੇ ਵੱਖਰੇ ਸਰੋਤ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤੀ ਹੋਵੇ।</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ਨਵੇਂ ਸ਼ਬਦ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ਠੀਕ ਹੈ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ਇਸ ਭਾਸ਼ਾ ਜੋੜੇ ਲਈ ਇੱਕ ਸ਼ਬਦਾਵਲੀ ਕਿਤਾਬ ਹੈ, ਜੋ ਕਿ ਸਾਫਟਵੇਅਰ ਦੇ ਸਮਾਨ ਲਾਇਸੈਂਸ ਦੇ ਅਧੀਨ ਹੈ। ਇਸਨੂੰ ਬਾਲਗਾਂ ਲਈ ਇੱਕ ਚੱਲ ਰਹੇ ਕੋਰਸ ਦੇ ਰੂਪ ਵਿੱਚ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ। ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਅਜ਼ਮਾਉਣਾ ਚਾਹੋਗੇ? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(ਅਣਜਾਣ ਸੰਸਕਰਣ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ਭਾਸ਼ਾ ਵਿੱਚ {0} ਦੇ ਕੀ ਅਰਥ ਹਨ ਅਤੇ ਉਹਨਾਂ ਦੇ ਅਰਥਾਂ ਵਿੱਚ ਕੀ ਅੰਤਰ ਹੈ?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ਭਾਸ਼ਾ ਵਿੱਚ {0} ਦਾ ਕੀ ਅਰਥ ਹੈ?</value>
   </data>
 </root>

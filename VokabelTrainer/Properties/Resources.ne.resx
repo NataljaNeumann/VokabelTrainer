@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>भ्यालेन्टाइन डे</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>यदि तपाईं यी दुई भाषाहरू धाराप्रवाह बोल्न सक्नुहुन्छ र यो शब्दावली पुस्तिका राम्रोसँग तयार पारिएको छ तथा यसमा बारम्बार प्रयोग हुने अर्थहरू छुटेका छैनन् भन्ने कुरा सुनिश्चित गर्न चाहनुहुन्छ भने, त्यो निकै सराहनीय हुनेछ। यस्तो अवस्थामा, भविष्यका संस्करणहरूबाट यस शब्दावली पुस्तिकाको 'प्रयोगात्मक प्रकृति' सम्बन्धी जानकारी हटाउन सकिन्छ।</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>बधाई छ!</value>
   </data>
@@ -241,7 +245,7 @@
     <value>प्रयोगात्मक शब्दावली पुस्तक प्रयोग गरी हेर्नुभएकोमा धन्यवाद। यदि तपाईंले त्रुटिहरू वा उस्तै सुनिने अनुवादहरू फेला पार्नुभयो भने, कृपया फोरममा सुधारका लागि आफ्ना सुझावहरू पोस्ट गर्नुहोस्। सफ्टवेयरको संस्करण, भाषाहरूको नाम, शब्दका जोडीहरू र सुधारहरू उल्लेख गर्नुहोस्। सकेसम्म, सुधारका लागि सबै सुझावहरू सङ्कलन गर्नुहोस् र ती सबै एकै पटक पोस्ट गर्नुहोस्।</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
-    <value>यस भाषा जोडीका लागि एउटा प्रयोगात्मक शब्दावली पुस्तक उपलब्ध छ; यो सफ्टवेयरकै इजाजतपत्र (license) अन्तर्गत छ। यो वयस्कहरूका लागि निरन्तर पाठ्यक्रमको रूपमा तयार पारिएको हो, यद्यपि यसलाई सम्बन्धित भाषाका मातृभाषीहरू (native speakers) द्वारा जाँच (proofread) गरिएको छैन। के तपाईं यसलाई प्रयोग गरेर हेर्न चाहनुहुन्छ?</value>
+    <value>यस भाषा जोडीका लागि एउटा प्रयोगात्मक शब्दावली पुस्तक उपलब्ध छ; यो सफ्टवेयरकै इजाजतपत्र अन्तर्गत छ। यो वयस्कहरूका लागि निरन्तर पाठ्यक्रमको रूपमा तयार पारिएको हो, यद्यपि यसलाई सम्बन्धित भाषाका मातृभाषीहरू द्वारा जाँच गरिएको छैन। के तपाईं यसलाई प्रयोग गरेर हेर्न चाहनुहुन्छ?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>निम्न अर्थहरू छुटेका थिए:</value>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>अत्यधिक सघन {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>भाषाको यो संयोजनका लागि एउटा नयाँ पूर्व-निर्धारित शब्दावली पुस्तिका उपलब्ध छ, जुन सफ्टवेयरसँगै आउँछ र सफ्टवेयरकै इजाजतपत्र (लाइसेन्स) अन्तर्गत रहन्छ। के तपाईं आफ्नो हालको शब्दावली पुस्तिकालाई नयाँ संस्करणमा अद्यावधिक गर्न चाहनुहुन्छ? यदि तपाईंले त्यसो गर्ने निर्णय गर्नुभयो भने, यसले तपाईंको हालको सम्पूर्ण शब्दावली पुस्तिकालाई प्रतिस्थापन (ओभरराइट) गर्नेछ; तपाईंले आफ्नो पुस्तिका अन्य कुनै स्रोतबाट प्राप्त गर्नुभएको भए तापनि यस्तै हुनेछ।</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>नयाँ शब्दहरू</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ठीक छ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>यस भाषा जोडीका लागि एउटा शब्दावली पुस्तक उपलब्ध छ; यो सफ्टवेयरकै इजाजतपत्र अन्तर्गत छ। यो वयस्कहरूका लागि निरन्तर पाठ्यक्रमको रूपमा तयार पारिएको हो। के तपाईं यसलाई प्रयोग गरेर हेर्न चाहनुहुन्छ?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(अज्ञात संस्करण)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} भाषामा {0} को अर्थ र तिनका अर्थहरूबीचको भिन्नता के हो?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} भाषामा {0} को अर्थ के हो?</value>
   </data>
 </root>

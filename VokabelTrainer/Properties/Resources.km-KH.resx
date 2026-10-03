@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ថ្ងៃនៃក្តីស្រឡាញ់ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>វាពិតជាគួរឱ្យកោតសរសើរណាស់ ប្រសិនបើអ្នកអាចនិយាយភាសាទាំងពីរនេះបានយ៉ាងស្ទាត់ជំនាញ ហើយចង់បញ្ជាក់ថា សៀវភៅវាក្យសព្ទនេះត្រូវបានរៀបចំឡើងយ៉ាងល្អ និងមិនខ្វះខាតអត្ថន័យដែលត្រូវបានប្រើប្រាស់ជាញឹកញាប់នោះទេ។ ក្នុងករណីនេះ ការបញ្ជាក់អំពីលក្ខណៈសាកល្បងនៃសៀវភៅវាក្យសព្ទនេះ អាចនឹងត្រូវបានដកចេញនៅក្នុងកំណែបន្ទាប់។</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>អបអរសាទរ!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ខ្លាំងបំផុត។</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>សម្រាប់ការរួមបញ្ចូលគ្នានៃភាសាទាំងនេះ មានសៀវភៅវាក្យសព្ទដែលបានកំណត់ទុកជាមុនថ្មីមួយ ដែលត្រូវបានផ្តល់ជូនរួមគ្នាជាមួយកម្មវិធី ហើយស្ថិតក្រោមលក្ខខណ្ឌអាជ្ញាបណ្ណដូចគ្នានឹងកម្មវិធីដែរ។ តើអ្នកចង់ធ្វើបច្ចុប្បន្នភាពសៀវភៅវាក្យសព្ទបច្ចុប្បន្នរបស់អ្នកទៅជាកំណែថ្មីដែរឬទេ? ប្រសិនបើអ្នកសម្រេចចិត្តធ្វើដូច្នេះ វានឹងជំនួសសៀវភៅវាក្យសព្ទទាំងមូល ទោះបីជាអ្នកទទួលបានសៀវភៅនោះពីប្រភពផ្សេងក៏ដោយ។</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ពាក្យថ្មី។</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>យល់ព្រម</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>មានសៀវភៅវាក្យសព្ទសម្រាប់គូភាសានេះ ដែលស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណដូចគ្នានឹងកម្មវិធី។ វាត្រូវបានរចនាឡើងជាវគ្គសិក្សាបន្តសម្រាប់មនុស្សពេញវ័យ។ តើអ្នកចង់សាកល្បងទេ? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(កំណែមិនស្គាល់)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>នៅក្នុងភាសា {1} តើ {0} មានអត្ថន័យ និងភាពខុសគ្នានៃអត្ថន័យយ៉ាងដូចម្តេចខ្លះ?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>នៅក្នុងភាសា {1} តើ {0} មានអត្ថន័យដូចម្តេច?</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Söýgüliler güni </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Şeýle hem, eger siz bu iki dili erkin bilýän bolsaňyz we sözlük kitabynyň ýokary hilli düzülendigine hem-de onda ýygy ulanylýan manylaryň ýok däldigine göz ýetirmek isleseňiz, bu örän ýokary bahalandyrylar. Şeýle ýagdaýda, geljekki wersiýalarda sözlük kitabynyň synag häsiýetindedigi baradaky belligi aýryp bolar.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gutlaýarys!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} iň intensiw</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Bu dil utgaşmasy üçin, programma üpjünçiligi bilen bilelikde gelýän we şol bir ygtyýarnama esasynda ygtyýarnamalaşdyrylan täze, öňünden düzülen sözlük kitaby bar. Häzirki sözlük kitabyňyzy täze wersiýa täzelemek isleýärsiňizmi? Eger şeýle etmegi ýüregiňize düwseňiz, bu hereket bar bolan sözlük kitabyny doly çalşyrar (üstünden ýazylar); bu ýagdaý, hatda häzirki sözlük kitabyňyzy başga çeşmeden alan bolsaňyz hem şeýle bolar.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Täze sözler</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Bolýar</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Programma üpjünçiligi bilen birmeňzeş ygtyýarnama eýe bolan bu dil jübüti üçin söz kitaby bar. Ulylar üçin dowamly okuw hökmünde döredildi. Synap görmek isleýärsiňizmi? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Näbelli wersiýa)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} dilinde {0} sözüniň manylary we olaryň arasyndaky tapawutlar nähili?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} dilinde {0} sözüniň manysy näme?</value>
   </data>
 </root>

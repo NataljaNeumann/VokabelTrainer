@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentynsdag </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Dit word ook baie waardeer as jy hierdie twee tale vlot kan praat en wil bevestig dat die woordeskatboek goed saamgestel is en nie dikwels gebruikte betekenisse uitlaat nie. In so 'n geval kan die opmerking oor die eksperimentele aard van die woordeskatboek in toekomstige weergawes verwyder word.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Baie geluk!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mees intensief </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Vir hierdie kombinasie van tale is daar 'n nuwe voorafgedefinieerde woordeskatboek wat saam met die sagteware verskaf word en onder dieselfde lisensie as die sagteware gelisensieer is. Wil u u huidige woordeskatboek na die nuwe weergawe opdateer? Indien u besluit om dit te doen, sal dit die volledige woordeskatboek oorheenskryf, selfs al is u huidige een van 'n ander bron afkomstig.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nuwe Woorde</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Daar is 'n woordeskatboek vir hierdie taalpaar, wat onder dieselfde lisensie as die sagteware is. Dit is ontwerp as 'n deurlopende kursus vir volwassenes. Wil julle dit probeer? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Onbekende weergawe)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Wat is die betekenisse en verskille in betekenis van {0} in die {1}-taal?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Wat is die betekenis van {0} in die {1}-taal?</value>
   </data>
 </root>

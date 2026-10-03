@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ভেলেণ্টাইন ডে</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ইয়াৰ উপৰিও ইয়াৰ অতিশয় শলাগ লোৱা হয়, যদি আপুনি এই দুটা ভাষা সাৱলীলভাৱে ক’ব পাৰে আৰু শব্দভাণ্ডাৰৰ কিতাপখন যে ভালদৰে নিৰ্মাণ কৰা হৈছে আৰু সঘনাই ব্যৱহৃত অৰ্থৰ অভাৱ নাই সেই কথা নিশ্চিত কৰিব বিচাৰে। এই ক্ষেত্ৰত শব্দভাণ্ডাৰৰ কিতাপখনৰ পৰীক্ষামূলক প্ৰকৃতিৰ ইংগিতটো ভৱিষ্যতৰ সংস্কৰণসমূহত আঁতৰাই পেলাব পাৰি।</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>অভিনন্দন!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>সৰ্বাধিক নিবিড় {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ভাষাৰ এই সংমিশ্ৰণৰ বাবে এটা নতুন পূৰ্বনিৰ্ধাৰিত শব্দভাণ্ডাৰৰ কিতাপ আছে যি চফট্ ৱেৰৰ সৈতে প্ৰেৰণ কৰা হয় আৰু চফ্টৱেৰৰ সৈতে একে অনুজ্ঞাপত্ৰৰ অধীনত অনুজ্ঞাপত্ৰপ্ৰাপ্ত। আপুনি আপোনাৰ বৰ্তমানৰ শব্দভাণ্ডাৰৰ কিতাপখন নতুন সংস্কৰণলৈ আপডেট কৰিব বিচাৰেনে? যদি আপুনি তেনে কৰাৰ সিদ্ধান্ত লয়, তেন্তে ই সম্পূৰ্ণ শব্দভাণ্ডাৰৰ কিতাপখন অভাৰৰাইট কৰিব, যদিও আপুনি আপোনাৰখন বেলেগ উৎসৰ পৰা পাইছে।</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>নতুন শব্দ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ঠিক আছে</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>এই ভাষা যোৰৰ বাবে এটা শব্দভাণ্ডাৰৰ কিতাপ আছে, ই চফট্ ৱেৰৰ সৈতে একে অনুজ্ঞাপত্ৰৰ অধীনত আছে। ইয়াক প্ৰাপ্তবয়স্কৰ বাবে এক অবিৰত পাঠ্যক্ৰম হিচাপে ডিজাইন কৰা হৈছে। আপুনি ইয়াক চেষ্টা কৰি চাব বিচাৰেনে?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(অজ্ঞাত সংস্কৰণ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ভাষাত {0} ৰ অৰ্থ আৰু অৰ্থৰ পাৰ্থক্য কি?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ভাষাত {0} ৰ অৰ্থ কি?</value>
   </data>
 </root>

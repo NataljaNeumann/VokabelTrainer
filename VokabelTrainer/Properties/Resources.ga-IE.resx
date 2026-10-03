@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Lá Fhéile Vailintín</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Bheadh ​​an-bhuíochas ag dul duit freisin dá mbeifeá in ann an dá theanga seo a labhairt go líofa agus dá mba mhian leat a dheimhniú go bhfuil an leabhar foclóra dea-dhéanta agus nach bhfuil bríonna a úsáidtear go minic ar iarraidh ann. Sa chás sin, d’fhéadfaí an nóta faoi nádúr turgnamhach an leabhair foclóra a bhaint amach i leaganacha amach anseo.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Comhghairdeas!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Dianchúrsa Breise {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Don chomhcheangal teangacha seo, tá leabhar foclóra nua réamhshainithe ann a sheoltar leis an mbogearra agus atá faoi réir an cheadúnais chéanna leis an mbogearra. Ar mhaith leat do leabhar foclóra reatha a nuashonrú go dtí an leagan nua? Má shocraíonn tú é sin a dhéanamh, scríobhfar thar an leabhar foclóra iomlán, fiú más ó fhoinse dhifriúil a fuair tú féin é.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Focail nua</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Ceart go leor</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Tá leabhar stór focal ann don phéire teangacha seo; tá sé faoin gceadúnas céanna leis na bogearraí. Dearadh é mar chúrsa leanúnach do dhaoine fásta. Ar mhaith leat triail a bhaint as?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Leagan anaithnid)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Cad iad na bríonna agus na difríochtaí brí a bhaineann le {0} sa teanga {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Cad é an bhrí atá le {0} sa teanga {1}?</value>
   </data>
 </root>

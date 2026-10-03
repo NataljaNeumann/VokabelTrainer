@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>San Valentín punchaw</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Hinallataqmi ancha chaninchasqa, sichus kay iskay simikunata allinta rimayta atiwaq, hinallataq simikuna qelqa allin ruwasqa kasqanmanta, sapa kuti utilizasqa significadokuna mana faltasqanmantapas takyachiyta munanki chayqa. Kay casopiqa vocabulario libropa experimental kayninmanta pistataqa hamuq versionkunapim hurquchwan.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>¡Ancha kusisqa!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Aswan kallpayuq {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Kay simikuna huñusqapaqqa kanmi musuq ñawpaqmanta riqsisqa simikuna qillqa maytu softwarewan kuska apachisqa chaymanta software kaqwan kikin licenciayuq licenciayuq. ¿Munawaqchu kunan vocabulario libroykita mosoq versión nisqaman mosoqyachiyta? Chayta ruwanaykipaq tanteaspaykiqa, chaywanmi vocabulario nisqa librota huntasqata qillqanqa, hukmantaña qampaq kaq librota chaskirqanki chaypas.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Musuq simikuna</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>KUSA</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Kay simi parispaqmi kan huk simikuna qillqa, chaymi software nisqawan kikin licenciawan kachkan. Kuraq runakunapaq sapa kuti kursu hinam ruwasqa kachkan. ¿Munawaqchu chayta pruebayta?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Mana riqsisqa versión)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} simipi imakunataq {0}pa niyninkuna, hukniray kayninkuna ima</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} simipi ima ninantaq {0}</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>hari Valentine </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Kami amat menghargainya jika anda fasih berbahasa dalam kedua-dua bahasa ini dan ingin mengesahkan bahawa buku perbendaharaan kata tersebut telah disediakan dengan baik serta tidak tercicir makna-makna yang kerap digunakan. Jika demikian, makluman mengenai sifat eksperimental buku perbendaharaan kata itu boleh digugurkan dalam versi akan datang.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>tahniah!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} paling intensif</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Bagi kombinasi bahasa ini, terdapat buku perbendaharaan kata pratakrif baharu yang disertakan bersama perisian tersebut dan dilesenkan di bawah lesen yang sama dengan perisian itu. Adakah anda ingin mengemas kini buku perbendaharaan kata semasa anda kepada versi baharu ini? Jika anda memilih untuk berbuat demikian, tindakan ini akan menimpa keseluruhan buku perbendaharaan kata sedia ada, walaupun buku tersebut diperoleh daripada sumber yang berbeza.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Perkataan Baru</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Terdapat buku perbendaharaan kata untuk pasangan bahasa ini, yang berada di bawah lesen yang sama dengan perisian. Ia direka sebagai kursus berterusan untuk orang dewasa. Adakah anda ingin mencubanya? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Versi tidak diketahui)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Dalam bahasa {1}, apakah makna dan perbezaan makna bagi {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Dalam bahasa {1}, apakah makna {0}?</value>
   </data>
 </root>

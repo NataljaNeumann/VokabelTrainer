@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Дзень святога Валянціна </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Таксама вельмі вітаецца, калі вы свабодна валодаеце гэтымі дзвюма мовамі і хочаце пацвердзіць, што гэты слоўнік складзены якасна і ў ім няма прапушчаных часта ўжываных значэнняў. У такім выпадку ў будучых версіях можна будзе прыбраць заўвагу пра эксперыментальны характар ​​слоўніка.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Віншуем!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} найбольш інтэнсіўна</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Для гэтай моўнай пары прадугледжаны новы стандартны слоўнік, які пастаўляецца разам з праграмай і распаўсюджваецца на тых жа ўмовах ліцэнзіі, што і сама праграма. Ці жадаеце вы абнавіць свой цяперашні слоўнік да новай версіі? Калі вы пагодзіцеся, гэта прывядзе да поўнай замены вашага слоўніка, нават калі вы атрымалі яго з іншай крыніцы.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Новыя словы</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ОК</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Для гэтай моўнай пары існуе слоўнік, які знаходзіцца пад той жа ліцэнзіяй, што і праграмнае забеспячэнне. Ён быў распрацаваны як курс для дарослых. Хочаце паспрабаваць? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Невядомая версія)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Якія значэнні і адрозненні ў значэннях мае слова {0} у мове {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Якое значэнне мае слова {0} у мове {1}?</value>
   </data>
 </root>

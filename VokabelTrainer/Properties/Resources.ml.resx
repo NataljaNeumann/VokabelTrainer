@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>വാലന്റൈൻസ് ഡേ</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ഈ രണ്ട് ഭാഷകളും നന്നായി സംസാരിക്കാൻ കഴിയുന്നവരും, ഈ പദാവലി പുസ്തകം മികച്ച രീതിയിൽ തയ്യാറാക്കിയതാണെന്നും അതിൽ പതിവായി ഉപയോഗിക്കുന്ന അർത്ഥങ്ങൾ വിട്ടുപോയിട്ടില്ലെന്നും ഉറപ്പുവരുത്താൻ ആഗ്രഹിക്കുന്നവരുമായ ഒരാളുടെ അഭിപ്രായം വളരെ വിലപ്പെട്ടതാണ്. അങ്ങനെയെങ്കിൽ, ഭാവിയിലുള്ള പതിപ്പുകളിൽ ഈ പുസ്തകം ഒരു പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള സംരംഭമാണെന്ന സൂചന നീക്കം ചെയ്യാവുന്നതാണ്.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>അഭിനന്ദനങ്ങൾ!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>ഏറ്റവും തീവ്രമായ {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
-    <value>ഈ ഭാഷാ സംയോജനത്തിനായി, സോഫ്റ്റ്‌വെയറിനൊപ്പം ലഭ്യമാകുന്നതും സോഫ്റ്റ്‌വെയറിന് ബാധകമായ അതേ ലൈസൻസിന് കീഴിലുള്ളതുമായ ഒരു പുതിയ മുൻനിശ്ചയിത പദാവലി പുസ്തകം (vocabulary book) ലഭ്യമാണ്. നിലവിലുള്ള പദാവലി പുസ്തകം പുതിയ പതിപ്പിലേക്ക് അപ്‌ഡേറ്റ് ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ? അങ്ങനെ ചെയ്യാൻ തീരുമാനിച്ചാൽ, മറ്റൊരു ഉറവിടത്തിൽ നിന്നാണ് നിങ്ങൾ അത് നേടിയതെങ്കിൽ പോലും, നിലവിലുള്ള പദാവലി പുസ്തകം പൂർണ്ണമായും പുതിയത് ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കപ്പെടും.</value>
+    <value>ഈ ഭാഷാ സംയോജനത്തിനായി, സോഫ്റ്റ്‌വെയറിനൊപ്പം ലഭ്യമാകുന്നതും സോഫ്റ്റ്‌വെയറിന് ബാധകമായ അതേ ലൈസൻസിന് കീഴിലുള്ളതുമായ ഒരു പുതിയ മുൻനിശ്ചയിത പദാവലി പുസ്തകം ലഭ്യമാണ്. നിലവിലുള്ള പദാവലി പുസ്തകം പുതിയ പതിപ്പിലേക്ക് അപ്‌ഡേറ്റ് ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ? അങ്ങനെ ചെയ്യാൻ തീരുമാനിച്ചാൽ, മറ്റൊരു ഉറവിടത്തിൽ നിന്നാണ് നിങ്ങൾ അത് നേടിയതെങ്കിൽ പോലും, നിലവിലുള്ള പദാവലി പുസ്തകം പൂർണ്ണമായും പുതിയത് ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കപ്പെടും.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>പുതിയ വാക്കുകൾ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ശരി</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ഈ ഭാഷാ ജോഡിക്കായി ഒരു പദാവലി പുസ്തകം ലഭ്യമാണ്; സോഫ്റ്റ്‌വെയറിന് ബാധകമായ അതേ ലൈസൻസിന് കീഴിലാണ് ഇതും വരുന്നത്. മുതിർന്നവർക്കുള്ള ഒരു തുടർ പഠന കോഴ്‌സായാണ് ഇത് രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്. നിങ്ങൾക്ക് ഇതൊന്ന് പരീക്ഷിച്ചുനോക്കണോ?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(അജ്ഞാതമായ പതിപ്പ്)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ഭാഷയിൽ {0} എന്ന വാക്കിന്റെ അർത്ഥങ്ങളും അവ തമ്മിലുള്ള വ്യത്യാസങ്ങളും എന്തൊക്കെയാണ്?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ഭാഷയിൽ {0} എന്ന വാക്കിന്റെ അർത്ഥം എന്താണ്?</value>
   </data>
 </root>

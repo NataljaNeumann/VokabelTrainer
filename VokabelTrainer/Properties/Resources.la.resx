@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Dies Sancti Valentini</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Valde aestimatur, si has duas linguas expedite loqui potes atque confirmare vis librum vocabulorum bene compositum esse nec significationes usitatissimas omittere. Hoc facto, monitum de indole experimentali libri in editionibus futuris tolli poterit.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulor!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Maxime intensiva {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Pro hac linguarum coniunctione novus index vocabulorum praefinitus exstat, qui una cum programmate suppeditatur eademque licentia ac programma ipsum regitur. Visne indicem vocabulorum quo nunc uteris ad novam versionem renovare? Si id facere constitueris, novus index totum priorem delebit atque substituetur, etiam si priorem aliunde accepisti.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Verba nova</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Bene</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Pro hoc pari linguarum exstat liber vocabulorum; eadem licentia ac programma tegitur. Ut cursus continuus adultis destinatus creatus est. Visne eum experiri?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Versio ignota)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Quae sunt significationes et discrimina significationum vocis {0} in lingua {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Quae est significatio vocis {0} in lingua {1}?</value>
   </data>
 </root>

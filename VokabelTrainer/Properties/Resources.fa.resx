@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>روز ولنتاین </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>اگر به این دو زبان تسلط دارید و مایلید تأیید کنید که کتاب واژگان به‌خوبی تدوین شده و معانی پرکاربرد آن از قلم نیفتاده است، بسیار سپاسگزار خواهیم بود. در این صورت، می‌توان در نسخه‌های آتی، توضیحات مربوط به ماهیت آزمایشی بودن کتاب را حذف کرد.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>تبریک می‌گویم!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} به شدت</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>برای این ترکیب زبانی، یک کتاب واژگانِ از پیش‌تعریف‌شده‌ی جدید وجود دارد که همراه با نرم‌افزار ارائه می‌شود و تحت همان مجوزِ نرم‌افزار است. آیا مایلید کتاب واژگان فعلی خود را به نسخه جدید به‌روزرسانی کنید؟ در صورت انجام این کار، کتاب واژگان فعلی به‌طور کامل جایگزین خواهد شد؛ حتی اگر آن را از منبع دیگری دریافت کرده باشید.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>واژگان جدید</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>تأیید</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>برای این جفت‌زبان، یک کتاب واژگان وجود دارد که تحت همان مجوزِ نرم‌افزار عرضه می‌شود. این کتاب به عنوان یک دورهٔ پیوسته برای بزرگسالان طراحی شده است. آیا مایلید آن را امتحان کنید؟</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(نسخه ناشناس)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>در زبان {1}، معانی و تفاوت‌های معنایی {0} چیست؟</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>در زبان {1}، معنای {0} چیست؟</value>
   </data>
 </root>

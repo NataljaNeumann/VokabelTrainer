@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>عيد الحب </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>سيكون أمراً مقدراً للغاية إذا كنت تتقن هاتين اللغتين وترغب في التأكد من جودة كتاب المفردات وعدم خلوّه من المعاني شائعة الاستخدام؛ ففي هذه الحالة، يمكن إزالة الملاحظة المتعلقة بالطبيعة التجريبية للكتاب في الإصدارات المستقبلية.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>تهانينا!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} الأكثر كثافة </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>يتوفر لهذا المزيج من اللغات ملف مفردات جديد مُعد مسبقاً يُرفق مع البرنامج ويخضع لنفس شروط ترخيص البرنامج. هل ترغب في تحديث ملف المفردات الحالي لديك إلى الإصدار الجديد؟ إذا قررت القيام بذلك، فسيتم استبدال ملف المفردات بالكامل، حتى لو كنت قد حصلت على ملفك الحالي من مصدر مختلف.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>كلمات جديدة</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>موافق</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>يوجد كتاب مفردات لهذا الزوج اللغوي، وهو مرخص بنفس ترخيص البرنامج. صُمم كدورة مستمرة للبالغين. هل ترغب بتجربته؟ </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(إصدار غير معروف)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>ما هي معاني {0} والفروق بينها في اللغة {1}؟</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>ما هو معنى {0} في اللغة {1}؟</value>
   </data>
 </root>

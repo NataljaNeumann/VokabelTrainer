@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ystävänpäivä </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Arvostamme suuresti, jos puhut sujuvasti näitä kahta kieltä ja haluat varmistaa, että sanastokirja on laadukas eikä siitä puutu yleisesti käytettyjä merkityksiä. Tällöin maininta sanastokirjan kokeellisesta luonteesta voidaan poistaa tulevissa versioissa.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Onnittelut!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} intensiivisimmin</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Tälle kieliparille on saatavilla uusi, valmiiksi määritetty sanastotiedosto, joka toimitetaan ohjelmiston mukana ja jota koskee sama käyttöoikeussopimus kuin itse ohjelmistoakin. Haluatko päivittää nykyisen sanastotiedostosi uuteen versioon? Jos päätät tehdä niin, uusi tiedosto korvaa nykyisen sanastotiedoston kokonaan, vaikka olisit hankkinut sen jostain muusta lähteestä.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Uudet sanat</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Tälle kieliparille on olemassa sanastokirja, joka on saman lisenssin alainen kuin ohjelmisto. Se on suunniteltu aikuisille tarkoitetuksi jatkuvaksi kurssiksi. Haluatko kokeilla sitä? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Tuntematon versio)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Mitkä ovat sanan {0} merkitykset ja niiden väliset erot kielellä {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Mikä on sanan {0} merkitys kielellä {1}?</value>
   </data>
 </root>

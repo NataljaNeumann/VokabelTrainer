@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>情人节 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>如果您能流利使用这两种语言，并愿意确认这本词汇书制作精良且未遗漏常用释义，我们将不胜感激。若能确认无误，未来版本中即可移除关于该词汇书处于“实验性”阶段的提示。</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>恭喜！</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} 最强 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>针对此语言组合，软件附带了一本新的预定义词汇表，其授权条款与软件相同。您是否希望将当前的词汇表更新为新版本？如果选择更新，系统将覆盖整个词汇表，即使您当前的词汇表来自其他来源。</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>新词</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>确定</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>我们为该语言对开发了一本词汇书，其许可协议与软件相同。该词汇书旨在作为成人持续学习课程使用。您想试用吗？ </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>（版本未知）</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>在 {1} 语言中，{0} 有哪些含义及区别？</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>在 {1} 语言中，{0} 是什么意思？</value>
   </data>
 </root>

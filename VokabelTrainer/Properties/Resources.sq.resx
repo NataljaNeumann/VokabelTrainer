@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Dita e Shën Valentinit</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Do të vlerësohej shumë nëse i flisni rrjedhshëm këto dy gjuhë dhe dëshironi të konfirmoni se fjalori është hartuar mirë dhe nuk i mungojnë kuptimet që përdoren shpesh. Në këtë rast, shënimi mbi natyrën eksperimentale të fjalorit mund të hiqet në versionet e ardhshme.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Urime!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Shumë intensiv {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Për këtë kombinim gjuhësh ekziston një libër i ri fjalori i paracaktuar, i cili vjen së bashku me softuerin dhe është i licencuar sipas të njëjtës licencë si softueri. A dëshironi ta përditësoni librin tuaj aktual të fjalorit në versionin e ri? Nëse vendosni ta bëni këtë, libri aktual i fjalorit do të zëvendësohet plotësisht, edhe nëse e keni marrë atë nga një burim tjetër.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Fjalë të reja</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Në rregull</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Për këtë çift gjuhësh ekziston një libër fjalori; ai i nënshtrohet të njëjtës licencë si softueri. Është krijuar si një kurs i vazhdueshëm për të rritur. A dëshironi ta provoni?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Version i panjohur)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Në gjuhën {1}, cilat janë kuptimet dhe dallimet në kuptimet e {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Në gjuhën {1}, cili është kuptimi i {0}?</value>
   </data>
 </root>

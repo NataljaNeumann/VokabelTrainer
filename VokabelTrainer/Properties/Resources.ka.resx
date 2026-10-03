@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ვალენტინობის დღე </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ასევე ძალიან დაფასდება, თუ თავისუფლად ფლობთ ამ ორ ენას და გსურთ დაადასტუროთ, რომ ლექსიკური კრებული ხარისხიანადაა შედგენილი და მასში არ არის გამოტოვებული ხშირად გამოყენებადი მნიშვნელობები. ამ შემთხვევაში, მომავალ ვერსიებში შესაძლებელი იქნება კრებულის ექსპერიმენტული ხასიათის შესახებ მითითების მოხსნა.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>გილოცავთ!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ყველაზე ინტენსიურად</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ენების ამ კომბინაციისთვის არსებობს წინასწარ განსაზღვრული ლექსიკონის ახალი ფაილი, რომელიც პროგრამულ უზრუნველყოფასთან ერთად მოწმდება და ვრცელდება იმავე ლიცენზიით, რაც თავად პროგრამა. გსურთ, განაახლოთ თქვენი ამჟამინდელი ლექსიკონი ახალ ვერსიამდე? თუ ამას აირჩევთ, ლექსიკონი მთლიანად ჩანაცვლდება, მაშინაც კი, თუ ის სხვა წყაროდან გქონდათ მიღებული.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ახალი სიტყვები</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>კარგი</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ამ ენათა წყვილისთვის არსებობს ლექსიკის წიგნი, რომელიც იმავე ლიცენზიით არის, როგორც პროგრამული უზრუნველყოფა. ის შექმნილია როგორც მიმდინარე კურსი ზრდასრულებისთვის. გსურთ სცადოთ? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(უცნობი ვერსია)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>რა მნიშვნელობები აქვს {0}-ს {1} ენაზე და რით განსხვავდება ისინი ერთმანეთისგან?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>რა მნიშვნელობა აქვს {0}-ს {1} ენაზე?</value>
   </data>
 </root>

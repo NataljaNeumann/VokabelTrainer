@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>བརྩེ་དུང་གི་ཉིན་མོ། </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>གལ་ཏེ་ཁྱེད་རང་གིས་སྐད་ཡིག་གཉིས་པོ་དེ་བདེ་བླག་ངང་བཤད་ཐུབ་པ་དང་མིང་ཚིག་དེབ་དེ་ལེགས་པར་བཟོས་ཡོད་པ་དང་། ཡང་ཡང་བེད་སྤྱོད་བྱེད་པའི་དོན་དག་མེད་པ་དེ་གཏན་འཁེལ་བྱེད་འདོད་ཡོད་ན། གནས་སྟངས་དེའི་ནང་མིང་ཚིག་དེབ་ཀྱི་ཚོད་ལྟའི་རང་བཞིན་སྐོར་གྱི་བརྡ་སྟོན་དེ་མ་འོངས་པའི་ཐོན་རིམ་ནང་ལ་མེད་པར་བཟོ་ཐུབ།</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>འཚམས་འདྲི་ཞུ།</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ཤུགས་ཆེ་ཤོས། </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>སྐད་ཡིག་མཉམ་སྡེབ་འདིའི་ཆེད་དུ་སྔོན་ནས་གཏན་འབེབས་བྱས་པའི་མིང་ཚིག་དེབ་གསར་པ་ཞིག་ཡོད་པ་དེ་མཉེན་ཆས་དང་མཉམ་དུ་བཏང་བ་དང་། མཉེན་ཆས་དེ་དང་འདྲ་བའི་ཆོག་མཆན་འོག་ཆོག་མཆན་ཐོབ་ཡོད། ཁྱེད་རང་གི་ད་ལྟའི་མིང་ཚིག་དེབ་དེ་ཐོན་རིམ་གསར་པར་བསྒྱུར་འདོད་དམ། གལ་ཏེ་ཁྱེད་ཀྱིས་དེ་ལྟར་བྱེད་རྒྱུའི་ཐག་གཅོད་བྱས་ན། འདིས་མིང་ཚིག་དེབ་ཆ་ཚང་དེ་བརྗེ་སྒྱུར་བྱེད། ཁྱེད་ཀྱི་མིང་ཚིག་དེབ་དེ་ཐོན་ཁུངས་གཞན་ཞིག་ནས་ཐོབ་ནའང་།</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ཚིག་གསར་པ།</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ཆོག</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>སྐད་ཡིག་ཆ་གཅིག་འདི་ལ་མིང་ཚིག་དེབ་ཅིག་ཡོད་པ་དེ་ནི་མཉེན་ཆས་དང་ཆོག་མཆན་གཅིག་པའི་འོག་ཡོད། དེ་ནི་རྒན་རྒོན་ཚོའི་ཆེད་དུ་རྒྱུན་མཐུད་ཀྱི་སློབ་ཚན་ཞིག་ཏུ་བཟོས་ཡོད། ཁྱེད་རང་ཚོད་ལྟ་བྱེད་འདོད་དམ། </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(མ་ཤེས་པའི་ཐོན་རིམ།)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1}སྐད་ཡིག་ནང་{0}ཡི་དོན་དང་དོན་གྱི་ཁྱད་པར་གང་ཡིན་ནམ།</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1}སྐད་ཡིག་ནང་{0}ཞེས་པའི་དོན་གང་ཡིན་ནམ།</value>
   </data>
 </root>

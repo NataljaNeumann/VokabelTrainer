@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ویلنٹائن ڈے</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>اگر آپ ان دونوں زبانوں میں روانی سے بات کر سکتے ہیں اور اس بات کی تصدیق کرنا چاہتے ہیں کہ ذخیرہ الفاظ کی یہ کتاب عمدہ طریقے سے تیار کی گئی ہے اور اس میں کثرت سے استعمال ہونے والے معانی شامل ہیں، تو اس اقدام کو بہت سراہا جائے گا۔ ایسی صورت میں، کتاب کی 'تجرباتی نوعیت' سے متعلق نوٹ کو مستقبل کے ورژنز (versions) سے ہٹایا جا سکتا ہے۔</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>مبارک ہو!</value>
   </data>
@@ -241,7 +245,7 @@
     <value>ذخیرہ الفاظ کی تجرباتی کتاب کو آزمانے کا شکریہ۔ اگر آپ کو کوئی غلطی یا ایک جیسی آواز والے مزید تراجم نظر آئیں تو براہ کرم فورم پر اپنی بہتری کی تجاویز پوسٹ کریں۔ سافٹ ویئر کا ورژن، زبانوں کے نام، الفاظ کے جوڑے اور بہتری کی تجاویز کا ذکر کریں۔ بہتر یہی ہے کہ بہتری کی تمام تجاویز اکٹھی کریں اور انہیں ایک ہی بار پوسٹ کریں۔</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
-    <value>اس زبان کے جوڑے کے لیے ذخیرہ الفاظ کی ایک تجرباتی کتاب موجود ہے، اور یہ اسی لائسنس کے تحت ہے جس کے تحت سافٹ ویئر ہے۔ اسے بالغوں کے لیے ایک مسلسل کورس کے طور پر ڈیزائن کیا گیا ہے، تاہم مقامی بولنے والوں (native speakers) نے اس کی پروف ریڈنگ نہیں کی ہے۔ کیا آپ اسے آزمانا چاہیں گے؟</value>
+    <value>اس زبان کے جوڑے کے لیے ذخیرہ الفاظ کی ایک تجرباتی کتاب موجود ہے، اور یہ اسی لائسنس کے تحت ہے جس کے تحت سافٹ ویئر ہے۔ اسے بالغوں کے لیے ایک مسلسل کورس کے طور پر ڈیزائن کیا گیا ہے، تاہم مقامی بولنے والوں نے اس کی پروف ریڈنگ نہیں کی ہے۔ کیا آپ اسے آزمانا چاہیں گے؟</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>درج ذیل معنی غائب تھے:</value>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>انتہائی گہرا/تفصیلی {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>زبانوں کے اس امتزاج کے لیے، پہلے سے تیار شدہ الفاظ کی ایک نئی کتاب موجود ہے جو سافٹ ویئر کے ساتھ فراہم کی جاتی ہے اور اسی لائسنس کے تحت آتی ہے جس کے تحت سافٹ ویئر ہے۔ کیا آپ اپنی موجودہ الفاظ کی کتاب کو نئے ورژن میں اپ ڈیٹ کرنا چاہیں گے؟ اگر آپ ایسا کرنے کا فیصلہ کرتے ہیں، تو اس سے الفاظ کی مکمل کتاب تبدیل (اوور رائٹ) ہو جائے گی، چاہے آپ نے اپنی کتاب کسی اور ذریعے سے ہی کیوں نہ حاصل کی ہو۔</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>نئے الفاظ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ٹھیک ہے</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>اس زبان کے جوڑے کے لیے ذخیرہ الفاظ کی ایک کتاب موجود ہے، اور یہ اسی لائسنس کے تحت ہے جس کے تحت سافٹ ویئر ہے۔ اسے بالغوں کے لیے ایک مسلسل کورس کے طور پر ڈیزائن کیا گیا ہے۔ کیا آپ اسے آزمانا چاہیں گے؟</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(نامعلوم ورژن)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} زبان میں {0} کے کیا معنی ہیں اور ان کے معانی میں کیا فرق ہے؟</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} زبان میں {0} کا کیا مطلب ہے؟</value>
   </data>
 </root>

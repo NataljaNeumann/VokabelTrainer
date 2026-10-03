@@ -207,6 +207,9 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>वेलेंटाइन दिवस </value>
   </data>
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>अगर आप इन दोनों भाषाओं को अच्छी तरह बोल सकते हैं और यह पक्का करना चाहते हैं कि शब्दावली की किताब अच्छी तरह से तैयार की गई है और इसमें अक्सर इस्तेमाल होने वाले अर्थ छूटे नहीं हैं, तो इसकी बहुत सराहना की जाएगी। ऐसे में, भविष्य के वर्शन में शब्दावली की किताब के प्रायोगिक होने के बारे में दी गई जानकारी को हटाया जा सकता है।</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>बधाई हो!</value>
   </data>
@@ -273,12 +276,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} सबसे तीव्र</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>भाषाओं के इस कॉम्बिनेशन के लिए एक नई पहले से तय वोकैबुलरी बुक है जो सॉफ़्टवेयर के साथ आती है और उसी लाइसेंस के तहत लाइसेंस्ड है जिस पर सॉफ़्टवेयर है। क्या आप अपनी मौजूदा वोकैबुलरी बुक को नए वर्शन में अपडेट करना चाहेंगे? अगर आप ऐसा करने का फ़ैसला करते हैं, तो यह पूरी वोकैबुलरी बुक को ओवरराइट कर देगा, भले ही आपने अपनी बुक किसी दूसरे सोर्स से ली हो।</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>नए शब्द</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ठीक है</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>इस भाषा युग्म के लिए एक शब्दावली पुस्तक है, जो सॉफ़्टवेयर के समान लाइसेंस के अंतर्गत है। इसे वयस्कों के लिए एक सतत पाठ्यक्रम के रूप में डिज़ाइन किया गया था। क्या आप इसे आज़माना चाहेंगे? </value>
@@ -303,5 +308,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(अज्ञात वर्शन)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} भाषा में {0} के क्या अर्थ हैं और उनके अर्थों में क्या अंतर है?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} भाषा में {0} का क्या अर्थ है?</value>
   </data>
 </root>

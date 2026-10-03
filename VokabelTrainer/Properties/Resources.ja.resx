@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>バレンタインデー </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>これら2つの言語を流暢に話すことができ、かつ、その単語帳が適切に作成されており、頻繁に使われる意味が漏れていないかを確認していただける場合は、大変ありがたく存じます。その場合、将来のバージョンでは、この単語帳が試験的なものであるという旨の注記を削除することが可能になります。</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>おめでとうございます！</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} が最も激しい </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>この言語の組み合わせには、ソフトウェアに同梱され、ソフトウェアと同じライセンスが適用される新しい標準語彙集が用意されています。現在の語彙集を新しいバージョンに更新しますか？更新を行うと、たとえ現在の語彙集を別の入手元から取得していた場合でも、語彙集全体が上書きされます。</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>新しい単語</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>この言語ペアには、ソフトウェアと同じライセンスが適用されます。大人向けの継続学習コースとして設計されています。試してみませんか？ </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(バージョン不明)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1}語において、{0}にはどのような意味があり、それらの意味にはどのような違いがありますか？</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1}語において、{0}はどのような意味ですか？</value>
   </data>
 </root>

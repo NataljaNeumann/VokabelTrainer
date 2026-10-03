@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>День святого Валентина </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Ми також будемо дуже вдячні, якщо ви вільно володієте цими двома мовами й готові підтвердити якість цього словника та відсутність у ньому пропусків щодо часто вживаних значень. У такому разі в майбутніх версіях можна буде прибрати примітку про експериментальний характер словника.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Вітаємо!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} найбільш інтенсивно</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Для цієї мовної пари доступний новий стандартний словник, що постачається разом із програмою та розповсюджується на тих самих умовах ліцензування. Бажаєте оновити наявний словник до нової версії? Якщо ви погодитеся, поточний словник буде повністю замінено, навіть якщо ви отримали його з іншого джерела.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Нові слова</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ОК</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Для цієї мовної пари існує словниковий запас, який поширюється за тією ж ліцензією, що й програмне забезпечення. Він був розроблений як постійний курс для дорослих. Хочете спробувати? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Невідома версія)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Які значення та відмінності в значеннях має слово {0} у мові {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Яке значення має слово {0} у мові {1}?</value>
   </data>
 </root>

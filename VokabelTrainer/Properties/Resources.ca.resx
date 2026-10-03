@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Dia de Sant Valentí </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>També s'agrairia molt que, si parles amb fluïdesa aquests dos idiomes, poguessis confirmar que el recull de vocabulari està ben elaborat i no hi falten significats d'ús freqüent. En aquest cas, l'avís sobre el caràcter experimental del recull es podria eliminar en futures versions.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Enhorabona!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} amb més intensitat</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Per a aquesta combinació d'idiomes hi ha un nou fitxer de vocabulari predefinit que s'inclou amb el programari i que està subjecte a la mateixa llicència que aquest. Voleu actualitzar el vostre fitxer de vocabulari actual a la nova versió? Si decidiu fer-ho, se sobreescriurà tot el fitxer de vocabulari, fins i tot si l'havíeu obtingut d'una altra font.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Paraules noves</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>D'acord</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Hi ha un llibre de vocabulari per a aquest parell d'idiomes, que té la mateixa llicència que el programari. Va ser dissenyat com a curs continu per a adults. Voleu provar-ho? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Versió desconeguda)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>En l'idioma {1}, quins són els significats i les diferències de significat de {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>En l'idioma {1}, quin és el significat de {0}?</value>
   </data>
 </root>

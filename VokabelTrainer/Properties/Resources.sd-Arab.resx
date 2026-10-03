@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ويلنٽائن ڊي</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>جيڪڏهن توهان اهي ٻه ٻوليون روانيءَ سان ڳالهائي سگهو ٿا ۽ اها تصديق ڪرڻ چاهيو ٿا ته لفظن جي اها ڪتابڙي سٺي نموني تيار ڪئي وئي آهي ۽ ان ۾ گهڻي استعمال ٿيندڙ معنائون شامل ڪرڻ کان رهجي نه ويون آهن، ته ان ڳالهه کي تمام گهڻو ساراهيو ويندو. اهڙي صورت ۾، مستقبل جي ورجنز (نسخن) مان ان ڪتابڙي جي ”تجرباتي نوعيت“ بابت ڏنل اشارو هٽائي سگهجي ٿو.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>مبارڪون!</value>
   </data>
@@ -241,7 +245,7 @@
     <value>تجرباتي ذخيره الفاظ واري ڪتاب کي آزمائڻ لاءِ توهان جي مهرباني. مهرباني ڪري فورم تي پنهنجي بهتريءَ لاءِ تجويزون پوسٽ ڪريو، جيڪڏهن توهان کي ڪي غلطيون يا هڪجهڙو آواز رکندڙ ترجمو نظر اچي. سافٽ ويئر جو ورجن، ٻولين جا نالا، لفظن جا جوڙا ۽ بهتريءَ جون تجويزون بيان ڪريو. بهتر اهو ٿيندو ته بهتريءَ لاءِ سموريون تجويزون گڏ ڪريو ۽ انهن سڀني کي هڪ ئي وقت پوسٽ ڪريو.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
-    <value>هن ٻولين جي جوڙي (language pair) لاءِ هڪ تجرباتي ذخيره الفاظ وارو ڪتاب موجود آهي، اهو ساڳئي لائسنس هيٺ آهي جنهن هيٺ سافٽ ويئر آهي. ان کي بالغن لاءِ هڪ مسلسل ڪورس طور ٺاهيو ويو آهي، جيتوڻيڪ ان جي نظرثاني (proofreading) مادري ٻولي ڳالهائيندڙن (native speakers) کان نه ڪرائي وئي آهي. ڇا توهان ان کي آزمائڻ چاهيندا؟</value>
+    <value>هن ٻولين جي جوڙي (language pair) لاءِ هڪ تجرباتي ذخيره الفاظ وارو ڪتاب موجود آهي، اهو ساڳئي لائسنس هيٺ آهي جنهن هيٺ سافٽ ويئر آهي. ان کي بالغن لاءِ هڪ مسلسل ڪورس طور ٺاهيو ويو آهي، جيتوڻيڪ ان جي نظرثاني مادري ٻولي ڳالهائيندڙن کان نه ڪرائي وئي آهي. ڇا توهان ان کي آزمائڻ چاهيندا؟</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>هيٺيان معنائون غائب هيون:</value>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>انتھائي گهري  {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ٻولين جي هن ميلاپ لاءِ، سافٽ ويئر سان گڏ هڪ نئين اڳواٽ مقرر ٿيل لفظن جي ڪتاب جي فراهمي ڪئي وئي آهي، جنهن تي ساڳيو ئي لائسنس لاڳو ٿئي ٿو جيڪو سافٽ ويئر تي آهي. ڇا توهان پنهنجي موجوده لفظن جي ڪتاب کي نئين ورزن ۾ اپڊيٽ ڪرڻ چاهيو ٿا؟ جيڪڏهن توهان ائين ڪرڻ جو فيصلو ڪريو ٿا، ته اهو عمل موجوده لفظن جي مڪمل ڪتاب کي مٽائي ڇڏيندو، جيتوڻيڪ توهان جو موجوده ڪتاب ڪنهن ٻئي ذريعي حاصل ڪيل هجي.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>نوان لفظ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ٺيڪ آهي</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>هن ٻولين جي جوڙي لاءِ هڪ ذخيره الفاظ وارو ڪتاب موجود آهي، اهو ساڳئي لائسنس هيٺ آهي جنهن هيٺ سافٽ ويئر آهي. ان کي بالغن لاءِ هڪ مسلسل ڪورس طور ٺاهيو ويو آهي. ڇا توهان ان کي آزمائڻ چاهيندا؟</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(اڻڄاتل ورزن)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ٻوليءَ ۾ {0} جون معنائون ۽ انهن جي معنائن ۾ ڪهڙو فرق آهي؟</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ٻوليءَ ۾ {0} جي معنيٰ ڇا آهي؟</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>День святого Валентина </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Мы будем очень признательны, если вы свободно владеете этими двумя языками и сможете подтвердить, что этот словарь составлен качественно и в нем не пропущены часто используемые значения. В таком случае в будущих версиях можно будет убрать примечание об экспериментальном характере словаря.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Поздравляем!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} самый интенсивный </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Для данной языковой пары доступен новый стандартный словарь, поставляемый вместе с программой и распространяемый на тех же условиях лицензирования. Хотите ли вы обновить текущий словарь до новой версии? В случае обновления текущий словарь будет полностью заменен, даже если он был получен из другого источника.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Новые слова</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ОК</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Существует словарь для этой языковой пары, который распространяется под той же лицензией, что и программное обеспечение. Он был разработан как непрерывный курс для взрослых. Хотите попробовать? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Неизвестная версия)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Каковы значения слова {0} и различия между ними в языке {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Каково значение слова {0} в языке {1}?</value>
   </data>
 </root>

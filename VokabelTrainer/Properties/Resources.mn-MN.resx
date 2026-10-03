@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Гэгээн Валентины өдөр </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Хэрэв та эдгээр хоёр хэлээр чөлөөтэй ярьдаг бөгөөд тус үгсийн сангийн ном сайн хийгдсэн, түгээмэл хэрэглэгддэг утгууд орхигдоогүй эсэхийг баталгаажуулахыг хүсвэл бид үүнийг өндрөөр үнэлэх болно. Ингэж баталгаажуулсан тохиолдолд уг номыг туршилтын шинж чанартай гэсэн санамжийг дараагийн хувилбаруудад хасах боломжтой болно.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Баяр хүргэе!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} хамгийн эрчимтэй</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Энэхүү хэлний хослолд зориулсан, програм хангамжийн хамт ирдэг, мөн уг програмтай ижил лицензээр зөвшөөрөгдсөн шинэ, урьдчилан тодорхойлсон үгсийн сангийн ном байна. Та одоогийн үгсийн сангийн номоо шинэ хувилбар руу шинэчлэхийг хүсэж байна уу? Хэрэв та шинэчлэхээр шийдвэл, таны одоогийн ном өөр эх сурвалжаас авсан байсан ч хамаагүй, бүхэлдээ шинээр солигдох болно.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Шинэ үгс</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Ойлголоо</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Энэ хэлний хосод зориулсан үгийн сангийн ном байдаг бөгөөд энэ нь програм хангамжтай ижил лицензтэй байдаг. Энэ нь насанд хүрэгчдэд зориулсан байнгын сургалтаар зохион бүтээгдсэн. Та туршиж үзмээр байна уу? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Тодорхойгүй хувилбар)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} хэлэнд {0}-ийн утга болон утгын ялгаа нь юу вэ?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} хэлэнд {0} гэдэг үгийн утга юу вэ?</value>
   </data>
 </root>

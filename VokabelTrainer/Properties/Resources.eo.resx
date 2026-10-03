@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Tago de Sankta Valenteno</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Estus ankaŭ tre aprezite, se vi flue parolus ĉi tiujn du lingvojn kaj volus konfirmi, ke la vortproviza libro estas bone verkita kaj ne mankas en ĝi ofte uzataj signifoj. En tiu okazo, la noto pri la eksperimenta naturo de la vortproviza libro povus esti forigita en estontaj versioj.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulon!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Plej intensa {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Por ĉi tiu kombinaĵo de lingvoj ekzistas nova antaŭdifinita vortproviza dosiero, kiu estas liverata kune kun la programaro kaj havas la saman permesilon kiel la programaro. Ĉu vi volas ĝisdatigi vian nunan vortprovizan dosieron al la nova versio? Se vi decidos fari tion, tio anstataŭigos la tutan vortprovizan dosieron, eĉ se vi akiris la vian el alia fonto.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Novaj vortoj</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Bone</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Por ĉi tiu lingvoparo ekzistas vortproviza libro; ĝi estas sub la sama permesilo kiel la programaro. Ĝi estis kreita kiel sinsekva kurso por plenkreskuloj. Ĉu vi ŝatus provi ĝin?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Nekonata versio)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>En la lingvo {1}, kiaj estas la signifoj kaj la diferencoj inter la signifoj de {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>En la lingvo {1}, kia estas la signifo de {0}?</value>
   </data>
 </root>

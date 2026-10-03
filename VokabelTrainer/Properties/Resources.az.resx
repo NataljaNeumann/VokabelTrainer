@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Sevgililər günü </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Əgər bu iki dildə sərbəst danışırsınızsa və lüğət kitabının keyfiyyətli olduğunu, həmçinin tez-tez işlənən mənaların orada əks olunduğunu təsdiqləmək istəyirsinizsə, bu, yüksək qiymətləndirilər. Belə olan halda, gələcək versiyalarda lüğət kitabının eksperimental xarakterdə olması barədə qeyd silinə bilər.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Təbrik edirik!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} ən intensiv </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Bu dil kombinasiyası üçün proqram təminatı ilə birlikdə təqdim olunan və onunla eyni lisenziya şərtlərinə tabe olan yeni, əvvəlcədən təyin edilmiş lüğət faylı mövcuddur. Mövcud lüğət faylınızı yeni versiyaya yeniləmək istərdinizmi? Əgər bunu etməyə qərar versəniz, hətta mövcud faylınızı başqa mənbədən əldə etmiş olsanız belə, o, tamamilə yeni lüğət faylı ilə əvəz olunacaq.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Yeni Sözlər</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Bu dil cütü üçün proqram təminatı ilə eyni lisenziya altında olan lüğət kitabı var. Bu, böyüklər üçün davamlı kurs kimi hazırlanmışdır. Bunu sınamaq istərdinizmi? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Naməlum versiya)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} dilində {0} sözünün mənaları və bu mənalar arasındakı fərqlər nələrdir?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} dilində {0} sözünün mənası nədir?</value>
   </data>
 </root>

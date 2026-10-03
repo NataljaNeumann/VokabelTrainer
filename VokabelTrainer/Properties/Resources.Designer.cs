@@ -331,6 +331,15 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to It is also highly appreciated, if you can fluently speak these two languages and want to confirm that the vocabulary book is well done and is not missing frequently used meanings. In this case the hint about experimental nature of the vocabulary book can be removed in future versions..
+        /// </summary>
+        internal static string ConfirmationByBilinguals {
+            get {
+                return ResourceManager.GetString("ConfirmationByBilinguals", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Congratulations!.
         /// </summary>
         internal static string CourseFinishedHeader {

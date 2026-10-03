@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Sevgililer Günü </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Bu iki dili akıcı bir şekilde konuşabiliyorsanız ve sözcük kitabının başarılı bir şekilde hazırlandığını, sık kullanılan anlamların eksik olmadığını teyit etmek isterseniz, bu durum büyük memnuniyetle karşılanır. Böylece, sözcük kitabının deneysel nitelikte olduğuna dair not, gelecek sürümlerde kaldırılabilir.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Tebrikler!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} en yoğun</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Bu dil kombinasyonu için, yazılımla birlikte sunulan ve yazılımla aynı lisansa tabi olan yeni, önceden tanımlanmış bir sözcük dağarcığı dosyası mevcuttur. Mevcut sözcük dağarcığı dosyanızı yeni sürüme güncellemek ister misiniz? Bunu yapmayı seçerseniz, mevcut dosyanız farklı bir kaynaktan alınmış olsa bile, sözcük dağarcığı dosyasının tamamı yeni sürümle değiştirilecektir.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Yeni Kelimeler</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Tamam</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Bu dil çifti için, yazılımla aynı lisansa sahip bir kelime kitabı bulunmaktadır. Yetişkinler için devam eden bir kurs olarak tasarlanmıştır. Denemek ister misiniz? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Bilinmeyen sürüm)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} dilinde {0} ifadesinin anlamları ve bu anlamlar arasındaki farklar nelerdir?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} dilinde {0} ifadesinin anlamı nedir?</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ڕۆژی ڤالانتاین </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>هەروەها زۆر بەرز دەنرخێنرێت، ئەگەر بتوانیت بە شێوەیەکی ڕەوان قسە بەم دوو زمانە بکەیت و بتەوێت پشتڕاستی بکەیتەوە کە کتێبی وشەسازی بە باشی کراوە و مانای زۆر بەکارهێنراوی تێدا نییە. لەم حاڵەتەدا دەتوانرێت ئاماژە سەبارەت بە سروشتی ئەزموونی کتێبی وشەسازی لە وەشانی داهاتوودا لاببرێت.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>پیرۆزە!</value>
   </data>
@@ -267,7 +271,6 @@
   <data name="LanguageFileAlreadyExistsMessage" xml:space="preserve">
     <value>پەڕگەی زمانەکە پێشتر بوونی هەیە: "{0}"، دەتەوێت بینووسیتەوە؟</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LocalizedLicenseUrl" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
@@ -282,6 +285,9 @@
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>وشەی نوێ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>باشە</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>کتێبێکی وشەسازی بۆ ئەم جووتە زمانە هەیە، کە لە ژێر هەمان مۆڵەتی نەرمەکاڵاکەدایە. وەک خولێکی بەردەوام بۆ گەورەکان داڕێژرابوو. حەز دەکەیت تاقی بکەیتەوە؟ </value>
@@ -306,5 +312,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(وەشانێکی نەناسراو)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>لە {1} زماندا مانا و جیاوازی ماناکانی {0} چییە؟</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>لە {1} زماندا مانای {0} چییە؟</value>
   </data>
 </root>

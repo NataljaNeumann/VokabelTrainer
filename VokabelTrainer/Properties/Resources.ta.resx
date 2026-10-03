@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>காதலர் தினம்</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>நீங்கள் இவ்விரு மொழிகளையும் சரளமாகப் பேசக்கூடியவராகவும், இந்தச் சொற்களஞ்சிய நூல் சிறப்பாக உருவாக்கப்பட்டுள்ளதையும், அடிக்கடி பயன்படுத்தப்படும் அர்த்தங்கள் இதில் விடுபடவில்லை என்பதையும் உறுதிப்படுத்த விரும்புபவராகவும் இருந்தால், அது மிகவும் வரவேற்கத்தக்கது. அவ்வாறான நிலையில், இந்தச் சொற்களஞ்சிய நூல் ஒரு பரிசோதனை முயற்சியாக உருவாக்கப்பட்டது என்பது குறித்த குறிப்பை வருங்காலப் பதிப்புகளில் நீக்கிவிடலாம்.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>வாழ்த்துகள்!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>மிகத் தீவிரப் பயிற்சி {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>இந்த மொழி இணைப்பிற்காக, மென்பொருளுடன் சேர்த்து வழங்கப்படும் மற்றும் அதே உரிமத்தின் கீழ் அமைந்த ஒரு புதிய முன்-வரையறுக்கப்பட்ட சொற்களஞ்சியப் புத்தகம் உள்ளது. உங்கள் தற்போதைய சொற்களஞ்சியப் புத்தகத்தை புதிய பதிப்பிற்குப் புதுப்பிக்க விரும்புகிறீர்களா? அவ்வாறு செய்ய நீங்கள் முடிவு செய்தால், உங்கள் தற்போதைய புத்தகம் வேறொரு மூலத்திலிருந்து பெறப்பட்டிருந்தாலும் கூட, அது முழுமையாகப் புதிய புத்தகத்தால் மாற்றியமைக்கப்படும்.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>புதிய சொற்கள்</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>சரி</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>இந்த மொழி இணையைச் சார்ந்த சொற்களஞ்சியப் புத்தகம் ஒன்று உள்ளது; இது மென்பொருளின் அதே உரிமத்தின் கீழ் வருகிறது. இது பெரியவர்களுக்கான தொடர் பாடநெறியாக வடிவமைக்கப்பட்டுள்ளது. இதை நீங்கள் முயன்று பார்க்க விரும்புகிறீர்களா?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(அறியப்படாத பதிப்பு)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} மொழியில் {0} என்பதன் அர்த்தங்கள் மற்றும் அவற்றுக்கிடையேயான வேறுபாடுகள் என்ன?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} மொழியில் {0} என்பதன் அர்த்தம் என்ன?</value>
   </data>
 </root>

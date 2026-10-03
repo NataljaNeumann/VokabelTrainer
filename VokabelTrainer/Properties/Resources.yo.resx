@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Falentaini ọjọ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>A ó sì mọrírì rẹ̀ gidigidi tí o bá lè sọ àwọn èdè méjèèjì wọ̀nyí dáadáa, tí o sì fẹ́ fìdí rẹ̀ múlẹ̀ pé a ṣe ìwé ọ̀rọ̀ náà dáadáa, tí kò sì sí àwọn ìtumọ̀ tí a sábà máa ń lò nínú rẹ̀ tí ó ti sọ nù. Ní irú ipò bẹ́ẹ̀, a lè yọ àkíyèsí tó sọ pé ìwé ọ̀rọ̀ náà wà ní ìpele ìdánwò kúrò nínú àwọn àtúnṣe tó ń bọ̀ wá.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Oriire!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} ti o lagbara julọ </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Fun akojọpọ awọn ede wọnyi, iwe ọrọ tuntun kan wa ti a ti ṣeto tẹlẹ, eyi ti a fi ranṣẹ pẹlu sọftiwia naa ti o si wa labẹ iwe-aṣẹ kanna pẹlu sọftiwia naa. Ṣe o fẹ ṣe imudojuiwọn iwe ọrọ rẹ ti o wa lọwọlọwọ si ẹya tuntun yii? Ti o ba pinnu lati ṣe bẹẹ, eyi yoo rọpo gbogbo iwe ọrọ atijọ rẹ patapata, paapaa ti o ba ti gba ti rẹ lati ibi miiran.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Awọn Ọrọ Tuntun</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Ó dára</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Iwe fokabulari wa fun bata ede yii, eyiti o wa labẹ iwe-aṣẹ kanna gẹgẹbi sọfitiwia naa. A ṣe apẹrẹ rẹ gẹgẹbi ilana ti nlọ lọwọ fun awọn agbalagba. Ṣe o fẹ gbiyanju rẹ? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Ẹya ti a ko mọ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Nínú èdè {1}, kí ni àwọn ìtumọ̀ àti ìyàtọ̀ láàárín àwọn ìtumọ̀ {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Nínú èdè {1}, kí ni ìtumọ̀ {0}?</value>
   </data>
 </root>

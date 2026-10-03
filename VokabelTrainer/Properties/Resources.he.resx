@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>יום האהבה </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>נשמח מאוד אם תוכלו, בהיותכם דוברי שתי השפות באופן שוטף, לאשר שספר אוצר המילים עשוי היטב ואינו מחסיר משמעויות הנמצאות בשימוש תדיר. במקרה כזה, ניתן יהיה להסיר בגרסאות עתידיות את ההערה בדבר אופיו הניסיוני של הספר.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>מזל טוב!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} אינטנסיבי ביותר </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>עבור שילוב שפות זה, קיים קובץ אוצר מילים חדש ומוגדר-מראש המצורף לתוכנה, והוא כפוף לאותו רישיון שימוש כמו התוכנה עצמה. האם ברצונך לעדכן את קובץ אוצר המילים הנוכחי שלך לגרסה החדשה? אם תבחר לעשות זאת, הפעולה תחליף לחלוטין את קובץ אוצר המילים הקיים, גם אם הקובץ שברשותך הגיע ממקור אחר.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>מילים חדשות</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>אישור</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>קיים ספר אוצר מילים עבור זוג שפות זה, תחת אותו רישיון כמו התוכנה. הוא תוכנן כקורס מתמשך למבוגרים. האם תרצו לנסות אותו? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(גרסה לא ידועה)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>בשפה {1}, מהן המשמעויות וההבדלים במשמעויות של {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>בשפה {1}, מהי המשמעות של {0}?</value>
   </data>
 </root>

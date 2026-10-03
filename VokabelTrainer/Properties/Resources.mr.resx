@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>व्हॅलेंटाईन डे</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>जर तुम्ही या दोन भाषा अस्खलितपणे बोलत असाल आणि तुम्हाला हे तपासायचे असेल की शब्दसंग्रहाचे पुस्तक चांगल्या प्रकारे तयार केले आहे आणि त्यात वारंवार वापरले जाणारे अर्थ वगळलेले नाहीत, तर त्याचे नक्कीच स्वागत केले जाईल. अशा परिस्थितीत, भविष्यातील आवृत्त्यांमधून या पुस्तकाच्या प्रायोगिक स्वरूपाबाबतची सूचना काढून टाकली जाऊ शकते.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>अभिनंदन!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>सर्वात सखोल {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>भाषांच्या या जोडीसाठी, सॉफ्टवेअरसोबतच एक नवीन पूर्व-निर्धारित शब्दसंग्रह उपलब्ध करून दिला जात आहे आणि तो सॉफ्टवेअरच्याच परवान्याअंतर्गत येतो. तुम्हाला तुमचा सध्याचा शब्दसंग्रह नवीन आवृत्तीमध्ये अद्ययावत करायचा आहे का? तसे केल्यास, तुमचा सध्याचा शब्दसंग्रह पूर्णपणे बदलला जाईल (ओव्हरराईट केला जाईल), मग तो तुम्ही कोणत्याही स्रोताकडून मिळवलेला असला तरीही.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>नवीन शब्द</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ठीक आहे</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>या भाषेच्या जोडीसाठी एक शब्दसंग्रह पुस्तक उपलब्ध आहे; ते सॉफ्टवेअरप्रमाणेच त्याच परवान्याअंतर्गत येते. प्रौढांसाठीचा एक सलग अभ्यासक्रम म्हणून याची रचना केली गेली आहे. तुम्हाला ते वापरून पाहायला आवडेल का?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(अज्ञात आवृत्ती)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} या भाषेत {0} चे अर्थ आणि त्यातील अर्थांमधील फरक काय आहेत?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} या भाषेत {0} चा अर्थ काय आहे?</value>
   </data>
 </root>

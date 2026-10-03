@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Sõbrapäev </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Samuti on väga teretulnud, kui valdate neid kahte keelt vabalt ja soovite kinnitada, et sõnavararaamat on hästi koostatud ega jäta kõrvale sageli kasutatavaid tähendusi. Sel juhul saab tulevastes versioonides eemaldada märkuse sõnavararaamatu eksperimentaalse iseloomu kohta.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Palju õnne!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} kõige intensiivsemalt</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Selle keelepaari jaoks on olemas uus eelmääratletud sõnavararaamat, mis on tarkvaraga kaasas ja millel on sama litsents mis tarkvaralgi. Kas soovite uuendada oma praeguse sõnavararaamatu uuele versioonile? Kui otsustate seda teha, kirjutatakse kogu sõnavararaamat üle, isegi kui hankisite oma eksemplari teisest allikast.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Uued sõnad</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Selle keelepaari jaoks on olemas sõnavararaamat, millele kehtib sama litsents mis tarkvaralelegi. See on koostatud täiskasvanutele mõeldud järjepideva kursusena. Kas soovite seda proovida?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Tundmatu versioon)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Millised on sõna {0} tähendused ja nende erinevused keeles {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Milline on sõna {0} tähendus keeles {1}?</value>
   </data>
 </root>

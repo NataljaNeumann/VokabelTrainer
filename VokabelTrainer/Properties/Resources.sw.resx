@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Siku ya Wapendanao</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Tutashukuru sana ikiwa unaweza kuzungumza lugha hizi mbili kwa ufasaha na ungependa kuthibitisha kuwa kitabu hiki cha msamiati kimetengenezwa vizuri na hakikosi maana zinazotumiwa mara kwa mara. Katika hali hiyo, dokezo kuhusu asili ya majaribio ya kitabu hiki linaweza kuondolewa katika matoleo yajayo.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Hongera!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>Mafunzo ya kina zaidi {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Kwa mchanganyiko huu wa lugha, kuna kitabu kipya cha msamiati kilichotayarishwa awali ambacho huja pamoja na programu na kinatumia leseni ileile ya programu hiyo. Je, ungependa kusasisha kitabu chako cha sasa cha msamiati hadi toleo jipya? Ukiamua kufanya hivyo, hatua hii itafuta na kuchukua nafasi ya kitabu chako cha sasa cha msamiati kabisa, hata kama ulikipata kutoka chanzo kingine.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Maneno mapya</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Sawa</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Kwa jozi hii ya lugha kuna kitabu cha msamiati; kinatumia leseni sawa na ile ya programu. Kimeundwa kama kozi endelevu kwa watu wazima. Je, ungependa kukijaribu?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Toleo lisilojulikana)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Katika lugha ya {1}, ni zipi maana na tofauti za maana za {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Katika lugha ya {1}, ni nini maana ya {0}?</value>
   </data>
 </root>

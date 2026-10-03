@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentinsdagen </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Det settes også stor pris på om du snakker disse to språkene flytende og kan bekrefte at ordforrådsboken er godt utformet og ikke mangler ofte brukte betydninger. I så fall kan merknaden om at ordforrådsboken er av eksperimentell art, fjernes i fremtidige versjoner.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Gratulerer!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} mest intensivt</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>For denne språkkombinasjonen finnes det en ny, forhåndsdefinert ordliste som følger med programvaren, og som er lisensiert under samme lisens som programvaren. Ønsker du å oppdatere den nåværende ordlisten til den nye versjonen? Hvis du velger å gjøre dette, vil hele ordlisten bli overskrevet, selv om den opprinnelige listen kom fra en annen kilde.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Nye ord</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Det finnes en vokabularbok for dette språkparet, som er under samme lisens som programvaren. Den ble designet som et pågående kurs for voksne. Vil du prøve den? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Ukjent versjon)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Hva er betydningene og forskjellene i betydning for {0} på språket {1}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Hva er betydningen av {0} på språket {1}?</value>
   </data>
 </root>

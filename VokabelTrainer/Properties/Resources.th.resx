@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>วันวาเลนไทน์ </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>จะเป็นประโยชน์อย่างยิ่งหากคุณสามารถพูดได้คล่องแคล่วทั้งสองภาษานี้ และต้องการช่วยยืนยันว่าหนังสือคำศัพท์เล่มนี้จัดทำขึ้นอย่างดีและไม่มีการตกหล่นความหมายที่ใช้กันบ่อย หากเป็นเช่นนั้น ข้อความที่ระบุว่าหนังสือคำศัพท์เล่มนี้ยังอยู่ในขั้นทดลองก็จะสามารถตัดออกได้ในเวอร์ชันถัดไป</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ขอแสดงความยินดี!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} รุนแรงที่สุด </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>สำหรับการจับคู่ภาษานี้ มีไฟล์คำศัพท์ที่กำหนดไว้ล่วงหน้าชุดใหม่มาพร้อมกับซอฟต์แวร์ และอยู่ภายใต้เงื่อนไขการอนุญาตใช้งานเดียวกันกับซอฟต์แวร์ คุณต้องการอัปเดตไฟล์คำศัพท์ปัจจุบันของคุณเป็นเวอร์ชันใหม่หรือไม่? หากคุณเลือกที่จะดำเนินการ ไฟล์คำศัพท์เดิมทั้งหมดจะถูกแทนที่ด้วยไฟล์ใหม่ แม้ว่าไฟล์เดิมของคุณจะมาจากแหล่งอื่นก็ตาม</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>คำศัพท์ใหม่</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ตกลง</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>มีหนังสือคำศัพท์สำหรับคู่ภาษานี้ ซึ่งอยู่ภายใต้ลิขสิทธิ์เดียวกันกับซอฟต์แวร์ หนังสือเล่มนี้ได้รับการออกแบบให้เป็นหลักสูตรต่อเนื่องสำหรับผู้ใหญ่ คุณต้องการลองใช้หรือไม่? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(ไม่ทราบเวอร์ชัน)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>ในภาษา {1} คำว่า {0} มีความหมายอย่างไร และมีความแตกต่างของความหมายอย่างไรบ้าง</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>ในภาษา {1} คำว่า {0} มีความหมายว่าอย่างไร</value>
   </data>
 </root>

@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Bisu valentiin </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Dina am solo lool itam, sudee mën nga wax ñaari làkk yooyu bu baax, ba noppi nga bëgga firndeel ni téere vocabulaire bi defar nañu ko bu baax, te amul benn maana bu ñuy faral di jëfandikoo. Su demee nii, mën nañu dindi li ñuy wax ci nature experimentaal bu téere vocabulaire bi ci version yi ci topp.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Jërejëff!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} gëna am doole </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Ngir boole làkk yii, amna téere vocabulaire bu bees buñ tànn bu njëkk, ñu koy yónnee ak losisel bi, te ñu jox ko lisaas bi losisel bi am. Bëgg nga yeesal sa téere vocabulaire bi nga am ci version bu bees bi? Soo ko jëlee dogal, lii dina soppi téere vocabulaire bi yépp, doonte ci beneen balluwaay nga jëlee sa vocabulaire.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Baatu yu bees</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>BAAX NA</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Amna téere vocabulaire ngir ñaari làkk yii, te nekk ci ndigalu benn lisence ak losisel bi. Ñu ngi ko tëral muy njàngale buy wéy ngir mag ñi. Bëgg nga ko jéem ? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Wersioŋ buñu xamul)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Ci làkk {1} lan mooy tekki ak wuute ci tekki {0}</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Ci làkku {1} lan mooy tekki {0}</value>
   </data>
 </root>

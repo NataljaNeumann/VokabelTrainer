@@ -237,6 +237,10 @@
     <value>Valentine day</value>
     <comment>Tooltip text for the valentine day</comment>
   </data>
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>It is also highly appreciated, if you can fluently speak these two languages and want to confirm that the vocabulary book is well done and is not missing frequently used meanings. In this case the hint about experimental nature of the vocabulary book can be removed in future versions.</value>
+    <comment>This is an additional part of the message for experimental vocabulary books.</comment>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Congratulations!</value>
   </data>

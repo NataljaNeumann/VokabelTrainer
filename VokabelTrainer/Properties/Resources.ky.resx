@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Валентин күнү </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Эгер сиз бул эки тилде тең эркин сүйлөсөңүз жана сөздүк китеби сапаттуу түзүлүп, анда көп колдонулган маанилер камтылганын тастыктай алсаңыз, бул абдан жогору бааланат. Мындай учурда, кийинки версияларда сөздүк китебинин эксперименталдык мүнөзү тууралуу эскертүүнү алып салууга болот.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Куттуктайбыз!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} эң күчтүү</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Бул тилдердин айкалышы үчүн программалык камсыздоо менен кошо берилген жана ошол эле лицензия менен жөнгө салынган жаңы алдын ала аныкталган сөздүк китеби бар. Учурдагы сөздүк китебиңизди жаңы версияга жаңыртууну каалайсызбы? Эгер ошондой кылууну чечсеңиз, бул аракет учурдагы сөздүк китебин толугу менен алмаштырат (ал башка булактан алынган болсо дагы).</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Жаңы сөздөр</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Макул</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Бул тил жуп үчүн лексика китеби бар, ал программалык камсыздоо менен бирдей лицензияга ылайык. Бул чоңдор үчүн үзгүлтүксүз курс катары иштелип чыккан. Аны сынап көргүңүз келеби? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Белгисиз версия)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} тилинде {0} сөзүнүн маанилери жана алардын ортосундагы айырмачылыктар кандай?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} тилинде {0} сөзүнүн мааниси кандай?</value>
   </data>
 </root>

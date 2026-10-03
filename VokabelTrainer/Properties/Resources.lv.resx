@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Valentīna diena </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Tiek augstu novērtēts, ja pārvaldāt abas šīs valodas un vēlaties apstiprināt, ka vārdu krājuma materiāls ir kvalitatīvi izstrādāts un tajā nav izlaistas bieži lietotas nozīmes. Tādā gadījumā turpmākajās versijās varēs noņemt piezīmi par to, ka šis vārdu krājuma materiāls ir eksperimentāls.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Apsveicam!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} — {1} visintensīvāk</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Šim valodu pārim ir pieejama jauna, iepriekš sagatavota vārdnīca, kas tiek piegādāta kopā ar programmatūru un kurai ir tāda pati licence kā pašai programmatūrai. Vai vēlaties atjaunināt savu pašreizējo vārdnīcu uz jauno versiju? Ja izvēlēsieties to darīt, pašreizējā vārdnīca tiks pilnībā aizstāta, pat ja tā iegūta no cita avota.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Jauni vārdi</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Labi</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Šim valodu pārim ir vārdu krājuma grāmata, kas atrodas saskaņā ar to pašu licenci kā programmatūra. Tā tika izstrādāta kā nepārtraukts kurss pieaugušajiem. Vai vēlaties to izmēģināt? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Nezināma versija)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Kādas ir vārda {0} nozīmes un atšķirības starp tām {1} valodā?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Kāda ir vārda {0} nozīme {1} valodā?</value>
   </data>
 </root>

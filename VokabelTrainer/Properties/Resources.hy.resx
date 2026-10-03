@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Վալենտինի օր </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Շատ կգնահատվի, եթե տիրապետում եք այս երկու լեզուներին և ցանկանում եք հաստատել, որ բառապաշարի գիրքը լավ է կազմված և չի բաց թողնում հաճախ օգտագործվող իմաստները։ Այդ դեպքում՝ հետագա տարբերակներում կարելի է հեռացնել գրքի փորձնական բնույթի մասին նշումը։</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Շնորհավորում ենք!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} – {1} առավել ինտենսիվ </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Լեզուների այս զույգի համար առկա է նախապես սահմանված բառապաշարի նոր ֆայլ, որը տրամադրվում է ծրագրային ապահովման հետ միասին և ունի նույն լիցենզիան, ինչ ծրագիրը։ Ցանկանո՞ւմ եք թարմացնել ձեր ընթացիկ բառապաշարի ֆայլը նոր տարբերակով։ Եթե որոշեք դա անել, նոր ֆայլը կփոխարինի ամբողջական բառապաշարին՝ նույնիսկ եթե ձեր ունեցած ֆայլը ստացվել է այլ աղբյուրից։</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Նոր բառեր</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Լավ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Այս լեզվական զույգի համար կա բառապաշարի գիրք, որը գտնվում է ծրագրի հետ նույն լիցենզիայի ներքո։ Այն մշակվել է որպես մեծահասակների համար շարունակական դասընթաց։ Կցանկանայի՞ք փորձել այն։ </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Անհայտ տարբերակ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} լեզվում ո՞րն է {0}-ի իմաստը և ի՞նչ տարբերություններ կան դրա իմաստների միջև</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} լեզվում ո՞րն է {0}-ի իմաստը</value>
   </data>
 </root>

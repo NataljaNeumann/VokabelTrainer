@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>ವ್ಯಾಲೆಂಟೈನ್ಸ್ ಡೇ (ಪ್ರೇಮಿಗಳ ದಿನ)</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>ನೀವು ಈ ಎರಡು ಭಾಷೆಗಳನ್ನು ನಿರರ್ಗಳವಾಗಿ ಮಾತನಾಡಬಲ್ಲವರಾಗಿದ್ದು, ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವು ಉತ್ತಮವಾಗಿ ರೂಪುಗೊಂಡಿದೆ ಹಾಗೂ ಇದರಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಬಳಸಲಾಗುವ ಅರ್ಥಗಳು ಬಿಟ್ಟುಹೋಗಿಲ್ಲ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಲು ಬಯಸಿದರೆ, ಅದನ್ನು ಬಹಳವಾಗಿ ಮೆಚ್ಚಲಾಗುವುದು. ಹಾಗಾದಲ್ಲಿ, ಭವಿಷ್ಯದ ಆವೃತ್ತಿಗಳಲ್ಲಿ ಈ ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವು ಪ್ರಾಯೋಗಿಕ ಸ್ವರೂಪದ್ದಾಗಿದೆ ಎಂಬ ಸೂಚನೆಯನ್ನು ತೆಗೆದುಹಾಕಬಹುದು.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>ಅಭಿನಂದನೆಗಳು!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>ಅತ್ಯಂತ ತೀವ್ರವಾದ  {0} - {1}</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>ಈ ಭಾಷಾ ಸಂಯೋಜನೆಗಾಗಿ, ಸಾಫ್ಟ್‌ವೇರ್‌ನೊಂದಿಗೆ ಹೊಸ ಪೂರ್ವ-ನಿಗದಿತ ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವನ್ನು ಒದಗಿಸಲಾಗಿದ್ದು, ಇದು ಸಾಫ್ಟ್‌ವೇರ್‌ನದೇ ಪರವಾನಗಿಯ ಅಡಿಯಲ್ಲಿ ಬರುತ್ತದೆ. ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವನ್ನು ಹೊಸ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಲು ನೀವು ಬಯಸುವಿರಾ? ನೀವು ಹಾಗೆ ಮಾಡಲು ನಿರ್ಧರಿಸಿದರೆ, ನಿಮ್ಮ ಪುಸ್ತಕವನ್ನು ಬೇರೆ ಮೂಲದಿಂದ ಪಡೆದಿದ್ದರೂ ಸಹ, ಇದು ಸಂಪೂರ್ಣ ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ (ಓವರ್‌ರೈಟ್ ಮಾಡುತ್ತದೆ).</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>ಹೊಸ ಪದಗಳು</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>ಸರಿ</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>ಈ ಭಾಷಾ ಜೋಡಿಗಾಗಿ ಒಂದು ಶಬ್ದಕೋಶದ ಪುಸ್ತಕವಿದೆ; ಇದು ಸಾಫ್ಟ್‌ವೇರ್‌ನಂತೆಯೇ ಅದೇ ಪರವಾನಗಿಯ ಅಡಿಯಲ್ಲಿದೆ. ಇದನ್ನು ವಯಸ್ಕರಿಗಾಗಿ ನಿರಂತರ ಕೋರ್ಸ್‌ನಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ನೀವು ಇದನ್ನು ಪ್ರಯತ್ನಿಸಲು ಬಯಸುವಿರಾ?</value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(ಅಜ್ಞಾತ ಆವೃತ್ತಿ)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>{1} ಭಾಷೆಯಲ್ಲಿ {0} ರ ಅರ್ಥಗಳು ಮತ್ತು ಅವುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸಗಳೇನು?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>{1} ಭಾಷೆಯಲ್ಲಿ {0} ರ ಅರ್ಥವೇನು?</value>
   </data>
 </root>

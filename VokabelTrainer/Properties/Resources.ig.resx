@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Ụbọchị Valentine </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>A ga-enwekwa ekele dị ukwuu ma ọ bụrụ na ị maara asụsụ abụọ a nke ọma ma chọọ ikwado na e ji nlezianya dee akwụkwọ a na-akọwa okwu, nakwa na ọ nweghị nkọwa okwu ndị a na-ejikarị eme ihe nke fọdụrụ na ya. Ọ bụrụ otu a, enwere ike iwepụ ọkwa na-egosi na akwụkwọ a ka bụ nke a na-anwale anwale na mbipụta ndị ga-abịa n'ọdịnihu.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Ekele!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} kachasi ike </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Maka njikọta asụsụ a, e nwere akwụkwọ okwu ọhụrụ akọwapụtara nke e zigara ya na ngwanrọ ahụ ma nwee ikike n'okpuru otu ikike ahụ dị ka ngwanrọ ahụ. Ị chọrọ imelite akwụkwọ okwu gị ugbu a na ụdị ọhụrụ ahụ? Ọ bụrụ na ị kpebie ime nke a, nke a ga-ehichapụ akwụkwọ okwu zuru oke, ọbụlagodi na ị nwetara nke gị site na isi mmalite ọzọ.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Okwu ọhụrụ</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Ọ dị mma</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Enwere akwụkwọ okwu maka ụzọ asụsụ a, nke dị n'okpuru otu ikike dị ka ngwa ngwa. Emebere ya ka ọ bụrụ usoro mmụta na-aga n'ihu maka ndị okenye. Ọ ga-amasị gị ịnwale ya? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Ụdị amaghi)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>N'asụsụ {1}, gịnị bụ nkọwa na ọdịiche dị n'etiti nkọwa okwu {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>N'asụsụ {1}, gịnị bụ nkọwa okwu {0}?</value>
   </data>
 </root>

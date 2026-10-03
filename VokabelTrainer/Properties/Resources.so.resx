@@ -207,6 +207,10 @@
   <data name="CelebrationValentine" xml:space="preserve">
     <value>Maalinta Jacaylka </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmationByBilinguals" xml:space="preserve">
+    <value>Waxaa sidoo kale aad loo qadarinayaa haddii aad si wanaagsan ugu hadli karto labadan luqadood, isla markaana aad doonayso inaad xaqiijiso in buugga erey-bixintu uu si wanaagsan u diyaarsan yahay oo aanay ka maqnayn macnayaasha sida joogtada ah loo isticmaalo. Xaaladdan, qoraalka tilmaamaya in buugga erey-bixintu uu yahay mid tijaabo ah ayaa laga saari karaa noocyada mustaqbalka.</value>
+  </data>
   <data name="CourseFinishedHeader" xml:space="preserve">
     <value>Hambalyo!</value>
   </data>
@@ -273,12 +277,14 @@
   <data name="MostIntensive" xml:space="preserve">
     <value>{0} - {1} ugu xooggan</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewVersionOfVocabularyBook" xml:space="preserve">
     <value>Isku-darkan luuqadaha waxaa jira buug ereyo oo horay loo sii diyaariyay, kaas oo la socda barnaamijka, isla markaana leh shatiga la midka ah kan barnaamijka. Ma doonaysaa inaad cusboonaysiiso buuggaaga ereyada ee hadda jira una beddesho nooca cusub? Haddii aad go'aansato inaad sidaas sameyso, tallaabadani waxay beddeli doontaa (oo ay tirtiri doontaa) buugga ereyada oo dhan, xitaa haddii kan aad haysato laga keenay il kale.</value>
   </data>
   <data name="NewVocabularyInCourseHeader" xml:space="preserve">
     <value>Erayada Cusub</value>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Hagaag</value>
   </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>Waxa jira buug ereybixineed oo loogu talagalay lamaanahan luqadda ah, kaas oo ka hooseeya shatiga software-ka. Waxaa loo qaabeeyey sidii koorso socda oo loogu talagalay dadka waaweyn. Ma jeclaan lahayd inaad tijaabiso? </value>
@@ -303,5 +309,11 @@
   </data>
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Nooc aan la aqoon)</value>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>Luqadda {1}, waa maxay macnaha iyo kala duwanaanshaha macnaha ereyga {0}?</value>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>Luqadda {1}, waa maxay macnaha ereyga {0}?</value>
   </data>
 </root>
