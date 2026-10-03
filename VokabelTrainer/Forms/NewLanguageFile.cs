@@ -156,7 +156,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// This is execute when user presses F1 key
+        /// This is executed when user presses F1 key
         /// </summary>
         /// <param name="oSender">Sender object</param>
         /// <param name="oEventArgs">Even args</param>
