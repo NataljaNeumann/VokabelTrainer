@@ -72,6 +72,9 @@ namespace VokabelTrainer.Forms
 
             this.Text = strHeader;
 
+            // Take the text for OK button from resources
+            m_btnOk.Text = Properties.Resources.OkButtonText;
+
             ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                 "MistakeDisplayHeader.jpg");
         }

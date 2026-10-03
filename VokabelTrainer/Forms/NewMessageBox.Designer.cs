@@ -104,6 +104,8 @@ namespace VokabelTrainer
             this.Controls.Add(this.m_btnOK);
             this.Controls.Add(this.m_lblMessageText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "NewMessageBox";
             this.Shown += new System.EventHandler(this.NewMessageBox_Shown);
             this.ResumeLayout(false);
