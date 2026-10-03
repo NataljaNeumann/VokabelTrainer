@@ -1165,8 +1165,10 @@ namespace VokabelTrainer
                                 string strLangTemp = Properties.Settings.Default.LearnedLanguagePair1;
                                 string strVersionTemp = Properties.Settings.Default.LearnedLanguageVersion1;
 
-                                Properties.Settings.Default.LearnedLanguagePair1 = Properties.Settings.Default.LearnedLanguagePair2;
-                                Properties.Settings.Default.LearnedLanguageVersion1 = Properties.Settings.Default.LearnedLanguageVersion2;
+                                Properties.Settings.Default.LearnedLanguagePair1 = 
+                                    Properties.Settings.Default.LearnedLanguagePair2;
+                                Properties.Settings.Default.LearnedLanguageVersion1 = 
+                                    Properties.Settings.Default.LearnedLanguageVersion2;
 
                                 Properties.Settings.Default.LearnedLanguagePair2 = strLangTemp;
                                 Properties.Settings.Default.LearnedLanguageVersion2 = strVersionTemp;
@@ -1185,12 +1187,16 @@ namespace VokabelTrainer
                                 }
                                 else
                                 {
-                                    Properties.Settings.Default.LearnedLanguagePair1 = Properties.Settings.Default.LearnedLanguagePair3;
-                                    Properties.Settings.Default.LearnedLanguageVersion1 = Properties.Settings.Default.LearnedLanguageVersion3;
+                                    Properties.Settings.Default.LearnedLanguagePair1 = 
+                                        Properties.Settings.Default.LearnedLanguagePair3;
+                                    Properties.Settings.Default.LearnedLanguageVersion1 = 
+                                        Properties.Settings.Default.LearnedLanguageVersion3;
                                 }
 
-                                Properties.Settings.Default.LearnedLanguagePair3 = Properties.Settings.Default.LearnedLanguagePair2;
-                                Properties.Settings.Default.LearnedLanguageVersion3 = Properties.Settings.Default.LearnedLanguageVersion2;
+                                Properties.Settings.Default.LearnedLanguagePair3 = 
+                                    Properties.Settings.Default.LearnedLanguagePair2;
+                                Properties.Settings.Default.LearnedLanguageVersion3 = 
+                                    Properties.Settings.Default.LearnedLanguageVersion2;
 
                                 Properties.Settings.Default.LearnedLanguagePair2 = strLangTemp;
                                 Properties.Settings.Default.LearnedLanguageVersion2 = strVersionTemp;
@@ -1220,15 +1226,21 @@ namespace VokabelTrainer
 
                                 string strAddOn = i == 0 ? "" : i.ToString();
 
-                                strTestedPath = Path.Combine(strBaseDir, strCode1.Replace("-", "") + "-" + strCode2.Replace("-", "") + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                strTestedPath = Path.Combine(strBaseDir, strCode1.Replace("-", "") + 
+                                    "-" + strCode2.Replace("-", "") + strAddOn + ".xml");
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
                                 }
 
-                                strTestedPath = Path.Combine(strBaseDir, strCode2.Replace("-", "") + "-" + strCode1.Replace("-", "") + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+                                strTestedPath = Path.Combine(strBaseDir, strCode2.Replace("-", "") + 
+                                    "-" + strCode1.Replace("-", "") + strAddOn + ".xml");
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1236,7 +1248,9 @@ namespace VokabelTrainer
 
                                 strTestedPath = Path.Combine(strBaseDir,
                                     LanguagePart(strCode1) + "-" + strCode2.Replace("-", "") + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1245,7 +1259,9 @@ namespace VokabelTrainer
 
                                 strTestedPath = Path.Combine(strBaseDir,
                                     LanguagePart(strCode2) + "-" + strCode1.Replace("-", "") + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1254,7 +1270,9 @@ namespace VokabelTrainer
 
                                 strTestedPath = Path.Combine(strBaseDir,
                                     strCode2.Replace("-", "") + "-" + LanguagePart(strCode1) + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1263,7 +1281,9 @@ namespace VokabelTrainer
 
                                 strTestedPath = Path.Combine(strBaseDir,
                                      strCode1.Replace("-", "") + "-" + LanguagePart(strCode2) + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1273,7 +1293,9 @@ namespace VokabelTrainer
                                 strTestedPath = Path.Combine(strBaseDir,
                                     LanguagePart(strCode1) + "-" +
                                     LanguagePart(strCode2) + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
@@ -1282,7 +1304,9 @@ namespace VokabelTrainer
                                 strTestedPath = Path.Combine(strBaseDir,
                                     LanguagePart(strCode2) + "-" +
                                     LanguagePart(strCode1) + strAddOn + ".xml");
-                                if (strFilePath == null && File.Exists(strTestedPath) && CourseFileMatches(strTestedPath, strOpenedLanguagePair,
+
+                                if (strFilePath == null && File.Exists(strTestedPath) && 
+                                    CourseFileMatches(strTestedPath, strOpenedLanguagePair,
                                     ref strFileVersion, ref strFileSource, ref strFileReleaseMessage))
                                 {
                                     strFilePath = strTestedPath;
