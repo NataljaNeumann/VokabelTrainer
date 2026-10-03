@@ -37,7 +37,7 @@ find below the list of languages and supported variants of their naming in the a
 - Hebrew: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Hébreu, Иврит
 - Arabic: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russian: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanese: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korean: 한국인, Korean, Koreanisch, Корейский
 - Chinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -76,7 +76,7 @@ Veuillez trouver ci-dessous la liste des langues et les variantes prises en char
 - Hébreu: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russe: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonais: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coréen: 한국인, Korean, Koreanisch, Корейский
 - Chinois: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -115,7 +115,7 @@ A continuación encontrará la lista de idiomas y las variantes admitidas de sus
 - Hebreo: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Árabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ruso: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonés: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Chino: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -155,7 +155,7 @@ Veja abaixo a lista de idiomas e variantes suportadas de seus nomes no aplicativ
 - Hebraico: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Árabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russo: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonês: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Chinês: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -195,7 +195,7 @@ della loro denominazione nell'applicazione.
 - Ebraico: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabo: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russo: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Giapponese: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Cinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -235,7 +235,7 @@ Nachfolgend finden Sie die Liste der Sprachen und unterstützte Varianten ihrer 
 - Hebräisch: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisch: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisch: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanisch: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreanisch: 한국인, Korean, Koreanisch, Корейский
 - Chinesisch: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -252,7 +252,7 @@ die dies erfordern, z. B. Arabisch, Persisch, Paschtu, Hebräisch, Punjabi
 [Wiki](https://github.com/NataljaNeumann/VokabelTrainer/wiki)‎
 # По русски
 <a name="ru"></a>
-‎VokabelTrainer — это приложение, которое дает вам возможность тренировать словарный запас, будь то для школы, учебы или работы.
+‎VokabelTrainer — это приложение, которое дает вам возможность тренировать словарный запас, будь то для школы, учебы в вузе или работы.
 Vokabeltrainer по-немецки означает «тренажер словарного запаса». Германия – страна, где я живу. Приложение показывает вам клавиатуру на рабочем столе,
 которую вы можете использовать после установки языковых пакетов для доступа к буквам других языков и чтения словарного запаса вслух,
 если соответствующий языковой пакет доступен. Приложение поддерживает три режима обучения:
@@ -274,12 +274,12 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 - Иврит: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Арабский: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Русский: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Индийский: भारतीय, Hindi, Индийский
+- Индийский: भारतीय, हिंदी, Hindi, Индийский
 - Японский: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Корейский: 한국인, Korean, Koreanisch, Корейский
 - Китайский: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
 
-‎Для всех языков, даже тех, которых нет в списке, предпочитают называть их родным именем. 
+‎Для всех языков, даже тех, которых нет в списке, предпочитайте называть их родным именем. 
 Даже если язык не поддерживается в данный момент, он может поддерживаться в будущем.
 
 ‎Приложение поддерживает направление письма справа налево для языков, которые этого требуют, 
@@ -313,7 +313,7 @@ aby aplikacja mogła je rozpoznać i przeczytać słowa. Poniżej znajdziesz lis
 - Hebrajski: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabski: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Rusyiski: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hinduski: भारतीय, Hindi, Индийский
+- Hinduski: भारतीय, हिंदी, Hindi, Индийский
 - Japoński: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreański: 한국인, Korean, Koreanisch, Корейский
 - Chiński: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -353,7 +353,7 @@ Nawet jeśli dany język nie jest obecnie obsługiwany, może stać się obsług
 - Εβραϊκά: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Αραβικός: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ρωσικός: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Χίντι: भारतीय, Hindi, Индийский
+- Χίντι: हिंदी, Hindi, Индийский
 - Ιαπωνικά: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Κορεάτης: 한국인, Korean, Koreanisch, Корейский
 - Κινέζικα: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -392,12 +392,12 @@ talen en ondersteunde varianten van hun naamgeving in de applicatie.
 - Hebreeuws: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisch: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisch: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanse: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreaans: 한국인, Korean, Koreanisch, Корейский
 - Chinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
 
-‎AVoor alle talen, zelfs de talen die niet in de lijst staan, geeft u er de voorkeur aan om ze de oorspronkelijke naam te geven.
+‎Voor alle talen, zelfs de talen die niet in de lijst staan, geeft u er de voorkeur aan om ze de oorspronkelijke naam te geven.
 Zelfs als een taal op dit moment niet wordt ondersteund, kan deze in de toekomst wel ondersteund worden.
 
 ‎De applicatie ondersteunt de schrijfrichting van rechts naar links voor de talen die dit vereisen, b.v. Arabisch, Perzisch, Pashtu, Hebreeuws, Punjabi
@@ -432,7 +432,7 @@ sikkerhedskopieringsoplysninger gemt i skjulte filer.
 - Hebraisk: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisk: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisk: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japansk: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreansk: 한국인, Korean, Koreanisch, Корейский
 - Kinesisk: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -469,7 +469,7 @@ Alla on luettelo kielistä ja tuetuista versioista niiden nimeämisestä sovellu
 - Heprealainen: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabia: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Venäjäksi: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanilainen: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korea: 한국인, Korean, Koreanisch, Корейский
 - Kiinalainen: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -506,7 +506,7 @@ kan känna igen dem och kan läsa orden. Nedan hittar du listan över språk och
 - Hebreiska: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabiska: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ryska: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanska: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreanska: 한국인, Korean, Koreanisch, Корейский
 - Kinesiska: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -545,7 +545,7 @@ ve desteklenen ad çeşitlerini aşağıda bulabilirsiniz.
 - İbranice: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arapça: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Rusça: Русский, Rusça, Russian, Russe, Russisch, Russo, Ruso
-- Hintçe: भारतीय, Hindi, Hintçe, Индийский
+- Hintçe: हिंदी, Hindi, Hintçe, Индийский
 - Japonca: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korece: 한국인, Korean, Koreanisch, Корейский
 - Çince: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -580,7 +580,7 @@ Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家�
 - 希伯来语: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 阿拉伯: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 俄语: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 印地语: भारतीय, Hindi, Индийский
+- 印地语: हिंदी, Hindi, Индийский
 - 日语: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 朝鲜语: 한국인, Korean, Koreanisch, Корейский
 - 中文: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -617,7 +617,7 @@ Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家�
 - 希伯來文: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 阿拉伯文: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 俄語: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 印地語: भारतीय, Hindi, Индийский
+- 印地語: हिंदी, Hindi, Индийский
 - 日文: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 韓文: 한국인, Korean, Koreanisch, Корейский
 - 中文: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -655,7 +655,7 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 - ヘブライ語: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - アラビア語: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - ロシア: Русский, Russian, Russe, Russisch, Russo, Ruso
-- ヒンディー語: भारतीय, Hindi, Индийский
+- ヒンディー語: हिंदी, Hindi, Индийский
 - 日本語: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 韓国語: 한국인, Korean, Koreanisch, Корейский
 - 中国語: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -694,7 +694,7 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 - 헤브라이 사람: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 아라비아 말: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 러시아인: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 힌디어: भारतीय, Hindi, Индийский
+- 힌디어: हिंदी, Hindi, Индийский
 - 일본어: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 한국어: 한국인, Korean, Koreanisch, Корейский
 - 중국어: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -768,7 +768,7 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 - العبرية: עִברִית ،עברית ،Hebrew ،Иврит
 - العربية: العربية ،Arabic ،Arabisch ،Arabo ،Арабский
 - الروسية: Russian ،Русский
-- الهندية: Hindi ،Индийский ،भारतीय
+- الهندية: Hindi ،Индийский ،हिंदी
 - اللغة اليابانية: Japanese ،Японский ،日本語
 - اللغة الكورية: Korean ،Корейский ،한국인
 - اللغة الصينية: Chinese ،Китайский ،中文
@@ -806,7 +806,7 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 - עִברִית: עִברִית, עברית, Hebrew ,Иврит
 - עֲרָבִית: العربية, Arabic ,Арабский
 - רוּסִי: Russian ,Русский
-- הינדי: Hindi ,Индийский ,भारतीय 
+- הינדי: Hindi ,Индийский ,हिंदी 
 - שפה יפנית: Japanese ,Японский ,日本語
 - שפה קוריאנית: Korean ,Корейский ,한국인
 - שפה סינית: Chinese ,Китайский ,中文

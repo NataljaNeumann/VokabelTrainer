@@ -23,6 +23,7 @@ ________________________________________________________________________________
 is the german word for vocabulary trainer. Germany is the country I live in. The application shows you a keyboard on the desktop, where you can access the letters of other languages after installation of language packs, and
 it can read the vocabulary, in case there is a corresponding language pack.
 The applicaton supports three training modes:
+
 1. Simple training will train all the vocabulary, only slightly improving the chances to hit a word, where you made mistakes.
 2. Intensive training greatly improves the probability of problematic or new words to be shown from vocabulary book.
 3. Most intensive training will show you only problematic or new words in the book. It ends automatically, if there are no more such words in the book.
@@ -30,6 +31,7 @@ The applicaton supports three training modes:
 ‎In case there is a language pack the application can read the vocabulary, so you also can hear the pronunciation of the words.
 When creating a new vocabulary book please name the languages in a particular way, so the application can recognize them and can read the words. Please
 find below the list of languages and supported variants of their naming in the application.
+
 - English: English, Englisch, Inglés, Inglês, Inglese, Английский
 - French: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugese: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -41,7 +43,7 @@ find below the list of languages and supported variants of their naming in the a
 - Hebrew: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Hébreu, Иврит
 - Arabic: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russian: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanese: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korean: 한국인, Korean, Koreanisch, Корейский
 - Chinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -64,6 +66,7 @@ ________________________________________________________________________________
 Vokabeltrainer est le mot allemand pour entraîneur de vocabulaire. L'Allemagne est le pays dans lequel je vis.
 L'application vous montre un clavier sur le bureau, où vous pouvez accéder aux lettres d'autres langues après l'installation de packs de langue,
 et elle peut lire le vocabulaire, au cas où il existe un pack de langue correspondant. L'application prend en charge trois modes de formation :
+
 1. Une formation simple entraînera tout le vocabulaire, n'améliorant que légèrement les chances de frapper un mot là où vous avez commis des erreurs.
 2. Un entraînement intensif améliore considérablement la probabilité que des mots problématiques ou nouveaux apparaissent dans le livre de vocabulaire.
 3. La formation la plus intensive ne vous montrera que les mots problématiques ou nouveaux dans le livre. Il se termine automatiquement s'il n'y a plus de tels mots dans le livre.
@@ -72,6 +75,7 @@ et elle peut lire le vocabulaire, au cas où il existe un pack de langue corresp
 de sorte que vous pouvez également entendre la prononciation des mots. Lors de la création d'un nouveau livre de vocabulaire, 
 veuillez nommer les langues d'une manière particulière afin que l'application puisse les reconnaître et lire les mots. 
 Veuillez trouver ci-dessous la liste des langues et les variantes prises en charge pour leur dénomination dans l'application.
+
 - Anglais: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Français: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugais: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -83,7 +87,7 @@ Veuillez trouver ci-dessous la liste des langues et les variantes prises en char
 - Hébreu: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russe: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonais: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coréen: 한국인, Korean, Koreanisch, Корейский
 - Chinois: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -106,6 +110,7 @@ ________________________________________________________________________________
 Vokabeltrainer es la palabra alemana para entrenador de vocabulario. Alemania es el país en el que vivo. La aplicación te muestra un teclado en el escritorio, 
 donde puedes acceder a las letras de otros idiomas después de instalar los paquetes de idiomas, y puede leer el vocabulario, en caso de que exista un paquete 
 de idiomas correspondiente. La aplicación admite tres modos de entrenamiento:
+
 - Un entrenamiento simple entrenará todo el vocabulario, mejorando solo ligeramente las posibilidades de acertar en una palabra en la que cometió errores.
 - El entrenamiento intensivo mejora en gran medida la probabilidad de que se muestren palabras nuevas o problemáticas en el libro de vocabulario.
 - La formación más intensiva le mostrará sólo palabras nuevas o problemáticas en el libro. Termina automáticamente si no hay más palabras de este tipo en el libro.
@@ -114,6 +119,7 @@ de idiomas correspondiente. La aplicación admite tres modos de entrenamiento:
 por lo que también puedes escuchar la pronunciación de las palabras. Al crear un nuevo libro de vocabulario,
 nombre los idiomas de una manera particular, para que la aplicación pueda reconocerlos y leer las palabras.
 A continuación encontrará la lista de idiomas y las variantes admitidas de sus nombres en la aplicación.
+
 - Inglés: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Francés: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugués: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -125,7 +131,7 @@ A continuación encontrará la lista de idiomas y las variantes admitidas de sus
 - Hebreo: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Árabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ruso: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonés: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Chino: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -149,6 +155,7 @@ ________________________________________________________________________________
 Vokabeltrainer é a palavra alemã para treinador de vocabulário. A Alemanha é o país onde moro. O aplicativo mostra um teclado na área de trabalho,
 onde você pode acessar as letras de outros idiomas após a instalação dos pacotes de idiomas, e pode ler o vocabulário, caso exista um pacote 
 de idiomas correspondente. O aplicativo suporta três modos de treinamento:
+
 1. O treinamento simples irá treinar todo o vocabulário, melhorando apenas ligeiramente as chances de acertar uma palavra onde você cometeu erros.
 2. O treinamento intensivo melhora muito a probabilidade de palavras novas ou problemáticas serem mostradas no livro de vocabulário.
 3. O treinamento mais intensivo mostrará apenas palavras problemáticas ou novas no livro. Termina automaticamente, se não houver mais palavras desse tipo no livro.
@@ -157,6 +164,7 @@ de idiomas correspondente. O aplicativo suporta três modos de treinamento:
 para que você também possa ouvir a pronúncia das palavras. Ao criar um novo livro de vocabulário, nomeie os idiomas de uma 
 maneira específica, para que o aplicativo possa reconhecê-los e ler as palavras. 
 Veja abaixo a lista de idiomas e variantes suportadas de seus nomes no aplicativo.
+
 - Inglês: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Francês: Français, Französisch, Francés, Francês, Francese, Французский
 - Português: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -168,7 +176,7 @@ Veja abaixo a lista de idiomas e variantes suportadas de seus nomes no aplicativ
 - Hebraico: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Árabe: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russo: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japonês: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Chinês: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -192,6 +200,7 @@ ________________________________________________________________________________
 lo studio o la professione. Vokabeltrainer è la parola tedesca per addestratore di vocabolario. La Germania è il paese in cui vivo. 
 L'applicazione mostra una tastiera sul desktop, dove puoi accedere alle lettere di altre lingue dopo l'installazione dei pacchetti lingua, 
 e può leggere il vocabolario, nel caso in cui sia presente un pacchetto lingua corrispondente. L'applicazione supporta tre modalità di formazione:
+
 1. Un allenamento semplice allenerà tutto il vocabolario, migliorando solo leggermente le possibilità di colpire una parola, dove hai commesso degli errori.
 2. L'allenamento intensivo migliora notevolmente la probabilità che parole problematiche o nuove vengano mostrate dal vocabolario.
 3. La formazione più intensiva ti mostrerà solo le parole problematiche o nuove nel libro. Termina automaticamente, se nel libro non ci sono più parole simili.
@@ -200,6 +209,7 @@ e può leggere il vocabolario, nel caso in cui sia presente un pacchetto lingua 
 quindi puoi anche ascoltare la pronuncia delle parole. Quando crei un nuovo libro di vocabolario, dai un nome alle lingue in un modo particolare, 
 in modo che l'applicazione possa riconoscerle e leggere le parole. Di seguito è riportato l'elenco delle lingue e delle varianti supportate 
 della loro denominazione nell'applicazione.
+
 - Inglese: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Francese: Français, Französisch, Francés, Francês, Francese, Французский
 - Portoghese: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -211,7 +221,7 @@ della loro denominazione nell'applicazione.
 - Ebraico: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabo: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russo: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Giapponese: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Coreano: 한국인, Korean, Koreanisch, Корейский
 - Cinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -235,6 +245,7 @@ ________________________________________________________________________________
 Vokabeltrainer ist das deutsche Wort für Vokabeltrainer. Deutschland ist das Land, in dem ich lebe. Die Anwendung zeigt Ihnen eine Tastatur auf dem Desktop an, 
 über die Sie nach der Installation von Sprachpaketen auf die Buchstaben anderer Sprachen zugreifen und den Wortschatz vorlesen lassen können, 
 falls ein entsprechendes Sprachpaket vorhanden ist. Die Anwendung unterstützt drei Trainingsmodi:
+
 1. Einfaches Training trainiert den gesamten Wortschatz und erhöht die Chancen, ein Wort zu treffen, bei dem Sie Fehler gemacht haben, nur geringfügig.
 2. Durch intensives Training erhöht sich die Wahrscheinlichkeit erheblich, dass problematische oder neue Wörter aus dem Vokabelheft angezeigt werden.
 3. Das intensivste Training wird Ihnen nur problematische oder neue Wörter im Vokabelheft zeigen. Es endet automatisch, wenn es im Buch keine solchen Wörter mehr gibt.
@@ -243,6 +254,7 @@ falls ein entsprechendes Sprachpaket vorhanden ist. Die Anwendung unterstützt d
 sodass Sie auch die Aussprache der Wörter hören können. Wenn Sie ein neues Vokabelbuch erstellen, 
 benennen Sie die Sprachen bitte auf eine bestimmte Weise, damit die Anwendung sie erkennen und die Wörter lesen kann. 
 Nachfolgend finden Sie die Liste der Sprachen und unterstützte Varianten ihrer Benennung in der Anwendung.
+
 - Englisch: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Französisch: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugiesisch: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -254,7 +266,7 @@ Nachfolgend finden Sie die Liste der Sprachen und unterstützte Varianten ihrer 
 - Hebräisch: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisch: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisch: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanisch: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreanisch: 한국인, Korean, Koreanisch, Корейский
 - Chinesisch: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -274,10 +286,11 @@ Wiki: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
 По русски
 ______________________________________________________________________________________________________________________
 
-‎VokabelTrainer — это приложение, которое дает вам возможность тренировать словарный запас, будь то для школы, учебы или работы.
+‎VokabelTrainer — это приложение, которое дает вам возможность тренировать словарный запас, будь то для школы, учебы в вузе или работы.
 Vokabeltrainer по-немецки означает «тренажер словарного запаса». Германия – страна, где я живу. Приложение показывает вам клавиатуру на рабочем столе,
 которую вы можете использовать после установки языковых пакетов для доступа к буквам других языков и чтения словарного запаса вслух,
 если соответствующий языковой пакет доступен. Приложение поддерживает три режима обучения:
+
 1. Простая тренировка тренирует весь словарный запас и лишь немного увеличивает шансы попасть в слово, в котором вы допустили ошибку. 
 2. Интенсивное обучение значительно увеличивает вероятность того, что будут отображены проблемные или новые слова из словаря.
 3. Самое интенсивное обучение покажет вам только проблемные или новые слова в словаре. Оно заканчивается автоматически, когда таких слов в книге больше нет.
@@ -285,6 +298,7 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 ‎Если в операционной системе установлен языковой пакет, приложение может читать и произносить словарный запас, 
 поэтому вы также можете услышать произношение слов. При создании нового словаря назовите языки определенным образом, 
 чтобы приложение могло распознавать их и читать слова. Ниже вы найдете список языков и поддерживаемые варианты их названий в приложении.
+
 - Английский: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Французский: Français, Französisch, Francés, Francês, Francese, Французский
 - Португальский: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -296,7 +310,7 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 - Иврит: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Арабский: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Русский: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Индийский: भारतीय, Hindi, Индийский
+- Индийский: भारतीय, हिंदी, Hindi, Индийский
 - Японский: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Корейский: 한국인, Korean, Koreanisch, Корейский
 - Китайский: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -305,7 +319,7 @@ Vokabeltrainer по-немецки означает «тренажер слов�
 Даже если язык не поддерживается в данный момент, он может поддерживаться в будущем.
 
 ‎Приложение поддерживает направление письма справа налево для языков, которые этого требуют, 
-например. арабский, персидский, пушту, иврит, панджаби
+например. арабский, персидский, пушту, иврит, панджаби.
 
 Вам нужна поддержка?: https://github.com/NataljaNeumann/VokabelTrainer/issues
 Вики: https://github.com/NataljaNeumann/VokabelTrainer/wiki‎
@@ -320,6 +334,7 @@ ________________________________________________________________________________
 Vokabeltrainer to niemieckie słowo oznaczające trenera słownictwa. Niemcy to kraj, w którym mieszkam. Aplikacja wyświetla na pulpicie klawiaturę,
 za pomocą której po zainstalowaniu pakietów językowych możesz uzyskać dostęp do liter innych języków i głośno przeczytać słownictwo,
 jeśli dostępny jest odpowiedni pakiet językowy. Aplikacja obsługuje trzy tryby treningowe:
+
 1. Prosty trening ćwiczy całe słownictwo i tylko nieznacznie zwiększa szansę na trafienie słowa, w którym popełniłeś błąd. 
 2. Intensywny trening znacznie zwiększa prawdopodobieństwo wyświetlenia problematycznych lub nowych słów ze słownika.
 3. Najbardziej intensywny trening pokaże Ci jedynie problematyczne lub nowe słowa w książce słownictwa. Kończy się automatycznie, gdy w książce nie ma już takich słów.
@@ -327,6 +342,7 @@ jeśli dostępny jest odpowiedni pakiet językowy. Aplikacja obsługuje trzy try
 ‎Jeśli w systemie operacyjnym jest zainstalowany pakiet językowy, aplikacja może czytać i wypowiadać słownictwo, 
 dzięki czemu można również usłyszeć wymowę słów. Tworząc nową książkę ze słownictwem, nazwij języki w odpowiedni sposób, 
 aby aplikacja mogła je rozpoznać i przeczytać słowa. Poniżej znajdziesz listę języków i obsługiwanych wariantów ich nazewnictwa w aplikacji.
+
 - Angielski: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Francuski: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugalski: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -338,7 +354,7 @@ aby aplikacja mogła je rozpoznać i przeczytać słowa. Poniżej znajdziesz lis
 - Hebrajski: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabski: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Rusyiski: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hinduski: भारतीय, Hindi, Индийский
+- Hinduski: भारतीय, हिंदी, Hindi, Индийский
 - Japoński: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreański: 한국인, Korean, Koreanisch, Корейский
 - Chiński: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -362,6 +378,7 @@ ________________________________________________________________________________
 Η εφαρμογή σάς δείχνει ένα πληκτρολόγιο στην επιφάνεια εργασίας, το οποίο μπορείτε να χρησιμοποιήσετε αφού εγκαταστήσετε πακέτα γλωσσών
 για να αποκτήσετε πρόσβαση στα γράμματα άλλων γλωσσών και να διαβάσετε το λεξιλόγιο δυνατά, εάν υπάρχει διαθέσιμο αντίστοιχο πακέτο γλώσσας.
 Η εφαρμογή υποστηρίζει τρεις τρόπους εκπαίδευσης:
+
 1. Η απλή προπόνηση εκπαιδεύει ολόκληρο το λεξιλόγιο και μόνο ελαφρώς αυξάνει τις πιθανότητες να χτυπήσετε μια λέξη στην οποία κάνατε λάθος. 
 2. Η εντατική εκπαίδευση αυξάνει σημαντικά την πιθανότητα εμφάνισης προβληματικών ή νέων λέξεων από το βιβλίο λεξιλογίου.
 3. Η πιο εντατική εκπαίδευση θα σας δείξει μόνο προβληματικές ή νέες λέξεις στο βιβλίο λεξιλογίου. Τελειώνει αυτόματα όταν δεν υπάρχουν άλλες τέτοιες λέξεις στο βιβλίο.
@@ -370,6 +387,7 @@ ________________________________________________________________________________
 και να μιλήσει το λεξιλόγιο, ώστε να μπορείτε επίσης να ακούσετε την προφορά των λέξεων. Όταν δημιουργείτε ένα νέο βιβλίο λεξιλογίου, 
 ονομάστε τις γλώσσες με συγκεκριμένο τρόπο, ώστε η εφαρμογή να τις αναγνωρίζει και να διαβάζει τις λέξεις. 
 Βρείτε παρακάτω τη λίστα με τις γλώσσες και τις υποστηριζόμενες παραλλαγές της ονομασίας τους στην εφαρμογή.
+
 - Αγγλικός: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Γάλλος: Français, Französisch, Francés, Francês, Francese, Французский
 - Πορτογαλικά: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -381,7 +399,7 @@ ________________________________________________________________________________
 - Εβραϊκά: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Αραβικός: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ρωσικός: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Χίντι: भारतीय, Hindi, Индийский
+- Χίντι: हिंदी, Hindi, Индийский
 - Ιαπωνικά: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Κορεάτης: 한국인, Korean, Koreanisch, Корейский
 - Κινέζικα: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -404,6 +422,7 @@ ________________________________________________________________________________
 Vokabeltrainer is het Duitse woord voor woordenschattrainer. Duitsland is het land waar ik woon. De applicatie toont u een toetsenbord 
 op het bureaublad, dat u na het installeren van taalpakketten kunt gebruiken om toegang te krijgen tot de letters van andere talen 
 en de woordenschat voor te laten lezen als er een bijbehorend taalpakket beschikbaar is. De applicatie ondersteunt drie trainingsmodi:
+
 1. Met een eenvoudige training traint u de volledige woordenschat en vergroot u slechts een klein beetje de kans dat u een woord tegenkomt waarin u een fout hebt gemaakt. 
 2. Intensieve training vergroot de kans aanzienlijk dat problematische of nieuwe woorden uit het woordenschatboek worden weergegeven.
 3. De meest intensieve training zal u alleen problematische of nieuwe woorden in het woordenschatboek laten zien. Het eindigt automatisch als er geen dergelijke woorden meer in het boek voorkomen.
@@ -412,6 +431,7 @@ en de woordenschat voor te laten lezen als er een bijbehorend taalpakket beschik
 zodat u ook de uitspraak van de woorden kunt horen. Wanneer u een nieuw woordenschatboek maakt, geef de talen dan een bepaalde naam, 
 zodat de toepassing ze kan herkennen en de woorden kan lezen. Hieronder vindt u de lijst met 
 talen en ondersteunde varianten van hun naamgeving in de applicatie.
+
 - Engels: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Frans: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugees: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -423,12 +443,12 @@ talen en ondersteunde varianten van hun naamgeving in de applicatie.
 - Hebreeuws: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisch: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisch: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanse: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreaans: 한국인, Korean, Koreanisch, Корейский
 - Chinese: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
 
-‎AVoor alle talen, zelfs de talen die niet in de lijst staan, geeft u er de voorkeur aan om ze de oorspronkelijke naam te geven.
+‎‎Voor alle talen, zelfs de talen die niet in de lijst staan, geeft u er de voorkeur aan om ze de oorspronkelijke naam te geven.
 Zelfs als een taal op dit moment niet wordt ondersteund, kan deze in de toekomst wel ondersteund worden.
 
 ‎De applicatie ondersteunt de schrijfrichting van rechts naar links voor de talen die dit vereisen, b.v. Arabisch, Perzisch, Pashtu, Hebreeuws, Punjabi
@@ -446,6 +466,7 @@ ________________________________________________________________________________
 så du også kan høre ordenes udtale. Når du opretter en ny ordforrådsbog, bedes du navngive sprogene på en bestemt måde, 
 så applikationen kan genkende dem og kan læse ordene. Nedenfor finder du listen over sprog og 
 understøttede varianter af deres navngivning i applikationen.
+
 1. Simpel træning træner hele ordforrådet og øger kun lidt chancerne for at ramme et ord, du har lavet en fejl på. 
 2. Intensiv træning øger markant sandsynligheden for, at problematiske eller nye ord fra ordforrådsbogen vises.
 3. Den mest intensive træning vil kun vise dig problematiske eller nye ord i ordforrådsbogen. Den slutter automatisk, når der ikke er flere sådanne ord i bogen.
@@ -455,6 +476,7 @@ De originale filer og yderligere lagrede oplysninger kan kontrolleres af applika
 forsøger applikationen at reparere filen. Hvis der er en anden kopi med samme dato og længde, forsøger appen at gendanne
 individuelle blokke fra den anden kopi.Hvis dette mislykkes, vil appen forsøge at gendanne individuelle blokke fra yderligere 
 sikkerhedskopieringsoplysninger gemt i skjulte filer.
+
 - Engelsk: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Fransk: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugisisk: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -466,7 +488,7 @@ sikkerhedskopieringsoplysninger gemt i skjulte filer.
 - Hebraisk: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabisk: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Russisk: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japansk: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreansk: 한국인, Korean, Koreanisch, Корейский
 - Kinesisk: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -488,6 +510,7 @@ ________________________________________________________________________________
 Vokabeltrainer on saksankielinen sana sanaston kouluttamisesta. Saksa on maa, jossa asun. Sovellus näyttää työpöydällä näppäimistön,
 jota voit käyttää kielipakettien asennuksen jälkeen päästäksesi käsiksi muiden kielten kirjaimiin ja lukea sanaston ääneen, 
 jos vastaava kielipaketti on saatavilla. Sovellus tukee kolmea harjoitustilaa:
+
 1. Yksinkertainen harjoittelu harjoittelee koko sanastoa ja lisää vain hieman mahdollisuuksia osua sanaan, jossa olet tehnyt virheen.
 2. Intensiivinen harjoittelu lisää merkittävästi todennäköisyyttä, että ongelmallisia tai uusia sanoja sanakirjasta tulee näkyviin.
 3. Intensiivisin harjoittelu näyttää sinulle vain ongelmallisia tai uusia sanoja sanakirjasta. Se päättyy automaattisesti, kun kirjassa ei ole enää tällaisia sanoja.
@@ -495,6 +518,7 @@ jos vastaava kielipaketti on saatavilla. Sovellus tukee kolmea harjoitustilaa:
 ‎Jos käyttöjärjestelmään on asennettu kielipaketti, sovellus osaa lukea ja puhua sanastoa, joten kuulet myös sanojen ääntämisen. 
 Kun luot uutta sanakirjaa, nimeä kielet tietyllä tavalla, jotta sovellus tunnistaa ne ja voi lukea sanat. 
 Alla on luettelo kielistä ja tuetuista versioista niiden nimeämisestä sovelluksessa.
+
 - Englanti: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Ranska: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugali: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -506,7 +530,7 @@ Alla on luettelo kielistä ja tuetuista versioista niiden nimeämisestä sovellu
 - Heprealainen: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabia: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Venäjäksi: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanilainen: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korea: 한국인, Korean, Koreanisch, Корейский
 - Kiinalainen: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -528,6 +552,7 @@ ________________________________________________________________________________
 Vokabeltrainer är det tyska ordet för vokabulärtränare. Tyskland är det land där jag bor. Applikationen visar dig ett tangentbord på skrivbordet,
 som du kan använda efter att ha installerat språkpaket för att komma åt bokstäverna på andra språk och få ordförrådet uppläst om ett motsvarande
 språkpaket är tillgängligt. Applikationen stöder tre träningslägen:
+
 1. Enkel träning tränar upp hela vokabulären och ökar bara lite chanserna att träffa ett ord du gjort fel på. 
 2. Intensiv träning ökar avsevärt sannolikheten för att problematiska eller nya ord från ordboken kommer att visas.
 3. Den mest intensiva träningen kommer bara att visa dig problematiska eller nya ord i ordboken. Den slutar automatiskt när det inte finns fler sådana ord i boken.
@@ -535,6 +560,7 @@ språkpaket är tillgängligt. Applikationen stöder tre träningslägen:
 ‎Om det finns ett språkpaket installerat i operativsystemet kan applikationen läsa och tala vokabulären, 
 så att du också kan höra ordens uttal. När du skapar en ny ordbok, vänligen namnge språken på ett speciellt sätt, så att applikationen 
 kan känna igen dem och kan läsa orden. Nedan hittar du listan över språk och stödda varianter av deras namn i applikationen.
+
 - Engelska: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Franska: Français, Französisch, Francés, Francês, Francese, Французский
 - Portugisiska: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -546,7 +572,7 @@ kan känna igen dem och kan läsa orden. Nedan hittar du listan över språk och
 - Hebreiska: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arabiska: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Ryska: Русский, Russian, Russe, Russisch, Russo, Ruso
-- Hindi: भारतीय, Hindi, Индийский
+- Hindi: हिंदी, Hindi, Индийский
 - Japanska: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Koreanska: 한국인, Korean, Koreanisch, Корейский
 - Kinesiska: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -569,6 +595,7 @@ ________________________________________________________________________________
 Vokabeltrainer Almanca kelime antrenörü anlamına gelir. Yaşadığım ülke Almanya. Uygulama size masaüstünde, dil paketlerini
 yükledikten sonra diğer dillerin harflerine erişmek ve karşılık gelen bir dil paketi mevcutsa kelimelerin yüksek sesle okunmasını
 sağlamak için kullanabileceğiniz bir klavye gösterir. Uygulama üç eğitim modunu destekler:
+
 1. Basit eğitim tüm kelime dağarcığını eğitir ve hata yaptığınız bir kelimeye ulaşma şansınızı yalnızca biraz artırır.
 2. Yoğun eğitim, kelime kitabından sorunlu veya yeni kelimelerin görüntülenme olasılığını önemli ölçüde artırır.
 3. En yoğun eğitimde size yalnızca kelime kitabındaki sorunlu veya yeni kelimeler gösterilecektir. Kitapta bu tür kelimeler kalmadığında otomatik olarak sona erer.
@@ -577,6 +604,7 @@ sağlamak için kullanabileceğiniz bir klavye gösterir. Uygulama üç eğitim 
 böylece kelimelerin telaffuzunu da duyabilirsiniz. Yeni bir kelime kitabı oluştururken lütfen dilleri belirli bir şekilde adlandırın,
 böylece uygulama onları tanıyabilir ve kelimeleri okuyabilir. Lütfen uygulamada dillerin listesini 
 ve desteklenen ad çeşitlerini aşağıda bulabilirsiniz.
+
 - İngilizce: English, Englisch, Inglés, Inglês, Inglese, Английский
 - Fransızca: Français, Französisch, Francés, Francês, Francese, Французский
 - Portekizce: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -588,7 +616,7 @@ ve desteklenen ad çeşitlerini aşağıda bulabilirsiniz.
 - İbranice: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - Arapça: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - Rusça: Русский, Rusça, Russian, Russe, Russisch, Russo, Ruso
-- Hintçe: भारतीय, Hindi, Hintçe, Индийский
+- Hintçe: भारतीय, हिंदी, Hindi, Hintçe, Индийский
 - Japonca: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - Korece: 한국인, Korean, Koreanisch, Корейский
 - Çince: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -609,12 +637,14 @@ ________________________________________________________________________________
 ‎VokabelTrainer 是一款让您有机会训练词汇的应用程序，无论是在学校、学习还是工作中。
 Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家。该应用程序在桌面上向您显示一个键盘，
 您可以在安装语言包后使用该键盘来访问其他语言的字母，并在有相应语言包的情况下朗读词汇。该应用程序支持三种训练模式：
+
 1. 简单的训练可以训练整个词汇量，并且只会稍微增加击中错误单词的机会。
 2. 强化训练显着增加了词汇书中出现问题或新单词的可能性。
 3. 最强化的训练只会告诉你词汇书中有问题的单词或生词。当书中不再有此类单词时，它会自动结束。
 
 ‎如果操作系统中安装了语言包，则应用程序可以阅读和说出词汇，因此您还可以听到单词的发音。
 创建新词汇书时，请以特定方式命名语言，以便应用程序可以识别它们并读取单词。请在下面找到应用程序中的语言列表及其支持的命名变体。
+
 - 英语: English, Englisch, Inglés, Inglês, Inglese, Английский
 - 法语: Français, Französisch, Francés, Francês, Francese, Французский
 - 葡萄牙语: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -626,7 +656,7 @@ Vokabeltrainer 是德语词汇训练器的意思。德国是我居住的国家�
 - 希伯来语: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 阿拉伯: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 俄语: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 印地语: भारतीय, Hindi, Индийский
+- 印地语: हिंदी, Hindi, Индийский
 - 日语: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 朝鲜语: 한국인, Korean, Koreanisch, Корейский
 - 中文: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -649,12 +679,14 @@ VokabelTrainer 是一款讓您有機會訓練詞彙的應用程序，無論是�
 Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家。該應用程式在桌面上向您顯示一個鍵盤，
 您可以在安裝語言包後使用該鍵盤來存取其他語言的字母，並在有相應語言包的情況下朗讀詞彙。
 該應用程式支援三種訓練模式：
+
 1. 簡單的訓練可以訓練整個詞彙量，並且只會稍微增加擊中錯誤單字的機會。
 2. 強化訓練顯著增加了詞彙書中出現問題或新單字的可能性。
 3. 最強化的訓練只會告訴你詞彙書中有問題的單字或生詞。當書中不再有這類單字時，它會自動結束。
 
 ‎如果作業系統中安裝了語言包，則應用程式可以閱讀和說出詞彙，因此您也可以聽到單字的發音。建立新詞彙書時，
 請以特定方式命名語言，以便應用程式可以識別它們並讀取單字。請在下面找到應用程式中的語言清單及其支援的命名變體。
+
 - 英文: English, Englisch, Inglés, Inglês, Inglese, Английский
 - 法文: Français, Französisch, Francés, Francês, Francese, Французский
 - 葡萄牙文: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -666,7 +698,7 @@ Vokabeltrainer 是德語詞彙訓練器的意思。德國是我居住的國家�
 - 希伯來文: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 阿拉伯文: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 俄語: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 印地語: भारतीय, Hindi, Индийский
+- 印地語: हिंदी, Hindi, Индийский
 - 日文: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 韓文: 한국인, Korean, Koreanisch, Корейский
 - 中文: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -689,6 +721,7 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 アプリケーションはデスクトップにキーボードを表示します。言語パックをインストールした後、
 このキーボードを使用して他の言語の文字にアクセスし、対応する言語パックが利用可能な場合は語彙を読み上げることができます。
 アプリケーションは 3 つのトレーニング モードをサポートしています。
+
 1. 簡単なトレーニングでは語彙全体を訓練し、間違えた単語にヒットする可能性がわずかに高まるだけです。
 2. 集中的にトレーニングすると、問題のある単語や単語帳の新しい単語が表示される可能性が大幅に高まります。
 3. 最も集中的なトレーニングでは、問題のある単語や単語帳に載っている新しい単語のみを表示します。本の中にそのような単語がなくなると自動的に終了します。
@@ -696,6 +729,7 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 ‎オペレーティング システムに言語パックがインストールされている場合、アプリケーションは語彙を読んだり話したりできるため、
 単語の発音を聞くこともできます。新しい単語帳を作成するときは、アプリケーションが言語を認識して単語を読めるように、言語に特定の名前を付けてください。
 アプリケーションでサポートされている言語とその名前付けのバリエーションのリストを以下に示します。
+
 - 英語: English, Englisch, Inglés, Inglês, Inglese, Английский
 - フランス語: Français, Französisch, Francés, Francês, Francese, Французский
 - ポルトガル語: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -707,7 +741,7 @@ Vokabeltrainer はドイツ語で語彙トレーナーを意味します。ド�
 - ヘブライ語: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - アラビア語: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - ロシア: Русский, Russian, Russe, Russisch, Russo, Ruso
-- ヒンディー語: भारतीय, Hindi, Индийский
+- ヒンディー語: हिंदी, Hindi, Индийский
 - 日本語: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 韓国語: 한국인, Korean, Koreanisch, Корейский
 - 中国語: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -731,6 +765,7 @@ ________________________________________________________________________________
 Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일은 내가 살고 있는 나라이다. 
 이 애플리케이션은 데스크탑에 키보드를 표시하는데, 언어 팩을 설치한 후 이를 사용하여 다른 언어의 문자에 액세스하고 해당 
 언어 팩이 사용 가능한 경우 어휘를 소리내어 읽을 수 있습니다. 이 애플리케이션은 세 가지 훈련 모드를 지원합니다.
+
 1. 간단한 훈련은 전체 어휘를 ​​훈련하고 실수한 단어를 맞힐 확률을 약간만 증가시킵니다.
 2. 집중적인 훈련은 어휘집에서 문제가 있거나 새로운 단어가 표시될 가능성을 상당히 증가시킵니다.
 3. 가장 집중적인 훈련은 어휘집에서 문제가 있거나 새로운 단어만 보여줄 것입니다. 책에 해당 단어가 더 이상 없으면 자동으로 종료됩니다.
@@ -738,6 +773,7 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 ‎운영 체제에 언어 팩이 설치되어 있는 경우 응용 프로그램은 어휘를 읽고 말할 수 있으므로 단어의 발음도 들을 수 있습니다. 
 새 어휘 책을 만들 때 특정 방식으로 언어 이름을 지정하면 응용 프로그램이 해당 언어를 인식하고 단어를 읽을 수 있습니다. 
 아래에서 언어 목록과 애플리케이션에서 지원되는 이름 지정 변형을 찾아보세요.
+
 - 영어: English, Englisch, Inglés, Inglês, Inglese, Английский
 - 프랑스 국민: Français, Französisch, Francés, Francês, Francese, Французский
 - 포르투갈 인: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -749,7 +785,7 @@ Vokabeltrainer는 어휘 훈련을 뜻하는 독일어 단어입니다. 독일�
 - 헤브라이 사람: עִברִית, עברית, Hebrew, Hebräisch, Hebraico, Hebreo, Иврит
 - 아라비아 말: العربية, Arabic, Arabisch, Arabo, Arapça, Арабский
 - 러시아인: Русский, Russian, Russe, Russisch, Russo, Ruso
-- 힌디어: भारतीय, Hindi, Индийский
+- 힌디어: हिंदी, Hindi, Индийский
 - 일본어: 日本語, Japanese, Japanisch, Japonés, Japonês, Японский
 - 한국어: 한국인, Korean, Koreanisch, Корейский
 - 중국어: 中文, Chinese, Chinois, Chino, Сhinês, Chinesisch, Китайский
@@ -771,6 +807,7 @@ ________________________________________________________________________________
 वोकबेलट्रेनर शब्दावली प्रशिक्षक के लिए जर्मन शब्द है। जर्मनी वह देश है जहाँ मैं रहता हूँ। एप्लिकेशन आपको डेस्कटॉप पर एक कीबोर्ड दिखाता है, 
 जिसका उपयोग आप भाषा पैक स्थापित करने के बाद अन्य भाषाओं के अक्षरों तक पहुंचने के लिए कर सकते हैं और यदि संबंधित भाषा पैक उपलब्ध है तो 
 शब्दावली को जोर से पढ़ सकते हैं। एप्लिकेशन तीन प्रशिक्षण मोड का समर्थन करता है:
+
 1. सरल प्रशिक्षण संपूर्ण शब्दावली को प्रशिक्षित करता है और जिस शब्द पर आपने गलती की है उस पर प्रहार करने की संभावना केवल थोड़ी बढ़ जाती है। 
 2. गहन प्रशिक्षण से यह संभावना काफी बढ़ जाती है कि शब्दावली पुस्तक से समस्याग्रस्त या नए शब्द प्रदर्शित किए जाएंगे।
 3. सबसे गहन प्रशिक्षण आपको शब्दावली पुस्तक में केवल समस्याग्रस्त या नए शब्द दिखाएगा। जब पुस्तक में ऐसे कोई शब्द न हों तो यह स्वतः ही समाप्त हो जाता है।
@@ -778,6 +815,7 @@ ________________________________________________________________________________
 ‎यदि ऑपरेटिंग सिस्टम में कोई भाषा पैक स्थापित है तो एप्लिकेशन शब्दावली को पढ़ और बोल सकता है, 
 जिससे आप शब्दों का उच्चारण भी सुन सकते हैं। नई शब्दावली पुस्तक बनाते समय कृपया भाषाओं को एक विशेष तरीके से नाम दें, 
 ताकि एप्लिकेशन उन्हें पहचान सके और शब्दों को पढ़ सके। कृपया एप्लिकेशन में भाषाओं की सूची और उनके नामकरण के समर्थित वेरिएंट नीचे देखें।
+
 - अंग्रेज़ी: English, Englisch, Inglés, Inglês, Inglese, Английский
 - फ़्रेंच: Français, Französisch, Francés, Francês, Francese, Французский
 - पुर्तगाली: Português, Portugiesisch, Portugués, Portoghese, Portugaise, Португальский
@@ -811,6 +849,7 @@ ________________________________________________________________________________
 Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات. ألمانيا هي البلد الذي أعيش فيه.
 يعرض لك التطبيق لوحة مفاتيح على سطح المكتب، والتي يمكنك استخدامها بعد تثبيت حزم
 اللغات للوصول إلى حروف اللغات الأخرى وقراءة المفردات بصوت عالٍ في حالة توفر حزمة لغة مقابلة. يدعم التطبيق ثلاثة أوضاع للتدريب:
+
 1. التدريب البسيط يدرب المفردات بأكملها ويزيد قليلاً من فرص العثور على كلمة أخطأت فيها. 
 2. يزيد التدريب المكثف بشكل كبير من احتمالية عرض الكلمات الإشكالية أو الجديدة من كتاب المفردات.
 3. لن يُظهر لك التدريب الأكثر كثافة سوى الكلمات الإشكالية أو الجديدة في كتاب المفردات. وينتهي تلقائيًا عندما لا يكون هناك المزيد من هذه الكلمات في الكتاب.
@@ -818,6 +857,7 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 ‏في حالة وجود حزمة لغة مثبتة في نظام التشغيل، يمكن للتطبيق قراءة المفردات والتحدث بها،
 بحيث يمكنك أيضًا سماع نطق الكلمات. عند إنشاء كتاب مفردات جديد، يرجى تسمية اللغات بطريقة معينة،
 حتى يتمكن التطبيق من التعرف عليها ويمكنه قراءة الكلمات. يرجى الاطلاع أدناه على قائمة اللغات والمتغيرات المدعومة لتسميتها في التطبيق.
+
 - إنجليزي: Englisch ،Английский ،English
 - فرنسي: Francese ،Французский ،Français
 - البرتغالية: Portoghese ،Португальский ،Português
@@ -829,7 +869,7 @@ Vokabeltrainer هي الكلمة الألمانية لمدرب المفردات.
 - العبرية: עִברִית ،עברית ،Hebrew ،Иврит
 - العربية: العربية ،Arabic ،Arabisch ،Arabo ،Арабский
 - الروسية: Russian ،Русский
-- الهندية: Hindi ،Индийский ،भारतीय
+- الهندية: Hindi ،Индийский ،हिंदी
 - اللغة اليابانية: Japanese ،Японский ،日本語
 - اللغة الكورية: Korean ،Корейский ،한국인
 - اللغة الصينية: Chinese ،Китайский ،中文
@@ -852,6 +892,7 @@ ________________________________________________________________________________
 Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. גרמניה היא המדינה שבה אני גר. האפליקציה מציגה לך מקלדת על שולחן העבודה,
 שבה תוכל להשתמש לאחר התקנת חבילות שפה כדי לגשת לאותיות של שפות אחרות ולהקריא את אוצר המילים בקול רם אם ערכת שפה מתאימה זמינה.
 האפליקציה תומכת בשלושה מצבי אימון:
+
 1. אימון פשוט מאמן את כל אוצר המילים ומגדיל רק במעט את הסיכוי להכות במילה שטעית בה. 
 2. אימון אינטנסיבי מגדיל משמעותית את הסבירות שיוצגו מילים בעייתיות או חדשות מתוך ספר אוצר המילים.
 3. האימון האינטנסיבי ביותר יראה לך רק מילים בעייתיות או חדשות בספר אוצר המילים. זה מסתיים אוטומטית כשאין יותר מילים כאלה בספר.
@@ -859,6 +900,7 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 ‏במקרה שיש חבילת שפה מותקנת במערכת ההפעלה, האפליקציה יכולה לקרוא ולדבר את אוצר המילים,
 כך שתוכל גם לשמוע את הגיית המילים. בעת יצירת ספר אוצר מילים חדש נא לתת שם לשפות בצורה מסוימת,
 כדי שהאפליקציה תוכל לזהות אותן ולקרוא את המילים. מצא להלן את רשימת השפות והגרסאות הנתמכות של השמות שלהן באפליקציה.
+
 - אַנגְלִית: Englisch ,Английский ,English
 - צָרְפָתִית: Francés ,Французский ,Français
 - פורטוגזית: Portoghese ,Португальский ,Português
@@ -870,7 +912,7 @@ Vokabeltrainer היא המילה הגרמנית למאמן אוצר מילים. 
 - עִברִית: עִברִית, עברית, Hebrew ,Иврит
 - עֲרָבִית: العربية, Arabic ,Арабский
 - רוּסִי: Russian ,Русский
-- הינדי: Hindi ,Индийский ,भारतीय 
+- הינדי: Hindi ,Индийский ,हिंदी 
 - שפה יפנית: Japanese ,Японский ,日本語
 - שפה קוריאנית: Korean ,Корейский ,한국인
 - שפה סינית: Chinese ,Китайский ,中文
