@@ -314,6 +314,10 @@
     <value>New words</value>
     <comment>Header for new vocabulary in course dialog</comment>
   </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>OK</value>
+    <comment>Localized text for OK button for forms that don't have their own resources</comment>
+  </data>
   <data name="PredefinedVocabularyBook" xml:space="preserve">
     <value>For this language pair there is a vocabulary book, it is under the same license as the software. It has been designed as a continuous course for adults. Would you like to try it out?</value>
     <comment>For message box about predefined vocabulary book.</comment>
@@ -341,5 +345,13 @@
   <data name="VersionUnknown" xml:space="preserve">
     <value>(Unknown version)</value>
     <comment>This is shown in version field, if the version couldn't be determined</comment>
+  </data>
+  <data name="WhatAreMeaningsOf" xml:space="preserve">
+    <value>In {1} language what are meanings and differences in meanings of {0}</value>
+    <comment>This will be formatted as a search query for one of search engines, providing help to the user about an unknown word or phrase. {0} will be probably a comma separated list of words.</comment>
+  </data>
+  <data name="WhatIsTheMeaningOf" xml:space="preserve">
+    <value>In {1} language what is the meaning of {0}</value>
+    <comment>This will be formatted as a search query for one of search engines, providing help to the user about an unknown word or phrase</comment>
   </data>
 </root>

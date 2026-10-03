@@ -556,6 +556,15 @@ namespace VokabelTrainer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        internal static string OkButtonText {
+            get {
+                return ResourceManager.GetString("OkButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to For this language pair there is a vocabulary book, it is under the same license as the software. It has been designed as a continuous course for adults. Would you like to try it out?.
         /// </summary>
         internal static string PredefinedVocabularyBook {
@@ -624,6 +633,24 @@ namespace VokabelTrainer.Properties {
         internal static string VersionUnknown {
             get {
                 return ResourceManager.GetString("VersionUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In {1} language what are meanings and differences in meanings of {0}.
+        /// </summary>
+        internal static string WhatAreMeaningsOf {
+            get {
+                return ResourceManager.GetString("WhatAreMeaningsOf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In {1} language what is the meaning of {0}.
+        /// </summary>
+        internal static string WhatIsTheMeaningOf {
+            get {
+                return ResourceManager.GetString("WhatIsTheMeaningOf", resourceCulture);
             }
         }
     }

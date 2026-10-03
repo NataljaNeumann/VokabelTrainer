@@ -36,6 +36,7 @@ namespace VokabelTrainer
         {
             // Region-specific search engines
             { "zh-CN", "https://www.baidu.com/s?wd=" },
+            { "zh-TW", "https://www.baidu.com/s?wd=" },
             { "zh-CHS", "https://www.baidu.com/s?wd=" },
             { "zh-CHT", "https://www.baidu.com/s?wd=" },
             { "ru", "https://yandex.ru/search/?text=" },
