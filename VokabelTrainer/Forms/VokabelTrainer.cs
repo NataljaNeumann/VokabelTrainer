@@ -969,7 +969,7 @@ namespace VokabelTrainer
             if (m_dlgOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
                 m_strCurrentPath = m_dlgOpenFileDialog.FileName;
-                LoadLanguageFile(null);
+                LoadLanguageFile(null, false);
             }
         }
 
@@ -1074,7 +1074,8 @@ namespace VokabelTrainer
         /// </summary>
         //===================================================================================================
         private void LoadLanguageFile(
-            int? nNeededStep
+            int? nNeededStep,
+            bool bNewlyCreated
             )
         {
             int nTotalCountCorrectAnswers = 0;
@@ -1325,13 +1326,15 @@ namespace VokabelTrainer
                                     Properties.Settings.Default.LearnedLanguageVersion1 = strFileVersion;
                                     Properties.Settings.Default.Save();
 
-                                    if (NewMessageBox.Show(this, strMessage, this.Text, "", false, false, true, "Question") == DialogResult.Yes)
+                                    if (!bNewlyCreated && 
+                                        NewMessageBox.Show(this, strMessage, this.Text, "", false, false, true, "Question")
+                                            == DialogResult.Yes)
                                     {
                                         // User agreed, let's overwrite his current vocabulary book
                                         File.Copy(strFilePath, m_strCurrentPath, true);
 
                                         // and reload
-                                        LoadLanguageFile(nNeededStep);
+                                        LoadLanguageFile(nNeededStep, true);
 
                                         // end
                                         return;
@@ -2148,7 +2151,7 @@ namespace VokabelTrainer
                     {
                         File.Copy(strFilePath, strNewPath, true);
                         
-                        LoadLanguageFile(1);
+                        LoadLanguageFile(1, true);
                     }
                     else
                     {
@@ -2946,7 +2949,7 @@ namespace VokabelTrainer
                                 if (bMore)
                                 {
                                     SaveTrainingProgress();
-                                    LoadLanguageFile(m_nStep + 1);
+                                    LoadLanguageFile(m_nStep + 1, false);
                                 }
                             }
                             else
@@ -2959,7 +2962,7 @@ namespace VokabelTrainer
                                 if (bMore)
                                 {
                                     SaveTrainingProgress();
-                                    LoadLanguageFile(m_nStep + 1);
+                                    LoadLanguageFile(m_nStep + 1, false );
                                 }
                             }
                         }
@@ -3528,7 +3531,7 @@ namespace VokabelTrainer
                                 if (bMore)
                                 {
                                     SaveTrainingProgress();
-                                    LoadLanguageFile(m_nStep + 1);
+                                    LoadLanguageFile(m_nStep + 1, false);
                                 }
                             }
                             else
@@ -3542,7 +3545,7 @@ namespace VokabelTrainer
                                 if (bMore)
                                 {
                                     SaveTrainingProgress();
-                                    LoadLanguageFile(m_nStep + 1);
+                                    LoadLanguageFile(m_nStep + 1, false);
                                 }
                             }
                         }
