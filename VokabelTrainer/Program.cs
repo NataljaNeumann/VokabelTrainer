@@ -174,7 +174,7 @@ namespace VokabelTrainer
             }
 
             if (string.IsNullOrEmpty(strSetCulture) 
-                || Properties.Settings.Default.StartsSinceCultureChange >= 1
+                || Properties.Settings.Default.StartsSinceCultureChange == 1
                 || Properties.Settings.Default.StartsSinceCultureChange == 20)
             {
                 using (Forms.CultureSelectionForm oCultureDialog =
