@@ -2214,7 +2214,8 @@ namespace VokabelTrainer
                             "  <erste-sprache-rtl>" + (oNewForm.m_chkFirstLanguageRTL.Checked ? "ja" : "nein") + "</erste-sprache-rtl>\r\n" +
                             "  <zweite-sprache-rtl>" + (oNewForm.m_chkSecondLanguageRTL.Checked ? "ja" : "nein") + "</zweite-sprache-rtl>\r\n" +
                             "<lizenz><modifikationen>" + (m_bIsModifiableFlagForXml ? "Unter Lizenzbedingungen" :
-                            "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + m_strLicense + "</text></lizenz></vokabeln>\r\n");
+                            "Keine neuen Wörter und keine Lizenzänderungen") + "</modifikationen><text>" + 
+                            m_strLicense.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;") + "</text></lizenz></vokabeln>\r\n");
                         m_oCurrentVocabularyDoc.Save(m_strCurrentPath);
 
                         m_bFirstLanguageRtl = oNewForm.m_chkFirstLanguageRTL.Checked;
