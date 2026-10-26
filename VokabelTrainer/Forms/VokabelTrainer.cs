@@ -1322,6 +1322,74 @@ namespace VokabelTrainer
                                 oNode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/publisher");
                                 string strOldSourceFromXml = oNode != null ? oNode.InnerText : "";
 
+                                if (string.IsNullOrEmpty(strOldSourceFromXml))
+                                {
+                                    oNode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/lizenz/text");
+
+                                    if (oNode != null && !string.IsNullOrWhiteSpace(oNode.InnerText))
+                                    {
+                                        string strInnerTextOfOldLicence = oNode.InnerText;
+                                        string[] astrLicenceLines = strInnerTextOfOldLicence.Split(new[] { "\r\n", "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries);
+                                        string strCandidateLine = null;
+
+                                        foreach (string strLine in astrLicenceLines)
+                                        {
+                                            if (strLine.IndexOf("copyright", StringComparison.CurrentCultureIgnoreCase) >= 0 ||
+                                                strLine.IndexOf("©", StringComparison.CurrentCulture) >= 0 ||
+                                                strLine.IndexOf("(c)", StringComparison.CurrentCultureIgnoreCase) >= 0)
+                                            {
+                                                strCandidateLine = strLine;
+                                                break;
+                                            }
+                                        }
+
+                                        if (!string.IsNullOrEmpty(strCandidateLine))
+                                        {
+                                            string strCleanedSourceFromLicence = strCandidateLine;
+
+                                            // Remove the word "Copyright" (case-insensitive)
+                                            strCleanedSourceFromLicence = 
+                                                System.Text.RegularExpressions.Regex.Replace(
+                                                    strCleanedSourceFromLicence, "(?i)copyright", "");
+
+                                            // Remove © symbol
+                                            strCleanedSourceFromLicence = 
+                                                strCleanedSourceFromLicence.Replace("©", "");
+
+                                            // Remove (c) or variants like ( C )
+                                            strCleanedSourceFromLicence = 
+                                                System.Text.RegularExpressions.Regex.Replace(
+                                                    strCleanedSourceFromLicence, @"\(\s*[cC]\s*\)", "");
+
+                                            // Remove year or year-range patterns:
+                                            // 4-digit year or year-year (allow hyphen, en-dash, em-dash)
+                                            strCleanedSourceFromLicence = 
+                                                System.Text.RegularExpressions.Regex.Replace(
+                                                    strCleanedSourceFromLicence, @"\b\d{4}(?:\s*[-–—]\s*\d{4})?\b", "");
+
+                                            // Remove common leftover punctuation sequences and extra separators
+                                            strCleanedSourceFromLicence = 
+                                                System.Text.RegularExpressions.Regex.Replace(
+                                                    strCleanedSourceFromLicence, @"[,:;\/\|\u00B7\-\–\—]+", " ");
+
+                                            // Normalize whitespace and trim
+                                            strCleanedSourceFromLicence = 
+                                                System.Text.RegularExpressions.Regex.Replace(
+                                                    strCleanedSourceFromLicence, @"\s+", " ").Trim();
+
+                                            if (!string.IsNullOrEmpty(strCleanedSourceFromLicence))
+                                            {
+                                                strOldSourceFromXml = strCleanedSourceFromLicence;
+                                            }
+                                        }
+                                    }
+
+                                    if (string.IsNullOrEmpty(strOldSourceFromXml))
+                                    {
+                                        oNode = m_oCurrentVocabularyDoc.SelectSingleNode("/vokabeln/lizenz/text");
+                                    }
+                                }
+
                                 string strOldSource = Environment.NewLine + string.Format(Resources.SourceOfPreviousVocabularyBook,
                                     string.IsNullOrWhiteSpace(strOldSourceFromXml) ? Resources.SourceUnknown : strOldSourceFromXml);
                                 string strOldVersion = Environment.NewLine + string.Format(Resources.VersionOfPreviousVocabularyBook,
