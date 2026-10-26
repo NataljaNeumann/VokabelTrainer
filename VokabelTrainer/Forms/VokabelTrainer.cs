@@ -1604,7 +1604,7 @@ namespace VokabelTrainer
                                 m_oLearnedWordsGraphData[dtmStatsDate] = nNumberWords - nNumberErrors;
 
                                 if (dtmLastStatsDate < dtmStatsDate)
-                                    dtmLastStatsDate = dtmLastStatsDate;
+                                    dtmLastStatsDate = dtmStatsDate;
                             }
                             catch
                             {
@@ -1710,7 +1710,7 @@ namespace VokabelTrainer
 
         //===================================================================================================
         /// <summary>
-        /// This is executed, when user decides to create a new language file
+        /// This is executed when user decides to create a new language file
         /// </summary>
         /// <param name="oSender">Sender object</param>
         /// <param name="oArgs">Event args</param>
