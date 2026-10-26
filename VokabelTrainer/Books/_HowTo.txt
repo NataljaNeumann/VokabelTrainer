@@ -12,7 +12,7 @@ Verbs are intentionally in first and second persons plural (polite form) and
 in third person singular (masculin), so a conversation is supported. All verbs 
 should use same forms, so there is little misunderstanding about the forms to list 
 when e.g. a german or english verb is tested. However sometimes other forms are 
-used, too.
+used, too (e.g. torture is not expected to be used in these forms)
 
 The past forms of verbs use first person singular, second person singular and
 third person singular.
@@ -23,7 +23,104 @@ Past forms of english verbs are also interpreted as adjectives, if possible.
 Afterwards reorder the words.
  - First words in the vocabulary book are same for all languages and shall
    help a tourist with basic situations.
+ - Then there are some words that appear often in songs in the first or the
+   second language.
  - Afterwards there are words that sound similarly between two languages.
    this shall help to quickly get as many words as possible. 
  - After similarly sounding words other words are placed in the order of
    their frequency/importance
+
+	List of cultures:
+        --------------- --------------- ---------------------
+        af		Afrikaans	Afrikaans
+        am		አማርኛ		Amharic
+        ar		العربية		Arabic
+        as		অসমীয়া		Assamese
+        az		azərbaycan	Azerbaijani
+        be		Беларуская	Belarusian
+        bg		български	Bulgarian
+        bn		বাংলা		Bangla
+        boCN		བོད་ཡིག (ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མཐུན་རྒྱལ་ཁབ།)	Tibetan (PRC)
+        bs		bosanski	Bosnian
+        ca		català		Catalan
+	ceRu		Нохчийн мотт	Chechen (Russia)
+        cs		čeština		Czech
+        da		dansk		Danish
+        de		Deutsch		German
+        dz		རྫོང་ཁ		Dzongkha
+        el		Ελληνικά	Greek
+        eo		esperanto	Esperanto
+        es		español		Spanish
+        et		eesti		Estonian
+        fa		فارسی		Persian
+        fi		suomi		Finnish
+        fil		Filipino	Filipino
+        fr		français	French
+        gaIE		Gaeilge (Éire)	Irish (Ireland)
+        he		עברית		Hebrew
+        hi		हिन्दी		Hindi
+        hr		hrvatski	Croatian
+        hu		magyar		Hungarian
+        hy		Հայերեն		Armenian
+        id		Indonesia	Indonesian
+        ig		Asụsụ Igbo	Igbo
+        is		íslenska	Icelandic
+        it		italiano	Italian
+        ja		日本語		Japanese
+        ka		ქართული		Georgian
+        kk		қазақ тілі	Kazakh
+        kmKH		ខ្មែរ (កម្ពុជា)	Khmer (Cambodia)
+        kn		ಕನ್ನಡ		Kannada
+        ko		한국어		Korean
+        kuIQ		کوردیی ناوەڕاست (عێراق)	Central Kurdish (Iraq)
+        ky		кыргызча	Kyrgyz
+        la		lingua latīna	Latin
+        lo		ລາວ		Lao
+        lt		lietuvių	Lithuanian
+        lv		latviešu	Latvian
+        mi		te reo Māori	Maori
+        mk		македонски	Macedonian
+        ml		മലയാളം		Malayalam
+        mn-MN		монгол (Монгол)	Mongolian (Cyrillic, Mongolia)
+        mr		मराठी		Marathi
+        ms		Melayu		Malay
+        my		ဗမာ		Burmese
+        ne		नेपाली		Nepali
+        nl		Nederlands	Dutch
+        no		norsk		Norwegian
+        or		ଓଡ଼ିଆ		Odia
+        paPK		پنجابی (پاکستان)	Punjabi (Islamic Republic of Pakistan)
+        paIN		ਪੰਜਾਬੀ (ਭਾਰਤ)	Punjabi (India)
+        pl		polski		Polish
+        prs		درى		Dari
+        ps		پښتو		Pashto
+        pt		português	Portuguese
+        quz		Runasimi	Quechua
+        ro		română		Romanian
+        ru		русский		Russian
+        rw		Kinyarwanda	Kinyarwanda
+        sa		संस्कृत		Sanskrit
+        sd		سنڌي		Sindhi (Arabic)
+        sk		slovenčina	Slovak
+        sl		slovenščina	Slovenian
+        so		Soomaali	Somali
+        sq		shqip		Albanian
+        sr		srpski		Serbian
+        sv		svenska		Swedish
+        sw		Kiswahili	Kiswahili
+        ta		தமிழ்		Tamil
+        tg		Тоҷикӣ		Tajik
+        th		ไทย		Thai
+        ti		ትግርኛ		Tigrinya
+        tk		Türkmen dili	Turkmen
+        tr		Türkçe		Turkish
+        uk		українська	Ukrainian
+        urPK		اُردو (پاکستان)		Urdu (Islamic Republic of Pakistan)
+        uz		o‘zbek		Uzbek
+        vi		Tiếng Việt	Vietnamese
+        wo		Wolof		Wolof
+        yo		Èdè Yorùbá	Yoruba
+        zhCN		中文(简体)	Chinese (Simplified)
+        zhTW		中文(繁體)	Chinese (Traditional)
+
+
