@@ -216,10 +216,6 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\About.prs.resx">
-      <DependentUpon>About.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.ps.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -568,9 +564,6 @@
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ChineseVariantSelection.or.resx">
-      <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChineseVariantSelection.prs.resx">
       <DependentUpon>ChineseVariantSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ChineseVariantSelection.quz.resx">
@@ -1151,10 +1144,6 @@
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CultureSelectionForm.prs.resx">
-      <DependentUpon>CultureSelectionForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CultureSelectionForm.quz.resx">
       <DependentUpon>CultureSelectionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1518,10 +1507,6 @@
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GraphsForm.prs.resx">
-      <DependentUpon>GraphsForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\GraphsForm.quz.resx">
       <DependentUpon>GraphsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1856,9 +1841,6 @@
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\JapaneseVariantSelection.or.resx">
-      <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JapaneseVariantSelection.prs.resx">
       <DependentUpon>JapaneseVariantSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\JapaneseVariantSelection.quz.resx">
@@ -2216,10 +2198,6 @@
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewDictionaryPair.prs.resx">
-      <DependentUpon>NewDictionaryPair.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewDictionaryPair.quz.resx">
       <DependentUpon>NewDictionaryPair.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -2572,10 +2550,6 @@
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewLanguageFile.prs.resx">
-      <DependentUpon>NewLanguageFile.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewLanguageFile.quz.resx">
       <DependentUpon>NewLanguageFile.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -2916,10 +2890,6 @@
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewMessageBox.prs.resx">
-      <DependentUpon>NewMessageBox.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewMessageBox.quz.resx">
       <DependentUpon>NewMessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -3014,9 +2984,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.or.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.prs.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.quz.resx">
@@ -3564,10 +3531,6 @@
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\VokabelTrainer.prs.resx">
-      <DependentUpon>VokabelTrainer.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\VokabelTrainer.quz.resx">
       <DependentUpon>VokabelTrainer.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -3918,10 +3881,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\WordTest.or.resx">
-      <DependentUpon>WordTest.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WordTest.prs.resx">
       <DependentUpon>WordTest.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
