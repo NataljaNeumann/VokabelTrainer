@@ -242,7 +242,7 @@
     <value>{0} à {1} entraînement</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Merci d’avoir testé le manuel de vocabulaire expérimental. N’hésitez pas à partager vos suggestions d’amélioration sur le forum si vous trouvez des erreurs ou des traductions similaires. Veuillez indiquer la version du logiciel, les noms des langues, les paires de mots et vos suggestions. Idéalement, rassemblez toutes vos suggestions et publiez-les ensemble.</value>
+    <value>Merci d'avoir testé ce recueil de vocabulaire expérimental. Si vous découvrez des erreurs ou d'autres traductions aux sonorités proches, n'hésitez pas à faire part de vos suggestions d'amélioration sur le forum. Pensez à préciser la version du logiciel, les langues concernées, les paires de mots ainsi que les améliorations proposées. Dans l'idéal, nous vous invitons à rassembler plusieurs suggestions (un nombre significatif) et à les publier toutes en une seule fois.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Un manuel de vocabulaire expérimental est disponible pour cette paire de langues. Il est sous la même licence que le logiciel et a été conçu comme un cours continu pour adultes, mais n’a pas été relu par des locuteurs natifs. Souhaitez-vous l’essayer ?</value>

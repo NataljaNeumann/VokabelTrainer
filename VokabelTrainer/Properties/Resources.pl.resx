@@ -242,7 +242,7 @@
     <value>Ćwiczyć {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Dziękujemy za wypróbowanie eksperymentalnego słownika. Jeśli znajdziesz jakieś błędy lub podobnie brzmiące tłumaczenia, opublikuj swoje sugestie dotyczące ulepszeń na forum. Podaj wersję oprogramowania, nazwy języków, pary słów i swoje sugestie. Najlepiej zbierz wszystkie sugestie i opublikuj je wszystkie naraz.</value>
+    <value>Dziękujemy za wypróbowanie eksperymentalnego słownika. Jeśli znajdziesz błędy lub kolejne pary słów o podobnym brzmieniu, prosimy o zamieszczenie swoich sugestii dotyczących poprawek na forum. Podaj wersję oprogramowania, nazwy języków, omawiane pary słów oraz proponowane ulepszenia. Najlepiej byłoby zebrać większą liczbę sugestii i przesłać je wszystkie jednocześnie.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Istnieje eksperymentalny słownik dla tej pary językowej, który jest objęty tą samą licencją co oprogramowanie. Został on zaprojektowany jako kurs ciągły dla dorosłych, ale nie został sprawdzony przez native speakerów. Chcesz go wypróbować?</value>

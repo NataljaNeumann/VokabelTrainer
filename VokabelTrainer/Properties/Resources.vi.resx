@@ -242,7 +242,7 @@
     <value>Luyện {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Cảm ơn bạn đã thử cuốn sách từ vựng thử nghiệm. Vui lòng đăng các đề xuất cải tiến của bạn trên diễn đàn nếu bạn tìm thấy bất kỳ lỗi nào hoặc nếu bạn tìm thấy các bản dịch có âm thanh tương tự hơn. Bao gồm phiên bản phần mềm, tên ngôn ngữ, các cặp từ và đề xuất của bạn. Tốt nhất là hãy thu thập tất cả các đề xuất của bạn và đăng chúng cùng một lúc.</value>
+    <value>Cảm ơn bạn đã dùng thử cuốn từ vựng thử nghiệm này. Nếu phát hiện lỗi hoặc tìm thấy các bản dịch có cách phát âm tương tự nhau, vui lòng đăng đề xuất cải thiện của bạn lên diễn đàn. Hãy nêu rõ phiên bản phần mềm, tên các ngôn ngữ, các cặp từ liên quan cùng với những đề xuất cải thiện đó. Tốt nhất, bạn nên tập hợp một số lượng đáng kể các đề xuất rồi đăng tất cả cùng một lúc.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Có một cuốn sách từ vựng thử nghiệm cho cặp ngôn ngữ này, được cấp phép giống với phần mềm. Nó được thiết kế như một khóa học liên tục dành cho người lớn nhưng chưa được người bản ngữ hiệu đính. Bạn có muốn thử không?</value>

@@ -242,7 +242,7 @@
     <value>Praktika {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Dėkojame, kad išbandėte eksperimentinę žodyno knygą. Jei radote klaidų arba panašiai skambančių vertimų, prašome skelbti savo pasiūlymus dėl patobulinimų forume. Įtraukite programinės įrangos versiją, kalbų pavadinimus, žodžių poras ir savo pasiūlymus. Idealiu atveju surinkite visus savo pasiūlymus ir paskelbkite juos visus vienu metu.</value>
+    <value>Dėkojame, kad išbandote eksperimentinį žodynėlį. Jei aptikote klaidų ar daugiau panašiai skambančių vertimų, prašome pateikti savo pasiūlymus dėl tobulinimo forume. Nurodykite programinės įrangos versiją, kalbas, žodžių poras bei siūlomus pakeitimus. Geriausia būtų, jei surinktumėte keletą (arba didesnį skaičių) pasiūlymų ir pateiktumėte juos visus vienu metu.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Šiai kalbų porai yra eksperimentinė žodyno knyga, kuriai taikoma ta pati licencija kaip ir programinei įrangai. Ji buvo sukurta kaip tęstinis kursas suaugusiesiems, tačiau jos nekorektavo gimtakalbiai. Ar norėtumėte ją išbandyti?</value>

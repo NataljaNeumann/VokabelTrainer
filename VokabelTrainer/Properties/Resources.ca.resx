@@ -242,7 +242,7 @@
     <value>Practicar {0} - {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Gràcies per provar el llibre de vocabulari experimental. Publiqueu els vostres suggeriments de millora al fòrum si trobeu errors o si trobeu traduccions més similars. Incloeu la versió del programari, els noms dels idiomes, els parells de paraules i els vostres suggeriments. Idealment, recopileu tots els vostres suggeriments i publiqueu-los tots alhora.</value>
+    <value>Gràcies per provar el llibre de vocabulari experimental. Si trobeu errors o altres traduccions que sonin de manera semblant, si us plau, publiqueu els vostres suggeriments de millora al fòrum. Indiqueu la versió del programari, els idiomes, els parells de paraules i les millores proposades. Seria ideal que recopiléssiu diversos suggeriments (un nombre significatiu) i els publiquéssiu tots alhora.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Hi ha un llibre de vocabulari experimental per a aquest parell d'idiomes, que té la mateixa llicència que el programari. Va ser dissenyat com a curs continu per a adults, però no ha estat revisat per parlants nadius. Voleu provar-ho?</value>

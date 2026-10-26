@@ -242,7 +242,7 @@
     <value>Vadite {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Hvala, ker ste preizkusili eksperimentalni besednjak. Prosimo, da svoje predloge za izboljšave objavite na forumu, če najdete kakršne koli napake ali če najdete več podobno zvenečih prevodov. Vključite različico programske opreme, imena jezikov, besedne pare in svoje predloge. Idealno bi bilo, če bi zbrali vse svoje predloge in jih objavili hkrati.</value>
+    <value>Hvala, ker preizkušate eksperimentalni besednjak. Če naletite na napake ali odkrijete več prevodov, ki zvenijo podobno, prosimo, objavite svoje predloge za izboljšave na forumu. Navedite različico programske opreme, imena jezikov, zadevne besedne pare in predlagane izboljšave. Najbolje bi bilo, če zberete več (oziroma večje število) predlogov in jih objavite vse hkrati.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Za ta jezikovni par obstaja eksperimentalni besednjak, ki je pod isto licenco kot programska oprema. Zasnovan je bil kot tekoči tečaj za odrasle, vendar ga niso lektorirali naravni govorci. Bi ga radi preizkusili?</value>

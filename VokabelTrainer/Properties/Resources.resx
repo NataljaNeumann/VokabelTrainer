@@ -272,7 +272,7 @@
     <value>Exercise {0} - {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pairs of words and the improvements. In the best case, collect all improvement suggestions and post them all at once.</value>
+    <value>Thank you for trying the experimental vocabulary book. Please post your improvement suggestions in the forum, if you find errors or more similarly sounding translations. Mention the version of the software, names of the languages, the pairs of words and the improvements. In the best case, please collect several (a significant number of) improvement suggestions and post them all at once.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>For this language pair there is an experimental vocabulary book, it is under the same license as the software. It has been designed as a continuous course for adults, however it hasn't been proofread by native speakers. Would you like to try it out?</value>

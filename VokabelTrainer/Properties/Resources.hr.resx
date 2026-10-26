@@ -242,7 +242,7 @@
     <value>Vježba {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Hvala vam što ste isprobali eksperimentalnu knjigu vokabulara. Molimo vas da objavite svoje prijedloge za poboljšanje na forumu ako pronađete bilo kakve pogreške ili ako pronađete više slično zvučećih prijevoda. Uključite verziju softvera, nazive jezika, parove riječi i svoje prijedloge. Idealno bi bilo da prikupite sve svoje prijedloge i objavite ih odjednom.</value>
+    <value>Hvala vam što isprobavate eksperimentalni rječnik. Molimo vas da na forumu objavite svoje prijedloge za poboljšanje ako uočite pogreške ili prijevode koji zvuče slično. Navedite verziju softvera, jezike, parove riječi i predložena poboljšanja. Bilo bi idealno kada biste prikupili više (znatan broj) prijedloga i objavili ih odjednom.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Postoji eksperimentalna knjiga vokabulara za ovaj jezični par, koja je pod istom licencom kao i softver. Osmišljena je kao kontinuirani tečaj za odrasle, ali je nisu lektorirali izvorni govornici. Želite li je isprobati?</value>

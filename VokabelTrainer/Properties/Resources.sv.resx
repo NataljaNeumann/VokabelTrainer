@@ -242,7 +242,7 @@
     <value>Träna {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Tack för att ni provar den experimentella ordboken. Vänligen publicera era förslag till förbättringar i forumet om ni hittar några fel eller om ni hittar fler liknande översättningar. Inkludera programvaruversionen, språknamnen, ordparen och era förslag. Helst bör ni samla alla era förslag och publicera dem på en gång.</value>
+    <value>Tack för att du provar den experimentella ordlistan. Om du hittar fel eller upptäcker fler översättningar som låter likartat, skriv gärna dina förbättringsförslag i forumet. Ange vilken programvaruversion det gäller, vilka språk det handlar om, de aktuella ordparen samt själva förbättringsförslagen. Om möjligt, samla gärna ihop flera (ett större antal) förbättringsförslag och skicka in dem alla på en gång.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Det finns en experimentell ordbok för detta språkpar, som är under samma licens som programvaran. Den utformades som en pågående kurs för vuxna men har inte korrekturlästs av modersmålstalare. Vill du prova den?</value>

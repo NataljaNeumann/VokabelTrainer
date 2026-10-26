@@ -242,7 +242,7 @@
     <value>Prax {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Ďakujeme, že ste si vyskúšali experimentálnu slovnú zásobu. Ak nájdete nejaké chyby alebo ďalšie podobne znejúce preklady, uverejnite svoje návrhy na zlepšenie na fóre. Uveďte verziu softvéru, názvy jazykov, dvojice slov a vaše návrhy. Ideálne je zhromaždiť všetky svoje návrhy a uverejniť ich naraz.</value>
+    <value>Ďakujeme, že ste vyskúšali túto experimentálnu slovnú zásobu. Ak narazíte na chyby alebo nájdete ďalšie podobne znejúce preklady, podeľte sa o svoje návrhy na zlepšenie na fóre. Uveďte verziu softvéru, názvy jazykov, príslušné dvojice slov a samotné návrhy na úpravu. Ideálne by bolo, keby ste zhromaždili viacero (väčší počet) návrhov a zverejnili ich naraz.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Pre tento jazykový pár existuje experimentálna slovná zásoba, ktorá je pod rovnakou licenciou ako softvér. Bola navrhnutá ako priebežný kurz pre dospelých, ale nebola korektovaná rodenými hovoriacimi. Chceli by ste si ju vyskúšať?</value>

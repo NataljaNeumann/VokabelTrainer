@@ -242,7 +242,7 @@
     <value>Praxe {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Děkujeme, že jste vyzkoušeli experimentální slovní zásobu. Pokud najdete nějaké chyby nebo další podobně znějící překlady, zašlete prosím své návrhy na vylepšení do fóra. Uveďte verzi softwaru, názvy jazyků, dvojice slov a své návrhy. V ideálním případě shromážděte všechny své návrhy a zveřejněte je najednou.</value>
+    <value>Děkujeme, že jste vyzkoušeli tento experimentální slovníček. Pokud narazíte na chyby nebo na další překlady, které znějí podobně, podělte se prosím o své návrhy na vylepšení na fóru. Uveďte verzi softwaru, názvy jazyků, dotčené dvojice slov a navrhovaná vylepšení. Ideální je shromáždit více návrhů (větší množství) a zaslat je najednou.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Pro tuto jazykovou dvojici existuje experimentální slovní zásoba, která je pod stejnou licencí jako software. Byla navržena jako průběžný kurz pro dospělé, ale nebyla korektována rodilými mluvčími. Chcete si ji vyzkoušet?</value>

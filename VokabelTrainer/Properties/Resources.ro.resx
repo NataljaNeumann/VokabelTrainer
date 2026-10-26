@@ -242,7 +242,7 @@
     <value>Practica {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Vă mulțumim că ați încercat cartea de vocabular experimentală. Vă rugăm să postați sugestiile dvs. de îmbunătățire pe forum dacă găsiți erori sau dacă găsiți mai multe traduceri cu sunete similare. Includeți versiunea software-ului, numele limbilor, perechile de cuvinte și sugestiile dvs. În mod ideal, adunați toate sugestiile dvs. și postați-le pe toate odată.</value>
+    <value>Vă mulțumim că ați încercat acest vocabular experimental. Vă rugăm să postați sugestiile de îmbunătățire pe forum, în cazul în care găsiți erori sau traduceri care sună prea asemănător. Specificați versiunea software-ului, limbile vizate, perechile de cuvinte și îmbunătățirile propuse. Ar fi ideal să adunați mai multe sugestii (un număr semnificativ) și să le postați pe toate odată.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Există o carte de vocabular experimentală pentru această pereche de limbi, care se află sub aceeași licență ca și software-ul. A fost concepută ca un curs continuu pentru adulți, dar nu a fost corectată de vorbitori nativi. Doriți să o încercați?</value>

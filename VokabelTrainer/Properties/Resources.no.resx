@@ -242,7 +242,7 @@
     <value>Trene {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Takk for at du prøver den eksperimentelle vokabularboken. Legg gjerne inn dine forslag til forbedringer i forumet hvis du finner noen feil eller hvis du finner flere lignende oversettelser. Inkluder programvareversjonen, navnene på språkene, ordparene og forslagene dine. Ideelt sett bør du samle alle forslagene dine og legge dem ut samtidig.</value>
+    <value>Takk for at du prøver ut den eksperimentelle ordlisten. Vennligst legg inn forslag til forbedringer i forumet dersom du oppdager feil eller flere oversettelser som ligner på hverandre. Oppgi hvilken programvareversjon det gjelder, hvilke språk det er snakk om, de aktuelle ordparene og selve forbedringsforslagene. Det er aller best om du samler opp flere (gjerne et betydelig antall) forbedringsforslag og legger dem inn samlet.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Det finnes en eksperimentell vokabularbok for dette språkparet, som er under samme lisens som programvaren. Den ble designet som et pågående kurs for voksne, men har ikke blitt korrekturlest av morsmålstalende. Vil du prøve den?</value>

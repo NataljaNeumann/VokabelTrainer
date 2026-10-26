@@ -242,7 +242,7 @@
     <value>{0} - {1} prática</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Obrigado por experimentar o livro de vocabulário experimental. Publique as suas sugestões de melhoria no fórum caso encontre algum erro ou traduções semelhantes. Inclua a versão do software, os nomes dos idiomas, os pares de palavras e as suas sugestões. Idealmente, reúna todas as suas sugestões e publique-as de uma só vez.</value>
+    <value>Obrigado por experimentar o livro de vocabulário experimental. Caso encontre erros ou outras traduções com sonoridade semelhante, por favor, publique suas sugestões de melhoria no fórum. Informe a versão do software, os idiomas envolvidos, os pares de palavras e as melhorias sugeridas. Se possível, reúna várias sugestões (um número significativo delas) e publique-as todas de uma só vez.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Existe um livro de vocabulário experimental para este par de línguas, que está sob a mesma licença do software. Foi desenvolvido como um curso contínuo para adultos, mas ainda não foi revisto por falantes nativos. Gostaria de experimentá-lo?</value>

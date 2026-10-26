@@ -242,7 +242,7 @@
     <value>{0} - {1} alıştırmaları</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Deneysel kelime kitabını denediğiniz için teşekkür ederiz. Herhangi bir hata bulursanız veya daha benzer çeviriler bulursanız, lütfen forumda iyileştirme önerilerinizi paylaşın. Yazılım sürümünü, dillerin adlarını, kelime çiftlerini ve önerilerinizi ekleyin. İdeal olarak, tüm önerilerinizi toplayıp hepsini birden gönderin.</value>
+    <value>Deneysel kelime kitabını denediğiniz için teşekkür ederiz. Hatalarla karşılaşırsanız veya benzer seslere sahip başka çeviriler bulursanız, lütfen geliştirme önerilerinizi forumda paylaşın. Paylaşımınızda yazılım sürümünü, dillerin adlarını, sözcük çiftlerini ve önerdiğiniz iyileştirmeleri belirtin. Mümkünse, birkaç (yani kayda değer sayıda) geliştirme önerisini bir araya getirip hepsini tek seferde göndermeniz çok iyi olur.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Bu dil çifti için, yazılımla aynı lisansa sahip deneysel bir kelime kitabı bulunmaktadır. Yetişkinler için devam eden bir kurs olarak tasarlanmıştır ancak anadili konuşanlar tarafından kontrol edilmemiştir. Denemek ister misiniz?</value>

@@ -242,10 +242,10 @@
     <value>{0} - {1} trainieren</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Vielen Dank, dass Sie das experimentelle Vokabelbuch ausprobiert haben. Bitte posten Sie Ihre Verbesserungsvorschläge im Forum, falls Sie Fehler oder ähnlicher klingende Übersetzungen finden. Geben Sie dabei die Softwareversion, die Namen der Sprachen, die Wortpaare und Ihre Verbesserungsvorschläge an. Idealerweise sammeln Sie alle Verbesserungsvorschläge und posten sie alle auf einmal.</value>
+    <value>Vielen Dank, dass Sie das experimentelle Vokabelheft ausprobieren. Bitte posten Sie Ihre Verbesserungsvorschläge im Forum, falls Sie Fehler oder weitere ähnlicher klingende Übersetzungen finden. Geben Sie dabei die Softwareversion, die beteiligten Sprachen, die jeweiligen Wortpaare sowie die Verbesserungsvorschläge an. Idealerweise sammeln Sie mehrere (eine nennenswerte Anzahl von) Verbesserungsvorschlägen und posten diese gesammelt in einem Beitrag.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
-    <value>Für dieses Sprachpaar gibt es ein experimentelles Vokabelbuch, das unter derselben Lizenz wie die Software steht. Es wurde als fortlaufender Kurs für Erwachsene konzipiert, jedoch nicht von Muttersprachlern Korrektur gelesen. Möchten Sie es ausprobieren?</value>
+    <value>Für dieses Sprachpaar gibt es ein experimentelles Vokabelheft, das unter derselben Lizenz wie die Software steht. Es wurde als fortlaufender Kurs für Erwachsene konzipiert, jedoch nicht von Muttersprachlern Korrektur gelesen. Möchten Sie es ausprobieren?</value>
   </data>
   <data name="FollowingMeaningsWereMissing" xml:space="preserve">
     <value>Folgende Bedeutungen haben gefehlt: </value>

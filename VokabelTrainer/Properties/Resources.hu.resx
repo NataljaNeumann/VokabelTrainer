@@ -242,7 +242,7 @@
     <value>Gyakorlat {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Köszönjük, hogy kipróbáltad a kísérleti szókincsgyűjteményt. Kérjük, tedd közzé a fórumban a fejlesztési javaslataidat, ha hibákat találsz, vagy ha hasonló hangzású fordításokat találsz. Tüntesd fel a szoftver verzióját, a nyelvek nevét, a szópárokat és a javaslataidat. Ideális esetben gyűjtsd össze az összes javaslatodat, és tedd közzé őket egyszerre.</value>
+    <value>Köszönjük, hogy kipróbálja a kísérleti szókincstárat! Kérjük, ossza meg fejlesztési javaslatait a fórumon, amennyiben hibákat vagy hasonló hangzású fordításokat talál. Tüntesse fel a szoftver verzióját, a nyelveket, a szópárokat, valamint a javasolt módosításokat. Ideális esetben kérjük, gyűjtsön össze több (jelentősebb számú) javaslatot, és tegye közzé őket egyetlen bejegyzésben.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Ehhez a nyelvpárhoz létezik egy kísérleti szókincsgyűjtemény, amely ugyanazon licenc alatt áll, mint a szoftver. Felnőttek számára készült, folyamatos kurzusként tervezték, de anyanyelvi beszélők nem olvasták át. Szeretnéd kipróbálni?</value>

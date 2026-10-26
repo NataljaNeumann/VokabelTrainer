@@ -242,7 +242,7 @@
     <value>Harjoitella {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Kiitos kokeellisen sanastokirjan kokeilemisesta. Lähetä parannusehdotuksesi foorumille, jos löydät virheitä tai jos löydät lisää samankaltaisia ​​käännöksiä. Sisällytä ohjelmistoversio, kielten nimet, sanaparit ja ehdotuksesi. Ihannetapauksessa kerää kaikki ehdotuksesi ja lähetä ne kaikki kerralla.</value>
+    <value>Kiitos, että kokeilet kokeellista sanastokirjaa. Jos löydät virheitä tai lisää samankaltaiselta kuulostavia käännöksiä, jaa parannusehdotuksesi foorumilla. Mainitse viestissäsi ohjelmistoversio, kielet, kyseiset sanaparit sekä ehdottamasi parannukset. Olisi ihanteellista, jos voisit koota useampia (merkittävän määrän) parannusehdotuksia ja lähettää ne kaikki kerralla.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Tälle kieliparille on olemassa kokeellinen sanastokirja, joka on saman lisenssin alainen kuin ohjelmisto. Se on suunniteltu aikuisille tarkoitetuksi jatkuvaksi kurssiksi, mutta sitä ei ole oikoluettu äidinkielenään puhuvien toimesta. Haluatko kokeilla sitä?</value>

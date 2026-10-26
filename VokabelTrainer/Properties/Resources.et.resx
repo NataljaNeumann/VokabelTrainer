@@ -242,7 +242,7 @@
     <value>Harjutama {0} – {1}</value>
   </data>
   <data name="ExperimentalThanks" xml:space="preserve">
-    <value>Täname, et katsetasite eksperimentaalset sõnavaraõpikut. Palun postitage oma parandusettepanekud foorumisse, kui märkate vigu või leiate veel sarnase kõlaga tõlkeid. Märkige ära tarkvara versioon, keeled, sõnapaarid ja parandused. Võimalusel koondage kõik parandusettepanekud ja postitage need korraga.</value>
+    <value>Täname, et katsetate eksperimentaalset sõnavaraõpikut. Kui leiate vigu või muid sarnase kõlaga tõlkeid, palun postitage oma parandusettepanekud foorumisse. Märkige ära tarkvara versioon, keeled, sõnapaarid ja soovitatud parandused. Võimaluse korral koguge kokku mitu (või lausa märkimisväärne hulk) parandusettepanekut ja postitage need kõik korraga.</value>
   </data>
   <data name="ExperimentalVocabularyBook" xml:space="preserve">
     <value>Selle keelepaari jaoks on olemas eksperimentaalne sõnavaraõpik, millele kehtib sama litsents mis tarkvaralelegi. See on koostatud täiskasvanutele mõeldud järjepideva kursusena, kuid emakeelekõnelejad ei ole seda üle vaadanud. Kas soovite seda proovida?</value>
