@@ -1813,7 +1813,7 @@ namespace VokabelTrainer
                     {
                         if (strFilePath.EndsWith("en-de.xml") ||
                             strFilePath.EndsWith("en-ru.xml") ||
-                            strFilePath.EndsWith("de-ru.xml"))
+                            strFilePath.EndsWith("de-ru.xml")) 
                         {
                             if (DialogResult.Yes ==
                                 NewMessageBox.Show(this, Resources.PredefinedVocabularyBook, 
@@ -1828,7 +1828,8 @@ namespace VokabelTrainer
                                 NewMessageBox.Show(this, Resources.ExperimentalVocabularyBook, 
                                 this.Text, "", false, false, true, "Question"))
                             {
-                                NewMessageBox.Show(this, Resources.ExperimentalThanks, 
+                                NewMessageBox.Show(this, Resources.ExperimentalThanks + " "+
+                                    Resources.ConfirmationByBilinguals, 
                                     this.Text, "", true, false, false, "Information");
                                 bPredefined = true;
                             }
