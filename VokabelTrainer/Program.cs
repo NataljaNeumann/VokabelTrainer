@@ -101,7 +101,7 @@ namespace VokabelTrainer
             // "pa-Arab-PK";
             // "pa-IN";
             // "pl-PL";
-            // "prs";
+            // "fa-AF";
             // "ps-AF";
             // "pt-PT";
             // "quz";
@@ -572,10 +572,10 @@ namespace VokabelTrainer
                 "Пер".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "fa-IR" :
 
                 // Dari دری
-                "در".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "prs-AF" :
-                "Dar".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "prs-AF" :
-                "Дар".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "prs-AF" :
-                "Афг".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "prs-AF" :
+                "در".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "fa-AF" :
+                "Dar".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "fa-AF" :
+                "Дар".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "fa-AF" :
+                "Афг".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "fa-AF" :
 
                 // Pashtu پښتو
                 "پښ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "ps-AF" :

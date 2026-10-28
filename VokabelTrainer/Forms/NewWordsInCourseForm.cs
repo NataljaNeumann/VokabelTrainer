@@ -166,7 +166,6 @@ namespace VokabelTrainer.Forms
             oWiktionaryLinks["or"] = "https://or.wiktionary.org/w/index.php?search={0}";
             oWiktionaryLinks["pa"] = "https://pa.wiktionary.org/w/index.php?search={0}";
             oWiktionaryLinks["pl"] = "https://pl.wiktionary.org/w/index.php?search={0}";
-            oWiktionaryLinks["prs"] = "https://fa.wiktionary.org/w/index.php?search={0}";
             //oWikiLinks["ps"] = "https://ps.wiktionary.org/w/index.php?search={0}";
             oWiktionaryLinks["pt"] = "https://pt.wiktionary.org/w/index.php?search={0}";
             //oWikiLinks["quz"] = "https://quz.wiktionary.org/w/index.php?search={0}";
