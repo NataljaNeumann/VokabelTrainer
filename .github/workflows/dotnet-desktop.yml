@@ -199,8 +199,8 @@ jobs:
         run: |
           cd ${{ env.APP_NAME }}/bin/Release
           Get-ChildItem -Path . -Include *.snk, *.pfx -Recurse -Force | Remove-Item -Force -ErrorAction SilentlyContinue
-          Remove-Item -Force -ErrorAction SilentlyContinue "../${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}.zip"
-          tar.exe -a -c -f  ../${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}.zip *.*
+          Remove-Item -Force -ErrorAction SilentlyContinue "../${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}.zip"
+          tar.exe -a -c -f  ../${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}.zip *.*
           cd $env:GITHUB_WORKSPACE
           #cd ../../..
 
