@@ -35,6 +35,7 @@ rem eo			Esperanto
 rem es			Spanish
 rem et			Estonian
 rem fa			Farsi
+rem fa-AF		Dari
 rem fi			Finnish
 rem fil			Fillipino
 rem fr			French
@@ -74,7 +75,6 @@ rem or			Odia/Oriya
 rem pa-Arab-PK		Punjabi (Pakistan)
 rem pa-IN		Punjabi (India)
 rem pl			Polish
-rem prs			Dari
 rem ps			Pashto
 rem pt			Portugese
 rem quz			Cusco-Quechua
