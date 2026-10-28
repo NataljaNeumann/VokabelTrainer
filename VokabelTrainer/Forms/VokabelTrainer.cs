@@ -622,7 +622,7 @@ namespace VokabelTrainer
                 oEvents.Add((
                     strStartPath + "HalloweenHeader.jpg",
                     Resources.CelebrationsHalloween,
-                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationChristmas)));
+                    SearchEngineRouter.GetSearchUrl(Resources.CelebrationsHalloween)));
             }
 
             // Japanese children celebration and Korean Buddha birthday celebration 
