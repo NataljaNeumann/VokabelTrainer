@@ -821,6 +821,8 @@ namespace VokabelTrainer
                     SearchEngineRouter.GetSearchUrl("FESTIMA Masks")));
             }
 
+            ThemeManager.Attach(this);
+
             // Choose one of the events randomly
             Random oRandom = new Random(DateTime.Now.DayOfYear * 1000 + 
                 DateTime.Now.Year * 365000 + DateTime.Now.Millisecond);
@@ -5954,6 +5956,15 @@ namespace VokabelTrainer
         private bool ReadyToUseImageInjection(string strImageName)
         {
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            // if there is a dark theme, then test, if there is a dark image variant
+            if (ForeColor.GetBrightness() > BackColor.GetBrightness())
+            {
+                string strDarkImagePath =
+                    strImagePath.Substring(0, strImagePath.LastIndexOf(".")) + "Dark" +
+                    strImagePath.Substring(strImagePath.LastIndexOf("."));
+                if (System.IO.File.Exists(strDarkImagePath))
+                    strImagePath = strDarkImagePath;
+            }
             if (System.IO.File.Exists(strImagePath))
             {
                 m_oOriginalPositions = new Dictionary<Control, int>();
@@ -6066,7 +6077,7 @@ namespace VokabelTrainer
                 m_oWordsGraphData,
                 m_oLearnedWordsGraphData
                 );
-            graphsForm.Show();
+            graphsForm.ShowDialog();
         }
 
 

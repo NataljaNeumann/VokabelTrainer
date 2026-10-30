@@ -75,6 +75,8 @@ namespace VokabelTrainer.Forms
             // Take the text for OK button from resources
             m_btnOk.Text = Properties.Resources.OkButtonText;
 
+            ThemeManager.Attach(this);
+
             ReadyToUseImageInjection("Images" + System.IO.Path.DirectorySeparatorChar +
                 "MistakeDisplayHeader.jpg");
         }
@@ -163,6 +165,15 @@ namespace VokabelTrainer.Forms
             )
         {
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            // if there is a dark theme, then test, if there is a dark image variant
+            if (ForeColor.GetBrightness() > BackColor.GetBrightness())
+            {
+                string strDarkImagePath =
+                    strImagePath.Substring(0, strImagePath.LastIndexOf(".")) + "Dark" +
+                    strImagePath.Substring(strImagePath.LastIndexOf("."));
+                if (System.IO.File.Exists(strDarkImagePath))
+                    strImagePath = strDarkImagePath;
+            }
             if (System.IO.File.Exists(strImagePath))
             {
                 m_oOriginalPositions = new Dictionary<Control, int>();

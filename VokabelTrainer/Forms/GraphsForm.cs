@@ -122,7 +122,6 @@ namespace VokabelTrainer
             SortedDictionary<DateTime, int> oWordsMinusErrors)
         {
             InitializeComponent();
-            InitializeResources();
 
             // save graph data
             SortedDictionary<DateTime, int> oWordsIncludingRepeats2 =
@@ -170,7 +169,11 @@ namespace VokabelTrainer
             );
 
             // Redraw on resize
-            this.Resize += (s, e) => this.Invalidate(); 
+            this.Resize += (s, e) => this.Invalidate();
+
+            ThemeManager.Attach(this);
+
+            InitializeResources();
         }
 
         //===================================================================================================
@@ -181,9 +184,9 @@ namespace VokabelTrainer
         private void InitializeResources()
         {
             m_oDateFont = new Font("Arial", 8);
-            m_oTextBrush = Brushes.Black;
+            m_oTextBrush = new SolidBrush(ForeColor);
 
-            m_oAxisPen = new Pen(Color.Black, 2);
+            m_oAxisPen = new Pen(this.ForeColor, 2);
             m_oTotalGraphPen = new Pen(Color.Blue, 2);
             m_oWordsGraphPen = new Pen(Color.Green, 2);
             m_oLearnedWordsGraphPen = new Pen(Color.Red, 2);

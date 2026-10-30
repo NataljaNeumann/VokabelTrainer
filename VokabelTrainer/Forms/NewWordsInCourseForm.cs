@@ -512,6 +512,7 @@ namespace VokabelTrainer.Forms
             if (!string.IsNullOrEmpty(Resources.OkButtonText))
                 m_btnOk.Text = Resources.OkButtonText;
 
+            ThemeManager.Attach(this);
 
             // Center ctlTable in the form and resize form to fit ctlTable
             ctlTable.Location = ClientRectangle.Location;
@@ -735,6 +736,15 @@ namespace VokabelTrainer.Forms
         {
             bool bResult = false;
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            // if there is a dark theme, then test, if there is a dark image variant
+            if (ForeColor.GetBrightness() > BackColor.GetBrightness())
+            {
+                string strDarkImagePath =
+                    strImagePath.Substring(0, strImagePath.LastIndexOf(".")) + "Dark" +
+                    strImagePath.Substring(strImagePath.LastIndexOf("."));
+                if (System.IO.File.Exists(strDarkImagePath))
+                    strImagePath = strDarkImagePath;
+            }
             if (System.IO.File.Exists(strImagePath))
             {
                 m_oOriginalPositions = new Dictionary<Control, int>();
@@ -859,6 +869,15 @@ namespace VokabelTrainer.Forms
         {
             bool bResult = false;
             string strImagePath = System.IO.Path.Combine(Application.StartupPath, strImageName);
+            // if there is a dark theme, then test, if there is a dark image variant
+            if (ForeColor.GetBrightness() > BackColor.GetBrightness())
+            {
+                string strDarkImagePath =
+                    strImagePath.Substring(0, strImagePath.LastIndexOf(".")) + "Dark" +
+                    strImagePath.Substring(strImagePath.LastIndexOf("."));
+                if (System.IO.File.Exists(strDarkImagePath))
+                    strImagePath = strDarkImagePath;
+            }
             if (System.IO.File.Exists(strImagePath))
             {
                 m_oOriginalPositions = new Dictionary<Control, int>();
