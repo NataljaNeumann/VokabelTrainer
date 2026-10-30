@@ -155,12 +155,12 @@ namespace VokabelTrainer
             };
 
 
-            string cultureName = System.Threading.Thread.CurrentThread.CurrentUICulture.Name;
-            IslamicCountry = Array.Exists(astrIslamicCountries, code => cultureName.Contains(code));
+            string strCultureName = System.Threading.Thread.CurrentThread.CurrentUICulture.Name;
+            IslamicCountry = Array.Exists(astrIslamicCountries, code => strCultureName.Contains(code));
 
             string strSetCulture = Properties.Settings.Default.ChosenCulture;
-            if (!string.IsNullOrEmpty(strSetCulture) && 
-                !System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith(strSetCulture+"-"))
+            if (!string.IsNullOrEmpty(strSetCulture) &&
+                !System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.StartsWith(strSetCulture + "-"))
             {
                 try
                 {
@@ -173,7 +173,7 @@ namespace VokabelTrainer
                 }
             }
 
-            if (string.IsNullOrEmpty(strSetCulture) 
+            if (string.IsNullOrEmpty(strSetCulture)
                 || Properties.Settings.Default.StartsSinceCultureChange == 1
                 || Properties.Settings.Default.StartsSinceCultureChange == 20)
             {
@@ -249,12 +249,34 @@ namespace VokabelTrainer
             string strSSMLLanguageToSpeak =
 
                 // english
+                "English (US)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "English (United States)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-US" :
+                "English (UK)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "English (United Kingdom)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-GB" :
+                "English (Canada)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Canadian English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-CA" :
+                "English (Australia)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Australian English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-AU" :
+                "English (New Zealand)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "New Zealand English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-NZ" :
+                "English (Ireland)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Irish English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-IE" :
+                "English (South Africa)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "South African English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-ZA" :
+                "English (India)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Indian English".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "en-IN" :
                 "En".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("en") && !strCurrentCulture.Equals("en") ? strCurrentCulture : "en-US") :
                 "Ing".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "en-US" :
                 "Ан".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "en-US" :
 
                 // german
+                "Deutch (Schweiz)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-CH" :
+                "Deutsch (Deutschland)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
+                "Deutsch (Österreich)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-AT" :
+                "Deutsch (Luxemburg)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-LU" :
+                "Deutsch (Liechtenstein)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-LI" :
+                "Deutsch (Belgien)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "de-BE" :
                 "De".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("de") && !strCurrentCulture.Equals("de") ? strCurrentCulture : "de-DE") :
                 "Ale".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "de-DE" :
@@ -275,6 +297,29 @@ namespace VokabelTrainer
                 "Эсп".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "eo" :
 
                 // Spanish
+                "Spanish (Spain)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-ES" :
+                "Spanisch (Spanien)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-ES" :
+                "Español (España)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-ES" :
+                "Español (México)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-MX" :
+                "Español (Argentina)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-AR" :
+                "Español (Bolivia)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-BO" :
+                "Español (Chile)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-CL" :
+                "Español (Colombia)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-CO" :
+                "Español (Costa Rica)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-CR" :
+                "Español (Cuba)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-CU" :
+                "Español (Ecuador)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-EC" :
+                "Español (Guatemala)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-GT" :
+                "Español (Honduras)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-HN" :
+                "Español (Nicaragua)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-NI" :
+                "Español (Panamá)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-PA" :
+                "Español (Paraguay)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-PY" :
+                "Español (Perú)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-PE" :
+                "Español (Puerto Rico)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-PR" :
+                "Español (República Dominicana)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-DO" :
+                "Español (Uruguay)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-UY" :
+                "Español (Venezuela)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-VE" :
+                "Español (Estados Unidos)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-US" :
+                "Castellano".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "es-ES" :
                 "Sp".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "es-ES" :
                 "Es".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("es") && !strCurrentCulture.Equals("es") ? strCurrentCulture : "es-ES") :
@@ -288,6 +333,21 @@ namespace VokabelTrainer
                     (strCurrentCulture.StartsWith("ru") && !strCurrentCulture.Equals("ru") ? strCurrentCulture : "ru-RU") :
 
                 // french
+                "Français (France)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "fr-FR" :
+                "French (Canada)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Canadian French".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français (Canada)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français canadien".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "fr-CA" :
+                "French (Belgium)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Belgian French".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français (Belgique)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "fr-BE" :
+                "French (Switzerland)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Swiss French".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français (Suisse)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "fr-CH" :
+                "French (Luxembourg)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français (Luxembourg)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "fr-LU" :
+                "French (Monaco)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Français (Monaco)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "fr-MC" :
                 "Fr".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("fr") && !strCurrentCulture.Equals("fr") ? strCurrentCulture : "fr-FR") :
                 "Фр".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "fr-FR" :
@@ -309,6 +369,41 @@ namespace VokabelTrainer
                 "Roo".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "ja-JP" :
 
                 // portugese
+                "Português (Portugal)".Equals(strLanguage, StringComparison.CurrentCultureIgnoreCase) ? "pt-PT" :
+                "Português (Brasil)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-BR" :
+                "Portuguese (Brazil)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-BR" :
+                "Brazilian Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-BR" :
+                "Português Brasileiro".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-BR" :
+                "Português (Portugal)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "Portuguese (Portugal)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "European Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "Português Europeu".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "Português de Portugal".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "Português do Brasil".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-BR" :
+                "Português de Portugal".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-PT" :
+                "Portuguese (Angola)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Angolan Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Angola)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-AO" :
+                "Portuguese (Mozambique)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Mozambican Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Moçambique)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-MZ" :
+                "Portuguese (Cape Verde)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Cape Verdean Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Cabo Verde)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-CV" :
+                "Portuguese (Guinea-Bissau)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Bissau-Guinean Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Guiné-Bissau)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-GW" :
+                "Portuguese (São Tomé and Príncipe)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "São Tomé and Príncipe Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (São Tomé e Príncipe)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-ST" :
+                "Portuguese (East Timor)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Portuguese (Timor-Leste)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Timorese Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Timor-Leste)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-TL" :
+                "Portuguese (Macau)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Macanese Portuguese".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ||
+                "Português (Macau)".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "pt-MO" :
+
                 "Por".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ?
                     (strCurrentCulture.StartsWith("pt") && !strCurrentCulture.Equals("pt") ? strCurrentCulture : "pt-PT") :
                 "Пор".Equals(strLanguageFirstThree, StringComparison.CurrentCultureIgnoreCase) ? "pt-PT" :
@@ -484,6 +579,7 @@ namespace VokabelTrainer
                 "Арм".Equals(strLanguageFirstThree, StringComparison.InvariantCultureIgnoreCase) ? "hy-AM" :
                 "հա".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "hy-AM" :
                 "ՀԱ".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "hy-AM" :
+                "ՀԱ".Equals(strLanguageFirstTwo, StringComparison.InvariantCultureIgnoreCase) ? "hy-AM" :
                 "Հա".Equals(strLanguageFirstTwo, StringComparison.CurrentCultureIgnoreCase) ? "hy-AM" :
 
 
@@ -721,7 +817,7 @@ namespace VokabelTrainer
                 "Malaylam".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "ml-IN" :
 
                 // Marathi मराठी
-                "मराठी".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "mr-IN":
+                "मराठी".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "mr-IN" :
                 "Marathi".Equals(strLanguage, StringComparison.InvariantCultureIgnoreCase) ? "mr-IN" :
 
                 // Odia Oriya ଓଡ଼ିଆ
@@ -927,7 +1023,7 @@ namespace VokabelTrainer
                 // add to dictionary if not already present
                 if (!oCultureCodes.ContainsKey(strCultureName))
                 {
-                    oCultureCodes.Add(strCultureName, 
+                    oCultureCodes.Add(strCultureName,
                         char.ToUpper(strNativeName[0], oCulture) + strNativeName.Substring(1));
 
                     oAllCultures.Append(oCulture.Name + "\t" + oCulture.NativeName + "\t" + oCulture.DisplayName + Environment.NewLine);
