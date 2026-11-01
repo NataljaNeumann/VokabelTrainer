@@ -4155,22 +4155,24 @@ namespace VokabelTrainer
                     Add(oResult, @"https://www.der-postillon.com/");
                     Add(oResult, @"https://www.youtube.com/@WinxClubDE");
                     Add(oResult, @"https://www.deutschlandfunk.de/");
-                    Add(oResult, @"https://www.amazon.de/s?k=das+philosophie+buch");
+                    Add(oResult, @"https://www.amazon.de/s?k=das+philosophie+buch",1,500);
                     Add(oResult, @"https://www.amazon.de/s?k=Wirtschaft+verstehen+mit+Infografiken");
                     Add(oResult, @"https://www.amazon.de/s?k=dtv+atlas");
-                    Add(oResult, @"https://www.amazon.de/s?k=eine+kurze+weltgeschichte+f%C3%BCr+junge+leser+ernst+h.+gombrich");
+                    Add(oResult, @"https://www.amazon.de/s?k=eine+kurze+weltgeschichte+f%C3%BCr+junge+leser+ernst+h.+gombrich",1,500);
                     Add(oResult, @"https://www.amazon.de/s?k=glutenfreie+rezepte");
                     Add(oResult, @"https://www.amazon.de/s?k=laktosefreie+rezepte");
                     Add(oResult, @"https://www.amazon.de/s?k=low+carb+ngv");
-                    Add(oResult, @"https://www.amazon.de/s?k=friedenspreis+des+deutschen+buchhandels+-Ansprachen+-Verleihung");
+                    Add(oResult, @"https://www.amazon.de/s?k=friedenspreis+des+deutschen+buchhandels+-Ansprachen+-Verleihung",1,500);
                     Add(oResult, @"https://www.youtube.com/@LadyTamara");
                     Add(oResult, @"https://onlineuebung.de/andere-faecher/");
                     Add(oResult, @"https://onlineuebung.de/deutsch/lernspiele-deutschunterricht/");
                     Add(oResult, @"https://onlineuebung.de/andere-faecher/geschichtsunterricht/#lsg");
                     Add(oResult, @"https://www.youtube.com/@7cloudsGermanyOfficial/videos");
-                    Add(oResult, @"https://www.amazon.de/s?k=Nachgefragt+wirtschaft+CD");
-                    Add(oResult, @"https://www.amazon.de/s?k=Bildung+alles+was+man+wissen+muss+CD");
+                    Add(oResult, @"https://www.amazon.de/s?k=Nachgefragt+wirtschaft+CD",1,500);
+                    Add(oResult, @"https://www.amazon.de/s?k=Bildung+alles+was+man+wissen+muss+CD",1,500);
                     Add(oResult, @"https://www.spektrum.de/news/");
+                    Add(oResult, @"https://www.amazon.de/s?k=duden+bildw%C3%B6rterbuch",1,500);
+                    Add(oResult, @"https://www.amazon.de/s?k=romane+bestseller",1,500);
 
                     // sometimes also add the critical book
                     Add(oResult, @"https://www.amazon.de/s?k=die+kunst+der+ehezerr%C3%BCttung", 0.1);
